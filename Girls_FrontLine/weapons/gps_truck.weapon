@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="gps_truck.weapon">
+    <tag name="engineer" />
+    <specification magazine_size="-1"
+    retrigger_time="9.5" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0" 
+    name="GPS" 
+    class="0" 
+    spawn_instance_class="call" 
+    spawn_instance_key="gps.call" 
+    consume="1" 
+    sight_range_modifier="1" 
+    slot="2"
+    deployment="1" />
+    
+
+    <model mesh_filename="" texture_filename="" />
+
+    <hud_icon filename="hud_laptop_gps.png" />
+
+    <sound class="operation" key="fire" fileref="apc_shot.wav" />
+    
+</weapon>
+

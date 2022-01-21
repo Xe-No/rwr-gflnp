@@ -1,0 +1,59 @@
+ZTZ-99A
+模型：kevin zhu
+
+ZBD-04A
+模型：kevin zhu
+
+
+
+独眼巨人 cyclops
+模型：gadaruvu807
+
+圣盾GA 
+
+牝鹿 cerynitis
+模型：gandaruvu807/264
+
+九头蛇II型 hydra2
+模型：264
+动作：264/xe
+
+天鲸 cetus
+模型：zero401
+
+阿尔戈 argo(nauts)
+模型：star15mod3
+
+侦查中枢 reconhub
+模型/贴图：无弦の乐章
+
+尖兵 pathfinder
+
+指灵 
+
+帕拉丁 paladin
+
+捍卫者 acheron
+
+提丰 
+模型：theman/无弦の乐章
+贴图：无弦の乐章
+
+龙骑兵 dragoon
+模型：ince
+
+M1903
+模型：东卞提
+
+SAT-8梅花印
+模型：东卞提
+
+MATV by Carissa is licensed under Creative Commons Attribution-ShareAlike (http://creativecommons.org/licenses/by-sa/4.0/).
+
+
+其他素材来源：
+gfwiki.org
+soundsnap.com
+Soldier at war mod@Anzac Joe
+PLA mod@Kevin Zhu
+少前logo HIKAGE

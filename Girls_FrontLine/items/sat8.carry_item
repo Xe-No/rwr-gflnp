@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item filename="base_ep_vest.carry_item" key="sat8" name="SAT-8 5/5" slot="1" transform_on_consume="sat8_1" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="sat8_5.png" />
+        <inventory encumbrance="4" price="150" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="1.0" in_stock="1" can_respawn_with="1" />
+    </carry_item>
+
+    <carry_item filename="base_ep_vest.carry_item" key="sat8_1" name="SAT-8 4/5" slot="1" transform_on_consume="sat8_2" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="sat8_4.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_ep_vest.carry_item" key="sat8_2" name="SAT-8 3/5" slot="1" transform_on_consume="sat8_3" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="sat8_3.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_light_vest.carry_item" key="sat8_3" name="SAT-8 2/5" slot="1" transform_on_consume="sat8_4" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="sat8_2.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_none_downable.carry_item" key="sat8_4" name="SAT-8 1/5" slot="1" transform_on_consume="sat8_5" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="sat8_1.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+	
+    <carry_item filename="base_none.carry_item" key="sat8_5" name="SAT-8 0/5" slot="1" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="sat8_0.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+</carry_items>

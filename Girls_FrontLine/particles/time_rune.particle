@@ -1,0 +1,41 @@
+
+
+particle_system time_rune
+{
+        quota	1
+        material	time_rune
+
+        particle_width	10.00
+        particle_height	10.00
+        cull_each					false
+        renderer	billboard 
+		billboard_type	perpendicular_common
+		common_direction 0 1 0
+		common_up_vector 1 0 0
+		iteration_interval 	0.01
+
+        emitter Point 
+        {
+		velocity	0
+		colour		1 1 1 1
+		position 0 0 0
+		direction	0 1 0
+		emission_rate	20
+		time_to_live	1.00
+		duration	1.00
+
+
+        }
+		
+
+	
+	//affector ColourInterpolator
+	//{
+	//	colour0	1 0 0.7 1
+	//	time0	0.5
+	//	colour1	-1 -1 -1 1
+	//	time1	0.7
+	//	colour2	1 0 0.7 1
+	//	time2	0.9
+	//}
+}

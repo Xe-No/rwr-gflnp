@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="Stuka strike" key="strike_stuka.call"
+      notify_metagame="1"
+      initiation_comment1="Requesting Stuka strike"
+      acknowledge_comment="Roger."
+      acknowledge_time="1.0"
+      launch_comment="Aircraft approaching designated area.">
+     
+    <round instances="2"
+           instance_class="grenade"
+           instance_key="ac130_105mm.projectile" 
+           instance_spread="5 0 5" 
+           common_spread="2 0 2" 
+           launch_time="4.0"
+           spawn_time="11.0">
+
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="stuka_flyby.wav" volume="1.0" />   
+        <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+    <round instances="2"
+           instance_class="grenade"
+           instance_key="ac130_105mm.projectile" 
+           instance_spread="4 0 4" 
+           common_spread="2 0 2" 
+           launch_time="4.0"
+           spawn_time="12.0">
+
+        <!-- <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" /> -->
+        <!-- <sound class="launch" fileref="stuka_flyby.wav" volume="1.0" />    -->
+        <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+    <round instances="2"
+           instance_class="grenade"
+           instance_key="ac130_105mm.projectile" 
+           instance_spread="3 0 3" 
+           common_spread="2 0 2" 
+           launch_time="4.0"
+           spawn_time="13.0">
+
+        <!-- <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" /> -->
+        <!-- <sound class="launch" fileref="stuka_flyby.wav" volume="1.0" />    -->
+        <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+    <round instances="2"
+           instance_class="grenade"
+           instance_key="ac130_105mm.projectile" 
+           instance_spread="2 0 2" 
+           common_spread="2 0 2" 
+           launch_time="4.0"
+           spawn_time="14.0">
+
+        <!-- <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" /> -->
+        <!-- <sound class="launch" fileref="stuka_flyby.wav" volume="1.0" />    -->
+        <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>    
+
+    <hud_icon filename="strike_air.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="1000.0" />
+
+</call>

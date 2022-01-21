@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+	<carry_item filename="base_camo.carry_item" key="sv98_502" name="SV-98[Waitress] 1/1" slot="1" time_to_live_out_in_the_open="120" transform_on_consume="sv98_502_1">
+		<hud_icon filename="sv98_502_1.png" />
+		<inventory encumbrance="4" price="10" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness can_respawn_with="0" in_stock="1" value="1" />
+	</carry_item>
+    <carry_item filename="base_none.carry_item" key="sv98_502_1" name="SV-98[Waitress] 0/1" slot="1" time_to_live_out_in_the_open="120" >
+        <hud_icon filename="sv98_502_0.png" />
+		<inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness can_respawn_with="0" in_stock="0" value="0" />
+	</carry_item>
+</carry_items>

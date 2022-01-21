@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1">
+	<weapon key="gw_9a91.weapon" />
+	<weapon key="gw_ak12.weapon" />
+	<weapon key="gw_an94.weapon" />
+	<weapon key="gw_ar15.weapon" />
+	<weapon key="gw_fnfnc.weapon" />
+	<weapon key="gw_g11.weapon" />
+	<weapon key="gw_g36c.weapon" />
+	<weapon key="gw_hk416.weapon" />
+	<weapon key="gw_m16a1.weapon" />
+    <weapon key="gw_m4_sopmod_ii.weapon" />
+	<weapon key="gw_m4a1.weapon" />
+	<weapon key="gw_95type.weapon" />
+	<weapon key="gw_97type.weapon" />
+	<weapon key="gw_g3.weapon" />
+	<weapon key="gw_sr3mp.weapon" />
+	<weapon key="gw_g41.weapon" />
+
+	<carry_item key="base_ar_vest.carry_item" />
+<!-- 	<carry_item key="9a91" />
+	<carry_item key="ak12" />
+	<carry_item key="an94" />
+	<carry_item key="ar15" />
+	<carry_item key="fnfnc" />
+	<carry_item key="g11" />
+	<carry_item key="g36c" />
+	<carry_item key="hk416" />
+	<carry_item key="m16a1" />
+	<carry_item key="m4 sopmod ii" />
+	<carry_item key="m4a1" />
+	<carry_item key="95type" />
+	<carry_item key="97type" />
+	<carry_item key="g3" />
+	<carry_item key="sr3mp" /> -->
+</resources>

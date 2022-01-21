@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
+weapon
+	<weapon key="medikit.weapon" />
+	<weapon key="medikit_ai_2.weapon" />
+	<weapon key="binoculars.weapon" />  
+	<weapon key="wrench_small.weapon" /> 
+	<weapon key="wrench.weapon" />
+	<weapon key="tracer_dart.weapon" /> 
+	<weapon key="cover_resource.weapon" />
+	<weapon key="repair_crane_resource.weapon" />
+	<weapon key="gps_laptop.weapon" />
+
+
+	<projectile key="hand_grenade.projectile" />
+	<projectile key="sticky_grenade.projectile" />
+	<projectile key="stun_grenade.projectile" />  
+	<projectile key="c4.projectile" />
+	<projectile key="armed_pickup_flare.projectile" />
+	<projectile key="banana_car_flare.projectile" />
+	<projectile key="guntruck_flare.projectile" />
+
+	<!-- <projectile key="aav7_flare.projectile" /> -->
+	<!-- <projectile key="zjx19_flare.projectile" /> -->
+	<!-- <projectile key="wiesel_flare.projectile" /> -->
+	<!-- <projectile key="vulcan_acav_flare.projectile" /> -->
+	<!-- <projectile key="leopard2a5_flare.projectile" /> -->
+	<!-- <projectile key="centurion_avre_flare.projectile" /> -->
+	<projectile key="wz550_flare.projectile" />
+	<projectile key="m528_flare.projectile" />
+    <projectile key="flamer_tank_flare.projectile" />
+    <projectile key="sev90_flare.projectile" />
+    <projectile key="zbd04a_flare.projectile" />
+    <projectile key="ztz99a_flare.projectile" />
+    <projectile key="dicem_flare.projectile" />
+    <projectile key="dicetm_flare.projectile" />
+	<projectile key="cv9040c_flare.projectile" />
+	
+	<projectile key="icecream.projectile" />   
+	<projectile key="flash9_grenade.projectile" />   
+
+ 
+	<carry_item key="chewing_gum.carry_item" /> 
+	<carry_item key="chocolate.carry_item" /> 
+	<carry_item key="cigarettes.carry_item" /> 
+	<carry_item key="cigars.carry_item" /> 
+	<carry_item key="comic_book.carry_item" /> 
+	<carry_item key="beer_can.carry_item" /> 
+	<carry_item key="energy_drink.carry_item" /> 
+	<carry_item key="playing_cards.carry_item" /> 
+	<carry_item key="whiskey_bottle.carry_item" />
+	<!-- <carry_item key="lottery.carry_item" />  -->
+	<carry_item key="gi_black_card.carry_item" />  
+	
+	<carry_item key="it_fert_module.carry_item" />  
+
+	<carry_item key="it_p90.carry_item" />
+	<carry_item key="it_p9.carry_item" />
+	<carry_item key="it_0.carry_item" />
+	<carry_item key="it_qlz.carry_item" />
+	<carry_item key="bizarre_rubber_bullet.carry_item" enabled="1"/> 
+	<carry_item key="chocolate.carry_item" enabled="1"/>
+	<carry_item key="teddy.carry_item" enabled="1"/>
+	<carry_item key="underpants.carry_item" enabled="1"/>
+</resources>

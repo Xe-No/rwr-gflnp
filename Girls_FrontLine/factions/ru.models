@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="ru_cm1.xml"></model>
+	<model filename="ru_cm2.xml"></model>
+	<model filename="ru_cm3.xml"></model>
+
+	<model filename="ru_lw.xml"><requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/></model>
+
+	<model filename="ru_cm1.xml"><requirement class="carry_item" slot="1" key="vest1.carry_item"/></model>
+	<model filename="ru_cm1.xml"><requirement class="carry_item" slot="1" key="vest1_2"/></model>
+
+	<model filename="ru_ops.xml"><requirement class="carry_item" slot="1" key="vest_blackops.carry_item"/></model>
+	<model filename="ru_ops.xml"><requirement class="carry_item" slot="1" key="stealth1_1"/></model>
+	<model filename="ru_ops.xml"><requirement class="carry_item" slot="1" key="stealth1_2"/></model>
+
+	<model filename="ru_ecm.xml"><requirement class="carry_item" slot="1" key="vest2.carry_item"/></model>
+	<model filename="ru_ecm.xml"><requirement class="carry_item" slot="1" key="vest2_2"/></model>
+	<model filename="ru_ecm.xml"><requirement class="carry_item" slot="1" key="vest2_3"/></model>
+
+	<model filename="ru_cv.xml"><requirement class="carry_item" slot="1" key="camovest.carry_item"/></model>
+	<model filename="ru_cv.xml"><requirement class="carry_item" slot="1" key="camo3_2"/></model>
+	<model filename="ru_cv.xml"><requirement class="carry_item" slot="1" key="camo3_3"/></model>
+	<model filename="ru_cv.xml"><requirement class="carry_item" slot="1" key="camo3_4"/></model>
+
+	<model filename="ru_elite1.xml"><requirement class="carry_item" slot="1" key="vest3.carry_item"/></model>
+	<model filename="ru_elite1.xml"><requirement class="carry_item" slot="1" key="vest3_2"/></model>
+	<model filename="ru_elite1.xml"><requirement class="carry_item" slot="1" key="vest3_3"/></model>
+	<model filename="ru_elite1.xml"><requirement class="carry_item" slot="1" key="vest3_4"/></model>
+	<model filename="ru_elite1.xml"><requirement class="carry_item" slot="1" key="vest3_5"/></model>
+	<model filename="ru_elite1.xml"><requirement class="carry_item" slot="1" key="vest3_6"/></model>
+
+	<model filename="ru_eod.xml"><requirement class="carry_item" slot="1" key="eodvest.carry_item"/></model>
+	<model filename="ru_eod.xml"><requirement class="carry_item" slot="1" key="eod_2"/></model>
+	<model filename="ru_eod.xml"><requirement class="carry_item" slot="1" key="eod_3"/></model>
+	<model filename="ru_eod.xml"><requirement class="carry_item" slot="1" key="eod_4"/></model>
+	<model filename="ru_eod.xml"><requirement class="carry_item" slot="1" key="eod_5"/></model>
+	<model filename="ru_eod.xml"><requirement class="carry_item" slot="1" key="eod_6"/></model>
+
+	<model filename="ru_jn.xml"><requirement class="carry_item" slot="1" key="vestjugger.carry_item"/></model>
+	<model filename="ru_jn.xml"><requirement class="carry_item" slot="1" key="vestjugger_2"/></model>
+	<model filename="ru_jn.xml"><requirement class="carry_item" slot="1" key="vestjugger_3"/></model>
+	<model filename="ru_jn.xml"><requirement class="carry_item" slot="1" key="vestjugger_4"/></model>
+	<model filename="ru_jn.xml"><requirement class="carry_item" slot="1" key="vestjugger_5"/></model>
+	<model filename="ru_jn.xml"><requirement class="carry_item" slot="1" key="vestjugger_6"/></model>
+	<model filename="ru_jn.xml"><requirement class="carry_item" slot="1" key="vestjugger_7"/></model>
+	<model filename="ru_jn.xml"><requirement class="carry_item" slot="1" key="vestjugger_8"/></model>
+	<model filename="ru_jn.xml"><requirement class="carry_item" slot="1" key="vestjugger_9"/></model>
+	<model filename="ru_jn.xml"><requirement class="carry_item" slot="1" key="vestjugger_10"/></model>
+
+	<model filename="ru_fac_5.xml"><requirement class="carry_item" slot="1" key="6b45.carry_item"/></model>
+
+	<model filename="costume_underwear.xml"><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_smg_vest.carry_item"/></model>
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_smg_vest_1"/></model>
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_smg_vest_2"/></model>
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_smg_vest_3"/></model>
+
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_ar_vest.carry_item"/></model>
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_ar_vest_1"/></model>
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_ar_vest_2"/></model>
+
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_mg_vest.carry_item"/></model>
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_mg_vest_1"/></model>
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_mg_vest_2"/></model>
+
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_hg_vest.carry_item"/></model>
+	<model filename="ru_cmexo.xml"><requirement class="carry_item" slot="1" key="base_hg_vest_1"/></model>
+
+	<model filename="ru_cv.xml"><requirement class="carry_item" slot="1" key="base_rf_vest.carry_item"/></model>
+	<model filename="ru_cv.xml"><requirement class="carry_item" slot="1" key="base_rf_vest_1"/></model>
+
+	<model filename="ru_cm1_uzi.xml"><requirement class="weapon" slot="0" key="gw_uzi.weapon"/></model>
+	<model filename="ru_cm1_de.xml"><requirement class="weapon" slot="0" key="desert_eagle.weapon"/></model>
+	<model filename="ru_cm1_m1911.xml"><requirement class="weapon" slot="0" key="gw_m1911.weapon"/></model>
+	<model filename="ru_cm1_m1911.xml"><requirement class="weapon" slot="0" key="gw_m1911mod.weapon"/></model>
+	<model filename="ru_cm1_tmp.xml"><requirement class="weapon" slot="0" key="steyr_tmp.weapon"/></model>
+
+	<!-- <model filename="ru_general.xml"><requirement class="rank" range="100 10000" /></model> -->
+</models>

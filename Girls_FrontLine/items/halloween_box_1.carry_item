@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="pumpkin box" key="halloween_box_1.carry_item">
+    <hud_icon filename="hud_pumpkin.png" />
+    <inventory encumbrance="0.5" buy_price="10310.0" sell_price="1" />
+
+    <model mesh_filename="pumpkin.mesh" texture_filename="pumpkin.png" />
+
+    <commonness value="1" in_stock="0" />
+</carry_item>

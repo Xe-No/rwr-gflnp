@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+铁血默认
+	<model file="ts_ar.xml" />
+铁血杂兵
+	ripper	SMG	切割者
+	vespid	AR	胡蜂
+	jaeger	RF	猎鸥
+	striker	MG	痛击者
+	guard	盾+手枪	护卫者
+	<model file="ts_smg.xml"><requirement class="weapon" slot="0" key="tw_smg.weapon"/></model>
+	<model file="ts_ar.xml"><requirement class="weapon" slot="0" key="tw_ar.weapon"/></model>
+	<model file="ts_rf.xml"><requirement class="weapon" slot="0" key="tw_rf.weapon"/></model>
+	<model file="ts_mg.xml"><requirement class="weapon" slot="0" key="tw_mg.weapon"/></model>
+
+	<!-- <model file="ts_guard.xml" /> -->
+	<!-- <model file="ts_aegis.xml"> -->
+
+铁血精英		
+<!-- 	<model file="ts_destroyer.xml" />
+	<model file="ts_dreamer.xml" />
+	<model file="ts_jaeger.xml" />
+	<model file="ts_judge.xml" />
+	<model file="ts_m16a1.xml" />
+	<model file="ts_scarecrow.xml" /> -->
+	<model file="ts_smg_swap.xml"><requirement class="weapon" slot="0" key="tw_smg_swap.weapon"/></model>
+	<model file="ts_ar_swap.xml"><requirement class="weapon" slot="0" key="tw_ar_swap.weapon"/></model>
+	<model file="ts_rf_swap.xml"><requirement class="weapon" slot="0" key="tw_rf_swap.weapon"/></model>
+	<model file="ts_mg_swap.xml"><requirement class="weapon" slot="0" key="tw_mg_swap.weapon"/></model>
+
+
+	<model filename="ts_scarecrow.xml" ><requirement class="weapon" slot="0" key="tw_scarecrow.weapon"/></model>
+	<model filename="ts_executioner.xml" ><requirement class="weapon" slot="0" key="tw_executioner_pistol.weapon"/></model>
+
+	<model filename="ts_dragoon.xml" ><requirement class="weapon" slot="0" key="dragoon.weapon"/></model>
+	<model filename="ts_aegis.xml" ><requirement class="weapon" slot="0" key="tw_aegis.weapon"/></model>
+
+
+铁血特殊
+	<!-- <model file="ts_dinergate.xml" /> -->
+	<!-- <model file="ts_garm.xml" /> -->
+	<!-- <model file="ts_ouroboros.xml" /> -->
+	<model file="ts_drk.xml" ><requirement class="weapon" slot="0" key="tw_drk.weapon"/></model>
+	<model file="ts_dsc.xml" ><requirement class="weapon" slot="0" key="tw_dsc.weapon"/></model>
+	<model file="ts_ant.xml" ><requirement class="weapon" slot="0" key="ant.weapon"/></model>
+	<!-- <model file="ts_manticore.xml"><requirement class="weapon" slot="0" key="tw_manticore.weapon"/></model> -->
+
+
+</models>

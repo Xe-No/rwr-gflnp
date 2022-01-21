@@ -1,0 +1,79 @@
+<vehicle name="Civilian Car" map_view_atlas_index="-1" respawn_time="10000" allow_ai_to_use="0">
+	<tag name="deco_car" />
+  	<tire_set offset="1.2 0.0 1.5" radius="0.45" />
+	<tire_set offset="1.2 0.0 -1.5" radius="0.45" />
+
+	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
+                                                                                                                                                       
+	<physics max_health="3.0" mass="2.5" extent="2.5 0.0 3.4" offset="0 0.0 0" top_offset="0 3 0" collision_model_pos="0 0.8 0" collision_model_extent="3.0 1.45 6" visual_offset="0 0.1 0" /> 
+
+<!-- 	<visual class="chassis" mesh_filename="car1.mesh" texture_filename="car_atlas2.png" texture_atlas_cell="3 2 4 4" />
+	<visual class="chassis" key="broken" mesh_filename="car1_broken.mesh" texture_filename="car_atlas2_broken.png" texture_atlas_cell="3 2 4 4" /> -->
+	<visual class="tire" mesh_filename="pc.mesh" texture_filename="buggy_wheel.png" />
+
+	<character_slot type="driver" position="+1.0 +0.3 0.0" rotation="0" exit_rotation="1.57" hiding="1" />
+	<character_slot type="passenger" position="-1.0 +0.3 0.0" rotation="0" exit_rotation="-1.57" hiding="1" />  
+	<character_slot type="passenger" position="+1.0 +0.3 -1.0" rotation="0" exit_rotation="1.57" hiding="1" />
+	<character_slot type="passenger" position="-1.0 +0.3 -1.0" rotation="0" exit_rotation="-1.57" hiding="1" />  
+<effect event_key="drive_chassis" ref="MediSirenFlash" offset="-0.9 0.86 2.3" />
+
+
+
+<effect event_key="drive_chassis" ref="jingdeng" offset="1.0 0.86 2.3" />
+
+<effect event_key="drive_chassis" ref="MediSirenFlash" offset="-0.3 1.6 0.3" />
+
+<effect event_key="drive_chassis" ref="jingdeng" offset="0.3 1.6 0.3" />
+
+	<!-- sound handling -->
+	<rev_sound filename="policecar_ignition.wav" low_pitch="1.0" high_pitch="1.0" low_rev="0.0" high_rev="1.0" volume="3.0" />  
+<!-- 	<rev_sound filename="jeep2_rev0.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.0" high_rev="0.3" volume="0.8" />
+	<rev_sound filename="jeep2_rev2.wav" low_pitch="0.6" high_pitch="1.0" low_rev="0.1" high_rev="0.7" volume="0.65" />
+	<rev_sound filename="jeep2_rev3.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.5" high_rev="1.0" volume="0.8" /> -->
+
+	<sound key="slide" filename="slide_noise.wav" />
+	<sound key="squeal" filename="tire_squeal.wav" />
+	<sound key="ignition" filename="jeep2_ignition.wav" />
+	<sound key="horn" filename="horn_jeep.wav" />  
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="hit" filename="car_hit3.wav" />
+	<sound key="destroy" filename="vehicle_explosion_1.wav" />  
+	<sound key="cleanup" filename="vehicle_explosion_1.wav" />
+
+	<event>
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0" />
+	</event>
+
+	<effect event_key="destroy" key="other" ref="SmokeMinor" post_processing="1" />
+	<effect event_key="destroy" key="other" ref="ShadowSmokeMinor" shadow="1" />
+  <effect event_key="slide_hard" type="splat_map" surface_tag="road" size="2.0" atlas_index="5" layer="0" /> 
+  
+  <effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.2 1.8 0.8" />
+  <effect event_key="destroyed" ref="SmallFireRepeat" offset="0.2 1.4 0.8" />
+  <effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.4 1.1 1.7" />
+  <effect event_key="destroyed" ref="SmallFireRepeat" offset="-0.4 0.8 1.7" />  
+  
+	<event>
+		<trigger class="destroy" />
+      <result class="spawn" instance_class="visual_item" instance_key="burning_piece_car1.visual_item" min_amount="4" max_amount="6" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.15 0.3" />
+	</event>
+	<event>
+		<trigger class="destroy" />  	
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_car2.visual_item" min_amount="3" max_amount="6" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.25" />
+	</event>
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_car3.visual_item" min_amount="3" max_amount="6" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.28" />
+	</event>
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_car4.visual_item" min_amount="4" max_amount="6" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.35" />
+	</event>
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_car5.visual_item" min_amount="2" max_amount="3" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.05 0.2" />
+	</event>
+      
+</vehicle>

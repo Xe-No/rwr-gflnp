@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="G.H.S ROLINCO Box" key="ghs_box.carry_item">
+    <hud_icon filename="ghs_box.png" />
+    <inventory encumbrance="0.5" buy_price="50000" sell_price="1.0" />
+
+    <model mesh_filename="ghs_box.mesh" />
+
+    <commonness value="0.00001" in_stock="1" />
+</carry_item>

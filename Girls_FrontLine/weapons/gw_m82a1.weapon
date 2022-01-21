@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_RF.weapon" key="gw_m82a1.weapon">
+    <tag name="sniper" />
+    <specification 
+  retrigger_time="1.4" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="3.0" 
+  sustained_fire_diminish_rate="1.0" 
+  magazine_size="10" 
+  can_shoot_standing="0" 
+  can_shoot_crouching="0" 
+  suppressed="0" 
+  name="Barrett M82A1" 
+  class="4" 
+  reload_one_at_a_time="0" 
+  sight_range_modifier="1.5" 
+  projectile_speed="180.0" 
+  barrel_offset="0.65" 
+  projectiles_per_shot="7" 
+  burst_shots="1"
+  />
+
+  <next_in_chain key="gw_m82a1_he.weapon" share_ammo="0" />
+
+    <animation key="recoil" ref="27" />
+    <animation key="cycle" ref="30" />
+    <animation state_key="reload" animation_key="reloading, vss_vintorez" />
+    <animation state_key="next_in_chain_in" animation_key="switch, vss_vintorez" />
+    
+    <sound key="fire" fileref="GFL_M82A1.wav" pitch_variety="0.05" volume="1.5" /> 
+    <sound key="cycle" fileref="sniper_cycle_2.wav" />
+    <sound key="magazine_out" fileref="sniper_clip_out_1.wav" />
+    <sound key="magazine_in" fileref="sniper_clip_in_1.wav" />
+    <sound key="cycle_out" fileref="sniper_cycle_out_2.wav" />
+    <sound key="cycle_in" fileref="ak545_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <sound key="effect" fileref="m82a1_switch.wav" />
+    <control key="effect" value="1" />
+    <model filename="gw_m82a1.xml" />
+
+    <hud_icon filename="gw_m82a1.png" />
+    <commonness value="1.0" can_respawn_with="1" />
+    <inventory encumbrance="13.0" price="12.0" />
+
+    <weak_hand_hold offset="0.3" />
+   <projectile file="m82a1.projectile">
+  </projectile>
+	
+	<effect class="muzzle" ref="muzzle_gf" />
+	
+    <stance state_key="running" accuracy="1.0" />
+    <stance state_key="walking" accuracy="1.0" />
+    <stance state_key="crouch_moving" accuracy="1.0" />
+    <stance state_key="standing" accuracy="1.0" />
+    <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" />
+
+    <modifier class="speed" value="-0.15" />
+</weapon>

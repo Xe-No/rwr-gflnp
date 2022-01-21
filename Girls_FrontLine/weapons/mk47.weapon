@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="mk47.weapon">
+    <tag name="machine gun" />
+    <specification 
+  retrigger_time="0.4" 
+  accuracy_factor="0.85" 
+    spread_range="0.2" 
+  sustained_fire_grow_step="0.55" 
+  sustained_fire_diminish_rate="2.05" 
+  magazine_size="7" 
+  can_shoot_standing="1" 
+  can_shoot_crouching="0" 
+  can_shoot_prone="0"
+  suppressed="0" 
+  name="MK-47 Striker GL" 
+  class="0" 
+  barrel_offset="0.4"
+  projectile_speed="120.0"
+  projectiles_per_shot="1" />
+
+    <ballistics curve_height="3.0" near_far_distance="16.0" speed_estimation_near="10.0" speed_estimation_far="16.0" max_speed="47.0" randomness="0.0" tweak_factor="1.55" /> 
+
+	<animation state_key="recoil"	animation_key="recoil, hip fire" />
+	<animation state_key="hold" animation_key="hold, hip fire" />
+	<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+	<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+  <animation state_key="walking_backwards" animation_key="walking backwards, hip fire" />  
+  <animation state_key="reload" animation_key="reloading, microgun" volume="0.7" />
+	<animation state_key="hold_on_wall" animation_key="hold, hip fire" />
+  <animation state_key="still_against_wall" 	animation_key="hold, hip fire" />
+	<animation state_key="walking" animation_key="walking, hip fire" />
+	<animation state_key="running" animation_key="walking, hip fire" />  
+    
+    <effect class="muzzle" ref="ejection" />
+    <effect class="muzzle" ref="muzzle_blue" />
+    
+    <sound key="fire" fileref="mgl_shot.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="magazine_out" fileref="m79_clip_out.wav" volume="1.0" />
+    <sound key="magazine_in" fileref="mossberg500_reload.wav" volume="1.0"/>
+    <sound key="cycle" fileref="m79_cycle.wav" volume="1.0"/>
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="milkor_mgl.xml" />
+
+    <hud_icon filename="hud_milkor_mgl.png" />
+    <commonness value="0.0001" can_respawn_with="0" in_stock="0"  />
+    <inventory encumbrance="18.0"  price="100.0" in_stock="0"/>
+
+    <weak_hand_hold offset="0.4" />
+        <projectile file="milkor_mgl.projectile">
+   <result class="blast" radius="5.0" damage="1.01" push="0.4" decal="1" />
+    </projectile>
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.5" />
+    <modifier class="speed" value="-0.05" /> 
+
+    <stance state_key="running" accuracy="0.7" />
+    <stance state_key="walking" accuracy="1.0" />
+    <stance state_key="crouch_moving" accuracy="1.0" />
+    <stance state_key="prone_moving" accuracy="1.0" />
+
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="prone" accuracy="1.0" />
+    
+</weapon>

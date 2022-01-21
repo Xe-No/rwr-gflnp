@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction name="USFMC" color="0.25 0.4 1.0" firstnames_file="english_firstnames.txt" lastnames_file="english_lastnames.txt" chat_icon_filename="usf_chat_soldier.png" chat_icon_commander_filename="usf_chat_commander.png" campaign_completion_icon_filename="campaign_win_0.png" radio_queue_size="3">
+	<!-- <rank filename="standard_rank.xml"> -->
+
+	<rank xp="0.0" name="Private">
+        <hud_icon filename="usf_rank_e1.png" />
+	</rank>
+	<rank xp="0.05" name="Private 1st Class">
+        <hud_icon filename="usf_rank_e2.png" />
+	</rank>
+	<rank xp="0.1" name="Lance Corporal">
+        <hud_icon filename="usf_rank_e3.png" />
+	</rank>
+	<rank xp="0.15" name="Corporal">
+        <hud_icon filename="usf_rank_e4.png" />
+	</rank>
+	<rank xp="0.2" name="Sergeant">
+        <hud_icon filename="usf_rank_e5.png" />
+	</rank>
+	<rank xp="0.3" name="Staff Sergeant">
+        <hud_icon filename="usf_rank_e6.png" />
+	</rank>
+	<rank xp="0.4" name="Gunnery Sergeant">
+        <hud_icon filename="usf_rank_e7.png" />
+	</rank>
+	<rank xp="0.5" name="1st Sergeant">
+        <hud_icon filename="usf_rank_e8.png" />
+	</rank>
+	<rank xp="0.6" name="Sergeant Major of the Marine Corps">
+        <hud_icon filename="usf_rank_e9.png" />
+	</rank>
+	<rank xp="0.7" name="2nd Lieutenant">
+        <hud_icon filename="usf_rank_o1.png" />
+	</rank>
+	<rank xp="0.8" name="1st Lieutenant">
+        <hud_icon filename="usf_rank_o2.png" />
+	</rank>
+	<rank xp="1.0" name="Captain">
+        <hud_icon filename="usf_rank_o3.png" />
+	</rank>
+	<rank xp="1.2" name="Major">
+        <hud_icon filename="usf_rank_o4.png" />
+	</rank>
+	<rank xp="1.4" name="Lieutenant Colonel">
+        <hud_icon filename="usf_rank_o5.png" />
+	</rank>
+	<rank xp="2.0" name="Colonel">
+        <hud_icon filename="usf_rank_o6.png" />
+	</rank>
+	<rank xp="5.0" name="Brigadier General">
+        <hud_icon filename="usf_rank_o7.png" />
+	</rank>
+	<rank xp="10.0" name="Major General">
+        <hud_icon filename="usf_rank_o8.png" />
+	</rank>
+	<rank xp="20.0" name="Lieutenant General">
+        <hud_icon filename="usf_rank_o9.png" />
+	</rank>
+	<rank xp="50.0" name="General">
+        <hud_icon filename="usf_rank_o10.png" />
+	</rank>
+<!-- 	<rank xp="100.0" name="General of the Marine Crops">
+		<hud_icon filename="hud_rank16.png" />
+	</rank> -->
+
+
+	<!-- player group -->
+	<soldier name="default" spawn_score="0.0">
+        <character filename="us_male.character" />
+		<ai filename="default.ai" />
+        <models filename="us.models" />
+        <!-- <models file="extra_soldier.models" /> -->
+		<models file="extra_costume.models" />
+
+		<resources file="common.resources" clear_vehicles="1" clear_carry_items="1">
+			<weapon key="gw_m4a1.weapon" />
+			<weapon key="gw_mp7.weapon" />  
+			<!-- <weapon key="gw_m1911.weapon" />   -->
+			<weapon key="uw_m17.weapon" />
+			<weapon key="uw_m320.weapon" />  
+			<weapon key="uw_m14ebr.weapon" />
+			<weapon key="uw_m14ebr_sl.weapon" />
+			<weapon key="uw_m16a4.weapon" />
+			<weapon key="uw_m16a4_s.weapon" />  
+			<weapon key="uw_m249.weapon" />
+			<weapon key="uw_m249_n.weapon" />  
+			<weapon key="uw_mk46.weapon" />
+			<weapon key="uw_mk46_n.weapon" />  
+			<weapon key="uw_at4.weapon" />
+			<weapon key="javelin.weapon" />  
+			<weapon key="medikit.weapon" />
+			<weapon key="uw_m1014.weapon" />
+			<weapon key="mini_uzi.weapon" />
+			<weapon key="uw_m200.weapon" />
+			<weapon key="uw_m200_sl.weapon" />
+			<weapon key='uw_acr.weapon' />
+			<weapon key='m240.weapon' />
+            <weapon key='m240_n.weapon' />
+			<weapon key='m24_a2.weapon' />
+			<weapon key='gw_m82a1.weapon' />
+			<weapon key='gw_m82a1_he.weapon' />
+			<weapon key='milkor_mgl.weapon' />
+            <weapon key='gw_m4_sopmod_ii.weapon' />
+            <weapon key='xm25.weapon' />
+            <weapon key='xm25_r.weapon' />
+			<!-- <weapon key='mp5sd.weapon' /> -->
+
+
+			<weapon key='minig_resource.weapon' />
+			<weapon key='vest_repair.weapon' /> 
+  			<weapon key='mortar_resource.weapon' /> 
+			<weapon key='tow_resource.weapon' />      
+			<weapon key='cover_resource.weapon' />
+			<weapon key='mg_resource.weapon' />
+
+			<!-- <call key="apc_1.call" /> -->
+			<vehicle key="tank.vehicle" />
+ 			<!-- <vehicle key="tank_para.vehicle" />			 -->
+ 			<vehicle key="apc.vehicle" />
+ 			<vehicle key="m1126.vehicle" />
+ 			<vehicle key="matv.vehicle" />
+ 			<vehicle key="m113.vehicle" />
+            <vehicle key="buggy.vehicle" />   
+			<vehicle file="m113_tank_mortar.vehicle" />
+			<vehicle file="atv_base.vehicle" />
+	        <vehicle file="atv_armory.vehicle" />
+	        <vehicle key="zjx19.vehicle" />
+	        <vehicle key="zjx19_para.vehicle" />
+	        <vehicle key="zjx19_spawn.vehicle" />  
+	        <vehicle key="wiesel_mk20.vehicle" />
+	        <vehicle key="m113_tank_acav.vehicle" />
+	        <vehicle key="m113_tank_acav_para.vehicle" />
+	        <vehicle key="guntruck.vehicle" />
+	        <vehicle key="guntruck_para.vehicle" />
+	        <vehicle key="guntruck_spawn.vehicle" />
+	        <vehicle key="hornet.vehicle" />
+	        <vehicle key="hornet_2.vehicle" />
+	        <vehicle key="aav7.vehicle" />
+	        <vehicle key="aav7_spawn.vehicle" />
+	        <vehicle key="aav7_para.vehicle" />
+	        <vehicle key="radar_tank.vehicle" />
+	        <vehicle key="radar_tank2.vehicle" />  
+	        <vehicle key="vulcan_tank.vehicle" />
+	        <vehicle key="radar_tower.vehicle" />
+	        <vehicle key="gas_tank.vehicle" />     
+	        <vehicle key="radio_jammer.vehicle" />   
+	        <vehicle key="radio_jammer2.vehicle" />    
+	        <vehicle key="water_tower.vehicle" />
+	        <vehicle key="mortar_ammunition_crates.vehicle" />   
+
+ 			<carry_item key="vest1.carry_item" />     
+  			<carry_item key="vest2.carry_item" /> 
+  			<carry_item key="vest3.carry_item" />
+  			<carry_item key="camo_vest.carry_item" />
+			<carry_item key="vest_blackops.carry_item" />	
+			<carry_item key="eodvest.carry_item" /> 
+			<carry_item key="camouflage_suit.carry_item" />
+
+
+	        <carry_item key="beer_can.carry_item" />
+	        <carry_item key="cigarettes.carry_item" />
+	        <carry_item key="cigars.carry_item" />
+	        <carry_item key="playing_cards.carry_item" />
+	        <carry_item key="whiskey_bottle.carry_item" />
+	        <carry_item key="chewing_gum.carry_item" />
+
+            <projectile key="molotov.projectile" enabled="0"/>
+            <projectile key="f1_grenade.projectile" enabled="0"/> 
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.07" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="1" min="80.0" max="300.0" />
+		</attribute_config>
+	</soldier>
+
+<!-- 	<soldier name="default_ai" spawn_score="0.01" copy_from="default">
+	</soldier> -->
+
+	<soldier name="commando" spawn_score="1">
+        <character filename="us_male.character" />
+		<ai filename="default.ai" />
+        <model filename="us_cm1.xml" />
+        <model filename="us_cm2.xml" />
+        <model filename="us_cm3.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='gw_m4a1.weapon' />
+			<weapon key='uw_m16a4.weapon' />
+            <weapon key='gw_m4_sopmod_ii.weapon' />
+            <weapon key='uw_acr.weapon' />
+			<carry_item key='vest1.carry_item' />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='sticky_grenade.projectile' enabled="1" />
+			<projectile key='impact_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="0.0" max="5.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.6" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="medic" spawn_score="1.0" copy_from="commando">
+        <character filename="us_male.character" />
+		<ai filename="medic.ai" />
+        <model filename="us_md.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='gw_m4a1.weapon' />
+			<weapon key='uw_acr.weapon' />
+            <weapon key='gw_m4_sopmod_ii.weapon' />
+			<weapon key='medikit.weapon' />
+			<carry_item key="vest2.carry_item" />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='sticky_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+        
+        <attribute_config class="rp">
+			<attribute weight="1" min="100.0" max="300.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.1" max="0.6" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="at" spawn_score="1.2" copy_from="commando">
+		<character filename="us_male.character" />
+		<ai filename="at.ai" />
+		<model file="us_at.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='uw_acr.weapon' />
+			<weapon key='uw_m16a4.weapon' />
+			<weapon key='gw_m4a1.weapon' />
+			<!-- <weapon key='milkor_mgl.weapon' /> -->
+            <weapon key='gw_m4_sopmod_ii.weapon' />
+			<weapon key='uw_at4.weapon' />
+			<weapon key='javelin.weapon' />
+			<carry_item key="vest2.carry_item" />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='sticky_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="300.0" max="500.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.2" max="0.6" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="mg" spawn_score="1" copy_from="commando">
+        <character filename="us_male.character" />
+		<ai filename="mg.ai" />
+        <model filename="us_mg.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='uw_m249.weapon' />
+			<weapon key="m240.weapon" />
+			<weapon key="m60e4.weapon" />
+			<weapon key='uw_mk46.weapon' />
+			<weapon key='glock17_sl.weapon' />
+			<weapon key='uw_mp5ka4sd.weapon' />
+			<carry_item key='vest2.carry_item' />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='sticky_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.07" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="200.0" max="300.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.1" max="0.6" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="para" spawn_score="0">
+		<character  filename="us_male.character" />
+		<ai filename="jugger.ai" />
+		<model filename="us_jn.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='uw_mk46_n.weapon'/>
+			<weapon key='m60e4_n.weapon' />
+            <carry_item key='vestjugger.carry_item' />
+            <projectile key='stun_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="5.0" max="15.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="200.0" max="300.0" />
+		</attribute_config>
+	</soldier>   
+
+	<soldier name="medic2" spawn_score="0.02">
+		<character filename="us_male.character" />
+		<ai filename="jugger.ai" />
+		<model filename="us_jn.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='uw_mk46_n.weapon'/>
+			<weapon key='m60e4_n.weapon' />
+            <carry_item key='vestjugger.carry_item' />
+            <projectile key='strike_marker.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="5.0" max="15.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="200.0" max="300.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="sharp shooter" spawn_score="0.05" squad_size_xp_cap="0.0">
+        <character filename="us_male.character" />
+		<ai filename="sniper_us.ai" />
+		<model file="us_sn.xml" />
+		
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='uw_m14ebr.weapon' />
+			<weapon key='uw_m200.weapon' />
+			<weapon key='m24_a2.weapon' />
+			<weapon key='scarssr.weapon' />
+			<weapon key='uw_m17.weapon' />
+			<weapon key='beretta_93r.weapon' />
+			<carry_item key='vest2.carry_item' />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='impact_grenade.projectile' enabled="1" />
+			<projectile key='sticky_grenade.projectile' enabled="1" />
+			<projectile key='stun_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.1" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1" min="0.6" max="1.2" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1" min="800.0" max="800.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="sharp shooter elite" spawn_score="0.07" squad_size_xp_cap="0.0">
+        <character filename="us_male.character" />
+		<ai filename="sniper_us.ai" />
+		<model file="us_sn.xml" />
+		
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='gw_m82a1.weapon' />
+			<weapon key='gw_m82a1_he.weapon' />
+			<weapon key='uw_m17.weapon' />
+			<weapon key='sawnoff.weapon' />
+			<carry_item key='vest3.carry_item' />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='impact_grenade.projectile' enabled="1" />
+			<projectile key='sticky_grenade.projectile' enabled="1" />
+			<projectile key='stun_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.1" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1" min="0.8" max="1.4" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1" min="
+				.0" max="1800.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="lone wolf" spawn_score="0.02" squad_size_xp_cap="0.0">
+		<character filename="us_male.character" />
+		<ai filename="lonewolf.ai" />
+		<model file="us_lw.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="uw_m200_sl.weapon" />
+			<weapon key="gw_supersass.weapon" />
+			<weapon key="apr.weapon" />
+			<weapon key='gepard_m6_lynx.weapon' />
+			<carry_item key="camouflage_suit.carry_item" />
+			<projectile key='stun_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.8" max="1.4" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="400.0" max="1000.0" />
+		</attribute_config>
+	</soldier>	
+
+	<soldier name="eod" spawn_score="0.1" squad_size_xp_cap="0.0">
+        <character filename="us_male.character" />
+		<ai filename="eod.ai" />
+		<model filename="us_eod.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='uw_m1014.weapon'/>
+			<weapon key='aa-12.weapon' />
+			<weapon key='spas-12.weapon' />
+			<weapon key='gw_sat8.weapon'/>
+            <weapon key='uts15.weapon'/>
+            <weapon key='gw_m870.weapon'/>
+            <weapon key='gw_m590.weapon'/>
+            <weapon key='riot_shield.weapon' />
+            <carry_item key='eodvest.carry_item' />
+            <projectile key='stun_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.2" max="5.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1000.0" max="1000.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="jugger" spawn_score="0.01" squad_size_xp_cap="0.0">
+		<character filename="us_male.character" />
+		<ai filename="jugger.ai" />
+		<model filename="us_jn.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='uw_mk46_n.weapon'/>
+			<weapon key='m60e4_n.weapon' />
+            <carry_item key='vestjugger.carry_item' />
+            <projectile key='strike_marker.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="5.0" max="15.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1000.0" max="1000.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="grenadier" spawn_score="0.1" squad_size_xp_cap="0.0">
+		<character filename="us_male.character" />
+		<ai filename="grenadier.ai" />
+		<model filename="us_gr.xml" />
+
+		<resources file="common.resources"  clear_weapons="1" clear_grenades="1">
+			<weapon key='xm25.weapon' />
+			<weapon key='milkor_mgl.weapon' />
+			<weapon key='m79.weapon' />
+			<weapon key='mk47.weapon' />
+    		<weapon key='stoner_lmg_ai.weapon' />   
+    		<projectile key='flash9_grenade.projectile' enabled="1" />
+		    <carry_item key='eodvest.carry_item' enabled="1" />
+			<projectile key='stun_grenade.projectile' enabled="1" />     
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.2" max="5.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1000.0" max="1500.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="gas squar" spawn_score="0.1" squad_size_xp_cap="0.0">
+		<character filename="us_male.character" />
+		<ai filename="grenadier.ai" />
+		<model filename="us_fac.xml" />
+
+		<resources file="common.resources"  clear_weapons="1">
+			<weapon key='ump40.weapon' />
+			<weapon key='gw_mp7.weapon' />
+    		<weapon key='cover_resource.weapon' />   
+		    <carry_item key='eodvest.carry_item' enabled="1" />
+			<projectile key='ince_grenade.projectile' enabled="1" />     
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.2" max="5.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="800.0" max="1000.0" />
+		</attribute_config>
+	</soldier> 
+
+    <soldier name="ops" spawn_score="0.1">
+        <character filename="us_male.character" />
+		<ai filename="elite.ai" />
+		<model filename="us_ops.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='gw_scarh_ai.weapon' />
+			<weapon key="gw_supersass.weapon" />
+			<weapon key='honey_badger_f.weapon' />
+			<carry_item key='camo_vest.carry_item' />
+			<projectile key='stun_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1" min="1.2" max="5.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1000.0" max="1000.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="miniboss" spawn_score="0.01" squad_size_xp_cap="0.5">
+		<character filename="default_miniboss_male.character" />
+		<ai filename="elite.ai" />
+		<model filename="us_elite1.xml" />
+		<model filename="us_elite2.xml" />   
+
+		<resources file="common_miniboss.resources" />
+		<resources file="green_miniboss.resources" />
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="0.05" min="5.0" max="20.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1500.0" max="1500.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="prisoner" spawn_score="0.0">
+        <character filename="us_male.character" />
+		<ai filename="default.ai" />
+		<model filename="soldier_prison.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="gw_m4a1.weapon" />
+			<weapon key="uw_mp5ka4sd.weapon" />  
+			<!-- <weapon key="gw_m1911.weapon" />   -->
+			<weapon key="uw_m14ebr.weapon" />
+			<weapon key="uw_m16a4.weapon" />  
+			<weapon key="uw_m249.weapon" />  
+			<weapon key="uw_mk46.weapon" />  
+			<weapon key="uw_at4.weapon" />  
+			<weapon key="medikit.weapon" />
+			<weapon key="uw_m1014.weapon" />
+			<weapon key="uw_rfb.weapon" />
+			<weapon key="ump40.weapon" />
+			<weapon key='uw_acr.weapon' />
+			<weapon key='m240.weapon' />
+			<weapon key='m24_a2.weapon' />
+			<weapon key='gw_m82a1.weapon' />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="1" probability="0.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="80.0" max="300.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.45" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="supply" spawn_score="0.0">
+		<resources file="supply_common.resources" />
+		<resources file="supply_brown.resources" />
+
+		<!-- low XP, likely to join player squad -->
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="supply_hg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_hg.resources"/>
+	</soldier>  
+	<soldier name="supply_rf" spawn_score="0.0" copy_from="default">
+		<resources file="supply_rf.resources"/>
+	</soldier> 
+	<soldier name="supply_ar" spawn_score="0.0" copy_from="default">
+		<resources file="supply_ar.resources"/>
+	</soldier> 
+	<soldier name="supply_smg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_smg.resources"/>
+	</soldier> 
+	<soldier name="supply_mg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_mg.resources"/>
+	</soldier> 
+	<soldier name="supply_sg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_sg.resources"/>
+	</soldier> 
+	<soldier name="supply_new" spawn_score="0.0" copy_from="default">
+		<resources file="supply_new.resources"/>
+	</soldier> 
+	<soldier name="supply_skin" spawn_score="0.0" copy_from="default">
+		<resources file="supply_skin.resources"/>
+	</soldier>
+	<soldier name="supply_command_truck" spawn_score="0.0" copy_from="default">
+		<resources file="supply_command_truck.resources"/>
+	</soldier> 
+
+	<soldier name="supply_medic" spawn_score="0.0">
+		<resources file="supply_medic.resources" />
+
+		<!-- low XP, likely to join player squad -->
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="icecream" spawn_score="0.0">
+		<resources file="icecream.resources" />
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>  	
+
+</faction>

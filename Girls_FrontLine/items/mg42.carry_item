@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item filename="base_heavy_vest.carry_item" key="mg42" name="MG42 3/3" slot="1" transform_on_consume="mg42_1" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mg42_3.png" />  
+        <inventory encumbrance="4" price="10" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="1.0" in_stock="1" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_heavy_vest.carry_item" key="mg42_1" name="MG42 2/3" slot="1" transform_on_consume="mg42_2" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mg42_2.png" />  
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_light_vest.carry_item" key="mg42_2" name="MG42 1/3" slot="1" transform_on_consume="mg42_3" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mg42_1.png" />  
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_none.carry_item" key="mg42_3" name="MG42 0/3" slot="1" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mg42_0.png" />  
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+</carry_items>

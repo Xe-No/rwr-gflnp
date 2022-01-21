@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call name="Elite Reinforcements" 
+    key="paratroopers_medic.call"
+    notify_metagame="1"
+    initiation_comment1="Elite Reinforcements"
+    initiation_comment2="requesting 2"
+    acknowledge_comment="Roger."
+	launch_comment="2 airborne"
+    >
+
+    <round instances="1"
+        instance_class="soldier"
+        instance_key="para"
+        instance_spread="10 15 10" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+
+        <effect class="launch" ref="ShadowHeliFlyby" shadow="1" />
+        <sound class="launch" fileref="helicopter_flyby.wav" volume="2.0"/>
+    </round>
+
+    <round instances="1"
+        instance_class="soldier"
+        instance_key="medic2"
+        instance_spread="10 15 10" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+
+    
+    <round launch_time="8.0"
+       spawn_time="20.0">
+    </round>
+
+    <hud_icon filename="hud_paratroopers_medic.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="600.0" />
+
+</call>

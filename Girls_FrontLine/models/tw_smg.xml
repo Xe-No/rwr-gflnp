@@ -1,0 +1,7 @@
+<model>
+	<voxels>
+		<voxel a="1.0" b="0.2118" g="0.2118" r="0.2157" x="-4" y="2" z="0" />
+	</voxels>
+	<skeleton />
+	<skeletonVoxelBindings />
+</model>

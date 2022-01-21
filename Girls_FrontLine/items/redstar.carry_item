@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Redstar" key="redstar.carry_item">
+    <hud_icon filename="hud_red5star.png" />
+    <inventory encumbrance="0.5" price="20.0" />
+
+    <model mesh_filename="71_star.mesh" texture_filename="redflag.png" />
+
+    <commonness value="3.0" in_stock="1" />
+</carry_item>

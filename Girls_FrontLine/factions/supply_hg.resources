@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1">
+	<weapon key="gw_m1873.weapon" />
+	<weapon key="gw_m9.weapon" />
+	<weapon key="gw_c96.weapon" />
+	<weapon key="gw_fn57.weapon" />
+	<weapon key="gw_m1895.weapon" />
+	<weapon key="gw_m1911.weapon" />
+	<weapon key="gw_mp446.weapon" />
+	<weapon key="gw_p7.weapon" />
+	<weapon key="gw_p226.weapon" />
+	<weapon key="l30p.weapon" />
+	<!-- <weapon key="gw_m1895mod.weapon" /> -->
+	<!-- <weapon key="gw_mp446mod.weapon" /> -->
+	<!-- <weapon key="gw_m1911mod.weapon" /> -->
+
+	<carry_item key="base_hg_vest.carry_item" />
+<!--   	<carry_item key="base_rf_vest.carry_item" />
+  	<carry_item key="base_ar_vest.carry_item" />
+  	<carry_item key="base_smg_vest.carry_item" />
+  	<carry_item key="base_mg_vest.carry_item" />
+  	<carry_item key="base_sg_vest.carry_item" />
+ --></resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+	<carry_item filename="base_light_vest.carry_item" key="m4 sopmod iimod" name="M4 SOPMOD II[Digi-Mind] 2/2" slot="1" time_to_live_out_in_the_open="120" transform_on_consume="m4 sopmod iimod_1">
+		<hud_icon filename="m4 sopmod iimod_2.png" />
+		<inventory encumbrance="4" price="10" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness can_respawn_with="0" in_stock="1" value="1" />
+	</carry_item>
+	<carry_item filename="base_light_vest.carry_item" key="m4 sopmod iimod_1" name="M4 SOPMOD II[Digi-Mind] 1/2" slot="1" time_to_live_out_in_the_open="120" transform_on_consume="m4 sopmod iimod_2">
+		<hud_icon filename="m4 sopmod iimod_1.png" />
+		<inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness can_respawn_with="0" in_stock="0" value="0" />
+	</carry_item>
+    <carry_item filename="base_none.carry_item" key="m4 sopmod iimod_2" name="M4 SOPMOD II[Digi-Mind] 0/2" slot="1" time_to_live_out_in_the_open="120" >
+        <hud_icon filename="m4 sopmod iimod_0.png" />
+		<inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness can_respawn_with="0" in_stock="0" value="0" />
+	</carry_item>
+</carry_items>

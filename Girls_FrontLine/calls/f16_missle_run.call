@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call
+	key="f16_missle_run.call"
+	notify_metagame="1"
+	initiation_comment1="Requesting air strike"
+	acknowledge_comment="Roger."
+	radio_view_text="F-16 missle run" 
+	launch_comment="Air strike in bound."
+	show_target_marker="0">
+	
+	<round launch_time="6.0"
+	   spawn_time="10.0">
+	   <sound class="launch" fileref="f16_flyby.wav" volume="2.0"/>
+	</round>
+
+	<hud_icon filename="hud_f16.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.3" />
+	<inventory encumbrance="0.0" price="320.0" />
+
+</call>

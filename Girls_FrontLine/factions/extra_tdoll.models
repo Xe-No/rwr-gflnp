@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+Pantsu
+	<model filename="gp_95type.xml"><requirement class="weapon" slot="0" key="gw_95type.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_95type.xml"><requirement class="weapon" slot="0" key="gw_95type_b.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_97type.xml"><requirement class="weapon" slot="0" key="gw_97type.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_97type.xml"><requirement class="weapon" slot="0" key="gw_97type_sl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_98k.xml"><requirement class="weapon" slot="0" key="gw_98k.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_9a91.xml"><requirement class="weapon" slot="0" key="gw_9a91.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_9a91.xml"><requirement class="weapon" slot="0" key="gw_9a91_sl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_9a91.xml"><requirement class="weapon" slot="0" key="gw_9a91_1302.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_aa12.xml"><requirement class="weapon" slot="0" key="aa-12.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ak12.xml"><requirement class="weapon" slot="0" key="gw_ak12.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_ak12.xml"><requirement class="weapon" slot="0" key="gw_ak12_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_an94.xml"><requirement class="weapon" slot="0" key="gw_an94.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_an94.xml"><requirement class="weapon" slot="0" key="gw_an94_f.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ar15.xml"><requirement class="weapon" slot="0" key="gw_ar15.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_ar15.xml"><requirement class="weapon" slot="0" key="gw_ar15_sl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_c96.xml"><requirement class="weapon" slot="0" key="gw_c96.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_fn57.xml"><requirement class="weapon" slot="0" key="gw_fn57.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_fn57.xml"><requirement class="weapon" slot="0" key="gw_fn57_1109.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_fn57.xml"><requirement class="weapon" slot="0" key="gw_fn57_1902.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_fnfnc.xml"><requirement class="weapon" slot="0" key="gw_fnfnc.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_g11.xml"><requirement class="weapon" slot="0" key="gw_g11.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_g11.xml"><requirement class="weapon" slot="0" key="gw_g11_9.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_hk416.xml"><requirement class="weapon" slot="0" key="gw_hk416.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_hk416.xml"><requirement class="weapon" slot="0" key="gw_hk416_sl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_m14.xml"><requirement class="weapon" slot="0" key="gw_m14.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m1.xml"><requirement class="weapon" slot="0" key="gw_m1.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m14.xml"><requirement class="weapon" slot="0" key="gw_m14_303.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m14.xml"><requirement class="weapon" slot="0" key="uw_m14ebr.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_m14.xml"><requirement class="weapon" slot="0" key="uw_m14ebr_sl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_m16a1.xml"><requirement class="weapon" slot="0" key="gw_m16a1.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m16a1.xml"><requirement class="weapon" slot="0" key="uw_m16a4.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_m16a1.xml"><requirement class="weapon" slot="0" key="uw_m16a4_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m1873.xml"><requirement class="weapon" slot="0" key="gw_m1873.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_m1873.xml"><requirement class="weapon" slot="0" key="gw_m1873_301.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m1895.xml"><requirement class="weapon" slot="0" key="gw_m1895.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_m1895.xml"><requirement class="weapon" slot="0" key="gw_m1895mod.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m1911.xml"><requirement class="weapon" slot="0" key="gw_m1911.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_m1911.xml"><requirement class="weapon" slot="0" key="gw_m1911_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_m1911.xml"><requirement class="weapon" slot="0" key="gw_m1911mod.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_m1911.xml"><requirement class="weapon" slot="0" key="gw_m1911mod_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mp446.xml"><requirement class="weapon" slot="0" key="gw_mp446.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_mp446.xml"><requirement class="weapon" slot="0" key="gw_mp446mod.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_mp446.xml"><requirement class="weapon" slot="0" key="gw_mp446mod_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mp446.xml"><requirement class="weapon" slot="0" key="gw_mp446_103.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_mp446.xml"><requirement class="weapon" slot="0" key="gw_mp446_402.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m2hb.xml"><requirement class="weapon" slot="0" key="gw_m2hb.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+    <model filename="gp_m4 sopmod ii.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_ii.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m4a1.xml"><requirement class="weapon" slot="0" key="gw_m4a1.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m4a1.xml"><requirement class="weapon" slot="0" key="gw_m4a1mod3.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_m82a1.xml"><requirement class="weapon" slot="0" key="gw_m82a1.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_m82a1.xml"><requirement class="weapon" slot="0" key="gw_m82a1_golden.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_m82a1.xml"><requirement class="weapon" slot="0" key="gw_m82a1_he.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m9.xml"><requirement class="weapon" slot="0" key="gw_m9.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_m99.xml"><requirement class="weapon" slot="0" key="gw_m99.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m99.xml"><requirement class="weapon" slot="0" key="gw_m99_1701.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_mp5.xml"><requirement class="weapon" slot="0" key="gw_mp5.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mp5.xml"><requirement class="weapon" slot="0" key="gw_mp5_3.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_mp5.xml"><requirement class="weapon" slot="0" key="gw_mp5_1205.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mp5.xml"><requirement class="weapon" slot="0" key="gw_mp5_1903.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_mp40.xml"><requirement class="weapon" slot="0" key="gw_mp40.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mp40.xml"><requirement class="weapon" slot="0" key="gw_mp40_902.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_mg5.xml"><requirement class="weapon" slot="0" key="gw_mg5.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_mg5.xml"><requirement class="weapon" slot="0" key="gw_mg5_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_mg5.xml"><requirement class="weapon" slot="0" key="gw_mg5_309.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_mg5.xml"><requirement class="weapon" slot="0" key="gw_mg5_309_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+
+	<model filename="gp_negev.xml"><requirement class="weapon" slot="0" key="gw_negev.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_negev.xml"><requirement class="weapon" slot="0" key="gw_negev_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_negev.xml"><requirement class="weapon" slot="0" key="gw_negev_904.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_p7.xml"><requirement class="weapon" slot="0" key="gw_p7.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_p7.xml"><requirement class="weapon" slot="0" key="gw_p7_606.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_p7.xml"><requirement class="weapon" slot="0" key="gw_p7_1404.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_p226.xml"><requirement class="weapon" slot="0" key="gw_p226.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_pkp.xml"><requirement class="weapon" slot="0" key="gw_pkp.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_pkp.xml"><requirement class="weapon" slot="0" key="gw_pkp_4203.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_pkp.xml"><requirement class="weapon" slot="0" key="gw_pkp_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_spas12.xml"><requirement class="weapon" slot="0" key="spas-12.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_type100.xml"><requirement class="weapon" slot="0" key="gw_type100.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_type100.xml"><requirement class="weapon" slot="0" key="gw_type100_4004.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_ump45.xml"><requirement class="weapon" slot="0" key="gw_ump45.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ump45.xml"><requirement class="weapon" slot="0" key="gw_ump45_410.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_ump9.xml"><requirement class="weapon" slot="0" key="gw_ump9.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ump9.xml"><requirement class="weapon" slot="0" key="gw_ump9_409.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_usas12.xml"><requirement class="weapon" slot="0" key="gw_usas12.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_usas12.xml"><requirement class="weapon" slot="0" key="gw_usas12_2704.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_wa2000.xml"><requirement class="weapon" slot="0" key="gw_wa2000.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_wa2000.xml"><requirement class="weapon" slot="0" key="gw_wa2000_6.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_wa2000.xml"><requirement class="weapon" slot="0" key="gw_wa2000_306.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_wa2000.xml"><requirement class="weapon" slot="0" key="gw_wa2000_1108.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_brenten.xml"><requirement class="weapon" slot="0" key="gw_brenten.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mk23.xml"><requirement class="weapon" slot="0" key="gw_mk23.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_gsh18.xml"><requirement class="weapon" slot="0" key="gw_gsh18.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_gsh18.xml"><requirement class="weapon" slot="0" key="gw_gsh18_609.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_aug.xml"><requirement class="weapon" slot="0" key="gw_aug.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_aug.xml"><requirement class="weapon" slot="0" key="gw_aug_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_art556.xml"><requirement class="weapon" slot="0" key="gw_art556.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_art556.xml"><requirement class="weapon" slot="0" key="gw_art556_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_art556.xml"><requirement class="weapon" slot="0" key="gw_art556_1803.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_art556.xml"><requirement class="weapon" slot="0" key="gw_art556_2803.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_arx160.xml"><requirement class="weapon" slot="0" key="gw_arx160.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_arx160.xml"><requirement class="weapon" slot="0" key="gw_arx160_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mlemk1.xml"><requirement class="weapon" slot="0" key="gw_mlemk1.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_dsr50.xml"><requirement class="weapon" slot="0" key="gw_dsr50.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_dsr50.xml"><requirement class="weapon" slot="0" key="gw_dsr50_1801.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_svd.xml"><requirement class="weapon" slot="0" key="gw_svd.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_svd.xml"><requirement class="weapon" slot="0" key="gw_svd_305.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_supersass.xml"><requirement class="weapon" slot="0" key="gw_supersass.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+
+	<model filename="gp_mp7.xml"><requirement class="weapon" slot="0" key="gw_mp7.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_p90.xml"><requirement class="weapon" slot="0" key="p90.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_p90.xml"><requirement class="weapon" slot="0" key="gw_p90_2802.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ppsh41.xml"><requirement class="weapon" slot="0" key="gw_ppsh41.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_tmp.xml"><requirement class="weapon" slot="0" key="steyr_tmp.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_tmp.xml"><requirement class="weapon" slot="0" key="steyr_tmp_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mg5.xml"><requirement class="weapon" slot="0" key="gw_mg5.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_supershorty.xml"><requirement class="weapon" slot="0" key="gw_supershorty.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ar15.xml"><requirement class="weapon" slot="0" key="gw_ar15mod.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_ar15.xml"><requirement class="weapon" slot="0" key="gw_ar15mod_sl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+    <model filename="gp_m4 sopmod ii.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_iimod.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_m4 sopmod ii.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_iimod_gl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m4a1.xml">
+		<requirement class="weapon" slot="0" key="gw_m4a1.weapon"/>
+		<requirement class="weapon" slot="1" key="gw_m4a1mod.weapon"/>
+		<requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/>
+		<requirement class="rank" range="10 10000" />
+
+    </model>
+	
+	<model filename="gp_ump45.xml"><requirement class="weapon" slot="0" key="gw_ump45mod.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mk23.xml"><requirement class="weapon" slot="0" key="gw_mk23_8.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_supersass.xml"><requirement class="weapon" slot="0" key="gw_supersass_1407.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mp7.xml"><requirement class="weapon" slot="0" key="gw_mp7_2405.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_f2000.xml"><requirement class="weapon" slot="0" key="f2000.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mg42.xml"><requirement class="weapon" slot="0" key="mg42.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_mg42.xml"><requirement class="weapon" slot="0" key="mg42_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_ump40.xml"><requirement class="weapon" slot="0" key="ump40.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m200.xml"><requirement class="weapon" slot="0" key="uw_m200.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_m200.xml"><requirement class="weapon" slot="0" key="uw_m200_sl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_aat52.xml"><requirement class="weapon" slot="0" key="gw_aat52.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_aat52.xml"><requirement class="weapon" slot="0" key="gw_aat52_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ameli.xml"><requirement class="weapon" slot="0" key="gw_ameli.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_ameli.xml"><requirement class="weapon" slot="0" key="gw_ameli_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_ameli.xml"><requirement class="weapon" slot="0" key="gw_ameli_1605.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_ameli.xml"><requirement class="weapon" slot="0" key="gw_ameli_1605_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ameli.xml"><requirement class="weapon" slot="0" key="gw_ameli_2409.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_ameli.xml"><requirement class="weapon" slot="0" key="gw_ameli_2409_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_ak47.xml"><requirement class="weapon" slot="0" key="ak47.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_ak47.xml"><requirement class="weapon" slot="0" key="ak47_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ak47.xml"><requirement class="weapon" slot="0" key="golden_ak47.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_ak74u.xml"><requirement class="weapon" slot="0" key="aks74u.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_fnfal.xml"><requirement class="weapon" slot="0" key="gw_fnfal_308.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_fnfal.xml"><requirement class="weapon" slot="0" key="gw_fnfal_308_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_fnfal.xml"><requirement class="weapon" slot="0" key="fal_bayonet.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_fnfal.xml"><requirement class="weapon" slot="0" key="fal.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_fnfal.xml"><requirement class="weapon" slot="0" key="gw_fnfal_2406.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_fnfal.xml"><requirement class="weapon" slot="0" key="gw_fnfal_2406_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_fnfnc.xml"><requirement class="weapon" slot="0" key="gw_fnfnc_1406.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_g3.xml"><requirement class="weapon" slot="0" key="gw_g3.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_g3.xml"><requirement class="weapon" slot="0" key="gw_g3_1303.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_g36.xml"><requirement class="weapon" slot="0" key="g36.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_g36c.xml"><requirement class="weapon" slot="0" key="gw_g36c.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_g36c.xml"><requirement class="weapon" slot="0" key="gw_g36c_gl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_g36.xml"><requirement class="weapon" slot="0" key="gw_g36_1507.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_idw.xml"><requirement class="weapon" slot="0" key="gw_idw.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_idw.xml"><requirement class="weapon" slot="0" key="gw_idw_2108.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ksg.xml"><requirement class="weapon" slot="0" key="ns2000.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_m60.xml"><requirement class="weapon" slot="0" key="m60e4.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_m60.xml"><requirement class="weapon" slot="0" key="m60e4_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m249.xml"><requirement class="weapon" slot="0" key="uw_m249.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_m249.xml"><requirement class="weapon" slot="0" key="uw_m249_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_m590.xml"><requirement class="weapon" slot="0" key="gw_m590.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_m870.xml"><requirement class="weapon" slot="0" key="gw_m870.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_m1014.xml"><requirement class="weapon" slot="0" key="uw_m1014.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_sat8.xml"><requirement class="weapon" slot="0" key="gw_sat8.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_95type.xml"><requirement class="weapon" slot="0" key="mx4_storm.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ssg69.xml"><requirement class="weapon" slot="0" key="gw_ssg69.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_sr3mp.xml"><requirement class="weapon" slot="0" key="gw_sr3mp.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_sr3mp.xml"><requirement class="weapon" slot="0" key="gw_sr3mp_807.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_ntw20.xml"><requirement class="weapon" slot="0" key="gw_ntw20.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_ntw20.xml"><requirement class="weapon" slot="0" key="gw_ntw20_307.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_rfb.xml"><requirement class="weapon" slot="0" key="uw_rfb.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_rfb.xml"><requirement class="weapon" slot="0" key="uw_rfb_sl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_rfb.xml"><requirement class="weapon" slot="0" key="gw_rfb_1601.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_rfb.xml"><requirement class="weapon" slot="0" key="gw_rfb_1601_sl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_sv98.xml"><requirement class="weapon" slot="0" key="rw_cb98.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<model filename="gp_sv98.xml"><requirement class="weapon" slot="0" key="gw_sv98_502.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_98k.xml"><requirement class="weapon" slot="0" key="l30p.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	
+	<!-- <model filename="gp_95type_405.xml"><requirement class="weapon" slot="0" key="gw_95type_405.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model> -->
+
+	<!-- <model filename="gp_97type_406.xml"><requirement class="weapon" slot="0" key="gw_97type_406.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model> -->
+	
+    <model filename="gp_g28.xml"><requirement class="weapon" slot="0" key="gw_g28.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_g28.xml"><requirement class="weapon" slot="0" key="gw_g28_sl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_kp31.xml"><requirement class="weapon" slot="0" key="gw_kp31.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_kp31.xml"><requirement class="weapon" slot="0" key="gw_kp31_310.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_g41.xml"><requirement class="weapon" slot="0" key="gw_g41.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="rumya_p1.xml"><requirement class="weapon" slot="0" key="paw20.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="rumya_p1.xml"><requirement class="weapon" slot="0" key="gepard_m6_lynx.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_m1895.xml"><requirement class="weapon" slot="0" key="vss_vintorez.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_m1895.xml"><requirement class="weapon" slot="0" key="gw_asval.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_psg1.xml"><requirement class="weapon" slot="0" key="psg90.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mg36.xml"><requirement class="weapon" slot="0" key="stoner_lmg.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_sg556.xml"><requirement class="weapon" slot="0" key="sg552.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_aa12.xml"><requirement class="weapon" slot="0" key="aa12_frag.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_pdw.xml"><requirement class="weapon" slot="0" key="honey_badger.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_pdw.xml"><requirement class="weapon" slot="0" key="honey_badger_f.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_pdw.xml"><requirement class="weapon" slot="0" key="gw_pdw_4005.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_kacpdw.xml"><requirement class="weapon" slot="0" key="gw_kacpdw.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_acr.xml"><requirement class="weapon" slot="0" key="uw_acr.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_mk46.xml"><requirement class="weapon" slot="0" key="uw_mk46.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_mk46.xml"><requirement class="weapon" slot="0" key="uw_mk46_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_cf05.xml"><requirement class="weapon" slot="0" key="qcw-05.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_hs2000.xml"><requirement class="weapon" slot="0" key="gw_hs2000.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_liberator.xml"><requirement class="weapon" slot="0" key="uts15.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_vector.xml"><requirement class="weapon" slot="0" key="kriss_vector.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_pp19.xml"><requirement class="weapon" slot="0" key="bizon.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_qbu88.xml"><requirement class="weapon" slot="0" key="gw_qbu88.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_rpd.xml"><requirement class="weapon" slot="0" key="rw_rpk74.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_famas.xml"><requirement class="weapon" slot="0" key="famasg1.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_famas.xml"><requirement class="weapon" slot="0" key="famasg1_f.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_l85a1.xml"><requirement class="weapon" slot="0" key="l85a2.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_xm8.xml"><requirement class="weapon" slot="0" key="xm8.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_ak12.xml"><requirement class="weapon" slot="0" key="rw_rpk16.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+	<model filename="gp_saiga12.xml"><requirement class="weapon" slot="0" key="benelli_m4.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gp_saiga12.xml"><requirement class="weapon" slot="0" key="benelli_m4_slug.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_sl8.xml"><requirement class="weapon" slot="0" key="enforcer.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_ssg3000.xml"><requirement class="weapon" slot="0" key="apr.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_mdr.xml"><requirement class="weapon" slot="0" key="gw_mdr.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_ro635.xml"><requirement class="weapon" slot="0" key="gw_ro635.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_ksvk.xml"><requirement class="weapon" slot="0" key="lahti_l39.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_aek999.xml"><requirement class="weapon" slot="0" key="chain_saw.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_aek999.xml"><requirement class="weapon" slot="0" key="chain_saw_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_desert_eagle.xml"><requirement class="weapon" slot="0" key="desert_eagle.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_desert_eagle.xml"><requirement class="weapon" slot="0" key="desert_eagle_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_m500_3707.xml"><requirement class="weapon" slot="0" key="tti.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_ak47.xml"><requirement class="weapon" slot="0" key="rw_ak74m.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_98k.xml"><requirement class="weapon" slot="0" key="gw_p30_4404.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_uzimod.xml"><requirement class="weapon" slot="0" key="gw_uzimod.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_uzi.xml"><requirement class="weapon" slot="0" key="gw_uzi.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_uzi.xml"><requirement class="weapon" slot="0" key="gw_uzi_s.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_m99.xml"><requirement class="weapon" slot="0" key="gw_m99_404.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_m99.xml"><requirement class="weapon" slot="0" key="gw_m99_3304.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_augpara.xml"><requirement class="weapon" slot="0" key="gw_augpara.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_vhs.xml"><requirement class="weapon" slot="0" key="gw_vhs.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_98k.xml"><requirement class="weapon" slot="0" key="gw_ash12.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_dp28.xml"><requirement class="weapon" slot="0" key="gw_dp28.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_dp28.xml"><requirement class="weapon" slot="0" key="gw_dp28_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_vpm5.xml"><requirement class="weapon" slot="0" key="gw_vpm5.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_vector.xml"><requirement class="weapon" slot="0" key="gw_vector_2.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_vector.xml"><requirement class="weapon" slot="0" key="gw_vector_1901.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_vector.xml"><requirement class="weapon" slot="0" key="gw_vector_549.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_vector.xml"><requirement class="weapon" slot="0" key="gw_vector_549_f.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_vector.xml"><requirement class="weapon" slot="0" key="gw_vector_agent.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_mg4.xml"><requirement class="weapon" slot="0" key="gw_mg4.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_mg4.xml"><requirement class="weapon" slot="0" key="gw_mg4_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_mg4.xml"><requirement class="weapon" slot="0" key="gw_mg4_ammoschool.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_mg4.xml"><requirement class="weapon" slot="0" key="gw_mg4_ammoschool_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_mk48.xml"><requirement class="weapon" slot="0" key="gw_mk48.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_mk48.xml"><requirement class="weapon" slot="0" key="gw_mk48_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_qsb91.xml"><requirement class="weapon" slot="0" key="gw_qsb91.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_stg44.xml"><requirement class="weapon" slot="0" key="gw_stg44.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_type4.xml"><requirement class="weapon" slot="0" key="gw_type4.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_m1918.xml"><requirement class="weapon" slot="0" key="gw_m1918.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_m1918.xml"><requirement class="weapon" slot="0" key="gw_m1918_102.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gs_m1918.xml"><requirement class="weapon" slot="0" key="gw_m1918_1606.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_m1919.xml"><requirement class="weapon" slot="0" key="gw_m1919.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_m1919.xml"><requirement class="weapon" slot="0" key="gw_m1919_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_hk416.xml"><requirement class="weapon" slot="0" key="gw_hk416mod.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_hk416.xml"><requirement class="weapon" slot="0" key="gw_hk416mod_gl.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_hk416.xml"><requirement class="weapon" slot="0" key="gw_hk416_agent.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_hk416.xml"><requirement class="weapon" slot="0" key="gw_hk416_agent_546.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_k31.xml"><requirement class="weapon" slot="0" key="gw_k31.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_ksvk.xml"><requirement class="weapon" slot="0" key="gw_ksvk_3805.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_m1891.xml"><requirement class="weapon" slot="0" key="gw_mosin1891.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_g43.xml"><requirement class="weapon" slot="0" key="gw_g43.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_carcano1938.xml"><requirement class="weapon" slot="0" key="gw_carcano1938.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_carcano1891.xml"><requirement class="weapon" slot="0" key="gw_carcano1891.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_m9.xml"><requirement class="weapon" slot="0" key="gw_mg34.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+    <model filename="gp_m9.xml"><requirement class="weapon" slot="0" key="gw_mg34_n.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+    <model filename="gp_m9.xml"><requirement class="weapon" slot="0" key="gw_fg42.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+4th Token
+	<model filename="gp_m4a1_530.xml"><requirement class="weapon" slot="0" key="gw_m4a1.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+
+
+
+	<model filename="gs_ar15_532.xml"><requirement class="weapon" slot="0" key="gw_ar15.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+    <model filename="gs_ar15_532.xml"><requirement class="weapon" slot="0" key="gw_ar15_sl.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+	<model filename="gs_ar15_532.xml"><requirement class="weapon" slot="0" key="gw_ar15mod.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+	<model filename="gs_ar15_532.xml"><requirement class="weapon" slot="0" key="gw_ar15mod_sl.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+
+
+    <model filename="gs_m4 sopmod ii_531.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_ii.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+    <model filename="gs_m4 sopmod ii_531.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_iimod.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+    <model filename="gs_m4 sopmod ii_531.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_iimod_gl.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+
+	<model filename="gs_m16a1_533.xml"><requirement class="weapon" slot="0" key="gw_m16a1.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+
+	<model filename="gs_ro635_534.xml"><requirement class="weapon" slot="0" key="gw_ro635.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+
+	<model filename="gs_ump45_535.xml"><requirement class="weapon" slot="0" key="gw_ump45.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+	<model filename="gs_ump45_535.xml"><requirement class="weapon" slot="0" key="gw_ump45mod.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+	<model filename="gs_ump45_535.xml"><requirement class="weapon" slot="0" key="gw_ump45_410.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+
+	<model filename="gs_ump9_536.xml"><requirement class="weapon" slot="0" key="gw_ump9.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+	<model filename="gs_ump9_536.xml"><requirement class="weapon" slot="0" key="gw_ump9_409.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+
+	<model filename="gs_hk416_537.xml"><requirement class="weapon" slot="0" key="gw_hk416.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+	<model filename="gs_hk416_537.xml"><requirement class="weapon" slot="0" key="gw_hk416_sl.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+
+	<model filename="gs_g11_538.xml"><requirement class="weapon" slot="0" key="gw_g11.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+	<model filename="gs_g11_538.xml"><requirement class="weapon" slot="0" key="gw_g11_9.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+
+	<model filename="gs_ump40_539.xml"><requirement class="weapon" slot="0" key="ump40.weapon"/><requirement class="projectile" slot="0" key="token_4th.projectile"/></model>
+
+Chinadress Token
+	<model filename="gc_m4a1.xml"><requirement class="weapon" slot="0" key="gw_m4a1.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	<model filename="gc_m16a1.xml"><requirement class="weapon" slot="0" key="gw_m16a1.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	<model filename="gc_ar15.xml"><requirement class="weapon" slot="0" key="gw_ar15.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	<model filename="gc_ar15.xml"><requirement class="weapon" slot="0" key="gw_ar15_sl.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	<model filename="gc_ar15.xml"><requirement class="weapon" slot="0" key="gw_ar15mod.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	<model filename="gc_ar15.xml"><requirement class="weapon" slot="0" key="gw_ar15mod_sl.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+    <model filename="gc_m4 sopmod ii_1.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_ii.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+    <model filename="gc_m4 sopmod ii_2.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_iimod.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+    <model filename="gc_m4 sopmod ii_2.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_iimod_gl.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	<model filename="gc_ro635.xml"><requirement class="weapon" slot="0" key="gw_ro635.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+    <!-- <model filename="gc_m4 sopmod ii_3.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_ii.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model> -->
+
+	<model filename="gc_95type.xml"><requirement class="weapon" slot="0" key="gw_95type.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	<model filename="gc_95type.xml"><requirement class="weapon" slot="0" key="gw_95type_b.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	<model filename="gc_97type.xml"><requirement class="weapon" slot="0" key="gw_97type.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	<model filename="gc_97type.xml"><requirement class="weapon" slot="0" key="gw_97type_sl.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	<model filename="gc_dsr50.xml"><requirement class="weapon" slot="0" key="gw_dsr50.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	<model filename="gc_pkp.xml"><requirement class="weapon" slot="0" key="gw_pkp.weapon"/><requirement class="projectile" slot="0" key="token_chinadress.projectile"/></model>
+	
+
+
+Special 
+	<model filename="an_w.xml"><requirement class="weapon" slot="0" key="milkor_mgl.weapon"/><requirement class="projectile" slot="0" key="c4.projectile"/></model>
+    <model filename="an_w.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_iimod.weapon"/><requirement class="weapon" slot="1" key="uw_m320.weapon"/></model>
+    <model filename="an_w.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_iimod_gl.weapon"/><requirement class="weapon" slot="1" key="uw_m320.weapon"/></model>
+
+	<model filename="an_ls.xml"><requirement class="weapon" slot="0" key="gw_mk23.weapon"/><requirement class="weapon" slot="1" key="flash_shield.weapon"/></model>
+	<model filename="an_ls.xml"><requirement class="weapon" slot="0" key="gw_mk23_8.weapon"/><requirement class="weapon" slot="1" key="flash_shield.weapon"/></model>
+
+	<model filename="gs_negev_catcafe.xml"><requirement class="weapon" slot="0" key="gw_negev_catcafe.weapon"/></model>
+	<model filename="gp_negev_catcafe.xml"><requirement class="weapon" slot="0" key="gw_negev_catcafe.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+
+	<model filename="gs_negev_catcafe.xml"><requirement class="weapon" slot="0" key="ninjato_l.weapon"/></model>
+City Hunter
+    
+
+    <model filename="gs_aa12_ch101.xml"><requirement class="weapon" slot="0" key="aa-12.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+    <model filename="gs_aa12_ch101.xml"><requirement class="weapon" slot="0" key="aa12_frag.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+    <model filename="gs_aa12_ch101.xml"><requirement class="weapon" slot="0" key="aa12_frag_b.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+
+    <model filename="gs_mp7_ch102.xml"><requirement class="weapon" slot="0" key="gw_mp7.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+    <model filename="gs_mp7_ch102.xml"><requirement class="weapon" slot="0" key="gw_mp7_2405.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+
+    <model filename="gs_fn57_ch103.xml"><requirement class="weapon" slot="0" key="gw_fn57.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+    <model filename="gs_fn57_ch103.xml"><requirement class="weapon" slot="0" key="gw_fn57_1109.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+    <model filename="gs_fn57_ch103.xml"><requirement class="weapon" slot="0" key="gw_fn57_1902.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+
+    <model filename="gs_rpk16_ch104.xml"><requirement class="weapon" slot="0" key="rw_rpk16.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+
+	<model filename="gs_hk416_ch105.xml"><requirement class="weapon" slot="0" key="gw_hk416.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+	<model filename="gs_hk416_ch105.xml"><requirement class="weapon" slot="0" key="gw_hk416_sl.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+
+	<model filename="gs_ntw20_ch106.xml"><requirement class="weapon" slot="0" key="gw_ntw20.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+
+	<model filename="gs_dsr50_ch107.xml"><requirement class="weapon" slot="0" key="gw_dsr50.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+
+	<model filename="gs_negev_ch108.xml"><requirement class="weapon" slot="0" key="gw_negev.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+	<model filename="gs_negev_ch108.xml"><requirement class="weapon" slot="0" key="gw_negev_904.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+
+	<model filename="gs_ak12_ch109.xml"><requirement class="weapon" slot="0" key="gw_ak12.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+	<model filename="gs_ak12_ch109.xml"><requirement class="weapon" slot="0" key="gw_ak12_s.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+
+	<model filename="gs_an94_ch110.xml"><requirement class="weapon" slot="0" key="gw_an94.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+	<model filename="gs_an94_ch110.xml"><requirement class="weapon" slot="0" key="gw_an94_f.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+
+	<model filename="gs_ares_shrike.xml"><requirement class="weapon" slot="0" key="ares_shrike.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+	<model filename="gs_ares_shrike.xml"><requirement class="weapon" slot="0" key="ares_shrike_b.weapon"/><requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/></model>
+
+</models>

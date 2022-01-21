@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item filename="base_ep_vest.carry_item" key="m590_chinadress" name="M590[Snowy Nil] 5/5" slot="1" transform_on_consume="m590_chinadress_1" time_to_live_out_in_the_open="150.0">
+        <hud_icon filename="m590_chinadress_5.png" />
+        <inventory encumbrance="4" price="150" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="1.0" in_stock="1" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_ep_vest.carry_item" key="m590_chinadress_1" name="M590[Snowy Nil] 4/5" slot="1" transform_on_consume="m590_chinadress_2" time_to_live_out_in_the_open="150.0">
+        <hud_icon filename="m590_chinadress_4.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_ep_vest.carry_item" key="m590_chinadress_2" name="M590[Snowy Nil] 3/5" slot="1" transform_on_consume="m590_chinadress_3" time_to_live_out_in_the_open="150.0">
+        <hud_icon filename="m590_chinadress_3.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_light_vest.carry_item" key="m590_chinadress_3" name="M590[Snowy Nil] 2/5" slot="1" transform_on_consume="m590_chinadress_4" time_to_live_out_in_the_open="150.0">
+        <hud_icon filename="m590_chinadress_2.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_none_downable.carry_item" key="m590_chinadress_4" name="M590[Snowy Nil] 1/5" slot="1" transform_on_consume="m590_chinadress_5" time_to_live_out_in_the_open="150.0">
+        <hud_icon filename="m590_chinadress_1.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+	
+    <carry_item filename="base_none.carry_item" key="m590_chinadress_5" name="M590[Snowy Nil] 0/5" slot="1" time_to_live_out_in_the_open="150.0">
+        <hud_icon filename="m590_chinadress_0.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+</carry_items>

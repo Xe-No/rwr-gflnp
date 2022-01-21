@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+
+<weapon file="aegis_shield_base.weapon" key="tw_aegis.weapon" name="aegis shield 100%" transform_on_consume="aegis_shield_2">
+      <commonness value="0.02" />
+      <inventory encumbrance="10.0" price="3.0" />
+      <model filename="tw_aegis.xml" />
+
+
+      <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+      <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+      <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+      <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+      <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+      <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+      <!-- melee_hit goes right through, and doesn't consume -->
+</weapon>
+
+<weapon file="aegis_shield_base.weapon" key="tw_aegis_2" name="aegis shield 50%">
+      <commonness value="0.0" in_stock="0" />
+      <inventory encumbrance="10.0" price="1.0" />
+      <model filename="tw_aegis.xml" />
+
+      <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+      <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+      <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none"  consumes_item="0" />
+      <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+      <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="0" />
+      <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+</weapon>
+
+</weapons>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Battle Report" key="gi_battle_report.carry_item">
+    <hud_icon filename="Item_battle_report.png" />
+    <inventory encumbrance="0.5" buy_price="10000.0" sell_price="10000" />
+
+    <model mesh_filename="gi_contract.mesh" texture_filename="gi_contract_report.png" />
+
+    <commonness value="0.0001" in_stock="1" />
+</carry_item>

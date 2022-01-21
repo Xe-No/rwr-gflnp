@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+	<vehicle file="gk_supply_base.vehicle" name="HG Supply Box" key="gk_supply_hg.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="supply_hg" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_hg.mesh.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="SMG Supply Box" key="gk_supply_smg.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="supply_smg" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_smg.mesh.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="AR Supply Box" key="gk_supply_ar.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="supply_ar" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_ar.mesh.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="RF Supply Box" key="gk_supply_rf.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="supply_rf" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_rf.mesh.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="MG Supply Box" key="gk_supply_mg.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="supply_mg" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_mg.mesh.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="SG Supply Box" key="gk_supply_sg.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="supply_sg" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_sg.mesh.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="SS Supply Box" key="gk_supply_ss.vehicle" time_to_live="60.0">
+		<item_container class="armory" offset="0 0 0" soldier_group="default" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_sg.mesh.png" /> TODO
+	</vehicle>		
+	<vehicle file="gk_supply_base.vehicle" name="New Supply Box" key="gk_supply_new.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="supply_new" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="hesco_barrier.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="Skin Supply Box" key="gk_supply_skin.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="supply_skin" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="hesco_barrier.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="Common Supply Box" key="gk_supply_default.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="default" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_all.mesh.png" />
+	</vehicle>
+</vehicles>

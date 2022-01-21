@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="O“炮”果奶 " key="it_opmilk.carry_item">
+    <hud_icon filename="it_opmilk.png" />
+    <inventory encumbrance="10" price="100000.0" />
+
+    <model filename="it_opmilk.xml" />
+
+    <commonness value="0.0" in_stock="1" />
+</carry_item>

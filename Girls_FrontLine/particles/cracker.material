@@ -1,0 +1,84 @@
+material PaperOnTheFloorTexture
+{
+        receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+	//		ambient vertexcolour
+	//		diffuse vertexcolour
+			scene_blend alpha_blend
+			depth_write off
+	//		diffuse vertexcolour
+
+			texture_unit
+			{
+				texture paperfloor.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material PaperInTheAir1Texture
+{
+        receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture paperair1.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material PaperInTheAir2Texture
+{
+        receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture paperair2.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material PaperInTheAir3Texture
+{
+        receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture paperair3.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+

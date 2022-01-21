@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+	<carry_item filename="base_light_vest.carry_item" key="gsh18" name="Gsh-18 1/1" slot="1" time_to_live_out_in_the_open="120" transform_on_consume="gsh18_1">
+		<hud_icon filename="gsh18_1.png" />
+		<inventory encumbrance="4" price="10" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness can_respawn_with="1" in_stock="1" value="1" />
+	</carry_item>
+    <carry_item filename="base_none.carry_item" key="gsh18_1" name="Gsh-18 0/1" slot="1" time_to_live_out_in_the_open="120" >
+        <hud_icon filename="gsh18_0.png" />
+		<inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness can_respawn_with="0" in_stock="0" value="0" />
+	</carry_item>
+</carry_items>

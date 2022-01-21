@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Air Strike Marker" key="strike_marker_1.projectile" slot="2" radius="0.15">
+    <tag name="grenade" />
+
+    <result class="blast" radius="0.0" damage="0" push="0" decal="0" />
+    <trigger class="time" time_to_live="30.0"/>
+    <rotation class="random" />
+
+    <model mesh_filename="smoke_grenade.xml" />
+    <hud_icon filename="hud_smoke_grenade.png" />
+    <effect class="activated" ref="FlareSmokeBlue" />
+    
+</projectile>

@@ -1,0 +1,18 @@
+
+material muzzle_mg4 {
+	receive_shadows off    
+    technique {
+		pass {
+
+			lighting off
+			depth_write off
+			scene_blend add
+			fog_override true
+
+
+            texture_unit {
+                texture muzzle_5.png
+            }
+        }
+    }
+}

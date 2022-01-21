@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item filename="base_heavy_vest.carry_item" key="rpd" name="RPD 3/3" slot="1" transform_on_consume="rpd_1" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="rpd_3.png" />  
+        <inventory encumbrance="4.0" price="10" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="1.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_heavy_vest.carry_item" key="rpd_1" name="RPD 2/3" slot="1" transform_on_consume="rpd_2" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="rpd_2.png" />  
+        <inventory encumbrance="4.0" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_light_vest.carry_item" key="rpd_2" name="RPD 1/3" slot="1" transform_on_consume="rpd_3" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="rpd_1.png" />  
+        <inventory encumbrance="4.0" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_none.carry_item" key="rpd_3" name="RPD 0/3" slot="1" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="rpd_0.png" />  
+        <inventory encumbrance="4.0" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+</carry_items>

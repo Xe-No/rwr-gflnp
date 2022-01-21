@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<intro>
+    <text key="Hint" text="Bulletproof Plate can resist multi bullet hits but movement speed will slow after equip this."/> 
+	<text key="Hint" text="Camouflage Cloak provides high Concealment and resist low caliber bullet hits when you got trouble."/>
+	<text key="Hint" text="T type Universal Exoskeleton provide good defensive capabilites and good movement speed."/>
+	<text key="Hint" text="X type Universal Exoskeleton provide better defensive capabilites than T type but less movement speed."/>	
+	<text key="Hint" text="Doll's equipment have those types below:T/X type Universal Exoskeleton,Bulletproof Plate,Camouflage Cloak;however dolls can also use enemy's vest."/>
+	<text key="Hint" text="In all doll's equipment,the higher stars have,the higher ability can provide,16LAB tag means higher ability can provide than common 5-star's."/>
+	<text key="Hint" text="Be on a lookout for Black Cards and T-Doll Contracts."/>
+	<text key="Hint" text="It is recommended to mount MG's before firing them. It's done by going prone or using cover. You can still fire them from the hip, although with horrible accuracy."/>
+	<text key="Hint" text="Heavier RF's perform the best if you use them in a crouched or prone position."/>
+	<text key="Hint" text="Don't forget to collect and sell valuables dropped by fallen soldiers when you can."/>
+	<text key="Hint" text="You can unlock some of the enemy weapons by bringing a few of them to the armory."/>
+	<text key="Hint" text="C4 is your best bet for sabotage. Don't forget to get some distance before detonating it."/>
+	<text key="Hint" text="Press your fire button to call for help when downed. Hold your melee key to suicide if you can't get any."/>
+	<text key="Hint" text="Melee kills yield more XP. Finishing downed enemies off counts too."/>
+	<text key="Hint" text="Use rocket launchers to take care of vehicles. Grenades will do too."/>
+	<text key="Hint" text="Enemy radio jammers disrupt your team's radio signals. Make sure to destroy them as soon as possible."/>
+	<text key="Hint" text="Main route defined by the commander is not the only way to attack a base."/>
+	<text key="Hint" text="SMG's and SG's don't get deployed as often as others do. Make sure to treasure them."/>
+	<text key="Hint" text="Dying detracts from your RP pool."/>
+	<text key="Hint" text="You can restock on some types of equipment without going back to the armory. Check the dead bodies, search the crates.. there's plenty of stuff in the field."/>
+	<text key="Hint" text="Filling your backpack gradually slows you down and lowers your accuracy."/>
+	<text key="Hint" text="Retreat is an option,but surrender isn't."/>
+	<text key="Hint" text="It's important to issue commands to your squad when needed, if you have one."/>
+	<text key="Hint" text="You need a 2/3 majority of units in a dotted area of the base to be able to capture it."/>
+	<text key="Hint" text="It's a good idea to repair damaged vehicles when you have the time to spare."/>
+	<text key="Hint" text="You can unlock more dolls and their weapons by bringing Laptops to your armory."/>
+</intro>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+material heal_cross {
+	receive_shadows off    
+    technique {
+		pass {
+
+			ambient 1.266667 1.266667 1.266667 1.000000
+			diffuse 0.266667 0.266667 0.266667 1.000000
+			specular 0.333333 0.333333 0.333333 1.000000
+			emissive 1.000000 1.000000 1.000000 1.000000
+			scene_blend alpha_blend
+
+            texture_unit {
+                texture pink_heart.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+
+particle_system heal_cross
+{
+        quota	30
+        material	DragonPropulsion
+        particle_width	0.6
+        particle_height	0.6
+        cull_each					false
+        renderer	billboard 
+		billboard_type	point
+		common_direction 0 1 0
+		common_up_vector 1 0 0
+		//iteration_interval 	0.01
+
+        emitter Cylinder
+        {
+		velocity	4
+		colour		1 0.7 0.6 1
+		position 0 0 0
+		direction	0 1 0
+		emission_rate	10
+		time_to_live	3.00
+		duration	1.00
+
+		width	6
+		height	6
+		depth	1
+
+        }
+}
+
+particle_system heal_cross2 : heal_cross
+{
+        emitter Cylinder
+        {
+		velocity	4
+		colour		0.3 0.9 0.9 0.8
+		position 0 0 0
+		direction	0 1 0
+		emission_rate	10
+		time_to_live	3.00
+		duration	1.00
+
+		width	6
+		height	6
+		depth	1
+
+        }
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>  
+	<vehicle file="deco_car1_base.vehicle" key="deco_car1_brown.vehicle" >
+		<visual class="chassis" mesh_filename="pcche.mesh" 				texture_filename="sportcar1.png" />
+		<visual class="chassis" key="broken" mesh_filename="pcche.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="0 2 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car1_base.vehicle" key="deco_car1_blue.vehicle" >
+		<visual class="chassis" mesh_filename="pcche.mesh" 				texture_filename="sportcar7.png" />
+		<visual class="chassis" key="broken" mesh_filename="pcche.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="1 2 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car1_base.vehicle" key="deco_car1_yellow.vehicle" >
+		<visual class="chassis" mesh_filename="pcche.mesh" 				texture_filename="sportcar6.png"  />
+		<visual class="chassis" key="broken" mesh_filename="pcche.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="2 2 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car1_base.vehicle" key="deco_car1_black.vehicle" >
+		<visual class="chassis" mesh_filename="pcche.mesh" 				texture_filename="sportcar5.png"  />
+		<visual class="chassis" key="broken" mesh_filename="pcche.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="3 2 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car1_base.vehicle" key="deco_car1_white.vehicle" >
+		<visual class="chassis" mesh_filename="pcche.mesh" 				texture_filename="sportcar4.png"  />
+		<visual class="chassis" key="broken" mesh_filename="pcche.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="0 3 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car1_base.vehicle" key="deco_car1_red.vehicle" >
+		<visual class="chassis" mesh_filename="pcche.mesh" 				texture_filename="sportcar3.png"  />
+		<visual class="chassis" key="broken" mesh_filename="pcche.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="1 3 4 4" />  
+	</vehicle> 
+	<vehicle file="deco_car1_base.vehicle" key="deco_car1_pink.vehicle" >
+		<visual class="chassis" mesh_filename="pcche.mesh" 				texture_filename="sportcar2.png" />
+		<visual class="chassis" key="broken" mesh_filename="pcche.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="2 3 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car1_base.vehicle" key="deco_car1_green.vehicle" >
+		<visual class="chassis" mesh_filename="pcche.mesh" 				texture_filename="sportcar1.png"  />
+		<visual class="chassis" key="broken" mesh_filename="pcche.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="3 3 4 4" />  
+	</vehicle>   
+ 	
+	<vehicle file="deco_car2_base.vehicle" key="deco_car2_red.vehicle" >
+		<visual class="chassis" mesh_filename="car2.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="3 2 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car2.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="3 2 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car2_base.vehicle" key="deco_car2_green.vehicle">
+		<visual class="chassis" mesh_filename="car2.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="0 1 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car2.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="0 1 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car2_base.vehicle" key="deco_car2_yellow.vehicle">
+		<visual class="chassis" mesh_filename="car2.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="0 2 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car2.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="0 2 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car2_base.vehicle" key="deco_car2_white.vehicle">
+		<visual class="chassis" mesh_filename="car2.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="1 2 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car2.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="1 2 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car2_base.vehicle" key="deco_car2_silver.vehicle">
+		<visual class="chassis" mesh_filename="car2.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="2 2 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car2.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="2 2 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car2_base.vehicle" key="deco_car2_grey.vehicle" >
+		<visual class="chassis" mesh_filename="car2.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="0 3 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car2.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="0 3 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car2_base.vehicle" key="deco_car2_brown.vehicle" >
+		<visual class="chassis" mesh_filename="car2.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="1 3 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car2.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="1 3 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car2_base.vehicle" key="deco_car2_blue.vehicle" >
+		<visual class="chassis" mesh_filename="car2.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="2 3 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car2.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="2 3 4 4" />  
+	</vehicle>
+	<vehicle file="deco_car2_base.vehicle" key="deco_car2_black.vehicle" >
+		<visual class="chassis" mesh_filename="car2.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="3 3 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car2.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="3 3 4 4" />  
+	</vehicle>                       
+    	
+	<vehicle file="deco_car3_base.vehicle" key="deco_car3_sky.vehicle" >
+		<visual class="chassis" mesh_filename="car3.mesh" 				texture_filename="car_atlas2.png" texture_atlas_cell="1 1 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car3.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="1 1 4 4" />  
+	</vehicle>   
+	<vehicle file="deco_car3_base.vehicle" key="deco_car3_green.vehicle" >
+		<visual class="chassis" mesh_filename="car3.mesh" 				texture_filename="car_atlas2.png" texture_atlas_cell="3 1 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car3.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="3 1 4 4" />  
+	</vehicle>   
+	<vehicle file="deco_car3_base.vehicle" key="deco_car3_blue.vehicle" >
+		<visual class="chassis" mesh_filename="car3.mesh" 				texture_filename="car_atlas2.png" texture_atlas_cell="0 0 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car3.mesh" texture_filename="car_atlas2_broken.png" texture_atlas_cell="0 0 4 4" />
+	</vehicle>   
+	<vehicle file="deco_car3_base.vehicle" key="deco_car3_red.vehicle" >
+		<visual class="chassis" mesh_filename="car3.mesh" 				texture_filename="car_atlas2.png" texture_atlas_cell="2 1 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car3.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="2 1 4 4" />  
+	</vehicle>   
+	<vehicle file="deco_car3_base.vehicle" key="deco_car3_yellow.vehicle" >
+		<visual class="chassis" mesh_filename="car3.mesh" 				texture_filename="car_atlas2.png" texture_atlas_cell="0 1 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car3.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="0 1 4 4" />  
+	</vehicle>          
+	<vehicle file="deco_car3_base.vehicle" key="deco_car3_black.vehicle" >
+		<visual class="chassis" mesh_filename="car3.mesh" 				texture_filename="car_atlas2.png" texture_atlas_cell="0 0 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="car3.mesh" 	texture_filename="car_atlas2_broken.png" texture_atlas_cell="0 0 4 4" />  
+	</vehicle>   
+  
+	<vehicle file="deco_van_base.vehicle" key="deco_van_blue.vehicle" >
+		<visual class="chassis" mesh_filename="van.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="1 1 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="van.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="1 1 4 4" />  
+	</vehicle>   
+	<vehicle file="deco_van_base.vehicle" key="deco_van_khaki.vehicle" >
+		<visual class="chassis" mesh_filename="van.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="0 0 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="van.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="0 0 4 4" />  
+	</vehicle>   
+	<vehicle file="deco_van_base.vehicle" key="deco_van_sky.vehicle" >
+		<visual class="chassis" mesh_filename="van.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="3 0 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="van.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="3 0 4 4" />  
+	</vehicle>   
+	<vehicle file="deco_van_base.vehicle" key="deco_van_brown.vehicle" >
+		<visual class="chassis" mesh_filename="van.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="2 1 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="van.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="2 1 4 4" />  
+	</vehicle>   
+	<vehicle file="deco_van_base.vehicle" key="deco_van_yellow.vehicle" >
+		<visual class="chassis" mesh_filename="van.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="3 1 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="van.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="3 1 4 4" />  
+	</vehicle>   
+	<vehicle file="deco_van_base.vehicle" key="deco_van_red.vehicle" >
+		<visual class="chassis" mesh_filename="van.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="2 0 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="van.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="2 0 4 4" />  
+	</vehicle>   
+<!--    <vehicle file="deco_van_base.vehicle" key="deco_van_green.vehicle" >
+		<visual class="chassis" mesh_filename="van.mesh" 				texture_filename="car_atlas1.png" texture_atlas_cell="1 0 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="van.mesh" 	texture_filename="car_atlas1_broken.png" texture_atlas_cell="1 0 4 4" />  
+	</vehicle>        --> 
+  
+	<vehicle file="deco_pickup_base.vehicle" key="deco_pickup_red.vehicle" > 
+		<visual class="chassis" mesh_filename="pickup.mesh" 					texture_filename="car_atlas3.png" texture_atlas_cell="3 3 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="pickup.mesh" 		texture_filename="car_atlas3_broken.png" texture_atlas_cell="3 3 4 4" />
+	</vehicle>
+	<vehicle file="deco_pickup_base.vehicle" key="deco_pickup_yellow.vehicle" > 
+		<visual class="chassis" mesh_filename="pickup.mesh" 					texture_filename="car_atlas3.png" texture_atlas_cell="0 2 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="pickup.mesh" 		texture_filename="car_atlas3_broken.png" texture_atlas_cell="0 2 4 4" />
+	</vehicle>
+	<vehicle file="deco_pickup_base.vehicle" key="deco_pickup_blue.vehicle" > 
+		<visual class="chassis" mesh_filename="pickup.mesh" 					texture_filename="car_atlas3.png" texture_atlas_cell="0 3 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="pickup.mesh" 		texture_filename="car_atlas3_broken.png" texture_atlas_cell="3 3 4 4" />
+	</vehicle>
+	<vehicle file="deco_pickup_base.vehicle" key="deco_pickup_green.vehicle" > 
+		<visual class="chassis" mesh_filename="pickup.mesh" 					texture_filename="car_atlas3.png" texture_atlas_cell="1 3 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="pickup.mesh" 		texture_filename="car_atlas3_broken.png" texture_atlas_cell="1 3 4 4" />
+	</vehicle>
+<!-- 	<vehicle file="deco_pickup_base.vehicle" key="deco_pickup_khaki.vehicle" > 
+		<visual class="chassis" mesh_filename="pickup.mesh" 					texture_filename="car_atlas3.png" texture_atlas_cell="2 3 4 4" />
+		<visual class="chassis" key="broken" mesh_filename="pickup.mesh" 		texture_filename="car_atlas3_broken.png" texture_atlas_cell="2 3 4 4" />
+	</vehicle>       -->     
+
+<!-- 	<vehicle file="mtc.vehicle" key="deco_pickup_khaki.vehicle"  />
+	<vehicle file="mt.vehicle" key="deco_van_green.vehicle"  /> -->
+
+	<vehicle file="dumpster.vehicle" />
+</vehicles>

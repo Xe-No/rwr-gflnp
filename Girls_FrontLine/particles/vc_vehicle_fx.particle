@@ -1,0 +1,162 @@
+particle_system enginedust
+{
+	quota	500
+	material	FlareSmoke
+	particle_width	1.2
+	particle_height	1.2
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Box
+	{
+		angle	2
+		colour_range_start	0.0 0.0 1.0 0
+		colour_range_end	0.3 0.3 0.3 0.5
+		direction	0 1 0
+		emission_rate	30
+		position	0 0 0
+    width 0.1
+    height 0.0
+    depth 0.1
+
+		velocity_min	0.10
+		velocity_max	0.30
+
+		time_to_live_min	0.2
+		time_to_live_max	0.5
+		duration	0.0
+	}
+
+	affector Scaler
+	{
+		rate	0.85
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+	affector ColourFader
+	{
+		red	0
+		green	0
+		blue	1
+		alpha	-0.3
+	}
+
+	affector LinearForce
+	{
+		force_vector 1 1 0
+		force_application add
+	}
+
+}
+
+particle_system rrmm
+{
+	quota	500
+	material	rrmm
+	particle_width	1
+	particle_height	1
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Box
+	{
+		angle	2
+		colour_range_start	0.0 0.0 0.8 1
+		colour_range_end	0.4 0.4 0.5 0
+		direction	0 1 0
+		emission_rate	5
+		position	0 0.3 0
+
+		velocity_min	0.1
+		velocity_max	0.3
+
+		time_to_live_min	0.2
+		time_to_live_max	0.5
+		duration	0
+		
+		width	1
+		height	0
+		depth	1
+	}
+
+	affector ColourFader
+	{
+		red	0
+		green	0
+		blue	0.5
+		alpha	-0.3
+	}
+
+	affector Scaler
+	{
+		rate	0.85
+	}
+	
+		affector LinearForce
+	{
+		force_vector 1 1 0
+		force_application add
+	}
+	
+}
+
+particle_system r
+{
+	quota	1000
+	material	r
+	particle_width	0.3
+	particle_height	0.3
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Box
+	{
+		angle	2
+		colour_range_start	0.5 0.8 0.0 1
+		colour_range_end	0.4 0.4 0.4 0
+		direction	0 1 0
+		emission_rate	15
+		position	0 0 0
+
+		velocity_min	0.1
+		velocity_max	0.3
+
+		time_to_live_min	0.2
+		time_to_live_max	0.5
+		duration	0.05
+		
+		width	1
+		height	0
+		depth	1
+	}
+
+	affector ColourFader
+	{
+		red	0.4
+		green	0.5
+		blue	0
+		alpha	-0.3
+	}
+
+	affector Scaler
+	{
+		rate	0.85
+	}
+	
+		affector LinearForce
+	{
+		force_vector 1 1 0
+		force_application add
+	}
+	
+}

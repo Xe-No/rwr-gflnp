@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="default_common.character">
+
+	<comment key="We surrender!" />
+	<comment key="We surrender!" text="Don't shoot!" />
+	<comment key="We surrender!" text="We give up!" />
+	<comment key="We surrender!" text="This is not happening.." />
+	<comment key="We surrender!" text="NOOOO!!" />
+	<comment key="We surrender!" text="Where did we go so wrong?.." />
+	<comment key="We surrender!" text="" />
+	<comment key="We surrender!" text="" />
+	<comment key="We surrender!" text="" />
+	<comment key="We surrender!" text="" />
+	<comment key="We surrender!" text="" />
+
+	<comment key="Medic!" text="HELP ME DAMNIT!" />     
+	<comment key="Medic!" text="I'M DYING HERE!" /> 
+	<comment key="Medic!" text="HELP!" /> 
+	<comment key="Medic!" text="DON'T LEAVE ME BEHIND!" />
+	<comment key="Medic!" text="I NEED HELP!" />
+	<comment key="Medic!" text="GET ME UP!" /> 
+	<comment key="Medic!" text="SOMEBODY HELP!" /> 
+	<comment key="Medic!" text="I NEED A MEDIC HERE!" /> 
+	<comment key="Medic!" text="BLEEDING OUT, HELP!" />
+	<comment key="Medic!" text="GET ME OUT OF HERE!" /> 
+ 
+
+	<comment key="I feel good!" text="Saved my life here, dude!" />
+	<comment key="I feel good!" text="I owe you one!" /> 
+	<comment key="I feel good!" text="Phew, had my whole life flash before my eyes just now." /> 
+	<comment key="I feel good!" text="Gonna live another day, thanks!" />
+	<comment key="I feel good!" text="Still kicking!" /> 	
+
+	<comment key="Reloading" text="Cover me!" />
+	<comment key="Reloading" text="Changing mags!" />
+	<comment key="Reloading" text="Swapping magazines!" />
+	<comment key="Reloading" text="Reloading!" />
+	<comment key="Reloading" text="Gotta reload!" /> 
+	<comment key="Reloading" text="" />
+	<comment key="Reloading" text="" />
+	<comment key="Reloading" text="" />
+	<comment key="Reloading" text="" />
+	<comment key="Reloading" text="" />
+
+	<comment key="Hmm, no signal" text="It doesn't work!" />
+	<comment key="Hmm, no signal" text="No signal here!" />
+	<comment key="Hmm, no signal" text="Can't reach 'em!" />
+
+	<comment key="squad chat, not in squad" text="I'm not in a player squad" />
+
+	<comment key="Hey, wait up" text="Lemme in!" />
+	<comment key="Hey, wait up" text="Wait on me!" />  
+	<comment key="Hey, wait up" text="Pick me up!" />  
+	
+	<comment key="Quickly!" text="MOVE!" />
+	<comment key="Quickly!" text="LEG IT!" />
+	<comment key="Quickly!" text="GET GOING!" />
+
+	<comment key="Buzz off" text="Bugger off." />
+	<comment key="Buzz off" text="Stop it." />
+	<comment key="Buzz off" text="Scram." />
+
+	<comment key="Step out, kid" text="Get out." />
+	<comment key="Step out, kid" text="Get out, now." />
+	<comment key="Step out, kid" text="Out!" />
+
+	<comment key="hostile vehicle takeover" text="WHAT THE?!" />
+	<comment key="hostile vehicle takeover" text="THE HELL?!" /> 
+	<comment key="hostile vehicle takeover" text="OH COME ON!" />    
+	
+	<comment key="Can't respawn - the last base is under attack" />
+	<comment key="Can't respawn - spawning is locked" />
+
+	<comment key="Hmm.. not enough room here" text="Can't place that here." />
+	<comment key="Hmm.. not enough room here" text="It doesn't fit." />
+	<comment key="Hmm.. not enough room here" text="Just can't fit that in." />
+
+	<comment key="I'm outta here" text="I'm outta here!" />
+	<comment key="I'm outta here" text="Let's get out of here." />
+	<comment key="I'm outta here" text="Get the hell outta here!" />  
+
+	<comment key="Good job, soldiers" text="Great work!" />
+	<comment key="Good job, soldiers" text="Well done!" />
+	<comment key="Good job, soldiers" text="Awesome!" />
+	<comment key="Good job, soldiers" text="That's how it's done!" />
+	<comment key="Good job, soldiers" text="And that's that done." />
+	<comment key="Good job, soldiers" text="" />
+	<comment key="Good job, soldiers" text="" />
+	<comment key="Good job, soldiers" text="" />
+
+	<comment key="Open fire" text="Fire!" />
+	<comment key="Open fire" text="Fire at will!" />
+	<comment key="Open fire" text="I see 'em!" />
+	<comment key="Open fire" text="Light 'em up!" />
+	<comment key="Open fire" text="Take them out!" />
+
+	<comment key="Lone leader, open fire" text="" />
+
+	<comment key="fire opened, weapon tag = sniper" text="GET YOU HEADS DOWN!" />
+	<comment key="fire opened, weapon tag = sniper" text="SNIPER! KEEP LOW!" />
+	<comment key="fire opened, weapon tag = sniper" text="GET THE HELL DOWN!" />
+	<comment key="fire opened, weapon tag = sniper" text="THERE'S A SNIPER!" />
+	<comment key="fire opened, weapon tag = sniper" text="SNIPER!" />
+
+	<comment key="grenade alert, grenade tag = grenade" text="OH SHIT GRENADE!" />
+	<comment key="grenade alert, grenade tag = grenade" text="GRENADE!" />
+	<comment key="grenade alert, grenade tag = grenade" text="RUN!" />
+	<comment key="grenade alert, grenade tag = grenade" text="GET DOWN!" />
+	<comment key="grenade alert, grenade tag = grenade" text="THAT'S A LIVE ONE!" />
+
+	<comment key="grenade alert, grenade tag = flashbang" text="COVER YOUR EARS!" />
+	<comment key="grenade alert, grenade tag = flashbang" text="LOOK AWAY!" />
+	<comment key="grenade alert, grenade tag = flashbang" text="THAT'S A FLASHBANG!" />
+	<comment key="grenade alert, grenade tag = flashbang" text="COVER YOUR EYES!" />
+	<comment key="grenade alert, grenade tag = flashbang" text="FLASHBANG!" />
+
+	<comment key="grenade alert, grenade tag = rocket" text="RPG RPG!" />
+	<comment key="grenade alert, grenade tag = rocket" text="GET DOWN!" />
+	<comment key="grenade alert, grenade tag = rocket" text="ROCKET!" />
+	<comment key="grenade alert, grenade tag = rocket" text="SHIT!" />
+	<comment key="grenade alert, grenade tag = rocket" text="DOWN, NOW!" />
+
+	<comment key="enemy not seen, area alerted" text="They're around here somewhere.." />
+	<comment key="enemy not seen, area alerted" text="Eyes open!" />
+	<comment key="enemy not seen, area alerted" text="Stay on your guard!" />
+	<comment key="enemy not seen, area alerted" text="Don't let them get a drop on you." />
+	<comment key="enemy not seen, area alerted" text="Stay frosty!" />
+
+	<comment key="Lone leader, enemy not seen, area alerted" text="" />
+
+	<comment key="leader, enemy not seen, taking suppressed fire" text="Scatter!" />
+	<comment key="leader, enemy not seen, taking suppressed fire" text="Take cover!" />
+	<comment key="leader, enemy not seen, taking suppressed fire" text="Find cover!" />
+	<comment key="leader, enemy not seen, taking suppressed fire" text="Don't stay in the open!" />
+	<comment key="leader, enemy not seen, taking suppressed fire" text="No visual!" />
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Under fire!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Can't get a visual!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="I don't see 'em!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Where?!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="What the?!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="" />
+
+	<comment key="enemy seen" text="Here they are!" />
+	<comment key="enemy seen" text="That's a visual!" />
+	<comment key="enemy seen" text="Got a visual!" />
+	<comment key="enemy seen" text="I see them!" />
+	<comment key="enemy seen" text="There!" />
+
+	<comment key="enemy seen, vehicle tag = tank" text="TAAANK!" /> 
+	<comment key="enemy seen, vehicle tag = tank" text="RUN FOR YOUR LIVES!"/>
+	<comment key="enemy seen, vehicle tag = tank" text="TAKE IT OOOUUUT!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="IS THAT A FUCKING TANK?!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="SHIT!" />      
+  
+ 	<comment key="enemy seen, vehicle tag = apc" text="Enemy APC!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="That's an APC!" />  
+ 	<comment key="enemy seen, vehicle tag = apc" text="APC! Take it out!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="Get some cover, APC incoming!" />
+	<comment key="enemy seen, vehicle tag = apc" text="APC!" /> 
+
+ 	<comment key="enemy seen, vehicle tag = truck" text="Enemy truck." />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="That's a truck." />  
+ 	<comment key="enemy seen, vehicle tag = truck" text="Get rid of that truck." />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="Somebody take that truck down." />
+	<comment key="enemy seen, vehicle tag = truck" text="Open up on that truck!" /> 	
+  
+
+	<comment key="enemy not seen, taking suppressed fire" text="Where are they?!" />
+	<comment key="enemy not seen, taking suppressed fire" text="Can't see 'em!" />
+	<comment key="enemy not seen, taking suppressed fire" text="Taking fire!" />
+	<comment key="enemy not seen, taking suppressed fire" text="Under fire!" />
+	<comment key="enemy not seen, taking suppressed fire" text="No visual!" />
+
+	<comment key="Waiting for reinforcements" text="What's taking them so long?" />
+	<comment key="Waiting for reinforcements" text="It's time.." />
+	<comment key="Waiting for reinforcements" text="Hey, catch up!" />
+	<comment key="Waiting for reinforcements" text="Can you go any slower?" />
+	<comment key="Waiting for reinforcements" text="Move your asses!" />
+
+	<comment key="Hold on!" text="Hang tight!" />
+	<comment key="Hold on!" text="Don't you die on me!" />  
+	<comment key="Hold on!" text="I'm coming!" />  
+	<comment key="Hold on!" text="Cover me!" />
+	<comment key="Hold on!" text="Coming!" />
+
+	<comment key="Move out" text="Let's move!" />
+	<comment key="Move out" text="Let's go!" />
+	<comment key="Move out" text="Time to go!" />
+	<comment key="Move out" text="Enough lollygagging, advance!" />
+	<comment key="Move out" text="We got no time to lose, form up!" />
+
+	<comment key="All quiet here" text="Ain't seeing anything." />
+	<comment key="All quiet here" text="All clear." />
+	<comment key="All quiet here" text="Got nothing here." />
+	<comment key="All quiet here" text="All quiet." />
+	<comment key="All quiet here" text="Clear!" /> 
+	<comment key="All quiet here" text="Wish I could go back home.." />
+	<comment key="All quiet here" text="I miss my family.." />
+	<comment key="All quiet here" text="I wonder how's my son right now?.." />
+	<comment key="All quiet here" text="Hope I don't forget about that beer I owe him.." />
+	<comment key="All quiet here" text="What to do, what to do?.." />
+	
+	<comment key="Yes sir" text="Will do!" />
+	<comment key="Yes sir" text="Copy!" />
+	<comment key="Yes sir" text="On it!" />
+	<comment key="Yes sir" text="Yessir!" />
+	<comment key="Yes sir" text="Gotcha!" />
+	<comment key="Yes sir" text="That's a copy!" />
+	<comment key="Yes sir" text="Solid copy!" />
+	<comment key="Yes sir" text="Sure thing!" />
+	<comment key="Yes sir" text="Done like dinner!" />
+	<comment key="Yes sir" text="Affirmative!" />
+
+	<comment key="Uh, I can't drive this thing" text="Uhh?" />
+	<comment key="Uh, I can't drive this thing" text="What?" />
+	<comment key="Uh, I can't drive this thing" text="Ehh?.." />
+	<comment key="Uh, I can't drive this thing" text="Damnit." />
+	<comment key="Uh, I can't drive this thing" text="Sorry!" />
+	<comment key="Uh, I can't drive this thing" text="My bad!" />
+	<comment key="Uh, I can't drive this thing" text="Come on!" />
+	<comment key="Uh, I can't drive this thing" text="What the?.." />
+	<comment key="Uh, I can't drive this thing" text="Crap!" />
+	<comment key="Uh, I can't drive this thing" text="Help!" />
+
+	<comment key="Waiting for squad" text="Get in!" />
+	<comment key="Waiting for squad" text="Hop in!" />
+	<comment key="Waiting for squad" text="Move!" />
+	<comment key="Waiting for squad" text="Faster!" />
+	<comment key="Waiting for squad" text="Get a move on!" />
+
+	<comment key="Shield up" text="Get behind me!" />
+	<comment key="Shield up" text="How's that, huh?" />
+	<comment key="Shield up" text="Whatcha gonna do now?" />
+	<comment key="Shield up" text="Coming through!" />
+	<comment key="Shield up" text="Outta the way!" />
+
+	<comment key="overencumbered" text="" /> 
+
+	<comment key="Where to, chief?" text="" />
+
+	<comment key="celebrating" text="It's over!" />
+	<comment key="celebrating" text="Still alive!" />
+	<comment key="celebrating" text="Still going!" />
+	<comment key="celebrating" text="Woohoo!" />
+	<comment key="celebrating" text="HELL YEAH!" />
+	<comment key="celebrating" text="SUCK IT!" />
+	<comment key="celebrating" text="Can we take their guns now?" />
+	<comment key="celebrating" text="Liberation, yeah!" />
+	<comment key="celebrating" text="AMERICA, FUCK YEAH!" />
+	<comment key="celebrating" text="And that's the day." />
+
+	<comment key="about to drive over a friendly" text="OUTTA THE WAY!" />
+	<comment key="about to drive over a friendly" text="LOOK OUT!" />
+	<comment key="about to drive over a friendly" text="HEY!" />
+	<comment key="about to drive over a friendly" text="WHAT THE HELL?!" />
+	<comment key="about to drive over a friendly" text="MOVE!" />
+
+    <comment key="this is as close as i can get" text="" />
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Where did Johnny go?" />
+		<comment text="No idea." />
+		<comment text="Oh well!" />
+	</dialogue>
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="What's the plan?" />
+		<comment text="Same thing as always." />
+		<comment text="Yeah, figured out as much." />
+	</dialogue>
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="What are we doing again?" />
+		<comment text="No idea, to be honest." />
+		<comment text="Just shoot things, I guess." />
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Got any cigs?" />
+		<comment text="Yeah, got a few, there ya go." />
+		<comment text="Appreciated." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Are we going anywhere anytime soon?" />
+		<comment text="Don't think so." />
+		<comment text="Dangit." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="How's your family doing?" />
+		<comment text="No idea, haven't heard from them in a while." />
+		<comment text="Yeah, I miss my family too.." />
+	</dialogue>
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Should we worry about the speed limit?" />
+		<comment text="Really? In the middle of a warzone?" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="How did you even get your driving license?" />
+		<comment text="Cash does the job, y'know." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Should we maybe sing a song?" />
+		<comment text="Oh shut up!" />
+	</dialogue>
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck" >
+		<comment text="Kinda feels like we're an easy target right now.." />
+		<comment text="We are, sir." />    
+	</dialogue> 
+
+	<dialogue key="vehicle dialogue 2 men tag=truck" >
+		<comment text="This truck feels bigger than it is." />
+		<comment text="I'm sure the ones targeting us think the same thing." /> 
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck" >
+		<comment text="Shouldn't we be driving a car instead?" />
+		<comment text="Too late now." />
+		<comment text="Oh well!" />    
+	</dialogue>          
+
+	<dialogue key="vehicle dialogue 2 men tag=campfire">
+		<comment text="" />
+		<comment text="" />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="Be on a lookout for AT infantry." />
+		<comment text="Sir yes sir!" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="Never felt better any, y'know?" />
+		<comment text="I know, right?" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="Can't wait to run some doll over.." />
+		<comment text="Oh the sound they make!" />
+	</dialogue>  
+
+</character>

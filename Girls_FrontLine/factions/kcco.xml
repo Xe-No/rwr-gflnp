@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction name="KCCO" color="0.0 0.4 0.1" firstnames_file="kcco_class.name" lastnames_file="serial.name" chat_icon_filename="ussr_chat_soldier.png" chat_icon_commander_filename="ussr_chat_commander.png" campaign_completion_icon_filename="campaign_win_2.png" radio_queue_size="3">
+	<rank xp="0.0" name="Private">
+		<hud_icon filename="hud_rank0.png" />
+	</rank>  
+	<rank xp="0.05" name="Private 1st Class">
+		<hud_icon filename="hud_rank1.png" />    
+	</rank>
+	<rank xp="0.1" name="Corporal">
+		<hud_icon filename="hud_rank2.png" />
+	</rank>
+	<rank xp="0.2" name="Sergeant">
+		<hud_icon filename="hud_rank3.png" />
+	</rank>
+	<rank xp="0.3" name="Staff Sergeant">
+		<hud_icon filename="hud_rank4.png" />
+	</rank>
+	<rank xp="0.4" name="Staff Sergeant 1st Class">
+		<hud_icon filename="hud_rank5.png" />
+	</rank>
+	<rank xp="0.6" name="2nd Lieutenant">
+		<hud_icon filename="hud_rank6.png" />
+	</rank>
+	<rank xp="0.8" name="Lieutenant">
+		<hud_icon filename="hud_rank7.png" />
+	</rank>
+	<rank xp="1.0" name="Captain">
+		<hud_icon filename="hud_rank8.png" />
+	</rank>
+
+	<soldier name="default" spawn_score="0.0">
+		<character filename="kcco_android.character" />
+		<ai filename="default.ai" />
+		<models file="kcco.models" />
+		<!-- <models file="extra_soldier.models" /> -->
+		<!-- <models file="extra_costume.models" /> -->
+
+		<resources file="kcco.resources" />
+		<resources file="common_vehicles.resources" />
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="0" probability="0.2" />	
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="80.0" max="300.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.45" />
+		</attribute_config>
+	</soldier>
+
+	<!-- <soldier name="default_ai" spawn_score="0.01" copy_from="default">
+	</soldier> -->
+步兵单位:
+圣盾（装甲）
+牝鹿（装甲 连射）RF
+
+独眼巨人AR 下挂GL
+独眼巨人SG 
+
+肯陶罗斯/弓兵
+
+九头蛇
+
+
+载具单位/建筑：
+奎乌			mbt位
+九头蛇（履带） mbt位备选
+提丰			ifv位
+btr 		apc位
+前线纳米组装工厂
+侦查中枢
+
+电台支援：
+
+徐进弹幕
+空降侦察中枢
+空降前线纳米组装工厂
+
+基础指定
+	<soldier name="dactyl" spawn_score="0.02" >
+		<character filename="kcco_android.character" />
+		<ai filename="eod.ai" />
+		<model file="ks_dactyl.xml" />
+		<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
+			<weapon key='dactyl.weapon' enabled="1"/>
+			<carry_item key='base_smg.carry_item' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.3" />
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="1" min="10.0" max="50.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.2" max="0.3" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="pathfinder" spawn_score="0.1" lastnames_file="serial.name" >
+		<character filename="drone.character" />
+		<!-- <character filename="default.character" /> -->
+		<ai filename="suicide.ai" />
+		<model filename="ks_pathfinder.xml" />
+
+		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1" clear_carry_items="1" >
+			<weapon key='pathfinder.weapon' />
+			<projectile key='selfstun.projectile' />
+			<carry_item key='ugv.carry_item' />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="0" probability="0.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp"><attribute weight="1.0" min="0.0" max="0.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="0.02" max="0.02" /></attribute_config>
+	</soldier>
+
+	<soldier name="aegis" spawn_score="0.7" >
+		<character filename="kcco_android.character" />
+		<ai filename="eod.ai" />
+		<models file="kcco.models" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='aegis_shield.weapon' />
+			<carry_item key="vest3.carry_item" />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='molotov.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.5" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="300.0" max="500.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.1" max="0.6" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="commando" spawn_score="7" copy_from="default">
+		<character filename="kcco_android.character" />
+		<ai filename="default.ai" />
+		<models file="kcco.models" />
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="gw_an94_f.weapon" />
+			<weapon key="ak103.weapon" />
+			<weapon key="gw_ak12.weapon" />
+			<weapon key="ak47.weapon" />
+			<weapon key="rw_ak74m.weapon" />
+			<weapon key="ak47_ai_gl.weapon" />
+			<weapon key="ak47_ai.weapon" />
+			<weapon key="rw_pmm.weapon" />
+			<weapon key="aek_919k.weapon" />
+			<weapon key="rw_skorpion.weapon" />
+			<weapon key="sawnoff.weapon" />
+			<weapon key="beretta_93r.weapon" />  
+			<weapon key="rpg32.weapon" />  
+			<weapon key="medikit.weapon" />  
+			<carry_item key="vest1.carry_item" />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='molotov.projectile' enabled="1" />
+			<projectile key='impact_grenade.projectile' enabled="1" />      
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.3" />		
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.2" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="0.0" max="5.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.6" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="medic" spawn_score="1" copy_from="commando">
+		<character filename="kcco_android.character" />		
+		<ai filename="medic.ai" />
+		<models file="kcco.models" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="gw_an94_f.weapon" />
+			<weapon key="gw_ak12.weapon" />
+			<weapon key="ak47.weapon" />
+			<weapon key="ak47_ai_gl.weapon" />
+			<weapon key="ak47_ai.weapon" />
+			<weapon key="rw_ak74m.weapon" />
+			<weapon key='medikit.weapon' />
+			<carry_item key="vest1.carry_item" />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='molotov.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.2" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="0.0" max="5.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.1" max="0.6" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="at" spawn_score="1.2" copy_from="commando">
+		<character filename="kcco_android.character" />
+		<ai filename="at.ai" />
+		<models file="kcco.models" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="gw_an94.weapon" />
+			<weapon key="gw_ak12.weapon" />
+			<weapon key="ak47.weapon" />
+			<weapon key="ak47_ai_gl.weapon" />
+			<weapon key="ak47_ai.weapon" />
+			<weapon key="rw_ak74m.weapon" />
+			<weapon key='rpg-7.weapon' />
+			<weapon key='rpg32.weapon' />
+			<weapon key='smaw.weapon' />
+			<carry_item key="vest1.carry_item" />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.2" />
+			<carry_item key='redstar.carry_item' />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="300.0" max="500.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.1" max="0.6" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="mg" spawn_score="1.5" copy_from="commando">
+		<character filename="kcco_android.character" />
+		<ai filename="mg.ai" />
+		<models file="kcco.models" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="pkm.weapon" />
+			<carry_item key="vest1.carry_item" />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='molotov.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.3" />
+			<weapon key='handflag.weapon' />
+			<carry_item key='redstar.carry_item' />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="300.0" max="500.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.1" max="0.6" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="mg2" spawn_score="0.7" copy_from="commando">
+		<character filename="kcco_android.character" />
+		<ai filename="mecha.ai" />
+		<models file="kcco.models" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='cerynitis.weapon' />
+			<carry_item key="vest2.carry_item" />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='molotov.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.5" />
+			<weapon key='handflag.weapon' />
+			<carry_item key='redstar.carry_item' />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="300.0" max="500.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.1" max="0.6" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="mg3" spawn_score="0.3">
+		<character filename="kcco_hydra.character" />
+		<ai filename="mecha.ai" />
+		<models file="kcco.models" />
+		<resources file="hydra.resources" />
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="1" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="300.0" max="500.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="10" max="100" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="aa02" spawn_score="0.04">
+		<character filename="kcco_hydra.character" />
+		<ai filename="mecha.ai" />
+		<models file="kcco.models" />
+		<resources file="aa02.resources" />
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="1" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="300.0" max="500.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="10" max="100" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="aa02s" spawn_score="0.001">
+		<character filename="aa02s.character" />
+		<ai filename="mecha.ai" />
+		<models file="kcco.models" />
+		<resources file="aa02s.resources" />
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="1" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="300.0" max="500.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="10" max="100" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="orthrus" spawn_score="0.5" squad_size_xp_cap="0.0" >
+		<character filename="orthrus.character" />
+		<ai filename="dog.ai" />
+		<models file="kcco.models" />
+
+		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1">
+			<weapon key='orthrus.weapon' />
+			<!-- <weapon key='dog_heal.weapon' /> -->
+			<carry_item key='vest1.carry_item' />
+			<carry_item key='vest2.carry_item' />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+	</soldier>	
+
+
+
+	<soldier name="para" spawn_score="0">
+		<character filename="kcco_android.character" />
+		<ai filename="jugger.ai" />
+		<models file="kcco.models" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='rw_rpk74.weapon'/>
+			<weapon key='rw_rpk16.weapon' />
+			<weapon key='tkb059.weapon' />
+            <carry_item key='vestjugger.carry_item' />
+			<projectile key='stun_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="5.0" max="15.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="300.0" max="400.0" />
+		</attribute_config>
+	</soldier>   
+
+	<soldier name="medic2" spawn_score="0.002">
+		<character filename="kcco_android.character" />
+		<ai filename="jugger.ai" />
+		<models file="kcco.models" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='rw_rpk74.weapon'/>
+			<weapon key='rw_rpk16.weapon' />
+			<weapon key='tkb059.weapon' />
+            <carry_item key='vestjugger.carry_item' />
+            <projectile key='molotov.projectile' enabled="1" />
+			<projectile key='strike_marker.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+			<weapon key='handflag.weapon' />
+			<carry_item key='redstar.carry_item' />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="5.0" max="15.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="500.0" max="1000.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="sharp shooter" spawn_score="0.05" squad_size_xp_cap="0.0" >
+		<character filename="kcco_android.character" />
+		<ai filename="sniper.ai" />
+		<models file="kcco.models" />
+
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="gw_svd.weapon" />
+			<weapon key="rw_skorpion.weapon" />
+			<weapon key="aek_919k.weapon" />
+			<carry_item key='vest2.carry_item' />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.1" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1" min="0.6" max="1.2" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1" min="200.0" max="500.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="sharp shooter elite" spawn_score="0.05" squad_size_xp_cap="0.0" >
+		<character filename="kcco_android.character" />
+		<ai filename="sniper.ai" />
+		<models file="kcco.models" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="lahti_l39.weapon" />
+			<weapon key="pb.weapon" />
+			<carry_item key='vest3.carry_item' />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+			<projectile key='impact_grenade.projectile' enabled="1" />
+			<projectile key='molotov.projectile' enabled="1" />
+			<projectile key='stun_grenade.projectile' enabled="1" />
+
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.1" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1" min="0.6" max="1.2" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1" min="800.0" max="800.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="lone wolf" spawn_score="0.07" squad_size_xp_cap="0.0">
+		<character filename="kcco_android.character" />
+		<ai filename="lonewolf.ai" />
+		<models file="kcco.models" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="centaurus_bow.weapon" />
+			<carry_item key="camouflage_suit.carry_item" />
+			<projectile key='stun_grenade.projectile' enabled="1" />
+			<weapon key='handflag.weapon' />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.6" max="1.2" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1000.0" max="1000.0" />
+		</attribute_config>
+	</soldier>	
+
+
+	<soldier name="eod" spawn_score="0.1" squad_size_xp_cap="0.0">
+		<character filename="ru.character" />
+		<ai filename="eod.ai" />
+		<!-- <model file="ks_human_eod.xml" /> -->
+		<model file="ks_santa_ye.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key='gw_usas12.weapon' />
+			<weapon key='spas-12.weapon' />
+			<weapon key='benelli_m4.weapon'/>
+			<weapon key='gw_sat8.weapon'/>
+            <weapon key='ns2000.weapon'/>
+            <weapon key='riot_shield.weapon' />
+            <carry_item key='eodvest.carry_item' />
+			<projectile key='stun_grenade.projectile' enabled="1" />
+			<projectile key='molotov.projectile' enabled="1" />
+			<weapon key='handflag.weapon' />
+			<carry_item key='redstar.carry_item' />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.2" max="5.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="700.0" max="700.0" />
+		</attribute_config>
+	</soldier> 
+
+
+	<soldier name="prisoner" spawn_score="0.0">
+		<character filename="kcco_android.character" />
+		<ai filename="default.ai" />
+		<model filename="soldier_prison.xml" />
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="ak47_ai_gl.weapon" />
+			<weapon key="ak47_ai.weapon" />
+			<weapon key="rw_ak74m.weapon" />   
+			<weapon key="rw_cb98.weapon" />
+			<weapon key="gw_svd.weapon" />  
+			<weapon key="gw_pkp.weapon" />  
+			<weapon key="pkm.weapon" />  
+			<weapon key="rpg-7.weapon" />  
+			<weapon key="medikit.weapon" />
+			<weapon key="qbs-09.weapon" />
+			<weapon key="ak47.weapon" />
+			<weapon key="gw_ak12.weapon" />
+			<weapon key="aks74u.weapon" />
+			<weapon key="gw_an94_f.weapon" />
+			<projectile key='molotov.projectile' enabled="1" />
+			<projectile key='hand_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="1" probability="0.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="80.0" max="300.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.45" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="supply" spawn_score="0.0">
+		<resources file="supply_common.resources" />
+		<resources file="supply_brown.resources" />
+
+		<!-- low XP, likely to join player squad -->
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>    
+
+	<soldier name="supply_hg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_hg.resources"/>
+	</soldier>  
+	<soldier name="supply_rf" spawn_score="0.0" copy_from="default">
+		<resources file="supply_rf.resources"/>
+	</soldier> 
+	<soldier name="supply_ar" spawn_score="0.0" copy_from="default">
+		<resources file="supply_ar.resources"/>
+	</soldier> 
+	<soldier name="supply_smg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_smg.resources"/>
+	</soldier> 
+	<soldier name="supply_mg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_mg.resources"/>
+	</soldier> 
+	<soldier name="supply_sg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_sg.resources"/>
+	</soldier> 
+	<soldier name="supply_new" spawn_score="0.0" copy_from="default">
+		<resources file="supply_new.resources"/>
+	</soldier> 
+	<soldier name="supply_skin" spawn_score="0.0" copy_from="default">
+		<resources file="supply_skin.resources"/>
+	</soldier>
+	<soldier name="supply_command_truck" spawn_score="0.0" copy_from="default">
+		<resources file="supply_command_truck.resources"/>
+	</soldier>  
+
+	<soldier name="supply_medic" spawn_score="0.0">
+		<resources file="supply_medic.resources" />
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="icecream" spawn_score="0.0">
+		<resources file="icecream.resources" />
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>     
+
+   
+</faction>
+

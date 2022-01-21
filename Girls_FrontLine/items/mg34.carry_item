@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item filename="base_heavy_vest.carry_item" key="mg34" name="MG34 3/3" slot="1" transform_on_consume="mg34_1" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mg34_3.png" />  
+        <inventory encumbrance="4.0" price="10" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="1.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_heavy_vest.carry_item" key="mg34_1" name="MG34 2/3" slot="1" transform_on_consume="mg34_2" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mg34_2.png" />  
+        <inventory encumbrance="4.0" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_light_vest.carry_item" key="mg34_2" name="MG34 1/3" slot="1" transform_on_consume="mg34_3" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mg34_1.png" />  
+        <inventory encumbrance="4.0" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_none.carry_item" key="mg34_3" name="MG34 0/3" slot="1" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mg34_0.png" />  
+        <inventory encumbrance="4.0" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+</carry_items>

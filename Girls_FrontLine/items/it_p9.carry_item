@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="P9" key="it_p9.carry_item">
+    <hud_icon filename="it_p9.png" />
+    <inventory encumbrance="0.5" price="100.0" />
+
+    <model filename="it_p9.xml" />
+
+    <commonness value="3.0" in_stock="1" />
+</carry_item>

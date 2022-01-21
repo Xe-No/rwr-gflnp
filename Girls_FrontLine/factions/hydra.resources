@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_calls="1" clear_carry_items="1" clear_weapons="1" clear_grenades="1" clear_vehicles="1">
+            <weapon key='hydraii.weapon' />
+            <weapon key='hydraii_railgun_ai.weapon' />
+            <carry_item key="16lab_t4_bp.carry_item" />
+
+
+            <carry_item key="gift_box_1.carry_item" />
+            <carry_item key="gift_box_2.carry_item" />
+            <carry_item key="gift_box_3.carry_item" />
+            <carry_item key="gift_box_community_1.carry_item" />
+            <carry_item key="gift_box_community_2.carry_item" />
+            <carry_item key="halloween_box_1.carry_item" /> 
+            <carry_item key="gi_contract_tdoll.carry_item" /> 
+            <carry_item key="gi_contract_equip.carry_item" /> 
+            <carry_item key="gi_black_card.carry_item" /> 
+            
+            <carry_item key="it_gundam.carry_item" enabled="1"/>
+            <carry_item key="it_plashspeed.carry_item" enabled="1"/>
+            <carry_item key="it_2099.carry_item" enabled="1"/>
+            <carry_item key="it_engine_oil.carry_item" enabled="1"/>
+            <carry_item key="it_4080ti.carry_item" enabled="1"/>
+            <carry_item key="it_fire_control.carry_item" enabled="1"/>
+            <carry_item key="it_cpu.carry_item" enabled="1"/>
+
+
+            <projectile key='hand_grenade.projectile' enabled="1" />
+            <projectile key='molotov.projectile' enabled="1" />
+	
+	
+</resources>

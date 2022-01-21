@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="kf14_rocket.weapon">
+    <specification         
+        class="4" 
+        retrigger_time="10.0"
+        last_burst_retrigger_time="30.0"  
+        burst_shots="1"
+
+    accuracy_factor="0.8" 
+    sustained_fire_grow_step="1.2" 
+    sustained_fire_diminish_rate="0.6" 
+    sight_range_modifier="1.45"
+    ai_sight_range_modifier="0.75" 
+    magazine_size="-1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0" 
+    suppressed="0" 
+    name="KF41 rocket" 
+    
+    projectile_speed="100.0" 
+    slot="2" 
+    barrel_offset_3d="0 0 0"
+    projectiles_per_shot="2"
+    sight_height_offset="2.0" />
+    
+    <model mesh_filename="" texture_filename="" />
+    <hud_icon filename="hud_hornet.png" />
+    <commonness value="0.0" />
+
+    <ballistics curve_height="10" near_far_distance="0" speed_estimation_near="80.0" speed_estimation_far="80.0" max_speed="50.0" tweak_factor="1.8" randomness="0.5" />
+    <projectile file="wz550_hj9.projectile" >
+        <result class="blast" radius="3.0" damage="2.6" push="1.0" decal="1" faction_compare="not_equal"/>
+    </projectile>
+
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="heavy_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="10.0" />
+    <target_factors tag="apc" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />
+    <target_factors tag="light_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />   
+    <target_factors tag="defensive_at" distance="1.0" direction="0.0" squad_command="1.0" base_score="10.0" />
+    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />  <!-- important non combat player-only vehicles -->  
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="7.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <sound key="fire" fileref="wz550_hj9_shot.wav" volume="0.5" pitch_variety="0.0" />
+
+
+</weapon>

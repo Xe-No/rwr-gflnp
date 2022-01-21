@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="vestjugger.carry_item" name="Vest,Juggernaut" slot="1" transform_on_consume="vestjugger_2" time_to_live_out_in_the_open="150.0">
+        <hud_icon filename="hud_vestjugger.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="15" price="500" />
+
+        <model mesh_filename="vestjuggercrate.xml" />
+
+        <commonness value="1.0" in_stock="1" can_respawn_with="0" />
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-1.0" />
+        <modifier class="detectability" value="0.2" />
+        <modifier class="speed" value="-0.3" /> 
+    </carry_item>
+
+    <carry_item key="vestjugger_2" name="Vest,Juggernaut,90%" slot="1" transform_on_consume="vestjugger_3" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="hud_vestjugger_90.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="15" price="50" />
+
+        <model mesh_filename="vestjugger.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	<!-- death or wound -> stun only -->
+         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-1.0" />
+        <modifier class="detectability" value="0.2" />
+        <modifier class="speed" value="-0.3" /> 
+    </carry_item>
+
+    <carry_item key="vestjugger_3" name="Vest,Juggernaut,80%" slot="1" transform_on_consume="vestjugger_4" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="hud_vestjugger_80.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="15" price="50" />
+
+        <model mesh_filename="vestjugger.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-1.0" />
+        <modifier class="detectability" value="0.2" />
+        <modifier class="speed" value="-0.3" /> 
+    </carry_item>
+	
+    <carry_item key="vestjugger_4" name="Vest,Juggernaut,70%" slot="1" transform_on_consume="vestjugger_5" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="hud_vestjugger_70.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="15" price="50" />
+
+       <model mesh_filename="vestjugger.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	    <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.95" />
+        <modifier class="detectability" value="0.2" />
+        <modifier class="speed" value="-0.28" /> 
+    </carry_item>
+	
+    <carry_item key="vestjugger_5" name="Vest,Juggernaut,60%" slot="1" transform_on_consume="vestjugger_6" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="hud_vestjugger_60.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="15" price="20" />
+
+        <model mesh_filename="vestjugger.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	    <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.95" />
+        <modifier class="detectability" value="0.2" />
+        <modifier class="speed" value="-0.28" /> 
+    </carry_item>
+     
+    <carry_item key="vestjugger_6" name="Vest,Juggernaut,50%" slot="1" transform_on_consume="vestjugger_7" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="hud_vestjugger_50.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="15" price="20" />
+
+        <model mesh_filename="vestjugger.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="death" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.75" />
+        <modifier class="detectability" value="0.2" />
+        <modifier class="speed" value="-0.28" /> 
+    </carry_item>
+
+    <carry_item key="vestjugger_7" name="Vest,Juggernaut,40%" slot="1" transform_on_consume="vestjugger_8" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="hud_vestjugger_40.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="15" price="20" />
+
+        <model mesh_filename="vestjugger.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="death" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="hit_success_probability" value="-0.75" />
+        <modifier class="detectability" value="0.2" />
+        <modifier class="speed" value="-0.18" /> 
+    </carry_item>
+
+    <carry_item key="vestjugger_8" name="Vest,Juggernaut,30%" slot="1" transform_on_consume="vestjugger_9" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="hud_vestjugger_30.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="15" price="20" />
+
+        <model mesh_filename="vestjugger.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="death" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="death" />
+        <modifier class="hit_success_probability" value="-0.75" />
+        <modifier class="detectability" value="0.2" />
+        <modifier class="speed" value="-0.13" /> 
+    </carry_item>
+
+    <carry_item key="vestjugger_9" name="Vest,Juggernaut,20%" slot="1" transform_on_consume="vestjugger_10" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="hud_vestjugger_20.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="15" price="2" />
+
+        <model mesh_filename="vestjugger.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="death" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="death" />
+        <modifier class="hit_success_probability" value="-0.75" />
+        <modifier class="detectability" value="0.2" />
+        <modifier class="speed" value="-0.1" /> 
+    </carry_item>
+
+    <carry_item key="vestjugger_10" name="Vest,Juggernaut,destroyed" slot="1"  time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="hud_vestjugger_destroyed.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="15" price="1" />
+
+        <model mesh_filename="vestjugger.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="death" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="death" />
+        <modifier class="hit_success_probability" value="-0.75" />
+        <modifier class="detectability" value="0.2" />
+        <modifier class="speed" value="-0.1" /> 
+    </carry_item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</carry_items>

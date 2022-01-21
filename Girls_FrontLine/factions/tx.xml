@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction name="SF IMC" color="0.7 0.2 0.7" firstnames_file="sf_class.name" lastnames_file="serial.name" chat_icon_filename="tx_chat_soldier.png" chat_icon_commander_filename="tx_chat_commander.png" campaign_completion_icon_filename="campaign_win_0.png" radio_queue_size="3">
+	<!-- <rank filename="standard_rank.xml"> -->
+
+	<rank xp="0.0" name="R0 Combat-Doll">
+		<hud_icon filename="tx_0star.png" />
+	</rank>
+	<rank xp="0.1" name="R1 Combat-Doll">
+		<hud_icon filename="tx_1star.png" />
+	</rank>
+	<rank xp="1.0" name="R2 Combat-Doll">
+		<hud_icon filename="tx_2star.png" />
+	</rank>
+	<rank xp="10.0" name="R3 Combat-Doll">
+		<hud_icon filename="tx_3star.png" />
+	</rank>
+	<rank xp="100.0" name="R4 Combat-Doll">
+		<hud_icon filename="tx_4star.png" />
+	</rank>
+
+	<soldier name="default" spawn_score="0.0">
+        <character filename="gk_player.character">
+		</character>
+		<ai filename="default.ai" />
+		<models file="tx.models" />
+
+		
+		<resources file="common.resources" />
+		<resources file="tx.resources" />
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.15" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="0.9" min="80.0" max="300.0" />
+			<attribute weight="0.1" min="2000.0" max="4000.0" />
+		</attribute_config>
+			<attribute_config class="xp">
+			<attribute weight="1.0" min="0.1" max="2.00" />
+		</attribute_config>
+
+	</soldier>
+
+<!-- 	<soldier name="default_ai" spawn_score="1.0" copy_from="default">
+	</soldier> -->
+	<soldier name="ts_default" spawn_score="1.0" copy_from="default">
+	</soldier>
+
+	<soldier name="ts_elite" spawn_score="0.00" copy_from="default">
+		<ai filename="elite.ai" />
+	</soldier>
+
+非人形
+	DGL 歌利亚 	goliath
+	DSC 侦察者	scout
+	DRK 巡游者	prowler
+
+铁血杂兵
+	SMG	切割者 	ripper	
+	AR 	胡蜂 	vespid		
+	RF	猎鸥 	jaeger
+	MG	痛击者	striker	
+	GD	护卫者 	guard	
+
+高阶杂兵
+	SMG2
+	AR2
+	RF2
+	MG2
+
+精英
+	稻草人
+	刽子手
+<!-- 		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1">
+			<weapon key='tw_smg.weapon' />
+			<carry_item key='base_vest_smg.carry_item' />
+		</resources> -->
+-----------------T0 unit
+	<soldier name="ts_smg" spawn_score="0.4" firstnames_file="SF-SMG.name" lastnames_file="serial.name" copy_from="ts_default">
+		<resources clear_weapons="1" >
+			<weapon key="tw_smg.weapon" />
+			<carry_item key='base_smg_vest.carry_item'  />
+		</resources>
+	</soldier>
+
+	<soldier name="ts_ar" spawn_score="0.3" firstnames_file="SF-AR.name" lastnames_file="serial.name" copy_from="ts_default">
+		<resources clear_weapons="1" >
+			<weapon key="tw_ar.weapon" />
+			<carry_item key='base_ar_vest.carry_item'  />
+		</resources>
+	</soldier>
+
+	<soldier name="ts_rf" spawn_score="0.2" firstnames_file="SF-RF.name" lastnames_file="serial.name" copy_from="ts_default">
+		<resources clear_weapons="1" >
+			<weapon key="tw_rf.weapon" />
+			<carry_item key='base_rf_vest.carry_item'  />
+		</resources>
+	</soldier>
+
+	<soldier name="ts_mg" spawn_score="0.1" firstnames_file="SF-MG.name" lastnames_file="serial.name" copy_from="ts_default">
+		<resources clear_weapons="1" >
+			<weapon key="tw_mg.weapon" />
+			<carry_item key='base_mg_vest.carry_item'  />
+		</resources>
+	</soldier>
+
+	<soldier name="aegis" spawn_score="0.1" copy_from="ts_default">
+		<models file="tx.models" />
+		<resources clear_weapons="1" >
+			<weapon key='tw_aegis.weapon' />
+			<carry_item key='vest3.carry_item'  />
+		</resources>
+	</soldier>
+
+-----------------T1
+	<soldier name="ts_smg_swap" spawn_score="0.2" firstnames_file="SF-SMG.name" lastnames_file="serial.name" copy_from="ts_elite">
+		<resources clear_weapons="1">
+			<weapon key="tw_smg_swap.weapon" />
+			<carry_item key='base_ar_vest.carry_item'  />
+		</resources>
+	</soldier>
+
+	<soldier name="ts_ar_swap" spawn_score="0.15" firstnames_file="SF-AR.name" lastnames_file="serial.name" copy_from="ts_elite">
+		<resources clear_weapons="1" >
+			<weapon key="tw_ar_swap.weapon" />
+			<carry_item key='base_ar_vest.carry_item'  />
+		</resources>
+	</soldier>
+
+	<soldier name="ts_rf_swap" spawn_score="0.05" firstnames_file="SF-RF.name" lastnames_file="serial.name" copy_from="ts_elite">
+		<resources clear_weapons="1" >
+			<weapon key="tw_rf_swap.weapon" />
+			<carry_item key='base_ar_vest.carry_item'  />
+		</resources>
+	</soldier>
+
+
+	<soldier name="dragoon" spawn_score="0.1" firstnames_file="SF-MG.name" lastnames_file="serial.name" copy_from="ts_elite">
+		<resources clear_weapons="1" >
+			<weapon key="dragoon.weapon" />
+			<carry_item key='base_ar_vest.carry_item'  />
+		</resources>
+	</soldier>
+
+	<soldier name="ts_mg_swap" spawn_score="0.05" firstnames_file="SF-MG.name" lastnames_file="serial.name" copy_from="ts_elite">
+		<resources clear_weapons="1" >
+			<weapon key="tw_mg_swap.weapon" />
+			<carry_item key='base_ar_vest.carry_item'  />
+		</resources>
+	</soldier>
+
+
+
+-----------------Elite
+	<soldier name="ts_scarecrow" spawn_score="0.00" firstnames_file="SF-SP65.name" lastnames_file="serial.name" copy_from="ts_elite">
+		<resources clear_weapons="1" clear_carry_items="1">
+			<weapon key="tw_scarecrow.weapon" />
+			<carry_item key='base_ar_vest.carry_item'  />
+		</resources>
+		<attribute_config class="rp"><attribute weight="1.0" min="1000.0" max="3000.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="10.02" max="20.02" /></attribute_config>
+	</soldier>
+
+	<soldier name="ts_executioner" spawn_score="0.00" firstnames_file="SF-SP524.name" lastnames_file="serial.name" copy_from="ts_elite">
+		<resources clear_weapons="1" clear_carry_items="1">
+			<weapon key="tw_executioner_pistol.weapon" />
+			<weapon key="tw_executioner_sword.weapon" />
+			<carry_item key='base_ar_vest.carry_item'  />
+		</resources>
+		<attribute_config class="rp"><attribute weight="1.0" min="1000.0" max="3000.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="10.02" max="20.02" /></attribute_config>
+	</soldier>
+
+
+
+
+-------------------drone
+	<soldier name="ts_drk" spawn_score="0.05"  firstnames_file="SF-DRK.name" lastnames_file="serial.name" >
+		<!-- <character filename="drone.character" /> -->
+		<character filename="default.character" />
+		<ai filename="default.ai" >
+			<parameter class="uses_vehicles" value="0" />
+		</ai>
+		<model filename="ts_drk.xml" />
+
+		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1">
+			<weapon key='tw_drk.weapon' />
+			<projectile key='selfstun.projectile' />
+			<!-- <carry_item key='base_vest_mg.carry_item' /> -->
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.5" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp"><attribute weight="1.0" min="0.0" max="0.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="0.0" max="0.0" /></attribute_config>
+	</soldier>
+
+	<!-- scout -->
+	<soldier name="ts_dsc" spawn_score="0.1" firstnames_file="SF-DSC.name" lastnames_file="serial.name" >
+		<character filename="drone.character" />
+		<!-- <character filename="default.character" /> -->
+		<ai filename="default.ai" >
+		<parameter class="uses_vehicles" value="0" />
+		</ai>
+		<model filename="ts_dsc.xml" />
+
+		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1">
+			<weapon key='tw_dsc.weapon' />
+			<!-- <projectile key='selfstun.projectile' /> -->
+			<carry_item key='base_vest_smg.carry_item' />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="0" probability="0.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp"><attribute weight="1.0" min="0.0" max="0.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="0.02" max="0.02" /></attribute_config>
+	</soldier>
+
+
+	<soldier name="ant" spawn_score="0.2" firstnames_file="SF-DSC.name" lastnames_file="serial.name" >
+		<character filename="drone.character" />
+		<!-- <character filename="default.character" /> -->
+		<ai filename="default.ai" >
+		<parameter class="uses_vehicles" value="0" />
+		</ai>
+		<model filename="ts_ant.xml" />
+
+		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1">
+			<weapon key='ant.weapon' />
+			<carry_item key='base_vest_smg.carry_item' />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="0" probability="0.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp"><attribute weight="1.0" min="0.0" max="0.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="0.02" max="0.02" /></attribute_config>
+	</soldier>
+
+	goliath
+	<soldier name="ts_dgl" spawn_score="0.1" firstnames_file="SF-DGL.name" lastnames_file="serial.name" >
+		<character filename="drone.character" />
+		<!-- <character filename="default.character" /> -->
+		<ai filename="suicide.ai" />
+		<model filename="ts_dgl1.xml" />
+
+		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1" clear_carry_items="1" >
+			<weapon key='ugv.weapon' />
+			<projectile key='selfstun.projectile' />
+			<carry_item key='ugv.carry_item' />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="0" probability="0.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp"><attribute weight="1.0" min="0.0" max="0.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="0.02" max="0.02" /></attribute_config>
+	</soldier>
+
+
+基础指定
+
+
+	<soldier name="prisoner" spawn_score="0.0">
+		<character filename="gk.character" />
+		<ai filename="default.ai" />
+		<model filename="gs_soldier.xml" />
+		
+		<resources >
+			<weapon key="tw_smg.weapon" />
+			<carry_item key='base_hg_vest.carry_item' enabled="1" />
+			<projectile key='hand_grenade.projectile' enabled="1" />      
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="1" probability="0.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp"><attribute weight="0.3" min="80.0" max="300.0" /><attribute weight="0.7" min="0.0" max="0.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="0.0" max="0.45" /></attribute_config>
+	</soldier>
+
+	<soldier name="commando" spawn_score="0.0" copy_from="ts_default">
+	</soldier>
+
+	<soldier name="lone wolf" spawn_score="0.01" copy_from="ts_rf_swap">
+		<ai filename="lonewolf.ai" />
+	</soldier>
+
+
+
+	<soldier name="para" spawn_score="0.0" copy_from="ts_default">
+	</soldier>
+
+	<soldier name="medic" spawn_score="0.1" copy_from="ts_default">
+		<resources clear_weapons="1">
+			<weapon key="tw_smg.weapon" />
+      		<weapon key="medikit.weapon" />
+		</resources>
+	</soldier>
+
+	<soldier name="medic2" spawn_score="0.01" copy_from="ts_default">
+		<resources clear_weapons="1">
+			<weapon key="tw_smg.weapon" />
+      		<weapon key="medikit_ai_2.weapon" />
+		</resources>
+	</soldier>
+
+
+	<soldier name="supply" spawn_score="0.0">
+		<resources file="supply_common.resources" />
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="medic" spawn_score="0.0" copy_from="default">
+	</soldier>
+
+	<soldier name="supply_medic" spawn_score="0.0">
+		<resources file="supply_medic.resources" />
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="icecream" spawn_score="0.0">
+		<resources file="icecream.resources" />
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>  	
+
+
+</faction>
+	

@@ -1,0 +1,4 @@
+<command_aliases>
+	<alias name="init" command="start_script my_start_invasion.as media/packages/Girls_FrontLine"/>
+ 	<alias name="inva" command="start_script my_start_invasion.as media/packages/Girls_FrontLine"/>                  
+</command_aliases>

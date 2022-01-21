@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_calls="1" clear_carry_items="1">
+	<call key="paratroopers1.call" />
+	<call key="paratroopers2.call" />
+	<call key="paratroopers_medic.call" />
+
+	<call key="apc_1.call" />
+	<call key="tank.call" />
+	<call key="supply_quad.call" />
+	<call key="cover_drop.call" />
+	<call key="rubber_boat.call" />
+	<!-- <call key="squad_404.call" /> -->
+	<call key="squad_AR.call" />
+	<call key="squad_defy.call" />
+	<call key="strike_air.call" />
+	<call key="strike_2b14.call" />
+	<call key="artillery_105.call" />
+
+	<!-- vehicle -->
+    <vehicle key="tank_2.vehicle" />
+    <vehicle key="apc_2.vehicle" />
+    <vehicle key="cv9040c.vehicle" />
+ 	<vehicle key="btr80a.vehicle" />   
+ 	<vehicle key="matv.vehicle" />
+ 	<vehicle key="m113.vehicle" />
+
+Armory	
+	<weapon key="gw_98k.weapon" />
+	<weapon key="gw_9a91.weapon" />
+	<weapon key="gw_ak12.weapon" />
+	<weapon key="gw_ak12_s.weapon" />
+	<weapon key="gw_an94.weapon" />
+	<weapon key="gw_an94_f.weapon" />
+	<weapon key="gw_ar15.weapon" />
+    <weapon key="gw_ar15_sl.weapon" />
+	<weapon key="gw_fnfnc.weapon" />
+	<weapon key="gw_g11.weapon" />
+	<weapon key="gw_hk416.weapon" />
+	<weapon key="gw_hk416_sl.weapon" />
+	<weapon key="gw_m14.weapon" />
+	<weapon key="gw_m16a1.weapon" />
+	<weapon key="gw_m1873.weapon" />
+	<weapon key="gw_m2hb.weapon" />
+    <weapon key="gw_m2hb_n.weapon" />
+    <weapon key="gw_m4_sopmod_ii.weapon" />
+	<weapon key="gw_m4a1.weapon" />
+	<weapon key="gw_m9.weapon" />
+	<weapon key="gw_m99.weapon" />
+	<weapon key="gw_spas12.weapon" />
+	<weapon key="gw_ump45.weapon" />
+	<weapon key="gw_ump9.weapon" />
+	<weapon key="m1903.weapon" />
+	<weapon key="m1903_b.weapon" />
+	<weapon key="rw_ak74m.weapon" />
+	<weapon key="rw_ak74m_k.weapon" />
+
+	<weapon key="uw_m14ebr_sl.weapon" />
+
+
+	<!-- secondary -->
+	
+	<weapon key="gw_repair.weapon" />
+	<weapon key="gw_repair_em.weapon" />
+	<weapon key="gw_m4a1mod.weapon" />
+	<weapon key="gw_repair_q.weapon" />
+    <weapon key="claymore_resource.weapon" />
+	<!-- <weapon key="gw_BGM-71_deploy.weapon" /> -->
+
+    <projectile key="molotov.projectile" enabled="0"/> 
+    <projectile key="summon_antro.projectile" /> 
+    <projectile key="summon_antro5.projectile" /> 
+
+	<weapon key='binoculars.weapon' />    
+	<weapon key='cover_resource.weapon' />
+	<weapon key='m79.weapon' enabled="0" />
+	<weapon key='m72_law.weapon' />
+
+	<!-- disable original -->
+	<carry_item key="vest1.carry_item" enabled="0"/>     
+  	<carry_item key="vest2.carry_item" enabled="0"/> 
+  	<carry_item key="vest3.carry_item" enabled="0"/>
+	<carry_item key="vest_blackops.carry_item" enabled="0"/>	
+	<carry_item key="eodvest.carry_item" enabled="0"/> 
+	<carry_item key="camouflage_suit.carry_item" enabled="0"/>
+
+  	<carry_item key="base_hg_vest.carry_item" />
+  	<carry_item key="base_rf_vest.carry_item" />
+  	<carry_item key="base_ar_vest.carry_item" />
+  	<carry_item key="base_smg_vest.carry_item" />
+  	<carry_item key="base_mg_vest.carry_item" />
+  	<carry_item key="base_sg_vest.carry_item" />
+
+	<carry_item key="gi_contract_tdoll.carry_item" /> 
+	<carry_item key="gi_contract_equip.carry_item" /> 
+	<carry_item key="gi_black_card.carry_item" /> 
+
+	<carry_item key="dollars.carry_item" />
+	<carry_item key="dollars_300.carry_item" />
+	<carry_item key="gold_bar.carry_item" />
+	<carry_item key="gi_battle_report.carry_item" />
+
+	<carry_item key="xmas_box.carry_item" />
+	<carry_item key="token_box.carry_item" />
+
+	<carry_item key="suit_hutao.carry_item" />
+
+extra
+    <weapon key="gw_m4a1_mod_re.weapon" />
+    <weapon key="gw_ar15_mod_re.weapon" />
+    <weapon key="gw_ar15_mod_re_sl.weapon" />
+    <weapon key="gw_sop2_mod_re.weapon" />
+    <weapon key="gw_sop2_mod_re_gl.weapon" />
+    <weapon key="gw_supersass_mod_re.weapon" />
+    <weapon key="gw_supersass_mod_re_2.weapon" />
+
+
+    <weapon key="handflag.weapon" />
+    <carry_item key="redstar.carry_item" />
+
+re token
+	<projectile key="token_inori.projectile" />
+	<projectile key="token_luna2.projectile" />
+	<projectile key="token_naoto.projectile" />
+	<projectile key="token_hakuryu.projectile" />
+	<projectile key="token_252.projectile" />
+	<projectile key="token_benben_bw.projectile" />
+	<projectile key="token_blackrock.projectile" />
+	<projectile key="token_suzakuin_tsubaki.projectile" />
+	<projectile key="token_suzakuin_tsubaki_swim.projectile" />
+	<projectile key="token_katou_megumi.projectile" />
+	<projectile key="token_poi.projectile" />
+	<projectile key="token_orga.projectile" />
+	<projectile key="token_qswan1.projectile" />
+	<projectile key="token_86leina.projectile" />
+	<projectile key="token_chara_neko.projectile" />
+	<projectile key="token_remilia.projectile" />
+	<projectile key="token_elaina.projectile" />
+	<projectile key="token_shigure_summer.projectile" />
+	<projectile key="token_yuudachi.projectile" />
+	<projectile key="token_rumia.projectile" />
+	<projectile key="token_flandre.projectile" />
+	<projectile key="token_nazrin.projectile" />
+	<projectile key="token_luka_china.projectile" />
+	<projectile key="token_miku_china.projectile" />
+	<projectile key="token_luotianyi_china.projectile" />
+	<projectile key="token_koishi.projectile" />
+	<projectile key="token_rin.projectile" />
+	<projectile key="token_mingshi_arb.projectile" />
+
+</resources>

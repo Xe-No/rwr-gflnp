@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="AC-130 Fire mission" key="ac130_marker.call"
+      launch_comment="This is Hammer 1-1,arrving target area.">
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="strike_marker_1.projectile" 
+           instance_spread="0 0 0" 
+           common_spread="0 0 0"
+           initial_speed_to_target="50"
+           vertical_offset_at_spawn="1" 
+           launch_time="0.1"
+           spawn_time="0.1">
+      <sound class="spawn" fileref="ac130_105mm.wav" volume="0.7" />
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="ac130_40mm.projectile" 
+           instance_spread="0 0 2" 
+           common_spread="0 0 1"
+           initial_speed_to_target="50"
+           vertical_offset_at_spawn="40" 
+           launch_time="0.0"
+           spawn_time="1.0">
+     <sound class="spawn" fileref="ac130_40mm.wav" volume="0.25" />
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="ac130_40mm.projectile" 
+           instance_spread="0 1 2" 
+           common_spread="0 2 1"
+           initial_speed_to_target="50"
+           vertical_offset_at_spawn="40" 
+           launch_time="0.0"
+           spawn_time="1.0">
+     <sound class="spawn" fileref="ac130_40mm.wav" volume="0.25" />
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="ac130_40mm.projectile" 
+           instance_spread="0 3 0" 
+           common_spread="0 0 2"
+           initial_speed_to_target="50"
+           vertical_offset_at_spawn="40" 
+           launch_time="0.0"
+           spawn_time="1.0">
+     <sound class="spawn" fileref="ac130_40mm.wav" volume="0.25" />
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="ac130_40mm.projectile" 
+           instance_spread="0 2 0" 
+           common_spread="0 0 1"
+           initial_speed_to_target="50"
+           vertical_offset_at_spawn="40" 
+           launch_time="0.0"
+           spawn_time="1.0">
+     <sound class="spawn" fileref="ac130_40mm.wav" volume="0.25" />
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="ac130_40mm.projectile" 
+           instance_spread="0 0 1" 
+           common_spread="0 2 0"
+           initial_speed_to_target="50"
+           vertical_offset_at_spawn="40" 
+           launch_time="0.0"
+           spawn_time="1.0">
+     <sound class="spawn" fileref="ac130_40mm.wav" volume="0.25" />
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="ac130_105mm.projectile" 
+           instance_spread="0 0 0" 
+           common_spread="0 0 0"
+           initial_speed_to_target="50"
+           vertical_offset_at_spawn="40" 
+           launch_time="0.0"
+           spawn_time="1.01">
+	<sound class="spawn" fileref="shotout130.wav" volume="3.0" />
+    </round>
+
+
+
+    <hud_icon filename="hud_dollars_100.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.1" />
+    <inventory encumbrance="0.0" price="0.0" />
+
+</call>

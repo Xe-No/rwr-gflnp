@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Proj. MEME Box" key="meme_box.carry_item">
+    <hud_icon filename="ghs_box.png" />
+    <inventory encumbrance="0.5" buy_price="3333" sell_price="1.0" />
+
+    <model mesh_filename="ghs_box.mesh" />
+
+    <commonness value="0.00001" in_stock="1" />
+</carry_item>
+
+
+
+<!-- 
+武器
+1.凤凰医疗包 作用：修甲包加红包双功能  概率2% 
+2.盾牌 作用：套皮加强闪光盾 无嘲讽的闪光盾 概率4% 
+3.MC钻石镐 作用：套皮大扳手加强版 修车量比普通大扳手修的量多一点 速度也快一点 概率3% 
+4.辐岛核子汽水 喝下后吐出核废水
+
+藏品
+4.猫猫酱 作用：垃圾 rp1800 概率4%
+5.MC钻石剑 作用：垃圾 rp20000（垃圾箱子最贵垃圾）概率2%
+6.MC钻石铲 作用：垃圾 rp600 概率16%
+7.MC钻石斧 作用：垃圾 rp400 概率18%
+8.剑盾牌 作用：垃圾 rp800 概率14%
+9.谢谢惠顾（滑稽）作用：垃圾 rp2 此垃圾概率特殊作用于补充剩余概率 概率1%（23333333）2方案做成香蕉皮冰淇淋那样的物品或者爆炸物手雷C4之类的 3方案把概率调升做成盒中盒（这样我的工作量乘倍提升呜呜呜）
+10.哆啦A梦 作用：垃圾 rp1400 概率8%
+11.蜘蛛侠 作用：垃圾 rp1200 概率10%
+12.马里奥 作用：垃圾 rp1000 概率12%
+13哆啦A梦2 作用：垃圾 rp1600 概率6% 
+
+载具
+阿三摩托加强版
+
+
+-->

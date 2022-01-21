@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_resupply.weapon" key="aa02s_mg.weapon" >
+    <tag name="machine gun" />
+    <specification 
+  retrigger_time="0.016" 
+  accuracy_factor="1.1" 
+  sustained_fire_grow_step="0.5" 
+  sustained_fire_diminish_rate="3.5" 
+  magazine_size="500" 
+  can_shoot_standing="1" 
+  can_shoot_crouching="0" 
+  can_shoot_prone="0"
+  suppressed="0" 
+  name="AA02S-MG" 
+  carry_in_two_hands="0" 
+  class="0" 
+  barrel_offset="0"
+  spread_range="0.11"
+  projectile_speed="120.0"
+  projectiles_per_shot="1"
+  slot="0"
+   />
+    <next_in_chain key="aa02s_hg.weapon" share_ammo="0" />
+
+  	<animation state_key="recoil"  animation_key="aa02hg_recoil2" />
+  	<animation state_key="recoil"  animation_key="aa02hg_recoil1" />
+    <animation state_key="recoil" stance_key="over_wall" animation_key="aa02hg_recoil2" />
+    <animation state_key="recoil" stance_key="over_wall" animation_key="aa02hg_recoil1" />
+    <animation state_key="reload" animation_key="aa02_reload" />
+    <animation state_key="hold" animation_key="aa02_still" />
+    <animation state_key="hold_casual"  animation_key="aa02_still" />
+    <animation state_key="hold_on_wall" animation_key="aa02_still" />
+    <animation state_key="still_against_wall" animation_key="aa02_still" />
+    <animation state_key="crouching"  animation_key="aa02_still" />
+    <animation state_key="crouch_moving"  animation_key="aa02_running" />
+    <animation state_key="crouch_moving_backwards"  animation_key="aa02_running" />
+    <animation state_key="running" animation_key="aa02_still" />
+    <animation state_key="walking"  animation_key="aa02_running" />
+    <animation state_key="walking_backwards" animation_key="aa02_running" />
+    <animation state_key="changing_weapon_in"   animation_key="aa02_reload" />
+    <animation state_key="prone_still" animation_key="aa02_still" />
+    <animation state_key="stabbing" animation_key="aa02_still" />
+    <animation state_key="stabbing" animation_key="aa02_still" />
+    <animation state_key="stabbing" animation_key="aa02_still" />
+
+    
+    <sound key="fire" fileref="microgun_shot.wav" pitch_variety="0.05" volume="1.0"/>
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="" />
+
+    <!-- <addon_model filename="microgun_box.xml" /> -->
+
+    <hud_icon filename="hud_microgun.png" />
+    <!-- <commonness value="1.0" can_respawn_with="0" in_stock="0"/> -->
+    <inventory encumbrance="120.0"  price="200000.0"/>
+
+    <weak_hand_hold offset="0.4" />
+
+    <projectile file="bullet.projectile">
+      <!-- <result class="blast" radius="2.0" damage="3.2" decal="0" character_state="death" /> -->
+        <result class="hit" kill_probability="1.5" kill_decay_start_time="0.35" kill_decay_end_time="0.85" />
+    </projectile>
+    <stance state_key="running" accuracy="0.9" />
+    <stance state_key="walking" accuracy="1.0" />
+    <stance state_key="crouch_moving" accuracy="1.0" />
+    <stance state_key="prone_moving" accuracy="1.0" />
+
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="prone" accuracy="1.0" />
+
+    <modifier class="speed" value="+0.4" /> 
+</weapon>

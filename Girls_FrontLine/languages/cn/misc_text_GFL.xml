@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translation>
+
+factions
+	<text key="G &amp; K P.M.C." text="格里芬安全承包商" />
+	<text key="U.S.S.R. Army" text="苏维埃陆军" />
+	<text key="U.S.F. M.C." text="美联邦海军陆战队" />
+	<text key="2 Star T-Doll" text="2星人形" />
+	<text key="3 Star T-Doll" text="3星人形" />
+	<text key="4 Star T-Doll" text="4星人形" />
+	<text key="5 Star T-Doll" text="5星人形" />
+	<text key="6 Star T-Doll" text="6星人形" />
+	<text key="1 Moon T-Doll" text="1月人形" />
+	<text key="2 Moon T-Doll" text="2月人形" />
+	<text key="3 Moon T-Doll" text="3月人形" />
+	<text key="4 Moon T-Doll" text="4月人形" />
+	<text key="5 Moon T-Doll" text="5月人形" />
+	<text key="1 Sun T-Doll" text="1日人形" />
+	<text key="Lance Corporal" text="准下士" />
+	<text key="Staff Sergeant" text="高级中士" />
+    <text key="Gunnery Sergeant" text="一级中士" />
+    <text key="1st Sergeant" text="上士" />
+    <text key="Sergeant Major of the Marine Corps" text="一级上士" />
+    <text key="1st Lieutenant" text="中尉" />
+ 
+
+servers
+	<text key="Kicked - Not in whitelist. Server in whitelist mode. Join QQ group 1072742936 to get whitelist." text="已被踢出，不在白名单列表上。服务器目前处于白名单模式。加Q群1072742936以进入白名单。" />
+
+calls
+	<text key="Requesting Task Force 404" text="404小队" />
+	<text key="Task Force 404 Engaging" text="404小队接近中" />
+	<text key="Requesting Team AR" text="AR小队" />
+	<text key="Team AR Engaging" text="AR小队接近中" />
+	<text key="Requesting Team Defy" text="Defy小队" />
+	<text key="Team Defy Engaging" text="Defy小队接近中" />
+	<text key="Requesting 2B14 mortar strike" text="请求2B14迫击炮组支援" /> 
+	<text key="Air strike" text="请求空袭支援" />
+	<text key="Precision strike" text="战术空袭" />
+	<text key="Requesting precision strike" text="请求战术空袭" /> strike air-1
+	<text key="This is Odin 6 ETA 5 seconds." text="这里是Odin 6，预计5秒。" /> strike air-2
+	<!--	<text key="Odin 6-2,bombs away." text="" /> --> strike air-3（voice）
+	<text key="4 paratroopers" text="8个伞兵" />
+	<text key="8 paratroopers" text="16个伞兵"/>
+	<text key="requesting 16" text="请求16人支援" />
+	<text key="16 airborne" text="16个空降兵" />
+	<text key="requesting 2" text="请求重型装甲地面部队" />
+	<text key="2 airborne" text="重型装甲地面部队介入" />
+	<text key="Roger." text="收到。" />
+	<text key="Confirmed." text="目标确认。" />  2B14-1
+	<text key="2 rounds Fire for Effect." text="两轮效力射击。" />  2B14-2
+<!--	<text key="Shot out." text="已开火。" /> --> 2B14-3（voice）
+	<text key="A-10 Strafing run" text="A-10攻击机支援" /> 	
+	<text key="Requesting Strafing gun." text="请求扫射攻击" />
+	<text key="This is Warhorse 5,solid copy on all." text="这里是野马5，准备入场。" /> A10-2	
+   <!-- <text key="Warhorse off safe.Guns guns guns." text="" />  --> A10-3（voice）
+    <text key="Aircraft on its way, coming at &#37;direction o'clock!" text="攻击机正在接近，&#37;direction 点钟方向！" />
+    <text key="Requesting AC-130 air strike" text="请求AC-130空中支援" />
+    <text key="AC-130 Fire mission" text="AC-130空中炮艇打击" /> 
+	<text key="Comfirmed,sending Hammer,out." text="收到，已派出Hammer，完毕。" /> AC-130-1
+    <text key="This is Hammer 1-1,arrving target area." text="这里是Hammer 1-1,接近目标区域。" /> AC-130-2
+	<!-- <text key="Hammer you are clear to engage any enemy personnel around you see." text="Hammer 1-1，已授权对任何标记范围内敌军交战。" /> -->AC-130-3（voice）
+    <text key="F-16 missle run" text="F-16空中支援" />
+    <text key="Air strike in bound." text="已标记区域" />
+    <text key="Juggernaut Airdrop" text="重型装甲空投箱" />
+    <text key="I need heavy armour support" text="我需要重型装甲空投支援" />
+    <text key="Confirmed,airdrop is in the air." text="确认,空投补给箱在路上了" />
+    <text key="Heavy armour support" text="重型装甲空投箱" />
+    <text key="Airdrop on the way." text="直升机在路上了" />
+    <text key="Predator missile ready for launch." text="AGM导弹已准备就绪" />
+    <text key="UAV on line." text="无人机上线了" />
+    <text key="Missile on the way." text="导弹已发射" />
+    <text key="Firendly predator missile in bound." text="友方AGM导弹介入" />
+    <text key="I need infantry fighting vehicle" text="我需要空投步战车" />
+    <text key="Confirmed, IFV in the air." text="确认，步战车在路上了." />
+    <text key="Airdropping IFV now." text="正在空投步战车." />
+    <text key="Requesting 105mm artillery strike." text="¤ ¤ ¤ 请求105mm饱和式打击 ¤ ¤ ¤ " /> 
+    <text key="105mm artillery strike" text="¤ ¤ ¤ 105mm榴弹炮饱和式打击 ¤ ¤ ¤" /> 
+	<text key="Coordinates confirmed." text="打击坐标确认完毕。" /> 105-1
+	<text key="This is Badger 1,prepare to fire." text="这里是Badger 1,准备完毕。" /> 105-2
+ <!--    <text key="Fire mission received,artillery inbound." text="火力支援确认，火炮来袭。" /> -->105-3（voice）
+    <text key="Requesting 380mm naval strike." text="请求380mm舰炮支援" />
+    <text key="380mm naval strike." text="380mm舰炮支援" />
+
+
+
+items
+	<text key="Kaenbyou Rin[RE]" text="火焰貓燐[RE]" />
+	<text key="Komeiji Koishi[RE]" text="古明地恋[RE]" />
+	<text key="Mingshi ARB[RE]" text="明石ARB[RE]" />
+
+	<text key="Inori[RE]" text="蝶祈[RE]"/>
+	<text key="Luna[RE]" text="露娜[RE]"/>
+	<text key="Naoto[RE]" text="Naoto[RE]"/>
+	<text key="Hakuryu[RE]" text="白龙[RE]"/>
+	<text key="252[RE]" text="252[RE]"/>
+	<text key="Benben B W[RE]" text="Benben黑白[RE]"/>
+	<text key="Black Rock Shooter[RE]" text="黑岩射手[RE]"/>
+	<text key="Suzakuin Tsubaki[RE]" text="朱雀院椿[RE]"/>
+	<text key="Suzakuin Tsubaki Swimsuit[RE]" text="朱雀院椿泳装[RE]"/>
+	<text key="Katou Megumi Schoolbag[RE]" text="加藤惠的背包[RE]"/>
+	<text key="Solomon's Nightmare[RE]" text="所罗门梦魇[RE]"/>
+	<text key="Orga[RE]" text="奥尔加[RE]"/>
+	<text key="Qswan[RE]" text="硫酸惹[RE]"/>
+	<!-- <text key="86 Leina[RE]" text=""/> -->
+	<!-- <text key="Chara Neko[RE]" text=""/> -->
+	<text key="Remilia Scarlet[RE]" text="蕾米莉亚·斯卡蕾特[RE]"/>
+	<text key="Elaina[RE]" text="伊蕾娜[RE]"/>
+	<text key="Shigure Summer[RE]" text="时雨夏装[RE]"/>
+	<text key="Yuudachi[RE]" text="夕立[RE]"/>
+	<text key="Rumia[RE]" text="露米娅[RE]"/>
+	<text key="Flandre Scarlet[RE]" text="芙兰朵露·斯卡蕾特[RE]"/>
+	<text key="Nazrin[RE]" text="纳兹琳[RE]"/>
+	<text key="Luka Chinadress[RE]" text="Luka旗袍[RE]"/>
+	<text key="Miku Chinadress[RE]" text="Miku旗袍[RE]"/>
+	<text key="Luotianyi Chinadress[RE]" text="洛天依旗袍[RE]"/>
+	<text key="Kaenbyou Rin[RE]" text="火焰貓燐[RE]" />
+	<text key="Komeiji Koishi[RE]" text="古明地恋[RE]" />
+	<text key="Mingshi ARB[RE]" text="明石ARB[RE]" />
+
+
+	<text key="Token" text="采购币" />
+	<text key="T-Doll Contract" text="人形建造许可" />
+	<text key="Equipment Contract" text="装备建造许可" />
+	<text key="GFL Contribution Convert Card" text="GFL特种装备建造卡" />
+	<text key="Black Card" text="黑卡" />
+	<text key="Battle Report" text="作战报告书" />
+	<text key="girls underpants" text="少女内裤" />
+	<text key="Vest,Juggernaut" text="无畏战士" />
+	<text key="Vest,Juggernaut,90&#37;" text="无畏战士，90&#37;" />
+	<text key="Vest,Juggernaut,80&#37;" text="无畏战士，80&#37;" />
+	<text key="Vest,Juggernaut,70&#37;" text="无畏战士，70&#37;" />
+	<text key="Vest,Juggernaut,60&#37;" text="无畏战士，60&#37;" />
+	<text key="Vest,Juggernaut,50&#37;" text="无畏战士，50&#37;" />
+	<text key="Vest,Juggernaut,40&#37;" text="无畏战士，40&#37;" />
+	<text key="Vest,Juggernaut,30&#37;" text="无畏战士，30&#37;" />
+	<text key="Vest,Juggernaut,20&#37;" text="无畏战士，20&#37;" />
+	<text key="Vest,Juggernaut,destroyed" text="无畏战士，已损坏" />
+	<text key="incendiary grenade" text="燃烧弹" />
+	<text key="incendiary grenade sublayer" text="燃烧区域" />
+	<text key="molotov sublayer" text="燃烧区域" />
+	<text key="Molotov" text="鸡尾酒燃烧弹" />
+	<text key="sticky grenade" text="黏性手雷" />
+	<text key="F1 hand grenade" text="F1重型手雷" />
+	<text key="Lightning" text="闪电" />
+	<text key="DF-11 ROCKET" text="DF-11导弹" />
+	<text key="Dummy Core" text="核心" />
+    <text key="HG Supply Box Deploy" text="手枪补给部署包" />
+    <text key="SMG Supply Box Deploy" text="冲锋枪补给部署包" />
+    <text key="AR Supply Box Deploy" text="突击步枪补给部署包" />
+    <text key="RF Supply Box Deploy" text="步枪补给部署包" />
+    <text key="MG Supply Box Deploy" text="机枪补给部署包" />
+    <text key="SG Supply Box Deploy" text="霰弹枪补给部署包" />
+    <text key="HG Supply Box" text="手枪补给箱" />
+    <text key="SMG Supply Box" text="冲锋枪补给箱" />
+    <text key="AR Supply Box" text="突击步枪补给箱" />
+    <text key="RF Supply Box" text="步枪补给箱" />
+    <text key="MG Supply Box" text="机枪补给箱" />
+    <text key="SG Supply Box" text="霰弹枪补给箱" />
+	<text key="black ops vest, 50&#37;" text="夜行特战服，50&#37;" />
+	<text key="Trauma Kit" text="高级快速处理医疗包" />
+	<text key="Pink Trauma Kit" text="高级快速处理医疗包少女粉版" />
+	<text key="4th Anniversary Token" text="4周年信物" />
+    <text key="Chinadress Token" text="旗袍信物" />
+	<text key="City Hunter Token" text="城市猎人信物" />
+    
+    <text key="Sphocatan MK.III" text="斯豹达III代护甲" />
+	<text key="SOPII [Banquet Devastatior]" text="SOPII [酒席扫荡者]" />
+	<text key="Springwind" text="春风荡漾" />
+
+
+weapons
+	<text key="T-Doll Repair Kit" text="人形修复许可" />
+	<text key="T-Doll Emergency Reactivate Device" text="人形激活装置" />
+	<text key="Quick Restoration Contract" text="快速修复许可" />
+	<text key="Remington ACR" text="Remington ACR突击步枪" />
+	<text key="AT4 LAW" text="AT-4反坦克火箭筒" />
+	<text key="M4A1 ACOG" text="M4A1突击步枪（ACOG瞄准镜）" />
+	<text key="M14 EBR" text="M14 EBR精准射手步枪" />
+	<text key="M16A4 Scope" text="M16A4突击步枪（瞄准镜）" />
+	<text key="M17" text="M17手枪（消音器）" />
+	<text key="Chey Tac M200" text="Chey Tac M200狙击步枪" />
+	<text key="M249" text="M249轻机枪" />
+	<text key="M320 LCS" text="M320轻型榴弹发射器" />
+	<text key="M1014" text="Benelli M4霰弹枪" />
+	<text key="MK46" text="MK46轻机枪" />
+	<text key="MP5KA4" text="MP5KA4微声冲锋枪" />
+	<text key="Kel-Tec RFB" text="Kel-Tec RFB半自动步枪" />
+
+	<text key="XE-NO.P.H.A.G.E XM1" text="XE-NO.P.H.A.G.E 小猫1" />
+	<text key="AK74M" text="AK74M突击步枪" />
+	<text key="AK74M - bayonet" text="AK74M突击步枪（刺刀）" />
+	<text key="AKM" text="AKM突击步枪" />
+	<text key="AKM-GP25" text="AKM突击步枪（GP25榴弹发射器）" />
+	<text key="SV-98" text="SV98狙击步枪" />
+	<text key="gm 94 grenade launcher" text="GM-94榴弹发射器" />
+	<text key="PMM" text="PMM手枪" />
+	<text key="RPD" text="RPD轻机枪" />
+	<text key="Skorpion" text="蝎式冲锋枪" />
+	<text key="TOZ-34" text="TOZ-34双管霰弹枪" />
+
+	<text key="KSG-12" text="KSG-12霰弹枪" />
+	
+	<text key="TOW" text="“陶”氏飞弹" />
+	<text key="tracer missile" text="AGM地狱火导弹" />
+
+	<text key="G18C" text="G18全自动手枪" />
+	<text key="Striker" text="“打击者”霰弹枪" />
+    <text key="F16 missle" text="F16飞弹" />
+
+	<text key="9A-91" text="9A-91突击步枪" />
+	<text key="AK47-GP25" text="AK47突击步枪（GP25榴弹发射器）" />
+	<text key="Type 95" text="95式突击步枪" />
+	<text key="Type 97" text="97式突击步枪" />
+	<text key="Kar98k" text="Kar98k狙击步枪" />
+	<text key="AN-94" text="AN-94突击步枪" />
+	<text key="AMELI" text="AMELI轻机枪" />
+	<text key="AAT 52" text="AAT-52通用机枪" />
+	<text key="AK-12" text="AK-12突击步枪" />
+	<text key="ARX-160" text="ARX-160突击步枪" />
+	<text key="AUG" text="Steyr AUG突击步枪" />
+	<text key="Steyr AUGA3" text="Steyr AUGA3突击步枪" />
+	<text key="AR-15 - silencer and scope" text="AR-15突击步枪（消音器|瞄准镜）" />
+	<text key="ART-556" text="ART-556突击步枪" />
+	<text key="FNC" text="FN FNC突击步枪" />
+	<text key="TOW deploy" text="重型反坦克武器部署包" />
+	<text key="Bren Ten" text="Bren Ten手枪" />
+	<text key="C96" text="C96手枪" />
+	<text key="DSR-50" text="DSR-50反器材狙击步枪" />
+	<text key="Five-seveN" text="FN57半自动手枪" />
+	<text key="Gsh-18" text="Gsh-18半自动手枪" />
+	<text key="HK416" text="HK416突击步枪（消音器|瞄准镜）" />
+	<text key="G3A3" text="G3A3半自动步枪" />
+    <text key="G11" text="G11突击步枪" />
+	<text key="G28" text="G28精准射手步枪" />
+	<text key="G36C" text="G36C突击步枪" />
+	<text key="G36C-M320" text="G36C突击步枪（M320榴弹发射器）" />
+	<text key="M1 Garand" text="M1加兰德步枪" />
+	<text key="IDW" text="IDW微声冲锋枪" />
+	<text key="M2HB" text="M2HB重机枪" />
+	<text key="M2HB(Low Weight)" text="M2HB重机枪（便携版）" />
+	<text key="M4 SOPMODII" text="M4 SOPMODII突击步枪" />
+	<text key="M4 SOPMODII-M203" text="M4 SOPMODII突击步枪（M203榴弹发射器）" />
+	<text key="M4A1 Scope" text="M4A1突击步枪（握把|瞄准镜）" />
+	<text key="Vengeance Fire Support Platform" text="Vengeance火力支援系统" />
+
+	<text key="Mossberg 590" text="Mossberg 590霰弹枪" />
+	<text key="M9" text="Beretta M9手枪" />
+	<text key="M14" text="M14步枪" />
+	<text key="M16A1" text="M16A1突击步枪" />
+	<text key="Barrett M82A1 HE" text="Barrett M82A1反器材步枪（高爆弹）" />
+	<text key="Barrett M82A1" text="Barrett M82A1反器材步枪" />
+	<text key="M99" text="M99反器材步枪" />
+	<text key="Remington M870" text="Remington M870霰弹枪" />
+	<text key="Colt Revolver" text="Colt左轮手枪" />
+	<text key="Nagant Revolver" text="Nagant左轮手枪" />
+	<text key="M1911" text="M1911手枪" />
+	<text key="MG-5" text="MG-5重机枪" />
+	<text key="MK23 SOCOM" text="MK23手枪（消音器）" />
+	<text key="Mk 23" text="MK23手枪" />
+
+	<text key="Lee-Enfield" text="Lee-Enfield步枪" />
+	<text key="MP5" text="MP5冲锋枪" />
+	<text key="MP40" text="MP40冲锋枪" />
+	<text key="KRISS-Vector" text="KRISS Vector冲锋枪" />
+	<text key="MP-446" text="MP-446手枪" />
+	<text key="PPSh-41" text="PPSh-41冲锋枪" />
+	<text key="QJY-88" text="88式重机枪" />
+	<text key="NTW 20" text="NTW-20反器材步枪" />
+	<text key="P7" text="P7手枪" />
+	<text key="P226" text="P226手枪" />
+	<text key="PKP" text="“佩切涅格”通用机枪" />
+	<text key="Pecheneg Bullpup" text="“佩切涅格”通用机枪（瞄准镜）"/>
+	<text key="QBU-88" text="88式狙击步枪" />
+	<text key="Super Shorty" text="“Super Shorty”霰弹枪" />
+	<text key="Type 100" text="百式冲锋枪" />
+	<text key="UMP9" text="UMP9冲锋枪" />
+	<text key="UMP45" text="UMP45冲锋枪" />
+	<text key="USAS-12" text="USAS-12全自动霰弹枪" />
+	<text key="Super SASS" text="Super SASS精准射手步枪" />
+	<text key="SSG 69" text="SSG-69狙击步枪" />
+	<text key="SR3-MP" text="SR3-MP突击步枪" />
+	<text key="SAT-8" text="SAT-8霰弹枪" />
+	<text key="RO635" text="RO635冲锋枪" />
+	<text key="WA2000" text="WA2000狙击步枪" />
+    <text key="USP.45" text="USP.45手枪" />
+    <text key="KP-31 Suomi" text="KP-31冲锋枪" />
+    <text key="G41" text="G41突击步枪" />
+    <text key="AS VAL" text="AS VAL突击步枪" />
+    <text key="KAC-PDW" text="KAC-PDW冲锋枪" />
+    <text key="Liberator" text="“Liberator”霰弹枪" />
+    <text key="MG36 LMG" text="MG36轻机枪" />
+    <text key="HS2000" text="HS2000手枪" />
+    <text key="PSG-1" text="PSG-1狙击步枪" />
+    <text key="CF-05" text="CF-05冲锋枪" />
+    <text key="SIG 556" text="SIG 556突击步枪" />
+    <text key="SCAR-H" text="SCAR-H精准射手步枪" />
+    <text key="M249 - ammobox and scope" text="M249轻机枪（弹药盒|瞄准镜）" />
+    <text key="RPK-16" text="RPK-16轻机枪" />
+    <text key="XM177" text="XM177冲锋枪" />
+    <text key="XM177-Thunder Launcher" text="XM177闪电发生器" />
+    <text key="Kat's Heir Apparent" text="H.E.I.R-A.P.P.A.R.E.N.T" />
+    <text key="SSG 3000" text="SSG 3000微声狙击步枪" />
+    <text key="Saiga-12" text="Saiga-12霰弹枪" />
+    <text key="Saiga-12 - Slug" text="Saiga-12霰弹枪（独头弹）" />
+    <text key="AEK-999" text="AEK-999消音轻机枪" />
+    <text key="SL-8" text="SL-8步枪" />
+    <text key="KSVK" text="KSVK反器材步枪" />
+    <text key="Desert Tech MDR" text="MDR消音突击步枪" />
+    <text key="Ithaca 37" text="M37霰弹枪" />
+    <text key="AS VAL - Grip and Long Mag" text="AS VAL突击步枪（握把|扩容弹夹）" />
+    <text key="MG[Cat Cafe]" text="IMI Negev[猫猫特攻]" />
+    <text key="SIG MCX300" text="MCX300突击步枪" />
+    <text key="PKM - Vertical Grip and scope" text="PKM轻机枪（握把|瞄准镜）" />
+    <text key="MG-46 New Nazi" text="MG46-NAZI重型机枪" />
+    <text key="Aurora Amplification" text="S.L.E.E.P.E.R. S.I.M.U.L.A.N.T." />
+    <text key="SLEEPER SIMULANT" text="S.L.E.E.P.E.R. S.I.M.U.L.A.N.T." />
+    <text key="M134 Microgun" text="M134加特林机枪" />
+    <!-- <text key="Plasma Gun" text="光学爆能枪" /> --> 无需翻译
+    <text key="Plasma" text="爆能弹" />
+    <text key="CB-JMS" text="CB-JMS冲锋枪" />
+    <text key="AUG-PARA" text="AUG伞兵版冲锋枪" />
+    <text key="VHS-K21" text="VHS突击步枪" />
+    <text key="QLU-11" text="QLU-11狙击榴弹发射器" />
+    <text key="ASH-12.7" text="ASH-12.7突击步枪" />
+    <text key="Dragunov SVDM" text="SVDM狙击步枪" />
+
+    <text key="M.E.M.O.R.I.Z.E.D." text="M.E.M.O.R.I.Z.E.D.纪念" />
+    <text key="SCAR-SC" text="SCAR短版突击步枪" />
+    <text key="Barrett MK22" text="巴雷特MK22狙击步枪" />
+    <text key="M41-A" text="M41-A步枪" />
+
+    <text key="QSB-91" text="QSB-91匕首手枪" />
+    <text key="HK416[Agent-416]" text="HK416特工突击步枪" />
+    <text key="MK48" text="MK48轻机枪" />
+    <text key="DP-28" text="DP-28轻机枪" />
+    <text key="Mosin Nagant 1891" text="Mosin-Nagant 1891狙击步枪" />
+    <text key="Kar1931" text="K31步枪" />
+    <text key="Type 4 Rifle" text="四式半自动步枪" />
+    <text key="Gewehr 43" text="G43半自动狙击步枪" />
+    <text key="M1918A2 BAR" text="M1918A2“勃朗宁”自动步枪" />
+    <text key="Carcano M1891" text="Carcano M1891步枪" />
+    <text key="Carcano M1938" text="Carcano M1938步枪" />
+    <text key="V-PM5" text="V-PM5霰弹枪" />
+    <text key="KRISS Vector[Agent Vector]" text="Vector特工冲锋枪" />
+    <text key="M1919 LMG" text="M1919“勃朗宁”轻机枪" />
+    <text key="MG-4" text="MG-4轻机枪" />
+    <text key="StG 44" text="StG-44突击步枪" />
+    <text key="MG-34" text="MG34通用机枪" />
+    <text key="FG-42" text="FG-42伞兵步枪" />
+    <text key="MK-17 SD" text="SCAR-H消音突击步枪" />
+
+    <text key="AX-50 ELR" text="AX50-ELR反器材狙击步枪" />
+
+    <text key="TYPE 79" text="79式特战冲锋枪改" />
+    <text key="JS 05" text="建设05反器材狙击步枪" />
+    <text key="PGM Hecate II" text="黑卡蒂反器材狙击步枪" />
+    <text key="XM-29 OICW" text="XM29单兵作战系统" />
+
+    <text key="Fuku~ Cola" text="辐岛汽水" />
+
+item
+    <text key="IOP T1 Universal Exoskeleton" text="IOP通用T1型外骨骼" />
+    <text key="IOP T1 Universal Exoskeleton, 50&#37;" text="IOP通用T1型外骨骼，50&#37;" />
+    <text key="IOP T1 Universal Exoskeleton, destroyed" text="IOP通用T1型外骨骼，已损坏" />
+
+    <text key="IOP X1 Universal Exoskeleton" text="IOP通用X1型外骨骼" />
+    <text key="IOP X1 Universal Exoskeleton, destroyed" text="IOP通用X1型外骨骼，已损坏" />
+
+    <text key="IOP T2 Universal Exoskeleton" text="IOP通用T2型外骨骼" />
+    <text key="IOP T2 Universal Exoskeleton, 50&#37;" text="IOP通用T2型外骨骼，50&#37;" />
+    <text key="IOP T2 Universal Exoskeleton, destroyed" text="IOP通用T2型外骨骼，已损坏" />
+
+    <text key="Universal Tactical Cloak" text="通用型伪装披风" />
+    <text key="Universal Tactical Cloak, destroyed" text="通用型伪装披风，已损坏" />
+
+    <text key="IOP X2 Universal Exoskeleton" text="IOP通用X2型外骨骼" />
+    <text key="IOP X2 Universal Exoskeleton, 60&#37;" text="IOP通用X2型外骨骼，60&#37;" />
+    <text key="IOP X2 Universal Exoskeleton, 40&#37;" text="IOP通用X2型外骨骼，40&#37;" />
+    <text key="IOP X2 Universal Exoskeleton, destroyed" text="IOP通用X2型外骨骼，已损坏" />
+    
+    <text key="IOP TYPE I Bulletproof Plate" text="IOP I型防弹护板" />
+    <text key="IOP TYPE I Bulletproof Plate, 80&#37;" text="IOP I型防弹护板，80&#37;" />
+    <text key="IOP TYPE I Bulletproof Plate, 60&#37;" text="IOP I型防弹护板，60&#37;" />
+    <text key="IOP TYPE I Bulletproof Plate, 40&#37;" text="IOP I型防弹护板，40&#37;" />
+    <text key="IOP TYPE I Bulletproof Plate, 20&#37;" text="IOP I型防弹护板，20&#37;" />
+    <text key="IOP TYPE I Bulletproof Plate, destroyed" text="IOP I型防弹护板，已损坏" />
+
+
+    <text key="16LAB Optical Camouflage Cloak" text="16LAB光学迷彩披风" />
+    <text key="16LAB Optical Camouflage Cloak, 60&#37;" text="16LAB光学迷彩披风，60&#37;" />
+    <text key="16LAB Optical Camouflage Cloak, 40&#37;" text="16LAB光学迷彩披风，40&#37;" />
+    <text key="16LAB Optical Camouflage Cloak, destroyed" text="16LAB光学迷彩披风，已损坏" />
+
+    <text key="16LAB TYPE IV Bulletproof Plate" text="16LAB IV型防弹护板" />
+	<text key="16LAB TYPE IV Bulletproof Plate,90&#37;" text="16LAB IV型防弹护板，90&#37;" />
+	<text key="16LAB TYPE IV Bulletproof Plate,80&#37;" text="16LAB IV型防弹护板，80&#37;" />
+	<text key="16LAB TYPE IV Bulletproof Plate,70&#37;" text="16LAB IV型防弹护板，70&#37;" />
+	<text key="16LAB TYPE IV Bulletproof Plate,60&#37;" text="16LAB IV型防弹护板，60&#37;" />
+	<text key="16LAB TYPE IV Bulletproof Plate,50&#37;" text="16LAB IV型防弹护板，50&#37;" />
+	<text key="16LAB TYPE IV Bulletproof Plate,40&#37;" text="16LAB IV型防弹护板，40&#37;" />
+	<text key="16LAB TYPE IV Bulletproof Plate,30&#37;" text="16LAB IV型防弹护板，30&#37;" />
+	<text key="16LAB TYPE IV Bulletproof Plate,20&#37;" text="16LAB IV型防弹护板，20&#37;" />
+	<text key="16LAB TYPE IV Bulletproof Plate,destroyed" text="16LAB IV型防弹护板，已损坏" />
+
+	<text key="16LAB T4 Universal Exoskeleton" text="16LAB T4型外骨骼" />
+    <text key="16LAB T4 Universal Exoskeleton, 60&#37;" text="16LAB T4型外骨骼，60&#37;" />
+    <text key="16LAB T4 Universal Exoskeleton, 40&#37;" text="16LAB T4型外骨骼，40&#37;" />
+    <text key="16LAB T4 Universal Exoskeleton, 20&#37;" text="16LAB T4型外骨骼，20&#37;" />
+    <text key="16LAB T4 Universal Exoskeleton, destroyed" text="16LAB T4型外骨骼，已损坏" />
+
+    <text key="Ragged Cloak" text="破烂的披风" />
+
+    <text key="IOP Optical Camouflage Cloak" text="IOP光学迷彩披风" />
+    <text key="IOP Optical Camouflage Cloak, 50&#37;" text="IOP光学迷彩披风，50&#37;" />
+    <text key="IOP Optical Camouflage Cloak, destroyed" text="IOP光学迷彩披风，已损坏" />
+
+    <text key="IOP TYPE II Bulletproof Plate" text="IOP II型防弹护板" />
+    <text key="IOP TYPE II Bulletproof Plate, 80&#37;" text="IOP II型防弹护板，80&#37;" />
+    <text key="IOP TYPE II Bulletproof Plate, 60&#37;" text="IOP II型防弹护板，60&#37;" />
+    <text key="IOP TYPE II Bulletproof Plate, 40&#37;" text="IOP II型防弹护板，40&#37;" />
+    <text key="IOP TYPE II Bulletproof Plate, 20&#37;" text="IOP II型防弹护板，20&#37;" />
+    <text key="IOP TYPE II Bulletproof Plate, destroyed" text="IOP II型防弹护板，已损坏" />
+
+    <text key="IOP TYPE III Bulletproof Plate" text="IOP III型防弹护板" />
+    <text key="IOP TYPE III Bulletproof Plate, 60&#37;" text="IOP III型防弹护板，60&#37;" />
+    <text key="IOP TYPE III Bulletproof Plate, 30&#37;" text="IOP III型防弹护板，30&#37;" />
+    <text key="IOP TYPE III Bulletproof Plate, destroyed" text="IOP III型防弹护板，已损坏" />
+
+    <text key="IOP T3 Universal Exoskeleton" text="IOP T3型外骨骼" />
+    <text key="IOP T3 Universal Exoskeleton, 60&#37;" text="IOP T3型外骨骼，60&#37;" />
+    <text key="IOP T3 Universal Exoskeleton, 40&#37;" text="IOP T3型外骨骼，40&#37;" />
+    <text key="IOP T3 Universal Exoskeleton, destroyed" text="IOP T3型外骨骼，已损坏" />
+
+    <text key="IOP TYPE IV Bulletproof Plate" text="IOP IV型防弹护板" />
+    <text key="IOP TYPE IV Bulletproof Plate, 80&#37;" text="IOP IV型防弹护板，80&#37;" />
+    <text key="IOP TYPE IV Bulletproof Plate, 60&#37;" text="IOP IV型防弹护板，60&#37;" />
+    <text key="IOP TYPE IV Bulletproof Plate, 50&#37;" text="IOP IV型防弹护板，50&#37;" />
+    <text key="IOP TYPE IV Bulletproof Plate, 40&#37;" text="IOP IV型防弹护板，40&#37;" />
+    <text key="IOP TYPE IV Bulletproof Plate, 20&#37;" text="IOP IV型防弹护板，20&#37;" />
+    <text key="IOP TYPE IV Bulletproof Plate, destroyed" text="IOP IV型防弹护板，已损坏" />
+
+    <text key="IOP T4 Universal Exoskeleton" text="IOP T4型外骨骼" />
+    <text key="IOP T4 Universal Exoskeleton, 60&#37;" text="IOP T4型外骨骼，60&#37;" />
+    <text key="IOP T4 Universal Exoskeleton, 40&#37;" text="IOP T4型外骨骼，40&#37;" />
+    <text key="IOP T4 Universal Exoskeleton, 20&#37;" text="IOP T4型外骨骼，20&#37;" />
+    <text key="IOP T4 Universal Exoskeleton, destroyed" text="IOP T4型外骨骼，已损坏" />
+
+    <text key="IOP X3 Universal Exoskeleton" text="IOP通用X3型外骨骼" />
+    <text key="IOP X3 Universal Exoskeleton, 60&#37;" text="IOP通用X3型外骨骼，60&#37;" />
+    <text key="IOP X3 Universal Exoskeleton, 40&#37;" text="IOP通用X3型外骨骼，40&#37;" />
+    <text key="IOP X3 Universal Exoskeleton, destroyed" text="IOP通用X3型外骨骼，已损坏" />
+
+    <text key="IOP X4 Universal Exoskeleton" text="IOP X4型外骨骼" />
+    <text key="IOP X4 Universal Exoskeleton, 60&#37;" text="IOP X4型外骨骼，60&#37;" />
+    <text key="IOP X4 Universal Exoskeleton, 40&#37;" text="IOP X4型外骨骼，40&#37;" />
+    <text key="IOP X4 Universal Exoskeleton, 20&#37;" text="IOP X4型外骨骼，20&#37;" />
+    <text key="IOP X4 Universal Exoskeleton, destroyed" text="IOP X4型外骨骼，已损坏" />
+
+    <text key="Optical Camouflage Cloak" text="通用型光学迷彩披风" />
+    <text key="Optical Camouflage Cloak, destroyed" text="通用型光学迷彩披风，已损坏" />
+
+    <text key="El" text="YOSHINO套装" />
+    <text key="The Maid C" text="女仆装" />
+    <text key="SOCOMTD" text="特种作战人形" />
+    <text key="SOCOMTD, 70%" text="特种作战人形，70&#37;" />
+    <text key="SOCOMTD, 60%" text="特种作战人形，60&#37;" />
+    <text key="SOCOMTD, 40%" text="特种作战人形，40&#37;" />
+    <text key="SOCOMTD, 30%" text="特种作战人形，30&#37;" />
+    <text key="SOCOMTD, 20%" text="特种作战人形，20&#37;" />
+    <text key="SOCOMTD, destroyed" text="特种作战人形，已损坏" />
+    <text key="NIGHTSKY Luna" text="NIGHTSKY 月神型" />
+    <text key="NIGHTSKY Luna, 60&#37;" text="NIGHTSKY 月神型，半月" />
+    <text key="NIGHTSKY Luna, 30&#37;" text="NIGHTSKY 月神型，残月" />
+    <text key="NIGHTSKY Luna, destroyed" text="NIGHTSKY 月神型，碎月" />
+
+    <text key="IDW DIGI-CHIPS" text="IDW升级组件" />
+    <text key="IDW DIGI-CHIPS, 80&#37;" text="IDW升级组件，80&#37;" />
+    <text key="IDW DIGI-CHIPS, 50&#37;" text="IDW升级组件，50&#37;" />
+    <text key="IDW DIGI-CHIPS, 20&#37;" text="IDW升级组件，20&#37;" />
+    <text key="IDW DIGI-CHIPS, destroyed" text="IDW升级组件，已损坏" />
+
+    <text key="16LAB XM Universal Exoskeleton" text="16LAB 小猫型外骨骼" />
+    <text key="16LAB XM Universal Exoskeleton, 90&#37;" text="16LAB 小猫型外骨骼，90&#37;" />
+    <text key="16LAB XM Universal Exoskeleton, 70&#37;" text="16LAB 小猫型外骨骼，70&#37;" />
+    <text key="16LAB XM Universal Exoskeleton, 50&#37;" text="16LAB 小猫型外骨骼，50&#37;" />
+    <text key="16LAB XM Universal Exoskeleton, 40&#37;" text="16LAB 小猫型外骨骼，40&#37;" />
+    <text key="16LAB XM Universal Exoskeleton, 20&#37;" text="16LAB 小猫型外骨骼，20&#37;" />
+    <text key="16LAB XM Universal Exoskeleton, destroyed" text="16LAB 小猫型外骨骼，已损坏" />
+
+    <text key="VV-Universal Vector Exoskeleton" text="VV泛用性Vector外骨骼" />
+    <text key="VV-Universal Vector Exoskeleton, 80&#37;" text="VV泛用性Vector外骨骼，80&#37;" />
+    <text key="VV-Universal Vector Exoskeleton, 60&#37;" text="VV泛用性Vector外骨骼，60&#37;" />
+    <text key="VV-Universal Vector Exoskeleton, 40&#37;" text="VV泛用性Vector外骨骼，40&#37;" />
+    <text key="VV-Universal Vector Exoskeleton, 20&#37;" text="VV泛用性Vector外骨骼，20&#37;" />
+    <text key="VV-Universal Vector Exoskeleton, destroyed" text="VV泛用性Vector外骨骼，已损坏" />
+
+    <text key="SuperSass's Candy Bag" text="SuperSASS的糖果袋" />
+    <text key="SuperSass's Candy Bag, 50&#37;" text="SuperSASS的糖果袋，50&#37;" />
+    <text key="SuperSass's Candy Bag, destroyed" text="SuperSASS的糖果袋，已损坏" />
+
+    <text key="Siberia Cat Baikal" text="西伯利亚猫猫Baikal" />
+    <text key="Siberia Cat Baikal, 60&#37;" text="西伯利亚猫猫Baikal，60&#37;" />
+    <text key="Siberia Cat Baikal, 30&#37;" text="西伯利亚猫猫Baikal，30&#37;" />
+    <text key="Siberia Cat Baikal, destroyed" text="西伯利亚猫猫Baikal，已损坏" />
+
+    <text key="NIGHTSKY Corona" text="NIGHTSKY 血月神" />
+    <text key="NIGHTSKY Corona, 60&#37;" text="NIGHTSKY 血月神，半月" />
+    <text key="NIGHTSKY Corona, 30&#37;" text="NIGHTSKY 血月神，残月" />
+    <text key="NIGHTSKY Corona, destroyed" text="NIGHTSKY 血月神，碎月" />
+
+    <text key="Type 95 Milk" text="95式纯白" />
+
+    <text key="Vest, type 6B45" text="重型6B45型防弹衣" />
+    <text key="Vest, type 6B45, 80&#37;" text="重型6B45型防弹衣，80&#37;" />
+    <text key="Vest, type 6B45, 60&#37;" text="重型6B45型防弹衣，60&#37;" />
+    <text key="Vest, type 6B45, 40&#37;" text="重型6B45型防弹衣，40&#37;" />
+    <text key="Vest, type 6B45, 20&#37;" text="重型6B45型防弹衣，20&#37;" />
+    <text key="Vest, type 6B45, destroyed" text="重型6B45型防弹衣，已损坏" />
+
+    <text key="BC-1000 Radio Pack" text="无线电背包" />
+    <text key="BC-1000 Radio Pack, 50&#37;" text="无线电背包，50&#37;" />
+    <text key="Emergency Alert" text="无线电背包，已损坏" />
+
+    <text key="GHOST black ops vest" text="幽灵潜行装备" />
+    <text key="GHOST black ops vest, 60&#37;" text="幽灵潜行装备，60&#37;" />
+    <text key="GHOST black ops vest, 20&#37;" text="幽灵潜行装备，20&#37;" />
+    <text key="GHOST black ops vest, destroyed" text="幽灵潜行装备，已损坏" />
+
+    <text key="Snow Wind In Winter" text="冬之雪风" />
+    <text key="Snow Wind In Winter, 70&#37;" text="冬之雪风，70&#37;" />
+    <text key="Snow Wind In Winter, 50&#37;" text="冬之雪风，50&#37;" />
+    <text key="Snow Wind In Winter, 30&#37;" text="冬之雪风，30&#37;" />
+    <text key="Snow Wind In Winter, destroyed" text="冬之雪风，已损坏" />
+    <text key="Bad man" text="不良天人" />
+    <text key="Bad man, 60&#37;" text="不良天人，60&#37;" />
+    <text key="Bad man, 40&#37;" text="不良天人，40&#37;" />
+    <text key="Bad man, 20&#37;" text="不良天人，20&#37;" />
+    <text key="Bad man, destroyed" text="不良天人，已损坏" />
+
+
+vehicle
+    <text key="M2A2 Bradley" text="M2A2步战车" />
+    <text key="M2A3 Bradley w/Busk III" text="M2A3w BuskIII特型步战车" />
+    <text key="M1126 Stryker" text="M1126装甲车" />
+    <text key="M1128 Stryker" text="M1128机动火炮系统" />
+    <text key="BTR-82A" text="BTR-82A装甲车" />
+    <text key="BMP-3" text="BMP-3步战车" />
+    <text key="M1A2" text="M1A2主战坦克" />
+    <text key="M1A2 SEP v3" text="M1A2 SEP V3特型主战坦克" />
+    <text key="T-14 Armata" text="T-14主战坦克" />
+    <text key="T-80U" text="T-80U主战坦克" />
+    <text key="Leopard 2A5" text="Leopard 2A5主战坦克" />
+    <text key="Stridsvagn 122" text="Stridsvagn 122主战坦克" />
+    <text key="Leopard 2A5 Drop" text="Leopard 2A5主战坦克空投信标" />
+    <text key="Command truck" text="指挥车" />
+    <text key="UH-60" text="“BLACK HAWK”UH-60直升机" />
+    <text key="MH-53" text="MH-53重型直升机" />
+    <text key="X3-550-N0 HJ-9 ATGM carrier" text="WZ550“红箭-9”ATGM步战车" />
+    <text key="WZ550 Drop" text="WZ550“红箭-9”ATGM步战车空投信标" />
+    <text key="Centurion Mk.5 AXNE Drop" text="Legion步兵坦克空投信标" />
+    <text key="Patriot Drop" text="武装皮卡空投信标" />
+    <text key="ZSU-23-4 Drop" text="ZSU-23-4雷达坦克空投信标" />
+    <text key="Tiger Drop" text="“虎”式重型坦克空投信标" />
+    <text key="Sturmtiger Drop" text="“突击虎”重型坦克空投信标" />
+    <text key="Air Strike Marker" text="空袭标记信号弹" />
+    <text key="Redstar" text="红星" />
+    <text key="Redflag" text="红旗" />
+
+    <text key="Ambulance" text="救护车" />
+    <text key="Civilian Car" text="平民车辆" />
+    <text key="TempLaX" text="TempLaX战车" />
+    <text key="GAZ" text="GAZ吉普车" />
+    <text key="M-ATV" text="M-ATV防雷车" />
+    <text key="T-80UM" text="T-80UM主战坦克" />
+    <text key="Ender Car" text="储藏车" />
+    <text key="ZSU-23-4 Shilka SPAA" text="ZSU-23-4自行防空炮" />
+    <text key="Sturmtiger" text="“突击虎”重型坦克" />
+    <text key="DF-11" text="DF-11导弹车" />
+    <text key="Humvee Tow" text="“陶”式悍马车" />
+    <text key="Black Rabbit M1126 Stryker" text="“Black Rabbit”M1126装甲车" />
+    <text key="Black Rabbit M1128 Stryker" text="“Black Rabbit”M1128装甲车" />
+    <text key="Black Rabbit Humvee" text="“Black Rabbit”悍马车" />
+    <text key="Black Rabbit UH-60" text="“Black Rabbit”UH-60直升机" />
+
+    <text key="Kuromorimine 212 Tiger" text="黑森峰 212 号虎式" />
+    <text key="Kingiger #233" text="虎王 233 号" />
+    <text key="Panzer IV (H)" text="四号中型坦克" />
+    <text key="Panzer IV (H) 232 Morkfish" text="四号中型坦克 232 号（鮟鱇鱼车组）" />
+
+zombies item
+    <text key="Infected_100%" text="丧尸" />
+    <text key="Infected_80%" text="丧尸" />
+    <text key="Infected_60%" text="丧尸" />
+    <text key="Infected_30%" text="丧尸" />
+    <text key="Infected_1%" text="丧尸" />
+    <text key="Berserker" text="丧尸" />
+    <text key="infectedplayer" text="丧尸" />
+    <text key="super_brute" text="丧尸" />
+    <text key="InfectedWalker" text="丧尸" />
+    <text key="unstoppable" text="巨型丧尸" />
+zombies text
+    <text key="Very Recently Infected" text="丧尸" />
+    <text key="Recently Infected" text="丧尸" />
+    <text key="Infected" text="丧尸" />
+    <text key="Heavily Infected" text="丧尸" />
+    <text key="Disgustingly Infected" text="丧尸" />
+    <text key="Horrifically Infected" text="丧尸" />
+    <text key="Shambling Horror" text="丧尸" />
+    <text key="Bipedal Parasite" text="丧尸" />
+    <text key="Super Brute" text="丧尸" />
+    <text key="Unstoppable" text="巨型丧尸" />
+zombies weapons
+    <text key="Bile" text="酸性物质" />
+    <text key="Heavy Claws" text=" " />
+    <text key="Long Claws" text=" " />
+    <text key="Soft Claws" text=" " />
+    <text key="Medium Claws" text=" " />
+    <text key="Hard Claws" text=" " />
+    <text key="Acid Cloud" text="酸性物质" />
+    <text key="Elastic Tendons" text=" " />
+    <text key="Ultimate Claws" text=" " />
+    <text key="Heavy Claws blow" text=" " />
+candy
+    <text key="Lava Pepper" text="万圣节糖果" />
+    <text key="Candy Apple" text="万圣节糖果" />
+    <text key="Candy Lice" text="万圣节糖果" />
+    <text key="Otherworldly Jawbreaker" text="万圣节糖果" />
+    <text key="Tentacle Lolli" text="万圣节糖果" />
+    <text key="Raisins" text="万圣节糖果" />
+    <text key="Ghost Pop" text="万圣节糖果" />
+    <text key="Gummy Spider" text="万圣节糖果" />
+    <text key="Jelly Worm" text="万圣节糖果" />
+    <text key="Choco Pigs" text="万圣节糖果" />
+    <text key="Catcoon Candy" text="万圣节糖果" />
+    <text key="Candy Corn" text="万圣节糖果" />
+    <text key="Not-So-Candy Corn" text="万圣节糖果" />
+
+
+
+
+
+
+
+
+
+
+</translation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="rocket" slot="1" pulldown_in_air="13.0" key="gw_m4a1mod.projectile">
+    <tag name="rocket"/>
+    <result class="spawn" instance_class="projectile" instance_key="gw_m4a1mod_sub.projectile" min_amount="1" max_amount="1" offset="0 -1 0" position_spread="0 0" direction_spread="0 -1" />
+    <!-- <trigger class="impact"/> -->
+    <trigger class="time" time_to_live="0.8"/>
+    <rotation class="motion" />
+    <model mesh_filename="javmissile_ap.xml" />
+
+    <commonness value="0.0" />
+
+    <effect class="activated" ref="Propulsion" />
+</projectile>

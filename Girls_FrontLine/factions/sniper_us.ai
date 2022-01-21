@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ai filename="default.ai">
+  <parameter class="accuracy_offset" value="0.1" /> 
+  <parameter class="leader_sight_range" value="55.0" />
+  <parameter class="force_as_leader" value="1" />
+
+  <parameter class="using_cover_min_time" value="6.0" />
+  <parameter class="using_cover_max_time" value="8.0" />
+  
+  <parameter class="shooting_accuracy_ratio_requirement" value="0.6" />  
+
+  <parameter class="squad_cover_provider_range" value="20.0" />
+  <parameter class="squad_cover_provider_offset_factor" value="-0.9" />
+  
+  <parameter class="check_reinforcement_need_time" value="8.0" />
+  <parameter class="call_reinforcements_max_distance" value="45.0" />
+  <parameter class="strike_frequency_time" value="5.0" />
+  <parameter class="force_comparison_multiplier_to_call_reinforcements" value="1.1" />
+</ai>

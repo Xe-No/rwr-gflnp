@@ -1,0 +1,60 @@
+// TODO: clean this up
+
+import ShadowPlantIntegrated from "shadow_plant.material"
+import ShadowPlantIntegrated2 from "shadow_plant.material"
+import ShadowPlantSimple from "shadow_plant.material"
+
+material ShadowHeliIntegrated : ShadowPlantIntegrated {
+	technique Basic {
+		shadow_caster_material ShadowHeliIntegrated2
+	}
+}
+
+material ShadowHeliIntegrated2 : ShadowPlantIntegrated2 {
+	technique ShadersShadows {
+		pass Basic {	
+			texture_unit Basic {
+				tex_address_mode clamp
+                anim_texture shadow_helicopter.png 17 0.2
+                filtering trilinear
+                scale 1 1
+			}
+		}
+	}
+}
+
+material ShadowHeliSimple : ShadowPlantSimple {
+	technique NoShaders {
+		pass Basic {
+			texture_unit Basic {
+			    tex_address_mode clamp
+                anim_texture shadow_helicopter.png 8 0.2
+                filtering trilinear
+                scale 1 1
+				// texture shadow_helicopter.png
+        		}
+		} 
+	}
+}
+
+material ShadowHeliN {
+	receive_shadows off
+	technique {
+		pass {
+			cull_hardware none
+			cull_software none
+			ambient 1.266667 1.266667 1.266667 1.000000
+			diffuse 0.266667 0.266667 0.266667 1.000000
+			specular 0.333333 0.333333 0.333333 1.000000
+			emissive 1.000000 1.000000 1.000000 1.000000
+			scene_blend alpha_blend
+
+			texture_unit {
+				tex_address_mode clamp
+                anim_texture shadow_helicopter.png 17 0.2
+                filtering trilinear
+                scale 1 1
+			}
+		}
+	}
+}

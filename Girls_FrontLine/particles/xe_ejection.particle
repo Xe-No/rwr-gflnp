@@ -1,0 +1,194 @@
+particle_system					ejection
+{
+	quota						100
+	material					bullet_shell
+	particle_width				0.4
+	particle_height				0.4
+	cull_each					false
+	renderer					billboard
+	billboard_type				point
+
+	// Emitter Type.
+	emitter						Point
+	{
+		colour					1 1 1 1
+		angle					30
+		emission_rate			15
+		position				0.0 0.0 0
+		direction 				1.0 70.0 -10.0
+		velocity				-10.5
+		time_to_live			0.5
+		duration				0.05
+	}
+
+	affector							Rotator
+	{
+		rotation_speed_range_start		0
+		rotation_speed_range_end		2160
+		rotation_range_start			0
+		rotation_range_end				360
+	}
+
+	// Gravity.
+    affector					LinearForce
+    {
+        force_vector			10 -25 0
+        force_application		add
+    }
+}
+
+particle_system					ejection_bmp3
+{
+	quota						100
+	material					bullet_shell
+	particle_width				0.4
+	particle_height				0.4
+	cull_each					false
+	renderer					billboard
+	billboard_type				point
+
+	// Emitter Type.
+	emitter						Point
+	{
+		colour					1 1 1 1
+		angle					10
+		emission_rate			100
+		position				0.0 0.0 0
+		direction 				0 0 7
+		velocity				10
+		time_to_live			0.8
+		duration				0.01
+	}
+
+	affector							Rotator
+	{
+		rotation_speed_range_start		360
+		rotation_speed_range_end		720
+		rotation_range_start			0
+		rotation_range_end				360
+	}
+
+	// Gravity.
+    affector					LinearForce
+    {
+        force_vector			0 -40 0
+        force_application		add
+    }
+}
+
+particle_system					ejection_btr82a
+{
+	quota						100
+	material					bullet_shell
+	particle_width				0.5
+	particle_height				0.5
+	cull_each					false
+	renderer					billboard
+	billboard_type				point
+
+	// Emitter Type.
+	emitter						Point
+	{
+		colour					1 1 1 1
+		angle					0
+		emission_rate			100
+		position				0.0 0.0 0
+		direction 				1.0 10.0 70.0
+		velocity				5.5
+		time_to_live			0.8
+		duration				0.01
+	}
+
+	affector							Rotator
+	{
+		rotation_speed_range_start		720
+		rotation_speed_range_end		720
+		rotation_range_start			180
+		rotation_range_end				180
+	}
+
+	// Gravity.
+    affector					LinearForce
+    {
+        force_vector			0 -7 0
+        force_application		add
+    }
+}
+
+material bullet_shell{
+	receive_shadows off
+	technique {
+		pass {
+			cull_hardware none
+			cull_software none
+			ambient 1.266667 1.266667 1.266667 1.000000
+			diffuse 0.266667 0.266667 0.266667 1.000000
+			specular 0.333333 0.333333 0.333333 1.000000
+			emissive 1.000000 1.000000 1.000000 1.000000
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture bullet_shell_7.62mm.png
+			}
+		}
+	}
+}
+
+particle_system					ejection_sg
+{
+	quota						100
+	material					bullet_shell_sg
+	particle_width				0.7
+	particle_height				0.7
+	cull_each					false
+	renderer					billboard
+	billboard_type				point
+
+	emitter						Point
+	{
+		colour					1 1 1 1
+		angle					5
+		emission_rate			10
+		position				0.0 0.0 0
+		direction 				1.0 70.0 -10.0
+		velocity				-10.5
+		time_to_live			0.5
+		duration				0.05
+	}
+
+
+	affector							Rotator
+	{
+		rotation_speed_range_start		1000
+		rotation_speed_range_end		1000
+		rotation_range_start			0
+		rotation_range_end				0
+	}
+
+	// Gravity.
+    affector					LinearForce
+    {
+        force_vector			10 -25 0
+        force_application		add
+    }
+}
+
+material bullet_shell_sg{
+	receive_shadows off
+	technique {
+		pass {
+			cull_hardware none
+			cull_software none
+			ambient 1.266667 1.266667 1.266667 1.000000
+			diffuse 0.266667 0.266667 0.266667 1.000000
+			specular 0.333333 0.333333 0.333333 1.000000
+			emissive 1.000000 1.000000 1.000000 1.000000
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture bullet_shell_sg.png
+			}
+		}
+	}
+}
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1">
+	<weapon key="gw_ump45.weapon" />
+	<weapon key="gw_ump9.weapon" />
+	<weapon key="gw_type100.weapon" />
+	<weapon key="gw_mp5.weapon" />
+	<weapon key="gw_mp40.weapon" />
+	<weapon key="gw_mp7.weapon" />
+	<weapon key="p90.weapon" />
+	<weapon key="gw_ppsh41.weapon" />
+	<weapon key="steyr_tmp.weapon" />
+	<weapon key="gw_idw.weapon" />
+	<weapon key="ump40.weapon" />
+	<weapon key="mx4_storm.weapon" />
+	<weapon key="gw_ro635.weapon" />
+
+  	<carry_item key="base_smg_vest.carry_item" />
+
+</resources>

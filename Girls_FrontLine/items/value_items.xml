@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+<carry_item file="base_valuable.carry_item" name="E-doll" key="it_gundam.carry_item">
+    <hud_icon filename="it_gundam.png" />
+    <inventory encumbrance="0.5" price="10000.0" />
+    <model filename="it_gundam.xml" />
+    <commonness value="0.3" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="PlashSpeed Router" key="it_plashspeed.carry_item">
+    <hud_icon filename="it_plashspeed.png" />
+    <inventory encumbrance="0.5" price="5536.0" />
+    <model filename="it_plashspeed.xml" />
+    <commonness value="0.3" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="Cyberpunk 2099" key="it_2099.carry_item">
+    <hud_icon filename="it_2099.png" />
+    <inventory encumbrance="0.5" price="2980.0" />
+    <model filename="it_2099.xml" />
+    <commonness value="0.3" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="Maotai sauce flavor engine oil" key="it_engine_oil.carry_item">
+    <hud_icon filename="it_engine_oil.png" />
+    <inventory encumbrance="0.5" price="2889.0" />
+    <model filename="it_engine_oil.xml" />
+    <commonness value="0.5" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="Neovida RTX-4080Ti" key="it_4080ti.carry_item">
+    <hud_icon filename="it_4080ti.png" />
+    <inventory encumbrance="0.5" price="2000.0" />
+    <model filename="it_4080ti.xml" />
+    <commonness value="1" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="fire control unit" key="it_fire_control.carry_item">
+    <hud_icon filename="it_fire_control.png" />
+    <inventory encumbrance="0.5" price="1000.0" />
+    <model filename="it_fire_control.xml" />
+    <commonness value="2" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="cpu core" key="it_cpu.carry_item">
+    <hud_icon filename="it_cpu.png" />
+    <inventory encumbrance="0.5" price="1000.0" />
+    <model filename="it_cpu.xml" />
+    <commonness value="2.5" in_stock="1" />
+</carry_item>
+
+<carry_item file="base_valuable.carry_item" name="broken cpu core" key="it_broken_cpu.carry_item">
+    <hud_icon filename="it_broken_cpu.png" />
+    <inventory encumbrance="0.5" price="100.0" />
+    <model filename="it_broken_cpu.xml" />
+    <commonness value="1" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="broken fire control unit" key="it_broken_fire_control.carry_item">
+    <hud_icon filename="it_broken_fire_control.png" />
+    <inventory encumbrance="0.5" price="100.0" />
+    <model filename="it_broken_fire_control.xml" />
+    <commonness value="1" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="Fertility Module" key="it_fert_module.carry_item">
+    <hud_icon filename="it_fert_module.png" />
+    <inventory encumbrance="0.5" buy_price="2000" sell_price="500.0" />
+    <model filename="it_fert_module.xml" />
+    <commonness value="1" in_stock="1" />
+</carry_item>
+
+<carry_item file="base_valuable.carry_item" name="Cerynitis E-cigarette" key="it_ecigar.carry_item">
+    <hud_icon filename="it_ecigar.png" />
+    <inventory encumbrance="0.5" price="100.0" />
+    <model filename="it_ecigar.xml" />
+    <commonness value="8" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="Metal Tomato" key="it_mtomato.carry_item">
+    <hud_icon filename="it_mtomato.png" />
+    <inventory encumbrance="0.5" price="10.0" />
+    <model filename="it_mtomato.xml" />
+    <commonness value="5" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="Token Box" key="token_box.carry_item">
+    <hud_icon filename="token_box.png" />
+    <inventory encumbrance="0.5" buy_price="5000" sell_price="10.0" />
+    <model filename="token_box.xml" />
+    <commonness value="3" in_stock="1" />
+</carry_item>
+
+</carry_items>

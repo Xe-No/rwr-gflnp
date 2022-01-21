@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	        <weapon key="rw_skorpion.weapon" />  
+	        <weapon key="rw_pmm.weapon" />  
+	        <weapon key="pb.weapon" />
+	        <weapon key="rpg-7.weapon" /> 
+	        <weapon key="aek_919k.weapon" />     
+</resources>

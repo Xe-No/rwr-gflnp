@@ -1,0 +1,21 @@
+material heart {
+	receive_shadows off    
+    technique {
+		pass {
+			cull_hardware none
+			cull_software none
+			ambient 1 1 1 1
+			diffuse 1 1 1 1 
+			specular 1 1 1 1
+			emissive 1.000000 1.000000 1.000000 1.000000
+			scene_blend alpha_blend
+
+            texture_unit {
+                //texture pink_heart.png
+                texture pink_heart.png
+                tex_address_mode clamp
+                rotate_anim 0.5
+            }
+        }
+    }
+}

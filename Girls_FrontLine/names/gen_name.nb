@@ -1,0 +1,94 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3064,         86]
+NotebookOptionsPosition[      2478,         67]
+NotebookOutlinePosition[      2892,         84]
+CellTagsIndexPosition[      2849,         81]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"str", "=", "\"\<\nSF-SP65\nSF-SP88\nSF-SP524\n\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"list", "=", 
+  RowBox[{"StringSplit", "[", 
+   RowBox[{"str", ",", "\"\<\\n\>\""}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Export", "[", 
+    RowBox[{
+     RowBox[{"#", "~~", "\"\<.name\>\""}], ",", "#", ",", "\"\<Text\>\""}], 
+    "]"}], "&"}], "/@", "list"}]}], "Input",
+ CellChangeTimes->{{3.8169405863409033`*^9, 3.8169407297483263`*^9}, {
+  3.817698862773628*^9, 3.8176988896755447`*^9}, {3.8176989886481123`*^9, 
+  3.817698995539487*^9}, {3.8176990686482706`*^9, 3.8176990702759776`*^9}, {
+  3.8374108273968916`*^9, 3.8374108470508657`*^9}, {3.8374109014360065`*^9, 
+  3.837410904731524*^9}, {3.837412165756274*^9, 3.8374121722102757`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"5350c006-4de0-4bae-b341-96b8ba9afe30"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"SF-SP65\"\>", ",", "\<\"SF-SP88\"\>", 
+   ",", "\<\"SF-SP524\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.816940670175659*^9, {3.8169407220229874`*^9, 3.816940730103376*^9}, 
+   3.8176988917628093`*^9, 3.8176989969281635`*^9, 3.817699071530137*^9, 
+   3.837410986081274*^9, 3.837412176454049*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"64445152-ee60-4465-a878-2e21ca557d9f"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"SF-SP65.name\"\>", ",", "\<\"SF-SP88.name\"\>", 
+   ",", "\<\"SF-SP524.name\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.816940670175659*^9, {3.8169407220229874`*^9, 3.816940730103376*^9}, 
+   3.8176988917628093`*^9, 3.8176989969281635`*^9, 3.817699071530137*^9, 
+   3.837410986081274*^9, 3.8374121764759655`*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"4c35dfcf-8428-41b5-b9d0-27e7374d9e88"]
+}, Open  ]]
+},
+WindowSize->{776, 872},
+WindowMargins->{{Automatic, 282}, {-341, Automatic}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (2021\:5e742\:67085\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"4fd15ea0-c1ab-4243-8dc3-9bf57b3f2434"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1013, 22, 162, "Input",ExpressionUUID->"5350c006-4de0-4bae-b341-96b8ba9afe30"],
+Cell[1596, 46, 423, 8, 32, "Output",ExpressionUUID->"64445152-ee60-4465-a878-2e21ca557d9f"],
+Cell[2022, 56, 440, 8, 54, "Output",ExpressionUUID->"4c35dfcf-8428-41b5-b9d0-27e7374d9e88"]
+}, Open  ]]
+}
+]
+*)
+

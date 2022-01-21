@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="kcco_text.character">
+  <sound key="footstep" fileref="mecha_walk.wav" volume="0.1" pitch_variety="0.0" />
+</character>

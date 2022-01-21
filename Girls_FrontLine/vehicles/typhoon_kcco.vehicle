@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle file="typhoon_base.vehicle" name="Typhoon Repulsive Tank(KCCO)" key="typhoon_kcco.vehicle" respawn_time="120" map_view_atlas_index="1" minimum_fill_requirement="1"  >
+	<tag name="metal_heavy" />
+	<tag name="apc" />
+	<tag name="vehicle" />
+	<tag name="light_combat" />
+
+	<visual class="chassis" 				mesh_filename="typhoon_b0.mesh" 			texture_filename="typhoon_kcco.dds" />
+	<visual class="chassis" key="broken" 	mesh_filename="typhoon_b0.mesh" 			texture_filename="typhoon_kcco.dds" />
+	<visual class="turret" turret_index="0" mesh_filename="typhoon_t0.mesh" 			texture_filename="typhoon_kcco.dds" />
+	<visual class="turret" key="broken" 	mesh_filename="typhoon_t0.mesh" 			texture_filename="typhoon_kcco.dds" />	
+
+</vehicle>

@@ -1,0 +1,1042 @@
+//-----------------------------------------------------------------------------------------------------------------------
+// This script is part of the Particle Universe Media Pack product.
+//
+// Copyright (c) 2008 Henry van Merode
+//
+// Usage of this program is licensed under the terms of the Particle Universe Commercial License.
+// You can find a copy of the Commercial License in the Particle Universe package.
+//-----------------------------------------------------------------------------------------------------------------------
+material Bubble
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_bubble.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material BlurredBubble
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_bubble_blurred.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Streak_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_streak_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Streak_02
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+            texture_unit
+            {
+                texture pump_streak_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Streak_03
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_streak_03.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Streak_04
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_streak_04.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Flare_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_flare_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Flare_02
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_flare_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Flare_03
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_flare_03.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Flare_04
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_flare_04.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Flare_05
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_flare_05.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Flare_06
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_flare_06.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Watch
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            depth_write off
+            scene_blend add
+
+            texture_unit
+            {
+                texture pump_watch.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Hourglass
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            depth_write off
+            scene_blend add
+
+            texture_unit
+            {
+                texture pump_hourglass.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Leave
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_leave.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Smoke_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_smoke_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Smoke_11
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_smoke_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Dirt_11
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_dirt_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Dirt_12
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_dirt_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Lightning_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_lightning_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Lightning_02
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_lightning_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Lightning_03
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_lightning_03.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Lightning_04
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_lightning_04.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Spark_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_spark_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Star_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_star_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Star_02
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_star_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Star_03
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_star_03.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Star_04
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_star_04.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Star_05
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_star_05.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Genesis_11
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_genesis_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------
+material Genesis_12
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_genesis_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------
+material ParticleUniverse/Swirl_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_swirl_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------
+material ParticleUniverse/Swirl_02
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_swirl_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------
+material ParticleUniverse/Swirl_03
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_swirl_03.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------
+material Ring_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_ring_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------
+material Ring_02
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_ring_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------
+material Ring_03
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_ring_03.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------
+material Ring_14
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_ring_04.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------
+material Ring_05
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_ring_05.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Metal_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_metal_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Metal_02
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_metal_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+//-----------------------------------------------------------------------------------------------------------------------
+material Fire_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_flame_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//---------------------------------------------------------------------
+material Fire_02
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_flame_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//---------------------------------------------------------------------
+material Fire_03
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_flame_03.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//---------------------------------------------------------------------
+material Fire_04
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_flame_04.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//---------------------------------------------------------------------
+material AtlasSmoke
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_atlas_smoke.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//---------------------------------------------------------------------
+material Snow_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_snow_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+//-----------------------------------------------------------------------------------------------------------------------
+material BBal
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            depth_write off
+
+            texture_unit
+            {
+                texture pu_bbal.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material BioHazzard
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_biohazzard.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material CelticKnot
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_celticknot.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Pentagram_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_pentagram_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material Pentagram_02
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_pentagram_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}

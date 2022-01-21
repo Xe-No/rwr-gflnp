@@ -1,0 +1,78 @@
+particle_system 			xBulletFlash
+{
+	quota					1000
+	material				xFlame2
+	particle_width			0.5
+	particle_height			0.5
+	cull_each				false
+	renderer				billboard
+	billboard_type			point
+	accurate_facing 		true
+
+	emitter 				Point
+	{
+		angle				0
+		colour				0.25 0.25 0.25
+		direction			0 1 0
+		emission_rate		150
+		position			0 0 0
+		velocity			0
+		velocity_min		0
+		velocity_max		0
+		time_to_live		0.04
+		time_to_live_min	0.04
+		time_to_live_max	0.04
+		duration			0.025
+		duration_min		0.025
+		duration_max		0.025
+		width				0
+		height				0
+		depth				0
+	}
+}
+
+
+material xFlame2 {
+        receive_shadows off
+	technique {
+		pass {
+			lighting off
+			depth_write off
+			scene_blend add
+			fog_override true
+
+			texture_unit {
+				texture impact_flame.png
+			}
+		}
+	}
+}
+
+particle_system 				xBulletImpactObjectGlow
+{
+	quota						10000
+	material					Piece
+	particle_width				0.15
+	particle_height				0.15
+	cull_each					false
+	renderer					billboard
+	billboard_type				point
+	accurate_facing 			false
+
+	// Emitter Type.
+	emitter 					Point
+	{
+		emission_rate			3
+		direction				0 1 0
+		velocity				0
+		position				0 0 0
+		time_to_live			8.0
+		duration				0.334
+	}
+	
+	// Colour Changer - Life.
+	affector					ColourImage
+	{
+		image					impact_glow.png
+	}
+}

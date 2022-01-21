@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call name="AC-130 Fire mission"
+	key="ac130_gun_run.call"
+	notify_metagame="1"
+	initiation_comment1="Requesting AC-130 air strike"
+	acknowledge_comment="Comfirmed,sending Hammer,out."
+	radio_view_text="AC-130 Fire mission" 
+	launch_comment="This is Hammer 1-1,arrving target area."
+	show_target_marker="0">
+	
+    <round instances="1"
+           instance_class="vehicle"
+           instance_key="ac130_flare.vehicle" 
+           instance_spread="0 0 0" 
+           common_spread="0 0 0" 
+           horizontal_offset_at_spawn="0"
+           vertical_offset_at_spawn="1" 
+           launch_time="6"
+           spawn_time="6">
+	<sound class="spawn" fileref="engage130.wav" volume="4.0" />
+      	<sound class="launch" fileref="ac130_flyby.wav" volume="2.0"/>
+    </round>
+	
+
+	<!-- 发起与生成的时间差一定要大于ac130的持续时间！ -->
+	<round launch_time="8.0"
+	   spawn_time="30.0">
+	   <!-- <sound class="launch" fileref="ac130_flyby.wav" volume="2.0"/> -->
+	</round>
+
+	<hud_icon filename="hud_ac130.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="5" source="rank" source_value="1.0" />
+	<capacity value="10" source="rank" source_value="2.0" />
+	<capacity value="15" source="rank" source_value="5.0" />
+	<inventory encumbrance="0.0" price="950.0" />
+
+</call>

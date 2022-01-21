@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>	
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="95type"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="95type_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="95type_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="97type"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="97type_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="97type_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="98k"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="98k_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="9a91"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="9a91_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="9a91_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="9a91_1302"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="9a91_1302_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="9a91_1302_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak12"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak12_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak12_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="an94"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="an94_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="an94_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ar15"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ar15_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ar15_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="c96"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="c96_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fn57"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fn57_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fn57_1109"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fn57_1109_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fn57_1902"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fn57_1902_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfnc"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfnc_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfnc_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g11"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g11_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g11_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g11_9"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g11_9_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g11_9_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="hk416"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="hk416_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="hk416_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m14"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m14_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m14_303"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m14_303_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m16a1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m16a1_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m16a1_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m16a1_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1873"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1873_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1873_301"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1873_301_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1895"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1895_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1895mod"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1895mod_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1911"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1911_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1911mod"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m9111mod_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp446"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp446_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp446mod"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp446mod_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp446_103"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp446_103_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp446_402"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp446_402_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m2hb"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m2hb_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m2hb_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m2hb_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4 sopmod ii"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4 sopmod ii_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4 sopmod ii_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4a1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4a1_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4a1_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m82a1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m82a1_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m9"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m9_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m99"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m99_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m99_1701"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m99_1701_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5__3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_3_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_3_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_3_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_1205"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_1205_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_1205_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_1205_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_1903"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_1903_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_1903_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp5_1903_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp40"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp40_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp40_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp40_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp40_902"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp40_902_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp40_902_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp40_902_3"/></model>
+
+<!-- 	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg5"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg5_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg5_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg5_3"/></model>
+ -->
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="negev"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="negev_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="negev_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="negev_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="negev_904"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="negev_904_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="negev_904_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="negev_904_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p7"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p7_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p7_606"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p7_606_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p7_1404"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p7_1404_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p226"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p226_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pkp"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pkp_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pkp_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pkp_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="spas12"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="spas12_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="spas12_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="spas12_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="spas12_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="spas12_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="type100"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="type100_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="type100_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="type100_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45_410"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45_410_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45_410_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45_410_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump9"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump9_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump9_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump9_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump9_409"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump9_409_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump9_409_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump9_409_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12_2704"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12_2704_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12_2704_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12_2704_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12_2704_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="usas12_2704_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="wa2000"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="wa2000_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="wa2000_6"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="wa2000_6_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="wa2000_306"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="wa2000_306_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="wa2000_1108"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="wa2000_1108_1"/></model>
+
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="brenten"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="brenten_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mk23"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mk23_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="gsh18"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="gsh18_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="gsh18_609"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="gsh18_609_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aug"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aug_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aug_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="art556"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="art556_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="art556_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="arx160"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="arx160_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="arx160_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mlemk1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mlemk1_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="dsr50"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="dsr50_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="svd"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="svd_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="supersass"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="supersass_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="raidenmei"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="raidenmei_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp7"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp7_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp7_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp7_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p90"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p90_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p90_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p90_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ppsh41"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ppsh41_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ppsh41_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ppsh41_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="tmp"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="tmp_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="tmp_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="tmp_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg5"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg5_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg5_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg5_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="supershorty"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="supershorty_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="supershorty_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="supershorty_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="supershorty_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="supershorty_5"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ar15mod"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ar15mod_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ar15mod_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4 sopmod iimod"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4 sopmod iimod_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4 sopmod iimod_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4a1mod"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4a1mod_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4a1mod_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45mod"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45mod_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45mod_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump45mod_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mk23_8"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mk23_8_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="supersass_1407"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="supersass_1407_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp7_2405"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp7_2405_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp7_2405_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mp7_2405_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="f2000"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="f2000_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="f2000_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg42"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg42_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg42_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg42_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump40"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump40_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump40_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ump40_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m200"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m200_1"/></model>
+
+    <model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aat52"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aat52_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aat52_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aat52_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli_1605"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli_1605_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli_1605_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli_1605_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli_2409"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli_2409_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli_2409_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ameli_2409_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak47"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak47_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak47_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak47_501"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak47_501_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak47_501_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak74u"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak74u_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ak74u_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="art556_1803"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="art556_1803_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="art556_1803_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfal_308"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfal_308_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfal_308_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfal"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfal_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfal_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfal_2406"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfal_2406_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfal_2406_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfnc_1406"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfnc_1406_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fnfnc_1406_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g3_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g3_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g3_1303"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g3_1303_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g3_1303_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g36"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g36_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g36_2"/></model>
+
+    <model filename="gs_g36c.xml"><requirement class="carry_item" slot="1" key="g36c"/></model>
+	<model filename="gs_g36c.xml"><requirement class="carry_item" slot="1" key="g36c_1"/></model>
+	<model filename="gs_g36c.xml"><requirement class="carry_item" slot="1" key="g36c_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g36_1507"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g36_1507_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g36_1507_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="idw"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="idw_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="idw_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="idw_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="idw_2108"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="idw_2108_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="idw_2108_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="idw_2108_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ksg"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ksg_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ksg_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ksg_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ksg_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ksg_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m60"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m60_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m60_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m60_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m249"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m249_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m249_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m249_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m870"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m870_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m870_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m870_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m870_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m870_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1014"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1014_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1014_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1014_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1014_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1014_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sat8"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sat8_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sat8_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sat8_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sat8_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sat8_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cx4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cx4_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cx4_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cx4_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ssg69"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ssg69_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sr3mp"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sr3mp_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sr3mp_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sr3mp_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ntw20"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ntw20_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="rfb"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="rfb_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="rfb_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="rfb_1601"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="rfb_1601_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="rfb_1601_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sv98"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sv98_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sv98_502"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sv98_502_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p30"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="p30_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="95type_405"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="95type_405_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="95type_405_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="97type_406"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="97type_406_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="97type_406_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ots14_c2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ots14_c2_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="ots14_c2_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pa15_chinadress"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pa15_chinadress_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="dsr50_chinadress"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="dsr50_chinadress_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590_chinadress"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590_chinadress_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590_chinadress_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590_chinadress_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590_chinadress_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m590_chinadress_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4a1_princess"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4a1_princess_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m4a1_princess_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g41"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g41_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g41_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="asval"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="asval_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="asval_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g28"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="g28_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m1_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m37"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m37_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m37_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m37_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m37_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="m37_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kp31"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kp31_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kp31_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kp31_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg34"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg34_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg34_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg34_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fg42"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fg42_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fg42_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="fg42_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cbjms"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cbjms_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cbjms_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cbjms_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kacpdw"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kacpdw_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kacpdw_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kacpdw_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg36"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg36_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg36_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mg36_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cf05"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cf05_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cf05_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="cf05_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kriss"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kriss_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kriss_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="kriss_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pp19"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pp19_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pp19_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pp19_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mk46"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mk46_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mk46_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="mk46_3"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sig556"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sig556_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="sig556_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="acr"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="acr_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="acr_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pdw"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pdw_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="pdw_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="psg1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="psg1_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="qbu88"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="qbu88_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="hs2000"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="hs2000_1"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12_4401"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12_4401_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12_4401_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12_4401_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12_4401_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="aa12_4401_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="liberator"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="liberator_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="liberator_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="liberator_3"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="liberator_4"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="liberator_5"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="famas"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="famas_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="famas_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="l85a1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="l85a1_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="l85a1_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="xm8"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="xm8_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="xm8_2"/></model>
+
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="rpd"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="rpd_1"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="rpd_2"/></model>
+	<model filename="soldier_gs.xml"><requirement class="carry_item" slot="1" key="rpd_3"/></model>
+
+
+</models>

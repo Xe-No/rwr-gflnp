@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_RF.weapon" key="gw_ssg69.weapon">
+    <tag name="sniper" />
+    <specification 
+  retrigger_time="-0.35" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="1.0" 
+  sustained_fire_diminish_rate="3.0" 
+  magazine_size="5" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="SSG 69" 
+  class="2" 
+  reload_one_at_a_time="0" 
+  ai_sight_range_modifier="1.1" 
+  sight_range_modifier="1.95"
+  projectile_speed="195.0" 
+  barrel_offset="0.4" 
+  projectiles_per_shot="1" />
+    <animation key="recoil" ref="27" />
+    <animation key="cycle" ref="30" />
+    <animation key="reload" ref="35" />
+    <sound key="fire" fileref="gw_ssg69.wav" volume="1.0" />
+    <sound key="cycle" fileref="sniper_cycle.wav" />
+    <sound key="magazine_out" fileref="sniper_clip_out.wav" />
+    <sound key="magazine_in" fileref="sniper_clip_in.wav" />
+    <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+    <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="gw_ssg69.xml" />
+
+    <hud_icon filename="gw_ssg69.png" />
+    <commonness value="1.0" can_respawn_with="1" />
+    <inventory encumbrance="10.0" price="6.0" />
+
+    <projectiles_per_shot value="1" />
+    <weak_hand_hold offset="0.3" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="2.3" kill_decay_start_time="1.65" kill_decay_end_time="2.2" />
+    </projectile>
+ 
+    <stance state_key="running" accuracy="0.1" />
+    <stance state_key="walking" accuracy="0.5" />
+    <stance state_key="crouch_moving" accuracy="0.1" />
+    <stance state_key="standing" accuracy="0.8" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="0.1" />
+    <stance state_key="over_wall" accuracy="0.85" /> 
+    <modifier class="speed" value="-0.06" />
+</weapon>

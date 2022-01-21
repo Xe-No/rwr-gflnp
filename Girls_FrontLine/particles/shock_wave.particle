@@ -1,0 +1,65 @@
+particle_system ShockWave
+{
+	quota	500
+	material	ShockWaveCircle
+	particle_width	0.3
+	particle_height	0.3
+	cull_each	false
+	renderer	billboard
+    billboard_type  point
+    // common_direction 0 1 0
+
+
+	emitter Point
+	{
+		angle	180
+		colour	1 1 1 0.4
+		colour_range_start	1 1 1 0.4
+		colour_range_end	1 1 1 1
+		direction	0 1 0
+		emission_rate	80
+		position	0 0 0
+		velocity	1.0
+		time_to_live	0.4
+		duration	0.0
+	}
+
+	affector Scaler
+	{
+		rate	7.6
+	}
+
+
+	affector ColourFader2
+	{
+		red 0.4
+		green 0.4
+		blue 0.4
+		alpha -5
+	}
+
+	// affector Rotator
+	// {
+	// 	rotation_speed_range_start 0
+	// 	rotation_speed_range_end 360
+	// 	rotation_range_start 0
+	// 	rotation_range_end 360
+	// }
+
+}
+
+material ShockWaveCircle{
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			depth_write off
+			scene_blend add
+			fog_override true
+
+			texture_unit {
+				texture shock_wave_circle.png
+			}
+		}
+	}
+}

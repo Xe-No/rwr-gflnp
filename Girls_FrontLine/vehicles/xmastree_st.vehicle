@@ -1,0 +1,69 @@
+<vehicle name="" key="xmastree_st.vehicle" map_view_atlas_index="-1" respawn_time="36000.0" usable_for_cover="0">
+  <!--  <tag name="sandbag" />-->
+  <!--  <tag name="target" />  we don't want the sandbags to be processed by fov anymore (1.76) -->
+  <!--  tires are mandatory-->
+  <tire_set offset="1.0 0.0 0.5" radius="0.65" />
+  <tire_set offset="1.0 0.0 -0.5" radius="0.65" />
+
+  <control max_speed="10.0" acceleration="8" max_reverse_speed="10.0" min_health_to_steer="0" max_rotation="0.7" max_water_depth="1.0" steer_smoothening="0.8" />
+
+  <physics
+      max_health="20.0"
+      mass="250.0"
+      extent="2.0 0.0 2.0"
+      offset="0 0.0 0"
+      top_offset="0 1 0"
+      collision_model_pos="0 0.8 0"
+      collision_model_extent="1.0 2.0 1.0"
+      visual_offset="0 0.5 0"
+	collision_response_factor="0.2" 
+	blast_push_threshold="10.0"  /> 
+
+  <character_slot type="driver" position="0.34 0.32 0" 
+    rotation="0" exit_rotation="1.57" 
+    hiding="1" />
+
+  <character_slot type="passenger" position="-0.34 0.3 0"
+                  rotation="0" exit_rotation="-1.57"
+                  seat_position="0.0 0.3 0.0"
+                  hiding="0" animation_key="still" marker_offset="0 1000 0"/>
+
+  <visual class="chassis" mesh_filename="xmas_tree.mesh" texture_filename="xmas_tree.png"/>
+  <visual class="turret"  mesh_filename="xmastree_bamboo_hat.mesh" texture_filename="xmastree_bamboo_hat.png"/>
+  <sound key="hit" filename="barrier_impact1.wav" />
+  <sound key="hit" filename="barrier_impact2.wav" />
+
+<!--   <sound key="slide" filename="slide_noise.wav" />
+  <sound key="squeal" filename="tire_squeal.wav" />
+  <sound key="ignition" filename="jeep2_ignition.wav" />
+  <sound key="horn" filename="horn_jeep.wav" />  
+  <sound key="hit" filename="car_hit1.wav" />
+  <sound key="hit" filename="car_hit2.wav" />
+  <sound key="hit" filename="car_hit3.wav" />
+  <sound key="destroy" filename="vehicle_explosion_1.wav" />  
+  <sound key="cleanup" filename="vehicle_explosion_1.wav" />   -->
+
+  <!--  <event key="receive_damage_xp_reward">-->
+  <!--    <trigger class="receive_damage" />-->
+  <!--    <result class="reward" xp="0.0010" />-->
+  <!--  </event>-->
+<rev_sound />
+
+  <effect event_key="destroy" key="other" ref="SmokeMinor" post_processing="1" />
+  <effect event_key="destroy" key="other" ref="ShadowSmokeMinor" shadow="1" />
+
+	<event>
+		<trigger class="destroy" />
+  		<result 
+		class="spawn" 
+		instance_class="visual_item" 
+		instance_key="xmas_tree_debris.visual_item" 
+		min_amount="30" 
+		max_amount="40" 
+		offset="0 0.5 0" 
+		position_spread="0.5 0.5" 
+		direction_spread="0.1 0.1" />
+	</event>  
+
+
+</vehicle>

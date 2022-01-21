@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="380mm naval  strike" key="tx_380.call"
+      initiation_comment1="Fire mission"
+      initiation_comment2="Requesting 380mm naval strike."
+      acknowledge_comment="Roger."
+      acknowledge_time="1.0"
+      launch_comment="Rounds on the way."
+	  notify_metagame="1">
+    
+    <round instances="2"
+           instance_class="grenade"
+           instance_key="tx_380mm.projectile" 
+           instance_spread="30 10 30" 
+           common_spread="10 0 10" 
+           launch_time="5.0"
+           spawn_time="8.0">
+     <sound class="launch" fileref="artillery_barrage_1.wav" volume="1.0" />
+     <sound class="launch" fileref="artillery_barrage_2.wav" volume="1.0" />       
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+    <round instances="2"
+           instance_class="grenade"
+           instance_key="tx_380mm.projectile" 
+           instance_spread="30 10 30" 
+           common_spread="10 0 10"
+           launch_time="6.0"
+           spawn_time="9.0">
+     <sound class="launch" fileref="artillery_barrage_1.wav" volume="1.0" />
+     <sound class="launch" fileref="artillery_barrage_2.wav" volume="1.0" />      
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+    <round instances="2"
+           instance_class="grenade"
+           instance_key="tx_380mm.projectile" 
+           instance_spread="30 10 30" 
+           common_spread="10 0 10"
+           launch_time="7.0"
+           spawn_time="10.0">
+	   <sound class="launch" fileref="artillery_barrage_1.wav" volume="1.0" />
+     <sound class="launch" fileref="artillery_barrage_2.wav" volume="1.0" />
+     <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+    <round instances="2"
+           instance_class="grenade"
+           instance_key="tx_380mm.projectile" 
+           instance_spread="30 10 30" 
+           common_spread="10 0 10"
+           launch_time="8.0"	
+           spawn_time="11.0">
+     <sound class="launch" fileref="artillery_barrage_1.wav" volume="1.0" />
+     <sound class="launch" fileref="artillery_barrage_2.wav" volume="1.0" />
+     <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+
+    <hud_icon filename="tx_380mm.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.6" />
+    <inventory encumbrance="0.0" price="3000.0" />
+
+</call>

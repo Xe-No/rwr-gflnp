@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="ks_cyclops.xml" />
+	<model filename="ks_centaurus_camo.xml"><requirement class="weapons" slot="0" key="centaurus_bow.weapon"/></model>
+	<model filename="ks_centaurus.xml"><requirement class="weapons" slot="0" key="centaurus_bow_he.weapon"/></model>
+	<model filename="ks_centaurus.xml"><requirement class="weapons" slot="0" key="centaurus_bow_ince.weapon"/></model>
+	<model filename="ks_cerynitis.xml"><requirement class="weapon" slot="0" key="cerynitis.weapon"/></model>
+	<model filename="ks_cerynitis.xml"><requirement class="weapon" slot="0" key="cerynitis_2"/></model>
+	<model filename="ks_hydraii.xml"><requirement class="weapon" slot="0" key="hydraii.weapon"/></model>
+	<model filename="ks_hydraii_c.xml"><requirement class="weapon" slot="0" key="hydraii_railgun.weapon"/></model>
+	<model filename="ks_dactyl.xml"><requirement class="weapon" slot="0" key="dactyl.weapon"/></model>
+	<model filename="ks_pathfinder.xml"><requirement class="weapon" slot="0" key="pathfinder.weapon"/></model>
+	<model filename="ks_orthrus.xml"><requirement class="weapon" slot="0" key="orthrus.weapon"/></model>
+	<model filename="ks_aegis.xml"><requirement class="weapon" slot="0" key="aegis_shield.weapon"/></model>
+	<model filename="ks_aegis.xml"><requirement class="weapon" slot="0" key="aegis_2"/></model>
+	<model filename="ks_aa02.xml"><requirement class="weapon" slot="0" key="aa02.weapon"/></model>
+	<model filename="ks_aa02.xml"><requirement class="weapon" slot="0" key="aa02_mg.weapon"/></model>
+
+	<model filename="ks_aa02s.xml"><requirement class="weapon" slot="0" key="aa02s_mg.weapon"/></model>
+	<model filename="ks_aa02s.xml"><requirement class="weapon" slot="0" key="aa02s_hg.weapon"/></model>
+	<model filename="ks_aa02s.xml"><requirement class="weapon" slot="0" key="aa02s_msl.weapon"/></model>
+	<model filename="ks_aa02s.xml"><requirement class="weapon" slot="0" key="aa02s_cannon.weapon"/></model>
+
+
+</models>

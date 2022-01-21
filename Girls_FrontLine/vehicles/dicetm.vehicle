@@ -1,0 +1,70 @@
+<vehicle name="dice true m" key="dicetm.vehicle" map_view_atlas_index="4"  max_character_collision_speed_on_normal="27.0">
+	<tag name="vehicle" />
+	<tire_set offset="0.68 0.0 1.64" radius="0.32" />
+	<tire_set offset="0.68 0.0 -1.64" radius="0.32" />
+
+	<control max_speed="15.0" acceleration="10.0" max_reverse_speed="10.0" max_rotation="0.5" max_water_depth="3" gears="1" />
+
+	<physics max_health="13.75" mass="10.0" 
+		extent="4 0.0 4" offset="0 0.16 0" 
+		collision_model_pos="0 1.9 0" collision_model_extent="2 0.8 2.54" 
+		destroy_on_top_hit="1" destroy_on_top_hit_time="3.0" top_hit_tracking_time="1.6" top_offset="0 2.0 0" 
+		visual_offset="0 1 0" gravity="-20"/> 
+	<turret offset="0 1.86 -0.63" weapon_key="humvee_gl.weapon" weapon_offset="0 0.4 0.4" weapon_recoil="0.05"  max_rotation_step="0.0002" rotation_range="2.12" />
+	<turret offset="-0.9 1.55 -0.62" weapon_key="vmg.50.weapon" weapon_offset="0 0.5 0.5" weapon_recoil="0.05" rotation="-1.57" max_rotation_step="0.0002" rotation_range="0.6" />
+	<turret offset="+0.9 1.55 -0.62" weapon_key="vmg.50.weapon" weapon_offset="0 0.5 0.5" weapon_recoil="0.05"  rotation="1.57" max_rotation_step="0.0002" rotation_range="0.6" />
+
+	<visual class="chassis" mesh_filename="40mm.mesh" texture_filename="rubber_boat.png" />
+	<visual class="turret" turret_index="0" mesh_filename="humvee_gl.mesh" texture_filename="humvee.png" />
+	<visual class="turret" turret_index="1" mesh_filename="dicetm_mg.mesh" texture_filename="humvee.png" />
+	<visual class="turret" turret_index="2" mesh_filename="dicetm_mg.mesh" texture_filename="humvee.png" />
+
+	<visual class="chassis" key="broken" mesh_filename="rubber_boat_broken.mesh" texture_filename="rubber_boat_broken.png" />
+	<visual class="turret" turret_index="0" key="broken" mesh_filename="buggy_mg.mesh" texture_filename="technical_broken.png" />
+	<visual class="turret" turret_index="1" key="broken" mesh_filename="buggy_body_broken.mesh" texture_filename="buggy_broken.png" />
+
+	<visual class="track" mesh_filename="dicetm.mesh" offset="0 0 0" >
+		<part texture_filename="humvee.png"/>
+		<part texture_filename="rubber_boat.png" />
+		<part texture_filename="tank_track.png"  />
+	</visual>
+
+	<character_slot type="driver" position="0.378 0.15 1" seat_position="0.378 1.45 -1.15" rotation="0" exit_rotation="1.57" hiding="1"  />
+	<character_slot type="passenger" position="-0.378 0.15 1" seat_position="-0.378 1.45 -1.15" rotation="0" exit_rotation="-1.57" hiding="1"  />
+  	<character_slot type="gunner" attached_on_turret="0" seat_position="0.0 -0 -" enter_position="0 0 -2.98" rotation="0"  exit_rotation="-1.57" hiding="0" animation_key="technical mg still" marker_offset="0 0.1 0">
+		<turret index="0" />
+	</character_slot> 
+	<character_slot type="gunner" position="-0.7 0.3 0" rotation="0" exit_rotation="1.57" hiding="1" >
+     	<turret index="1" />
+	</character_slot> 
+	<character_slot type="gunner" position="0.7 0.3 0" rotation="0" exit_rotation="1.57" hiding="1" >
+     	<turret index="2" />
+	</character_slot> 
+
+
+	<!-- sound handling -->
+	<rev_sound filename="hovering.wav" low_pitch="1.0" high_pitch="1.2" low_rev="0.0" high_rev="1.0" volume="1.0" />
+
+	<sound key="slide" filename="slide_noise.wav" />
+	<sound key="squeal" filename="tire_squeal.wav" />
+	<sound key="ignition" filename="truck_ignition.wav" />
+	<sound key="horn" filename="horn_jeep.wav" />   
+	<sound key="turret_rotation" filename="turret_rotation1.wav" />
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="hit" filename="car_hit3.wav" />
+	<sound key="destroy" filename="vehicle_explosion_1.wav" />   
+	<sound key="cleanup" filename="vehicle_explosion_1.wav" />   
+	
+  	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="hover" use_surface_color="0" />
+
+	<event key="receive_damage_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0010" />
+	</event>
+  
+	<event key="spot_rp_reward">
+		<trigger class="spot" />
+		<result class="reward" rp="10.0" />
+	</event>
+</vehicle>

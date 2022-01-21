@@ -1,0 +1,97 @@
+particle_system P90CyberMuzzleDual1
+{
+	quota	1000
+	material	P90CyberFlame
+	particle_width	0.8
+	particle_height	1.3
+	cull_each	false
+	renderer	billboard
+	billboard_type	oriented_self
+	billboard_origin center
+	common_direction	0 -1 0
+
+	emitter Box
+	{
+		angle	10
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	0 1 0
+		emission_rate	150
+		position	0 0 0
+		velocity	0
+		velocity_min	1
+		velocity_max	8
+		time_to_live	0.08
+		time_to_live_min	0.08
+		time_to_live_max	0.08
+		duration	0.05
+		duration_min	0.05
+		duration_max	0.05
+		width	0.25
+		height	0.25
+		depth	0.2
+	}
+
+	affector ColourInterpolator
+	{
+		colour0	1 1 1 1
+		time0	0.1
+		colour1	1 1 0 1
+		time1	0.3
+		colour2	1 0 0 0
+		time2	0.7
+		colour3	0 0 0 0
+		time3	0.8
+		colour4	0 0 0 0
+		time4	1
+		colour5	0.5 0.5 0.5 0
+		time5	1
+	}
+}
+
+
+
+// particle_system P90CyberMuzzleDual2 : MuzzleDual2
+// {
+// 	material	P90CyberFlame
+// }
+
+// material P90CyberFlame 
+// {
+//     receive_shadows off
+// 	technique 
+// 	{
+// 		pass 
+// 		{
+// 			ambient 1 1 1 1
+// 			diffuse 0.266667 0.266667 0.266667 1.000000
+// 			specular 0.333333 0.333333 0.333333 1.000000
+// 			emissive 1.000000 1.000000 1.000000 1.000000
+// 			scene_blend alpha_blend
+
+// 			texture_unit {
+// 				texture p90_cyber_flame.png
+// 			}
+// 		}
+// 	}
+// }
+
+material P90CyberFlame {
+	receive_shadows off    
+    technique {
+		pass {
+
+			ambient 1.266667 1.266667 1.266667 1.000000
+			diffuse 0.266667 0.266667 0.266667 1.000000
+			specular 0.333333 0.333333 0.333333 1.000000
+			emissive 1.000000 1.000000 1.000000 1.000000
+			scene_blend alpha_blend
+
+            texture_unit {
+                texture p90_cyber_flame.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="ru.character">
+
+	<sound key="death" fileref="GFL_RU_DEATH_01.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_02.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_03.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_04.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_05.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_06.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_07.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_08.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_09.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_10.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_11.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_12.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_13.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_14.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_15.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_16.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_17.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_18.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_19.wav" pitch_variety="0.0625" volume="0.5" />
+	<sound key="death" fileref="GFL_RU_DEATH_20.wav" pitch_variety="0.0625" volume="0.5" />
+
+	<sound key="throw" fileref="GFL_RU_THROW_1.wav" pitch_variety="0.0625" volume="0.25" />
+	<sound key="throw" fileref="GFL_RU_THROW_2.wav" pitch_variety="0.0625" volume="0.25" />
+	<sound key="throw" fileref="GFL_RU_THROW_3.wav" pitch_variety="0.0625" volume="0.25" />
+	<sound key="throw" fileref="GFL_RU_THROW_4.wav" pitch_variety="0.0625" volume="0.25" />
+	<sound key="throw" fileref="GFL_RU_THROW_5.wav" pitch_variety="0.0625" volume="0.25" />
+	<sound key="throw" fileref="GFL_RU_THROW_6.wav" pitch_variety="0.0625" volume="0.25" />
+	<sound key="throw" fileref="GFL_RU_THROW_7.wav" pitch_variety="0.0625" volume="0.25" />
+	<sound key="throw" fileref="GFL_RU_THROW_8.wav" pitch_variety="0.0625" volume="0.25" />
+	<sound key="throw" fileref="GFL_RU_THROW_9.wav" pitch_variety="0.0625" volume="0.25" />
+	<sound key="throw" fileref="GFL_RU_THROW_10.wav" pitch_variety="0.0625" volume="0.25" />	
+
+</character>

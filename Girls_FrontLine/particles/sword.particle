@@ -1,0 +1,113 @@
+particle_system					sword_line
+{
+	quota						1000
+	material					sword_line
+	particle_width				4
+	particle_height				4
+	cull_each					false
+	renderer					billboard
+	billboard_type				oriented_self
+	common_direction			0 -1 0
+
+	// Emitter Type.
+	emitter						Point
+	{
+		colour					1 1 1 1
+		angle					0
+		emission_rate			60
+		position				0.0 0.0 0
+		direction 				1 0 0
+		velocity				60
+		time_to_live			0.5
+		duration				0.3
+	}
+
+
+	affector ColourInterpolator
+	{
+		colour0	1 1 1 1
+		time0	0.1
+		colour1	0 0 0 0
+		time1	1.0
+	}
+
+	affector Scaler
+	{
+		rate	2
+	}
+
+
+
+}
+
+material sword_line{
+	receive_shadows off
+	technique {
+		pass {
+			cull_hardware none
+			cull_software none
+			ambient 1.266667 1.266667 1.266667 1.000000
+			diffuse 0.266667 0.266667 0.266667 1.000000
+			specular 0.333333 0.333333 0.333333 1.000000
+			emissive 1.000000 1.000000 1.000000 1.000000
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture sword_line.png
+			}
+		}
+	}
+}
+
+particle_system					sword_curl
+{
+	quota						1000
+	material					sword_curl
+	particle_width				6
+	particle_height				6
+	cull_each					false
+	renderer					billboard
+	billboard_type				oriented_self
+	common_direction			0 -1 0
+
+	// Emitter Type.
+	emitter						Point
+	{
+		colour					1 1 1 1
+		angle					0
+		emission_rate			60
+		position				0.0 0.0 0
+		direction 				1 0 0
+		velocity				60
+		time_to_live			0.5
+		duration				0.1
+	}
+
+	affector ColourInterpolator
+	{
+		colour0	1 1 1 1
+		time0	0.1
+		colour1	0 0 0 0
+		time1	1.0
+	}	
+
+}
+
+material sword_curl{
+	receive_shadows off
+	technique {
+		pass {
+			cull_hardware none
+			cull_software none
+			ambient 1.266667 1.266667 1.266667 1.000000
+			diffuse 0.266667 0.266667 0.266667 1.000000
+			specular 0.333333 0.333333 0.333333 1.000000
+			emissive 1.000000 1.000000 1.000000 1.000000
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture sword_curl.png
+			}
+		}
+	}
+}

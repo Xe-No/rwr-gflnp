@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	        <weapon key="rw_akm.weapon" />
+	        <weapon key="ak47.weapon" />
+	        <weapon key="rw_gm94.weapon" />  
+	        <weapon key="rw_cb98.weapon" />
+	        <weapon key="gw_svd.weapon" />  
+	        <weapon key="gw_pkp.weapon" />  
+	        <weapon key="pkm.weapon" />  
+	        <weapon key="qcw-05.weapon" />
+	        <weapon key="qbs-09.weapon" />
+	        <weapon key="vss_vintorez.weapon" />
+	        <weapon key="rw_toz34.weapon" />
+	        <weapon key="gw_ak12.weapon" />
+	        <weapon key="bizon.weapon" />
+	        <weapon key="aks74u.weapon" />
+	        <weapon key="gw_an94.weapon" />
+	        <weapon key="rw_ak74m.weapon" />
+	        <weapon key="rgm40.weapon" />
+	        <weapon key="rw_rpk74.weapon"/>
+</resources>

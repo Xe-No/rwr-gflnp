@@ -1,0 +1,78 @@
+particle_system HeartSpark
+{
+	quota	500
+	material	Heart
+	particle_width	3
+	particle_height	3
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Box
+	{
+		angle	2
+		colour_range_start	1.0 0.2 0.2 0.5
+		colour_range_end	1.0 0.3 0.3 1
+		direction	0 1 0.2
+		emission_rate	50
+		position	0 0.3 0
+    	width 0.1
+    	height 0.0
+    	depth 0.1
+
+		velocity_min	5
+		velocity_max	4
+
+		time_to_live_min	6
+		time_to_live_max	10
+		duration	0.0
+	}
+
+	affector Scaler
+	{
+		rate	0.75
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+	affector ColourFader
+	{
+		red	1
+		green	0
+		blue	0
+		alpha	-0.3
+	}
+
+	affector LinearForce
+	{
+		force_vector 1 1 0
+		force_application add
+	}
+
+}
+
+material Heart 
+{
+	receive_shadows off
+	technique {
+		pass {
+			cull_hardware none
+			cull_software none
+			ambient 1.266667 1.266667 1.266667 1.000000
+			diffuse 0.266667 0.266667 0.266667 1.000000
+			specular 0.333333 0.333333 0.333333 1.000000
+			emissive 1.000000 1.000000 1.000000 1.000000
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture heart.png
+			}
+		}
+	}
+}

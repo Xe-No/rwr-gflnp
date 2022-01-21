@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weapon file="base_card_ar.weapon" key="gw_hk416_agent_546.weapon" quality="card">
+    <tag name="assault"/>
+    <specification retrigger_time="0.113" accuracy_factor="1.0" sustained_fire_grow_step="0.25" sustained_fire_diminish_rate="1.6" magazine_size="30" can_shoot_standing="1" suppressed="0" name="HK416[Shield of Man Island]" class="0" projectile_speed="150.0" sight_range_modifier="1.2" barrel_offset="0.4"/>
+
+    <animation key="recoil" ref="12"/>
+    <animation key="recoil" ref="13"/>
+    <animation key="recoil" ref="14"/>
+    <animation state_key="reload" animation_key="reloading, m16a4"/>
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting"/>
+
+    <sound key="fire" fileref="GFL_HK416.wav" pitch_variety="0.05" volume="1.0"/>
+    <sound key="magazine_out" fileref="ar556_clip_out.wav"/>
+    <sound key="magazine_in" fileref="ar556_clip_in.wav"/>
+    <sound key="cycle" fileref="ar_chamber.wav"/>
+    <sound class="impact" fileref="rifle_drop.wav"/> 
+
+    <model filename="gw_hk416_agent_546.xml"/>
+
+    <hud_icon filename="gw_hk416_agent_546.png"/>
+    <inventory encumbrance="10.0" price="400.0"/>
+    <projectile file="bullet.projectile">
+		<result class="hit" kill_probability="1.54" kill_decay_start_time="0.34" kill_decay_end_time="0.67"/>
+	</projectile>
+    
+    <modifier class="speed" value="-0.04"/>
+
+
+</weapon>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1">
+	<weapon key="gw_98k.weapon" />
+	<weapon key="gw_m14.weapon" />
+	<weapon key="gw_m99.weapon" />
+	<weapon key="gw_m82a1.weapon" />
+	<weapon key="gw_mlemk1.weapon" />
+	<weapon key="gw_wa2000.weapon" />
+	<weapon key="gw_ntw20.weapon" />
+	<weapon key="gw_ssg69.weapon" />
+	<weapon key="rw_cb98.weapon" />
+	<weapon key="gw_svd.weapon" />
+	<weapon key="uw_m200.weapon" />
+	<weapon key="gw_qbu88.weapon" />
+	
+  	<carry_item key="base_rf_vest.carry_item" />
+
+</resources>

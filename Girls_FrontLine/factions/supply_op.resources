@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
+	<!-- always load common first; it's the one that clears the initial weapon resources -->
+	<weapon key='medikit.weapon' />
+	<weapon key='binoculars.weapon' />  
+	<weapon key='wrench_small.weapon' enabled="1" /> 
+	<weapon key='wrench.weapon' enabled="1" />  
+	<weapon key='claymore_resource.weapon' /> 
+	<weapon key='cover_resource.weapon' />
+	<weapon key='gw_repair.weapon' />  
+
+
+
+	<projectile key="hand_grenade.projectile" enabled="1" />
+	<projectile key="stun_grenade.projectile" enabled="1" />  
+	<projectile key="c4.projectile" enabled="1" />
+	<projectile key="kunai.projectile" enabled="1" />
+	<projectile key="flare.projectile" enabled="1" />  
+ADD 红包 信标枪 人型激活装置 m14ebr m202 快速修复许可 雷神锤 标枪 机械修理臂 三级防弹衣 迷彩背心 防爆服 saiga-12和背心修复包
+	<weapon key='medikit_ai_2.weapon' />
+	<weapon key='tracer_dart.weapon' />
+	<weapon key='gw_repair_em.weapon' />
+
+	<weapon key='uw_m14ebr.weapon' />
+	<weapon key='m202_flash.weapon' />
+	<weapon key='gw_repair_q.weapon' />
+
+	<projectile key='dooms_hammer.projectile' />
+	<weapon key='javelin.weapon' />
+	<weapon key="repair_crane_resource.weapon" />
+
+
+	<carry_item key="vest3.carry_item" />
+	<carry_item key="camo_vest.carry_item" />
+	<carry_item key="eodvest.carry_item" />
+
+
+	<weapon key="benelli_m4.weapon" />
+	<weapon key="vest_repair.weapon" />
+	<carry_item key="it_opmilk.carry_item" />
+	
+</resources>

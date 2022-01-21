@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle name="Gun Smith" key="assembly_table.vehicle" map_view_atlas_index="25" protectors="0" respawn_time="0.0" time_to_live="99999" > From PA
+  <tag name="sandbag" />
+	<tag name="target" />
+	<tire_set offset="0.8 0.0 1.0" radius="0.65" />
+	<tire_set offset="0.8 0.0 -1.0" radius="0.65" />
+
+	<control max_speed="1" acceleration="1" max_reverse_speed="1.0" max_rotation="0.8" max_water_depth="1.9" />
+
+	<physics max_health="1.0" mass="999999.0" extent="2.0 0.0 2.0" offset="0 0.0 0" top_offset="0 2 0" collision_model_pos="0 0.2 0" collision_model_extent="2.5 1.6 2.8" visual_offset="0 -0.1 0" collision_response_factor="0.2" /> 
+
+	<visual class="chassis" mesh_filename="assembly_table.mesh" texture_filename="assembly_table.png" />
+
+<item_container class="armory" offset="0 0.5 -0.3" soldier_group="AssemblyTable" />
+
+	<sound key="hit" filename="barrier_impact1.wav" />
+	<sound key="hit" filename="barrier_impact2.wav" />
+
+	<event key="receive_damage_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0010" />
+	</event>
+
+	<effect event_key="destroy" key="other" ref="SmokeMinor" post_processing="1" />
+	<effect event_key="destroy" key="other" ref="ShadowSmokeMinor" shadow="1" />
+  
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_barrier.visual_item" min_amount="20" max_amount="30" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.1" /> 
+  </event>    
+
+	<event>
+		<trigger class="destroy" />
+  	<result class="spawn" instance_class="visual_item" instance_key="burning_piece_mortar_ammunition_crates1.visual_item" min_amount="1" max_amount="4" offset="0 0.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" />
+	</event>
+  
+	<event>
+		<trigger class="destroy" />
+  	<result class="spawn" instance_class="visual_item" instance_key="burning_piece_mortar_ammunition_crates2.visual_item" min_amount="3" max_amount="5" offset="0 0.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" />
+	</event>
+  
+	<event>
+		<trigger class="destroy" />
+  	<result class="spawn" instance_class="visual_item" instance_key="burning_piece_mortar_ammunition_crates3.visual_item" min_amount="4" max_amount="8" offset="0 0.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" />
+	</event>
+  
+	<event>
+		<trigger class="destroy" />
+  	<result class="spawn" instance_class="visual_item" instance_key="burning_piece_mortar_ammunition_crates4.visual_item" min_amount="6" max_amount="10" offset="0 0.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" />
+	</event>
+  
+	<event>
+		<trigger class="destroy" />
+  	<result class="spawn" instance_class="visual_item" instance_key="burning_piece_mortar_ammunition_crates5.visual_item" min_amount="3" max_amount="7" offset="0 0.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" />
+	</event> 
+
+ 	<event>
+		<trigger class="destroy" />
+    <result class="spawn" instance_class="projectile" instance_key="mortar_shell1" min_amount="4" max_amount="8" offset="0 3.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" />
+  </event>  
+  
+  
+</vehicle>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1">
+	<weapon key="gw_m2hb.weapon" />
+	<weapon key="gw_m2hb_lw.weapon" />
+	<weapon key="gw_mg5.weapon" />
+	<weapon key="gw_negev.weapon" />
+	<weapon key="gw_pkp.weapon" />
+	<weapon key="gw_ameli.weapon" />
+	<weapon key="gw_aat52.weapon" />
+	<weapon key="uw_m249.weapon" />
+	<weapon key="m60e4.weapon" />
+	<weapon key="gw_qjy88.weapon" />
+
+	<carry_item key="base_mg_vest.carry_item" />
+</resources>

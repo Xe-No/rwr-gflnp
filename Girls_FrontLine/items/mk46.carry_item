@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item filename="base_heavy_vest.carry_item" key="mk46" name="MK46 3/3" slot="1" transform_on_consume="mk46_1" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mk46_3.png" />  
+        <inventory encumbrance="4.0" price="10" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="1.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_heavy_vest.carry_item" key="mk46_1" name="MK46 2/3" slot="1" transform_on_consume="mk46_2" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mk46_2.png" />  
+        <inventory encumbrance="4.0" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_light_vest.carry_item" key="mk46_2" name="MK46 1/3" slot="1" transform_on_consume="mk46_3" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mk46_1.png" />  
+        <inventory encumbrance="4.0" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_none.carry_item" key="mk46_3" name="MK46 0/3" slot="1" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="mk46_0.png" />  
+        <inventory encumbrance="4.0" price="1" />
+        <model mesh_filename="vest_gk.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+</carry_items>

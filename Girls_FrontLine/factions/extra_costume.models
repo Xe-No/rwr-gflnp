@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+
+	<model filename="costume_were.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_werewolf.carry_item"/></model>
+	<model filename="costume_clown.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_clown.carry_item"/></model>
+	<model filename="ks_santa_ye.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_santa.carry_item"/></model>
+	<model filename="ks_santa_ye.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_santa_1"/></model>
+	<model filename="es_gingerbread.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_gingerbread.carry_item"/></model>
+	<model filename="es_gingerbread.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_gingerbread_1"/></model>	
+	<model filename="es_tree.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_tree.carry_item"/></model>
+	<model filename="costume_lizard.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_lizard.carry_item"/></model>
+	<model filename="costume_banana.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_banana.carry_item"/></model>
+	<model filename="soldier_chainsaw.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_butcher.carry_item"/></model>
+	<!-- Chicken Skins -->
+	<model filename="costume_chicken.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_chicken.carry_item"/></model>
+	<model filename="costume_chicken.xml"><requirement class="rank" range="0 100000000"/><requirement class="carry_item" slot="1" key="costume_chicken_1"/></model>
+	<!-- Vampire -->
+	<model filename="costume_bat.xml"><requirement class="rank" range="0 100000000"/><requirement class="carry_item" slot="1" key="costume_bat.carry_item"/></model>
+	<model filename="costume_bat.xml"><requirement class="rank" range="0 100000000"/><requirement class="carry_item" slot="1" key="costume_bat_1"/></model>
+	<!-- Reaper -->
+    <model filename="costume_scream.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_scream.carry_item"/></model>
+    <model filename="costume_scream.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_scream_1"/></model>
+    <model filename="costume_scream.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="costume_scream_2"/></model>
+
+
+    <model filename="es_hutao.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_hutao.carry_item"/></model>
+    <model filename="es_hutao.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_hutao_1"/></model>
+    <model filename="es_hutao.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_hutao_2"/></model>
+    <model filename="es_hutao.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_hutao_3"/></model>
+    <model filename="es_hutao.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_hutao_4"/></model>
+	
+1 Layer
+
+	<model filename="luna.xml"><requirement class="projectile" slot="0" key="token_luna2.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="inori_sp.xml"><requirement class="projectile" slot="0" key="token_inori.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="naoto_blackred.xml"><requirement class="projectile" slot="0" key="token_naoto.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="th_koishi.xml"><requirement class="projectile" slot="0" key="token_koishi.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="th_rin.xml"><requirement class="projectile" slot="0" key="token_rin.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="azl_hakuryu.xml"><requirement class="projectile" slot="0" key="token_hakuryu.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_252.xml"><requirement class="projectile" slot="0" key="token_252.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_benben_bw.xml"><requirement class="projectile" slot="0" key="token_benben_bw.projectile"/><requirement class="rank" range="0 100000000" /></model>
+
+	<model filename="azl_mingshi_arblasting1.xml"><requirement class="projectile" slot="0" key="token_mingshi_arb.projectile"/><requirement class="rank" range="0 100000000" /></model> by arblasting
+	<model filename="es_blackrock_mk2.xml"><requirement class="projectile" slot="0" key="token_blackrock.projectile"/><requirement class="rank" range="0 100000000" /></model> by tamaga
+	<model filename="es_suzakuin_tsubaki.xml"><requirement class="projectile" slot="0" key="token_suzakuin_tsubaki.projectile"/><requirement class="rank" range="0 100000000" /></model> by kurumi
+	<model filename="es_suzakuin_tsubaki_swim1.xml"><requirement class="projectile" slot="0" key="token_suzakuin_tsubaki_swim.projectile"/><requirement class="rank" range="0 100000000" /></model> by kurumi
+	<model filename="es_suzakuin_tsubaki_swim2.xml"><requirement class="projectile" slot="0" key="token_suzakuin_tsubaki_swim.projectile"/><requirement class="rank" range="0 100000000" /></model> by kurumi
+	<model filename="es_katou_megumi.xml"><requirement class="projectile" slot="0" key="token_katou_megumi.projectile"/><requirement class="rank" range="0 100000000" /></model> by kurumi
+	<model filename="poi_halloween_ver.xml"><requirement class="projectile" slot="0" key="token_poi.projectile"/><requirement class="rank" range="0 100000000" /></model> by MR. RST
+	<model filename="es_orga.xml"><requirement class="projectile" slot="0" key="token_orga.projectile"/><requirement class="rank" range="0 100000000" /></model> by ORGANAIR
+	<model filename="es_qswan1.xml"><requirement class="projectile" slot="0" key="token_qswan1.projectile"/><requirement class="rank" range="0 100000000" /></model> by GHOSTNZ
+	<model filename="es_86leina.xml"><requirement class="projectile" slot="0" key="token_86leina.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_chara_neko.xml"><requirement class="projectile" slot="0" key="token_chara_neko.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_remilia.xml"><requirement class="projectile" slot="0" key="token_remilia.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_elaina.xml"><requirement class="projectile" slot="0" key="token_elaina.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_shigure_summer.xml"><requirement class="projectile" slot="0" key="token_shigure_summer.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_yuudachi.xml"><requirement class="projectile" slot="0" key="token_yuudachi.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_rumia.xml"><requirement class="projectile" slot="0" key="token_rumia.projectile"/><requirement class="rank" range="0 100000000" /></model> EORAL MILK
+    <model filename="es_flandre.xml"><requirement class="projectile" slot="0" key="token_flandre.projectile"/><requirement class="rank" range="0 100000000" /></model> EORAL MILK
+	<model filename="es_nazrin.xml"><requirement class="projectile" slot="0" key="token_nazrin.projectile"/><requirement class="rank" range="0 100000000" /></model> GHOSTNZ
+
+	<model filename="es_luka_china.xml"><requirement class="projectile" slot="0" key="token_luka_china.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_miku_china.xml"><requirement class="projectile" slot="0" key="token_miku_china.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_luotianyi_china.xml"><requirement class="projectile" slot="0" key="token_luotianyi_china.projectile"/><requirement class="rank" range="0 100000000" /></model>
+
+	<model filename="azl_mingshi_arblasting2.xml"><requirement class="weapon" slot="1" key="wrench.weapon"/><requirement class="rank" range="0 100000000" /><requirement class="projectile" slot="0" key="token_mingshi_arb.projectile"/></model> arblasting
+
+
+
+
+
+	<model filename="ys_sllh.xml"><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
+	<model filename="marisa.xml"><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="0" key="gw_mk12mod0.weapon"/></model>
+	<model filename="marisa.xml"><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="0" key="gw_sa58.weapon"/></model>
+	<model filename="marisa.xml"><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="0" key="gw_scarmk17.weapon"/></model>
+	<model filename="marisa.xml"><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="0" key="gw_scarmk20.weapon"/></model>
+
+	<model filename="akemi_homura.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="akemi_homura.carry_item"/></model>
+	<model filename="akemi_homura.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="akemi_homura_1"/></model>
+	<model filename="akemi_homura.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="akemi_homura_2"/></model>
+	<model filename="akemi_homura.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="akemi_homura_3"/></model>
+	<model filename="akemi_homura_su.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="akemi_homura_4"/></model>
+	<model filename="akemi_homura_su.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="akemi_homura_5"/></model>
+
+</models>

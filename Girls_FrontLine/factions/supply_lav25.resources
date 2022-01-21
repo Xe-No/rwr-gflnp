@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
+weapon
+	<weapon key='gw_m14.weapon.weapon' />
+	<weapon key='gw_m82a1.weapon' />  
+	<weapon key='gw_ump45.weapon' />  
+	
+	<weapon key='uw_m249.weapon' /> 
+	<weapon key='gw_m2hb.weapon' />  
+	<weapon key='gw_m870.weapon' />  
+
+
+	<weapon key='cover_resource.weapon' />
+	<weapon key="repair_crane_resource.weapon" />
+	<weapon key='wrench.weapon'  />  
+	<weapon key='gw_repair_q.weapon' />  
+	<weapon key='medikit.weapon' />  
+	<weapon key='medikit.weapon' />  
+	<weapon key='m72_law.weapon' />
+
+	<projectile key="armed_pickup_flare.projectile" />
+	<projectile key="banana_car_flare.projectile" />
+	<projectile key="guntruck_flare.projectile" />
+	<projectile key="wz550_flare.projectile" />
+	<projectile key="m528_flare.projectile" />
+    <projectile key="flamer_tank_flare.projectile" />
+    <projectile key="sev90_flare.projectile" />
+
+
+
+	
+</resources>

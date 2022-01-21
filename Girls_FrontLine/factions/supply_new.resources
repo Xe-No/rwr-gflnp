@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
+weapon
+	<weapon key="gw_ksvk_3805.weapon" />
+	<weapon key="gw_m1918bar_102.weapon" />
+	<weapon key="gw_m1918bar_1606.weapon" />
+	<weapon key="gw_art556_2803.weapon" />
+	<weapon key="gw_p90_2802.weapon" />
+	<weapon key="gw_pdw_4005.weapon" />
+	<weapon key="gw_mg5_309.weapon" />
+	<weapon key="gw_mg5_309_n.weapon" />
+	<weapon key="gw_kp31_310.weapon" />
+	<weapon key="gw_ntw20_307.weapon" />
+	<weapon key="gw_type100_4004.weapon" />
+	<weapon key="gw_svd_305.weapon" />
+
+	
+</resources>
