@@ -17,7 +17,7 @@
     <hud_icon filename="gw_idw_2108.png"/>
     <inventory encumbrance="10.0" price="85.0"/>
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.2" kill_decay_start_time="0.3" kill_decay_end_time="0.47"/>
+        <result class="hit" kill_probability="1.45" kill_decay_start_time="0.25" kill_decay_end_time="0.4"/>
     </projectile>
     <modifier class="speed" value="-0.0"/>
 </weapon>

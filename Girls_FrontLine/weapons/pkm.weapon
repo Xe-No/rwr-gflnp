@@ -13,7 +13,7 @@
   suppressed="0" 
   name="PKM" 
   class="0" 
-  projectile_speed="180.0" />
+  projectile_speed="165.0" />
 
   <next_in_chain key="pkm_n.weapon" share_ammo="1" />
 
@@ -47,7 +47,7 @@
 
     <weak_hand_hold offset="0.4" />
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.73" kill_decay_start_time="0.45" kill_decay_end_time="0.78" />
+        <result class="hit" kill_probability="1.65" kill_decay_start_time="0.4" kill_decay_end_time="0.85" />
     </projectile>
     
     <modifier class="speed" value="-0.21" />

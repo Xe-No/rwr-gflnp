@@ -11,7 +11,7 @@
 	suppressed="0" 
 	name="M3 'Greasegun'" 
 	class="0" 
-	projectile_speed="130.0"
+	projectile_speed="135.0"
 	/>
 	
 	<!-- former stats: grow_step 0.375 -->
@@ -41,7 +41,7 @@
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<projectile file="bullet.projectile">
-		<result class="hit" kill_probability="1.375" kill_decay_start_time="0.18" kill_decay_end_time="0.485"/>
+		<result class="hit" kill_probability="1.435" kill_decay_start_time="0.25" kill_decay_end_time="0.45"/>
 	</projectile>
 	
 </weapon>

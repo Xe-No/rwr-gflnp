@@ -7,7 +7,7 @@
 	    class="4" 
 	    magazine_size="30" 
 	    name="Type 95" 
-	    projectile_speed="160.0" 
+	    projectile_speed="155.0" 
 	    retrigger_time="0.088"
         last_burst_retrigger_time="0.15" 
 	    sight_range_modifier="1.0"
@@ -38,7 +38,7 @@
     <inventory encumbrance="10.0" price="3.0" />
     
     <projectile file="bullet.projectile">
-	    <result class="hit" kill_probability="1.34" kill_decay_start_time="0.5" kill_decay_end_time="0.70" />
+	    <result class="hit" kill_probability="1.43" kill_decay_start_time="0.4" kill_decay_end_time="0.6" />
     </projectile>
 
     <stance state_key="running" accuracy="0.4" />

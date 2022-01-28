@@ -732,7 +732,40 @@ gw_zb26_4703.weapon
 	
 
 	28
+
+	<model filename="gs_aa12_2403.xml"><requirement class="weapon" slot="0" key="gw_aa12_2403_s.weapon"/></model>
+	<model filename="gs_aa12_2403.xml"><requirement class="weapon" slot="0" key="gw_aa12_2403_he.weapon"/></model>
+	<model filename="gs_lvoac.xml"><requirement class="weapon" slot="0" key="gw_lvoac.weapon"/></model>
+	<model filename="gs_seele.xml"><requirement class="weapon" slot="0" key="gw_seele.weapon"/></model>
+
+	<model filename="gs_m1915_chauchat.xml"><requirement class="weapon" slot="0" key="gw_m1915_chauchat_l.weapon"/></model>
+	<model filename="gs_m1915_chauchat.xml"><requirement class="weapon" slot="0" key="gw_m1915_chauchat.weapon"/></model>
+	<model filename="gs_qts11.xml"><requirement class="weapon" slot="0" key="gw_qts11_gl.weapon"/></model>
+	<model filename="gs_qts11.xml"><requirement class="weapon" slot="0" key="gw_qts11_gl_r.weapon"/></model>
+	<model filename="gs_qts11.xml"><requirement class="weapon" slot="0" key="gw_qts11.weapon"/></model>
+	<model filename="gs_qlt89_mortar.xml"><requirement class="weapon" slot="0" key="gw_qlt89_mortar.weapon"/></model>
+	<model filename="gs_iws2000.xml"><requirement class="weapon" slot="0" key="gw_iws2000_fsds.weapon"/></model>
+	<model filename="gs_iws2000.xml"><requirement class="weapon" slot="0" key="gw_iws2000_he.weapon"/></model>
 	<model filename="gs_qbz191.xml"><requirement class="weapon" slot="0" key="gw_qbz191.weapon"/></model>
+	<model filename="gs_js09_4204.xml"><requirement class="weapon" slot="0" key="gw_js09_4204.weapon"/></model>
+	<model filename="gs_js09.xml"><requirement class="weapon" slot="0" key="gw_js09.weapon"/></model>
+	<model filename="gs_cslr4.xml"><requirement class="weapon" slot="0" key="gw_cslr4.weapon"/></model>
+	<model filename="gs_g11mod.xml"><requirement class="weapon" slot="0" key="gw_g11mod.weapon"/></model>
+	<model filename="gs_g11mod.xml"><requirement class="weapon" slot="0" key="gw_g11mod_ss.weapon"/></model>
+	<model filename="gs_qbz191.xml"><requirement class="weapon" slot="0" key="gw_qbz191.weapon"/></model>
+	<model filename="gs_m200sk.xml"><requirement class="weapon" slot="0" key="m200sk.weapon"/></model>
+	<model filename="gs_m200sk_d.xml"><requirement class="weapon" slot="0" key="m200sk_drone.weapon"/></model>
+
+	<model filename="gs_williams.22.xml"><requirement class="weapon" slot="0" key="williams.22.weapon"/></model>
+	<model filename="gs_lewis_5501.xml"><requirement class="weapon" slot="0" key="gw_lewis_5501.weapon"/></model>
+
+	<model filename="gs_g41_bp.xml"><requirement class="weapon" slot="0" key="gw_g41_bp2077.weapon"/></model>
+	<model filename="gs_g41_bp.xml"><requirement class="weapon" slot="0" key="gw_g41_bp2077_gl.weapon"/></model>
+	<model filename="gs_targetdrone.xml"><requirement class="weapon" slot="0" key="targetdrone.weapon"/></model>
+	<model filename="gs_targetdrone_xeno.xml"><requirement class="weapon" slot="0" key="targetdrone.weapon"/></model>
+	<model filename="gs_targetdrone_401.xml"><requirement class="weapon" slot="0" key="targetdrone.weapon"/></model>
+	<model filename="gs_targetdrone_yz.xml"><requirement class="weapon" slot="0" key="targetdrone.weapon"/></model>
+
 </models>
     
 

@@ -13,7 +13,7 @@
   sight_range_modifier="1.0" 
   name="Steyr TMP" 
   class="0" 
-  projectile_speed="130.0"
+  projectile_speed="133.0"
   projectiles_per_shot="1"
   barrel_offset="0"
   stab_enabled="1"
@@ -61,7 +61,7 @@
     <commonness value="1.0" can_respawn_with="1" />
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.3" kill_decay_start_time="0.25" kill_decay_end_time="0.57" />
+        <result class="hit" kill_probability="1.35" kill_decay_start_time="0.25" kill_decay_end_time="0.4" />
     </projectile>
 
     <stance state_key="running" accuracy="0.4" />

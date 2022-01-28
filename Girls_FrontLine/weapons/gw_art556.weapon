@@ -10,7 +10,7 @@
 		suppressed="0" 
 		name="ART-556" 
 		class="0" 
-		projectile_speed="140.0" 
+		projectile_speed="145.0" 
 		barrel_offset="0.5"/>
 
         <next_in_chain key="gw_art556_s.weapon" share_ammo="1" />
@@ -34,7 +34,7 @@
 
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.32" kill_decay_start_time="0.48" kill_decay_end_time="0.90" />
+        <result class="hit" kill_probability="1.43" kill_decay_start_time="0.4" kill_decay_end_time="0.55" />
     </projectile>
 
 

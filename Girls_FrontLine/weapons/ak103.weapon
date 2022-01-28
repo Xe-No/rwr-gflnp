@@ -35,7 +35,7 @@
     <inventory encumbrance="10.0" price="2.0" />
 
     <projectile file="bullet.projectile">
-	    <result class="hit" kill_probability="1.55" kill_decay_start_time="0.6" kill_decay_end_time="0.75" />
+	    <result class="hit" kill_probability="1.55" kill_decay_start_time="0.4" kill_decay_end_time="0.6" />
     </projectile>
     
     <stance state_key="running" accuracy="0.4" />

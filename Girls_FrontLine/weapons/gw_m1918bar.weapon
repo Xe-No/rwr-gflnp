@@ -12,7 +12,7 @@
 	 name="M1918A2 BAR" 
 	 class="0" 
 	 barrel_offset="0.5" 
-	 projectile_speed="130.0"
+	 projectile_speed="134.0"
 	/>
 	
 	<animation key="recoil" ref="12" />
@@ -35,7 +35,7 @@
 	<inventory encumbrance="10.0" price="100.0" />
 	
 	<projectile file="bullet.projectile">
-	    <result class="hit" kill_probability="1.86" kill_decay_start_time="0.225" kill_decay_end_time="1.0"/>
+	    <result class="hit" kill_probability="1.8" kill_decay_start_time="0.4" kill_decay_end_time="0.75"/>
 	</projectile>
 
 	<stance state_key="standing" accuracy="0.9" />

@@ -12,7 +12,7 @@
   name="AK74M - bayonet" 
   class="0" 
   sight_range_modifier="1.25"
-  projectile_speed="100.0"
+  projectile_speed="140.0"
   stab_enabled="1"
   stab_range="3.0"
    />
@@ -40,11 +40,11 @@
     <model filename="rw_ak74m_k.xml" />
 
     <hud_icon filename="rw_ak74m_k.png" />
-    <commonness value="1.0" can_respawn_with="1" in_stock="1"/>
+    <commonness value="1.0" can_respawn_with="1" in_stock="0"/>
     <inventory encumbrance="10.0" price="3.0" />
 
     <projectile file="bullet.projectile">
-	    <result class="hit" kill_probability="1.6" kill_decay_start_time="0.42" kill_decay_end_time="0.76" />
+	    <result class="hit" kill_probability="1.55" kill_decay_start_time="0.4" kill_decay_end_time="0.55" />
     </projectile>
     
     <stance state_key="running" accuracy="0.4" />

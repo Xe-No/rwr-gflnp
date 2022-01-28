@@ -24,7 +24,7 @@ material laser_green {
 			fog_override false
 
 			depth_write off
-			scene_blend alpha_blend
+			scene_blend add
 
 			texture_unit {
 				texture laser_green.png
@@ -205,6 +205,24 @@ material laser_black {
 			
 			texture_unit {
 				texture laser_black.png
+			}
+		}
+	}
+}
+
+material laser_light_red {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend add
+
+			texture_unit {
+				// anim_texture laser_red.png laser_green.png laser_blue.png laser_orange.png 1.0
+				texture laser_red.png
 			}
 		}
 	}

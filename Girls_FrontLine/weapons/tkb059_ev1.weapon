@@ -11,8 +11,8 @@
   suppressed="0" 
   name="TKB-059[EV]" 
   class="0" 
-  projectile_speed="130.0"
-  projectiles_per_shot="3" />
+  projectile_speed="145.0"
+  projectiles_per_shot="4" />
 
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
@@ -33,7 +33,7 @@
     <inventory encumbrance="10.0" price="10000.0" />
 
     <projectile file="bullet.projectile">
-	    <result class="hit" kill_probability="1.3" kill_decay_start_time="0.55" kill_decay_end_time="0.98" />
+	    <result class="hit" kill_probability="1.55" kill_decay_start_time="0.45" kill_decay_end_time="0.7" />
     </projectile>
     <modifier class="speed" value="0.09" />
 </weapon>

@@ -13,7 +13,7 @@
   suppressed="0" 
   name="AAT 52" 
   class="0" 
-  projectile_speed="110.0" />
+  projectile_speed="135.0" />
 
   <next_in_chain key="gw_aat52_n.weapon" share_ammo="1" />
 
@@ -49,7 +49,7 @@
 
 	<weak_hand_hold offset="0.4" />
 	<projectile file="bullet.projectile">
-			<result class="hit" kill_probability="1.45" kill_decay_start_time="0.37" kill_decay_end_time="0.71" />
+			<result class="hit" kill_probability="1.55" kill_decay_start_time="0.37" kill_decay_end_time="0.71" />
 	</projectile>
 
 	<modifier class="speed" value="-0.28" />

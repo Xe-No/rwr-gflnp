@@ -14,7 +14,7 @@
 	 reload_one_at_a_time="0" 
      ai_sight_range_modifier="1.1" 
      sight_range_modifier="1.2"
-	 projectile_speed="170.0" 
+	 projectile_speed="180.0" 
 	 barrel_offset="0.55" 
 	 projectiles_per_shot="1" />
 
@@ -39,7 +39,7 @@
     <weak_hand_hold offset="0.3" />
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.6" kill_decay_start_time="0.3" kill_decay_end_time="0.7" />
+        <result class="hit" kill_probability="1.7" kill_decay_start_time="0.4" kill_decay_end_time="0.7" />
     </projectile>
     
     <stance state_key="running" accuracy="0.1" />

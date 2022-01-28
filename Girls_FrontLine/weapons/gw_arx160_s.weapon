@@ -11,7 +11,7 @@
 	    name="ARX-160" 
 	    class="4"
         burst_shots="1" 
-	    projectile_speed="160.0" 
+	    projectile_speed="155.0" 
 	    barrel_offset="0.5"/>
 
         <next_in_chain key="gw_arx160.weapon" share_ammo="1" />
@@ -38,7 +38,7 @@
 
 
     <projectile file="bullet.projectile">
-        <result class="hit"  kill_probability="1.35" kill_decay_start_time="0.42" kill_decay_end_time="0.74" />
+        <result class="hit"  kill_probability="1.45" kill_decay_start_time="0.4" kill_decay_end_time="0.75" />
     </projectile>
 
     

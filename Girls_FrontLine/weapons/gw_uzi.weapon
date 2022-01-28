@@ -61,7 +61,7 @@
     <commonness value="1.0" can_respawn_with="1" in_stock="0"/>
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.32" kill_decay_start_time="0.28" kill_decay_end_time="0.4" />
+        <result class="hit" kill_probability="1.41" kill_decay_start_time="0.2" kill_decay_end_time="0.3" />
     </projectile>
 
     <stance state_key="running" accuracy="0.4" />

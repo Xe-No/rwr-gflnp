@@ -1,0 +1,114 @@
+particle_system					ejection_sg_green
+{
+	quota						100
+	material					bullet_shell_sg_green
+	particle_width				0.5
+	particle_height				0.5
+	cull_each					false
+	renderer					billboard
+	billboard_type				point
+
+	emitter						Point
+	{
+		colour					1 1 1 1
+		angle					5
+		emission_rate			10
+		position				0.0 0.0 0
+		direction 				1.0 70.0 -10.0
+		velocity				-10.5
+		time_to_live			0.5
+		duration				0.05
+	}
+
+
+	affector							Rotator
+	{
+		rotation_speed_range_start		1000
+		rotation_speed_range_end		1000
+		rotation_range_start			0
+		rotation_range_end				0
+	}
+
+	// Gravity.
+    affector					LinearForce
+    {
+        force_vector			10 -25 0
+        force_application		add
+    }
+}
+
+material bullet_shell_sg_green{
+	receive_shadows off
+	technique {
+		pass {
+			cull_hardware none
+			cull_software none
+			ambient 1.266667 1.266667 1.266667 1.000000
+			diffuse 0.266667 0.266667 0.266667 1.000000
+			specular 0.333333 0.333333 0.333333 1.000000
+			emissive 1.000000 1.000000 1.000000 1.000000
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture bullet_shell_sg_green.png
+			}
+		}
+	}
+}
+particle_system					ejection_sg_black
+{
+	quota						100
+	material					bullet_shell_sg_black
+	particle_width				0.5
+	particle_height				0.5
+	cull_each					false
+	renderer					billboard
+	billboard_type				point
+
+	emitter						Point
+	{
+		colour					1 1 1 1
+		angle					5
+		emission_rate			10
+		position				0.0 0.0 0
+		direction 				1.0 70.0 -10.0
+		velocity				-10.5
+		time_to_live			0.5
+		duration				0.05
+	}
+
+
+	affector							Rotator
+	{
+		rotation_speed_range_start		1000
+		rotation_speed_range_end		1000
+		rotation_range_start			0
+		rotation_range_end				0
+	}
+
+	// Gravity.
+    affector					LinearForce
+    {
+        force_vector			10 -25 0
+        force_application		add
+    }
+}
+
+material bullet_shell_sg_black{
+	receive_shadows off
+	technique {
+		pass {
+			cull_hardware none
+			cull_software none
+			ambient 1.266667 1.266667 1.266667 1.000000
+			diffuse 0.266667 0.266667 0.266667 1.000000
+			specular 0.333333 0.333333 0.333333 1.000000
+			emissive 1.000000 1.000000 1.000000 1.000000
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture bullet_shell_sg_black.png
+			}
+		}
+	}
+}
