@@ -58,6 +58,7 @@
 	<model filename="es_rumia.xml"><requirement class="projectile" slot="0" key="token_rumia.projectile"/><requirement class="rank" range="0 100000000" /></model> EORAL MILK
     <model filename="es_flandre.xml"><requirement class="projectile" slot="0" key="token_flandre.projectile"/><requirement class="rank" range="0 100000000" /></model> EORAL MILK
 	<model filename="es_nazrin.xml"><requirement class="projectile" slot="0" key="token_nazrin.projectile"/><requirement class="rank" range="0 100000000" /></model> GHOSTNZ
+	<model filename="gs_g41_maid.xml"><requirement class="projectile" slot="0" key="token_g41_maid.projectile"/><requirement class="rank" range="0 100000000" /></model> G41.
 
 	<model filename="es_luka_china.xml"><requirement class="projectile" slot="0" key="token_luka_china.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="es_miku_china.xml"><requirement class="projectile" slot="0" key="token_miku_china.projectile"/><requirement class="rank" range="0 100000000" /></model>

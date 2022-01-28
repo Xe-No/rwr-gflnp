@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+    <!-- Vehicle -->
+	<weapon file="wiesel_tow.weapon" />
+	<weapon file="vulcan_acav_mg.weapon" />
+	<weapon file="m113_tank_cannon.weapon" />
+	<weapon file="noxe.weapon" />
+	<weapon file="tow.weapon" />
+	<weapon file="apc_hmg.weapon" />
+	<weapon file="buggy_mg.weapon" />
+	<weapon file="zjx19_mg.weapon" />
+	<weapon file="m528_hmg.weapon" />
+	<weapon file="apc_hmg_2.weapon" />
+	<weapon file="flamer_tank_cannon.weapon" />
+	<weapon file="tank_mg.weapon" />
+	<weapon file="flamer_tank_mg.weapon" />
+	<weapon file="m528_apj.weapon" />
+	<weapon file="deployable_gl.weapon" />
+	<weapon file="vulcan_tank_mg.weapon" />
+	<weapon file="chute_medium.weapon" />
+	<weapon file="tank2_cannon.weapon" />
+	<weapon file="tank2_missile_launcher.weapon" />
+	<weapon file="wiesel_mg3.weapon" />
+	<weapon file="technical_mg.weapon" />
+	<weapon file="tank2_mg.weapon" />
+	<weapon file="chute_small.weapon" />
+	<weapon file="bullseye.weapon" />
+	<weapon file="aav7_mg.weapon" />
+	<weapon file="tank_cannon_1.weapon" />
+	<weapon file="patrol_ship_mortar.weapon" />
+	<weapon file="sev90_cannon.weapon" />
+	<weapon file="wiesel_mk20.weapon" />
+	<weapon file="vulcan_acav_minig.weapon" />
+	<weapon file="repair_crane_tank.weapon" />
+	<weapon file="hornet.weapon" />
+	<weapon file="tank_cannon.weapon" />
+	<weapon file="mortar.weapon" />
+	<weapon file="tank_cannon_2.weapon" />
+	<weapon file="humvee_mg.weapon" />
+	<weapon file="deployable_mg.weapon" />
+	<weapon file="mortar_vulcan.weapon" />
+	<weapon file="legion_mg.weapon" />
+	<weapon file="aav7_gl.weapon" />
+	<weapon file="tank_mg_2.weapon" />
+	<weapon file="repair_crane_1.weapon" />
+	<weapon file="patrol_ship_cannon.weapon" />
+	<weapon file="apc_hmg_1.weapon" />
+	<weapon file="deployable_minig.weapon" />
+	<weapon file="radar_tank_cannon.weapon" />
+	<weapon file="chute_large.weapon" />
+	<weapon file="tank_mg_1.weapon" />
+	<weapon file="patrol_ship_mg.weapon" />
+	<weapon file="repair_crane_0.weapon" />
+	<weapon file="legion_cannon.weapon" />
+	<weapon file="humvee_gl.weapon" />
+
+
+	<weapon file="none.weapon"/>
+	
+    <weapon file="t14_cannon.weapon"/>
+    <weapon file="typhoon_laser.weapon"/>
+    <weapon file="typhoon_armor.weapon"/>
+    <weapon file="vmg.50ap.weapon"/>
+    <weapon file="vmg145.weapon"/>
+    <weapon file="vmg.50.weapon"/>
+    <weapon file="vmg.30.weapon"/>
+    <weapon file="cv9040c_cannon.weapon"/>
+
+
+	<weapon file="ztz99c_cannon.weapon" />
+	<weapon file="zbd04a_100mm.weapon" 	/>
+	<weapon file="zbd04a_30mm.weapon" 	/>
+	<weapon file="jupiter_cannon.weapon" 	/>
+<weapon file="bmp3_atc.weapon" />
+<weapon file="bmp3_atc_ejector.weapon" />
+<weapon file="btr82a_atc.weapon" />
+<weapon file="btr82a_atc_ejector.weapon" />
+<weapon file="coeus_laser.weapon" />
+<weapon file="coeus_minigun.weapon" />
+    <!-- <weapon file="templax_gl.weapon"/> -->
+    <!-- <weapon file="templax_minig.weapon"/> -->
+</weapons>

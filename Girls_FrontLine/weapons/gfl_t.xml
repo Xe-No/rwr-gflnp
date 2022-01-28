@@ -156,6 +156,7 @@
 	<projectile file="summon_ant5.projectile" />
 	<projectile file="summon_antro5.projectile" />
 	<projectile file="summon_antro.projectile" />
+	<projectile file="summon_targetdrone.projectile" />
 
 
 

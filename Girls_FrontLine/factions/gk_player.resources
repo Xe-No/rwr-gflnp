@@ -53,22 +53,23 @@ Armory
 	<weapon key="m1903_b.weapon" />
 	<weapon key="rw_ak74m.weapon" />
 	<weapon key="rw_ak74m_k.weapon" />
-
 	<weapon key="uw_m14ebr_sl.weapon" />
+	<weapon key="gw_qbz191.weapon" />
 
 
-	<!-- secondary -->
-	
+<!-- secondary -->
 	<weapon key="gw_repair.weapon" />
 	<weapon key="gw_repair_em.weapon" />
 	<weapon key="gw_m4a1mod.weapon" />
 	<weapon key="gw_repair_q.weapon" />
     <weapon key="claymore_resource.weapon" />
+    <weapon key="handflag.weapon" />
 	<!-- <weapon key="gw_BGM-71_deploy.weapon" /> -->
 
     <projectile key="molotov.projectile" enabled="0"/> 
     <projectile key="summon_antro.projectile" /> 
     <projectile key="summon_antro5.projectile" /> 
+    <projectile key="summon_targetdrone.projectile" /> 
 
 	<weapon key='binoculars.weapon' />    
 	<weapon key='cover_resource.weapon' />
@@ -101,6 +102,7 @@ Armory
 
 	<carry_item key="xmas_box.carry_item" />
 	<carry_item key="token_box.carry_item" />
+	<carry_item key="redstar.carry_item" />
 
 	<carry_item key="suit_hutao.carry_item" />
 
@@ -112,10 +114,6 @@ extra
     <weapon key="gw_sop2_mod_re_gl.weapon" />
     <weapon key="gw_supersass_mod_re.weapon" />
     <weapon key="gw_supersass_mod_re_2.weapon" />
-
-
-    <weapon key="handflag.weapon" />
-    <carry_item key="redstar.carry_item" />
 
 re token
 	<projectile key="token_inori.projectile" />
@@ -146,5 +144,6 @@ re token
 	<projectile key="token_koishi.projectile" />
 	<projectile key="token_rin.projectile" />
 	<projectile key="token_mingshi_arb.projectile" />
+	<projectile key="token_g41_maid.projectile" />
 
 </resources>

@@ -29,6 +29,7 @@ token_luotianyi_china.projectile
 token_koishi.projectile
 token_rin.projectile
 token_mingshi_arb.projectile
+token_g41_maid.projectile
 <projectile name="Inori[RE]" file="token0.projectile" key="token_inori.projectile"  >
 	<hud_icon file="hud_unknown.png" />
 </projectile>
@@ -105,7 +106,9 @@ token_mingshi_arb.projectile
 <projectile name="Luotianyi Chinadress[RE]" file="token0.projectile" key="token_luotianyi_china.projectile"  >
 	<!-- <hud_icon file="token_nazrin.png" /> -->
 </projectile>
-
+<projectile name="G41 Maid[RE]" file="token0.projectile" key="token_g41_maid.projectile"  >
+	<!-- <hud_icon file="token_nazrin.png" /> -->
+</projectile>
 
 <!-- flash -->
 <projectile name="Komeiji Koishi[RE]" file="token_stun.projectile" key="token_koishi.projectile"  >

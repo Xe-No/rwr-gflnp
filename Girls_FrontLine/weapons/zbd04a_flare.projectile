@@ -4,7 +4,7 @@
 
     <result class="spawn" instance_class="vehicle" instance_key="zbd04a.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
     <trigger class="time" time_to_live="10.0"/>  
-    <inventory encumbrance="2.0" price="1800.0" />
+    <inventory encumbrance="2.0" price="1200.0" />
     <commonness value="0" can_respawn_with="0" in_stock="1" />
 
 
