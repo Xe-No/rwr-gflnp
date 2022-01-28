@@ -2,4 +2,5 @@
 <weapons>
 	<weapon file="gfl_vw.xml"/>
     <weapon file="gfl_w.xml" />
+    <weapon file="test_w.xml" />
 </weapons>

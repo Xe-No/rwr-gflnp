@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
+
+<weapon key="gw_seele.weapon" />
+<weapon key="gw_aa12_2403_s.weapon" />
+<weapon key="gw_aa12_2403_he.weapon" />
+<weapon key="gw_lvoac.weapon" />
+<weapon key="gw_qts11.weapon" />
+<weapon key="gw_qts11_gl.weapon" />
+<weapon key="gw_qts11_gl_r.weapon" />
+<weapon key="gw_m1915_chauchat.weapon" />
+<weapon key="gw_m1915_chauchat_l.weapon" />
+<weapon key="gw_qlt89_mortar.weapon" />
+<weapon key="gw_iws2000_fsds.weapon" />
+<weapon key="gw_iws2000_he.weapon" />
+<weapon key="gw_qbz191.weapon" />
+<weapon key="gw_js09_4204.weapon" />
+<weapon key="gw_js09.weapon" />
+<weapon key="gw_cslr4.weapon" />
+<weapon key="pf89.weapon" />
+<weapon key="gw_g11mod.weapon" />
+<weapon key="gw_g11mod_ss.weapon" />
+<weapon key="m200sk.weapon" />
+<weapon key="m200sk_drone.weapon" />
+<weapon key="gw_g41_bp2077.weapon" />
+<weapon key="gw_g41_bp2077_gl.weapon" />
+<weapon key="williams.22.weapon" />
+<weapon key="gw_lewis_5501.weapon" />
+<weapon key="vex.weapon" />
+<weapon key="targetdrone.weapon" />
+<carry_item key="42lab_uc_exo.carry_item" />
+<carry_item key="16lab_x4_exo.carry_item" />
+<carry_item key="play_box.carry_item" />
+<carry_item key="newyear_box.carry_item" />
+
+<projectile key="summon_targetdrone.projectile" />
+	
+</resources>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
 <carry_items>
     <carry_item file="gfl_c.xml" />
     <carry_item file="test_c.xml" />
 </carry_items>
-

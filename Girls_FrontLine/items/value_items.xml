@@ -2,13 +2,13 @@
 <carry_items>
 <carry_item file="base_valuable.carry_item" name="E-doll" key="it_gundam.carry_item">
     <hud_icon filename="it_gundam.png" />
-    <inventory encumbrance="0.5" price="10000.0" />
+    <inventory encumbrance="5" price="10000.0" />
     <model filename="it_gundam.xml" />
     <commonness value="0.3" in_stock="1" />
 </carry_item>
 <carry_item file="base_valuable.carry_item" name="PlashSpeed Router" key="it_plashspeed.carry_item">
     <hud_icon filename="it_plashspeed.png" />
-    <inventory encumbrance="0.5" price="5536.0" />
+    <inventory encumbrance="5" price="5536.0" />
     <model filename="it_plashspeed.xml" />
     <commonness value="0.3" in_stock="1" />
 </carry_item>
@@ -78,6 +78,18 @@
     <hud_icon filename="token_box.png" />
     <inventory encumbrance="0.5" buy_price="5000" sell_price="10.0" />
     <model filename="token_box.xml" />
+    <commonness value="3" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="Play Box" key="play_box.carry_item">
+    <hud_icon filename="play_box.png" />
+    <inventory encumbrance="0.5" buy_price="5000" sell_price="10.0" />
+    <model filename="play_box.xml" />
+    <commonness value="3" in_stock="1" />
+</carry_item>
+<carry_item file="base_valuable.carry_item" name="Newyear Box" key="newyear_box.carry_item">
+    <hud_icon filename="springfestival_box.png" />
+    <inventory encumbrance="0.5" buy_price="10000" sell_price="10.0" />
+    <model filename="springfestival_box.xml" />
     <commonness value="3" in_stock="1" />
 </carry_item>
 
