@@ -31,102 +31,104 @@ token_rin.projectile
 token_mingshi_arb.projectile
 token_g41_maid.projectile
 <projectile name="Inori[RE]" file="token0.projectile" key="token_inori.projectile"  >
-	<hud_icon file="hud_unknown.png" />
+	<hud_icon filename="hud_unknown.png" />
 </projectile>
 <projectile name="Luna[RE]" file="token0.projectile" key="token_luna2.projectile"  >
-	<hud_icon file="token_luna2.png" />
+	<hud_icon filename="token_luna2.png" />
 </projectile>
 <projectile name="Naoto[RE]" file="token0.projectile" key="token_naoto.projectile"  >
-	<hud_icon file="token_naoto.png" />
+	<hud_icon filename="token_naoto.png" />
 </projectile>
 
 <projectile name="Hakuryu[RE]" file="token0.projectile" key="token_hakuryu.projectile"  >
-	<hud_icon file="hud_unknown.png" />
+	<hud_icon filename="hud_unknown.png" />
 </projectile>
 
 <projectile name="252[RE]" file="token0.projectile" key="token_252.projectile"  >
-	<hud_icon file="token_252.png" />
+	<hud_icon filename="token_252.png" />
 </projectile>
 <projectile name="Benben B W[RE]" file="token0.projectile" key="token_benben_bw.projectile"  >
-	<hud_icon file="token_benben_bw.png" />
+	<hud_icon filename="token_benben_bw.png" />
 </projectile>
 <projectile name="Black Rock Shooter[RE]" file="token0.projectile" key="token_blackrock.projectile"  >
-	<hud_icon file="token_blackrock.png" />
+	<hud_icon filename="token_blackrock.png" />
 </projectile>
 <projectile name="Suzakuin Tsubaki[RE]" file="token0.projectile" key="token_suzakuin_tsubaki.projectile"  >
-	<hud_icon file="token_suzakuin_tsubaki.png" />
+	<hud_icon filename="token_suzakuin_tsubaki.png" />
 </projectile>
 <projectile name="Suzakuin Tsubaki Swimsuit[RE]" file="token0.projectile" key="token_suzakuin_tsubaki_swim.projectile"  >
-	<hud_icon file="token_suzakuin_tsubaki.png" />
+	<hud_icon filename="token_suzakuin_tsubaki.png" />
 </projectile>
 <projectile name="Katou Megumi Schoolbag[RE]" file="token0.projectile" key="token_katou_megumi.projectile"  >
-	<hud_icon file="token_katou_megumi.png" />
+	<hud_icon filename="token_katou_megumi.png" />
 </projectile>
 <projectile name="Solomon's Nightmare[RE]" file="token0.projectile" key="token_poi.projectile"  >
-	<hud_icon file="token_poi.png" />
+	<hud_icon filename="token_poi.png" />
 </projectile>
 <projectile name="Orga[RE]" file="token0.projectile" key="token_orga.projectile"  >
-	<hud_icon file="token_orga.png" />
+	<hud_icon filename="token_orga.png" />
 </projectile>
 <projectile name="Qswan[RE]" file="token0.projectile" key="token_qswan1.projectile"  >
-	<hud_icon file="token_qswan1.png" />
+	<hud_icon filename="token_qswan1.png" />
 </projectile>
 <projectile name="86 Leina[RE]" file="token0.projectile" key="token_86leina.projectile"  >
-	<hud_icon file="token_86leina.png" />
+	<hud_icon filename="token_86leina.png" />
 </projectile>
 <projectile name="Chara Neko[RE]" file="token0.projectile" key="token_chara_neko.projectile"  >
-	<hud_icon file="token_chara_neko.png" />
+	<hud_icon filename="token_chara_neko.png" />
 </projectile>
 <projectile name="Remilia Scarlet[RE]" file="token0.projectile" key="token_remilia.projectile"  >
-	<hud_icon file="token_remilia.png" />
+	<hud_icon filename="token_remilia.png" />
 </projectile>
 
 <projectile name="Shigure Summer[RE]" file="token0.projectile" key="token_shigure_summer.projectile"  >
-	<hud_icon file="token_shigure_summer.png" />
+	<hud_icon filename="token_shigure_summer.png" />
 </projectile>
 <projectile name="Yuudachi[RE]" file="token0.projectile" key="token_yuudachi.projectile"  >
-	<hud_icon file="token_yuudachi.png" />
+	<hud_icon filename="token_yuudachi.png" />
 </projectile>
 <projectile name="Rumia[RE]" file="token0.projectile" key="token_rumia.projectile"  >
-	<hud_icon file="token_rumia.png" />
+	<hud_icon filename="token_rumia.png" />
 </projectile>
 <projectile name="Flandre Scarlet[RE]" file="token0.projectile" key="token_flandre.projectile"  >
-	<hud_icon file="token_flandre.png" />
+	<hud_icon filename="token_flandre.png" />
 </projectile>
 <projectile name="Nazrin[RE]" file="token0.projectile" key="token_nazrin.projectile"  >
-	<hud_icon file="token_nazrin.png" />
+	<hud_icon filename="token_nazrin.png" />
 </projectile>
 
 <projectile name="Luka Chinadress[RE]" file="token0.projectile" key="token_luka_china.projectile"  >
-	<!-- <hud_icon file="token_rumia.png" /> -->
+	<!-- <hud_icon filename="token_rumia.png" /> -->
 </projectile>
 <projectile name="Miku Chinadress[RE]" file="token0.projectile" key="token_miku_china.projectile"  >
-	<!-- <hud_icon file="token_flandre.png" /> -->
+	<!-- <hud_icon filename="token_flandre.png" /> -->
 </projectile>
 <projectile name="Luotianyi Chinadress[RE]" file="token0.projectile" key="token_luotianyi_china.projectile"  >
-	<!-- <hud_icon file="token_nazrin.png" /> -->
+	<!-- <hud_icon filename="token_nazrin.png" /> -->
 </projectile>
 <projectile name="G41 Maid[RE]" file="token0.projectile" key="token_g41_maid.projectile"  >
-	<!-- <hud_icon file="token_nazrin.png" /> -->
+	<!-- <hud_icon filename="token_nazrin.png" /> -->
 </projectile>
-
+<projectile name="Akemi Homura[RE]" file="token0.projectile" key="token_token_akemi_homura.projectile"  >
+	<hud_icon filename="akemi_homura_6.png" />
+</projectile>
 <!-- flash -->
 <projectile name="Komeiji Koishi[RE]" file="token_stun.projectile" key="token_koishi.projectile"  >
-	<model mesh_filename="token_koishi.xml" />
-	<hud_icon file="token_koishi.png" />
+	<model mesh_file="token_koishi.xml" />
+	<hud_icon filename="token_koishi.png" />
 </projectile>
 <projectile name="Kaenbyou Rin[RE]" file="token_stun.projectile" key="token_rin.projectile"  >
-	<model mesh_filename="token_rin.xml" />
-	<hud_icon file="token_rin.png" />
+	<model mesh_file="token_rin.xml" />
+	<hud_icon filename="token_rin.png" />
 </projectile>
 
 <!-- C4 -->
 <projectile name="Mingshi ARB[RE]" file="token_c4.projectile" key="token_mingshi_arb.projectile"  >
-	<model mesh_filename="hongjianjian.mesh" texture_filename="hongjianjian.png"/>
-	<hud_icon file="token_mingshi.png"/>
+	<model mesh_file="hongjianjian.mesh" texture_file="hongjianjian.png"/>
+	<hud_icon filename="token_mingshi.png"/>
 </projectile>
 <projectile name="Elaina[RE]" file="token_c4.projectile" key="token_elaina.projectile"  >
-	<hud_icon file="token_elaina.png" />
+	<hud_icon filename="token_elaina.png" />
 </projectile>
 
 

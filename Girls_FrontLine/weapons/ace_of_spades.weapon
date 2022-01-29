@@ -2,10 +2,25 @@
 <weapon file="base_cb.weapon" key="ace_of_spades.weapon" quality="cb">
     <tag name="assault"/>       
 	
-    <specification retrigger_time="0.113" accuracy_factor="1.0" sustained_fire_grow_step="3.0" sustained_fire_diminish_rate="1.2" magazine_size="13" can_shoot_standing="1" suppressed="1" carry_in_two_hands="0" name="Ace Of Spades" class="4" reload_one_at_a_time="0" sight_range_modifier="1.0" projectile_speed="110.0" projectiles_per_shot="1" burst_shots="1" slot="1"/>
+    <specification retrigger_time="0.113" 
+	accuracy_factor="1.0" 
+	sustained_fire_grow_step="3.0" 
+	sustained_fire_diminish_rate="1.2" 
+	magazine_size="13" 
+	can_shoot_standing="1" 
+	suppressed="1" 
+	carry_in_two_hands="0" 
+	name="Ace Of Spades" 
+	class="4" 
+	reload_one_at_a_time="0" 
+	sight_range_modifier="1.1" 
+	projectile_speed="160.0" 
+	projectiles_per_shot="1" 
+	burst_shots="1" 
+	slot="1"/>
 	
 	<animation state_key="recoil" animation_key="recoil, pistol"/>
-    <animation state_key="reload" animation_key="reloading, swing out revolver"/>
+        <animation state_key="reload" animation_key="reloading, swing out revolver"/>
 	<animation state_key="hold" animation_key="hold, pistol"/>
 	<animation state_key="hold_casual" animation_key="hold_casual, pistol"/>
 	<animation state_key="hold_on_wall" animation_key="hold, pistol"/>
@@ -13,9 +28,9 @@
 	<animation state_key="crouching" animation_key="crouch, pistol"/>
 	<animation state_key="running" animation_key="running, pistol"/>
 	<animation state_key="walking" animation_key="walking, pistol"/>
-    <animation state_key="changing_weapon_in" animation_key="change weapon in, single hand carry"/>
-    <animation state_key="prone_still" animation_key="prone_still, pistol"/>
-    <animation state_key="walking_backwards" animation_key="walking backwards, pistol"/>
+        <animation state_key="changing_weapon_in" animation_key="change weapon in, single hand carry"/>
+        <animation state_key="prone_still" animation_key="prone_still, pistol"/>
+        <animation state_key="walking_backwards" animation_key="walking backwards, pistol"/>
 	
     <sound key="fire" fileref="ace_of_spades.wav" volume="1.0" pitch_variety="0.05"/>
     <sound key="magazine_out" fileref="revolver_magazine_out.wav" volume="1"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon  key="williams.22.weapon">
+<weapon file="base_cb.weapon" key="williams.22.weapon">
 
 <!-- performance -->    
 	<specification 

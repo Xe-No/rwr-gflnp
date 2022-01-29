@@ -28,11 +28,16 @@
 <weapon key="gw_lewis_5501.weapon" />
 <weapon key="vex.weapon" />
 <weapon key="targetdrone.weapon" />
+<weapon key="targetdrone.weapon" />
+<weapon key="ew_rx1_railgun_ap.weapon" />
+<weapon key="ew_rx1_railgun_charge.weapon" />
 <carry_item key="42lab_uc_exo.carry_item" />
 <carry_item key="16lab_x4_exo.carry_item" />
 <carry_item key="play_box.carry_item" />
 <carry_item key="newyear_box.carry_item" />
 
 <projectile key="summon_targetdrone.projectile" />
+<projectile key="token_akemi_homura.projectile" />
+<projectile key="token_g41_maid.projectile" />
 	
 </resources>

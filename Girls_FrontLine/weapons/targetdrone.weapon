@@ -33,7 +33,7 @@
     <model  />
 
     <hud_icon filename="hud_grenade.png" />
-    <commonness value="0.01" />
+    <commonness value="0.01" can_respawn_with="0" />/>
     <inventory encumbrance="11.0" price="0.0" />
     
     <shield offset="0 -0.35 0" extent="1 1 1" />

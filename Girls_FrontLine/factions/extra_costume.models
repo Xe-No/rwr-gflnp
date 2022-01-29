@@ -59,6 +59,7 @@
     <model filename="es_flandre.xml"><requirement class="projectile" slot="0" key="token_flandre.projectile"/><requirement class="rank" range="0 100000000" /></model> EORAL MILK
 	<model filename="es_nazrin.xml"><requirement class="projectile" slot="0" key="token_nazrin.projectile"/><requirement class="rank" range="0 100000000" /></model> GHOSTNZ
 	<model filename="gs_g41_maid.xml"><requirement class="projectile" slot="0" key="token_g41_maid.projectile"/><requirement class="rank" range="0 100000000" /></model> G41.
+	<model filename="akemi_homura.xml"><requirement class="projectile" slot="0" key="token_akemi_homura.projectile"/><requirement class="rank" range="0 100000000" /></model> Akemi.Homura
 
 	<model filename="es_luka_china.xml"><requirement class="projectile" slot="0" key="token_luka_china.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="es_miku_china.xml"><requirement class="projectile" slot="0" key="token_miku_china.projectile"/><requirement class="rank" range="0 100000000" /></model>
@@ -70,11 +71,11 @@
 
 
 
-	<model filename="ys_sllh.xml"><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
-	<model filename="marisa.xml"><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="0" key="gw_mk12mod0.weapon"/></model>
-	<model filename="marisa.xml"><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="0" key="gw_sa58.weapon"/></model>
-	<model filename="marisa.xml"><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="0" key="gw_scarmk17.weapon"/></model>
-	<model filename="marisa.xml"><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="0" key="gw_scarmk20.weapon"/></model>
+	<model filename="ys_sllh.xml"><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
+	<model filename="marisa.xml"><requirement class="weapon" slot="0" key="gw_mk12mod0.weapon"/></model>
+	<model filename="marisa.xml"><requirement class="weapon" slot="0" key="gw_sa58.weapon"/></model>
+	<model filename="marisa.xml"><requirement class="weapon" slot="0" key="gw_scarmk17.weapon"/></model>
+	<model filename="marisa.xml"><requirement class="weapon" slot="0" key="gw_scarmk20.weapon"/></model>
 
 	<model filename="akemi_homura.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="akemi_homura.carry_item"/></model>
 	<model filename="akemi_homura.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="akemi_homura_1"/></model>
@@ -82,5 +83,7 @@
 	<model filename="akemi_homura.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="akemi_homura_3"/></model>
 	<model filename="akemi_homura_su.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="akemi_homura_4"/></model>
 	<model filename="akemi_homura_su.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="akemi_homura_5"/></model>
+
+	<model filename="gs_m14_p.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="m14_maid.carry_item"/></model>
 
 </models>

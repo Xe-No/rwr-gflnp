@@ -15,7 +15,7 @@
 	class="0"
 	reload_one_at_a_time="0"
 	sight_range_modifier="1.25"
-	projectile_speed="115.0"
+	projectile_speed="150.0"
 	projectiles_per_shot="1"
 	burst_shots="1" 
     slot="1"
@@ -53,7 +53,7 @@
     <projectiles_per_shot value="1" />
     <weak_hand_hold offset="0.1" />
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.96" kill_decay_start_time="0.32" kill_decay_end_time="0.42" />
+        <result class="hit" kill_probability="2.46" kill_decay_start_time="0.3" kill_decay_end_time="0.55" />
     </projectile>
     
     <capacity source="rank" source_value="0.0" value="0" />

@@ -23,20 +23,26 @@
     <animation key="recoil" stance_key="prone" animation_key="recoil3, prone" />
 
     <sound key="fire" fileref="gw_mg4.wav" pitch_variety="0.04" volume="1.0"/>
+    <sound key="magazine_out" fileref="mg_clip_out_1.wav"/>  
     <sound key="magazine_out" fileref="mg_clip_out_1.wav"/>
+    <sound key="magazine_out" fileref="mg4_reload.wav" pitch_variety="0.0" volume="0.3"/>
     <sound key="magazine_in" fileref="mg_clip_in_1.wav"/>
     <sound key="cycle" fileref="mg_chamber_1.wav"/>
     <sound class="impact" fileref="rifle_drop.wav"/>
-    <sound key="effect" fileref="mg4_switch.wav" volume="0.3"/>
+    <sound key="effect" fileref="mg4_switch.wav" pitch_variety="0.0" volume="0.3"/>
+    <sound key="effect" fileref="mg4_switch.wav" pitch_variety="0.0" volume="0.3"/>
+    <sound key="effect" fileref="mg4_switch.wav" pitch_variety="0.0" volume="0.3"/>
+    <sound key="effect" fileref="mg4_switch1.wav" pitch_variety="0.0" volume="0.3"/>
+    <sound key="effect" fileref="mg4_switch2.wav" pitch_variety="0.0" volume="0.3"/>
+    <sound key="effect" fileref="mg4_switch3.wav" pitch_variety="0.0" volume="0.3"/>
     <control key="effect" value="1"/>
     <model filename="mg4td_ap.xml"/>
 
     <hud_icon filename="mg4td_ap.png"/>
     <inventory encumbrance="12.0" price="43.0"/>
     <weak_hand_hold offset="0.4"/>
-    <projectile file="dsr50.projectile">
-        <trail probability="1.0" key="laser_green"/>
-    </projectile>
+    <projectile file="mk4_slap.projectile" />
+
 
     <stance state_key="running" accuracy="0.4" />
     <stance state_key="walking" accuracy="0.5" />

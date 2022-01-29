@@ -1,4 +1,4 @@
 <carry_items>
-    <!-- <carry_item file="gfl_c.xml" /> -->
+    <carry_item file="gfl_c.xml" />
     <carry_item file="test_c.xml" />
 </carry_items>
