@@ -27,6 +27,7 @@
 <weapon file="gw_lewis_5501.weapon" />
 <weapon file="vex.weapon" />
 <weapon file="targetdrone.weapon" />
-
+<weapon file="ew_rx1_railgun_ap.weapon" />
+<weapon file="ew_rx1_railgun_charge.weapon" />
 
 </weapons>

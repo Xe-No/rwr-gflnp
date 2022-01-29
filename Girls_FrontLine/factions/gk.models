@@ -758,6 +758,7 @@ gw_zb26_4703.weapon
 
 	<model filename="gs_williams.22.xml"><requirement class="weapon" slot="0" key="williams.22.weapon"/></model>
 	<model filename="gs_lewis_5501.xml"><requirement class="weapon" slot="0" key="gw_lewis_5501.weapon"/></model>
+	<model filename="gs_vex.xml"><requirement class="weapon" slot="0" key="vex.weapon"/></model>
 
 	<model filename="gs_g41_bp.xml"><requirement class="weapon" slot="0" key="gw_g41_bp2077.weapon"/></model>
 	<model filename="gs_g41_bp.xml"><requirement class="weapon" slot="0" key="gw_g41_bp2077_gl.weapon"/></model>
@@ -765,7 +766,8 @@ gw_zb26_4703.weapon
 	<model filename="gs_targetdrone_xeno.xml"><requirement class="weapon" slot="0" key="targetdrone.weapon"/></model>
 	<model filename="gs_targetdrone_401.xml"><requirement class="weapon" slot="0" key="targetdrone.weapon"/></model>
 	<model filename="gs_targetdrone_yz.xml"><requirement class="weapon" slot="0" key="targetdrone.weapon"/></model>
-
+	<model filename="black_action.xml"><requirement class="weapon" slot="0" key="ew_rx1_railgun_ap.weapon"/></model>
+    <model filename="black_action.xml"><requirement class="weapon" slot="0" key="ew_rx1_railgun_charge.weapon"/></model>
 </models>
     
 

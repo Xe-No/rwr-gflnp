@@ -5,7 +5,7 @@
 
 
     <trigger class="time" time_to_live="3"/>
-    <result class="spawn" instance_class="soldier" instance_key="targetdrone" min_amount="5" max_amount="5" offset="0 0 0" position_spread="0 8" direction_spread="0.0 0.0" />   
+    <result class="spawn" instance_class="soldier" instance_key="targetdrone" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 8" direction_spread="0.0 0.0" />   
 
     <rotation class="random" />
 
