@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="iop_optical_camo_cloak.carry_item" name="IOP Optical Camouflage Cloak" slot="1" transform_on_consume="iop_optical_camo_cloak_1" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="iop_optical_camo_cloak_2.png" />
+        <inventory encumbrance="4" price="225" />
+
+        <model mesh_filename="it_camocloak.xml" />
+
+        <commonness value="1.0" in_stock="0" can_respawn_with="0" />
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+       <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	    <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="speed" value="-0.1" /> 
+        <modifier class="detectability" value="-0.25" />  
+    </carry_item>
+
+
+    
+     <carry_item key="iop_optical_camo_cloak_1" name="IOP Optical Camouflage Cloak, 50%" slot="1"  transform_on_consume="iop_optical_camo_cloak_2" time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="iop_optical_camo_cloak_1.png" />
+        <inventory encumbrance="4" price="20" />
+
+        <model mesh_filename="it_camocloak.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	<!-- death -> wound -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+       <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="speed" value="-0.1" /> 
+        <modifier class="detectability" value="-0.25" /> 
+    </carry_item>
+
+    <carry_item key="iop_optical_camo_cloak_2" name="IOP Optical Camouflage Cloak, destroyed" slot="1"  time_to_live_out_in_the_open="90.0">
+        <hud_icon filename="iop_optical_camo_cloak_0.png" />
+        <inventory encumbrance="4" price="20" />
+
+        <model mesh_filename="it_camocloak.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+    <!-- death -> wound -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+    <!-- melee_hit goes right through, and doesn't consume -->
+        <modifier class="speed" value="-0.1" /> 
+        <modifier class="detectability" value="-0.2" /> 
+    </carry_item>
+           
+</carry_items>

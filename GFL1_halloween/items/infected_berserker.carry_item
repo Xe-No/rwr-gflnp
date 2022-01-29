@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="infected_berserker.carry_item" name="Berserker" slot="1" transform_on_consume="infected_berserker_2" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="1.0" in_stock="0" can_respawn_with="1" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+		<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_2" name="Berserker" slot="1" transform_on_consume="infected_berserker_3" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+		<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_3" name="Berserker" slot="1" transform_on_consume="infected_berserker_4" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+		<modifier class="speed" value="-0.6" />
+    </carry_item>
+	
+    <carry_item key="infected_berserker_4" name="Berserker" slot="1" transform_on_consume="infected_berserker_5" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_5" name="Berserker" slot="1" transform_on_consume="infected_berserker_6" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_6" name="Berserker" slot="1" transform_on_consume="infected_berserker_7" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_7" name="Berserker" slot="1" transform_on_consume="infected_berserker_8" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_8" name="Berserker" slot="1" transform_on_consume="infected_berserker_9" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_9" name="Berserker" slot="1" transform_on_consume="infected_berserker_10" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_10" name="Berserker" slot="1" transform_on_consume="infected_berserker_11" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_11" name="Berserker" slot="1" transform_on_consume="infected_berserker_12" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_12" name="Berserker" slot="1" transform_on_consume="infected_berserker_13" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_13" name="Berserker" slot="1" transform_on_consume="infected_berserker_14" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_14" name="Berserker" slot="1" transform_on_consume="infected_berserker_15" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_15" name="Berserker" slot="1" transform_on_consume="infected_berserker_16" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_16" name="Berserker" slot="1" transform_on_consume="infected_berserker_17" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_17" name="Berserker" slot="1" transform_on_consume="infected_berserker_18" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_18" name="Berserker" slot="1" transform_on_consume="infected_berserker_19" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_19" name="Berserker" slot="1" transform_on_consume="infected_berserker_20" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_20" name="Berserker" slot="1" transform_on_consume="infected_berserker_21" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_21" name="Berserker" slot="1" transform_on_consume="infected_berserker_22" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_22" name="Berserker" slot="1" transform_on_consume="infected_berserker_23" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_23" name="Berserker" slot="1" transform_on_consume="infected_berserker_24" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_24" name="Berserker" slot="1" transform_on_consume="infected_berserker_25" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_25" name="Berserker" slot="1" transform_on_consume="infected_berserker_26" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_26" name="Berserker" slot="1" transform_on_consume="infected_berserker_27" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_27" name="Berserker" slot="1" transform_on_consume="infected_berserker_28" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_28" name="Berserker" slot="1" transform_on_consume="infected_berserker_29" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.5" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_29" name="Berserker" slot="1" transform_on_consume="infected_berserker_30" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.5" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_30" name="Berserker" slot="1" transform_on_consume="infected_berserker_31" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.5" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_31" name="Berserker" slot="1" transform_on_consume="infected_berserker_32" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_32" name="Berserker" slot="1" transform_on_consume="infected_berserker_33" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_33" name="Berserker" slot="1" transform_on_consume="infected_berserker_34" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_34" name="Berserker" slot="1" transform_on_consume="infected_berserker_35" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_35" name="Berserker" slot="1" transform_on_consume="infected_berserker_36" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.2" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_36" name="Berserker" slot="1" transform_on_consume="infected_berserker_37" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.2" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_37" name="Berserker" slot="1" transform_on_consume="infected_berserker_38" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.1" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_38" name="Berserker" slot="1" transform_on_consume="infected_berserker_39" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="-0.1" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_39" name="Berserker" slot="1" transform_on_consume="infected_berserker_40" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="+0" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_40" name="Berserker" slot="1" transform_on_consume="infected_berserker_41" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="+0.1" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_41" name="Berserker" slot="1" transform_on_consume="infected_berserker_42" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+       <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="+0.2" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_42" name="Berserker" slot="1" transform_on_consume="infected_berserker_43" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+       <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="+0.2" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_43" name="Berserker" slot="1" transform_on_consume="infected_berserker_44" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="+0.3" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_44" name="Berserker" slot="1" transform_on_consume="infected_berserker_45" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="infected_berserker_45" name="Berserker" slot="1" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    <modifier class="hit_success_probability" value="-0.3" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+</carry_items>

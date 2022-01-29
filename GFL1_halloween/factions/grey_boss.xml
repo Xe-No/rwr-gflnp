@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction name="G&amp;K PMC" color="0.9 0.6 0.0" firstnames_file="gk_class.name" lastnames_file="gk_serial.name" chat_icon_filename="gk_chat_soldier.png" chat_icon_commander_filename="gk_chat_commander.png" campaign_completion_icon_filename="campaign_win_0.png">
+	<!-- <rank filename="standard_rank.xml"> -->
+
+	<rank xp="0.0" name="2 Star T-Doll">
+		<hud_icon filename="gk_2star.png" />
+	</rank>
+	<rank xp="1.0" name="3 Star T-Doll">
+		<hud_icon filename="gk_3star.png" />
+	</rank>
+	<rank xp="3.0" name="4 Star T-Doll">
+		<hud_icon filename="gk_4star.png" />
+	</rank>
+	<rank xp="10.0" name="5 Star T-Doll">
+		<hud_icon filename="gk_5star.png" />
+	</rank>
+
+
+	<!-- default group -->
+	<!-- that's the player -->
+
+	<soldier name="default" spawn_score="0.0">
+		<!-- <character filename="gk_loli.character" /> -->
+        <character filename="gk_player.character">
+			<sound key="death" fileref="GFL_DEATH_JP_C_1.wav" pitch_variety="0.01" volume="0.65" />
+			<sound key="death" fileref="GFL_DEATH_JP_D_2.wav" pitch_variety="0.01" volume="0.65" />
+			<sound key="death" fileref="GFL_DEATH_JP_D_3.wav" pitch_variety="0.01" volume="0.65" />
+			<sound key="death" fileref="GFL_DEATH_JP_D_5.wav" pitch_variety="0.01" volume="0.65" />
+			<sound key="death" fileref="GFL_DEATH_JP_D_6.wav" pitch_variety="0.01" volume="0.65" />
+		</character>
+
+		<ai filename="default.ai" />
+		<models file="gk.models" />
+		<models file="extra_tdoll.models" />
+		<models file="extra_costume.models" />
+
+		<resources file="common.resources" />
+		<resources file="gk_player.resources" />
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.07" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="80.0" max="300.0" />
+		</attribute_config>
+			<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.05" />
+		</attribute_config>
+
+	</soldier>
+
+	<soldier name="advanced_tactic_form" spawn_score="0.0">
+        <character filename="gk.character" />
+
+		<models file="gk.models" />
+
+		<ai filename="default.ai" />
+		<resources file="common.resources" />
+		<resources file="gk_ai.resources" />
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.9" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.07" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="0.0" min="80.0" max="300.0" />
+			<attribute weight="0.0" min="0.0" max="0.0" />
+		</attribute_config>
+			<attribute_config class="xp">
+			<attribute weight="0.0" min="1.0" max="10.05" />
+		</attribute_config>
+
+	</soldier>
+
+	<soldier name="template_HG" firstnames_file="IOP-HG.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" > 
+		<attribute_config class="rp"><attribute weight="1" 				min="100.0" max="400.0" /> 	</attribute_config>
+		<attribute_config class="xp"><attribute weight="9999999" 		min="0.0" max="1.05" /> 		</attribute_config>
+	</soldier>
+	<soldier name="template_AR" firstnames_file="IOP-AR.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" > 
+		<attribute_config class="rp"><attribute weight="1" 				min="100.0" max="450.0" /> 		</attribute_config>
+		<attribute_config class="xp"><attribute weight="9999999" 		min="0.05" max="1.05" /> 		</attribute_config>
+	</soldier>
+	<soldier name="template_SMG" firstnames_file="IOP-SMG.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" > 
+		<attribute_config class="rp"><attribute weight="1" 				min="100.0" max="600.0" /> 		</attribute_config>
+		<attribute_config class="xp"><attribute weight="9999999" 		min="0.6" max="5.05" /> 		</attribute_config>
+	</soldier>	
+	<soldier name="template_MG" firstnames_file="IOP-MG.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" > 
+		<attribute_config class="rp"><attribute weight="1" 				min="100.0" max="400.0" /> 		</attribute_config>
+		<attribute_config class="xp"><attribute weight="9999999" 		min="1" max="5.05" /> 			</attribute_config>
+	</soldier>
+	<soldier name="template_RF" firstnames_file="IOP-RF.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" > 
+		<attribute_config class="rp"><attribute weight="1" 				min="100.0" max="800.0" /> 		</attribute_config>
+		<attribute_config class="xp"><attribute weight="9999999" 		min="0.6" max="5.05" /> 		</attribute_config>
+	</soldier>
+	<soldier name="template_SG" firstnames_file="IOP-SG.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" > 
+		<attribute_config class="rp"><attribute weight="1" 				min="100.0" max="800.0" /> 		</attribute_config>
+		<attribute_config class="xp"><attribute weight="9999999" 		min="10" max="50" /> 			</attribute_config>
+	</soldier>
+
+	<soldier name="template_16LAB-AR" firstnames_file="16LAB-AR.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" > 
+		<attribute_config class="rp"><attribute weight="1" 				min="400.0" max="800.0" /> 		</attribute_config>
+		<attribute_config class="xp"><attribute weight="9999999" 		min="1" max="5" /> 				</attribute_config>
+	</soldier>
+<!-- 	<soldier name="normal_tactic_form" spawn_score="0.0">
+        <character filename="gk.character" />
+		<ai filename="default.ai" />
+
+		<model filename="black_ops.xml" />
+		<models file="gk.models" />
+
+		<resources file="common.resources" />
+		<resources file="gk_player.resources" />
+
+		<resources>
+			<weapon key="SG-1.weapon" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.07" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="80.0" max="300.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+			<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+
+	</soldier> -->
+
+	<soldier name="commando" spawn_score="1">
+		<character filename="gk.character" />
+		<ai filename="default.ai" />
+		<model file="gs_soldier.xml" />
+
+
+		<resources file="common.resources" clear_weapons="1" clear_carry_items="1">
+			<weapon key="gw_m4a1.weapon" />
+			<weapon key="gw_ak12.weapon" />
+			<weapon key="medikit.weapon" />
+			<weapon key="m72_law.weapon" />
+			<carry_item key="vest1.carry_item" />
+			<projectile key='hand_grenade.projectile' enabled="1" />      
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />		
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="1" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="0.0" max="5.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.6" />
+		</attribute_config>
+	</soldier>
+
+
+	<soldier name="medic" spawn_score="0.0">   <!-- --------------useless -->
+		<character filename="gk.character" />
+		<ai filename="medic.ai" />
+		<model file="gs_soldier.xml" />
+
+
+		<resources file="common.resources" clear_weapons="1" clear_carry_items="1">
+			<weapon key="gw_ump45.weapon" />
+			<weapon key='medikit_ai_2.weapon' />
+			<carry_item key="vest3.carry_item" />
+			<projectile key='hand_grenade.projectile' enabled="1" />      
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />		
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="1" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="0.0" max="5.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.3" max="0.6" />
+		</attribute_config>
+	</soldier>                               <!-- --------------useless -->
+
+	<soldier name="para" spawn_score="0.0" copy_from="template_SG">
+		<character>
+			<sound key="death" fileref="GFL_DEATH_M1014_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M1014_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M1014_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<ai filename="default.ai" />
+		<model file="gs_m1014.xml" />
+
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="uw_m1014.weapon" />
+			<weapon key="m72_law.weapon" />
+			<carry_item key="m1014" />
+			<projectile key='hand_grenade.projectile' enabled="1" />      
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />		
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="1" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="400.0" max="500.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="10.0" max="50.0" />
+		</attribute_config>
+
+
+	</soldier>
+
+	<soldier name="medic2" spawn_score="0.0" copy_from="template_SG">
+		<character>
+			<sound key="death" fileref="GFL_DEATH_M870_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M870_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M870_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M870_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<ai filename="medic.ai" />
+		<model file="gs_m870.xml" />
+
+
+		<resources file="common.resources" clear_weapons="1">
+			<weapon key="gw_m870.weapon" />
+			<weapon key='medikit_ai_2.weapon' />
+			<carry_item key="m870" />
+			<projectile key='hand_grenade.projectile' enabled="1" />      
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />		
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="1" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="600.0" max="650.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="10.0" max="50.0" />
+		</attribute_config>
+
+
+	</soldier>
+
+
+
+
+	<soldier name="gs_98k" spawn_score="1.0" copy_from="template_RF" >
+		<model filename="gs_98k.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_98K_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_98K_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_98K_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_98K_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_98K_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_98k.weapon" />  
+			<carry_item key="98k" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_ak12" spawn_score="1.0" copy_from="template_AR" >
+		<model filename="gs_ak12.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_AK12_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_AK12_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_AK12_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_AK12_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_AK12_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_ak12.weapon" />  
+			<carry_item key="ak12" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_ar15" spawn_score="1.0" copy_from="template_16LAB-AR">
+		<model filename="gs_ar15.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_AR15_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_AR15_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_AR15_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_AR15_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_AR15_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_ar15.weapon" />  
+			<carry_item key="ar15" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_an94" spawn_score="1.0" copy_from="template_AR">
+		<model filename="gs_an94.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_AN94_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_AN94_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_AN94_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_AN94_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_AN94_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_an94.weapon" />  
+			<carry_item key="an94" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_fnfnc" spawn_score="1.0" copy_from="template_AR">
+		<model filename="gs_fnfnc.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_FNFNC_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_FNFNC_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_FNC_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_fnfnc.weapon" />  
+			<carry_item key="fnfnc" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_g11" spawn_score="1.0" copy_from="template_AR">
+		<model filename="gs_g11.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_G11_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_G11_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_G11_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_G11_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_G11_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_g11.weapon" />  
+			<carry_item key="g11" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_hk416" spawn_score="1.0" copy_from="template_AR">
+		<model filename="gs_hk416.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_HK416_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_HK416_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_HK416_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_HK416_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_HK416_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_hk416.weapon" />  
+			<carry_item key="hk416" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m14" spawn_score="1.0" copy_from="template_RF">
+		<model filename="gs_m14.xml" />
+		<character >
+			<sound key="death" fileref="GFL_DEATH_M14_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M14_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M14_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M14_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_m14.weapon" />  
+			<carry_item key="m14" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m16a1" spawn_score="1.0" copy_from="template_16LAB-AR">
+		<model filename="gs_m16a1.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_M16_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M16_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M16_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M16_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M16_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_m16a1.weapon" />  
+			<carry_item key="m16a1" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m1873" spawn_score="1.0" copy_from="template_HG">
+		<model filename="gs_m1873.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_M1873_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M1873_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M1873_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M1873_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M1873_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_m1873.weapon" />  
+			<carry_item key="m1873" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m2hb" spawn_score="1.0" copy_from="template_MG">
+		<model filename="gs_m2hb.xml" />
+		<character >
+			<sound key="death" fileref="GFL_DEATH_M2HB_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M2HB_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M2HB_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M2HB_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M2HB_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_m2hb.weapon" />  
+			<carry_item key="m2hb" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m4 sopmod ii" spawn_score="1.0" copy_from="template_16LAB-AR">
+		<model filename="gs_m4 sopmod ii.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_M4SOP_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M4SOP_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M4SOP_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M4SOP_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M4SOP_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+            <weapon key="gw_m4_sopmod_ii.weapon" />  
+			<carry_item key="m4 sopmod ii" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m4a1" spawn_score="1.0" copy_from="template_16LAB-AR">
+		<model filename="gs_m4a1.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_M4A1_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M4A1_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M4A1_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M4A1_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M4A1_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_m4a1.weapon" />  
+			<carry_item key="m4a1" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m9" spawn_score="1.0" copy_from="template_HG">
+		<model filename="gs_m9.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_M9_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M9_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M9_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M9_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_m9.weapon" />  
+			<carry_item key="m9" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m99" spawn_score="1.0" copy_from="template_RF">
+		<model filename="gs_m99.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_M99_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M99_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M99_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M99_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_m99.weapon" />  
+			<carry_item key="m99" enabled="1" />
+		</resources>
+	</soldier>
+
+    <soldier name="gs_sv98" spawn_score="1.0" copy_from="template_RF">
+		<model filename="gs_sv98.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_SV98_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_SV98_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_SV98_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_SV98_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_SV98_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="rw_cb98.weapon" />  
+			<carry_item key="sv98" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_spas12" spawn_score="0.2" copy_from="template_SG">
+		<model filename="gs_spas12.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_SPAS_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_SPAS_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_SPAS_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_SPAS_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="spas-12.weapon" />  
+			<carry_item key="spas12" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_ump45" spawn_score="0.2" copy_from="template_SMG">
+		<model filename="gs_ump45.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_UMP45_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_UMP45_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_UMP45_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_UMP45_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_UMP45_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_ump45.weapon" />  
+			<carry_item key="ump45" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_ump9" spawn_score="0.2" copy_from="template_SMG">
+		<model filename="gs_ump9.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_UMP9_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_UMP9_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_UMP9_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_UMP9_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_UMP9_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_ump9.weapon" />  
+			<carry_item key="ump9" enabled="1" />
+		</resources>
+	</soldier>
+
+		<soldier name="gs_ump40" spawn_score="0.2" copy_from="template_SMG">
+		<model filename="gs_ump40.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_UMP40_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_UMP40_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_UMP40_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_UMP40_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_UMP40_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_ump40.weapon" />  
+			<carry_item key="ump40" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_aa12" spawn_score="0.2" copy_from="template_SG">
+		<model filename="gs_aa12.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_AA12_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_AA12_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_AA12_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_AA12_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="aa-12.weapon" />  
+			<carry_item key="aa12" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_usas12" spawn_score="0.2" copy_from="template_SG">
+		<model filename="gs_usas12.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_USAS_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_USAS_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_USAS_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_USAS_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_usas12.weapon" />  
+			<carry_item key="usas12" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m870" spawn_score="0.2" copy_from="template_SG">
+		<model filename="gs_m870.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_M870_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M870_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M870_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M870_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_m870.weapon" />  
+			<carry_item key="m870" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m1014" spawn_score="0.2" copy_from="template_SG">
+		<model filename="gs_m1014.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_M1014_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M1014_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M1014_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="uw_m1014.weapon" />  
+			<carry_item key="m1014" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_type100" spawn_score="0.2" copy_from="template_SMG">
+		<model filename="gs_type100.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_TYPE100_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_TYPE100_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_TYPE100_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_TYPE100_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_type100.weapon" />  
+			<carry_item key="type100" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_mp5" spawn_score="0.2" copy_from="template_SMG">
+		<model filename="gs_mp5.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_MP5_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_MP5_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_MP5_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_mp5.weapon" />  
+			<carry_item key="mp5" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_mp40" spawn_score="0.2" copy_from="template_SMG">
+		<model filename="gs_mp40.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_MP40_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_MP40_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_MP40_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_MP40_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources>
+			<weapon key="gw_mp40.weapon" />  
+			<carry_item key="mp40" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_9a91" spawn_score="1.0" copy_from="template_AR" >
+		<model filename="gs_9a91.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_9A91_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_9A91_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_9A91_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_9A91_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_9a91.weapon" />  
+			<carry_item key="9a91" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_95type" spawn_score="1.0" copy_from="template_AR" >
+		<model filename="gs_95type.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_95TYPE_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_95TYPE_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_95TYPE_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_95TYPE_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_95TYPE_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_95type.weapon" />  
+			<carry_item key="95type" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_97type" spawn_score="1.0" copy_from="template_AR" >
+		<model filename="gs_97type.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_97TYPE_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_97TYPE_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_97TYPE_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_97TYPE_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_97type.weapon" />  
+			<carry_item key="97type" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_c96" spawn_score="1.0" copy_from="template_HG" >
+		<model filename="gs_c96.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_C96_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_C96_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_C96_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_C96_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_c96.weapon" />  
+			<carry_item key="c96" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_fn57" spawn_score="1.0" copy_from="template_HG" >
+		<model filename="gs_fn57.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_FN57_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_FN57_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_FN57_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_FN57_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_FN57_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_fn57.weapon" />  
+			<carry_item key="fn57" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_m82a1" spawn_score="1.0" copy_from="template_RF" >
+		<model filename="gs_m82a1.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_M82A1_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M82A1_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M82A1_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_m82a1.weapon" />  
+			<carry_item key="m82a1" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_m1895" spawn_score="1.0" copy_from="template_HG" >
+		<model filename="gs_m1895.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_M1895_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M1895_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M1895_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M1895_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M1895_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_m1895.weapon" />  
+			<carry_item key="m1895" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_m1911" spawn_score="1.0" copy_from="template_HG" >
+		<model filename="gs_m1911.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_M1911_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_M1911_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_M1911_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M1911_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_M1911_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_m1911.weapon" />  
+			<carry_item key="m1911" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_mp446" spawn_score="1.0" copy_from="template_HG" >
+		<model filename="gs_mp446.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_MP446_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="death" fileref="GFL_DEATH_MP446_JP2.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_MP446_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_MP446_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_MP446_THROW_3.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_mp446.weapon" />  
+			<carry_item key="mp446" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_negev" spawn_score="1.0" copy_from="template_MG" >
+		<model filename="gs_negev.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_NEGEV_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_NEGEV_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_NEGEV_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_negev.weapon" />  
+			<carry_item key="negev" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_p7" spawn_score="1.0" copy_from="template_HG" >
+		<model filename="gs_p7.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_P7_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_P7_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_p7.weapon" />  
+			<carry_item key="p7" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_p226" spawn_score="1.0" copy_from="template_HG" >
+		<model filename="gs_p226.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="GFL_DEATH_P226_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_P226_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_p226.weapon" />  
+			<carry_item key="p226" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_pkp" spawn_score="1.0" copy_from="template_MG" >
+		<model filename="gs_pkp.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_PKP_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_PKP_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+			<sound key="throw" fileref="GFL_PKP_THROW_2.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_pkp.weapon" />  
+			<carry_item key="pkp" enabled="1" />
+		</resources>
+	</soldier>
+	
+	<soldier name="gs_wa2000" spawn_score="1.0" copy_from="template_RF" >
+		<model filename="gs_wa2000.xml" />
+		<character>
+			<sound key="death" fileref="GFL_DEATH_WA2000_JP1.wav" pitch_variety="0.01" volume="0.4" />
+			<sound key="throw" fileref="GFL_WA2000_THROW_1.wav" pitch_variety="0.01" volume="0.5" />
+		</character>
+		<resources >
+			<weapon key="gw_wa2000.weapon" />  
+			<carry_item key="wa2000" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="prisoner" spawn_score="0.0">
+		<character filename="gk.character" />
+		<ai filename="default.ai" />
+		<model filename="gs_soldier.xml" />
+        
+        <resources file="common.resources" clear_weapons="1">
+			<weapon key="gw_m1911.weapon" />
+			<weapon key="gw_m9.weapon" />
+			<weapon key="gw_mk23.weapon" />
+			<weapon key="gw_gsh18.weapon" />
+			<weapon key="gw_c96.weapon" />
+			<weapon key="gw_brenten.weapon" />
+			<weapon key="gw_p7.weapon" />
+			<weapon key="gw_p226.weapon" />
+			<weapon key="gw_tmp.weapon" />
+			<carry_item key="vest1.carry_item" />
+			<projectile key='hand_grenade.projectile' enabled="1" />      
+		</resources>
+
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="0.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="80.0" max="300.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.45" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="supply" spawn_score="0.0">
+		<resources file="supply_common.resources" />
+		<resources file="supply_grey.resources" />
+
+		<!-- low XP, likely to join player squad -->
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>    
+
+	<soldier name="supply_hg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_hg.resources"/>
+	</soldier>  
+	<soldier name="supply_rf" spawn_score="0.0" copy_from="default">
+		<resources file="supply_rf.resources"/>
+	</soldier> 
+	<soldier name="supply_ar" spawn_score="0.0" copy_from="default">
+		<resources file="supply_ar.resources"/>
+	</soldier> 
+	<soldier name="supply_smg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_smg.resources"/>
+	</soldier> 
+	<soldier name="supply_mg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_mg.resources"/>
+	</soldier> 
+	<soldier name="supply_sg" spawn_score="0.0" copy_from="default">
+		<resources file="supply_sg.resources"/>
+	</soldier> 
+	<soldier name="supply_new" spawn_score="0.0" copy_from="default">
+		<resources file="supply_new.resources"/>
+	</soldier> 
+	<soldier name="supply_skin" spawn_score="0.0" copy_from="default">
+		<resources file="supply_skin.resources"/>
+	</soldier>
+	<soldier name="supply_command_truck" spawn_score="0.0" copy_from="default">
+		<resources file="supply_command_truck.resources"/>
+	</soldier>  
+
+
+
+<!-- 	<soldier name="supply_skin" spawn_score="0.0" copy_from="default">
+		<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1">
+			<carry_item key="9a91_1302" /> 
+			<carry_item key="fn57_1109" /> 
+			<carry_item key="fn57_1902" /> 
+			<carry_item key="g11_9" /> 
+			<carry_item key="m14_303" /> 
+			<carry_item key="m1873_301" /> 
+			<carry_item key="m99_1701" /> 
+			<carry_item key="mp40_902" /> 
+			<carry_item key="mp446_103" /> 
+			<carry_item key="mp446_402" /> 
+			<carry_item key="mp5_1205" /> 
+			<carry_item key="mp5_1903" /> 
+			<carry_item key="mp5_3_0" /> 
+			<carry_item key="ar15mod" /> 
+			<carry_item key="m4 sopmod iimod" /> 
+			<carry_item key="m4a1mod" /> 
+			<carry_item key="g3_1303" /> 
+			<carry_item key="gsh18_609" /> 
+			<carry_item key="rfb_1601" /> 
+			<carry_item key="ump45mod" /> 
+			<carry_item key="negev_904" /> 
+			<carry_item key="p7_1404" /> 
+			<carry_item key="p7_606" /> 
+			<carry_item key="ump45_410" /> 
+			<carry_item key="ump9_409" /> 
+			<carry_item key="usas12_2704" /> 
+			<carry_item key="wa2000_1108" /> 
+			<carry_item key="wa2000_306" /> 
+			<carry_item key="wa2000_6" /> 
+			<carry_item key="mk23_8" /> 
+			<carry_item key="supersass_1407" /> 
+			<carry_item key="ak47_501" /> 
+			<carry_item key="ameli_1605" /> 
+			<carry_item key="ameli_2409" /> 
+			<carry_item key="art556_1803" /> 
+			<carry_item key="fnfal_308" /> 
+			<carry_item key="fnfal_2406" /> 
+			<carry_item key="fnfnc_1406" /> 
+			<carry_item key="g36_1507" /> 
+			<carry_item key="idw_2108" /> 
+			<carry_item key="m4a1_princess" /> 
+			<carry_item key="mp7_2405" /> 
+		</resources>
+	</soldier> 
+	<soldier name="supply_new" spawn_score="0.0" copy_from="default">
+		<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1">
+			<carry_item key="f2000" /> 
+			<carry_item key="mg42" /> 
+			<carry_item key="ump40" /> 
+			<carry_item key="m200" /> 
+			<carry_item key="m4a1_princess" /> 
+			<carry_item key="aat52" /> 
+			<carry_item key="ak47" /> 
+			<carry_item key="ak47_501" /> 
+			<carry_item key="ak74u" /> 
+			<carry_item key="ameli" /> 
+			<carry_item key="ameli_1605 " /> 
+			<carry_item key="ameli_2409" /> 
+			<carry_item key="art556_1803   " /> 
+			<carry_item key="cx4" /> 
+			<carry_item key="fnfal" /> 
+			<carry_item key="fnfal_308" /> 
+			<carry_item key="fnfal_2406" /> 
+			<carry_item key="fnfnc_1406" /> 
+			<carry_item key="g3" /> 
+			<carry_item key="g3_1303" /> 
+			<carry_item key="g36c" /> 
+			<carry_item key="g36" /> 
+			<carry_item key="g36_1507" /> 
+			<carry_item key="idw" /> 
+			<carry_item key="idw_2108" /> 
+			<carry_item key="ksg" /> 
+			<carry_item key="m60" /> 
+			<carry_item key="m249" /> 
+			<carry_item key="m590" /> 
+			<carry_item key="m870" /> 
+			<carry_item key="m1014" /> 
+			<carry_item key="ntw20" /> 
+			<carry_item key="rfb" /> 
+			<carry_item key="rfb_1601" /> 
+			<carry_item key="sat8" /> 
+			<carry_item key="sr3mp" /> 
+			<carry_item key="ssg69" /> 
+			<carry_item key="sv98" /> 
+			<carry_item key="sv98_502" /> 
+			<carry_item key="p30" /> 
+			<carry_item key="95type_405" /> 
+			<carry_item key="97type_406" /> 
+			<carry_item key="ots14_c2" /> 
+			<carry_item key="dsr50_chinadress" /> 
+			<carry_item key="m590_chinadress" /> 
+			<carry_item key="pa15_chinadress" /> 
+
+		</resources>
+	</soldier>   -->
+
+	<soldier name="supply_medic" spawn_score="0.0">
+		<resources file="supply_medic.resources" />
+
+		<!-- low XP, likely to join player squad -->
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier> 
+
+	<soldier name="icecream" spawn_score="0.0">
+		<resources file="icecream.resources" />
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>  
+
+</faction>

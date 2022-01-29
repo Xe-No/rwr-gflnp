@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
+
+	<carry_item key="whiskey_bottle.carry_item" />
+	<carry_item key="cigarettes.carry_item" />
+	<carry_item key="dollars.carry_item" />
+	<carry_item key="gamingdevice.carry_item" />
+	<carry_item key="gem.carry_item" />
+	<carry_item key="painting.carry_item" />
+	<carry_item key="horny_magazine.carry_item" />
+	<carry_item key="comic_book.carry_item" />
+	<carry_item key="rwr_handbook.carry_item" />
+	<carry_item key="oscar_statue.carry_item" />
+	
+	<carry_item key="cigars.carry_item" />
+	<carry_item key="beer_can.carry_item" />
+	<carry_item key="lighter.carry_item" />   
+	<carry_item key="steroids.carry_item" />  
+	<carry_item key="teddy.carry_item" />      
+
+	<carry_item key="bible.carry_item" /> 
+	<carry_item key="koran.carry_item" /> 
+	<carry_item key="chewing_gum.carry_item" />
+	<carry_item key="chocolate.carry_item" />
+	<carry_item key="dollars_300.carry_item" /> 
+	<carry_item key="gold_bar.carry_item" /> 
+	<carry_item key="energy_drink.carry_item" />
+	<carry_item key="fancy_sunglasses.carry_item" />
+	<carry_item key="radio.carry_item" />
+	<carry_item key="razor.carry_item" />   
+	<carry_item key="sheaths.carry_item" />
+	<carry_item key="sheaths_xxl.carry_item" />  
+	<carry_item key="sunglasses.carry_item" /> 
+	<carry_item key="ipoo_player_blue.carry_item" /> 
+	<carry_item key="ipoo_player_red.carry_item" />
+	<carry_item key="ipoo_player_white.carry_item" />     
+	<carry_item key="ipoo_player_silver.carry_item" />
+	<carry_item key="ipoo_player_yellow.carry_item" />
+	<carry_item key="ipoo_player_green.carry_item" />
+	<carry_item key="ipoo_player_pink.carry_item" />   
+	<carry_item key="playing_cards.carry_item" />
+  	<carry_item key="kamasutra.carry_item" /> 
+  	<carry_item key="cd.carry_item" /> 
+  	<carry_item key="pickashoe.carry_item" />
+
+  	<carry_item key="vest2.carry_item" />
+  	<carry_item key="vest1.carry_item" />
+  	<carry_item key="cd.carry_item" /> 
+
+	
+	<!-- <carry_item key="laptop.carry_item" /> -->
+
+	<carry_item key="gift_box_1.carry_item" />  
+	<carry_item key="gift_box_2.carry_item" />
+	<carry_item key="gift_box_3.carry_item" />    
+	<carry_item key="gift_box_community_1.carry_item" /> 
+	<!-- <carry_item key="gift_box_community_2.carry_item" />  -->
+
+	<carry_item key="gi_battle_report.carry_item" /> 
+
+	<weapon key="beretta_93r.weapon" />
+	<weapon key="glock17.weapon" />
+	<weapon key="p90.weapon" />
+	<weapon key="gw_ump45.weapon" />
+	<weapon key="gw_mp5.weapon" />
+	<weapon key="gw_m870.weapon" />
+	<weapon key="medikit_ai_2.weapon" />
+	<weapon key="wrench.weapon" />
+	<weapon key="vest_repair.weapon" />
+	<weapon key="g36.weapon" />
+	<weapon key="gw_aug.weapon" />
+	<weapon key="gw_hk416.weapon" />
+	<weapon key="gw_m4a1.weapon" />
+	<weapon key="psg90.weapon" />
+	<weapon key="m202_flash.weapon" /> 
+  
+	<vehicle key="deco_car1_brown.vehicle" />  
+	<vehicle key="deco_car1_blue.vehicle" /> 
+	<vehicle key="deco_car1_yellow.vehicle" />
+	<vehicle key="deco_car1_black.vehicle" />
+	<vehicle key="deco_car1_white.vehicle" />
+	<vehicle key="deco_car1_red.vehicle" /> 
+	<vehicle key="deco_car1_pink.vehicle" />
+	<vehicle key="deco_car1_green.vehicle" />    
+ 	
+	<vehicle key="deco_car2_red.vehicle" />
+	<vehicle key="deco_car2_green.vehicle" /> 
+	<vehicle key="deco_car2_yellow.vehicle" />
+	<vehicle key="deco_car2_white.vehicle" />
+	<vehicle key="deco_car2_silver.vehicle" />
+	<vehicle key="deco_car2_grey.vehicle" />
+	<vehicle key="deco_car2_brown.vehicle" />
+	<vehicle key="deco_car2_blue.vehicle" />
+	<vehicle key="deco_car2_black.vehicle" />                        
+    	
+	<vehicle key="deco_car3_sky.vehicle" />
+	<vehicle key="deco_car3_green.vehicle" />
+	<vehicle key="deco_car3_blue.vehicle" />
+	<vehicle key="deco_car3_red.vehicle" />
+	<vehicle key="deco_car3_yellow.vehicle" />        
+	<vehicle key="deco_car3_black.vehicle" /> 
+  
+	<vehicle key="deco_van_blue.vehicle" />
+	<vehicle key="deco_van_khaki.vehicle" />
+	<vehicle key="deco_van_sky.vehicle" />
+	<vehicle key="deco_van_brown.vehicle" />
+	<vehicle key="deco_van_yellow.vehicle" />
+	<vehicle key="deco_van_red.vehicle" />
+	<vehicle key="deco_van_green.vehicle" />
+  
+	<vehicle key="deco_pickup_red.vehicle" /> 
+	<vehicle key="deco_pickup_yellow.vehicle" />
+	<vehicle key="deco_pickup_blue.vehicle" />
+	<vehicle key="deco_pickup_green.vehicle" />
+	<vehicle key="deco_pickup_khaki.vehicle" />
+  
+	<vehicle key="gas_tank.vehicle" />
+	<vehicle key="m1126_r1.vehicle" />
+	<vehicle key="humvee_r1.vehicle" />                        
+
+	<vehicle key="dumpster.vehicle" />  
+
+	<vehicle key="rubber_boat.vehicle" />
+	<vehicle key="cargo_helicopter.vehicle" />  
+	<vehicle key="cargo_truck.vehicle"/> 
+
+	<projectile key='stun_grenade.projectile' /> 
+
+
+</resources>

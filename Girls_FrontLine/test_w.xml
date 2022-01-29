@@ -13,6 +13,7 @@
 <weapon file="gw_iws2000_fsds.weapon" />
 <weapon file="gw_iws2000_he.weapon" />
 <weapon file="gw_qbz191.weapon" />
+<weapon file="gw_qbz191_hibiki.weapon" />
 <weapon file="gw_js09_4204.weapon" />
 <weapon file="gw_js09.weapon" />
 <weapon file="gw_cslr4.weapon" />
@@ -29,5 +30,9 @@
 <weapon file="targetdrone.weapon" />
 <weapon file="ew_rx1_railgun_ap.weapon" />
 <weapon file="ew_rx1_railgun_charge.weapon" />
+<weapon file="ew_m16a5.weapon" />
+<weapon file="ew_m16a5.308.weapon" /> 
+<weapon file="ew_m16a5_gl.weapon" /> 
+<weapon file="ew_n_mp5k.weapon" /> 
 
 </weapons>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="astarte.carry_item" name="Astarte" slot="1" transform_on_consume="astarte_1" drop_count_factor_on_player_death="0" >
+        <hud_icon filename="astarte.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="5" price="2000" />
+
+        <model mesh_filename="it_sgvest.xml" /> 
+        <commonness value="0.00000001" in_stock="0" can_respawn_with="1" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+
+        <!-- <modifier class="detectability" value="-0.25" />
+        <modifier class="night_detectability" value="-0.25" /> 
+        <modifier class="speed" value="+0.5" /> 
+        <modifier class="hit_success_probability" value="-1.0" />  --> 
+
+    </carry_item>
+
+    <carry_item key="astarte_1" name="Astarte, 90%" slot="1" transform_on_consume="astarte_2" drop_count_factor_on_player_death="0">
+        <hud_icon filename="astarte_1.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="5" price="2" />
+           
+        <model mesh_filename="it_sgvest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+
+        <!-- <modifier class="detectability" value="-0.25" />
+        <modifier class="night_detectability" value="-0.25" />         
+        <modifier class="speed" value="+0.5" />
+        <modifier class="hit_success_probability" value="-1.0" /> -->
+    </carry_item>
+
+    <carry_item key="astarte_2" name="Astarte, 80%" slot="1" transform_on_consume="astarte_3" drop_count_factor_on_player_death="0">
+        <hud_icon filename="astarte_2.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="5" price="2" />
+
+        <model mesh_filename="it_sgvest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+
+       <!--  <modifier class="detectability" value="-0.25" />
+        <modifier class="night_detectability" value="-0.25" /> 
+        <modifier class="speed" value="+0.5" />
+        <modifier class="hit_success_probability" value="-1.0" /> -->
+    </carry_item>
+	
+    <carry_item key="astarte_3" name="Astarte, 70%" slot="1" transform_on_consume="astarte_4" drop_count_factor_on_player_death="0">
+        <hud_icon filename="astarte_3.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="5" price="2" />
+
+        <model mesh_filename="it_sgvest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+
+        <!-- <modifier class="detectability" value="-0.25" />
+        <modifier class="night_detectability" value="-0.25" /> 
+        <modifier class="speed" value="+0.5" />
+        <modifier class="hit_success_probability" value="-1.0" /> -->
+    </carry_item>
+	
+    <carry_item key="astarte_4" name="Astarte, 60%" slot="1" transform_on_consume="astarte_5" drop_count_factor_on_player_death="0">
+        <hud_icon filename="astarte_4.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="5" price="2" />
+
+        <model mesh_filename="it_sgvest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+
+       <!--  <modifier class="detectability" value="-0.25" />
+        <modifier class="night_detectability" value="-0.25" /> 
+        <modifier class="speed" value="+0.5" />
+        <modifier class="hit_success_probability" value="-1.0" /> -->
+    </carry_item>
+
+    <carry_item key="astarte_5" name="Astarte, 50%" slot="1" transform_on_consume="astarte_6" drop_count_factor_on_player_death="0">
+        <hud_icon filename="astarte_5.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="5" price="2" />
+
+        <model mesh_filename="it_sgvest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+
+       <!--  <modifier class="detectability" value="-0.25" />
+        <modifier class="night_detectability" value="-0.25" /> 
+        <modifier class="speed" value="+0.5" />
+        <modifier class="hit_success_probability" value="-1.0" /> -->
+    </carry_item>
+
+    <carry_item key="astarte_6" name="Astarte, 40%" slot="1" transform_on_consume="astarte_7" drop_count_factor_on_player_death="0">
+        <hud_icon filename="astarte_6.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="5" price="2" />
+
+        <model mesh_filename="it_sgvest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+
+        <!-- <modifier class="detectability" value="-0.25" />
+        <modifier class="night_detectability" value="-0.25" /> 
+        <modifier class="speed" value="+0.5" />
+        <modifier class="hit_success_probability" value="-1.0" /> -->
+    </carry_item>
+
+    <carry_item key="astarte_7" name="Astarte, 30%" slot="1" transform_on_consume="astarte_8" drop_count_factor_on_player_death="0">
+        <hud_icon filename="astarte_7.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="5" price="2" />
+
+        <model mesh_filename="it_sgvest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+
+       <!--  <modifier class="detectability" value="-0.25" />
+        <modifier class="night_detectability" value="-0.25" /> 
+        <modifier class="speed" value="+0.5" />
+        <modifier class="hit_success_probability" value="-1.0" /> -->
+    </carry_item>
+
+    <carry_item key="astarte_8" name="Astarte, 20%" slot="1" transform_on_consume="astarte_9" drop_count_factor_on_player_death="0">
+        <hud_icon filename="astarte_8.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="5" price="2" />
+
+        <model mesh_filename="it_sgvest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+
+        <!-- <modifier class="detectability" value="-0.25" />
+        <modifier class="night_detectability" value="-0.25" /> 
+        <modifier class="speed" value="+0.5" />
+        <modifier class="hit_success_probability" value="-1.0" /> -->
+    </carry_item>
+
+
+    <carry_item key="astarte_9" name="Astarte, 10%" slot="1" drop_count_factor_on_player_death="0">
+        <hud_icon filename="astarte_9.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="5" price="2" />
+
+        <model mesh_filename="it_sgvest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+
+       <!--  <modifier class="speed" value="+0.5" />
+        <modifier class="hit_success_probability" value="-1.0" /> -->
+    </carry_item>
+
+
+</carry_items>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="deflect_core.carry_item" name="Deflect Core" slot="1" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="deflect_core.png" />
+        <inventory encumbrance="5" price="1000" />
+ 
+        <model mesh_filename="vest_maid.xml" />
+                                                                                                                                                                          
+        <commonness value="0.00000001" in_stock="0" can_respawn_with="1" />
+ 
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound"  consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="death" />
+	    <!-- <modifier class="speed" value="0.3" /> -->
+        <modifier class="hit_success_probability" value="-1.2" />  
+	    <modifier class="detectability" value="-0.3" />
+    </carry_item>
+
+   
+</carry_items>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="dummy_secondary.weapon" on_ground_up="0 0 1" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0">
+<tag name="cqb" />      
+	
+    <specification
+	retrigger_time="0.15"
+        spread_range="0.3"
+	accuracy_factor="0.88"
+	sustained_fire_grow_step="1.0"
+	sustained_fire_diminish_rate="2.0"
+	magazine_size="15"
+	can_shoot_standing="1"
+	suppressed="0"
+    carry_in_two_hands="0"  
+	name="dummy secondary"
+	class="4"
+	reload_one_at_a_time="0"
+	sight_range_modifier="1.0"
+	projectile_speed="110.0"
+	projectiles_per_shot="1"
+        barrel_offset="-0.3"
+	burst_shots="1"
+        slot="1" />
+	
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, m16a4" />
+
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+
+    <sound key="fire" fileref="m16a4_shot.wav" pitch_variety="0.05" volume="0.5" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />    
+    <model filename="assault_rifle4.xml" />
+
+    <hud_icon filename="hud_m16a4.png" />
+    <commonness value="1" in_stock="0" can_respawn_with="1"/>
+    <inventory encumbrance="2.0" price="0.0" />
+
+    <projectiles_per_shot value="1" />
+    <weak_hand_hold offset="0.1" />
+    <projectile file="bullet.projectile">
+        <result class="hit"
+		kill_probability="0.65"
+		kill_decay_start_time="0.25"
+		kill_decay_end_time="0.4" />
+    </projectile>
+    
+    <stance state_key="running" accuracy="0.8" />
+    <stance state_key="walking" accuracy="0.85" />
+    <stance state_key="crouch_moving" accuracy="0.85" />
+    <stance state_key="prone_moving" accuracy="0.85" />
+
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="0.9" />
+    <modifier class="speed" value="+0.0" />    
+
+</weapon>

@@ -5,5 +5,5 @@
 
   <model mesh_filename="xmas_box.mesh" texture_filename="xmas.png" />
 
-  <commonness value="3" in_stock="1" />
+  <commonness value="1" in_stock="1" />
 </carry_item>

@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="infected_unstoppable.carry_item" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_2" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="1.0" in_stock="0" can_respawn_with="1" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+		<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_2" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_3" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+		<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_3" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_4" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+		<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+	
+    <carry_item key="infected_unstoppable_4" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_5" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_5" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_6" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_6" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_7" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_7" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_8" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_8" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_9" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_9" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_10" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_10" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_11" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_11" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_12" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_12" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_13" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_13" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_14" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_14" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_15" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_15" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_16" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_16" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_17" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_17" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_18" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_18" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_19" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_19" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_20" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_20" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_21" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_21" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_22" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_22" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_23" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_23" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_24" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_24" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_25" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_25" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_26" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_26" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_27" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_27" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_28" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_28" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_29" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_29" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_30" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_30" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_31" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_31" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_32" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_32" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_33" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.4" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_33" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_34" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_34" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_35" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_35" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_36" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_36" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_37" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_37" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_38" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_38" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_39" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_39" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_40" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_40" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_41" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_41" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_42" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+       <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_42" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_43" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+       <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_43" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_44" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.6" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_44" name="unstoppable" slot="1" transform_on_consume="infected_unstoppable_45" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.2" />
+    </carry_item>
+
+    <carry_item key="infected_unstoppable_45" name="unstoppable" slot="1" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_zombie.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	<modifier class="hit_success_probability" value="-0.6" /><modifier class="speed" value="-0.2" />
+    </carry_item>
+
+</carry_items>

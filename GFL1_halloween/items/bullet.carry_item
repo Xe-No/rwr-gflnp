@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="bullet.carry_item" name="SOCOMTD" slot="1" transform_on_consume="bullet_1" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="bullet_6.png" />
+        
+        <inventory encumbrance="4" price="120" />
+
+        <model mesh_filename="bullet.xml" />
+
+        <commonness value="0.00000001" in_stock="0" can_respawn_with="1" />
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	    <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <!-- <modifier class="hit_success_probability" value="-1.0" /> -->
+        <!-- <modifier class="detectability" value="-0.2" /> -->
+        <!-- <modifier class="speed" value="+0.2" />   -->
+    </carry_item>
+
+    <carry_item key="bullet_1" name="SOCOMTD, 70%" slot="1" transform_on_consume="bullet_2" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="bullet_5.png" />
+        
+        <inventory encumbrance="4" price="20" />
+
+        <model mesh_filename="bullet.xml" />
+
+        <commonness value="1.0" in_stock="0" can_respawn_with="0" />
+
+    <!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <!-- <modifier class="hit_success_probability" value="-1.0" /> -->
+        <!-- <modifier class="detectability" value="-0.2" /> -->
+        <!-- <modifier class="speed" value="+0.2" />   -->
+    </carry_item>
+
+    <carry_item key="bullet_2" name="SOCOMTD, 60%" slot="1" transform_on_consume="bullet_3" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="bullet_4.png" />
+        
+        <inventory encumbrance="4" price="20" />
+
+        <model mesh_filename="bullet.xml" />
+
+        <commonness value="1.0" in_stock="0" can_respawn_with="0" />
+
+    <!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <!-- <modifier class="hit_success_probability" value="-1.0" />
+        <modifier class="detectability" value="-0.1" />
+        <modifier class="speed" value="+0.2" />   -->
+    </carry_item>
+
+    <carry_item key="bullet_3" name="SOCOMTD, 40%" slot="1" transform_on_consume="bullet_4" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="bullet_3.png" />
+        
+        <inventory encumbrance="4" price="20" />
+
+        <model mesh_filename="bullet.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	<!-- death or wound -> stun only -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+	<!-- melee_hit goes right through, and doesn't consume -->
+       <!-- <modifier class="hit_success_probability" value="-1.0" />
+        <modifier class="speed" value="+0.1" />   -->
+    </carry_item>
+
+    <carry_item key="bullet_4" name="SOCOMTD, 30%" slot="1" transform_on_consume="bullet_5" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="bullet_2.png" />
+        
+        <inventory encumbrance="4" price="20" />
+
+        <model mesh_filename="bullet.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+    <!-- death or wound -> stun only -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+    <!-- melee_hit goes right through, and doesn't consume -->
+        <!-- <modifier class="hit_success_probability" value="-0.9" />
+        <modifier class="speed" value="+0.1" />     -->
+    </carry_item>
+
+    <carry_item key="bullet_5" name="SOCOMTD, 20%" slot="1" transform_on_consume="bullet_6" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="bullet_1.png" />
+        
+        <inventory encumbrance="4" price="20" />
+
+        <model mesh_filename="bullet.xml" />
+
+        <commonness value="1.0" in_stock="0" can_respawn_with="0" />
+
+    <!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <!-- <modifier class="hit_success_probability" value="-0.7" />
+        <modifier class="speed" value="+0.1" />   -->
+    </carry_item>
+
+    <carry_item key="bullet_6" name="SOCOMTD, destroyed" slot="1" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="bullet_0.png" />
+        
+        <inventory encumbrance="4" price="10" />
+
+        <model mesh_filename="bullet.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	<!-- death -> wound -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+	<!-- melee_hit goes right through, and doesn't consume -->
+        <!-- <modifier class="hit_success_probability" value="-0.6" />
+        <modifier class="speed" value="+0.1" />    -->
+    </carry_item>
+</carry_items>

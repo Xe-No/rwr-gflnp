@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package  
+	name="Girl's Frontline: Fallen Eagle [Halloween]"
+	description="Trick or Treat!"
+	image="preview.png"
+	show_in_campaigns="1"
+	show_in_quick_match_mods="0"
+	campaign_entry_script="my_start_infinite.as">
+
+	<campaign_options 
+		faction="1" 
+		presets="1"
+		friendly_capacity="1"
+		enemy_capacity="1"
+		friendly_accuracy="1"
+		enemy_accuracy="1"
+		xp_multiplier="1"
+		rp_multiplier="1" />
+	<server_options show_available_factions="1" />    
+
+</package>

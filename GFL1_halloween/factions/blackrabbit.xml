@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction name="Black Rabbit Squad" color="0.5 0.0 0.5" firstnames_file="english_firstnames.txt" lastnames_file="english_lastnames.txt" chat_icon_filename="chat_icon_br.png" chat_icon_commander_filename="chat_icon_c_br.png">
+	<rank xp="0.0" name="Private">
+		<hud_icon filename="hud_rank0.png" />
+	</rank>  
+	<rank xp="0.05" name="Private 1st Class">
+		<hud_icon filename="hud_rank1.png" />    
+	</rank>
+	<rank xp="0.1" name="Corporal">
+		<hud_icon filename="hud_rank2.png" />
+	</rank>
+	<rank xp="0.2" name="Sergeant">
+		<hud_icon filename="hud_rank3.png" />
+	</rank>
+	<rank xp="0.3" name="Staff Sergeant">
+		<hud_icon filename="hud_rank4.png" />
+	</rank>
+	<rank xp="0.4" name="Staff Sergeant 1st Class">
+		<hud_icon filename="hud_rank5.png" />
+	</rank>
+	<rank xp="0.6" name="2nd Lieutenant">
+		<hud_icon filename="hud_rank6.png" />
+	</rank>
+	<rank xp="0.8" name="Lieutenant">
+		<hud_icon filename="hud_rank7.png" />
+	</rank>
+	<rank xp="1.0" name="Captain">
+		<hud_icon filename="hud_rank8.png" />
+	</rank>
+	<rank xp="1.2" name="Major">
+		<hud_icon filename="hud_rank9.png" />
+	</rank>
+	<rank xp="1.4" name="Lieutenant Colonel">
+		<hud_icon filename="hud_rank10.png" />
+	</rank>
+	<rank xp="2.0" name="Colonel">
+		<hud_icon filename="hud_rank11.png" />
+	</rank>
+	<rank xp="2.5" name="Brigadier General">
+		<hud_icon filename="hud_rank12.png" />
+	</rank>
+	<rank xp="3.0" name="Major General">
+		<hud_icon filename="hud_rank13.png" />
+	</rank>
+	<rank xp="4.0" name="Lieutenant General">
+		<hud_icon filename="hud_rank14.png" />
+	</rank>
+	<rank xp="6.0" name="General">
+		<hud_icon filename="hud_rank15.png" />
+	</rank>
+	<rank xp="10.0" name="General of the Army">
+		<hud_icon filename="hud_rank16.png" />
+	</rank>    
+
+	<!-- -------------- -->
+	<!-- default group -->
+	<!-- -------------- -->
+	<soldier name="default" spawn_score="0.0">
+		<character filename="default_male.character" />
+		<ai filename="default.ai" />
+
+		<models>
+			<model filename="br_s.xml" />
+		</models>
+		
+		<resources file="blackrabbit.resources">
+			<weapon key="beretta_93r.weapon" />
+	        <weapon key="glock17.weapon" />
+	        <weapon key="p90.weapon" />
+	        <weapon key="gw_ump45.weapon" />
+	        <weapon key="gw_mp5.weapon" />
+	        <weapon key="gw_m870.weapon" />
+	        <carry_item key="vest2.carry_item" />
+	        <carry_item key="vest1.carry_item" />
+			<projectile key='stun_grenade.projectile' enabled="1" /> 
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />	
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />	
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="1.0" />
+		</attribute_config>
+	</soldier>
+	
+	<soldier name="ai_1" spawn_score="1.0">
+		<character filename="default_male.character" />
+		<ai filename="default.ai" />
+
+		<models>
+			<model filename="br_s.xml" />
+		</models>
+		
+		<resources file="blackrabbit.resources">
+			<weapon key="beretta_93r.weapon" />
+			<weapon key="medikit_ai_2.weapon" />
+	        <weapon key="glock17.weapon" />
+	        <weapon key="g36.weapon" />
+	        <weapon key="gw_aug.weapon" />
+	        <weapon key="gw_hk416.weapon" />
+	        <weapon key="gw_m4a1.weapon" />
+	        <carry_item key="vest1.carry_item" />
+			<projectile key='stun_grenade.projectile' enabled="1" /> 
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />	
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />	
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="1.0" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="ai_2" spawn_score="0.5">
+		<character filename="default_male.character" />
+		<ai filename="default.ai" />
+
+		<models>
+			<model filename="br_s.xml" />
+		</models>
+		
+		<resources file="blackrabbit.resources">
+			<weapon key="m202_flash.weapon" />
+	        <weapon key="p90.weapon" />
+	        <weapon key="gw_ump45.weapon" />
+	        <weapon key="gw_mp5.weapon" />
+	        <weapon key="psg90.weapon" />
+	        <carry_item key="vest2.carry_item" />
+			<projectile key='stun_grenade.projectile' enabled="1" /> 
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />	
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />	
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.5" />
+		</attribute_config>
+	</soldier>
+</faction>

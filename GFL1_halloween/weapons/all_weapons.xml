@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+	<weapon file="all_vehicle_weapons.xml"/>
+    <weapon file="all_gfl_weapons.xml" /> 
+		RF 1.4x  MG 50 mg
+		
+zombies
+    <weapon file="claw_1.weapon" /> 
+    <weapon file="claw_2.weapon" /> 
+    <weapon file="claw_2_secondary.weapon" />   
+    <weapon file="claw_3.weapon" /> 
+    <weapon file="claw_4.weapon" /> 
+    <weapon file="claw_ulti.weapon" />
+    <weapon file="dummy_primary.weapon" />  
+    <weapon file="dummy_secondary.weapon" /> 
+	<weapon file="claw_fast.weapon" />
+	<weapon file="claw_fast_leap.weapon" />
+	<weapon file="bile.weapon" /> 
+
+</weapons>

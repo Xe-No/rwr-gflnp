@@ -1,0 +1,71 @@
+particle_system PumpkinRain
+{
+    quota   5000
+    material    Pumpkin
+    particle_width  0.6
+    particle_height 0.6
+    cull_each   false
+    renderer    billboard
+    billboard_type  point
+
+    emitter Box
+    {
+        angle   25
+        colour  1 1 1 1
+        colour_range_start  1 1 1 0.5
+        colour_range_end    1 1 1 1
+        direction   0.0 -1 -1
+        emission_rate   10
+        position    0 0 0
+        velocity    0
+        velocity_min    8.0
+        velocity_max    14.0
+        time_to_live    0
+        time_to_live_min    3
+        time_to_live_max    6
+        duration    0
+        duration_min    0
+        duration_max    0
+        repeat_delay    0
+        repeat_delay_min    0
+        repeat_delay_max    0
+        width   60
+        height  40
+        depth   60
+    }
+
+    affector ColourFader
+    {
+        red 0
+        green   0
+        blue    0
+        alpha   -0.1
+    }
+
+    affector Rotator
+    {
+        rotation_speed_range_start  -72
+        rotation_speed_range_end    72
+        rotation_range_start    0
+        rotation_range_end  360
+    }
+}
+
+material Pumpkin {
+    receive_shadows off
+    technique {
+        pass {
+            cull_hardware none
+            cull_software none
+            ambient 1.266667 1.266667 1.266667 1.000000
+            diffuse 0.266667 0.266667 0.266667 1.000000
+            specular 0.333333 0.333333 0.333333 1.000000
+            emissive 1.000000 1.000000 1.000000 1.000000
+            scene_blend alpha_blend
+
+            texture_unit {
+                texture pumpkin.png
+            }
+        }
+    }
+}

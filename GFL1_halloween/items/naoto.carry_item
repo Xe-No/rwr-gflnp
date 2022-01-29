@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="naoto.carry_item" name="Naoto" slot="1" transform_on_consume="naoto_1" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="naoto.png" />
+        <inventory encumbrance="4" price="1000" />
+
+        <model mesh_filename="vest_gk.xml" />
+
+        <commonness value="0.00000001" in_stock="0" can_respawn_with="1" />
+
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+
+        <!-- <modifier class="hit_success_probability" value="-0.6" /> -->
+        <!-- <modifier class="speed" value="0.4" />  -->
+        <!-- <modifier class="detectability" value="-0.1" />   -->
+    </carry_item>
+
+
+    
+     <carry_item key="naoto_1" name="Naoto, 90%" slot="1" transform_on_consume="naoto_2" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="naoto_5.png" />
+        <inventory encumbrance="4" price="2" />
+
+        <model mesh_filename="vest_gk.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+
+        <!-- <modifier class="hit_success_probability" value="-0.6" /> -->
+        <!-- <modifier class="speed" value="0.4" />  -->
+        <!-- <modifier class="detectability" value="-0.1" />    -->
+    </carry_item>
+
+
+    <carry_item key="naoto_2" name="Naoto, 70%" slot="1" transform_on_consume="naoto_3" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="naoto_4.png" />
+        <inventory encumbrance="4" price="2" />
+
+        <model mesh_filename="vest_gk.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+
+        <!-- <modifier class="hit_success_probability" value="-0.7" /> -->
+        <!-- <modifier class="speed" value="0.2" />  -->
+        <!-- <modifier class="detectability" value="-0.1" />    -->
+    </carry_item>
+
+    <carry_item key="naoto_3" name="Naoto, 50%" slot="1" transform_on_consume="naoto_4"  drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="naoto_3.png" />
+        <inventory encumbrance="4" price="2" />
+
+        <model mesh_filename="vest_gk.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+
+        <!-- <modifier class="hit_success_probability" value="-0.7" /> -->
+        <!-- <modifier class="speed" value="0.2" />  -->
+        <!-- <modifier class="detectability" value="-0.1" />    -->
+    </carry_item>
+
+    <carry_item key="naoto_4" name="Naoto, 30%" slot="1" transform_on_consume="naoto_5"  drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="naoto_2.png" />
+        <inventory encumbrance="4" price="2" />
+
+        <model mesh_filename="vest_gk.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+
+        <!-- <modifier class="hit_success_probability" value="-0.7" /> -->
+        <!-- <modifier class="speed" value="0.2" />  -->
+        <!-- <modifier class="detectability" value="-0.1" />    -->
+    </carry_item>
+
+    <carry_item key="naoto_5" name="Naoto, 20%" slot="1"  transform_on_consume="naoto_6" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="naoto_1.png" />
+        <inventory encumbrance="4" price="2" />
+
+        <model mesh_filename="vest_gk.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+
+        <!-- <modifier class="hit_success_probability" value="-0.7" /> -->
+        <!-- <modifier class="speed" value="0.2" />  -->
+        <!-- <modifier class="detectability" value="-0.1" />    -->
+    </carry_item>
+
+    <carry_item key="naoto_6" name="Naoto, hurt" slot="1"  drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="naoto_0.png" />
+        <inventory encumbrance="4" price="2" />
+
+        <model mesh_filename="vest_gk.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+
+        <!-- <modifier class="hit_success_probability" value="-0.7" /> -->
+        <!-- <modifier class="speed" value="0.2" />  -->
+        <!-- <modifier class="detectability" value="-0.1" />    -->
+    </carry_item>
+
+</carry_items>

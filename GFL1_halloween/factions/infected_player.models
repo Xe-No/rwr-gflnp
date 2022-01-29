@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- -------------------------- -->
+	<!-- basic -->
+	<!-- -------------------------- -->	
+
+	<model filename="infected_1.xml" />
+	<model filename="infected_2.xml" />
+	<model filename="infected_3.xml" />
+	<model filename="infected_4.xml" />
+	<model filename="infected_5.xml" />
+	<model filename="infected_6.xml" />
+	<model filename="infected_7.xml" />
+	<model filename="infected_8.xml" />
+	<model filename="infected_9.xml" />
+
+
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_brute.carry_item"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_2"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_3"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_4"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_5"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_6"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_7"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_8"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_9"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_10"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_11"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_12"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_13"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_14"/></model>
+	<model filename="infected_brute.xml" ><requirement class="carry_item" slot="1" key="infected_15"/></model>
+
+<!-- 
+	<model filename="infected_walk.xml" ><requirement class="carry_item" slot="1" key="infected_walk.carry_item"/></model>
+	<model filename="infected_walk.xml" ><requirement class="carry_item" slot="1" key="infectedwalker2"/></model>
+	<model filename="infected_walk.xml" ><requirement class="carry_item" slot="1" key="infectedwalker3"/></model> -->
+
+</models>

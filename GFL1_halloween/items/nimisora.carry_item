@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="nimisora.carry_item" name="Nimi Sora" slot="1" transform_on_consume="nimisora_1" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="nimisora_3.png" />
+        
+        <inventory encumbrance="4" price="350" />
+
+        <model mesh_filename="it_nimisora.xml" />
+
+        <commonness value="0.00000001" in_stock="0" can_respawn_with="1" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	    <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <!-- <modifier class="detectability" value="-0.35" /> -->
+        <!-- <modifier class="night_detectability" value="-0.2" /> -->
+        <!-- <modifier class="speed" value="0.07" />   -->
+    </carry_item>
+
+    <carry_item key="nimisora_1" name="Nimi Sora, 60%" slot="1" transform_on_consume="nimisora_2" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="nimisora_2.png" />
+        
+        <inventory encumbrance="4" price="20" />
+
+        <model mesh_filename="it_nimisora.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <!-- <modifier class="detectability" value="-0.25" /> -->
+        <!-- <modifier class="night_detectability" value="-0.2" />  -->
+    </carry_item>
+
+    <carry_item key="nimisora_2" name="Nimi Sora, 40%" slot="1" transform_on_consume="nimisora_3" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="nimisora_1.png" />
+        
+        <inventory encumbrance="4" price="20" />
+
+        <model mesh_filename="it_nimisora.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <!-- <modifier class="detectability" value="-0.2" /> -->
+        <!-- <modifier class="night_detectability" value="-0.2" /> -->
+        <!-- <modifier class="speed" value="0.06" />    -->
+    </carry_item>
+
+    <carry_item key="nimisora_3" name="Nimi Sora, destroyed" slot="1" drop_count_factor_on_player_death="0" drop_count_factor_on_death="0">
+        <hud_icon filename="nimisora_0.png" />
+        
+        <inventory encumbrance="4" price="10" />
+
+        <model mesh_filename="it_nimisora.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" /> 
+        <!-- <modifier class="detectability" value="-0.15" /> -->
+        <!-- <modifier class="night_detectability" value="-0.2" /> -->
+        <!-- <modifier class="speed" value="0.05" />   -->
+    </carry_item>
+</carry_items>

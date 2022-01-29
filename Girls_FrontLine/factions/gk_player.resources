@@ -101,7 +101,9 @@ Armory
 	<carry_item key="gold_bar.carry_item" />
 	<carry_item key="gi_battle_report.carry_item" />
 
-	<carry_item key="xmas_box.carry_item" />
+	<!-- <carry_item key="xmas_box.carry_item" /> -->
+	<carry_item key="play_box.carry_item" />
+	<carry_item key="newyear_box.carry_item" />
 	<carry_item key="token_box.carry_item" />
 	<carry_item key="redstar.carry_item" />
 
@@ -146,5 +148,6 @@ re token
 	<projectile key="token_rin.projectile" />
 	<projectile key="token_mingshi_arb.projectile" />
 	<projectile key="token_g41_maid.projectile" />
+	<projectile key="token_akemi_homura.projectile" />
 
 </resources>

@@ -747,6 +747,7 @@ gw_zb26_4703.weapon
 	<model filename="gs_iws2000.xml"><requirement class="weapon" slot="0" key="gw_iws2000_fsds.weapon"/></model>
 	<model filename="gs_iws2000.xml"><requirement class="weapon" slot="0" key="gw_iws2000_he.weapon"/></model>
 	<model filename="gs_qbz191.xml"><requirement class="weapon" slot="0" key="gw_qbz191.weapon"/></model>
+	<model filename="gs_qbz191_hibiki.xml"><requirement class="weapon" slot="0" key="gw_qbz191_hibiki.weapon"/></model>
 	<model filename="gs_js09_4204.xml"><requirement class="weapon" slot="0" key="gw_js09_4204.weapon"/></model>
 	<model filename="gs_js09.xml"><requirement class="weapon" slot="0" key="gw_js09.weapon"/></model>
 	<model filename="gs_cslr4.xml"><requirement class="weapon" slot="0" key="gw_cslr4.weapon"/></model>

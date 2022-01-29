@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectiles>
+	zombie
+    <projectile file="acid_bomb.projectile" />
+	<projectile file="dummy_projectile.projectile" />    
+    <projectile file="blood_explosion_stun.projectile" /> 
+    <projectile file="acid_explosion_stun.projectile" />
+	<projectile file="selfstun.projectile" /> 
+</projectiles>

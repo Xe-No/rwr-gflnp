@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_op.weapon" key="gw_asval.weapon">
+    <tag name="stealth" />
+    <specification 
+	retrigger_time="0.066" 
+	accuracy_factor="1.0" 
+	sustained_fire_grow_step="0.32" 
+	sustained_fire_diminish_rate="1.56" 
+	magazine_size="0" 
+	can_shoot_standing="1" 
+	suppressed="1" 
+	name="AS VAL - Grip and Long Mag" 
+	class="0" 
+	burst_shots="1"
+	reload_one_at_a_time="0" 
+	sight_range_modifier="1.4" 
+	projectile_speed="110.0" 
+	barrel_offset="0.4" 
+	projectiles_per_shot="1" />
+
+    <animation key="recoil" ref="27" />
+    <animation key="cycle" ref="30" />
+    <animation state_key="reload" animation_key="reloading, vss_vintorez" />
+
+    <sound key="fire" fileref="asval_shot.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="cycle" fileref="sniper_cycle.wav" />
+    <sound key="magazine_out" fileref="sniper_clip_out.wav" />
+    <sound key="magazine_in" fileref="sniper_clip_in.wav" />
+    <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+    <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="gw_asval1.xml" />
+    <hud_icon filename="gw_asval1.png" />
+    <commonness value="1.0" can_respawn_with="1" />
+    <inventory encumbrance="11.0" price="450.0" />
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="100000.0" />
+
+    
+    <weak_hand_hold offset="0.3" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="2.1" kill_decay_start_time="0.35" kill_decay_end_time="1.5" />
+    </projectile>
+    
+    <stance state_key="running" accuracy="0.5" />
+    <stance state_key="walking" accuracy="0.7" />
+    <stance state_key="crouch_moving" accuracy="0.1" />
+    <stance state_key="standing" accuracy="0.8" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="0.1" />
+    <stance state_key="over_wall" accuracy="0.9" />
+    
+    <modifier class="speed" value="-0.05" />    
+
+</weapon>
