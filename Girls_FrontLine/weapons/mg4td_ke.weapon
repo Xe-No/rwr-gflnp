@@ -29,9 +29,9 @@
     <sound key="magazine_in" fileref="mg_clip_in_1.wav"/>
     <sound key="cycle" fileref="mg_chamber_1.wav"/>
     <sound class="impact" fileref="rifle_drop.wav"/>
-    <sound key="effect" fileref="mg4_switch.wav" pitch_variety="0.0" volume="0.3"/>
-    <sound key="effect" fileref="mg4_switch.wav" pitch_variety="0.0" volume="0.3"/>
-    <sound key="effect" fileref="mg4_switch.wav" pitch_variety="0.0" volume="0.3"/>
+    <sound key="effect" fileref="mg4_switch_r.wav" pitch_variety="0.0" volume="0.3"/>
+    <sound key="effect" fileref="mg4_switch_r.wav" pitch_variety="0.0" volume="0.3"/>
+    <sound key="effect" fileref="mg4_switch_r.wav" pitch_variety="0.0" volume="0.3"/>
     <sound key="effect" fileref="mg4_switch0.wav" pitch_variety="0.0" volume="0.3"/>
     <sound key="effect" fileref="mg4_switch4.wav" pitch_variety="0.0" volume="0.3"/>
     <control key="effect" value="1"/>

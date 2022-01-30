@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="Command truck" key="armored_truck.vehicle" respawn_time="180" existence="one_per_faction" protectors="5" allow_ai_to_use="0" jams_enemy_radio="1" map_view_atlas_index="3" reserves_spawn_point="1" >
+<vehicle file="vehicle_base.vehicle" name="Command truck" key="armored_truck.vehicle" respawn_time="180" existence="one_per_faction" protectors="5" allow_ai_to_use="0" jams_enemy_radio="1" map_view_atlas_index="2" reserves_spawn_point="1" >
 	<tag name="metal_thin" />
   
 	<tire_set offset="1.2 0.0 +3.2" radius="0.7" />

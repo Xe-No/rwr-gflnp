@@ -162,6 +162,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("pf89.weapon" , "weapon", 1.0f, 10),
 				ScoredResource("gw_qts11.weapon" , "weapon", 1.0f),
 				ScoredResource("gw_lvoac.weapon" , "weapon", 1.0f),
+				ScoredResource("gw_iws2000_he.weapon" , "weapon", 1.0f),
 				ScoredResource("gw_lewis_5501.weapon" , "weapon", 1.0f)
 			}
 		};
@@ -583,7 +584,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("m1a2keqing_flare.projectile", "projectile", 0.5f,  2),
 				ScoredResource("flak37_flare.projectile", "projectile", 0.5f,  2),
 
-                ScoredResource("swordfish_mk1.weapon", "weapon", 0.3f,  2),
+                // ScoredResource("swordfish_mk1.weapon", "weapon", 0.3f,  2),
 				ScoredResource("mmtt42_flare.projectile", "projectile", 0.3f,  1),
 				ScoredResource("mmtt69_flare.projectile", "projectile", 0.1f,  1),
 				ScoredResource("mmtxfx_flare.projectile", "projectile", 0.2f, 1),
@@ -690,7 +691,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("gift_box_1.carry_item", "carry_item", 1.0f),
 		ScoredResource("gift_box_2.carry_item", "carry_item", 1.0f),
 		ScoredResource("gift_box_3.carry_item", "carry_item", 1.0f),
-		ScoredResource("ew_rx1_railgun.weapon", "weapopn", 0.1f),
+		ScoredResource("ew_rx1_railgun_ap.weapon", "weapon", 0.5f),
 		ScoredResource("gift_box_community_1.carry_item", "carry_item", 1.0f),             
         ScoredResource("m712.weapon", "weapon", 1.0f),
 		ScoredResource("underpants.carry_item", "carry_item", 1.0f, 2),
@@ -934,7 +935,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_zb26.weapon", "weapon", 2.0f),
 				ScoredResource("gw_ots12.weapon", "weapon", 2.0f),
 				ScoredResource("gw_ots14.weapon", "weapon", 2.0f),
-				ScoredResource("gw_iws2000.weapon", "weapon", 3.0f),
+				ScoredResource("gw_iws2000_he.weapon", "weapon", 3.0f),
 				ScoredResource("gw_m1915_chauchat.weapon", "weapon", 3.0f),
 				ScoredResource("ump40.weapon", "weapon", 1.0f)
 			}
