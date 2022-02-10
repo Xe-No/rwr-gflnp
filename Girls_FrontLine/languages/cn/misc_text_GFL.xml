@@ -350,6 +350,10 @@ weapons
     <text key="FG-42" text="FG-42伞兵步枪" />
     <text key="MK-17 SD" text="SCAR-H消音突击步枪" />
 
+
+    
+    <text key="AMELI[Ameli's Catch]" text="AMELI[阿梅莉的接球]" />
+
     <text key="AX-50 ELR" text="AX50-ELR反器材狙击步枪" />
 
     <text key="TYPE 79" text="79式特战冲锋枪改" />

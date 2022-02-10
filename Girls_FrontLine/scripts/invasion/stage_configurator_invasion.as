@@ -180,9 +180,8 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 	// ------------------------------------------------------------------------------------------------
 	protected void setupNormalStages() {
-	addStage(setupViper());          
-	addStage(setupRoberto());          
-	addStage(setupClairemont());         
+	// addStage(setupViper());          
+      
 	addStage(setupStage7());          // map6
 	// addStage(setupStage18());         // map13_2
 	addStage(setupStage1());          // map2
@@ -201,6 +200,8 @@ class StageConfiguratorInvasion : StageConfigurator {
     addStage(setupStage2());          // map4
     addStage(setupStage5());          // map1
     addStage(setupStage6());          // map5
+	addStage(setupRoberto());          
+	addStage(setupClairemont());   
 	addStage(setupFinalStage2());     // map12
     addStage(setupStage11());         // map13
 	}

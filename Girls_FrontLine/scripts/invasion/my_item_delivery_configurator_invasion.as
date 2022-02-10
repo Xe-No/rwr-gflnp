@@ -324,7 +324,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("gw_mp7.weapon", "weapon", 1.0f),
 		ScoredResource("painting.carry_item", "carry_item", 1.0f),
         ScoredResource("stoner_lmg.weapon", "weapon", 1.0f),
-        ScoredResource("token_suzakuin_tsubaki_swim.carry_item", "carry_item", 2.0f, 1),
+        ScoredResource("token_suzakuin_tsubaki_swim.weapon", "weapon", 1.0f, 1),
         ScoredResource("gift_box_community_1.carry_item", "carry_item", 1.0f)      
 			},
 			{
