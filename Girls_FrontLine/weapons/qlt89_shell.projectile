@@ -2,7 +2,7 @@
 <projectile class="grenade" name="qlt89 shell" slot="1" pulldown_in_air="18" key="qlt89_shell.projectile" >
     <tag name="grenade"/>
 
-    <result class="blast" radius="5.5" damage="3.52" decal="1" character_state="death" push="0.3" />
+    <result class="blast" radius="5.0" damage="2.52" decal="1" character_state="death" push="0.3" />
     <trigger class="impact" />
     <rotation class="motion" />
 

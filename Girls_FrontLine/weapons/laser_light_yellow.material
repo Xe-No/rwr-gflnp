@@ -1,0 +1,16 @@
+material laser_light_yellow {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override true
+
+			depth_write on
+			scene_blend dest_colour  one
+
+			texture_unit {
+				texture laser_g41.png
+			}
+		}
+	}
+}

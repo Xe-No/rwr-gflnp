@@ -731,7 +731,7 @@ gw_zb26_4703.weapon
 
 	
 
-	28
+<!-- 28 -->
 
 	<model filename="gs_aa12_2403.xml"><requirement class="weapon" slot="0" key="gw_aa12_2403_s.weapon"/></model>
 	<model filename="gs_aa12_2403.xml"><requirement class="weapon" slot="0" key="gw_aa12_2403_he.weapon"/></model>
@@ -769,6 +769,14 @@ gw_zb26_4703.weapon
 	<model filename="gs_targetdrone_yz.xml"><requirement class="weapon" slot="0" key="targetdrone.weapon"/></model>
 	<model filename="black_action.xml"><requirement class="weapon" slot="0" key="ew_rx1_railgun_ap.weapon"/></model>
     <model filename="black_action.xml"><requirement class="weapon" slot="0" key="ew_rx1_railgun_charge.weapon"/></model>
+
+
+<!-- 29 -->
+    <model filename="gs_naoto_acu.xml"><requirement class="weapon" slot="0" key="ew_m16a5.weapon"/></model>
+    <model filename="gs_naoto_acu.xml"><requirement class="weapon" slot="0" key="ew_m16a5.308.weapon"/></model>
+    <model filename="gs_naoto_acu.xml"><requirement class="weapon" slot="0" key="ew_m16a5_gl.weapon"/></model>
+    <model filename="gs_naoto_martix.xml"><requirement class="weapon" slot="0" key="ew_n_mp5k.weapon"/></model>
+
 </models>
     
 

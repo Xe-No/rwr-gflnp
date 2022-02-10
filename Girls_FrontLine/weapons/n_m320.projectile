@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="M320" slot="1" pulldown_in_air="12.0" key="n_m320.projectile">
+<projectile class="grenade" name="M203" slot="1" pulldown_in_air="13.0" key="n_m320.projectile">
     <tag name="grenade"/>
-    <result class="blast" radius="4.4" damage="1.1" push="0.37" decal="1" />
+    <result class="blast" radius="4.8" damage="1.1" push="0.37" decal="1" />
     <trigger class="impact" />
     <rotation class="motion" />
     <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />

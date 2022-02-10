@@ -2,11 +2,11 @@
 <weapon file="base_cb.weapon" key="ew_n_mp5k.weapon" on_ground_up="0 0 1">
     <tag name="stealth" />
     <specification 
-  retrigger_time="0.096" 
-  accuracy_factor="0.8" 
-  sustained_fire_grow_step="0.30" 
+  retrigger_time="0.085" 
+  accuracy_factor="0.9" 
+  sustained_fire_grow_step="0.25" 
   sustained_fire_diminish_rate="2.0" 
-  magazine_size="60" 
+  magazine_size="62" 
   can_shoot_standing="1" 
   carry_in_two_hands="0" 
   suppressed="0" 
@@ -41,9 +41,9 @@
   <animation state_key="stabbing" animation_key="pistol whip 2" />
   <animation state_key="stabbing" animation_key="pistol whip 3" />
 
-<!--   <animation state_key="next_in_chain_in" animation_key="change weapon in" />
+  <animation state_key="next_in_chain_in" animation_key="change weapon in" />
   <animation state_key="next_in_chain_out" animation_key="change weapon out" />
- -->
+
 
     <sound key="fire" fileref="n_mp5k.wav" volume="0.5" />
     <sound key="magazine_out" fileref="n_mp5k_out.wav" />
@@ -60,7 +60,7 @@
     <commonness value="1.0" can_respawn_with="1" />
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.35" kill_decay_start_time="0.27" kill_decay_end_time="0.57" />
+        <result class="hit" kill_probability="1.38" kill_decay_start_time="0.27" kill_decay_end_time="0.57" />
     </projectile>
 
     <stance state_key="running" accuracy="0.4" />
@@ -72,7 +72,7 @@
     <stance state_key="standing" accuracy="0.9" />
     <stance state_key="crouching" accuracy="1.0" />
     <stance state_key="prone" accuracy="1.0" />
-    <modifier class="speed" value="-0.01" />
+    <modifier class="speed" value="+0.1" />
  
     <effect class="muzzle" ref="MuzzleDual1" />
     <effect class="muzzle" ref="MuzzleSmokeDual1" />

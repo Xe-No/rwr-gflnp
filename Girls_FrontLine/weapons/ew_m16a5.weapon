@@ -3,8 +3,8 @@
     <tag name="assault" />
     <specification 
   retrigger_time="0.072"
-  last_burst_retrigger_time="0.3"  
   spread_range="0.12"
+  last_burst_retrigger_time="0.3"  
   sustained_fire_grow_step="0.20" 
   sustained_fire_diminish_rate="1.62" 
   magazine_size="41" 
@@ -52,5 +52,5 @@
     <stance state_key="standing" accuracy="0.90" />
     <stance state_key="crouching" accuracy="0.94" />
     <stance state_key="prone" accuracy="1.0" />
-    <modifier class="speed" value="-0.035" />
+    <modifier class="speed" value="-0.030" />
 </weapon>

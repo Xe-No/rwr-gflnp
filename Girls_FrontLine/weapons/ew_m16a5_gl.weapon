@@ -26,7 +26,7 @@
 <!--<ballisticsnear_far_distance="20.0"speed_estimation_near="25.0"speed_estimation_far="25.0" max_speed="30.0" randomness="0.0" />    -->
 
     
-     <ballistics curve_height="4.0" near_far_distance="10.0" speed_estimation_near="40.0" speed_estimation_far="100.0" max_speed="100.0" randomness="0.0" tweak_factor="1.55"/> 
+     <ballistics curve_height="5.0" near_far_distance="10.0" speed_estimation_near="40.0" speed_estimation_far="100.0" max_speed="100.0" randomness="0.0" tweak_factor="1.55"/> 
 
     
      <!-- <ballistics curve_height="4.0" near_far_distance="10.0" speed_estimation_near="20.0" max_speed="160.0" randomness="0.0" />   -->
@@ -72,7 +72,7 @@
     
      <hud_icon filename="n_m16a5_gl.png"/>
     
-     <inventory encumbrance="10.0" price="400.0"/>
+     <inventory encumbrance="10.0" price="600.0"/>
 
     
      
@@ -101,7 +101,7 @@
     
     
   
-   <modifier class="speed" value="-0.35"/>    
+   <modifier class="speed" value="-0.03"/>    
 
 
 </weapon>

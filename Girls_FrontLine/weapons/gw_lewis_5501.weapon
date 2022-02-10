@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_card_mg.weapon" key="gw_lewis_5501.weapon">
+<weapon file="base_card_mg_n.weapon" key="gw_lewis_5501.weapon">
     <tag name="MG" />
 <!-- performance -->    
     <specification 
         retrigger_time="0.11" 
-        accuracy_factor="1.0" 
-        sight_range_modifier="1.2"
-        sustained_fire_grow_step="0.3" 
-        sustained_fire_diminish_rate="2.5" 
+        accuracy_factor="0.95" 
+        sight_range_modifier="1.0"
+        spread_range="0.12"
+        sustained_fire_grow_step="0.4" 
+        sustained_fire_diminish_rate="1.6" 
         magazine_size="97" 
         can_shoot_standing="1" 
         suppressed="0" 
@@ -17,18 +18,18 @@
         projectile_speed="150.0" />
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.7" kill_decay_start_time="0.28" kill_decay_end_time="0.53" />
+        <result class="hit" kill_probability="1.66" kill_decay_start_time="0.28" kill_decay_end_time="0.53" />
     </projectile>
 
-    <stance state_key="running" accuracy="0.4" />
-    <stance state_key="walking" accuracy="0.5" />
-    <stance state_key="crouch_moving" accuracy="0.6" />
-    <stance state_key="standing" accuracy="0.75" />
-    <stance state_key="crouching" accuracy="0.8" />
+    <stance state_key="running" accuracy="0.05" />
+    <stance state_key="walking" accuracy="0.4" />
+    <stance state_key="crouch_moving" accuracy="0.1" />
+    <stance state_key="standing" accuracy="0.95" />
+    <stance state_key="crouching" accuracy="1.0" />
     <stance state_key="prone" accuracy="1.0" /> 
-    <stance state_key="prone_moving" accuracy="0.75" />
-    <stance state_key="over_wall" accuracy="1.2" />
-    <modifier class="speed" value="-0.1" />
+    <stance state_key="prone_moving" accuracy="0.1" />
+    <stance state_key="over_wall" accuracy="0.95" />    
+    <modifier class="speed" value="-0.16" />
 
 <!-- art -->
     <model                      filename="lewis.xml" />
