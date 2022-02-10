@@ -57,7 +57,8 @@ Armory
 	<weapon key="gw_qbz191.weapon" />
 	<weapon key="pf89.weapon" />
 
-
+<!-- ST -->
+	<weapon key='st_mg0.weapon' />
 <!-- secondary -->
 	<weapon key="gw_repair.weapon" />
 	<weapon key="gw_repair_em.weapon" />
@@ -76,6 +77,8 @@ Armory
 	<weapon key='cover_resource.weapon' />
 	<weapon key='m79.weapon' enabled="0" />
 	<weapon key='m72_law.weapon' />
+
+
 
 	<!-- disable original -->
 	<carry_item key="vest1.carry_item" enabled="0"/>     

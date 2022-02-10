@@ -35,7 +35,7 @@
     <model filename="gm6_lynx_ap.xml" />
 
     <hud_icon filename="gm6_lynx_ap_aim.png" />
-    <commonness value="1.0" can_respawn_with="0" in_stock="0"/>
+    <!-- <commonness value="1.0" can_respawn_with="0" in_stock="0"/> -->
     <inventory encumbrance="11.0" price="120.0" />
 
     <weak_hand_hold offset="0.3" />
