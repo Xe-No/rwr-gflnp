@@ -17,7 +17,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
 	    <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
-        <modifier class="hit_success_probability" value="-0.84" />
+        <modifier class="hit_success_probability" value="-0.85" />
         <modifier class="speed" value="+0.15" />  
     </carry_item>
 
@@ -38,8 +38,8 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
-        <modifier class="hit_success_probability" value="-0.84" />
-        <modifier class="speed" value="+0.15" /> 
+        <modifier class="hit_success_probability" value="-0.8" />
+        <modifier class="speed" value="+0.1" /> 
     </carry_item>
 
     <carry_item key="iop_t4_exo_2" name="IOP T4 Universal Exoskeleton, 40%" slot="1" transform_on_consume="iop_t4_exo_3" time_to_live_out_in_the_open="120.0">
@@ -59,7 +59,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
         
 	<!-- melee_hit goes right through, and doesn't consume -->
-       <modifier class="hit_success_probability" value="-0.84" />
+       <modifier class="hit_success_probability" value="-0.8" />
         <modifier class="speed" value="+0.1" />  
     </carry_item>
 
@@ -80,8 +80,8 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
         
     <!-- melee_hit goes right through, and doesn't consume -->
-        <modifier class="hit_success_probability" value="-0.8" />
-        <modifier class="speed" value="+0.05" />   
+        <modifier class="hit_success_probability" value="-0.75" />
+  
     </carry_item>
 
     <carry_item key="iop_t4_exo_4" name="IOP T4 Universal Exoskeleton, destroyed" slot="1" time_to_live_out_in_the_open="120.0">
@@ -99,7 +99,7 @@
         <modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
 	<!-- melee_hit goes right through, and doesn't consume -->
-        <modifier class="hit_success_probability" value="-0.75" />
-        <modifier class="speed" value="+0.01" />   
+        <modifier class="hit_success_probability" value="-0.7" />
+  
     </carry_item>
 </carry_items>
