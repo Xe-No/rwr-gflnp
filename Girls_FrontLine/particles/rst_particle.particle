@@ -1,0 +1,231 @@
+//particle_system rx1_smoke	
+{
+	quota 10000
+	emit_emitter_quota 10000
+	material rx1_smoke
+	particle_width 0.3
+	particle_height 0.3
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0 1 0
+		emission_rate 200
+		position 0 0 0
+		velocity 100
+		time_to_live 0.15
+		duration 0.15
+		emit_emitter rx1_linesmoke
+	}
+	emitter Cylinder
+	{
+		name rx1_linesmoke
+		angle 9
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0 0 1
+		up 0 0 1
+		emission_rate 100
+		position 0 0 0
+		velocity 1
+		velocity_min 1
+		velocity_max 1
+		time_to_live 0.5
+		duration 0.5
+		width 1.2
+		height 0
+		depth 0
+		
+	}
+	affector Scaler
+	{
+		rate 1.5
+	}
+		affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+	affector ColourImage
+	{
+		image smokecolors.png
+	}
+	
+}
+
+
+particle_system blast_smoke_rumbler
+{
+	quota 3000
+	material blast_smoke_rumbler
+	particle_width 8
+	particle_height 8
+	cull_each false
+	renderer billboard
+	local_space false
+
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0 0 -1
+		emission_rate 5
+		position 0 1.6 -2
+		velocity 1
+		time_to_live 1
+		duration 0.2
+		angle 15
+	}
+	affector Scaler
+	{
+		rate 4
+	}
+	affector ColourImage
+	{
+		image smokecolors2.png
+	}
+	affector LinearForce
+	{
+		force_vector 0 0 0
+		force_application add
+	}
+	affector ColourInterpolator
+	{
+		time0 0.5
+		colour0 1 1 1 1
+		time1 1
+		colour1 1 1 1 0
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	-15
+		rotation_range_end	15
+	}
+	
+}
+
+particle_system blast2_smoke_rumbler
+{
+	quota 3000
+	material blast2_smoke_rumbler
+	particle_width 6
+	particle_height 6
+	cull_each false
+	renderer billboard
+	local_space false
+
+	emitter Point
+	{
+		colour 1 1 1 1
+		direction 0 0 0
+		emission_rate 8
+		position 0 0.2 0.1
+		velocity 0
+		time_to_live 0.5
+		duration 0.2
+		angle 30
+	}
+	affector Scaler
+	{
+		rate 10
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start	5
+		rotation_speed_range_end	20
+		rotation_range_start	-90
+		rotation_range_end	90
+	}
+	affector ColourImage
+	{
+		image smokecolors.png
+	}
+		affector ColourInterpolator
+	{
+		time0 0.3
+		colour0 1 1 1 1
+		time1 0.5
+		colour1 1 1 1 0
+	}
+}
+
+
+
+particle_system spray_rumbler
+{
+	quota 1000
+	material R_flame
+	particle_width 1.2
+	particle_height 1.2
+	cull_each false
+	renderer billboard
+	billboard_type oriented_self
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	
+	emitter Point
+	{
+		angle 45
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0 1 0
+		up 0 0 0
+		emission_rate 20
+		position 0 0 0
+		velocity 20
+		velocity_min 10
+		velocity_max 20
+		time_to_live 3
+		time_to_live_min 3
+		time_to_live_max 3
+		duration 0.2
+	}
+		affector Scaler
+	{
+		rate -1
+	}
+
+	affector LinearForce
+	{
+		force_vector 0 -30 0
+		force_application add
+	}
+
+	affector ColourInterpolator
+	{
+		colour0 1 1 0 1
+		time0 0
+		colour1 1 0 0 1
+		time1 0.5
+		colour2 0 0 1 0.6
+		time2 0.9
+		colour3 0.5 0.5 0.5 0
+		time3 1
+		colour4 0.5 0.5 0.5 0
+		time4 1
+		colour5 0.5 0.5 0.5 0
+		time5 1
+	}
+	
+	
+}

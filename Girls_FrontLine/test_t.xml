@@ -1,4 +1,4 @@
 <projectiles>
-    <projectile file="aa12_he_blast.projectile" />
-    <projectile file="iws2000_fsds_blast.projectile" />
+<projectile file="vog_grenade.projectile" />
+<projectile file="gm6_lynx_blast.projectile" />
 </projectiles>

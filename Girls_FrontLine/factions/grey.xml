@@ -1183,7 +1183,7 @@
 
 	<soldier name="supply_lav25" spawn_score="0.0" copy_from="default"><resources file="supply_lav25.resources"/></soldier>  
 	<soldier name="supply_op" spawn_score="0.0" copy_from="default"><resources file="supply_op.resources"/></soldier>  
-	<soldier name="supply_28" spawn_score="0.0" copy_from="default"><resources file="supply_28.resources"/></soldier>  
+	<soldier name="supply_test" spawn_score="0.0" copy_from="default"><resources file="supply_test.resources"/></soldier>  
 
 	<soldier name="supply_medic" spawn_score="0.0"><resources file="supply_medic.resources" /></soldier>
 

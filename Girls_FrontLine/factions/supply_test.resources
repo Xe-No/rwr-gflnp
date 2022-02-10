@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
+<projectile key="vog_grenade.projectile" />
+<weapon key="gw_toz81.weapon" />
+<weapon key="gw_m4a1_qingqiuhu.weapon" />
+<weapon key="gw_m4a1_qingqiuhu_annihilator.weapon" />
+<weapon key="gw_mgnormal.weapon" />
+<weapon key="gw_mgnormal_n.weapon" />
+<weapon key="gm6_lynx_ap.weapon" />
+<weapon key="gm6_lynx_ap_aim.weapon" />
+<weapon key="chain_sawr.weapon" />
+<weapon key="ew_rumbler.weapon" />
+<weapon key="ew_rumbler_consume.weapon" />
+</resources>

@@ -120,8 +120,8 @@
     <carry_item file="iop_t4_bp.carry_item" /> 7
     <carry_item file="16lab_t4_bp.carry_item" /> 10
     <carry_item file="ugv.carry_item" />
-
-
+    <carry_item file="42lab_uc_exo.carry_item" />
+    <carry_item file="16lab_x4_exo.carry_item" />
 
     <carry_item file="m14_maid.carry_item" />
 

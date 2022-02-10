@@ -9,7 +9,7 @@ material rx1_smoke {
 			scene_blend alpha_blend
 
 			texture_unit {
-				texture rx1_smoke.png
+				texture R_smoke.png
 			}
 		}
 	}

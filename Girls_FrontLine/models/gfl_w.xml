@@ -461,6 +461,42 @@ RE
 
 <weapon file="gw_zb26.weapon" />
 
+<!-- 28 -->
+<weapon file="gw_seele.weapon" />
+<weapon file="gw_aa12_2403_s.weapon" />
+<weapon file="gw_aa12_2403_he.weapon" />
+<weapon file="gw_lvoac.weapon" />
+<weapon file="gw_qts11.weapon" />
+<weapon file="gw_qts11_gl.weapon" />
+<weapon file="gw_qts11_gl_r.weapon" />
+<weapon file="gw_m1915_chauchat.weapon" />
+<weapon file="gw_m1915_chauchat_l.weapon" />
+<weapon file="gw_qlt89_mortar.weapon" />
+<weapon file="gw_iws2000_fsds.weapon" />
+<weapon file="gw_iws2000_he.weapon" />
+<weapon file="gw_qbz191.weapon" />
+<weapon file="gw_qbz191_hibiki.weapon" />
+<weapon file="gw_js09_4204.weapon" />
+<weapon file="gw_js09.weapon" />
+<weapon file="gw_cslr4.weapon" />
+<weapon file="pf89.weapon" />
+<weapon file="gw_g11mod.weapon" />
+<weapon file="gw_g11mod_ss.weapon" />
+<weapon file="m200sk.weapon" />
+<weapon file="m200sk_drone.weapon" />
+<weapon file="gw_g41_bp2077.weapon" />
+<weapon file="gw_g41_bp2077_gl.weapon" />
+<weapon file="williams.22.weapon" />
+<weapon file="gw_lewis_5501.weapon" />
+<weapon file="vex.weapon" />
+<weapon file="targetdrone.weapon" />
+<weapon file="ew_rx1_railgun_ap.weapon" />
+<weapon file="ew_rx1_railgun_charge.weapon" />
+<weapon file="ew_m16a5.weapon" />
+<weapon file="ew_m16a5.308.weapon" /> 
+<weapon file="ew_m16a5_gl.weapon" /> 
+<weapon file="ew_n_mp5k.weapon" /> 
+
 	
 
   <weapon file="banner_santa.weapon">  

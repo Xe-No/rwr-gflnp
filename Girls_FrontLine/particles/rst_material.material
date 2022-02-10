@@ -1,0 +1,85 @@
+//material rx1_smoke {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture R_smoke.png
+			}
+		}
+	}
+}
+
+material flame_trail {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture flamestrail.png 	
+			}
+		}
+	}
+}
+
+
+material blast_smoke_rumbler {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture blast_texture_rumbler.png 	
+			}
+		}
+	}
+}
+
+material blast2_smoke_rumbler {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture blast2_texture_rumbler.png 	
+			}
+		}
+	}
+}
+
+material R_flame {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture R_flaretrail.png
+			}
+		}
+	}
+}

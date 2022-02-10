@@ -1,4 +1,4 @@
-6<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <carry_items>
     <carry_item key="base_sg_vest.carry_item" name="IOP TYPE I Bulletproof Plate" slot="1" transform_on_consume="base_sg_vest_1" time_to_live_out_in_the_open="120.0">
         <hud_icon filename="iop_t1_bp_5.png" />

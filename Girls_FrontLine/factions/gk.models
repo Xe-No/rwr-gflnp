@@ -776,7 +776,12 @@ gw_zb26_4703.weapon
     <model filename="gs_naoto_acu.xml"><requirement class="weapon" slot="0" key="ew_m16a5.308.weapon"/></model>
     <model filename="gs_naoto_acu.xml"><requirement class="weapon" slot="0" key="ew_m16a5_gl.weapon"/></model>
     <model filename="gs_naoto_martix.xml"><requirement class="weapon" slot="0" key="ew_n_mp5k.weapon"/></model>
-
+	<model filename="gs_m4a1_qingqiuhu_annihilator.xml"><requirement class="weapon" slot="0" key="gw_m4a1_qingqiuhu_annihilator.weapon"/></model>
+	<model filename="gs_m4a1_qingqiuhu.xml"><requirement class="weapon" slot="0" key="gw_m4a1_qingqiuhu.weapon"/></model>
+	<model filename="gs_t800.xml"><requirement class="weapon" slot="0" key="chain_sawr.weapon"/></model>
+	<model filename="gs_gm6_card.xml"><requirement class="weapon" slot="0" key="gm6_lynx_ap_aim.weapon"/></model>
+	<model filename="gs_gm6_card.xml"><requirement class="weapon" slot="0" key="gm6_lynx_ap.weapon"/></model>
+	<model filename="es_volcanic.xml"><requirement class="weapon" slot="0" key="ew_rumbler.weapon"/></model>
 </models>
     
 
