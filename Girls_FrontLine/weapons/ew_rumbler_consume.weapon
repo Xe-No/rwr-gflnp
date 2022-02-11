@@ -59,7 +59,7 @@ on_ground_up="-1 1 0" >
 
     <model filename="ew_rumbler.xml" /> 
     <hud_icon filename="ew_rumbler_consume.png" /> 
-    <commonness value="1" can_respawn_with="0" in_stock="0" /> 
+    <commonness value="1" can_respawn_with="0" in_stock="1" /> 
     <inventory encumbrance="20.0" price="200.0" /> 
     <weak_hand_hold offset="0.3" /> 
 	

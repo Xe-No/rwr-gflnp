@@ -1111,7 +1111,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_g11mod.weapon", "weapon", 3.0f),
 				ScoredResource("gw_seele.weapon", "weapon", 3.0f),
 				ScoredResource("gw_lewis_5501.weapon", "weapon", 3.0f),
-				ScoredResource("gw_m6_lynx_ap.weapon", "weapon", 3.0f),
+				ScoredResource("gm6_lynx_ap.weapon", "weapon", 3.0f),
 				ScoredResource("gw_wa2000_1108.weapon", "weapon", 1.0f)
 			}
 		};  

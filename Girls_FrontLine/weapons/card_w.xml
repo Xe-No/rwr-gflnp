@@ -26,6 +26,7 @@
     <weapon file="gw_m4_sopmod_iimod.weapon" />
 	<weapon file="gw_m4_sopmod_iimod_gl.weapon" />
 	<weapon file="gw_m14_303.weapon" />
+	<weapon file="gw_m14_303_f.weapon" />
 	<weapon file="gw_m99_1701.weapon" />
 	<weapon file="gw_m1873_301.weapon" />
 	<weapon file="gw_m1895mod.weapon" />

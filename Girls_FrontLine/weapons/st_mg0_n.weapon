@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_MG.weapon" key="st_mg0.weapon">
+<weapon file="base_MG_n.weapon" key="st_mg0_n.weapon">
     <tag name="machine gun" />
     <specification 
-    retrigger_time="0.1" 		
-    spread_range="0.2" 		
-    accuracy_factor="0.95"		
-    sustained_fire_grow_step="0.6" 	
-    sustained_fire_diminish_rate="1.5" 
-    magazine_size="150" 		
-    can_shoot_standing="0" 		
-    can_shoot_crouching="0" 
-    suppressed="0" 			
-    name="ST MG0 " 					
+    retrigger_time="0.1"		
+    spread_range="0.4" 		
+    accuracy_factor="0.95" 		
+    sustained_fire_grow_step="0.8" 	
+    sustained_fire_diminish_rate="1.2" 
+    magazine_size="150" 
+    can_shoot_standing="1" 
+    can_shoot_crouching="1" 
+    suppressed="0" 
+    name="ST MG0" 
     class="0" 
     barrel_offset="0.4"
-    sight_range_modifier="1.2" 		
-    projectile_speed="180.0" />		
+    sight_range_modifier="1.0" 		
+    projectile_speed="180.0" />
 
-    <next_in_chain key="st_mg0_n.weapon" share_ammo="1" />
+    <next_in_chain key="st_mg0.weapon" share_ammo="1" />
 
 <!-- animation -->
     <animation state_key="recoil" animation_key="recoil, hip fire" />
@@ -32,42 +32,43 @@
     <animation state_key="walking" animation_key="walking, hip fire" />
     <animation state_key="crouching" animation_key="crouch, hold, hip fire" />
     <animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
-    <animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
-    <animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+    <animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+    <animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
     <animation key="recoil" stance_key="prone" animation_key="recoil1, prone" />
     <animation key="recoil" stance_key="prone" animation_key="recoil2, prone" />
     <animation key="recoil" stance_key="prone" animation_key="recoil3, prone" />
+    
 <!-- art -->
     <sound key="fire" fileref="m60_shot.wav" pitch_variety="0.04" volume="1.0" />
     <sound key="magazine_out" fileref="mg_clip_out_1.wav" />
     <sound key="magazine_in" fileref="mg_clip_in_1.wav" />
     <sound key="cycle" fileref="mg_chamber_1.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
-    <sound key="effect" fileref="sl_out.wav" />
+    <sound key="effect" fileref="sl_in.wav" />
     <control key="effect" value="1" />
-    <model filename="m60e4.xml" />
-    <hud_icon filename="hud_m60e4.png" />
+    <model filename="m60e4_n.xml" />
+    <hud_icon filename="hud_m60e4_n.png" />
 
 <!-- resource -->
-    <commonness value="1.0" can_respawn_with="1" />
-    <inventory encumbrance="12.0" price="5.0" />
+    <commonness value="1.0" can_respawn_with="1" in_stock="0"/>
+    <inventory encumbrance="12.0" price="0" />
 
     <weak_hand_hold offset="0.4" />
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="1.55" kill_decay_start_time="0.375" kill_decay_end_time="0.8" />
     </projectile>
-    <!-- 白卡致死基准1.55 射程为1.2视野全效，即60米 -->
-
+    //白卡致死基准1.55 射程为1.2视野全效，即60米，并不会因脚架移除而变化
+  
     <modifier class="speed" value="-0.15" />    
-    <!-- 基准移速-0.15 -->
+    //基准移速-0.15
 
     <stance state_key="running" accuracy="0.4" />
     <stance state_key="walking" accuracy="0.5" />
     <stance state_key="crouch_moving" accuracy="0.6" />
     <stance state_key="standing" accuracy="0.75" />
     <stance state_key="crouching" accuracy="0.8" />
-    <stance state_key="prone" accuracy="1.1" /> 		//卧射精准改为1.1，补足精准
+    <stance state_key="prone" accuracy="0.9" /> 
     <stance state_key="prone_moving" accuracy="0.75" />
-    <stance state_key="over_wall" accuracy="1.2" />
+    <stance state_key="over_wall" accuracy="0.95" />
 
 </weapon>
