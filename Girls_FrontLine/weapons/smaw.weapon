@@ -11,7 +11,7 @@
   can_shoot_crouching="1" 
   can_shoot_prone="0"
   suppressed="0" 
-  name="SMAW" 
+  name="Mk153 SMAW" 
   class="3" 
   reload_one_at_a_time="1" 
   sight_range_modifier="1.5" 
@@ -41,6 +41,7 @@
     <capacity value="1" source="rank" source_value="0.0" />
     <capacity value="2" source="rank" source_value="0.1" />
     <capacity value="3" source="rank" source_value="0.2" />
+    <capacity value="4" source="rank" source_value="1000.0" />
 
     <hud_icon filename="hud_smaw.png" />
     <commonness value="1.0" can_respawn_with="1" />

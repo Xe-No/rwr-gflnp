@@ -42,7 +42,5 @@
     <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_02.wav" pitch_variety="0.4" volume="1.0" />              
 
     <sound class="result" key="static_object" copy="terrain" />
-	
-    <trail probability="1.0" key="rx1_trail"/>
-
+	<trail probability="1.0" key="flame_trail"/>
 </projectile>

@@ -43,6 +43,6 @@
 
     <sound class="result" key="static_object" copy="terrain" />
 	
-    <trail probability="1.0" key="rx1_trail"/>
+	<trail probability="1.0" key="flame_trail"/>
 
 </projectile>

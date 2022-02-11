@@ -62,11 +62,10 @@ on_ground_up="-1 1 0" >
     <weak_hand_hold offset="0.3" /> 
 	
 	<capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="1" source="rank" source_value="300.0" />
+    <capacity value="1" source="rank" source_value="200.0" />
     <projectile file="ew_rumbler_gl.projectile"> 
     </projectile>
 	
-    <capacity value="1" source="rank" source_value="2000.0" />
 	
     <ballistics 
     curve_height="16" 

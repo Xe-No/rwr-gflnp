@@ -4,37 +4,37 @@
 # 0.29
 
 ## 0.29a
-LVOAC枪模子弹效果替换		
+LVOAC枪模子弹效果替换       
 取消掉子弹头的生成，并且将枪模向后调整2格，致死降低至1.6。
-刘易斯黑卡属性重做	
+刘易斯黑卡属性重做   
 
 
-G41泳装榴弹模式属性修改		整理完毕
+G41泳装榴弹模式属性修改       整理完毕
 进行了属性和弹道颜色的修改，有独立说明。
 
-M16A5属性变动				整理完毕
+M16A5属性变动               整理完毕
 三模式统一移速-0.03。
 AR模式无其他变动。
 .308模式切换为0.15射速的全自动模式，0.31后座，1.6回复，整体单发后座力0.07
 榴弹模式微调弹道高度与下坠力，范围改至4.8。下个版本可能添加弹头衍生物以增加对步兵伤害。
 模型实装已整理，分到了额外文件夹。
 
-QBZ191信赖致死+0.02			
+QBZ191信赖致死+0.02         
 
 
-希尔装填时间增加	
+希尔装填时间增加    
 装填0.48s一发增加至0.85s一发，替换了换弹动作。
 
-QLT89榴弹平衡性或出率调整			
+QLT89榴弹平衡性或出率调整         
 伤害3.52改为2.52，范围5.5降低至5.0。
 修改弹头伤害。
-	
-G11三改属性重做		
+    
+G11三改属性重做       
 后座力改为0.12 回复1.45，单发后座力效用为0.78675。
 致死提升至1.75
 仅变动SS模式
 
-MP5K属性变动				
+MP5K属性变动                
 致死1.35提升至1.38
 武器射击间隔retrigger_time="0.096"→retrigger_time="0.085" 
 武器子弹magazine_size="60"→magazine_size="62" 
@@ -45,24 +45,24 @@ M4SOP2心智升级致死增加
 
 
 刘易斯-迎寒客的枪械属性调整：
-	基础精准		1.0	→ 	0.95
-	视野		1.2	→	1.0
-	最大扩散		无	→	0.12
-	后座力扩散	0.3	→ 	0.4
-	后座力回复	2.5	→	1.6
-	致死		1.7	→	1.66	
-	移速		-0.1	→	-0.15	
-	
-	全部姿态精准度：
-    <stance state_key="running" accuracy="0.4" />				    <stance state_key="running" accuracy="0.05" />
-    <stance state_key="walking" accuracy="0.5" />				    <stance state_key="walking" accuracy="0.4" />
-    <stance state_key="crouch_moving" accuracy="0.6" />			    <stance state_key="crouch_moving" accuracy="0.1" />
-    <stance state_key="standing" accuracy="0.75" />		→	    <stance state_key="standing" accuracy="0.95" />
-    <stance state_key="crouching" accuracy="0.8" />			    <stance state_key="crouching" accuracy="1.0" />
-    <stance state_key="prone" accuracy="1.0" /> 				    <stance state_key="prone" accuracy="1.0" /> 
-    <stance state_key="prone_moving" accuracy="0.75" />			    <stance state_key="prone_moving" accuracy="0.1" />
-    <stance state_key="over_wall" accuracy="1.2" />				    <stance state_key="over_wall" accuracy="0.95" />  
-	改动之后依旧能执行短点射和连续火力压制，符合较为强力的黑卡无脚架MG水平
+    基础精准        1.0 →   0.95
+    视野      1.2 →   1.0
+    最大扩散        无   →   0.12
+    后座力扩散   0.3 →   0.4
+    后座力回复   2.5 →   1.6
+    致死      1.7 →   1.66    
+    移速      -0.1    →   -0.15   
+    
+    全部姿态精准度：
+    <stance state_key="running" accuracy="0.4" />                   <stance state_key="running" accuracy="0.05" />
+    <stance state_key="walking" accuracy="0.5" />                   <stance state_key="walking" accuracy="0.4" />
+    <stance state_key="crouch_moving" accuracy="0.6" />             <stance state_key="crouch_moving" accuracy="0.1" />
+    <stance state_key="standing" accuracy="0.75" />     →       <stance state_key="standing" accuracy="0.95" />
+    <stance state_key="crouching" accuracy="0.8" />             <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="prone" accuracy="1.0" />                     <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="0.75" />             <stance state_key="prone_moving" accuracy="0.1" />
+    <stance state_key="over_wall" accuracy="1.2" />                 <stance state_key="over_wall" accuracy="0.95" />  
+    改动之后依旧能执行短点射和连续火力压制，符合较为强力的黑卡无脚架MG水平
 
 ## 0.29b
 T1 EXO：防御—— 0.1/0/0 → 0.5/0.4/0.3
@@ -122,18 +122,20 @@ Camouflaged Vest：防御：0.4/0.4/0.4/0.4/0.4 → 0.5/0.45/0.45/0.4/0.35
 ## 0.29c
 重要！所有枪械属性以全整理文件夹为准，解压包为原有属性。
 
-三个信物模型重置		信物（覆盖原文件）			RST
-TOZ81左轮霰弹枪 		军械库&补给车			投稿者：VAN花露水		
-VOG25手榴弹		军械库及所有能够买手雷的地方		HUD：笨笨	数据&模型：BBBYJ
-M4A1青丘狐		泰坦箱子				投稿者：司机酱
-MG_BASE			军械库(MG标准模板)
-山猫GM6 AP		黑卡				投稿者：Z-2414
-SAW链锯机枪		CB1(12F出率)			模型：141		其余：252	
-RUMBLER榴炮		彩票（0.2F//双倍）			RST
-HUD更新			AN94黑卡及SASS三改HUD覆盖		Petrichor
+三个信物模型重置            信物（覆盖原文件）            RST
+TOZ81左轮霰弹枪          军械库&补给车         投稿者：VAN花露水      
+VOG25手榴弹              军械库及所有能够买手雷的地方        HUD：笨笨  数据&模型：BBBYJ
+M4A1青丘狐                 泰坦箱子               投稿者：司机酱
+ST MG0                   军械库(MG标准模板)
+山猫GM6 AP                黑卡              投稿者：Z-2414
+SAW链锯机枪                 CB1(12F出率)         模型：141      其余：252  
+RX1                         彩票（0.2）            RST
+HUD更新                   AN94黑卡及SASS三改HUD覆盖      Petrichor
+RUMBLER榴炮               彩票（0.//回调）      RST
+RUMBLER榴炮(消耗品)  军械库   RST
 
-其中M4A1青丘狐的出处因为选择了泰坦，保护时间给了黑卡的。
-MG_BASE是女仆长说的MG模板。
+M4A1青丘狐的出处泰坦，保护时间给了黑卡的。
+
 SAW链锯机枪能全姿态，添加了0.34的最大扩散以平衡，致死待定
 额外动作是给rumbler用的，我删除了开头和结尾，方便全选复制进去。
 

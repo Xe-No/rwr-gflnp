@@ -64,8 +64,9 @@ on_ground_up="-1 1 0" >
     <weak_hand_hold offset="0.3" /> 
 	
 	<capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="2" source="rank" source_value="300.0" />
-	<capacity value="3" source="rank" source_value="600.0" />
+	<capacity value="1" source="rank" source_value="200.0" />
+    	<capacity value="2" source="rank" source_value="400.0" />
+	<capacity value="3" source="rank" source_value="750.0" />
 	<capacity value="4" source="rank" source_value="1000.0" />
     <projectile file="ew_rumbler_gl_consume.projectile"> 
     </projectile>

@@ -27,8 +27,8 @@
     <animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
     <animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
      
-    <sound key="fire" fileref="rx1_railgun_shot_ap.wav" pitch_variety="0.00"  volume="1" />
-    <sound key="cycle" fileref="rx1_railgun_reload.wav" />
+    <sound key="fire" fileref="rx1_railgun_shot_ap.wav" pitch_variety="0.00"  volume="0.6" />
+    <sound key="cycle" fileref="rx1_railgun_reload.wav" pitch_variety="0.00"  volume="0.7"/>
     <sound key="magazine_out" fileref="sniper_clip_out_1.wav" />
     <sound key="magazine_in" fileref="sniper_clip_in_1.wav" />
     <sound key="cycle_out" fileref="sniper_cycle_out_1.wav" />
@@ -41,13 +41,16 @@
     <commonness value="1.0" can_respawn_with="0" in_stock="0"/>
     <inventory encumbrance="10.0" price="1600.0" />
 
+    <capacity value="1" source="rank" source_value="100.0" />
+
     
     <weak_hand_hold offset="0.3" />
     <projectile file="rx1_railgun_ap.projectile">
     </projectile>
-
+	
+    <effect class="muzzle" ref="UpDust" />
 	<effect class="muzzle" ref="rx1_smoke" />
-
+	
     <stance state_key="running" accuracy="1" />
     <stance state_key="walking" accuracy="1" />
     <stance state_key="crouch_moving" accuracy="1" />

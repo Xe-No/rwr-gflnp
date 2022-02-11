@@ -1,0 +1,74 @@
+0.28
+修复部分春节箱子以及彩票物品不能正常获取的问题
+修复QTS-11在服务器不正常使用导致闪退的问题
+
+一部分补充说明
+部分物品如闪盾、45盾、吹箭、复合弓等玩具性质的物品由CB移动到PlayBox，提高了CB池中高性能物品的出率
+减小AA-02、九头蛇和牝鹿的盾牌面积
+ZBD-04A信号弹价格调整至1200
+电子娃娃、路由器负重上升
+重置指挥车、提丰、奎乌的载具图标
+
+
+
+武器平衡 by XM177
+AR：
+
+AEK-971 - kill_pro：1.55（-0.05）/ bullet_speed：160（-0） / distance：35（+5）/60（-5）
+AK-47 - kill_pro：1.57（+0.02）/ bullet_speed：150（-10） / distance：40（-20）/60（-15）
+AK-103 - kill_pro：1.55（-0）/ bullet_speed：160（-0） / distance：40（-20）/60（-15）
+AK-Alfa Defy - kill_pro：1.7（+0.05）/ bullet_speed：160（-0） / distance：40（+2）/70（+5）
+  W/Slience - kill_pro：1.6（-0.1）/ bullet_speed：190（+30） / distance：35（-3）/60（-5）
+AKS-74U - kill_pro：1.6（-0.05）/ bullet_speed：160（-0） / distance：30（-2）/40（-12）
+TKB-059-Event - kill_pro：1.55（+0.2）/ bullet_speed：145（+10） / distance：45（-5）/70（-28）
+F2000 - kill_pro：1.45（+0.15）/ bullet_speed：155（-5） / distance：45（-0）/70（-0）
+FAMAS G1 - kill_pro：1.45（+0.1）/ bullet_speed：150（-0） / distance：35（-2）/60（-5）
+H&K G36 - kill_pro：1.45（+0.1）/ bullet_speed：150（-10） / distance：35（-0）/65（-5）
+9A91 - kill_pro：1.4（+0.1）/ bullet_speed：145（+15） / distance：40（-20）/65（-20）
+9A-91[Bullets Café] - kill_pro：1.45（+0.1）/ bullet_speed：145（+15） / distance：40（-20）/65（-20）
+Type 95 - kill_pro：1.43（+0.09）/ bullet_speed：155（-5） / distance：40（-10）/60（-10）
+Type 95[Yu Linglong] - kill_pro：1.49（+0.05）/ bullet_speed：155（-5） / distance：45（-5）/65（-5）
+Type 97 - kill_pro：1.45（+0.05）/ bullet_speed：150（-10） / distance：35（-15）/55（-15）
+AK-12 - kill_pro：1.55（-0.1）/ bullet_speed：150（-10） / distance：35（-3）/55（-1）
+AN-94 - kill_pro：1.55（-0.11）/ bullet_speed：150（-10） / distance：40（+2）/60（-1）
+AR-15 - kill_pro：1.43（+0.05）/ bullet_speed：150（-0） / distance：35（+4）/60（-5）
+AR-15 MOD3 - kill_pro：1.52（+0.02）/ bullet_speed：150（-0） / distance：40（+8）/65（-0）
+ART-556 - kill_pro：1.43（+0.11）/ bullet_speed：145（+5） / distance：40（+8）/60（+5）
+ART-556[Lotus White] - kill_pro：1.46（+0.1）/ bullet_speed：150（+10） / distance：50（+10）/65（-25）
+ARX-160 - kill_pro：1.45（+0.1）/ bullet_speed：155（-5） / distance：35（-7）/70（-5）
+ASH-12.7 - kill_pro：1.85（-0）/ bullet_speed：150（-15） / distance：30（-0）/45（-25）
+AUG - kill_pro：1.45（+0.01）/ bullet_speed：150（-5） / distance：40（-5）/70（-5）
+AUG-Para - kill_pro：1.4（-0）/ bullet_speed：150（-5） / distance：40（-5）/70（-5）
+G36[Bartender] - kill_pro：1.45（+0.08）/ bullet_speed：155（-5） / distance：40（+1）/70（-4）
+G36C - kill_pro：1.45（+0.08）/ bullet_speed：155（-5） / distance：35（-0）/50（-4）
+G41 - kill_pro：1.45（+0.1）/ bullet_speed：160（-0） / distance：40（-1）/65（+1）
+M16A1 - kill_pro：1.44（+0.09）/ bullet_speed：155（+5） / distance：40（-1）/70（+5）
+MDR - kill_pro：1.45（+0.1）/ bullet_speed：165（+5） / distance：40（-5）/65（+5）
+MK 17 SD - kill_pro：1.7（+0.1）/ bullet_speed：180（+10） / distance：40（+10）/70（-0）
+SCAR-SC 5.56 - kill_pro：1.45（+0.12）/ bullet_speed：150（+20） / distance：40（+10）/70（-10）
+Honey Badger - kill_pro：1.45（+0.1）/ bullet_speed：155（+55） / distance：40（+10）/70（-10）
+AK-74M - kill_pro：1.55（-0.05）/ bullet_speed：140（+40） / distance：40（+10）/55（-10）
+AS VAL - kill_pro：1.85（-0.55）/ bullet_speed：140（+40） / distance：50（-15）/90（-10）
+
+SMG：
+
+IDW - kill_pro：1.45（+0.25）/ bullet_speed：140（+10） / distance：20（-0）/35（+10）
+KAC-PDW - kill_pro：1.42（+0.14）/ bullet_speed：150（+20） / distance：25（+5）/40（-1）
+KP-31 - kill_pro：1.42（+0.04）/ bullet_speed：140（+10） / distance：35（-5）/45（-0）
+M3 Grease Gun - kill_pro：1.435（+0.06）/ bullet_speed：135（+5） / distance：25（+7）/45（-2.5）
+MP5 - kill_pro：1.4（+0.145）/ bullet_speed：145（+15） / distance：30（+5）/45（-5）
+MP7 - kill_pro：1.39（+0.05）/ bullet_speed：140（+10） / distance：40（+5）/50（-0）
+MP40 - kill_pro：1.42（+0.12）/ bullet_speed：135（+5） / distance：20（-3）/43（+3）
+RO-635 - kill_pro：1.34（+0.04）/ bullet_speed：145（+15） / distance：25（-7）/45（-15）
+UMP 9 - kill_pro：1.38（+0.18）/ bullet_speed：135（+5） / distance：30（-8）/45（-1）
+UMP 45 - kill_pro：1.4（+0.1）/ bullet_speed：135（+5） / distance：30（+1）/40（-5）
+UZI - kill_pro：1.41（+0.11）/ bullet_speed：130（+0） / distance：20（-10）/30（-10）
+KRISS-Vector[Neko Punch] - kill_pro：1.42（+0.2）/ bullet_speed：135（+5） / distance：30（-0）/45（-5）
+P90 - kill_pro：1.45（-0.05）/ bullet_speed：125（-5） / distance：35（-5）/45（-5）
+TMP - kill_pro：1.35（+0.05）/ bullet_speed：133（+3） / distance：25（+5）/40（+5）
+
+MG：
+BAR - kill_pro：1.8（-0.06）/ bullet_speed：134（+4） / distance：40（+15）/75（-25）
+PKM - kill_pro：1.65（-0.08）/ bullet_speed：165（-15） / distance：40（-5）/85（+8）
+AAT-52 - kill_pro：1.55（+0.1）/ bullet_speed：135（+25） / distance：37（-0）/71（-0）
+

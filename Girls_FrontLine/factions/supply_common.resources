@@ -10,6 +10,7 @@
 	<weapon key='gw_repair.weapon' />  
 
 
+
 	<projectile key="hand_grenade.projectile" enabled="1" />
 	<projectile key="impact_grenade.projectile" enabled="0" />
 	<projectile key="stun_grenade.projectile" enabled="1" />  
@@ -26,6 +27,10 @@
 	<carry_item key='gold_bar.carry_item' enabled="0" />
 	<carry_item key='camouflage_suit.carry_item' enabled="0" />
 
+
+	<weapon key="gw_toz81.weapon" />
+	<projectile key="vog_grenade.projectile" />
+	<projectile key="flashbang_a1.projectile" />
 
 
 </resources>

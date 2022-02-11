@@ -1,0 +1,46 @@
+0.27 2022-1-14 
+地图
+Viper Clairmento 加入地图轮换
+新军衔 月阶~日阶涵盖经验范围200w~1000w
+
+信物
+86leina
+chara_neko
+elaina
+luka_china
+luotianyi_china
+miku_china
+nazrin
+remilia
+rumia
+shigure_summer
+yuudachi
+koishi和rin变为闪光弹
+
+白卡
+
+德利尔
+ZB-26
+OTS-12
+OTS-14
+LTLX7000
+
+黑卡
+MDR[Webfriend]
+ZB-26[Cape of Fluttering Dreams]
+
+CB1
+MDR[KURO] 1
+45钢之力 1
+Amamiya Kokoro 0.2 
+
+CB2
+宇宙毁灭者 5
+胡桃[RE] 5
+
+其他
+树衣防护加强 0->0.7
+CV90-40C 防护加强 0.9抗 0.7减
+Mk22 SCARC追加模型煌 铃仙
+黄金AK消失时间同步至黑卡
+
