@@ -18,7 +18,7 @@
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
 	    <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="hit_success_probability" value="-1.0" />
-        <modifier class="speed" value="+0.2" />  
+        <modifier class="speed" value="+0.1" />  
     </carry_item>
 
     <carry_item key="16lab_t4_exo_1" name="16LAB T4 Universal Exoskeleton, 60%" slot="1" transform_on_consume="16lab_t4_exo_2" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -39,7 +39,7 @@
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="hit_success_probability" value="-0.9" />
-        <modifier class="speed" value="+0.2" /> 
+        <modifier class="speed" value="+0.1" /> 
     </carry_item>
 
     <carry_item key="16lab_t4_exo_2" name="16LAB T4 Universal Exoskeleton, 40%" slot="1" transform_on_consume="16lab_t4_exo_3" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -60,7 +60,7 @@
         
 	<!-- melee_hit goes right through, and doesn't consume -->
        <modifier class="hit_success_probability" value="-0.85" />
-        <modifier class="speed" value="+0.15" />  
+        <modifier class="speed" value="+0.05" />  
     </carry_item>
 
     <carry_item key="16lab_t4_exo_3" name="16LAB T4 Universal Exoskeleton, 20%" slot="1" transform_on_consume="16lab_t4_exo_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -82,7 +82,7 @@
         
     <!-- melee_hit goes right through, and doesn't consume -->
         <modifier class="hit_success_probability" value="-0.8" />
-        <modifier class="speed" value="+0.1" />   
+        <modifier class="speed" value="+0" />   
     </carry_item>
 
     <carry_item key="16lab_t4_exo_4" name="16LAB T4 Universal Exoskeleton, destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -98,6 +98,6 @@
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" /> 
 
         <modifier class="hit_success_probability" value="-0.8" />
-        <modifier class="speed" value="+0.1" />  
+        <modifier class="speed" value="+0" />  
     </carry_item>
 </carry_items>

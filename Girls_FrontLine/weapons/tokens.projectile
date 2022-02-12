@@ -110,6 +110,7 @@ token_g41_maid.projectile
 	<!-- <hud_icon filename="token_nazrin.png" /> -->
 </projectile>
 <projectile name="Akemi Homura[RE]" file="token0.projectile" key="token_akemi_homura.projectile"  >
+	<model mesh_file="token_akemi_homura_drop.xml" />
 	<hud_icon filename="akemi_homura_6.png" />
 </projectile>
 <!-- flash -->
