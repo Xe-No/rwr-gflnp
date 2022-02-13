@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="DIGCOIN" key="digcoin.carry_item">
+    <hud_icon filename="hud_digcoin.png" />
+    <inventory encumbrance="20" price="1000.0" />
+    <model filename="digcoin.xml" />
+    <sound class="impact" fileref="bling.wav" />
+    <commonness value="3" in_stock="0" />
+</carry_item>

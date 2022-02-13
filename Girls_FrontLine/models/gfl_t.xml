@@ -141,6 +141,7 @@
 	<projectile file="werewolf.projectile" />
 	<projectile file="scythe.projectile" />
 	<projectile file="torch.projectile" />
+	<projectile file="balloon.projectile" />
 
 <!-- <projectile file="firenade_sub.projectile" /> -->
 

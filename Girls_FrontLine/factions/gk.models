@@ -65,6 +65,7 @@
 	<model filename="gs_m1.xml"><requirement class="weapon" slot="0" key="gw_m1.weapon"/></model>
 
 	<model filename="gs_m14_303.xml"><requirement class="weapon" slot="0" key="gw_m14_303.weapon"/></model>
+	<model filename="gs_m14_303.xml"><requirement class="weapon" slot="0" key="gw_m14_303_f.weapon"/></model>
 
 	<model filename="gs_m14mod.xml"><requirement class="weapon" slot="0" key="uw_m14ebr.weapon"/></model>
 	<model filename="gs_m14mod.xml"><requirement class="weapon" slot="0" key="uw_m14ebr_sl.weapon"/></model>

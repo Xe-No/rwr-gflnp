@@ -130,6 +130,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
         		ScoredResource("taser.weapon", "weapon", 1.0f),
         		ScoredResource("targetdrone.weapon", "weapon", 1.0f),
 				ScoredResource("stim.projectile", "projectile", 1.0f, 5),
+				ScoredResource("balloon.carry_item", "carry_item", 1.0f, 5),
 				ScoredResource("summon_targetdrone.projectile", "projectile", 1.0f, 5)
 			}
 		};
@@ -325,7 +326,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("painting.carry_item", "carry_item", 1.0f),
         ScoredResource("stoner_lmg.weapon", "weapon", 1.0f),
         ScoredResource("gw_m4a1_qingqiuhu.weapon", "weapon", 2.0f), //2x
-        ScoredResource("token_suzakuin_tsubaki_swim.weapon", "weapon", 1.0f, 1),
+        ScoredResource("token_suzakuin_tsubaki_swim.projectile", "projectile", 1.0f, 1),
         ScoredResource("gift_box_community_1.carry_item", "carry_item", 1.0f)      
 			},
 			{
@@ -708,7 +709,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
         ScoredResource("vestjugger.carry_item", "carry_item", 1.0f),                
 		ScoredResource("vest3.carry_item", "carry_item", 1.0f, 5),
         ScoredResource("camo_vest.carry_item", "carry_item", 1.0f, 2),
-        ScoredResource("token_suzakuin_tsubaki.carry_item", "carry_item", 2.0f, 2),
+        ScoredResource("token_suzakuin_tsubaki.projectile", "projectile", 2.0f, 2),
         ScoredResource("banana_peel.projectile", "projectile", 1.0f, 2),
         ScoredResource("summon_targetdrone.projectile", "projectile", 1.0f, 5),
 		ScoredResource("gw_mk23.weapon", "weapon", 1.0f),

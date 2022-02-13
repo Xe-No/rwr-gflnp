@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+Other
+    <weapon file="ak47_ai.weapon" />
+    <weapon file="ak47_ai_gl.weapon" />
+    <weapon file="stoner_lmg_ai.weapon" />
+    <weapon file="gw_scarh_ai.weapon" />
+
+AT
+	<weapon file="smaw.weapon" />    
+	<weapon file="rpg-7.weapon" /> 
+	<weapon file="pf98.weapon" /> 
+	<weapon file="m72_law.weapon" />
+	<weapon file="m202_flash.weapon" />
+	<weapon file="javelin.weapon" />
+	<weapon file="uw_at4.weapon" />  
+	<weapon file="m2_carlgustav.weapon" />  
+
+GL
+	<!-- <weapon file="javelin_ap.weapon" />    -->
+	<weapon file="milkor_mgl.weapon" />
+	<weapon file="rgm40.weapon" />
+	<weapon file="paw20.weapon" />
+	<weapon file="uw_m320.weapon" />
+	<weapon file="rw_gm94.weapon" />
+	<weapon file="xm25.weapon" />
+	<weapon file="xm25_r.weapon" />
+	<weapon file="m79.weapon" />  
+
+
+
+Special
+	<weapon file="gk_supply.weapon" />
+	<weapon file="gw_repair.weapon" />
+	<weapon file="gw_repair_em.weapon" />
+	<weapon file="gw_repair_q.weapon" />
+	<weapon file="repair_crane_resource.weapon" />
+	<weapon file="claymore_resource.weapon" />
+	<weapon file="handflag.weapon" />
+
+HG
+	<weapon file="pb.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="desert_eagle.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="desert_eagle_s.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="desert_eagle_gold.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="m712.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="tracer_dart.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="taser.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="rw_pmm.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="rw_skorpion.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="aek_919k.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="sawnoff.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="beretta_93r.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="beretta_93r_s.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="glock17.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="glock17_sl.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="l30p.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m1873.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_m9.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon>
+	<weapon file="gw_c96.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_fn57.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_m1895.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_m1911.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_m1911_s.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_mp446.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_p7.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_p226.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_gsh18.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_mk23.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 	
+	<weapon file="gw_brenten.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_m17.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_hs2000.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_qsb91.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	
+
+SMG
+	<weapon file="p90.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="qcw-05.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="steyr_tmp.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="steyr_tmp_s.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="kriss_vector.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="ump40.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="mx4_storm.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="bizon.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_ump45.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon>
+	<weapon file="gw_ump9.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon>
+	<weapon file="gw_type100.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_mp5.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_mp40.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_mp7.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_idw.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_kacpdw.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_ppsh41.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_ro635.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_uzi.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_uzi_s.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_uzimod.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_cbjms.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_augpara.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_stg44.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="uw_mp5ka4sd.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_79type.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_m3_smg.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="gw_ppsh43.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+
+AR
+	<weapon file="ak47.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>
+	<weapon file="ak47_s.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="aks74u.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="g36.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="f2000.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="l85a2.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="sg552.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="xm8.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="honey_badger.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="honey_badger_f.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="fal_bayonet.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="fal.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="tkb059.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>   
+	<weapon file="golden_ak47.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="rw_ak74m.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="rw_ak74m_k.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="rw_akm.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="rw_akm_gl.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>   
+	<weapon file="gw_95type.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_95type_b.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_97type.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_97type_sl.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_9a91.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="gw_9a91_sl.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_ak12.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="gw_ak12_s.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_an94.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="gw_an94_f.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="famasg1.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="famasg1_f.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_ar15.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="gw_ar15_sl.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_art556.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_art556_s.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="gw_arx160.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_arx160_s.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="gw_aug.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_aug_s.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_vhs.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+
+
+
+	<weapon file="gw_fnfnc.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="gw_g11.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="gw_g36c.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_g36c_gl.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_hk416.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="gw_hk416_sl.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+
+	<weapon file="gw_m16a1.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+    <weapon file="gw_m4_sopmod_ii.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m4a1.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="uw_acr.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_rfb.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_rfb_sl.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_m16a4.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_m16a4_s.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>   
+	<weapon file="gw_sr3mp.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_g3.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_g41.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_mdr.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_ash12.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m1918bar.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_fg42.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	
+	<weapon file="gw_ribeyrolles.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+
+RF
+	<weapon file="vss_vintorez.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="m24_a2.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="psg90.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="lahti_l39.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  ----ksvk
+	<weapon file="scarssr.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="scarssr_f.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="apr.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  ----ssg3000?
+	<weapon file="enforcer.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  ----sl8
+	<weapon file="gepard_m6_lynx.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="gw_98k.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="gw_dsr50.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="gw_m14.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="gw_m82a1_he.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m82a1.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m99.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="gw_mlemk1.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  	
+	<weapon file="gw_ntw20.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_supersass.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="gw_svd.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="gw_wa2000.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="rw_cb98.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 	
+	<weapon file="uw_m14ebr.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_m14ebr_sl.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_m200.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_m200_sl.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m1.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_ssg69.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_g28.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_g28_sl.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_qbu88.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_carcano1891.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_carcano1938.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_g43.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_type4.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_k31.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_mosin1891.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_js127.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m1a1_carbine.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+
+MG
+	<weapon file="microgun.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="mg42.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="mg42_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="m60e4.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="m60e4_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="m240.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="m240_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="pkm.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="pkm_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="ares_shrike.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="stoner_lmg.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="chain_saw.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  ----aek999
+	<weapon file="chain_saw_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+    <weapon file="squall.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="gw_m2hb.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="gw_m2hb_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_mg5.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_mg5_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_negev.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_negev_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_pkp.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_pkp_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="rw_rpk74.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_m249.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_m249_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>   
+	<weapon file="uw_mk46.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_mk46_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_aat52.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_aat52_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_ameli.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_ameli_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="rw_rpk16.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_dp28.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_dp28_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m1919lmg.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m1919lmg_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_mg4.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_mg4_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_mk48.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_mk48_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_mg34.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_mg34_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_qjy88.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_qjy88_n.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+
+
+
+SG
+	<weapon file="aa-12.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="benelli_m4.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  ----saiga-12
+	<weapon file="benelli_m4_slug.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  ----saiga-12 slug
+	<weapon file="ns2000.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  ---KSG12
+	<weapon file="spas-12.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /></weapon> 
+	<weapon file="tti.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  ----m500_3707
+	<weapon file="uts15.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  ----Liberator
+	<weapon file="aa12_frag.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="aa12_frag_b.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_supershorty.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon>  
+	<weapon file="gw_usas12.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="uw_m1014.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m590.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m870.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_sat8.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_m37.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+	<weapon file="gw_vpm5.weapon"  time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /></weapon> 
+
+SKIN
+	<weapon file="gw_9a91_1302.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_ameli_1605.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_ameli_1605_n.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_ameli_2409.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+    <weapon file="gw_ameli_2409_n.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_ar15mod.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_ar15mod_sl.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_art556_1803.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_art556_1803_s.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_fn57_1109.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_fn57_1902.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_fnfal_308.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_fnfal_308_s.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_fnfal_2406.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_fnfal_2406_s.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_fnfnc_1406.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_g3_1303.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_g11_9.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_g36_1507.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_gsh18_609.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_idw_2108.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_idwmod.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_kp31.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+    <weapon file="gw_m4_sopmod_iimod.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m4_sopmod_iimod_gl.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m14_303.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m14_303_f.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 	
+	<weapon file="gw_m99_1701.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m1873_301.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="1" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m1895mod.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m1911mod.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m1911mod_s.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mk23_8.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mp5_3.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mp5_1205.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mp5_1903.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mp7_2405.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mp40_902.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mp446_103.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mp446_402.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mp446mod.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mp446mod_s.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_negev_904.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_p7_606.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_p7_1404.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_rfb_1601.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_rfb_1601_sl.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_sr3mp_807.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_supersass_1407.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_sv98_502.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_ump9_409.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_ump45_410.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_ump45mod.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_usas12_2704.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_wa2000_6.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_wa2000_306.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_wa2000_1108.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m4a1mod3.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m99_3304.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m99_404.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_p30_4404.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mg4_ammoschool.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mg4_ammoschool_n.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_vector_agent.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_vector_2.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_vector_549.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_vector_549_f.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_vector_1901.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_hk416mod.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_hk416mod_gl.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_hk416_agent.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_hk416_agent_546.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_ksvk_3805.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m1918bar_102.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_m1918bar_1606.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_art556_2803.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_p90_2802.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_pdw_4005.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mg5_309.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_mg5_309_n.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_kp31_310.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_ntw20_307.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_type100_4004.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_svd_305.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_95type_405.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_95type_405_sl.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_97type_406.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_97type_406_sl.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_pkp_4203.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+	<weapon file="gw_dsr50_1801.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+    <weapon file="gw_m82a1_golden.weapon" time_to_live_out_in_the_open="0.0" ><commonness value="1.0" can_respawn_with="1" in_stock="0" /><inventory  price="100.0" /></weapon> 
+
+SFIMC
+	<weapon file="tw_smg.weapon" />
+	<weapon file="tw_ar.weapon" />
+	<weapon file="tw_rf.weapon" />
+	<weapon file="tw_mg.weapon" />
+	<weapon file="tw_drk.weapon" />
+	<weapon file="tw_dsc.weapon" />
+	<weapon file="ugv.weapon" />
+
+    <weapon file="tw_smg_swap.weapon" />
+    <weapon file="tw_ar_swap.weapon" />
+    <weapon file="tw_rf_swap.weapon" />
+    <weapon file="tw_mg_swap.weapon" />
+    <weapon file="tw_executioner_pistol.weapon" />
+    <weapon file="tw_executioner_sword.weapon" />
+    <weapon file="tw_scarecrow.weapon" />
+
+
+Others
+	<weapon file="medikit.weapon" />    
+	<weapon file="medikit_ai_2.weapon" />
+	<weapon file="riot_shield.weapon"/>   
+	<weapon file="wrench.weapon" />
+	<weapon file="binoculars.weapon" />
+	<weapon file="vest_repair.weapon" />
+
+Deploy
+	<weapon file="cover_resource.weapon" />    
+	<weapon file="mg_resource.weapon"/>  
+	<weapon file="minig_resource.weapon"/>
+	<weapon file="tow_resource.weapon"/>  
+	<weapon file="gl_resource.weapon"/>
+	<weapon file="hornet_resource.weapon"/>  
+	<weapon file="mortar_resource.weapon"/>
+	<weapon file="mh_53_resource.weapon" /> 
+	<weapon file="uh_60_resource.weapon" />   
+
+	<weapon file="gw_m4a1mod.weapon" />
+
+	<weapon file="flash_shield.weapon" /> 	2000
+	<weapon file="gw_qlu11.weapon" /> 		2001
+	<weapon file="gw_vector.weapon" /> 		2002
+    <weapon file="gw_vector_b.weapon" />
+    <weapon file="memorized.weapon" /> 		2003
+    <weapon file="memorized_he.weapon" /> 	
+    <weapon file="m79_ince.weapon" /> 		2004
+    <weapon file="gw_svdm.weapon" /> 		2005
+    <weapon file="gw_svdm_sl.weapon" />
+	<weapon file="gw_scarc.weapon" />     	2006
+    <weapon file="gw_scarc_300.weapon" /> 	
+    <weapon file="gw_mk22.weapon" />     	2007
+    <weapon file="gw_mk22_50.weapon" />  
+    <weapon file="zero_ninjato.weapon" />	  
+
+
+    <!-- <weapon file="mk47.weapon" />	   -->
+    <weapon file="ags30.weapon" />	  
+</weapons>

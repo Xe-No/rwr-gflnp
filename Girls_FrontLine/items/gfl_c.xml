@@ -85,6 +85,7 @@
     <!-- CB2 -->
     <carry_item file="akemi_homura.carry_item"/> 
     <carry_item file="suit_hutao.carry_item"/> 
+    <carry_item file="balloon.carry_item"/> 
 
     <!-- 护甲 -->
     <carry_item file="vest1.carry_item" />  ----2    
