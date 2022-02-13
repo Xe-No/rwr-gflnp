@@ -26,7 +26,7 @@ void main(dictionary@ inputData) {
 	settings.m_rpFactor = 1.0;
 	
 	array<string> overlays = {
-			"media/packages/Girls_FrontLine",
+            "media/packages/Girls_FrontLine",
 			"media/packages/GFL1_inf",
             "media/packages/GFL1_halloween"
 	};
