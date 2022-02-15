@@ -170,7 +170,7 @@ items
 
 
 weapons
-	<text key="T-Doll Repair Kit" text="人形修复许可" />
+	<!-- <text key="T-Doll Repair Kit" text="人形修复许可" />
 	<text key="T-Doll Emergency Reactivate Device" text="人形激活装置" />
 	<text key="Quick Restoration Contract" text="快速修复许可" />
 	<text key="Remington ACR" text="Remington ACR突击步枪" />
@@ -316,7 +316,6 @@ weapons
     <text key="Aurora Amplification" text="S.L.E.E.P.E.R. S.I.M.U.L.A.N.T." />
     <text key="SLEEPER SIMULANT" text="S.L.E.E.P.E.R. S.I.M.U.L.A.N.T." />
     <text key="M134 Microgun" text="M134加特林机枪" />
-    <!-- <text key="Plasma Gun" text="光学爆能枪" /> --> 无需翻译
     <text key="Plasma" text="爆能弹" />
     <text key="CB-JMS" text="CB-JMS冲锋枪" />
     <text key="AUG-PARA" text="AUG伞兵版冲锋枪" />
@@ -361,7 +360,7 @@ weapons
     <text key="PGM Hecate II" text="黑卡蒂反器材狙击步枪" />
     <text key="XM-29 OICW" text="XM29单兵作战系统" />
 
-    <text key="Fuku~ Cola" text="辐岛汽水" />
+    <text key="Fuku~ Cola" text="辐岛汽水" /> -->
 
 item
     <text key="IOP T1 Universal Exoskeleton" text="IOP通用T1型外骨骼" />
@@ -641,7 +640,26 @@ candy
     <text key="Not-So-Candy Corn" text="万圣节糖果" />
 
 
+	<text key="Chain Saw" text="油锯" />
+	<text key="Defibrillator" text="电复律机"/>
+	<text key="Banner" text="牌子"/>
+	<text key="Welding torch" text="维修喷枪"/>
+	<text key="propane" text="喷枪自爆"/>
+	<text key="pumpkin box" text="万圣箱子"/>
+	<text key="Reaper's Scythe" text="死神之息"/>
+	<text key="bats" text="吸血出击"/>
+	<text key="howling" text="狼吼"/>
 
+	<text key="Golden bell" text="金色小丁当"/>
+	<text key="Christmas biscuit" text="圣诞小饼干"/>
+	<text key="Candy cane" text="手杖糖"/>
+	<text key="Santa's stocking" text="圣诞长筒袜"/>
+	<text key="Xmas box" text="圣诞箱子"/>     
+	<text key="Xmas Jeep Drop" text="圣诞快乐车空投信标"/>
+	<text key="Xmas Jeep" text="圣诞快乐车"/>
+	<text key="Xmas tree" text="圣诞树"/>
+	<text key="grinch" text="圣诞鬼灵精"/>
+	<text key="Dog Comfort" text="犬之抚慰"/>
 
 
 

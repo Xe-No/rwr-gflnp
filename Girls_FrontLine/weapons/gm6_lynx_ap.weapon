@@ -25,7 +25,7 @@
     <animation key="recoil" ref="27" />
     <animation key="cycle" ref="30" />
     <animation state_key="reload" animation_key="reloading, l85a2" />
-    <sound key="fire" fileref="gepard_m6_lynx_shot.wav" pitch_variety="0.05"  volume="1.0" />
+    <sound key="fire" fileref="gepard_m6_lynx_ap_shot.wav" pitch_variety="0.05"  volume="1.0" />
     <sound key="cycle" fileref="sniper_cycle.wav" />
     <sound key="magazine_out" fileref="sniper_clip_out.wav" />
     <sound key="magazine_in" fileref="sniper_clip_in.wav" />

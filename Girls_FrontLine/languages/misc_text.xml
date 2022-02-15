@@ -2,4 +2,5 @@
 <translations>
 	<translation file="misc_text_vanilla.xml" />
 	<translation file="misc_text_GFL.xml" />
+	<translation file="translation_weapon.xml" />
 </translations>
