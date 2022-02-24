@@ -45,10 +45,13 @@
   <trail probability="1.0" key="laser_blue"/>
     </projectile>
 
-    <stance state_key="walking" accuracy="0.80" />
+    <stance state_key="walking" accuracy="0.78" />
     <stance state_key="standing" accuracy="0.85" />
     <stance state_key="crouching" accuracy="0.95" />
-    <stance state_key="prone" accuracy="1.0" />
+
+    <stance state_key="running" accuracy="0.7" />	
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="over_wall" accuracy="1.0" /> 
 
     <modifier class="speed" value="-0.2" />
 
