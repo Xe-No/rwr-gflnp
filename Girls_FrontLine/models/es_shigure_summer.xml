@@ -6921,6 +6921,7 @@
 			<voxel index="4307" />
 			<voxel index="4308" />
 			<voxel index="4309" />
+			<voxel index="4310" />
 			<voxel index="4311" />
 			<voxel index="4312" />
 			<voxel index="4313" />
@@ -8708,7 +8709,6 @@
 			<voxel index="4273" />
 			<voxel index="4274" />
 			<voxel index="4275" />
-			<voxel index="4310" />
 		</group>
 	</skeletonVoxelBindings>
 </model>

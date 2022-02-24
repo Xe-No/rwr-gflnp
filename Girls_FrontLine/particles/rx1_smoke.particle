@@ -1,18 +1,18 @@
 
 particle_system rx1_smoke
 {
-	quota 100000
-	emit_emitter_quota 100000
+	quota 5000
+	emit_emitter_quota 10000
 	material rx1_smoke
-	particle_width 0.78
-	particle_height 0.78
+	particle_width 0.3
+	particle_height 0.3
 	cull_each false
 	renderer billboard
 	sorted false
 	local_space false
 	iteration_interval 0
 	nonvisible_update_timeout 0
-
+	billboard_rotation_type vertex
 	emitter Point
 	{
 		angle 0
@@ -20,65 +20,49 @@ particle_system rx1_smoke
 		colour_range_start 1 1 1 1
 		colour_range_end 1 1 1 1
 		direction 0 1 0
-		emission_rate 150
+		emission_rate 250
 		position 0 0 0
-		velocity 200
-		velocity_min 150
-		velocity_max 150
-		time_to_live 0.2
-		time_to_live_min 0.15
-		time_to_live_max 0.2
-		duration 0.2
-		duration_min 0.15
-		duration_max 0.2
+		velocity 80
+		time_to_live 0.16
+		duration 0.1
 		emit_emitter rx1_linesmoke
 	}
-	affector Rotator
-	{
-		rotation_speed_range_start -60
-		rotation_speed_range_end 100.8
-		rotation_range_start 0
-		rotation_range_end 360
-	}
-
-
 	emitter Cylinder
 	{
 		name rx1_linesmoke
 		angle 9
 		colour 1 1 1 1
 		colour_range_start 1 1 1 1
-		colour_range_end 0.95 0.95 0.95 0.5
+		colour_range_end 1 1 1 0
 		direction 0 0 1
 		up 0 0 1
-		emission_rate 30
+		emission_rate 100
 		position 0 0 0
-		velocity 4
-		velocity_min 4
-		velocity_max 4
-		time_to_live 0.4
-		time_to_live_min 0.4
-		time_to_live_max 0.4
-		duration 0.4
-		duration_min 0.4
-		duration_max 0.4
-		width 1.2
+		velocity 1
+		velocity_min 1
+		velocity_max 1
+		time_to_live 0.7
+		duration 0.7
+		width 0.7
 		height 0
 		depth 0
 		
 	}
-		
-		affector Scaler
+	affector Scaler
 	{
-		rate 4
+		rate 0.5
 	}
-	
-	affector Rotator
+		affector Rotator
 	{
-		rotation_speed_range_start -60
-		rotation_speed_range_end 100.8
-		rotation_range_start 0
-		rotation_range_end 360
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+	affector ColourImage
+	{
+		image smokecolors.png
 	}
 	
 }
