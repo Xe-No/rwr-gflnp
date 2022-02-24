@@ -1,0 +1,80 @@
+material Examples/Aureola
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off			
+			diffuse vertexcolour
+			cull_hardware none
+
+			texture_unit
+			{
+				texture aureola.png PF_BYTE_LA
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material fix_ExplosionFire
+{
+	receive_shadows on
+    technique
+    {
+        pass
+        {
+		
+            lighting off
+			emissive 1 1 1 0.05
+            depth_write off
+            scene_blend alpha_blend
+            fog_override false
+            texture_unit
+            {
+                texture pu_smoke_02_128x128.png
+            }
+        }
+    }
+}
+
+material fix_armor
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 1 1 1 1
+            depth_write off
+            scene_blend alpha_blend
+            fog_override false
+            texture_unit
+            {
+                texture armor.png
+            }
+        }
+    }
+}
+
+material fix_health
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 0 1 0 1
+            depth_write off
+            scene_blend alpha_blend
+            fog_override false
+            texture_unit
+            {
+                texture cross.png
+            }
+        }
+    }
+}

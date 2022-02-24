@@ -1,0 +1,305 @@
+particle_system fix_range
+{
+	quota 100
+	emit_emitter_quota 3
+	material Examples/Aureola
+	particle_width 30
+	particle_height 30
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+	common_direction 0 1 0 
+	common_up_vector 0 0 0.2
+
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0 1 0
+		emission_rate 12
+		position 0 0 0
+		velocity 10
+		time_to_live 0.3
+		duration 0.3
+	}
+
+	affector LinearForce
+	{
+		force_vector 0 0 0
+		force_application add
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start 960
+		rotation_speed_range_end 120
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+	affector ColourImage
+	{
+		image colors_5.png
+	}
+		affector Scaler
+	{
+		rate 5
+	}
+}
+
+particle_system health_range
+{
+	quota 100
+	emit_emitter_quota 3
+	material Examples/Aureola
+	particle_width 30
+	particle_height 30
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+	common_direction 0 1 0 
+	common_up_vector 0 0 0.2
+
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0 1 0
+		emission_rate 12
+		position 0 0 0
+		velocity 10
+		time_to_live 0.3
+		duration 0.3
+	}
+
+	affector LinearForce
+	{
+		force_vector 0 0 0
+		force_application add
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start 960
+		rotation_speed_range_end 120
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+		affector ColourImage
+	{
+		image colors_green.png
+	}
+		affector Scaler
+	{
+		rate 5
+	}
+}
+
+
+particle_system fix_spreadsmoke
+{
+	quota 1000
+	material fix_ExplosionFire
+	particle_width 3
+	particle_height 3
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_rotation_type vertex
+	
+	emitter Ring
+	{
+		angle 0
+		colour 0.5 0.25 0 0.05
+		direction 0 1 0
+		emission_rate 60
+		position 0 0.8 0
+		velocity 0.5
+		velocity_min 0.5
+		velocity_max 1
+		time_to_live 1
+		time_to_live_min 0.4
+		time_to_live_max 0.6
+		duration 0.3
+		width 2
+		height 2
+		depth 4
+		inner_width 1.5
+		inner_height 1.5
+	}
+
+	affector Scaler
+	{
+		rate 0.65
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start -45
+		rotation_speed_range_end 45
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+	affector LinearForce
+	{
+		force_vector 0 -0.5 0
+		force_application add
+	}
+	affector ColourImage
+	{
+		image colors_5.png
+	}
+
+}
+
+
+particle_system fix_armor
+{
+	quota 1000
+	material fix_armor
+	particle_width 2.6
+	particle_height 2.6
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_rotation_type vertex
+	billboard_type oriented_common
+	common_direction 0 1 -0.3
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 6
+		position 0 0.8 0
+		velocity 2
+		time_to_live 1
+		time_to_live_min 0.6
+		time_to_live_max 0.6
+		duration 0.2
+	}
+
+	affector Scaler
+	{
+		rate 0.3
+	}
+
+}
+
+particle_system health_spreadsmoke
+{
+	quota 1000
+	material fix_ExplosionFire
+	particle_width 3
+	particle_height 3
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_rotation_type vertex
+	
+	emitter Ring
+	{
+		angle 0
+		colour 0 1 0 0.05
+		direction 0 1 0
+		emission_rate 60
+		position 0 0.8 0
+		velocity 0.5
+		velocity_min 0.5
+		velocity_max 1
+		time_to_live 1
+		time_to_live_min 0.4
+		time_to_live_max 0.6
+		duration 0.3
+		width 2
+		height 2
+		depth 4
+		inner_width 1.5
+		inner_height 1.5
+	}
+
+	affector Scaler
+	{
+		rate 0.65
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start -45
+		rotation_speed_range_end 45
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+	affector LinearForce
+	{
+		force_vector 0 -0.5 0
+		force_application add
+	}
+		affector ColourImage
+	{
+		image colors_green.png
+	}
+}
+
+particle_system fix_health
+{
+	quota 1000
+	material fix_health
+	particle_width 0.4
+	particle_height 0.4
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_rotation_type vertex
+	billboard_type oriented_common
+	common_direction 0 1 0
+	
+	emitter Ring
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 50
+		position 0 0.8 0
+		velocity 2
+		time_to_live 1
+		time_to_live_min 0.6
+		time_to_live_max 0.8
+		duration 0.3
+		width 2
+		height 2
+		depth 6
+		inner_width 1.5
+		inner_height 1.5
+	}
+
+	affector Scaler
+	{
+		rate 0.3
+	}
+
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_card_rf.weapon" key="gw_ebr800.weapon" >
+    <tag name="stealth" />
+    <specification 
+    retrigger_time="0.3" 
+    accuracy_factor="1.0"
+    sustained_fire_grow_step="1.2" 
+    sustained_fire_diminish_rate="1.7" 
+    magazine_size="8" 
+    can_shoot_standing="1" 
+    suppressed="1" 
+    name="ebr800" 
+    class="4" 
+    reload_one_at_a_time="0"
+    sight_range_modifier="1.7"
+    projectile_speed="180.0" 
+    barrel_offset="0.4" 
+    projectiles_per_shot="1" 
+    burst_shots="1"/>
+	
+	<next_in_chain key="gw_ebr800_ar.weapon" share_ammo="0" />
+
+    <animation key="recoil" ref="27"/>
+    <animation key="cycle" ref="30"/>
+    <animation state_key="reload" animation_key="reloading, psg90"/>
+	<animation state_key="next_in_chain_in" animation_key="change weapon in" />
+    <animation state_key="next_in_chain_out" animation_key="change weapon out" />
+	
+    <effect class="muzzle" ref="muzzle_gf" />
+
+    <sound key="fire" fileref="hyz88_mech_rifle_shot.wav" volume="0.5"/>
+    <sound key="cycle" fileref="sniper_cycle_2.wav"/>
+    <sound key="magazine_out" fileref="sniper_clip_out_1.wav"/>
+    <sound key="magazine_in" fileref="sniper_clip_in_1.wav"/>
+    <sound key="cycle_out" fileref="sniper_cycle_out_2.wav"/>
+    <sound key="cycle_in" fileref="sniper_cycle_in_2.wav"/>
+    <sound class="impact" fileref="rifle_drop.wav"/>
+    <sound key="effect" fileref="aa12_switch.wav"/>
+    <control key="effect" value="1"/>
+
+    <model filename="gw_ebr800.xml"/>
+    <hud_icon filename="gw_ebr800.png"/>
+    <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
+    <inventory encumbrance="12.5" price="800.0" />
+
+    
+    <weak_hand_hold offset="0.3" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="3.95" kill_decay_start_time="1.4" kill_decay_end_time="2.78" />
+  <trail probability="1.0" key="laser_blue"/>
+    </projectile>
+
+    <modifier class="speed" value="-0.1" />    
+</weapon>
+
