@@ -13,7 +13,7 @@
 #include "server_tracker.as"
 #include "factory_spawner.as"
 #include "mixer.as"
-#include "heal_granade.as"
+#include "heal_grenade.as"
 
 
 
