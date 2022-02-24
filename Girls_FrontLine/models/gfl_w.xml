@@ -497,7 +497,18 @@ RE
 <weapon file="ew_m16a5_gl.weapon" /> 
 <weapon file="ew_n_mp5k.weapon" /> 
 
-	
+<!-- 29 -->	
+<weapon file="gw_toz81.weapon" />
+<weapon file="gw_m4a1_qingqiuhu.weapon" />
+<weapon file="gw_m4a1_qingqiuhu_annihilator.weapon" />
+<weapon file="st_mg0.weapon" />
+<weapon file="st_mg0_n.weapon" />
+<weapon file="gm6_lynx_ap.weapon" />
+<weapon file="gm6_lynx_ap_aim.weapon" />
+<weapon file="chain_sawr.weapon" />
+<weapon file="ew_rumbler.weapon" />
+<weapon file="ew_rumbler_consume.weapon" />
+
 
   <weapon file="banner_santa.weapon">  
     <commonness value="0.0" in_stock="0" />  
