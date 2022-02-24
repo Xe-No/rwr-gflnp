@@ -3,13 +3,14 @@
 
 	<specification 
 	 retrigger_time="0.0775" 
-	 accuracy_factor="0.81"
+	 accuracy_factor="0.91"
 	 spread_range="0.24" 
      sustained_fire_grow_step="0.65" 
      sustained_fire_diminish_rate="1.5" 
 	 magazine_size="100" 
 	 can_shoot_standing="0" 
 	 can_shoot_crouching="0" 
+    	 sight_range_modifier="1.15" 	
 	 suppressed="0" 
 	 name="MG-34" 
 	 class="0" 
@@ -51,7 +52,7 @@
 	<inventory encumbrance="11.0" price="175.0" />
 	
 	<projectile file="bullet.projectile">
-		<result class="hit" kill_probability="1.67" kill_decay_start_time="0.35" kill_decay_end_time="1.0" />
+		<result class="hit" kill_probability="1.7" kill_decay_start_time="0.35" kill_decay_end_time="1.0" />
 	</projectile>
 
 	<modifier class="speed" value="-0.18" />     

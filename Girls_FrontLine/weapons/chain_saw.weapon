@@ -11,9 +11,10 @@
     can_shoot_standing="0" 
     can_shoot_crouching="0"
     suppressed="1" 
+    sight_range_modifier="1.15" 
     name="AEK-999" 
     class="0"
-    projectile_speed="180.0"
+    projectile_speed="160.0"
 	/>
 
     <next_in_chain key="chain_saw_n.weapon" share_ammo="1" />

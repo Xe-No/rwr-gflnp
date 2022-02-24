@@ -3,13 +3,14 @@
 
 	<specification 
 	 retrigger_time="0.1" 
-	 accuracy_factor="1.0"
-	 spread_range="0.22" 
+	 accuracy_factor="0.95"
+	 spread_range="0.20" 
 	 sustained_fire_grow_step="0.92" 
     sustained_fire_diminish_rate="1.42"
 	 magazine_size="100" 
 	 can_shoot_standing="0" 
      can_shoot_crouching="0"  
+    sight_range_modifier="1.1" 
 	 suppressed="0" 
 	 name="M1919 LMG" 
 	 class="0" 
@@ -56,5 +57,5 @@
 		<result class="hit" kill_probability="1.75" kill_decay_start_time="0.4" kill_decay_end_time="1.0"/>
 	</projectile>
 
-	<modifier class="speed" value="-0.125" />
+	<modifier class="speed" value="-0.15" />
 </weapon>

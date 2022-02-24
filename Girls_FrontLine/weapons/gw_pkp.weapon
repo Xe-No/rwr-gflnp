@@ -10,6 +10,8 @@
     magazine_size="150" 
     can_shoot_standing="0" 
     can_shoot_crouching="0" 
+    sight_range_modifier="1.2" 	
+    ai_sight_range_modifier="1.1"	
     suppressed="0" 
     name="PKP" 
     class="0" 

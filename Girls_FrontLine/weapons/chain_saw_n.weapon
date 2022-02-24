@@ -3,7 +3,7 @@
     <tag name="machine gun" />
     <specification 
     retrigger_time="0.087" 
-    accuracy_factor="0.72"
+    accuracy_factor="0.95"
     spread_range="0.31" 
     sustained_fire_grow_step="0.8" 
     sustained_fire_diminish_rate="0.9" 
@@ -13,7 +13,7 @@
     suppressed="1" 
     name="AEK-999" 
     class="0"
-    projectile_speed="180.0"
+    projectile_speed="160.0"
 	/>
 
     <next_in_chain key="chain_saw.weapon" share_ammo="1" />

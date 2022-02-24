@@ -3,8 +3,8 @@
     <tag name="machine gun" />
     <specification 
     retrigger_time="0.07"
-    spread_range="0.38" 
-    accuracy_factor="0.75" 
+    spread_range="0.4" 
+    accuracy_factor="0.92" 
     sustained_fire_grow_step="0.78" 
     sustained_fire_diminish_rate="1.1" 
     magazine_size="150" 
@@ -49,8 +49,8 @@
 
     <weak_hand_hold offset="0.4" />
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.5" kill_decay_start_time="0.3" kill_decay_end_time="0.7" />
+        <result class="hit" kill_probability="1.5" kill_decay_start_time="0.4" kill_decay_end_time="0.75" />
     </projectile>
   
-    <modifier class="speed" value="-0.13" />    
+    <modifier class="speed" value="-0.10" />    
 </weapon>

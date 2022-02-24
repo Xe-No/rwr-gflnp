@@ -3,13 +3,14 @@
 	<tag name="machine gun" />
 	<specification 
   retrigger_time="0.11"
-  spread_range="0.22" 
+  spread_range="0.2" 
   accuracy_factor="1.0" 
   sustained_fire_grow_step="0.42" 
   sustained_fire_diminish_rate="1.71" 
   magazine_size="30" 
   can_shoot_standing="0" 
   can_shoot_crouching="0" 
+  sight_range_modifier="1.2"
   suppressed="0" 
   name="ZB-26[Cape of Fluttering Dreams]" 
   class="0" 
@@ -58,7 +59,7 @@
     <stance state_key="crouch_moving" accuracy="0.6" />
     <stance state_key="standing" accuracy="0.75" />
     <stance state_key="crouching" accuracy="0.8" />
-    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone" accuracy="1.1" /> 
     <stance state_key="prone_moving" accuracy="0.75" />
     <stance state_key="over_wall" accuracy="1.2" />
 

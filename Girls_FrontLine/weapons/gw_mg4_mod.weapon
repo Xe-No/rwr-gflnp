@@ -14,7 +14,7 @@
     name="MG-4[Digi-Mind]" 
     class="0" 
     barrel_offset="0.5"
-    sight_range_modifier="1.1" 
+    sight_range_modifier="1.3" 
     projectile_speed="170.0" />
 
     <next_in_chain key="gw_mg4_mod_n.weapon" share_ammo="1" />
@@ -49,7 +49,7 @@
 
     <weak_hand_hold offset="0.4" />
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.74" kill_decay_start_time="0.3" kill_decay_end_time="0.7" />
+        <result class="hit" kill_probability="1.74" kill_decay_start_time="0.4" kill_decay_end_time="0.75" />
     </projectile>
     
     <modifier class="speed" value="-0.1" />    

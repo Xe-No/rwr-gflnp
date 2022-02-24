@@ -10,6 +10,8 @@
   magazine_size="100" 
   can_shoot_standing="0" 
   can_shoot_crouching="0" 
+  sight_range_modifier="1.2" 	
+  ai_sight_range_modifier="1.1"
   suppressed="0" 
   name="M249" 
   class="0" 
@@ -51,5 +53,5 @@
         <result class="hit" kill_probability="1.57" kill_decay_start_time="0.328" kill_decay_end_time="0.79" />
     </projectile>
 
-    <modifier class="speed" value="-0.21" /> 
+    <modifier class="speed" value="-0.11" /> 
 </weapon>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <weapon file="base_card_mg_n.weapon" key="gw_ameli_1605_n.weapon" quality="card">
     <tag name="machine gun"/>
-    <specification retrigger_time="0.1" accuracy_factor="0.7" spread_range="0.35" sustained_fire_grow_step="0.6" sustained_fire_diminish_rate="1.0" magazine_size="150" can_shoot_standing="1" can_shoot_crouching="1" suppressed="0" name="AMELI[Christmas Tree]" class="0" barrel_offset="0.4" projectile_speed="180.0"/>
+    <specification retrigger_time="0.1" accuracy_factor="0.98" spread_range="0.35" sustained_fire_grow_step="0.6" sustained_fire_diminish_rate="1.0" magazine_size="150" can_shoot_standing="1" can_shoot_crouching="1" suppressed="0" name="AMELI[Christmas Tree]" class="0" barrel_offset="0.4" projectile_speed="180.0"/>
 
     <next_in_chain key="gw_ameli_1605.weapon" share_ammo="1"/>
 
