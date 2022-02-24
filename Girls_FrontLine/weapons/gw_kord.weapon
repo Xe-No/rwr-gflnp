@@ -39,7 +39,7 @@
 	<model filename="gw_kord.xml" />
 
 	<hud_icon filename="gw_kord.png" />
-    <commonness value="1.0" can_respawn_with="1" in_stock="0"/>
+    <commonness value="1.0" can_respawn_with="1" in_stock="1"/>
 	<inventory encumbrance="42.0"  price="30.0" />
 
 	<weak_hand_hold offset="0.4" />

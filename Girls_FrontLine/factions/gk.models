@@ -783,6 +783,30 @@ gw_zb26_4703.weapon
 	<model filename="gs_gm6_card.xml"><requirement class="weapon" slot="0" key="gm6_lynx_ap_aim.weapon"/></model>
 	<model filename="gs_gm6_card.xml"><requirement class="weapon" slot="0" key="gm6_lynx_ap.weapon"/></model>
 	<model filename="es_volcanic.xml"><requirement class="weapon" slot="0" key="ew_rumbler.weapon"/></model>
+
+<!-- 30 -->
+	<model filename="gs_kord.xml"><requirement class="weapon" slot="0" key="gw_kord.weapon"/></model>
+	<model filename="gs_kord.xml"><requirement class="weapon" slot="0" key="gw_kord_n.weapon"/></model>
+	<model filename="gs_thunder50.xml"><requirement class="weapon" slot="0" key="gw_thunder50.weapon"/></model>
+	<model filename="gs_m4a1_pinkglassheart.xml"><requirement class="weapon" slot="0" key="gw_m4a1_pinkglassheart.weapon"/></model>
+	<model filename="gs_ak15.xml"><requirement class="weapon" slot="0" key="gw_ak15.weapon"/></model>
+	<model filename="gs_naoto_ocp.xml"><requirement class="weapon" slot="0" key="ew_rpl20.weapon"/></model>
+	<model filename="gs_ebr800_cityhunter.xml"><requirement class="weapon" slot="0" key="gw_ebr800.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+	<model filename="gs_ebr800_cityhunter.xml"><requirement class="weapon" slot="0" key="gw_ebr800_ar.weapon"/><requirement class="projectile" slot="0" key="token_cityhunter.projectile"/></model>
+	<model filename="gs_ebr800.xml"><requirement class="weapon" slot="0" key="gw_ebr800.weapon"/></model>
+	<model filename="gs_ebr800_ar.xml"><requirement class="weapon" slot="0" key="gw_ebr800_ar.weapon"/></model>
+	<model filename="gs_an94mod_s.xml"><requirement class="weapon" slot="0" key="gw_an94mod_s.weapon"/></model>
+	<model filename="gs_an94mod.xml"><requirement class="weapon" slot="0" key="gw_an94mod.weapon"/></model>
+	<model filename="gs_ak12_3302_sl.xml"><requirement class="weapon" slot="0" key="gw_ak12_3302_sl.weapon"/></model>
+	<model filename="gs_ak12_3302.xml"><requirement class="weapon" slot="0" key="gw_ak12_3302.weapon"/></model>
+	<model filename="owo_xm177_iii.xml"><requirement class="weapon" slot="0" key="ew_heir_apparent.weapon"/></model>
+	<model filename="gs_thunder50_3309.xml"><requirement class="weapon" slot="0" key="gw_thunder50_3309.weapon"/></model>
+	<model filename="owo_xm177.xml"><requirement class="weapon" slot="0" key="xm177e1.weapon"/></model>
+	<model filename="owo_xm177.xml"><requirement class="weapon" slot="0" key="xm177e2.weapon"/></model>
+	<model filename="gs_m4_sopmod_ii_551.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_ii_551.weapon"/></model>
+	<model filename="gs_m4_sopmod_ii_551.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_ii_551_snip.weapon"/></model>
+
+
 </models>
     
 
