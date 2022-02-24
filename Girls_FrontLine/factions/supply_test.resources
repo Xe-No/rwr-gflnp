@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
-<projectile key="vog_grenade.projectile" />
-<weapon key="gw_toz81.weapon" />
-<weapon key="gw_m4a1_qingqiuhu.weapon" />
-<weapon key="gw_m4a1_qingqiuhu_annihilator.weapon" />
-<weapon key="st_mg0.weapon" />
-<weapon key="st_mg0_n.weapon" />
-<weapon key="gm6_lynx_ap.weapon" />
-<weapon key="gm6_lynx_ap_aim.weapon" />
-<weapon key="chain_sawr.weapon" />
-<weapon key="ew_rumbler.weapon" />
-<weapon key="ew_rumbler_consume.weapon" />
+<weapon file="gw_kord.weapon" />
+<weapon file="gw_thunder50.weapon" />
+<weapon file="gw_m4a1_pinkglassheart.weapon" />
+<weapon file="gw_ak15.weapon" />
+<weapon file="ew_rpl20.weapon" />
+<weapon file="gw_ebr800.weapon" />
+<weapon file="gw_an94mod.weapon" />
+<weapon file="gw_ak12_3302_sl.weapon" />
+<weapon file="ew_heir_apparent.weapon" />
+<weapon file="wingman_rep.weapon" />
+<weapon file="gw_thunder50_3309.weapon" />
+<weapon file="china_lake.weapon" />
+<weapon file="xm177e1.weapon" />
+<weapon file="gw_m4_sopmod_ii_551.weapon" />
+<weapon file="gw_kaluo_gl.weapon" />
+<weapon file="gw_m4a1_qingqiuhu.weapon" />
+<weapon file="chain_sawr.weapon" />
 </resources>
