@@ -24,7 +24,7 @@
     <animation state_key="reload" animation_key="reloading, m16a4" />
 
 
-    <sound key="fire" fileref="e1shot.wav" volume="1.0" pitch_variety="0.04" />
+    <sound key="fire" fileref="e1shot.wav" volume="0.3" pitch_variety="0.04" />
     <sound key="magazine_out" fileref="ar556_clip_out.wav" />
     <sound key="magazine_in" fileref="ar556_clip_in.wav" />
     <sound key="cycle" fileref="ar_chamber.wav" />

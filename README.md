@@ -44,6 +44,7 @@
 
 	base_MG_n 	& 	base_card_mg_n：
 
+	<stance state_key="prone" accuracy="0.95" /> 
 	<modifier class="speed" value="-0.15" />
 
 
@@ -144,3 +145,7 @@
 
 ## 0.30f5
 	DEBUG，添加gk.model，修改部分武器以完成测试包，未添加抽奖代码。
+
+## 0.30g
+	二次平衡性及美术修改，添加抽奖脚本。
+	将2期前提高了概率的部分物品概率调回，新物品概率UP↑。
