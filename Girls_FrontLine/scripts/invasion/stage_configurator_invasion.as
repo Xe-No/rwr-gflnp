@@ -203,6 +203,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	addStage(setupRoberto());          
 	addStage(setupClairemont());   
 	addStage(setupFinalStage2());     // map12
+	addStage(setupStage19());
     addStage(setupStage11());         // map13
 	}
 
@@ -1566,6 +1567,80 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 		return stage;
 	} 	
+
+
+
+	// ------------------------------------------------------------------------------------------------
+
+	protected Stage@ setupStage19() {
+		Stage@ stage = createStage();
+		stage.m_mapInfo.m_name = "Warsalt Legacy";
+		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map18";
+		stage.m_mapInfo.m_id = "map18";
+		
+		stage.m_includeLayers.insertLast("layer1.invasion");		
+
+//    stage.m_fogOffset = 20.0;    
+//    stage.m_fogRange = 50.0; 
+
+		stage.m_maxSoldiers = 16 * 15;
+		stage.m_playerAiCompensation = 4;                                       
+        stage.m_playerAiReduction = 2.0;                                            
+  
+//		stage.m_soldierCapacityVariance = 0.45;  
+
+//		stage.addTracker(Spawner(m_metagame, 1, Vector3(309,15,524), 10));        // 1st tow slot filler
+//		stage.addTracker(Spawner(m_metagame, 1, Vector3(658,10,374), 10));        // vulcan slot filler
+
+		stage.addTracker(PeacefulLastBase(m_metagame, 0));    
+		stage.addTracker(CommsCapacityHandler(m_metagame));
+
+    stage.m_minRandomCrates = 1; 
+    stage.m_maxRandomCrates = 3;  
+
+		{ 				
+			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.4, 0.1));   // was 0.3 0.1  
+			f.m_overCapacity = 0;
+			f.m_capacityOffset = 0;      // was 5                                       
+			f.m_capacityMultiplier = 1;                                               
+			f.m_bases = 1;
+			stage.m_factions.insertLast(f);
+		}
+		{
+			Faction f(getFactionConfigs()[1], createCommanderAiCommand(1, 0.5, 0.2));   // was 0.6 0.2
+			f.m_overCapacity = 100;      // was 70                                       
+			f.m_capacityOffset = 30;     // was 15
+			stage.m_factions.insertLast(f);
+		}
+
+		// metadata
+		stage.m_primaryObjective = "capture";
+		stage.m_radioObjectivePresent = false;
+
+		{
+			XmlElement command("command");
+			command.setStringAttribute("class", "faction_resources");
+			command.setIntAttribute("faction_id", 1);
+			addFactionResourceElements(command, "vehicle", array<string> = {"aa_emplacement.vehicle"}, true);
+
+			stage.m_extraCommands.insertLast(command);
+		}
+		{
+			XmlElement command("command");
+			command.setStringAttribute("class", "faction_resources");
+			command.setIntAttribute("faction_id", 0);
+			addFactionResourceElements(command, "vehicle", array<string> = {"radio_jammer.vehicle", "radio_jammer2.vehicle", "radar_tower.vehicle", "m528.vehicle", "apc.vehicle", "apc_1.vehicles", "apc_2.vehicle"}, false);
+
+			stage.m_extraCommands.insertLast(command);
+		}
+
+
+		setDefaultAttackBreakTimes(stage);
+		return stage;
+	}  
+ 
+
+
 	// ------------------------------------------------------------------------------------------------
 	// ------------------------------------------------------------------------------------------------
 	// FINAL STAGES

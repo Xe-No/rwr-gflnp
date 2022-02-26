@@ -40,7 +40,7 @@
 
     <model filename="gw_ebr800.xml"/>
     <hud_icon filename="gw_ebr800.png"/>
-    <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
+    <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
     <inventory encumbrance="12.5" price="800.0" />
 
     

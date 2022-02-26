@@ -17,4 +17,5 @@
 <weapon key="gw_kaluo_gl.weapon" />
 <weapon key="gw_m4a1_qingqiuhu.weapon" />
 <weapon key="chain_sawr.weapon" />
+<projectile key="m1128d_flare.projectile" />
 </resources>

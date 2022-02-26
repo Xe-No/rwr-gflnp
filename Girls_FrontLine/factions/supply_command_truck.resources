@@ -35,6 +35,7 @@ weapon
     <projectile key="dicem_flare.projectile" />
     <projectile key="dicetm_flare.projectile" />
 	<projectile key="cv9040c_flare.projectile" />
+	<projectile key="m1128d_flare.projectile" />
 	
 	<projectile key="icecream.projectile" />   
 	<projectile key="flash9_grenade.projectile" />   

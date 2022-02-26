@@ -1,609 +1,494 @@
 <translation>
-    <text key="MG" name="机枪"/>
-    <text key=".50 cal" name=".50机枪"/>
-    <text key="NOXE rocket" name="NOXE火箭弹"/>
-    <text key="Tank cannon" name="坦克主炮"/>
-    <text key="APC HMG" name="运兵车载重机枪"/>
-    <text key="Buggy MG" name="悍马机枪"/>
-    <text key="ZJX-19/XE MG" name="40mm ZJX-19加特林机枪"/>
-    <text key="M528 HMG" name="M528重机枪"/>
-    <text key="APC HMG" name="运兵车载重机枪"/>
-    <text key="Minigun" name="加特林机枪"/>
-    <text key="FT-CROC MG" name="FT-CROC车载机枪"/>
-    <text key="rocket" name="火箭弹"/>
-    <text key="Grenade Launcher" name="榴弹发射器"/>
-    <text key="Minigun" name="加特林机枪"/>
-    <text key="D40mm-Flak-proto" name="40mm实验型防空炮"/>
-    <text key="Missile launcher" name="导弹发射架"/>
-    <text key="MG-3" name="MG-3通用机枪"/>
-    <text key="Humvee MG" name="悍马车载机枪"/>
-    <text key="Minigun" name="加特林机枪"/>
-    <text key="M240" name="M240通用机枪"/>
-    <text key="AAV7 MG" name="AAV7机枪"/>
-    <text key="Tank cannon" name="坦克主炮"/>
-    <text key="PS Mortar" name="巡逻艇迫击炮"/>
-    <text key="SEV-90 40mm" name="SEV-90两栖装甲车40mm榴弹发射器"/>
-    <text key="Mustela Mk20" name="MK-20射手步枪"/>
-    <text key="ACAV minigun" name="ACAV车载加特林机枪"/>
-    <text key="Repair crane" name="机械维修臂"/>
-    <text key="Hornet" name="大黄蜂"/>
-    <text key="Tank cannon" name="坦克主炮"/>
-    <text key="Mortar" name="迫击炮"/>
-    <text key="2A82-1M" name="125mm 2A82-1M坦克炮"/>
-    <text key="Humvee MG" name="悍马车载机枪"/>
-    <text key="M2HB" name="老干妈"/>
-    <text key="Mortar" name="迫击炮"/>
-    <text key="Legion MG" name="百夫长车顶机枪"/>
-    <text key="AAV7 GL" name="AAV7车载榴弹发射器"/>
-    <text key="Tank MG" name="坦克机枪"/>
-    <text key="Repair crane" name="机械维修臂"/>
-    <text key="D40mm-Flak" name="40mm防空炮"/>
-    <text key="APC HMG" name="运兵车载重机枪"/>
-    <text key="Minigun" name="加特林机枪"/>
-    <text key="23mm-Flak" name="23mm防空炮"/>
-    <text key="Tank MG" name="坦克主炮"/>
-    <text key="M240" name="M240通用机枪"/>
-    <text key="165mm HESH" name="165mm HESH线膛炮"/>
-    <text key="Grenade Launcher" name="榴弹发射器"/>
-    <text key="2A82-1M" name="125mm 2A82-1M坦克主炮"/>
-    <text key="Tank cannon" name="坦克主炮"/>
-    <text key=".50" name=".50机枪"/>
-    <text key="14.5mm" name="14.5mm机枪"/>
-    <text key=".50" name=".50机枪"/>
-    <text key=".30" name=".30机枪"/>
-    <text key="CV-90 40mm" name="CV-90 40mm 机关炮"/>
-    <text key="Tank cannon" name="坦克主炮"/>
-    <text key="100mm" name="100mm炮"/>
-    <text key="30,," name="30mm机关炮"/>
-    <text key="Tank cannon" name="木星炮"/>
-    <text key="APC HMG" name="bmp-3车载重机枪"/>
-    <text key="2A72 30mm autocannon" name="豹2A72 30mm机炮"/>
-    <text key="Tank cannon" name="奎乌激光炮"/>
-    <text key="Minigun" name="加特林机枪"/>
-    <text key="AK47" name="AK47突击步枪"/>
-    <text key="AK47-GP25" name="AK47-GP25榴弹发射器"/>
-    <text key="Stoner LMG" name="Stoner轻机枪"/>
-    <text key="MK-17 SD" name="MK-17 射手步枪"/>
-    <text key="SMAW" name="SMAW火箭筒"/>
-    <text key="RPG-7" name="RPG-7火箭筒"/>
-    <text key="RPG-32" name="RPG-32火箭筒"/>
-    <text key="PF-98" name="PF-98火箭筒"/>
-    <text key="M72 LAW" name="M72轻型火箭筒"/>
-    <text key="M202 flash" name="M202“闪光”火箭发射器"/>
-    <text key="Javelin" name="“标枪”反坦克导弹发射器"/>
-    <text key="AT4 LAW" name="AT4轻型火箭筒"/>
-    <text key="M2 Carl Gustav" name="M2 84mm火箭发射器"/>
-    <text key="MK153[SMAW 83mm]" name="MK153“毒刺”导弹发射器"/>
-    <text key="Milkor MGL" name="Milkor榴弹发射器"/>
-    <text key="RGM-40" name="RGM-40榴弹发射器"/>
-    <text key="PAW-20" name="PAW-20榴弹发射器"/>
-    <text key="M320 LCS" name="M320轻型榴弹发射器"/>
-    <text key="gm 94 grenade launcher" name="GM-94榴弹发射器"/>
-    <text key="XM-25" name="XM-25空爆弹发射器"/>
-    <text key="XM-25" name="XM-25空爆弹发射器"/>
-    <text key="m79 grenade launcher" name="M79榴弹发射器"/>
-    <text key="HG Supply Box Deploy" name="手枪补给箱"/>
-    <text key="SMG Supply Box Deploy" name="冲锋枪补给箱"/>
-    <text key="AR Supply Box Deploy" name="突击步枪补给箱"/>
-    <text key="RF Supply Box Deploy" name="步枪补给箱"/>
-    <text key="MG Supply Box Deploy" name="机枪补给箱"/>
-    <text key="SG Supply Box Deploy" name="霰弹枪补给箱"/>
-    <text key="SS Supply Box Deploy" name="军械库补给箱"/>
-    <text key="T-Doll Repair Kit" name="人形修复许可"/>
-    <text key="T-Doll Emergency Reactivate Device" name="快速修复许可"/>
-    <text key="Quick Restoration Contract" name="人形激活装置"/>
-    <text key="Repair crane deploy" name="机械维修臂部署包"/>
-    <text key="Claymore" name="M18阔剑地雷"/>
-    <text key="Redflag" name="红旗"/>
-    <text key="Desert Eagle" name="沙漠之鹰"/>
-    <text key="Desert Eagle" name="沙漠之鹰"/>
-    <text key="Desert Eagle GOLD" name="黄金沙漠之鹰"/>
-    <text key="G18C" name="G18自动手枪"/>
-    <text key="tracer" name="信标枪？"/>
-    <text key="taser" name="泰瑟枪"/>
-    <text key="PMM" name="PMM手枪"/>
-    <text key="Skorpion" name="蝎式冲锋枪"/>
-    <text key="AEK-919k" name="AEK-919K冲锋枪"/>
-    <text key="Beretta 93R" name="贝雷塔93R手枪"/>
-    <text key="Beretta 93R" name="贝雷塔93R手枪"/>
-    <text key="Glock 17" name="格洛克17"/>
-    <text key="Glock 17" name="格洛克17"/>
-    <text key="L30P" name="L30P手枪"/>
-    <text key="Colt Revolver" name="柯尔特左轮"/>
-    <text key="M9" name="M9手枪"/>
-    <text key="C96" name="C96手枪"/>
-    <text key="Five-seveN" name="57式手枪"/>
-    <text key="Nagant Revolver" name="莫辛纳甘步枪"/>
-    <text key="M1911" name="M1911手枪"/>
-    <text key="M1911" name="M1911手枪"/>
-    <text key="MP-446" name="MP-446手枪"/>
-    <text key="P7" name="P7手枪"/>
-    <text key="P226" name="P226手枪"/>
-    <text key="Gsh-18" name="GSH-18手枪"/>
-    <text key="Mk 23" name="MK23手枪"/>
-    <text key="Bren Ten" name="布伦-坦手枪"/>
-    <text key="M17" name="M17手枪"/>
-    <text key="HS2000" name="HS2000手枪"/>
-    <text key="QSB-91" name="QSB-91匕首手枪"/>
-    <text key="P90" name="P90冲锋枪"/>
-    <text key="CF-05" name="CF-05冲锋枪"/>
-    <text key="Steyr TMP" name="TMP冲锋枪"/>
-    <text key="Steyr TMP" name="TMP冲锋枪"/>
-    <text key="KRISS-Vector" name="维克托冲锋枪"/>
-    <text key="UMP40" name="UMP40冲锋枪"/>
-    <text key="MX4 Storm" name="MX4&quot;风暴&quot;冲锋枪"/>
-    <text key="PP-19 Bizon" name="PP-19&quot;野牛&quot;冲锋枪"/>
-    <text key="UMP45" name="UMP45冲锋枪"/>
-    <text key="UMP9" name="UMP9冲锋枪"/>
-    <text key="Type 100" name="百式冲锋枪"/>
-    <text key="MP5" name="MP5冲锋枪"/>
-    <text key="MP40" name="MP40冲锋枪"/>
-    <text key="MP7" name="MP7冲锋枪"/>
-    <text key="IDW" name="IDW微声冲锋枪"/>
-    <text key="KAC-PDW" name="KAC-PDW冲锋枪"/>
-    <text key="PPSh-41" name="PPSH-41冲锋枪"/>
-    <text key="RO635" name="RO635冲锋枪"/>
-    <text key="mini UZI" name="迷你乌兹冲锋枪"/>
-    <text key="mini UZI" name="迷你乌兹冲锋枪"/>
-    <text key="CB-JMS" name="CB-JMS冲锋枪"/>
-    <text key="AUG-PARA" name="AUG伞兵版冲锋枪"/>
-    <text key="StG 44" name="StG44突击步枪"/>
-    <text key="MP5KA4" name="MP5KA4微声冲锋枪"/>
-    <text key="TYPE 79" name="79式特战改"/>
-    <text key="M3 'Greasegun'" name="M3黄油枪"/>
-    <text key="PPSH 43" name="PPS-43冲锋枪"/>
-    <text key="AK47" name="AK-47突击步枪"/>
-    <text key="AK47" name="AK-47突击步枪"/>
-    <text key="AKS-74U" name="AKS-74U卡宾枪"/>
-    <text key="G36" name="G36突击步枪"/>
-    <text key="F2000" name="F2000突击步枪"/>
-    <text key="L85A2" name="L85A2突击步枪"/>
-    <text key="SIG 556" name="SIG 556突击步枪"/>
-    <text key="XM8" name="XM8突击步枪"/>
-    <text key="AAC Honey Badger" name="“蜜獾”消音突击步枪"/>
-    <text key="AAC Honey Badger" name="“蜜獾”消音突击步枪"/>
-    <text key="FN FAL - bayonet" name="FN FAL突击步枪"/>
-    <text key="FN FAL" name="FN FAL突击步枪"/>
-    <text key="TKB-059" name="TKB-059三管突击步枪"/>
-    <text key="Golden AK47" name="黄金AK47"/>
-    <text key="AK74M" name="AK74M突击步枪"/>
-    <text key="AK74M - bayonet" name="AK74M突击步枪（刺刀）"/>
-    <text key="AKM" name="AKM突击步枪"/>
-    <text key="AKM-GP25" name="AKM突击步枪-GP25榴弹发射器"/>
-    <text key="Type 95" name="95式突击步枪"/>
-    <text key="Type 95" name="95式突击步枪"/>
-    <text key="Type 97" name="97式突击步枪"/>
-    <text key="Type 97" name="97式突击步枪"/>
-    <text key="9A-91" name="9A-91突击步枪"/>
-    <text key="9A-91" name="9A-91突击步枪"/>
-    <text key="AK-12" name="AK-12突击步枪"/>
-    <text key="AK-12" name="AK-12突击步枪"/>
-    <text key="AN-94" name="AN-94突击步枪"/>
-    <text key="AN-94" name="AN-94突击步枪"/>
-    <text key="FAMAS G1" name="法玛斯G1突击步枪"/>
-    <text key="FAMAS G1" name="法玛斯G1突击步枪"/>
-    <text key="AR-15 - silencer and scope" name="AR-15(消音器，瞄准镜）"/>
-    <text key="AR-15 - silencer and scope" name="AR-15(消音器，瞄准镜）"/>
-    <text key="ART-556" name="ART-556突击步枪"/>
-    <text key="ART-556" name="ART-556突击步枪"/>
-    <text key="ARX-160" name="ARX-160突击步枪"/>
-    <text key="ARX-160" name="ARX-160突击步枪"/>
-    <text key="AUG" name="AUG突击步枪"/>
-    <text key="AUG" name="AUG突击步枪"/>
-    <text key="VHS-K21" name="VHS突击步枪"/>
-    <text key="FNC" name="FNC突击步枪"/>
-    <text key="G11" name="G11突击步枪"/>
-    <text key="G36C" name="G36C突击步枪"/>
-    <text key="G36C-M320" name="G36C突击步枪-M320榴弹发射器"/>
-    <text key="HK416" name="HK416突击步枪"/>
-    <text key="HK416" name="HK416突击步枪"/>
-    <text key="M16A1" name="M16A1突击步枪"/>
-    <text key="M4 SOPMODII" name="M4 SOPMODII突击步枪"/>
-    <text key="M4A1 Scope" name="M4A1突击步枪（瞄准镜）"/>
-    <text key="Remington ACR" name="雷明顿ACR突击步枪"/>
-    <text key="Kel-Tec RFB" name="RFB半自动步枪"/>
-    <text key="Kel-Tec RFB" name="RFB半自动步枪"/>
-    <text key="M16A4 Scope" name="M16A4突击步枪（瞄准镜）"/>
-    <text key="M16A4 Scope" name="M16A4突击步枪（瞄准镜）"/>
-    <text key="SR3-MP" name="SR3-MP消音突击步枪"/>
-    <text key="G3A3" name="G3A3半自动步枪"/>
-    <text key="G41" name="G41突击步枪"/>
-    <text key="Desert Tech MDR" name="MDR消音突击步枪"/>
-    <text key="ASH-12.7" name="ASH-12.7突击步枪"/>
-    <text key="M1918A2 BAR" name="BAR自动步枪"/>
-    <text key="FG-42" name="FG-42伞兵机枪"/>
-    <text key="Ribeyrolles" name="利贝罗勒M1908突击步枪"/>
-    <text key="AS VAL" name="AS VAL消音突击步枪"/>
-    <text key="M24-A2" name="M24-A2狙击步枪"/>
-    <text key="PSG-1" name="PSG-1狙击步枪"/>
-    <text key="KSVK" name="KSVK反器材狙击步枪"/>
-    <text key="SCAR-H" name="SCAR-H射手步枪"/>
-    <text key="SCAR-H" name="SCAR-H射手步枪"/>
-    <text key="SSG 3000" name="SSG 3000狙击步枪"/>
-    <text key="SL-8" name="SL-8狙击步枪"/>
-    <text key="M6 Lynx" name="山猫消音狙击步枪"/>
-    <text key="Kar98k" name="卡式98k短卡宾"/>
-    <text key="DSR-50" name="DSR-50反器材狙击步枪"/>
-    <text key="M14" name="M14半自动步枪"/>
-    <text key="Barrett M82A1 HE" name="M82A1反器材狙击步枪"/>
-    <text key="Barrett M82A1" name="M82A1反器材狙击步枪"/>
-    <text key="M99" name="M99反器材狙击步枪"/>
-    <text key="Lee-Enfield" name="李-英菲尔德步枪"/>
-    <text key="NTW 20" name="NTW 20反器材狙击步枪"/>
-    <text key="Super SASS" name="Super SASS消音狙击步枪"/>
-    <text key="Dragunov SVD" name="德拉贡诺夫SVD狙击步枪"/>
-    <text key="WA2000" name="WA2000狙击步枪"/>
-    <text key="SV-98" name="SV-98狙击步枪"/>
-    <text key="M14 EBR" name="M14EBR狙击步枪"/>
-    <text key="M14 EBR" name="M14EBR狙击步枪"/>
-    <text key="Chey Tac M200" name="M200狙击步枪"/>
-    <text key="Chey Tac M200" name="M200狙击步枪"/>
-    <text key="M1 Garand" name="M1加兰德半自动步枪"/>
-    <text key="SSG 69" name="SSG69狙击步枪"/>
-    <text key="G28" name="G28狙击步枪"/>
-    <text key="G28" name="G28狙击步枪"/>
-    <text key="QBU-88" name="88式狙击步枪"/>
-    <text key="Carcano M1891" name="卡尔卡诺M1891步枪"/>
-    <text key="Carcano M1938" name="卡尔卡诺M1938步枪"/>
-    <text key="Gewehr 43" name="G43半自动狙击步枪"/>
-    <text key="Type 4 Rifle" name="四式步枪"/>
-    <text key="Kar1931" name="K31步枪"/>
-    <text key="Mosin Nagant 1891" name="莫辛纳甘M1891步枪"/>
-    <text key="JS 05" name="青岛铁工厂建设05反器材狙击步枪"/>
-    <text key="M1A1 Carbine" name="M1A1卡宾枪"/>
-    <text key="M134 Microgun" name="M134加特林机枪"/>
-    <text key="MG-42" name="MG-42通用机枪"/>
-    <text key="MG-42" name="MG-42通用机枪"/>
-    <text key="M60" name="M60通用机枪"/>
-    <text key="M60" name="M60通用机枪"/>
-    <text key="M240" name="M240通用机枪"/>
-    <text key="M240" name="M240通用机枪"/>
-    <text key="PKM" name="PKM通用机枪"/>
-    <text key="PKM" name="PKM通用机枪"/>
-    <text key="ARES Shrike" name="ARES“伯劳鸟”机枪"/>
-    <text key="ARES Shrike" name="ARES“伯劳鸟”机枪"/>
-    <text key="MG36 LMG" name="MG36轻机枪"/>
-    <text key="AEK-999" name="AEK-999消音机枪"/>
-    <text key="AEK-999" name="AEK-999消音机枪"/>
-    <text key="M2HB" name="老干妈"/>
-    <text key="M2HB" name="老干妈"/>
-    <text key="MG-5" name="MG-5通用机枪"/>
-    <text key="MG-5" name="MG-5通用机枪"/>
-    <text key="IMI Negev" name="内格夫"/>
-    <text key="IMI Negev" name="内格夫"/>
-    <text key="PKP" name="PKP通用机枪"/>
-    <text key="PKP" name="PKP通用机枪"/>
-    <text key="RPD" name="RPD轻机枪"/>
-    <text key="M249" name="M249通用机枪"/>
-    <text key="M249" name="M249通用机枪"/>
-    <text key="MK46" name="MK-46通用机枪"/>
-    <text key="MK46" name="MK-46通用机枪"/>
-    <text key="AAT 52" name="AAT52通用机枪"/>
-    <text key="AAT 52" name="AAT52通用机枪"/>
-    <text key="AMELI" name="阿梅利通用机枪"/>
-    <text key="AMELI" name="阿梅利通用机枪"/>
-    <text key="RPK-16" name="RPK-16轻机枪"/>
-    <text key="DP-28" name="DP-28机枪"/>
-    <text key="DP-28" name="DP-28机枪"/>
-    <text key="M1919 LMG" name="M1919勃朗宁机枪"/>
-    <text key="M1919 LMG" name="M1919勃朗宁机枪"/>
-    <text key="MG-4" name="MG-4通用机枪"/>
-    <text key="MG-4" name="MG-4通用机枪"/>
-    <text key="MK48" name="MK48通用机枪"/>
-    <text key="MK48" name="MK48通用机枪"/>
-    <text key="MG-34" name="MG-34通用机枪"/>
-    <text key="MG-34" name="MG-34通用机枪"/>
-    <text key="QJY-88" name="88式重机枪"/>
-    <text key="QJY-88" name="88式重机枪"/>
-    <text key="MG338" name="MG338中型机枪"/>
-    <text key="MG338" name="MG338中型机枪"/>
-    <text key="AA-12" name="AA-12全自动霰弹枪"/>
-    <text key="Saiga-12" name="Saiga-12霰弹枪"/>
-    <text key="Saiga-12 - Slug" name="Saiga-12霰弹枪"/>
-    <text key="KSG-12" name="KSG-12霰弹枪"/>
-    <text key="SPAS-12" name="SPAS-12霰弹枪"/>
-    <text key="M500[Daydream between classes]" name="M500[课间白日梦]"/>
-    <text key="Liberator" name="“解放者”霰弹枪"/>
-    <text key="Super Shorty" name="超级矮子霰弹枪"/>
-    <text key="USAS-12" name="USAS-12霰弹枪"/>
-    <text key="M1014" name="Benili M4霰弹枪"/>
-    <text key="Mossberg 590" name="M590霰弹枪"/>
-    <text key="Remington M870" name="M870霰弹枪"/>
-    <text key="SAT-8" name="SAT-8霰弹枪"/>
-    <text key="Ithaca 37" name="M37霰弹枪"/>
-    <text key="V-PM5" name="V-PM5霰弹枪"/>
-    <text key="9A-91[Bullets Café]" name="9A-91[子弹咖啡馆]"/>
-    <text key="AMELI[Christmas Tree]" name="阿梅利[买礼物的圣诞树]"/>
-    <text key="AMELI[Christmas Tree]" name="阿梅利[买礼物的圣诞树]"/>
-    <text key="AMELI[Ameli's Catch]" name="阿梅利[阿梅利的接球]"/>
-    <text key="AMELI[Ameli's Catch]" name="阿梅利[阿梅利的接球]"/>
-    <text key="AR-15[Digi-Mind]" name="AR-15[心智改造MOD3]"/>
-    <text key="AR-15[Digi-Mind]" name="AR-15[心智改造MOD3]"/>
-    <text key="ART-556[Lotus White]" name="ART556[莲花白]"/>
-    <text key="ART-556[Lotus White]" name="ART556[莲花白]"/>
-    <text key="Five-seveN[Cruise Queen]" name="FN-57[涡轮女王]"/>
-    <text key="Five-seveN[Smile of Acceptance]" name="FN-57[被接纳的笑容]"/>
-    <text key="FN FAL[Winter Supply Operation]" name="FAL[冬幕补给行动]"/>
-    <text key="FN FAL[Winter Supply Operation]" name="FAL[冬幕补给行动]"/>
-    <text key="FN FAL[FAL's Summer]" name="FAL[FAL的夏天]"/>
-    <text key="FN FAL[FAL's Summer]" name="FAL[FAL的夏天]"/>
-    <text key="FNC[Candy Thief]" name="FNC[偷走重要的糖果]"/>
-    <text key="G3A3[War Pastry Division]" name="G3A3[战地糕点师]"/>
-    <text key="G11[Neet Zombie]" name="G11[僵尸家里蹲]"/>
-    <text key="G36[Bartender]" name="G36[“调酒师”]"/>
-    <text key="Gsh-18[Walking Operating Table]" name="Gsh-18[行走的手术台]"/>
-    <text key="Gsh-18[Walking Operating Table]" name="Gsh-18[行走的手术台]"/>
-    <text key="IDW[Cat In Box]" name="IDW[箱中之猫]"/>
-    <text key="IDW[Digi-Mind]" name="IDW[心智改造MOD3]"/>
-    <text key="KP-31 Suomi" name="索米KP-31冲锋枪"/>
-    <text key="M4 SOPMODII[Digi-Mind]" name="M4 SOPMODII[心智改造MOD3]"/>
-    <text key="M4 SOPMODII-M203" name="M4 SOPMODII[心智改造MOD3]-M203榴弹发射器"/>
-    <text key="M14[Christmas Parade Dress]" name="M14[圣诞巡游礼服]"/>
-    <text key="M99[Rabbit Squad]" name="M99[兔子班]"/>
-    <text key="Colt Revolver[Wish to Stars]" name="柯尔特左轮[直达星星的愿望]"/>
-    <text key="Nagant Revolver[Digi-Mind]" name="莫辛纳甘[心智改造MOD3]"/>
-    <text key="M1911[Digi-Mind]" name="M1911[心智改造MOD3]"/>
-    <text key="M1911[Digi-Mind]" name="M1911[心智改造MOD3]"/>
-    <text key="Mk 23[Impish Sweetheart]" name="MK23[甜心小恶魔]"/>
-    <text key="MP5[Nocturnal Familiar]" name="MP5[暗夜使魔]"/>
-    <text key="MP5[Sleepless Begonias]" name="MP5[花未眠]"/>
-    <text key="MP5[A Small Step]" name="MP5[小小的一步]"/>
-    <text key="MP7[Candy Ammunition]" name="MP7[糖果枪弹]"/>
-    <text key="MP40[Thumbelina]" name="MP40[拇指公主]"/>
-    <text key="MP-446[Stubborn Noise]" name="MP-446[顽劣噪音]"/>
-    <text key="MP-446[Sunflower]" name="MP-446[向日葵]"/>
-    <text key="MP-446[Digi-Mind]" name="MP-446[心智改造MOD3]"/>
-    <text key="MP-446[Digi-Mind]" name="MP-446[心智改造MOD3]"/>
-    <text key="IMI Negev[Little Vagrant]" name="内格夫[小流浪家]"/>
-    <text key="P7[Pinky Swear]" name="P7[掌心约定]"/>
-    <text key="P7[Demonic Gunslinger Nun]" name="P7[魔枪修女]"/>
-    <text key="RFB[Steal Christmas]" name="RFB[RFB偷走圣诞节]"/>
-    <text key="RFB[Steal Christmas]" name="RFB[RFB偷走圣诞节]"/>
-    <text key="SR3-MP[Black rabbit Macchiato]" name="SR3-MP[黑兔玛奇朵]"/>
-    <text key="Super SASS[Wolfwalker]" name="Super SASS[狼行者]"/>
-    <text key="SV-98[Waitress]" name="SV-98[女服务生]"/>
-    <text key="UMP9[Am I Late?]" name="UMP9[我迟到了？]"/>
-    <text key="UMP45[No Next Time]" name="UMP45[下不为例]"/>
-    <text key="UMP45[Digi-Mind]" name="UMP45[心智改造MOD3]"/>
-    <text key="USAS-12[VRAIN Power]" name="USAS-12[VRAIN Power]"/>
-    <text key="WA2000[Haunted Castle]" name="WA2000[古堡历险]"/>
-    <text key="WA2000[Snowy Appointment]" name="WA2000[雪下赴约者]"/>
-    <text key="WA2000[Operation Manta Ray]" name="WA2000[魔鬼鱼行动]"/>
-    <text key="M4A1[Digi-Mind]" name="M4A1[心智改造MOD3]"/>
-    <text key="M99[Rabbit Summer Feast]" name="M99[白兔夏宴]"/>
-    <text key="M99[Cyclamen]" name="M99[仙客来]"/>
-    <text key="L30P[Devil Ring Candy]" name="L30P[恶魔指环糖]"/>
-    <text key="MG-4[Ammo School]" name="MG-4[弹药学园]"/>
-    <text key="MG-4[Ammo School]" name="MG-4[弹药学园]"/>
-    <text key="KRISS Vector[Agent Vector]" name="维克托特工冲锋枪"/>
-    <text key="KRISS-Vector[Neko Punch]" name="维克托[猫猫肉垫]"/>
-    <text key="KRISS-Vector[Hellfire]" name="维克托[地狱火]"/>
-    <text key="KRISS-Vector[Hellfire]" name="维克托[地狱火]"/>
-    <text key="KRISS-Vector[Blind Believer]" name="维克托[盲信者]"/>
-    <text key="HK416[Digi-Mind]" name="HK416[心智改造MOD3]"/>
-    <text key="HK416[Digi-Mind]" name="HK416[心智改造MOD3]"/>
-    <text key="HK416[Agent-416]" name="416特工突击步枪"/>
-    <text key="HK416[Shield of Man Island]" name="HK416[曼岛特工]"/>
-    <text key="KSVK[Walking On The Moon]" name="KSVK[月暗面漫步]"/>
-    <text key="M1918A2 BAR[Bunny Girl]" name="M1918[兔女郎]"/>
-    <text key="M1918A2 BAR[Christmas As You Wish]" name="M1918[如你所愿的圣诞]"/>
-    <text key="ART-556[Chimney Sweeper Girl]" name="ART556[扫烟囱的小姑娘]"/>
-    <text key="P90[Scarlet Turbine]" name="P90[绯红涡轮]"/>
-    <text key="AAC Honey Badger[Princess Christmas And Not Laughing Bette]" name="蜜獾[圣诞公主和不笑贝特]"/>
-    <text key="MG-5[Scarlet Night Watchman]" name="MG-5[绯红守夜人]"/>
-    <text key="MG-5[Scarlet Night Watchman]" name="MG-5[绯红守夜人]"/>
-    <text key="KP-31 Suomi[Snow Goblin Of Ear Mountain]" name="KP-31[耳朵山的雪妖精]"/>
-    <text key="NTW 20[Christmas Deer]" name="NTW 20[圣诞鹿]"/>
-    <text key="Type 100[Treasure Buried In The Bottom Of My Heart]" name="百式[埋入心底的宝藏]"/>
-    <text key="Dragunov SVD[Winter Fairy]" name="SVD[冬日仙女]"/>
-    <text key="Type 95[Yu Linglong]" name="95式[玉玲珑]"/>
-    <text key="Type 95[Yu Linglong]" name="95式[玉玲珑]"/>
-    <text key="Type 97[Peony Kui]" name="97式[牡丹魁]"/>
-    <text key="Type 97[Peony Kui]" name="97式[牡丹魁]"/>
-    <text key="PKP[Qing Zhujin]" name="PKP[青竹林]"/>
-    <text key="DSR-50[Red Peony]" name="DSR-50[红牡丹]"/>
-    <text key="Golden Barrett M82A1" name="黄金巴雷特"/>
-    <text key="SAT-8[Plum Blossom Seal]" name="SAT8[梅花印]"/>
-    <text key="Hanyang Type88[White Comet Bearing Your Wishes]" name="汉阳造88式[纯白流星负愿而行]"/>
-    <text key="Hanyang Type88[White Comet Bearing Your Wishes]" name="汉阳造88式[纯白流星负愿而行]"/>
-    <text key="Hanyang Type88[Maid Gang's Midnight Radio]" name="汉阳造88式[女仆团的狂飙午夜]"/>
-    <text key="HK416[Midnight Evagelion]" name="HK416[子夜福音]"/>
-    <text key="AA-12[Smokeless Lollipop]" name="AA-12[无烟棒棒糖]"/>
-    <text key="AA-12[Smokeless Lollipop]" name="AA-12[无烟棒棒糖]"/>
-    <text key="UMP9[Digi-Mind]" name="UMP9[心智改造MOD3]"/>
-    <text key="SV-98[Digi-Mind]" name="SV-98[心智改造MOD3]"/>
-    <text key="SV-98[Digi-Mind]" name="SV-98[心智改造MOD3]"/>
-    <text key="RO635[Digi-Mind]" name="RO635[心智改造MOD3]"/>
-    <text key="RO635[Digi-Mind]" name="RO635[心智改造MOD3]"/>
-    <text key="mini UZI[Digi-Mind]" name="迷你乌兹[心智改造MOD3]"/>
-    <text key="Mosin Nagant 1891" name="莫辛纳甘M1891步枪"/>
-    <text key="Super SASS[Digi-Mind]" name="Super SASS[心智改造MOD3]"/>
-    <text key="Super SASS[Digi-Mind]" name="Super SASS[心智改造MOD3]"/>
-    <text key="MG-4[Digi-Mind]" name="MG-4[心智改造MOD3]"/>
-    <text key="MG-4[Digi-Mind]" name="MG-4[心智改造MOD3]"/>
-    <text key="MG-4[Survival Club Member]" name="MG-4[生存社员]"/>
-    <text key="MG-4[Survival Club Member]" name="MG-4[生存社员]"/>
-    <text key="AN-94[The Diving Bell and the Doll]" name="AN-94[潜水钟与人偶]"/>
-    <text key="AN-94[The Diving Bell and the Doll]" name="AN-94[潜水钟与人偶]"/>
-    <text key="G36C[Red Beret]" name="G36C[红色贝雷帽]"/>
-    <text key="G36C[Red Beret]" name="G36C[红色贝雷帽]"/>
-    <text key="MG36[Blue Dragon Stands Above Sector 07]" name="MG36[苍龙屹立S07区之上]"/>
-    <text key="MG36[Blue Dragon Stands Above Sector 07]" name="MG36[苍龙屹立S07区之上]"/>
-    <text key="QBU-88[Morning Au Lait]" name="QBU-88[晨光欧蕾]"/>
-    <text key="ZB-26[Cape of Fluttering Dreams]" name="ZB-26[旖梦之隅]"/>
-    <text key="ZB-26[Cape of Fluttering Dreams]" name="ZB-26[旖梦之隅]"/>
-    <text key="MDR[webfriend]" name="MDR[网友]"/>
-    <text key="QLU-11" name="QLU-11狙击榴弹发射器"/>
-    <text key="Ace Of Spades" name="黑桃A"/>
-    <text key="Exusiai" name="能天使"/>
-    <text key="Exusiai" name="能天使"/>
-    <text key="M.E.M.O.R.I.Z.E.D." name="M.E.M.O.R.I.Z.E.D."/>
-    <text key="M.E.M.O.R.I.Z.E.D." name="M.E.M.O.R.I.Z.E.D."/>
-    <text key="M79 incendiary grenade launcher" name="M79火焰弹发射器"/>
-    <text key="Dragunov SVDM" name="SVDM狙击步枪"/>
-    <text key="Dragunov SVDM" name="SVDM狙击步枪"/>
-    <text key="SCAR-SC" name="SCAR短版突击步枪"/>
-    <text key="SCAR-SC" name="SCAR短版突击步枪"/>
-    <text key="Barrett MK22" name="巴雷特 MK22狙击步枪"/>
-    <text key="Barrett MK22" name="巴雷特 MK22狙击步枪"/>
-    <text key="Z.E.R.O." name="Z.E.R.O."/>
-    <text key="X-Flash Shield" name="X-Flash闪光盾"/>
-    <text key="Squall" name="号啕"/>
-    <text key="Javelin, anti-personnel" name="反步兵标枪导弹发射器"/>
-    <text key="Compound Bow" name="复合弓"/>
-    <text key="Compound Bow, explosive" name="复合弓"/>
-    <text key="RWM Mortar" name="RWM 50mm便携迫击炮"/>
-    <text key="Blowgun" name="吹箭"/>
-    <text key="Chain Saw" name="油锯"/>
-    <text key="Zweihander" name="双手巨剑"/>
-    <text key="luxurious sea lord" name="咸鱼剑"/>
-    <text key="AGS-30 GL" name="AGS-30自动榴弹发射器"/>
-    <text key="AGS-30 GL" name="AGS-30自动榴弹发射器"/>
-    <text key="TAC-50[HeavyScouter]" name="TAC-50[重装斥候HS]"/>
-    <text key="TAC-50[HeavyScouter]" name="TAC-50[重装斥候HS]"/>
-    <text key="Aek-971[Ghost Camoflague]" name="Aek-971[幽灵伪装GC]"/>
-    <text key="Aek-971[Ghost Camoflague]" name="Aek-971[幽灵伪装GC]"/>
-    <text key="M200 [Slenderman]" name="M200[细长鬼影SM]"/>
-    <text key="MG-4[Tactical Defender]" name="MG-4[战术防御TD]"/>
-    <text key="MG-4[Tactical Defender]" name="MG-4[战术防御TD]"/>
-    <text key="M4A1[Digi-Mind]" name="M4A1[心智改造MOD3]"/>
-    <text key="AR-15[Digi-Mind]" name="AR-15[心智改造MOD3]"/>
-    <text key="AR-15[Digi-Mind]" name="AR-15[心智改造MOD3]"/>
-    <text key="M4 SOPMODII[Digi-Mind]" name="M4 SOPMODII[心智改造MOD3]"/>
-    <text key="M4 SOPMODII-M203" name="M4 SOPMODII[心智改造MOD3]M203榴弹发射器"/>
-    <text key="Super SASS[Digi-Mind]" name="Super SASS[心智改造MOD3]"/>
-    <text key="Super SASS[Digi-Mind]" name="Super SASS[心智改造MOD3]"/>
-    <text key="AA-12[EV]" name="AA-12[EV]"/>
-    <text key="AA-12[EV]" name="AA-12[EV]"/>
-    <text key="PF-98[EV]" name="PF-98[EV]"/>
-    <text key="TKB-059[EV]" name="TKB-059[EV]"/>
-    <text key="Super SASS[EV]" name="Super SASS[EV]"/>
-    <text key="Super SASS[EV]" name="Super SASS[EV]"/>
-    <text key="Ripper-3" name="切割者"/>
-    <text key="S.F.Standard Assault Rifle" name="胡蜂SWAP"/>
-    <text key="S.F.Standard Sniper Rifle" name="猎鸥SWAP"/>
-    <text key="Striker 2000" name="痛击者SWAP"/>
-    <text key="Prowler Mortar" name="劫豹"/>
-    <text key="Scout SMG" name="侦查者"/>
-    <text key="Goliath" name="歌莉娅"/>
-    <text key="Ripper-SWAP" name="切割者SWAP"/>
-    <text key="S.F.SWAP Assault Rifle" name="胡蜂SWAP"/>
-    <text key="S.F.SWAP Sniper Rifle" name="猎鸥SWAP"/>
-    <text key="Striker 2000 SWAP" name="痛击者SWAP"/>
-    <text key="Executioner" name="刽子手"/>
-    <text key="Executioner" name="刽子手"/>
-    <text key="Scarecrow" name="稻草人"/>
-    <text key="Medikit" name="医疗包"/>
-    <text key="Trauma Kit" name="高级快速医疗包"/>
-    <text key="riot shield" name="防爆盾"/>
-    <text key="riot shield" name="防爆盾"/>
-    <text key="large wrench" name="大扳手"/>
-    <text key="Binoculars" name="望远镜"/>
-    <text key="Vest Repair Kit" name="背心修复包"/>
-    <text key="Cover deploy" name="掩体部署包"/>
-    <text key="MG deploy" name="重机枪部署包"/>
-    <text key="MiniGun deploy" name="加特林机枪部署包"/>
-    <text key="GL Deploy" name="榴弹发射器部署包"/>
-    <text key="Hornet deploy" name="悍马载具烟"/>
-    <text key="Mortar deploy" name="迫击炮部署包"/>
-    <text key="MH-53 deploy" name="MH-53载具烟"/>
-    <text key="UH-60 deploy" name="UH-60载具烟"/>
-    <text key="Vengeance Fire Support Platform" name="Vengeance火力支援系统"/>
-    <text key="AK103" name="AK103突击步枪"/>
-    <text key="M1903 Springfield" name="M1903春田步枪（刺刀）"/>
-    <text key="M1903 Springfield" name="M1903春田步枪（刺刀）"/>
-    <text key="AK-Alfa Defy" name="AK-α 忤逆"/>
-    <text key="AK-Alfa Defy" name="AK-α 忤逆"/>
-    <text key="Cerynitis" name=" 牝鹿"/>
-    <text key="Cerynitis broken" name=" 牝鹿"/>
-    <text key="Compound Bow" name="复合弓"/>
-    <text key="Compound Bow, explosive" name="复合弓[爆炸]"/>
-    <text key="Compound Bow (incendiary)" name="复合弓"/>
-    <text key="Hydra II" name="九头蛇II型"/>
-    <text key="Hydra II" name="九头蛇II型"/>
-    <text key="Hydra II" name="九头蛇II型"/>
-    <text key="Defibrillator" name="除颤器"/>
-    <text key="Welding torch" name="焊枪"/>
-    <text key="Reaper's Scythe" name="死神之镰"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="AGS-30 Mobile GL" name="AGS-30自动榴弹发射器"/>
-    <text key="Pathfinder" name="尖兵"/>
-    <text key="Dactyl" name="指灵"/>
-    <text key="AEK-971" name="AEK-971突击步枪"/>
-    <text key="TAC-50" name="TAC-50反器材狙击步枪"/>
-    <text key="dragoon" name="龙骑兵"/>
-    <text key="orthrus" name="欧特鲁斯"/>
-    <text key="Aegis" name="圣盾"/>
-    <text key="Aegis" name="圣盾"/>
-    <text key="Aegis" name="圣盾"/>
-    <text key="Aegis" name="圣盾"/>
-    <text key="Ant" name="兵蚁"/>
-    <text key="AA-02" name="AA-02机甲"/>
-    <text key="AA-02 MG" name="AA-02机甲机枪"/>
-    <text key="AA02S-HGPlasma" name="AA02S负罪者机甲激光"/>
-    <text key="AA02S-MG" name="AA02S负罪者机甲机枪"/>
-    <text key="AA02S-MSL" name="AA02S负罪者机甲导弹"/>
-    <text key="AA02S-Wyvern" name="AA02S负罪者机甲火炮"/>
-    <text key="Ant" name="兵蚁"/>
-    <text key="Dog Comfort" name="RO兵蚁舔舔"/>
-    <text key="Orga Pistol" name="奥尔加团长的手枪"/>
-    <text key="Power of 45 Steel" name="45姐之力！"/>
-    <text key="Amamiya Kokoro" name="阿喵喵"/>
-    <text key="Universe Destroyer" name="宇宙毁灭者"/>
-    <text key="MDR[KURO]" name="MDR[库洛]"/>
-    <text key="KURO[KEYBOARD]" name="MDR[库洛]"/>
-    <text key="LTLX7000" name="LTLX7000霰弹枪"/>
-    <text key="LTLX7000" name="LTLX7000霰弹枪"/>
-    <text key="OTS-12" name="OTS-12突击步枪"/>
-    <text key="OTs-14" name="OTS-12消音突击步枪"/>
-    <text key="ZB-26" name="ZB-26轻机枪"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Banner" name="旗帜"/>
-    <text key="Xmas tree" name="圣诞树"/>
-    <text key="Xmas bamboo" name="圣诞竹子"/>
-    <text key="SEELE" name="希尔"/>
-    <text key="AA-12[Never Rising Sun]" name="AA-12[太阳永不升起]"/>
-    <text key="AA-12[Never Rising Sun]" name="AA-12[太阳永不升起]"/>
-    <text key="LVOA-C" name="LVOA-C突击步枪"/>
-    <text key="QTS-11" name="QTS-11突击步枪"/>
-    <text key="QTS-11" name="QTS-11突击步枪"/>
-    <text key="QTS-11" name="QTS-11突击步枪"/>
-    <text key="M1915 Chauchat" name="“邵沙”轻机枪"/>
-    <text key="M1915 Chauchat" name="“邵沙”轻机枪"/>
-    <text key="QLT-89" name="QTS-89 50mm单兵掷弹筒"/>
-    <text key="IWS2000" name="IWS2000反坦克步枪"/>
-    <text key="IWS2000" name="IWS2000反坦克步枪"/>
-    <text key="QBZ 191" name="QBZ191突击步枪"/>
-    <text key="QBZ191[Trust]" name="QBZ191突击步枪"/>
-    <text key="JS-09[Kerria's Intimacy]" name="JS-09[棣棠卿]"/>
-    <text key="JS-09" name="JS-09"/>
-    <text key="CS/LR4" name="CS/LR4狙击步枪"/>
-    <text key="PF-89 80mm" name="PF-89 80mm火箭筒"/>
-    <text key="G11[Digi-Mind]" name="G11[心智改造MOD3]"/>
-    <text key="G11[Digi-Mind]" name="G11[心智改造MOD3]"/>
-    <text key="M200[Slient Killing]" name="M200[无声杀戮SK]"/>
-    <text key="M200[Slient Killing]" name="M200[无声杀戮SK]"/>
-    <text key="G41[Beach Punk 2077]" name="G41[沙滩朋克2077]"/>
-    <text key="G41[Beach Punk 2077]" name="G41[沙滩朋克2077]"/>
-    <text key="Williams .22 SMG" name="威廉姆斯.22冲锋枪"/>
-    <text key="Lewis[Warmth of the Wintersweet]" name="刘易斯机枪[迎寒客]"/>
-    <text key="VEX" name="VEX外骨骼机炮系统"/>
-    <text key="targetdrone" name="嘲讽靶机"/>
-    <text key="RX1 Railgun[AP]" name="RX1 轨道炮"/>
-    <text key="RX1 Railgun[Charge]" name="RX1 轨道炮"/>
-    <text key="M16A5" name="M16A5多用途步枪"/>
-    <text key="M16A5.308" name="M16A5多用途步枪"/>
-    <text key="M16A5_GL" name="M16A5多用途步枪"/>
-    <text key="MP5K" name="MP5K双持冲锋枪"/>
+	<text key="default" text="默认" />
+	<text key="Radar Tank HMG" text="雷达坦克机炮" />
+	<text key="Vulcan HMG" text="火神机炮" />
+	<text key="mortar shell" text="迫击炮弹" />
+	<text key="artillery shell" text="炮弹" />
+	<text key="Naval mine" text="水雷" />
+	<text key="tracer dart" text="定位信标" />
+    <text key="Tracer dart missile" text="指引导弹"/>  
+	<text key="tracer missile" text="地狱火导弹" />
+	<text key="flamethrower" text="火焰喷射器" />
+	<text key="propane" text="喷枪自爆"/>
+	<text key="incendiary grenade sublayer" text="燃烧区域" />
+	<text key="molotov sublayer" text="燃烧区域" />
+	<text key="Lightning" text="闪电" />
+	<text key="DF-11 ROCKET" text="DF-11导弹" />
+    <text key="MG" text="机枪"/>
+    <text key=".50 cal" text=".50机枪"/>
+    <text key="NOXE rocket" text="NOXE火箭弹"/>
+    <text key="Tank cannon" text="坦克主炮"/>
+	<text key="TOW" text="“陶”式反坦克导弹" />
+    <text key="APC HMG" text="步战车重机枪"/>
+    <text key="Buggy MG" text="巡逻车载机枪"/>
+    <text key="ZJX-19/XE MG" text="40mm ZJX-19机枪"/>
+    <text key="M528 HMG" text="M528重机枪"/>
+    <text key="M528 AP" text="M528-人员杀伤导弹"/>
+    <text key="Minigun" text="加特林机枪"/>
+    <text key="FT-CROC MG" text="FT-CROC车载机枪"/>
+    <text key="rocket" text="火箭弹"/>
+    <text key="Grenade Launcher" text="榴弹发射器"/>
+    <text key="D40mm-Flak-proto" text="40mm实验型防空炮"/>
+    <text key="Missile launcher" text="导弹发射架"/>
+    <text key="MG-3" text="车载MG-3机枪"/>
+    <text key="Humvee MG" text="悍马车载机枪"/>
+    <text key="M240" text="M240通用机枪"/>
+    <text key="AAV7 MG" text="AAV7机枪"/>
+    <text key="PS Mortar" text="巡逻艇火箭弹"/>
+    <text key="SEV-90 40mm" text="SEV-90 40mm战车炮"/>
+    <text key="Mustela Mk20" text="MK-20射手步枪"/>
+    <text key="ACAV minigun" text="ACAV车载加特林机枪"/>
+    <text key="Repair crane" text="机械维修臂"/>
+    <text key="Hornet" text="“黄蜂”导弹发射器"/>
+    <text key="Mortar" text="迫击炮"/>
+    <text key="2A82-1M" text="125mm 2A82-1M坦克炮"/>
+    <text key="M2HB" text="M2HB重机枪"/>
+    <text key="Legion MG" text="百夫长车顶机枪"/>
+    <text key="AAV7 GL" text="AAV7车载榴弹发射器"/>
+    <text key="Tank MG" text="坦克机枪"/>
+    <text key="D40mm-Flak" text="40mm防空炮"/>
+    <text key="23mm-Flak" text="23mm防空炮"/>
+    <text key="165mm HESH" text="165mm HESH线膛炮"/>
+    <text key="2A82-1M" text="125mm 2A82-1M坦克主炮"/>
+    <text key=".50" text=".50机枪"/>
+    <text key="14.5mm" text="14.5mm机枪"/>
+    <text key=".30" text=".30机枪"/>
+    <text key="CV-90 40mm" text="CV-90 40mm 机炮"/>
+    <text key="100mm" text="100mm炮"/>
+    <text key="30,," text="30mm机炮"/>
+    <text key="2A72 30mm autocannon" text="豹2A72 30mm机炮"/>
+    <text key="AK47" text="AK47突击步枪"/>
+    <text key="AK47-GP25" text="AK47-GP25榴弹发射器"/>
+    <text key="Stoner LMG" text="Stoner轻机枪"/>
+    <text key="MK-17 SD" text="MK-17射手步枪"/>
+    <text key="SMAW" text="SMAW火箭筒"/>
+    <text key="Mk153 SMAW" text="SMAW火箭筒"/>
+    <text key="RPG-7" text="RPG-7火箭筒"/>
+    <text key="RPG-32" text="RPG-32火箭筒"/>
+    <text key="PF-98" text="PF-98 XN1 120mm火箭筒"/>
+    <text key="M72 LAW" text="M72轻型火箭筒"/>
+    <text key="M202 flash" text="M202“闪光”火箭发射器"/>
+    <text key="Javelin" text="“标枪”反坦克导弹发射器"/>
+    <text key="AT4 LAW" text="AT4轻型火箭筒"/>
+    <text key="M2 Carl Gustav" text="M2 84mm火箭发射器"/>
+    <text key="MK153[SMAW 83mm]" text="MK153“毒刺”导弹发射器"/>
+    <text key="Milkor MGL" text="Milkor榴弹发射器"/>
+    <text key="RGM-40" text="RGM-40榴弹发射器"/>
+    <text key="PAW-20" text="PAW-20榴弹发射器"/>
+    <text key="M320 LCS" text="M320轻型榴弹发射器"/>
+    <text key="gm 94 grenade launcher" text="GM-94榴弹发射器"/>
+    <text key="XM-25" text="XM-25空爆弹发射器"/>
+    <text key="m79 grenade launcher" text="M79榴弹发射器"/>
+    <text key="HG Supply Box Deploy" text="手枪补给箱部署包"/>
+    <text key="SMG Supply Box Deploy" text="冲锋枪补给箱部署包"/>
+    <text key="AR Supply Box Deploy" text="突击步枪补给箱部署包"/>
+    <text key="RF Supply Box Deploy" text="步枪补给箱部署包"/>
+    <text key="MG Supply Box Deploy" text="机枪补给箱部署包"/>
+    <text key="SG Supply Box Deploy" text="霰弹枪补给箱部署包"/>
+    <text key="SS Supply Box Deploy" text="军械库补给箱部署包"/>
+    <text key="T-Doll Repair Kit" text="人形修复许可"/>
+    <text key="T-Doll Emergency Reactivate Device" text="快速修复许可"/>
+    <text key="Quick Restoration Contract" text="人形激活装置"/>
+    <text key="Repair crane deploy" text="机械维修臂部署包"/>
+    <text key="Claymore" text="M18阔剑地雷"/>
+    <text key="Redflag" text="红旗"/>
+    <text key="Desert Eagle" text="沙漠之鹰"/>
+    <text key="Desert Eagle GOLD" text="黄金沙漠之鹰"/>
+    <text key="G18C" text="G18自动手枪"/>
+    <text key="tracer" text="信标枪"/>
+    <text key="taser" text="泰瑟枪"/>
+    <text key="PMM" text="PMM手枪"/>
+    <text key="Skorpion" text="蝎式冲锋枪"/>
+    <text key="AEK-919k" text="AEK-919K冲锋枪"/>
+    <text key="Beretta 93R" text="贝雷塔93R手枪"/>
+    <text key="Glock 17" text="格洛克17型手枪"/>
+    <text key="L30P" text="L30P手枪"/>
+    <text key="Colt Revolver" text="柯尔特左轮"/>
+    <text key="M9" text="M9手枪"/>
+    <text key="C96" text="C96手枪"/>
+    <text key="Five-seveN" text="57式手枪"/>
+    <text key="Nagant Revolver" text="纳甘左轮"/>
+    <text key="M1911" text="M1911手枪"/>
+    <text key="MP-446" text="MP-446手枪"/>
+    <text key="P7" text="P7手枪"/>
+    <text key="P226" text="P226手枪"/>
+    <text key="Gsh-18" text="GSH-18手枪"/>
+    <text key="Mk 23" text="MK23手枪"/>
+    <text key="Bren Ten" text="布伦-坦手枪"/>
+    <text key="M17" text="M17手枪"/>
+    <text key="HS2000" text="HS2000手枪"/>
+    <text key="QSB-91" text="QSB-91匕首手枪"/>
+    <text key="P90" text="P90冲锋枪"/>
+    <text key="CF-05" text="CF-05冲锋枪"/>
+    <text key="Steyr TMP" text="TMP冲锋枪"/>
+    <text key="KRISS-Vector" text="维克托冲锋枪"/>
+    <text key="UMP40" text="UMP40冲锋枪"/>
+    <text key="MX4 Storm" text="MX4“风暴”冲锋枪"/>
+    <text key="PP-19 Bizon" text="PP-19“野牛”冲锋枪"/>
+    <text key="UMP45" text="UMP45冲锋枪"/>
+    <text key="UMP9" text="UMP9冲锋枪"/>
+    <text key="Type 100" text="百式冲锋枪"/>
+    <text key="MP5" text="MP5冲锋枪"/>
+    <text key="MP40" text="MP40冲锋枪"/>
+    <text key="MP7" text="MP7冲锋枪"/>
+    <text key="IDW" text="IDW微声冲锋枪"/>
+    <text key="KAC-PDW" text="KAC-PDW冲锋枪"/>
+    <text key="PPSh-41" text="PPSH-41冲锋枪"/>
+    <text key="RO635" text="RO635冲锋枪"/>
+    <text key="mini UZI" text="迷你乌兹冲锋枪"/>
+    <text key="CB-JMS" text="CB-JMS冲锋枪"/>
+    <text key="AUG-PARA" text="AUG伞兵版冲锋枪"/>
+    <text key="StG 44" text="StG44突击步枪"/>
+    <text key="MP5KA4" text="MP5KA4微声冲锋枪"/>
+    <text key="TYPE 79" text="79式特战冲锋枪改"/>
+    <text key="M3 'Greasegun'" text="M3黄油枪"/>
+    <text key="PPSH 43" text="PPS-43冲锋枪"/>
+    <text key="AKS-74U" text="AKS-74U卡宾枪"/>
+    <text key="G36" text="G36突击步枪"/>
+    <text key="F2000" text="F2000突击步枪"/>
+    <text key="L85A2" text="L85A2突击步枪"/>
+    <text key="SIG 556" text="SIG 556突击步枪"/>
+    <text key="XM8" text="XM8突击步枪"/>
+    <text key="AAC Honey Badger" text="“蜜獾”消音突击步枪"/>
+    <text key="FN FAL - bayonet" text="FN FAL突击步枪（刺刀）"/>
+    <text key="FN FAL" text="FN FAL突击步枪"/>
+    <text key="TKB-059" text="TKB-059三管突击步枪"/>
+    <text key="Golden AK47" text="黄金AK47"/>
+    <text key="AK74M" text="AK74M突击步枪"/>
+    <text key="AK74M - bayonet" text="AK74M突击步枪（刺刀）"/>
+    <text key="AKM" text="AKM突击步枪"/>
+    <text key="AKM-GP25" text="AKM突击步枪-GP25榴弹发射器"/>
+    <text key="Type 95" text="95式突击步枪"/>
+    <text key="Type 97" text="97式突击步枪"/>
+    <text key="9A-91" text="9A-91突击步枪"/>
+    <text key="AK-12" text="AK-12突击步枪"/>
+    <text key="AN-94" text="AN-94突击步枪"/>
+    <text key="FAMAS G1" text="法玛斯G1突击步枪"/>
+    <text key="AR-15 - silencer and scope" text="AR-15(消音器+瞄准镜）"/>
+    <text key="ART-556" text="ART-556突击步枪"/>
+    <text key="ARX-160" text="ARX-160突击步枪"/>
+    <text key="AUG" text="AUG突击步枪"/>
+    <text key="VHS-K21" text="VHS突击步枪"/>
+    <text key="FNC" text="FNC突击步枪"/>
+    <text key="G11" text="G11突击步枪"/>
+    <text key="G36C" text="G36C突击步枪"/>
+    <text key="G36C-M320" text="G36C突击步枪-M320榴弹发射器"/>
+    <text key="HK416" text="HK416突击步枪"/>
+    <text key="M16A1" text="M16A1突击步枪"/>
+    <text key="M4 SOPMODII" text="M4 SOPMODII突击步枪"/>
+    <text key="M4A1 Scope" text="M4A1突击步枪（瞄准镜）"/>
+    <text key="Remington ACR" text="雷明顿ACR突击步枪"/>
+    <text key="Kel-Tec RFB" text="RFB半自动步枪"/>
+    <text key="M16A4 Scope" text="M16A4突击步枪（瞄准镜）"/>
+    <text key="SR3-MP" text="SR3-MP消音突击步枪"/>
+    <text key="G3A3" text="G3A3半自动步枪"/>
+    <text key="G41" text="G41突击步枪"/>
+    <text key="Desert Tech MDR" text="MDR消音突击步枪"/>
+    <text key="ASH-12.7" text="ASH-12.7突击步枪"/>
+    <text key="M1918A2 BAR" text="BAR自动步枪"/>
+    <text key="FG-42" text="FG-42伞兵机枪"/>
+    <text key="Ribeyrolles" text="利贝罗勒M1908突击步枪"/>
+    <text key="AS VAL" text="AS VAL消音突击步枪"/>
+    <text key="M24-A2" text="M24-A2狙击步枪"/>
+    <text key="PSG-1" text="PSG-1狙击步枪"/>
+    <text key="KSVK" text="KSVK反器材步枪"/>
+    <text key="SCAR-H" text="SCAR-H射手步枪"/>
+    <text key="SSG 3000" text="SSG 3000狙击步枪"/>
+    <text key="SL-8" text="SL-8狙击步枪"/>
+    <text key="M6 Lynx" text="GM6“山猫”消音狙击步枪"/>
+    <text key="Kar98k" text="卡式98k短卡宾"/>
+    <text key="DSR-50" text="DSR-50反器材步枪"/>
+    <text key="M14" text="M14半自动步枪"/>
+    <text key="Barrett M82A1 HE" text="M82A1反器材步枪（高爆弹）"/>
+    <text key="Barrett M82A1" text="M82A1反器材步枪"/>
+    <text key="M99" text="M99反器材步枪"/>
+    <text key="Lee-Enfield" text="李-英菲尔德步枪"/>
+    <text key="NTW 20" text="NTW 20反器材步枪"/>
+    <text key="Super SASS" text="Super SASS消音狙击步枪"/>
+    <text key="Dragunov SVD" text="德拉贡诺夫SVD狙击步枪"/>
+    <text key="WA2000" text="WA2000狙击步枪"/>
+    <text key="SV-98" text="SV-98狙击步枪"/>
+    <text key="M14 EBR" text="M14EBR精确射手步枪"/>
+    <text key="Chey Tac M200" text="M200狙击步枪"/>
+    <text key="M1 Garand" text="M1加兰德半自动步枪"/>
+    <text key="SSG 69" text="SSG69狙击步枪"/>
+    <text key="G28" text="G28射手步枪"/>
+    <text key="QBU-88" text="88式狙击步枪"/>
+    <text key="Carcano M1891" text="卡尔卡诺M1891步枪"/>
+    <text key="Carcano M1938" text="卡尔卡诺M1938步枪"/>
+    <text key="Gewehr 43" text="G43半自动狙击步枪"/>
+    <text key="Type 4 Rifle" text="四式步枪"/>
+    <text key="Kar1931" text="K31步枪"/>
+    <text key="Mosin Nagant 1891" text="莫辛纳甘M1891步枪"/>
+    <text key="JS 05" text="建设05反器材步枪"/>
+    <text key="M1A1 Carbine" text="M1A1卡宾枪"/>
+    <text key="M134 Microgun" text="M134加特林机枪"/>
+    <text key="MG-42" text="MG-42通用机枪"/>
+    <text key="M60" text="M60通用机枪"/>
+    <text key="M240" text="M240通用机枪"/>
+    <text key="PKM" text="PKM通用机枪"/>
+    <text key="ARES Shrike" text="ARES“伯劳鸟”轻机枪"/>
+    <text key="MG36 LMG" text="MG36轻机枪"/>
+    <text key="AEK-999" text="AEK-999消音机枪"/>
+    <text key="MG-5" text="MG-5通用机枪"/>
+    <text key="IMI Negev" text="内格夫轻机枪"/>
+    <text key="PKP" text="PKP通用机枪"/>
+    <text key="RPD" text="RPD轻机枪"/>
+    <text key="M249" text="M249通用机枪"/>
+    <text key="MK46" text="MK46通用机枪"/>
+    <text key="AAT 52" text="AAT 52通用机枪"/>
+    <text key="AMELI" text="阿梅利通用机枪"/>
+    <text key="RPK-16" text="RPK-16轻机枪"/>
+    <text key="DP-28" text="DP-28机枪"/>
+    <text key="M1919 LMG" text="M1919勃朗宁机枪"/>
+    <text key="MG-4" text="MG-4通用机枪"/>
+    <text key="MK48" text="MK48通用机枪"/>
+    <text key="MG-34" text="MG-34通用机枪"/>
+    <text key="QJY-88" text="88式重机枪"/>
+    <text key="MG338" text="MG338中口径机枪"/>
+    <text key="AA-12" text="AA-12全自动霰弹枪"/>
+    <text key="Saiga-12" text="Saiga-12霰弹枪"/>
+    <text key="Saiga-12 - Slug" text="Saiga-12霰弹枪（独头弹）"/>
+    <text key="KSG-12" text="KSG-12霰弹枪"/>
+    <text key="SPAS-12" text="SPAS-12霰弹枪"/>
+    <text key="M500[Daydream between classes]" text="M500[课间白日梦]"/>
+    <text key="Liberator" text="“解放者”霰弹枪"/>
+    <text key="Super Shorty" text="“超级矮子”霰弹枪"/>
+    <text key="USAS-12" text="USAS-12霰弹枪"/>
+    <text key="M1014" text="Benili M4霰弹枪"/>
+    <text key="Mossberg 590" text="M590霰弹枪"/>
+    <text key="Remington M870" text="M870霰弹枪"/>
+    <text key="SAT-8" text="SAT-8霰弹枪"/>
+    <text key="Ithaca 37" text="M37霰弹枪"/>
+    <text key="V-PM5" text="V-PM5霰弹枪"/>
+    <text key="9A-91[Bullets Café]" text="9A-91[子弹咖啡馆]"/>
+    <text key="AMELI[Christmas Tree]" text="阿梅利[卖礼物的圣诞树]"/>
+    <text key="AMELI[Ameli's Catch]" text="阿梅利[阿梅利的接球]"/>
+    <text key="AR-15[Digi-Mind]" text="AR-15[心智改造MOD3]"/>
+    <text key="ART-556[Lotus White]" text="ART556[莲花白]"/>
+    <text key="Five-seveN[Cruise Queen]" text="FN-57[游轮女王]"/>
+    <text key="Five-seveN[Smile of Acceptance]" text="FN-57[被接纳的笑容]"/>
+    <text key="FN FAL[Winter Supply Operation]" text="FAL[冬幕补给行动]"/>
+    <text key="FN FAL[FAL's Summer]" text="FAL[FAL的夏天]"/>
+    <text key="FNC[Candy Thief]" text="FNC[偷走重要的糖果]"/>
+    <text key="G3A3[War Pastry Division]" text="G3A3[战地糕点师]"/>
+    <text key="G11[Neet Zombie]" text="G11[僵尸家里蹲]"/>
+    <text key="G36[Bartender]" text="G36[调酒师]"/>
+    <text key="Gsh-18[Walking Operating Table]" text="Gsh-18[行走的手术台]"/>
+    <text key="IDW[Cat In Box]" text="IDW[箱中之猫]"/>
+    <text key="IDW[Digi-Mind]" text="IDW[心智改造MOD3]"/>
+    <text key="KP-31 Suomi" text="索米KP-31冲锋枪"/>
+    <text key="M14[Christmas Parade Dress]" text="M14[圣诞巡游礼服]"/>
+    <text key="M99[Rabbit Squad]" text="M99[兔子班]"/>
+    <text key="Colt Revolver[Wish to Stars]" text="柯尔特左轮[直达星星的愿望]"/>
+    <text key="Nagant Revolver[Digi-Mind]" text="纳甘左轮[心智改造MOD3]"/>
+    <text key="M1911[Digi-Mind]" text="M1911[心智改造MOD3]"/>
+    <text key="Mk 23[Impish Sweetheart]" text="MK23[甜心小恶魔]"/>
+    <text key="MP5[Nocturnal Familiar]" text="MP5[暗夜使魔]"/>
+    <text key="MP5[Sleepless Begonias]" text="MP5[花未眠]"/>
+    <text key="MP5[A Small Step]" text="MP5[小小的一步]"/>
+    <text key="MP7[Candy Ammunition]" text="MP7[糖果枪弹]"/>
+    <text key="MP40[Thumbelina]" text="MP40[拇指公主]"/>
+    <text key="MP-446[Stubborn Noise]" text="MP-446[顽劣噪音]"/>
+    <text key="MP-446[Sunflower]" text="MP-446[向日葵]"/>
+    <text key="MP-446[Digi-Mind]" text="MP-446[心智改造MOD3]"/>
+    <text key="IMI Negev[Little Vagrant]" text="内格夫[小流浪家]"/>
+    <text key="P7[Pinky Swear]" text="P7[掌心约定]"/>
+    <text key="P7[Demonic Gunslinger Nun]" text="P7[魔枪修女]"/>
+    <text key="RFB[Steal Christmas]" text="RFB[RFB偷走圣诞节]"/>
+    <text key="SR3-MP[Black rabbit Macchiato]" text="SR3-MP[黑兔玛奇朵]"/>
+    <text key="Super SASS[Wolfwalker]" text="Super SASS[狼行者]"/>
+    <text key="SV-98[Waitress]" text="SV-98[女服务生]"/>
+    <text key="UMP9[Am I Late?]" text="UMP9[我迟到了？]"/>
+    <text key="UMP45[No Next Time]" text="UMP45[下不为例]"/>
+    <text key="UMP45[Digi-Mind]" text="UMP45[心智改造MOD3]"/>
+    <text key="USAS-12[VRAIN Power]" text="USAS-12[VRAIN Power]"/>
+    <text key="WA2000[Haunted Castle]" text="WA2000[古堡历险]"/>
+    <text key="WA2000[Snowy Appointment]" text="WA2000[雪下赴约者]"/>
+    <text key="WA2000[Operation Manta Ray]" text="WA2000[魔鬼鱼行动]"/>
+    <text key="M99[Rabbit Summer Feast]" text="M99[白兔夏宴]"/>
+    <text key="M99[Cyclamen]" text="M99[仙客来]"/>
+    <text key="L30P[Devil Ring Candy]" text="L30P[恶魔指环糖]"/>
+    <text key="MG-4[Ammo School]" text="MG-4[弹药学园]"/>
+    <text key="KRISS Vector[Agent Vector]" text="维克托特工冲锋枪"/>
+    <text key="KRISS-Vector[Neko Punch]" text="维克托[猫猫肉垫]"/>
+    <text key="KRISS-Vector[Hellfire]" text="维克托[地狱火]"/>
+    <text key="KRISS-Vector[Blind Believer]" text="维克托[盲信者]"/>
+    <text key="HK416[Digi-Mind]" text="HK416[心智改造MOD3]"/>
+    <text key="HK416[Agent-416]" text="416特工突击步枪"/>
+    <text key="HK416[Shield of Man Island]" text="HK416[曼岛特工]"/>
+    <text key="KSVK[Walking On The Moon]" text="KSVK[月暗面漫步]"/>
+    <text key="M1918A2 BAR[Bunny Girl]" text="M1918[兔女郎]"/>
+    <text key="M1918A2 BAR[Christmas As You Wish]" text="M1918[如你所愿的圣诞]"/>
+    <text key="ART-556[Chimney Sweeper Girl]" text="ART556[扫烟囱的小姑娘]"/>
+    <text key="P90[Scarlet Turbine]" text="P90[绯红涡轮]"/>
+    <text key="AAC Honey Badger[Princess Christmas And Not Laughing Bette]" text="蜜獾[圣诞公主和不笑贝特]"/>
+    <text key="MG-5[Scarlet Night Watchman]" text="MG-5[绯红守夜人]"/>
+    <text key="KP-31 Suomi[Snow Goblin Of Ear Mountain]" text="KP-31[耳朵山的雪妖精]"/>
+    <text key="NTW 20[Christmas Deer]" text="NTW 20[圣诞鹿]"/>
+    <text key="Type 100[Treasure Buried In The Bottom Of My Heart]" text="百式[埋入心底的宝藏]"/>
+    <text key="Dragunov SVD[Winter Fairy]" text="SVD[冬日仙女]"/>
+    <text key="Type 95[Yu Linglong]" text="95式[玉玲珑]"/>
+    <text key="Type 97[Peony Kui]" text="97式[牡丹魁]"/>
+    <text key="PKP[Qing Zhujin]" text="PKP[青竹矜]"/>
+    <text key="DSR-50[Red Peony]" text="DSR-50[红牡丹]"/>
+    <text key="Golden Barrett M82A1" text="黄金巴雷特M82A1"/>
+    <text key="SAT-8[Plum Blossom Seal]" text="SAT-8[梅花印]"/>
+    <text key="Hanyang Type88[White Comet Bearing Your Wishes]" text="汉阳造88式[纯白流星负愿而行]"/>
+    <text key="Hanyang Type88[Maid Gang's Midnight Radio]" text="汉阳造88式[女仆团的狂飙午夜]"/>
+    <text key="HK416[Midnight Evagelion]" text="HK416[子夜福音]"/>
+    <text key="AA-12[Smokeless Lollipop]" text="AA-12[无烟棒棒糖]"/>
+    <text key="UMP9[Digi-Mind]" text="UMP9[心智改造MOD3]"/>
+    <text key="SV-98[Digi-Mind]" text="SV-98[心智改造MOD3]"/>
+    <text key="RO635[Digi-Mind]" text="RO635[心智改造MOD3]"/>
+    <text key="mini UZI[Digi-Mind]" text="迷你乌兹[心智改造MOD3]"/>
+    <text key="Super SASS[Digi-Mind]" text="Super SASS[心智改造MOD3]"/>
+    <text key="MG-4[Digi-Mind]" text="MG-4[心智改造MOD3]"/>
+    <text key="MG-4[Survival Club Member]" text="MG-4[生存社员]"/>
+    <text key="AN-94[The Diving Bell and the Doll]" text="AN-94[潜水钟与人偶]"/>
+    <text key="G36C[Red Beret]" text="G36C[红色贝雷帽]"/>
+    <text key="MG36[Blue Dragon Stands Above Sector 07]" text="MG36[苍龙屹立S07区之上]"/>
+    <text key="QBU-88[Morning Au Lait]" text="QBU-88[晨光欧蕾]"/>
+    <text key="ZB-26[Cape of Fluttering Dreams]" text="ZB-26[旖梦之隅]"/>
+    <text key="MDR[webfriend]" text="MDR[网络友人]"/>
+    <text key="QLU-11" text="QLU-11狙击榴弹发射器"/>
+    <text key="Ace Of Spades" text="黑桃ACE"/>
+    <text key="Exusiai" text="维克托[能天使]"/>
+    <text key="M.E.M.O.R.I.Z.E.D." text="M.E.M.O.R.I.Z.E.D."/>
+    <text key="M79 incendiary grenade launcher" text="M79燃烧榴弹发射器"/>
+    <text key="Dragunov SVDM" text="SVDM狙击步枪"/>
+    <text key="SCAR-SC" text="SCAR短版突击步枪"/>
+    <text key="Barrett MK22" text="巴雷特 MK22狙击步枪"/>
+    <text key="Z.E.R.O." text="Z.E.R.O."/>
+    <text key="X-Flash Shield" text="X-Flash闪光盾牌"/>
+    <text key="Squall" text="“咆哮者”金属风暴系统" />
+    <text key="Javelin, anti-personnel" text="“标枪”反步兵导弹发射器"/>
+    <text key="Compound Bow" text="复合弓"/>
+    <text key="Compound Bow, explosive" text="复合弓[爆炸]"/>
+    <text key="RWM Mortar" text="RWM 50mm便携迫击炮"/>
+    <text key="Blowgun" text="吹箭"/>
+    <text key="Chain Saw" text="油锯"/>
+    <text key="Zweihander" text="双手巨剑"/>
+    <text key="luxurious sea lord" text="衔珠海皇"/>
+    <text key="AGS-30 GL" text="AGS-30自动榴弹发射器"/>
+    <text key="TAC-50[HeavyScouter]" text="TAC-50[重装斥候HS]"/>
+    <text key="Aek-971[Ghost Camoflague]" text="Aek-971[幽灵伪装GC]"/>
+    <text key="M200 [Slenderman]" text="M200[细长鬼影SM]"/>
+    <text key="MG-4[Tactical Defender]" text="MG-4[战术防御TD]"/>
+    <text key="M4A1[Digi-Mind]" text="M4A1[心智改造MOD3]"/>
+    <text key="AR-15[Digi-Mind]" text="AR-15[心智改造MOD3]"/>
+    <text key="M4 SOPMODII[Digi-Mind]" text="M4 SOPMODII[心智改造MOD3]"/>
+    <text key="M4 SOPMODII-M203" text="M4 SOPMODII[心智改造MOD3]M203榴弹发射器"/>
+    <text key="Super SASS[Digi-Mind]" text="Super SASS[心智改造MOD3]"/>
+    <text key="AA-12[EV]" text="AA-12[EV]"/>
+    <text key="PF-98[EV]" text="PF-98[EV]"/>
+    <text key="TKB-059[EV]" text="TKB-059[EV]"/>
+    <text key="Super SASS[EV]" text="Super SASS[EV]"/>
+    <text key="Ripper-3" text="切割者"/>
+    <text key="S.F.Standard Assault Rifle" text="胡蜂"/>
+    <text key="S.F.Standard Sniper Rifle" text="猎鸥"/>
+    <text key="Striker 2000" text="痛击者"/>
+    <text key="Prowler Mortar" text="劫豹"/>
+    <text key="Scout SMG" text="侦查者"/>
+    <text key="Goliath" text="歌莉娅"/>
+    <text key="Ripper-SWAP" text="切割者SWAP"/>
+    <text key="S.F.SWAP Assault Rifle" text="胡蜂SWAP"/>
+    <text key="S.F.SWAP Sniper Rifle" text="猎鸥SWAP"/>
+    <text key="Striker 2000 SWAP" text="痛击者SWAP"/>
+    <text key="Executioner" text="刽子手"/>
+    <text key="Scarecrow" text="稻草人"/>
+    <text key="Medikit" text="医疗包"/>
+    <text key="Trauma Kit" text="高级快速医疗包"/>
+    <text key="riot shield" text="防暴盾"/>
+    <text key="wrench" text="维修扳手"/>
+    <text key="large wrench" text="大扳手"/>
+    <text key="Binoculars" text="望远镜"/>
+    <text key="Vest Repair Kit" text="背心修复包"/>
+    <text key="Cover deploy" text="掩体部署包"/>
+    <text key="MG deploy" text="重机枪部署包"/>
+    <text key="MiniGun deploy" text="加特林机枪部署包"/>
+    <text key="GL Deploy" text="榴弹发射器部署包"/>
+    <text key="Hornet deploy" text="“黄蜂”导弹发射器部署包"/>
+    <text key="Mortar deploy" text="迫击炮部署包"/>
+	<text key="TOW deploy" text="“陶”式反坦克导弹部署包"/>
+    <text key="MH-53 deploy" text="MH-53信标"/>
+    <text key="UH-60 deploy" text="UH-60信标"/>
+    <text key="Vengeance Fire Support Platform" text="Vengeance火力支援系统"/>
+    <text key="AK103" text="AK103突击步枪"/>
+    <text key="M1903 Springfield" text="M1903春田步枪"/>
+    <text key="AK-Alfa Defy" text="AK-α Defy突击步枪"/>
+    <text key="Cerynitis" text="牝鹿"/>
+    <text key="Cerynitis broken" text="牝鹿"/>
+    <text key="Compound Bow" text="复合弓"/>
+    <text key="Compound Bow, explosive" text="复合弓[爆炸]"/>
+    <text key="Compound Bow (incendiary)" text="复合弓[燃烧]"/>
+    <text key="Hydra II" text="九头蛇II型"/>
+    <text key="Defibrillator" text="电复律机"/>
+    <text key="Welding torch" text="焊枪"/>
+    <text key="Reaper's Scythe" text="死神之镰"/>
+    <text key="Banner" text="旗帜"/>
+    <text key="AGS-30 Mobile GL" text="AGS-30自动榴弹发射器"/>
+    <text key="Pathfinder" text="尖兵"/>
+    <text key="Dactyl" text="指灵"/>
+    <text key="AEK-971" text="AEK-971突击步枪"/>
+    <text key="TAC-50" text="TAC-50消音反器材步枪"/>
+    <text key="dragoon" text="龙骑兵"/>
+    <text key="orthrus" text="欧特鲁斯"/>
+    <text key="Aegis" text="圣盾"/>
+    <text key="Ant" text="兵蚁"/>
+    <text key="AA-02" text="AA-02主炮"/>
+    <text key="AA-02 MG" text="AA-02机枪"/>
+    <text key="AA02S-HGPlasma" text="AA02S离子机炮"/>
+    <text key="AA02S-MG" text="AA02S机枪"/>
+    <text key="AA02S-MSL" text="AA02S导弹"/>
+    <text key="AA02S-Wyvern" text="AA02S主炮"/>
+    <text key="Dog Comfort" text="狗狗舔舔"/>
+    <text key="Orga Pistol" text="奥尔加团长的手枪"/>
+    <text key="Power of 45 Steel" text="45姐之力！"/>
+    <text key="Amamiya Kokoro" text="维克托[阿喵喵]"/>
+    <text key="Universe Destroyer" text="宇宙毁灭者"/>
+    <text key="MDR[KURO]" text="MDR[KURO]"/>
+    <text key="KURO[KEYBOARD]" text="MDR[KURO]"/>
+    <text key="LTLX7000" text="LTLX7000霰弹枪"/>
+    <text key="OTS-12" text="OTS-12突击步枪"/>
+    <text key="OTs-14" text="OTS-14消音突击步枪"/>
+    <text key="ZB-26" text="ZB-26轻机枪"/>
+    <text key="Xmas tree" text="圣诞树"/>
+    <text key="Xmas bamboo" text="圣诞斗笠树"/>
+    <text key="SEELE" text="“希尔”双管霰弹枪"/>
+    <text key="AA-12[Never Rising Sun]" text="AA-12[太阳永不升起]"/>
+    <text key="LVOA-C" text="LVOA-C突击步枪"/>
+    <text key="QTS-11" text="QTS-11单兵作战系统"/>
+    <text key="M1915 Chauchat" text="M1915“邵沙”轻机枪"/>
+    <text key="QLT-89" text="QLT-89 50mm单兵掷弹筒"/>
+    <text key="IWS2000" text="IWS2000反器材步枪"/>
+    <text key="QBZ 191" text="QBZ191突击步枪"/>
+    <text key="QBZ191" text="QBZ191[信赖]"/>
+    <text key="QBZ191[Trust]" text="QBZ191[信赖]"/>
+    <text key="JS-09[Kerria's Intimacy]" text="JS-09[棣棠卿]"/>
+    <text key="JS-09" text="JS-09冲锋枪"/>
+    <text key="CS/LR4" text="CS/LR4狙击步枪"/>
+    <text key="PF-89 80mm" text="PF-89 80mm火箭筒"/>
+    <text key="G11[Digi-Mind]" text="G11[心智改造MOD3]"/>
+    <text key="M200[Slient Killing]" text="M200[无声杀戮SK]"/>
+    <text key="G41[Beach Punk 2077]" text="G41[沙滩朋克2077]"/>
+    <text key="Williams .22 SMG" text="威廉姆斯.22冲锋枪"/>
+    <text key="Lewis[Warmth of the Wintersweet]" text="刘易斯[迎寒客]"/>
+    <text key="VEX" text="VEX外骨骼机炮系统"/>
+    <text key="targetdrone" text="嘲讽靶机"/>
+    <text key="RX1 Railgun[AP]" text="RX1轨道炮[AP]"/>
+    <text key="RX1 Railgun[Charge]" text="RX1轨道炮[充能]"/>
+    <text key="M16A5" text="M16A5多用途步枪"/>
+    <text key="M16A5.308" text="M16A5多用途步枪（.308模式）"/>
+    <text key="M16A5_GL" text="M16A5多用途步枪（榴弹模式）"/>
+    <text key="MP5K" text="MP5K双持冲锋枪"/>
+    <text key="TOZ-81" text="TOZ-81左轮霰弹枪" />
+    <text key="ST MG0 " text="ST MG0机枪" />
+    <text key="ST MG0" text="ST MG0机枪" />
+    <text key="Rumbler" text="Rumbler三联装榴弹炮" />
+    <text key="Rumbler[Consume]" text="Rumbler消耗型三联装榴炮" />
+    <text key="M4A1[Fox of Green Hill - Assault Mode]" text="M4A1[青丘狐-突击模式]" />
+    <text key="M4A1[Fox of Green Hill - Annihilated Mode]" text="M4A1[青丘狐-湮灭模式]" />
+    <text key="GM6 Lynx (AP)" text="GM6“山猫”反器材步枪" />
+    <text key="Chain SAW" text="“链锯”消音机枪" />
 </translation>
