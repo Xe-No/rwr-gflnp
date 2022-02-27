@@ -202,7 +202,7 @@ class StageConfiguratorInvasion : StageConfigurator {
     addStage(setupStage6());          // map5
 	addStage(setupRoberto());          
 	addStage(setupClairemont());   
-	addStage(setupFinalStage2());     // map12
+	// addStage(setupFinalStage2());     // map12
 	addStage(setupStage19());
     addStage(setupStage11());         // map13
 	}

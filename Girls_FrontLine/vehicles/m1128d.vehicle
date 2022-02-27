@@ -14,7 +14,7 @@
 	<physics max_health="12.0" blast_damage_threshold="0.6" mass="100.0" extent="2.4 0.0 4" offset="0 0.0 0" top_offset="0 5.6 0" collision_model_pos="0 1.125 0.32" collision_model_extent="2.72 2.25 8.0" visual_offset="0 0.2 0" /> 
 	<modifier class="blast_damage" value="-0.3" />
 
-	0<turret offset="0.07 2.28 -0.48" weapon_key="tank_cannon.weapon" weapon_offset="-0.0 0.6 5.3" weapon_recoil="0" max_rotation_step="0.0001" />
+	0<turret offset="0.07 2.28 -0.48" weapon_key="m1128d_cannon.weapon" weapon_offset="-0.0 0.6 5.3" weapon_recoil="0" max_rotation_step="0.0001" />
 	1<turret offset="0.07 2.28 -0.48" weapon_key="vmg.50ap.weapon" weapon_offset="0.5 0.8 0.1" weapon_recoil="0" max_rotation_step="0.0001" />
 	2<turret offset="0 0 0" weapon_key="none.weapon" parent_turret_index="0" />
 
