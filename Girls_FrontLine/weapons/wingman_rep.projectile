@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="REPS grenade" slot="1" pulldown_in_air="28.0" key="wingman_rep.projectile">
+<projectile class="grenade" name="REPS grenade" slot="1" pulldown_in_air="12.0" key="wingman_rep.projectile">
     <tag name="grenade"/>
     <result class="notify_script" key="repair_grenade" />
-    <trigger class="impact" />
+        <collision class="sticky"/>    
+        <trigger class="time" time_to_live="0.5"/>
     <rotation class="motion" />
     <model mesh_filename="mgl_flasher_projectile.xml" />
 

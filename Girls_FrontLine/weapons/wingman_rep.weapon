@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="wingman_rep.weapon"  drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="1" time_to_live_out_in_the_open="90.0" >
+<weapon file="base_primary_rare.weapon" key="wingman_rep.weapon" >
     <tag name="gl" />
 
     <specification 
@@ -21,7 +21,7 @@
 slot="1"/>
 
     <!--     <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="30.0" randomness="0.0" />    -->
-    <ballistics curve_height="3.0" near_far_distance="10.0" speed_estimation_near="55.0" speed_estimation_far="35.0" max_speed="37.0" randomness="0.0" tweak_factor="2.2" />  
+    <ballistics curve_height="1.0" near_far_distance="10.0" speed_estimation_near="75.0" speed_estimation_far="75.0" max_speed="75.0" randomness="0.0" tweak_factor="4.5" />  
     <!-- <ballistics curve_height="4.0" near_far_distance="10.0" speed_estimation_near="20.0" max_speed="160.0" randomness="0.0" />   -->
     <!-- <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="100.0" randomness="0.0" /> -->
 
