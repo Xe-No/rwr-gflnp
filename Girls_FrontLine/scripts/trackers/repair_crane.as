@@ -60,8 +60,8 @@ class RepairCrane : Tracker {
 			rpReward = 0;
 			xpReward = 0.0;
 		} else if (key == "repair_grenade") {
-			range = 5.0;
-			repairValue = 0.8;
+			range = 5.4;
+			repairValue = 1.6;
 			overHealth = 1.0;
 			y_offset = 0.0;
 			rpReward = 0;
