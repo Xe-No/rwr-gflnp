@@ -28,7 +28,7 @@ class HealG: Tracker {
 			range = 4.0;
 			count = 1;
 			xpReward = 0.0001;
-			rpReward = 1;
+			rpReward = 0;
 		}else if (key == "heal_tower") {
 			range = 20.0;
 			count = 3;
