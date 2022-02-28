@@ -114,7 +114,7 @@
     <text key="P226" text="P226手枪"/>
     <text key="Gsh-18" text="GSH-18手枪"/>
     <text key="Mk 23" text="MK23手枪"/>
-    <text key="Bren Ten" text="布伦-坦手枪"/>
+    <text key="Bren Ten" text="Bren Ten手枪"/>
     <text key="M17" text="M17手枪"/>
     <text key="HS2000" text="HS2000手枪"/>
     <text key="QSB-91" text="QSB-91匕首手枪"/>
@@ -163,7 +163,7 @@
     <text key="9A-91" text="9A-91突击步枪"/>
     <text key="AK-12" text="AK-12突击步枪"/>
     <text key="AN-94" text="AN-94突击步枪"/>
-    <text key="FAMAS G1" text="法玛斯G1突击步枪"/>
+    <text key="FAMAS G1" text="FAMAS G1突击步枪"/>
     <text key="AR-15 - silencer and scope" text="AR-15(消音器+瞄准镜）"/>
     <text key="ART-556" text="ART-556突击步枪"/>
     <text key="ARX-160" text="ARX-160突击步枪"/>
@@ -192,11 +192,11 @@
     <text key="M24-A2" text="M24-A2狙击步枪"/>
     <text key="PSG-1" text="PSG-1狙击步枪"/>
     <text key="KSVK" text="KSVK反器材步枪"/>
-    <text key="SCAR-H" text="SCAR-H射手步枪"/>
+    <text key="SCAR-H" text="SCAR-H精确射手步枪"/>
     <text key="SSG 3000" text="SSG 3000狙击步枪"/>
     <text key="SL-8" text="SL-8狙击步枪"/>
     <text key="M6 Lynx" text="GM6“山猫”消音狙击步枪"/>
-    <text key="Kar98k" text="卡式98k短卡宾"/>
+    <text key="Kar98k" text="Kar98k短卡宾枪"/>
     <text key="DSR-50" text="DSR-50反器材步枪"/>
     <text key="M14" text="M14半自动步枪"/>
     <text key="Barrett M82A1 HE" text="M82A1反器材步枪（高爆弹）"/>
@@ -316,7 +316,7 @@
     <text key="KRISS-Vector[Blind Believer]" text="维克托[盲信者]"/>
     <text key="HK416[Digi-Mind]" text="HK416[心智改造MOD3]"/>
     <text key="HK416[Agent-416]" text="416特工突击步枪"/>
-    <text key="HK416[Shield of Man Island]" text="HK416[曼岛特工]"/>
+    <text key="HK416[Shield of Man Island]" text="HK416[曼岛之盾]"/>
     <text key="KSVK[Walking On The Moon]" text="KSVK[月暗面漫步]"/>
     <text key="M1918A2 BAR[Bunny Girl]" text="M1918[兔女郎]"/>
     <text key="M1918A2 BAR[Christmas As You Wish]" text="M1918[如你所愿的圣诞]"/>
@@ -380,6 +380,8 @@
     <text key="M4 SOPMODII[Digi-Mind]" text="M4 SOPMODII[心智改造MOD3]"/>
     <text key="M4 SOPMODII-M203" text="M4 SOPMODII[心智改造MOD3]M203榴弹发射器"/>
     <text key="Super SASS[Digi-Mind]" text="Super SASS[心智改造MOD3]"/>
+	<text key="PB" text="PB 6P9微声手枪"/>
+	<text key="Sawn-Off Shotgun" text="截短霰弹枪"/>
     <text key="AA-12[EV]" text="AA-12[EV]"/>
     <text key="PF-98[EV]" text="PF-98[EV]"/>
     <text key="TKB-059[EV]" text="TKB-059[EV]"/>
@@ -400,6 +402,8 @@
     <text key="Medikit" text="医疗包"/>
     <text key="Trauma Kit" text="高级快速医疗包"/>
     <text key="riot shield" text="防暴盾"/>
+    <text key="riot shield 100%" text="防暴盾 100%"/>
+    <text key="riot shield 50%" text="防暴盾 50%"/>
     <text key="wrench" text="维修扳手"/>
     <text key="large wrench" text="大扳手"/>
     <text key="Binoculars" text="望远镜"/>
@@ -435,6 +439,8 @@
     <text key="dragoon" text="龙骑兵"/>
     <text key="orthrus" text="欧特鲁斯"/>
     <text key="Aegis" text="圣盾"/>
+    <text key="aegis shield 100%" text="圣盾 100%"/>
+    <text key="aegis shield 50%" text="圣盾 50%"/>
     <text key="Ant" text="兵蚁"/>
     <text key="AA-02" text="AA-02主炮"/>
     <text key="AA-02 MG" text="AA-02机枪"/>
@@ -491,4 +497,20 @@
     <text key="M4A1[Fox of Green Hill - Annihilated Mode]" text="M4A1[青丘狐-湮灭模式]" />
     <text key="GM6 Lynx (AP)" text="GM6“山猫”反器材步枪" />
     <text key="Chain SAW" text="“链锯”消音机枪" />
+    <text key="Kord" text="KORD重机枪" />
+    <text key="Thunder.50BMG" text="雷电.50手枪" />
+    <text key="Thunder.50BMG[Dream of the Black Swan]" text="雷电.50[黑天鹅的梦]" />
+    <text key="M4A1[pink glass heart]" text="M4A1[粉红玻璃心]" />
+    <text key="AK-15" text="AK-15突击步枪" />
+    <text key="RPL-20" text="RPL-20轻机枪" />
+    <text key="ebr800" text="EBR-800狙击步枪" />
+    <text key="ebr800-ar" text="EBR-800突击步枪" />
+    <text key="AN-94[Digi-Mind]" text="AN-94[心智改造MOD3]" />
+    <text key="AK-12[Silent Cyan]" text="AK-12[静寂苍蓝]" />
+    <text key="Kat's Heir Apparent" text="Kat指定继承者" />
+    <text key="'China Lake' Grenade Launcher" text="中国湖泵动式榴弹发射器" />
+    <text key="XM177" text="XM177短突击步枪" />
+    <text key="M4 SOPMODII [Birdsong in the Woods]" text="M4 SOPMODII[深林鸣音]" />
+    <text key="Wingman-MED" text="小帮手修复榴弹发射器" />
+    <text key="Wingman-REP" text="小帮手维修榴弹发射器" />
 </translation>
