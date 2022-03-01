@@ -53,7 +53,7 @@
     <text key=".50" text=".50机枪"/>
     <text key="14.5mm" text="14.5mm机枪"/>
     <text key=".30" text=".30机枪"/>
-    <text key="CV-90 40mm" text="CV-90 40mm 机炮"/>
+    <text key="CV-90 40mm" text="CV-90 40mm机炮"/>
     <text key="100mm" text="100mm炮"/>
     <text key="30,," text="30mm机炮"/>
     <text key="2A72 30mm autocannon" text="豹2A72 30mm机炮"/>
@@ -87,8 +87,8 @@
     <text key="SG Supply Box Deploy" text="霰弹枪补给箱部署包"/>
     <text key="SS Supply Box Deploy" text="军械库补给箱部署包"/>
     <text key="T-Doll Repair Kit" text="人形修复许可"/>
-    <text key="T-Doll Emergency Reactivate Device" text="快速修复许可"/>
-    <text key="Quick Restoration Contract" text="人形激活装置"/>
+    <text key="T-Doll Emergency Reactivate Device" text="人形激活装置"/>
+    <text key="Quick Restoration Contract" text="快速修复许可"/>
     <text key="Repair crane deploy" text="机械维修臂部署包"/>
     <text key="Claymore" text="M18阔剑地雷"/>
     <text key="Redflag" text="红旗"/>
@@ -106,7 +106,7 @@
     <text key="Colt Revolver" text="柯尔特左轮"/>
     <text key="M9" text="M9手枪"/>
     <text key="C96" text="C96手枪"/>
-    <text key="Five-seveN" text="57式手枪"/>
+    <text key="Five-seveN" text="FN-57手枪"/>
     <text key="Nagant Revolver" text="纳甘左轮"/>
     <text key="M1911" text="M1911手枪"/>
     <text key="MP-446" text="MP-446手枪"/>
@@ -185,7 +185,7 @@
     <text key="G41" text="G41突击步枪"/>
     <text key="Desert Tech MDR" text="MDR消音突击步枪"/>
     <text key="ASH-12.7" text="ASH-12.7突击步枪"/>
-    <text key="M1918A2 BAR" text="BAR自动步枪"/>
+    <text key="M1918A2 BAR" text="M1918A2“勃朗宁”自动步枪"/>
     <text key="FG-42" text="FG-42伞兵机枪"/>
     <text key="Ribeyrolles" text="利贝罗勒M1908突击步枪"/>
     <text key="AS VAL" text="AS VAL消音突击步枪"/>
@@ -277,7 +277,7 @@
     <text key="Gsh-18[Walking Operating Table]" text="Gsh-18[行走的手术台]"/>
     <text key="IDW[Cat In Box]" text="IDW[箱中之猫]"/>
     <text key="IDW[Digi-Mind]" text="IDW[心智改造MOD3]"/>
-    <text key="KP-31 Suomi" text="索米KP-31冲锋枪"/>
+    <text key="KP-31 Suomi" text="KP-31索米冲锋枪"/>
     <text key="M14[Christmas Parade Dress]" text="M14[圣诞巡游礼服]"/>
     <text key="M99[Rabbit Squad]" text="M99[兔子班]"/>
     <text key="Colt Revolver[Wish to Stars]" text="柯尔特左轮[直达星星的愿望]"/>
@@ -363,8 +363,6 @@
     <text key="X-Flash Shield" text="X-Flash闪光盾牌"/>
     <text key="Squall" text="“咆哮者”金属风暴系统" />
     <text key="Javelin, anti-personnel" text="“标枪”反步兵导弹发射器"/>
-    <text key="Compound Bow" text="复合弓"/>
-    <text key="Compound Bow, explosive" text="复合弓[爆炸]"/>
     <text key="RWM Mortar" text="RWM 50mm便携迫击炮"/>
     <text key="Blowgun" text="吹箭"/>
     <text key="Chain Saw" text="油锯"/>
@@ -431,7 +429,7 @@
     <text key="Welding torch" text="焊枪"/>
     <text key="Reaper's Scythe" text="死神之镰"/>
     <text key="Banner" text="旗帜"/>
-    <text key="AGS-30 Mobile GL" text="AGS-30自动榴弹发射器"/>
+    <text key="AGS-30 Mobile GL" text="AGS-30便携自动榴弹发射器"/>
     <text key="Pathfinder" text="尖兵"/>
     <text key="Dactyl" text="指灵"/>
     <text key="AEK-971" text="AEK-971突击步枪"/>
