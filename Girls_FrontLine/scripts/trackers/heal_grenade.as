@@ -26,8 +26,8 @@ class HealG: Tracker {
 
 		if (key == "heal_grenade") {
 			range = 4.0;
-			count = 1;
-			xpReward = 0.0001;
+			count = 2;
+			xpReward = 0.0002;
 			rpReward = 0;
 		}else if (key == "heal_tower") {
 			range = 20.0;
