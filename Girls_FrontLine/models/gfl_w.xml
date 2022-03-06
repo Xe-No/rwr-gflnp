@@ -509,6 +509,30 @@ RE
 <weapon file="ew_rumbler.weapon" />
 <weapon file="ew_rumbler_consume.weapon" />
 
+<weapon file="gw_kord.weapon" />
+<weapon file="gw_kord_n.weapon" />
+<weapon file="gw_thunder50.weapon" />
+<weapon file="gw_m4a1_pinkglassheart.weapon" />
+<weapon file="gw_ak15.weapon" />
+<weapon file="ew_rpl20.weapon" />
+<weapon file="gw_ebr800.weapon" />
+<weapon file="gw_ebr800_ar.weapon" />
+<weapon file="gw_an94mod.weapon" />
+<weapon file="gw_an94mod_s.weapon" />
+<weapon file="gw_ak12_3302_sl.weapon" />
+<weapon file="gw_ak12_3302.weapon" />
+<weapon file="ew_heir_apparent.weapon" />
+<weapon file="gw_thunder50_3309.weapon" />
+<weapon file="china_lake.weapon" />
+<weapon file="xm177e1.weapon" />
+<weapon file="xm177e2.weapon" />
+<weapon file="gw_m4_sopmod_ii_551.weapon" />
+<weapon file="gw_m4_sopmod_ii_551_snip.weapon" />
+<weapon file="wingman_med.weapon" />
+<weapon file="wingman_rep.weapon" />
+
+
+
 
   <weapon file="banner_santa.weapon">  
     <commonness value="0.0" in_stock="0" />  

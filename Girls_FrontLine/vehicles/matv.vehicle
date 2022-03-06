@@ -8,14 +8,15 @@
 
 	<control max_speed="23.0" acceleration="6.5" max_reverse_speed="7.0" min_health_to_steer="0.12" max_rotation="0.7" max_water_depth="1.0" steer_smoothening="0.8" />
 
-	<physics max_health="7.0" mass="4.0" extent="2.5 0.0 4.82" offset="0 0.0 0" top_offset="0 3.2 0" collision_model_pos="0 0.5 0.0" collision_model_extent="3 1.28 8" visual_offset="0 0.04 -0.0" preserve_motion_on_impact_factor="1.0" gravity="-40" friction_offset="0.0" drag_offset="-0.15" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6" /> 
+	<physics max_health="7.0" mass="10.0" remove_collision_threshold="0.2" extent="2.5 0.0 4.82" offset="0 0.0 0" top_offset="0 3.2 0" collision_model_pos="0 0.5 0.0" collision_model_extent="3 1.28 8" visual_offset="0 0.04 -0.0" preserve_motion_on_impact_factor="1.0" gravity="-40" friction_offset="0.0" drag_offset="-0.15" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6" /> 
 
 	<turret offset="0 3.38 0" weapon_key="vmg.30.weapon" weapon_offset="0 0.5 0.9" weapon_recoil="0" max_rotation_step="0.0001" rotation_range="1.4"/>
 	
 	<!-- Bare-bones Oshkosh MATV by Carissa is licensed under Creative Commons Attribution-ShareAlike -->
 	<visual class="chassis" mesh_filename="matv_body.mesh" texture_filename="matv.png" />
 	<visual class="turret" mesh_filename="matv_turret.mesh" texture_filename="m1126_mg.png" />
-	
+	<visual class="chassis" key="broken" mesh_filename="matv_body.mesh" texture_filename="matv.png" />
+	<visual class="turret" key="broken" mesh_filename="matv_turret.mesh" texture_filename="m1126_mg.png" />
 	<!-- <visual class="chassis" key="broken" mesh_filename="matv_body.mesh" texture_filename="matv_broken.png" /> -->
 	
 	<!-- <visual class="turret" key="broken" mesh_filename="matv_turret.mesh" texture_filename="m1126_mg.png" /> -->

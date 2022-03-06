@@ -203,5 +203,6 @@
 	<vehicle file="xmastree_st.vehicle" />
 
 	<vehicle file="assembly_table.vehicle" />
+	<vehicle file="m1128d.vehicle" /> 
 
 </vehicles>
