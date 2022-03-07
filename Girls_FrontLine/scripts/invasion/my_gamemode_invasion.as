@@ -13,7 +13,7 @@
 #include "server_tracker.as"
 #include "factory_spawner.as"
 // #include "mixer.as"
-#include "heal_grenade.as"
+
 
 
 
@@ -54,7 +54,6 @@ class MyGameModeInvasion : GameModeInvasion {
 		addTracker(ServerTracker(this));
 		addTracker(FactorySpawner(this));
 		// addTracker(Mixer(this));
-		addTracker(HealG(this));
 	}
 	
 	protected void setupCallMarkers() {

@@ -24,10 +24,10 @@ class RepairCrane : Tracker {
 		//the amount of health points added each repair cycle
 		float repairValue = 0.0;
 		//overrepair percentage
-		float overHealth;	
+		float overHealth = 1.0;	
 		
 		//vertical offset for repair position
-		float y_offset;
+		float y_offset = 0.0;
 		
 		//xp reward for the repairer each repair cycle
 		float xpReward = 0.0004;
@@ -35,7 +35,8 @@ class RepairCrane : Tracker {
 		uint rpReward = 5;
 		
 		//checking if the event was triggered by a repair projectile
-		string key = event.getStringAttribute("key");		
+		string key = event.getStringAttribute("key");	
+		int count = 0;
 		
 		if (key == "repair_crane") {
 			range = 3.5;
@@ -66,16 +67,23 @@ class RepairCrane : Tracker {
 			y_offset = 0.0;
 			rpReward = 0;
 			xpReward = 0.0;
+		} else if (key == "heal_grenade") {
+			range = 4.0;
+			count = 2;
+			xpReward = 0.0001;
+			rpReward = 0;
 		}
 		
 		if (repairValue > 0.0) {
 			//extracting the repairer's id
 			int repairerId = event.getIntAttribute("character_id");
+			const XmlElement@ repairer = getCharacterInfo(m_metagame, repairerId);
+			int factionId = repairer.getIntAttribute("faction_id");
 		
 			//extracting the repair position
 			Vector3 repairPos = stringToVector3(event.getStringAttribute("position"));
 			repairPos = Vector3(repairPos.get_opIndex(0), repairPos.get_opIndex(1) + y_offset, repairPos.get_opIndex(2));
-
+			array<const XmlElement@>@ characters = getCharactersNearPosition(m_metagame, repairPos, factionId, range);
 			//checking for all factions, including neutral
 			for (uint f = 0; f < 4; ++f){
 				//custom query, collects all vehicles of a faction
@@ -134,5 +142,41 @@ class RepairCrane : Tracker {
 				}
 			}
 		}
+		if (count > 0) {
+			//extracting the healer's id,faction
+			int healerId = event.getIntAttribute("character_id");
+			const XmlElement@ healer = getCharacterInfo(m_metagame, healerId);
+			int factionId = healer.getIntAttribute("faction_id");
+			//extracting the heal position
+			Vector3 healPos = stringToVector3(event.getStringAttribute("position"));
+			//Vector3 soldierPos = stringToVector3(healer.getStringAttribute("position"));
+
+			
+				//collecting all nearby soldiers
+				array<const XmlElement@>@ characters = getCharactersNearPosition(m_metagame, healPos, factionId, range);
+				
+				for (uint i = 0; i < characters.length(); ++i) {
+
+					int soldierId = characters[i].getIntAttribute("id");
+					const XmlElement@ characterInfo = getCharacterInfo(m_metagame, soldierId);
+					
+						if (characterInfo !is null) {
+										XmlElement c("command");
+										c.setStringAttribute("class", "update_inventory");
+										c.setIntAttribute("character_id", soldierId); 
+										c.setStringAttribute("untransform_equipment_class", "vest");
+										c.setIntAttribute("untransform_count", count);
+										m_metagame.getComms().send(c);
+						}
+					}
+										//rewarding the healer
+										string command = "";
+										float xpRewardFinal = xpReward * count * characters.length();
+										float rpRewardFinal = rpReward * count * characters.length();
+										command = "<command class='xp_reward' character_id='" + healerId + "' reward='" + xpRewardFinal + "' />";
+										m_metagame.getComms().send(command);
+										command = "<command class='rp_reward' character_id='" + healerId + "' reward='" + rpRewardFinal + "' />";
+										m_metagame.getComms().send(command);
+		}				
     }
 }
