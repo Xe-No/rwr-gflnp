@@ -45,6 +45,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		availableFactionConfigs.push_back(FactionConfig(-1, "brown.xml", "USSRA", "0.2 0.2 0.8", "brown.xml"));
 		availableFactionConfigs.push_back(FactionConfig(-1, "tx.xml", "SF IMC", "0.7 0.2 0.7", "tx.xml"));
 		availableFactionConfigs.push_back(FactionConfig(-1, "kcco.xml", "KCCO", "0.0 0.4 0.1", "kcco.xml"));
+		availableFactionConfigs.push_back(FactionConfig(-1, "prd.xml", "Paradeus", "1.0 1.0 1.0", "prd.xml"));
 
 
 		return availableFactionConfigs;

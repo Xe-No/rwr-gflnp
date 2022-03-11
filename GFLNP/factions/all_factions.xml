@@ -5,4 +5,5 @@
 	<faction file="brown.xml" />
 	<faction file="tx.xml" />
 	<faction file="kcco.xml" />
+	<faction file="prd.xml" />
 </factions>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction name="Paradeus" color="1.0 1.0 1.0" firstnames_file="prd_class.name" lastnames_file="serial.name" chat_icon_filename="tx_chat_soldier.png" chat_icon_commander_filename="tx_chat_commander.png" campaign_completion_icon_filename="campaign_win_0.png" radio_queue_size="3">
+	<!-- <rank filename="standard_rank.xml"> -->
+
+	<rank xp="0.0" name="R0 Combat-Doll">
+		<hud_icon filename="prd_r0.png" />
+	</rank>
+	<rank xp="0.1" name="R1 Combat-Doll">
+		<hud_icon filename="prd_r0.png" />
+	</rank>
+	<rank xp="1.0" name="R2 Combat-Doll">
+		<hud_icon filename="prd_r0.png" />
+	</rank>
+	<rank xp="10.0" name="R3 Combat-Doll">
+		<hud_icon filename="prd_r0.png" />
+	</rank>
+	<rank xp="100.0" name="R4 Combat-Doll">
+		<hud_icon filename="prd_r0.png" />
+	</rank>
+
+	<soldier name="default" spawn_score="0.0">
+        <character filename="gk_player.character">
+		</character>
+		<ai filename="default.ai" />
+		<models file="prd.models" />
+
+		
+		<resources file="common.resources" />
+		<resources file="prd.resources" />
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.15" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="0.9" min="80.0" max="300.0" />
+			<attribute weight="0.1" min="2000.0" max="4000.0" />
+		</attribute_config>
+			<attribute_config class="xp">
+			<attribute weight="1.0" min="0.1" max="2.00" />
+		</attribute_config>
+
+	</soldier>
+
+
+基础指定
+
+
+	<soldier name="prisoner" spawn_score="0.0">
+		<character filename="gk.character" />
+		<ai filename="default.ai" />
+		<model filename="gs_soldier.xml" />
+		
+		<resources >
+			<weapon key="tw_smg.weapon" />
+			<carry_item key='base_hg_vest.carry_item' enabled="1" />
+			<projectile key='hand_grenade.projectile' enabled="1" />      
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="1" probability="0.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp"><attribute weight="0.3" min="80.0" max="300.0" /><attribute weight="0.7" min="0.0" max="0.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="0.0" max="0.45" /></attribute_config>
+	</soldier>
+
+	<soldier name="commando" spawn_score="0.0" copy_from="default">
+	</soldier>
+
+	<soldier name="lone wolf" spawn_score="0.01" copy_from="default">
+		<ai filename="lonewolf.ai" />
+	</soldier>
+
+
+
+	<soldier name="para" spawn_score="0.0" copy_from="default">
+	</soldier>
+
+	<soldier name="medic" spawn_score="0.1" copy_from="default">
+<!-- 		<resources clear_weapons="1">
+			<weapon key="tw_smg.weapon" />
+      		<weapon key="medikit.weapon" />
+		</resources> -->
+	</soldier>
+
+	<soldier name="medic2" spawn_score="0.01" copy_from="default">
+<!-- 		<resources clear_weapons="1">
+			<weapon key="tw_smg.weapon" />
+      		<weapon key="medikit_ai_2.weapon" />
+		</resources> -->
+	</soldier>
+
+
+	<soldier name="supply" spawn_score="0.0">
+		<resources file="supply_common.resources" />
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="medic" spawn_score="0.0" copy_from="default">
+	</soldier>
+
+	<soldier name="supply_medic" spawn_score="0.0">
+		<resources file="supply_medic.resources" />
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>
+
+	<soldier name="icecream" spawn_score="0.0">
+		<resources file="icecream.resources" />
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+	</soldier>  	
+
+
+</faction>
+	
