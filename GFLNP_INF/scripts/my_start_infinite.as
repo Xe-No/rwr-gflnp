@@ -1,6 +1,6 @@
 #include "path://media/packages/vanilla/scripts"
-#include "path://media/packages/Girls_FrontLine/scripts"
-#include "path://media/packages/GFL1_inf/scripts"
+#include "path://media/packages/GFLNP/scripts"
+#include "path://media/packages/GFLN_INF/scripts"
 #include "my_gamemode_infinite.as"
 
 // --------------------------------------------
@@ -12,7 +12,7 @@ void main(dictionary@ inputData) {
 	settings.fromXmlElement(inputSettings);
 
 	array<string> overlays = {
-			"media/packages/Girls_FrontLine"
+			"media/packages/GFLNP"
 		};
 	settings.m_overlayPaths = overlays;
 

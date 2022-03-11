@@ -628,7 +628,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupViper() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Viper";
-		stage.m_mapInfo.m_path = "media/packages/GFL1_inf/maps/viper";
+        stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/viper";
 		stage.m_mapInfo.m_id = "viper";
 
 		stage.m_maxSoldiers = 15 * 9;                                             // was 17*7 in 1.65
@@ -682,7 +682,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupClairemont() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "clairemont";
-		stage.m_mapInfo.m_path = "media/packages/GFL1_inf/maps/clairemont";
+        stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/clairemont";
 		stage.m_mapInfo.m_id = "clairemont";
 
 		stage.m_maxSoldiers = 15 * 9;                                             // was 17*7 in 1.65
@@ -736,7 +736,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupRoberto() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "roberto";
-		stage.m_mapInfo.m_path = "media/packages/GFL1_inf/maps/roberto";
+        stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/roberto";
 		stage.m_mapInfo.m_id = "roberto";
 
 		stage.m_maxSoldiers = 15 * 9;                                             // was 17*7 in 1.65
@@ -1179,7 +1179,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage14() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Rattlesnake Crescent (alt)";
-		stage.m_mapInfo.m_path = "media/packages/GFL1_inf/maps/map6_2";
+        stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/map6_2";
 		stage.m_mapInfo.m_id = "map6_2";
 
 		// we want to exclude some layers here, as the default ones are already used for the other map6

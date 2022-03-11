@@ -1,5 +1,5 @@
 #include "path://media/packages/vanilla/scripts"
-#include "path://media/packages/Girls_FrontLine/scripts"
+#include "path://media/packages/GFLNP/scripts"
 #include "my_gamemode_campaign.as"
 
 // --------------------------------------------
@@ -15,7 +15,7 @@ void main(dictionary@ inputData) {
 	// TODO: replace with your package's folder here
 	// --------------------------------------------
 	array<string> overlays = {
-                "media/packages/Girls_FrontLine"
+                "media/packages/GFLNP"
         };
         settings.m_overlayPaths = overlays;
 

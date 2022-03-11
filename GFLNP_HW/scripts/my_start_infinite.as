@@ -1,7 +1,7 @@
 #include "path://media/packages/vanilla/scripts"
-#include "path://media/packages/Girls_FrontLine/scripts"
-#include "path://media/packages/GFL1_inf/scripts"
-#include "path://media/packages/GFL1_halloween/scripts"
+#include "path://media/packages/GFLNP/scripts"
+#include "path://media/packages/GFLNP_INF/scripts"
+#include "path://media/packages/GFLNP_HW/scripts"
 #include "my_gamemode_campaign.as"
 
 
@@ -15,9 +15,9 @@ void main(dictionary@ inputData) {
 	settings.fromXmlElement(inputSettings);
 
 	array<string> overlays = {
-			"media/packages/Girls_FrontLine",
-			"media/packages/GFL1_inf",
-			"media/packages/GFL1_halloween"
+			"media/packages/GFLNP",
+			"media/packages/GFLNP_INF",
+			"media/packages/GFLNP_HW"
 		};
 	settings.m_overlayPaths = overlays;
 

@@ -24,7 +24,7 @@ void main(dictionary@ inputData) {
 
 	// override minimodes overlay with one specific to classic
 	s.m_overlayPaths = array<string>();
-    s.m_overlayPaths.insertLast("media/packages/Girls_FrontLine");
+    s.m_overlayPaths.insertLast("media/packages/GFLNP");
 	
 	s.m_timeBetweenSubstages = 40.0;
 	s.m_quickmatchMaxTime = 1800.0;

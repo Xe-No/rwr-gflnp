@@ -1,7 +1,7 @@
 #include "path://media/packages/vanilla/scripts"
-#include "path://media/packages/Girls_FrontLine/scripts"
-#include "path://media/packages/GFL1_inf/scripts/invasion"
-#include "path://media/packages/GFL1_halloween"
+#include "path://media/packages/GFLNP/scripts"
+#include "path://media/packages/GFLNP_INF/scripts/invasion"
+#include "path://media/packages/GFLNP_HW"
 #include "my_gamemode_invasion.as"
 
 void main(dictionary@ inputData) {
@@ -26,9 +26,9 @@ void main(dictionary@ inputData) {
 	settings.m_rpFactor = 1.0;
 	
 	array<string> overlays = {
-            "media/packages/Girls_FrontLine",
-			"media/packages/GFL1_inf",
-            "media/packages/GFL1_halloween"
+            "media/packages/GFLNP",
+            "media/packages/GFLNP_INF",
+            "media/packages/GFLNP_HW"
 	};
 	settings.m_overlayPaths = overlays;
 	
