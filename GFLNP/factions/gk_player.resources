@@ -102,8 +102,13 @@ Armory
   	<carry_item key="base_sg_vest.carry_item" />
 
 	<carry_item key="gi_contract_tdoll.carry_item" /> 
+	<carry_item key="gi_contract_tdoll_1.carry_item" />
+	<carry_item key="gi_contract_tdoll_2.carry_item" />
+	<carry_item key="gi_contract_tdoll_3.carry_item" />
 	<carry_item key="gi_contract_equip.carry_item" /> 
 	<carry_item key="gi_black_card.carry_item" /> 
+	<carry_item key="gi_black_card_1.carry_item" /> 
+	<carry_item key="gi_black_card_2.carry_item" /> 
 
 	<carry_item key="dollars.carry_item" />
 	<carry_item key="dollars_300.carry_item" />
