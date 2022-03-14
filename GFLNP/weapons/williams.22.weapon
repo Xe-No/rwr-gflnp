@@ -26,7 +26,7 @@
 <!-- art -->	
 	<model filename="gw_m3_greasegun.xml" />
 	<hud_icon filename="williams.22.png" />
-	<sound key="fire" fileref="williams.22_shot.wav" pitch_variety="0.05" volume="1.0"/>
+	<sound key="fire" fileref="williams.22_shot.wav" pitch_variety="0.05" volume="0.65"/>
 	<sound key="magazine_out" fileref="williams.22_out.wav" />
 	<sound key="magazine_in" fileref="williams.22_in.wav" />
 	<sound key="cycle" fileref="williams.22_chamber.wav" />

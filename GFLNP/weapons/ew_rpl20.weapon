@@ -11,12 +11,12 @@
   magazine_size="100" 
   can_shoot_standing="1"
   can_shoot_crouching="1"  
-  suppressed="0" 
+  suppressed="1" 
   name="RPL-20" 
   class="0" 
   burst_shots="6"
   sight_range_modifier="1.2"
-  projectile_speed="170.0" 
+  projectile_speed="160.0" 
   barrel_offset="0.6" />
 
 
