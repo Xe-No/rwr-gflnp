@@ -806,6 +806,22 @@ gw_zb26_4703.weapon
 	<model filename="gs_m4_sopmod_ii_551.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_ii_551.weapon"/></model>
 	<model filename="gs_m4_sopmod_ii_551.xml"><requirement class="weapon" slot="0" key="gw_m4_sopmod_ii_551_snip.weapon"/></model>
 
+<!-- 31 -->
+	<model filename="gs_bronia_hg.xml"><requirement class="weapon" slot="0" key="bronia_hg.weapon"/></model>
+	<model filename="gs_red_knife.xml"><requirement class="weapon" slot="0" key="gw_red_knife.weapon"/></model>
+	<model filename="gs_red_knife_s.xml"><requirement class="weapon" slot="0" key="gw_red_knife_s.weapon"/></model>
+	<model filename="es_johnny_silverhand.xml"><requirement class="weapon" slot="0" key="ew_mallorian_armscompany_3516.weapon"/></model>
+	<model filename="gs_bronia_hg.xml"><requirement class="weapon" slot="0" key="bronia_hg.weapon"/></model>
+	<model filename="gs_qbu10_red.xml"><requirement class="weapon" slot="0" key="gw_qbu10_ap.weapon"/></model>
+	<model filename="gs_qbu10_red.xml"><requirement class="weapon" slot="0" key="gw_qbu10_he.weapon"/></model>	
+	<model filename="es_baiz_r.xml"><requirement class="weapon" slot="0" key="ew_baiz_r.weapon"/></model>
+	<model filename="es_baiz.xml"><requirement class="weapon" slot="0" key="ew_baiz.weapon"/></model>
+	<model filename="gs_ppsh41_mod.xml"><requirement class="weapon" slot="0" key="gw_ppsh41_mod.weapon"/></model>
+	<model filename="gs_asvalmod.xml"><requirement class="weapon" slot="0" key="gw_asvalmod.weapon"/></model>	
+	<model filename="gs_ak15mod.xml"><requirement class="weapon" slot="0" key="gw_ak15mod.weapon"/></model>
+	<model filename="gs_six12.xml"><requirement class="weapon" slot="0" key="gw_six12.weapon"/></model>
+	<model filename="gs_six12.xml"><requirement class="weapon" slot="0" key="gw_six12sd.weapon"/></model>
+	<model filename="gs_six12.xml"><requirement class="weapon" slot="0" key="gw_six12sd_slug.weapon"/></model>
 
 </models>
     

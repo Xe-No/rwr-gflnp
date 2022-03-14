@@ -1,6 +1,7 @@
 <projectiles>
 
-<projectile file="thunder_sub.projectile" />
-<!-- <projectile file="m128d_cannon_blast.projectile" /> -->
+
+<projectile file="six12sd_slug_blast.projectile" />
+<projectile file="token_frist_aid.projectile" />
 
 </projectiles>

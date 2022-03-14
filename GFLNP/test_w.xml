@@ -1,5 +1,23 @@
 <weapons>
-	
+
+<weapon file="ew_bianchifa6lmg.weapon" />
+<weapon file="ew_turcotte_rapid_smg.weapon" />
+<weapon file="ew_p33_pereira.weapon" />
+<weapon file="gw_red_knife_s.weapon" />
+<weapon file="gw_red_knife.weapon" />
+<weapon file="gw_six12.weapon" />
+<weapon file="gw_six12sd.weapon" />
+<weapon file="gw_six12sd_slug.weapon" />
+<weapon file="ew_mallorian_armscompany_3516.weapon" />
+<weapon file="bronia_hg.weapon" />
+<weapon file="ew_caa.weapon" />
+<weapon file="gw_qbu10_ap.weapon" />
+<weapon file="gw_qbu10_he.weapon" />
+<weapon file="ew_baiz.weapon" />
+<weapon file="ew_baiz_r.weapon" />
+<weapon file="gw_ppsh41_mod.weapon" />
+<weapon file="gw_asvalmod.weapon" />
+<weapon file="gw_ak15mod.weapon" />	
 
 
 

@@ -168,6 +168,9 @@
 <projectile file="gm6_lynx_blast.projectile" />
 <projectile file="flashbang_a1.projectile" />
 
+<!-- 30 -->
+<projectile file="thunder_sub.projectile" />
+<!-- <projectile file="m128d_cannon_blast.projectile" /> -->
 
 
 	<!---->
@@ -175,6 +178,8 @@
 	<projectile file="hpd.projectile" />
 	<projectile file="dl.projectile" />
 	<projectile file="tkhprs.projectile" /> -->
+
+
 
 
 </projectiles>

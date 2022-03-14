@@ -30,6 +30,15 @@ token_koishi.projectile
 token_rin.projectile
 token_mingshi_arb.projectile
 token_g41_maid.projectile
+token_rst.projectile
+token_pa15_3701.projectile
+token_medic.projectile
+<projectile name="RST[RE]" file="token0.projectile" key="token_rst.projectile"  >
+	<hud_icon filename="es_rst.png" />
+</projectile>
+<projectile name="PA-15[Highschool Heartbeat Story] [RE]" file="token0.projectile" key="token_pa15_3701.projectile"  >
+	<hud_icon filename="hud_unknown.png" />
+</projectile>
 <projectile name="Inori[RE]" file="token0.projectile" key="token_inori.projectile"  >
 	<hud_icon filename="hud_unknown.png" />
 </projectile>
@@ -122,6 +131,12 @@ token_g41_maid.projectile
 	<model mesh_file="token_rin.xml" />
 	<hud_icon filename="token_rin.png" />
 </projectile>
+
+<!-- Fisrt Aid -->
+<projectile name="Medic[RE]" file="token_frist_aid.projectile" key="token_medic.projectile"  >
+	<hud_icon filename="gw_medic.png" />
+</projectile>
+
 
 <!-- C4 -->
 <projectile name="Mingshi ARB[RE]" file="token_c4.projectile" key="token_mingshi_arb.projectile"  >

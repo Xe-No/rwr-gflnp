@@ -67,6 +67,11 @@
 
 	<model filename="azl_mingshi_arblasting2.xml"><requirement class="weapon" slot="1" key="wrench.weapon"/><requirement class="rank" range="0 100000000" /><requirement class="projectile" slot="0" key="token_mingshi_arb.projectile"/></model> arblasting
 
+<!-- 31 -->
+	<model filename="es_rst.xml"><requirement class="projectile" slot="0" key="token_rst.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="pa15_3701.xml"><requirement class="projectile" slot="0" key="token_pa15_3701.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="gs_medic.xml"><requirement class="projectile" slot="0" key="token_medic.projectile"/><requirement class="rank" range="0 100000000" /></model>
+
 
 
 

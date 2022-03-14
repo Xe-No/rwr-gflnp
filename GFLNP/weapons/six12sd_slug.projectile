@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="SLUG" key="six12sd_slug.projectile" slot="1" pulldown_in_air="4">
+    <result class="spawn" instance_class="projectile" instance_key="six12sd_slug_blast.projectile" min_amount="4" max_amount="4" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+    <trigger class="impact" />
+    <rotation class="motion" />
+
+	
+    <trail probability="1.0" key="laser_blue"/>
+
+</projectile>

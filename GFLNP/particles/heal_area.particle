@@ -1,0 +1,67 @@
+particle_system R_heal_area_shining
+{
+	quota 1000
+	material Flare_healarea
+	particle_width 0.4
+	particle_height 0.4
+	renderer billboard
+	
+	emitter Ring
+	{
+		angle 90
+		colour 0 1 0 1
+		direction 0 1 0
+		emission_rate 300
+		position 0 0 0
+		velocity 0.1
+		time_to_live 1.4
+		time_to_live_min 0.5 
+		time_to_live_max 1.0
+		duration 0.5
+		width 4
+		height 4
+		depth 6
+		inner_width 0
+		inner_height 0
+	}
+
+	affector Scaler
+	{
+		rate -0.2
+	}
+	
+	affector DirectionRandomiser
+	{
+		randomness 3
+		scope 1
+		keep_velocity false
+	}
+}
+
+particle_system R_heal_area_spreadsmoke
+{
+	quota 1000
+	material Flare_healarea2
+	particle_width 8
+	particle_height 8
+	renderer billboard
+	billboard_type oriented_self
+	emitter Point
+	{
+		angle 90
+		colour 0 0.1 0 0.05
+		direction 0 1 0
+		emission_rate 100
+		position 0 0.5 0
+		velocity 0.001
+		time_to_live 1.0
+		duration 0.3
+	}
+
+	affector Scaler
+	{
+		rate 0.3
+	}
+
+
+}

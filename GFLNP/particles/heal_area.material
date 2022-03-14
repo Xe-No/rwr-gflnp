@@ -1,0 +1,36 @@
+material Flare_healarea
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 0 1 0 1
+            scene_blend alpha_blend
+            depth_write off
+            texture_unit
+            {
+                texture R_point_01.png
+                
+            }
+        }
+    }
+}
+material Flare_healarea2
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 0 1 0 1
+            scene_blend alpha_blend
+            depth_write off
+            texture_unit
+            {
+                texture R_point_02.png
+                
+            }
+        }
+    }
+}
