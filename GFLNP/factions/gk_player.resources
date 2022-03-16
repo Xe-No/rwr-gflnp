@@ -163,5 +163,10 @@ re token
 	<projectile key="token_mingshi_arb.projectile" />
 	<projectile key="token_g41_maid.projectile" />
 	<projectile key="token_akemi_homura.projectile" />
+	<projectile key="token_rst.projectile" />
+	<projectile key="token_medic.projectile" />
+	<projectile key="token_pa15_3701.projectile" />
+
+
 
 </resources>
