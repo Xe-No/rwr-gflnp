@@ -26,6 +26,8 @@
 	<carry_item key='dollars_300.carry_item' enabled="0" />
 	<carry_item key='gold_bar.carry_item' enabled="0" />
 	<carry_item key='camouflage_suit.carry_item' enabled="0" />
+	<carry_item key='gi_contract_tdoll.carry_item' enabled="0" />
+	<carry_item key='gi_black_card.carry_item' enabled="0" />
 
 
 	<weapon key="gw_toz81.weapon" />
