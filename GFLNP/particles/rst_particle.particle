@@ -1,6 +1,7 @@
-//particle_system rx1_smoke	
+------------------------------------------rx1----------------------------------
+//particle_system rx1_smoke
 {
-	quota 10000
+	quota 5000
 	emit_emitter_quota 10000
 	material rx1_smoke
 	particle_width 0.3
@@ -11,7 +12,7 @@
 	local_space false
 	iteration_interval 0
 	nonvisible_update_timeout 0
-
+	billboard_rotation_type vertex
 	emitter Point
 	{
 		angle 0
@@ -19,11 +20,11 @@
 		colour_range_start 1 1 1 1
 		colour_range_end 1 1 1 1
 		direction 0 1 0
-		emission_rate 200
+		emission_rate 250
 		position 0 0 0
-		velocity 100
-		time_to_live 0.15
-		duration 0.15
+		velocity 80
+		time_to_live 0.16
+		duration 0.1
 		emit_emitter rx1_linesmoke
 	}
 	emitter Cylinder
@@ -32,7 +33,7 @@
 		angle 9
 		colour 1 1 1 1
 		colour_range_start 1 1 1 1
-		colour_range_end 1 1 1 1
+		colour_range_end 1 1 1 0
 		direction 0 0 1
 		up 0 0 1
 		emission_rate 100
@@ -40,16 +41,16 @@
 		velocity 1
 		velocity_min 1
 		velocity_max 1
-		time_to_live 0.5
-		duration 0.5
-		width 1.2
+		time_to_live 0.7
+		duration 0.7
+		width 0.7
 		height 0
 		depth 0
 		
 	}
 	affector Scaler
 	{
-		rate 1.5
+		rate 0.5
 	}
 		affector Rotator
 	{
@@ -67,7 +68,10 @@
 }
 
 
-particle_system blast_smoke_rumbler
+
+---------------------------------------------------rumbler-------------------------------------------
+
+particle_system blast_smoke_rumbler		//山形扬尘白色烟雾
 {
 	quota 3000
 	material blast_smoke_rumbler
@@ -121,7 +125,7 @@ particle_system blast_smoke_rumbler
 	
 }
 
-particle_system blast2_smoke_rumbler
+particle_system blast2_smoke_rumbler  //中心爆炸发光橙黄色色光雾
 {
 	quota 3000
 	material blast2_smoke_rumbler
@@ -168,7 +172,7 @@ particle_system blast2_smoke_rumbler
 
 
 
-particle_system spray_rumbler
+particle_system spray_rumbler		//飞溅粒子橙红色颗粒
 {
 	quota 1000
 	material R_flame
@@ -189,7 +193,6 @@ particle_system spray_rumbler
 		colour_range_start 1 1 1 1
 		colour_range_end 1 1 1 1
 		direction 0 1 0
-		up 0 0 0
 		emission_rate 20
 		position 0 0 0
 		velocity 20
@@ -219,13 +222,2119 @@ particle_system spray_rumbler
 		time1 0.5
 		colour2 0 0 1 0.6
 		time2 0.9
-		colour3 0.5 0.5 0.5 0
-		time3 1
-		colour4 0.5 0.5 0.5 0
-		time4 1
-		colour5 0.5 0.5 0.5 0
-		time5 1
+	}
+}
+
+---------------------------------thunderball----------------------------
+
+particle_system thunder_ball_thunderball
+{
+	quota 3000
+	material PUMediaPack/Spark_01
+	particle_width 2
+	particle_height 2
+	cull_each true
+	renderer billboard
+	sorted true
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_origin center_left
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	
+	emitter Point
+	{
+		angle 180
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0 1 0
+		emission_rate 100
+		position 0 0 0
+		velocity 0.01
+		time_to_live 0.03
+		duration 5
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+
+	affector DirectionRandomiser
+	{
+		randomness 10
+		scope 1
+		keep_velocity true
+	}
+
+	affector Scaler
+	{
+		rate 0
+	}
+}
+particle_system thunder_ball_thunderball_blast
+{
+	quota 3000
+	material PUMediaPack/Spark_01
+	particle_width 2
+	particle_height 2
+	cull_each true
+	renderer billboard
+	sorted true
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_origin center_left
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	
+	emitter Point
+	{
+		angle 180
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0 1 0
+		emission_rate 100
+		position 0 0 0
+		velocity 0.01
+		time_to_live 0.1
+		duration 0.1
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+
+	affector DirectionRandomiser
+	{
+		randomness 10
+		scope 1
+		keep_velocity true
+	}
+
+	affector Scaler
+	{
+		rate 40
+	}
+}
+
+
+particle_system thunder_ball_ball
+{
+	quota 3000
+	emit_emitter_quota 3
+	material thunderball_point
+	particle_width 4
+	particle_height 4
+	cull_each true
+	renderer billboard
+	sorted true
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+
+	emitter Point
+	{
+		angle 180
+		colour 0.7 0 0.7 1
+		direction 1 0 0
+		emission_rate 60
+		position 0 0 0
+		velocity 0.5
+		time_to_live_min 0.02
+		time_to_live_max 0.04
+		duration 5
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start -144
+		rotation_speed_range_end 151.2
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+}
+
+---------------------------------------------fix_gl初版---------------------------------------------------
+//particle_system fix_spreadsmoke
+{
+	quota 1000
+	material fix_ExplosionFire
+	particle_width 3
+	particle_height 3
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_rotation_type vertex
+	
+	emitter Ring
+	{
+		angle 0
+		colour 0.5 0.25 0 0.05
+		direction 0 1 0
+		emission_rate 60
+		position 0 0.8 0
+		velocity 0.5
+		velocity_min 0.5
+		velocity_max 1
+		time_to_live 1
+		time_to_live_min 0.4
+		time_to_live_max 0.6
+		duration 0.3
+		width 2
+		height 2
+		depth 4
+		inner_width 1.5
+		inner_height 1.5
+	}
+
+	affector Scaler
+	{
+		rate 0.65
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start -45
+		rotation_speed_range_end 45
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+	affector LinearForce
+	{
+		force_vector 0 -0.5 0
+		force_application add
+	}
+		affector ColourImage
+	{
+		image colors_5.png
+	}
+}
+
+
+//particle_system fix_armor
+{
+	quota 1000
+	material fix_armor
+	particle_width 2.6
+	particle_height 2.6
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_rotation_type vertex
+	billboard_type oriented_common
+	common_direction 0 1 -0.3
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 6
+		position 0 0.8 0
+		velocity 2
+		time_to_live 1
+		time_to_live_min 0.6
+		time_to_live_max 0.6
+		duration 0.2
+	}
+
+	affector Scaler
+	{
+		rate 0.3
+	}
+
+}
+
+//particle_system health_spreadsmoke
+{
+	quota 1000
+	material fix_ExplosionFire
+	particle_width 3
+	particle_height 3
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_rotation_type vertex
+	
+	emitter Ring
+	{
+		angle 0
+		colour 0 1 0 0.05
+		direction 0 1 0
+		emission_rate 60
+		position 0 0.8 0
+		velocity 0.5
+		velocity_min 0.5
+		velocity_max 1
+		time_to_live 1
+		time_to_live_min 0.4
+		time_to_live_max 0.6
+		duration 0.3
+		width 2
+		height 2
+		depth 4
+		inner_width 1.5
+		inner_height 1.5
+	}
+
+	affector Scaler
+	{
+		rate 0.65
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start -45
+		rotation_speed_range_end 45
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+	affector LinearForce
+	{
+		force_vector 0 -0.5 0
+		force_application add
+	}
+		affector ColourImage
+	{
+		image colors_green.png
+	}
+}
+//particle_system health_range
+{
+	quota 100
+	emit_emitter_quota 3
+	material Examples/Aureola
+	particle_width 30
+	particle_height 30
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+	common_direction 0 1 0 
+	common_up_vector 0 0 0.2
+
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0 1 0
+		emission_rate 12
+		position 0 0 0
+		velocity 10
+		time_to_live 0.3
+		duration 0.3
+	}
+
+	affector LinearForce
+	{
+		force_vector 0 0 0
+		force_application add
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start 960
+		rotation_speed_range_end 120
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+		affector ColourFader
+	{
+		red	 10
+		green	10
+		blue	10
+		alpha	10
+	}
+}
+//particle_system fix_health
+{
+	quota 1000
+	material fix_health
+	particle_width 0.4
+	particle_height 0.4
+	cull_each false
+	renderer billboard
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_rotation_type vertex
+	billboard_type oriented_common
+	common_direction 0 1 0
+	
+	emitter Ring
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 50
+		position 0 0.8 0
+		velocity 2
+		time_to_live 1
+		time_to_live_min 0.6
+		time_to_live_max 0.8
+		duration 0.3
+		width 2
+		height 2
+		depth 6
+		inner_width 1.5
+		inner_height 1.5
+	}
+
+	affector Scaler
+	{
+		rate 0.3
+	}
+
+}
+------------------------------------------heal_area----------------------------------------
+//particle_system heal_area_shining
+{
+	quota 1000
+	material Flare_healarea
+	particle_width 0.4
+	particle_height 0.4
+	renderer billboard
+	
+	emitter Ring
+	{
+		angle 90
+		colour 0 1 0 1
+		direction 0 1 0
+		emission_rate 300
+		position 0 0 0
+		velocity 0.1
+		time_to_live 1.4
+		time_to_live_min 0.7 
+		time_to_live_max 1.4
+		duration 0.7
+		width 4
+		height 4
+		depth 6
+		inner_width 0
+		inner_height 0
+	}
+
+	affector Scaler
+	{
+		rate -0.2
+	}
+	
+	affector DirectionRandomiser
+	{
+		randomness 3
+		scope 1
+		keep_velocity false
+	}
+}
+
+//particle_system heal_area_spreadsmoke
+{
+	quota 1000
+	material Flare_healarea2
+	particle_width 8
+	particle_height 8
+	renderer billboard
+	billboard_type oriented_self
+	emitter Point
+	{
+		angle 90
+		colour 0 0.1 0 0.05
+		direction 0 1 0
+		emission_rate 100
+		position 0 0.5 0
+		velocity 0.001
+		velocity_min 0.001
+		velocity_max 0.001
+		time_to_live 1.4
+		time_to_live_min 1.4
+		time_to_live_max 1.4
+		duration 0.3
+	}
+
+	affector Scaler
+	{
+		rate 0.3
+	}
+}
+
+------------------------------------辩护者炸弹-----------------------------------------
+particle_system point_light_area	//地面点光源
+{
+	quota 1000
+	material point_light_area
+	particle_width 4
+	particle_height 4
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	common_direction 0 0 1
+	common_up_vector 1 0 0
+	
+	emitter Point
+	{
+		angle 45
+		colour 1 0.3 0 0.00001
+		direction 0 1 0
+		emission_rate 40
+		position 0 0.3 0
+		velocity 0.1
+		time_to_live 1
+		duration 1
+	}
+	
+	affector ColourFader
+	{
+		red	 0.1
+		green	-0.2
+		blue	-0.1
+		alpha	-1
 	}
 	
 	
+	affector Scaler
+	{
+		rate -1
+	}
+	
+}
+
+particle_system liner_light //竖直光
+{
+	quota 1000
+	material point_light_area
+	particle_width 0.3
+	particle_height 99
+	renderer billboard
+	billboard_type oriented_common
+	common_direction 0 1 0
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 0.3 0 0.3
+		direction 0 0 1
+		emission_rate 10
+		position 0 0 0
+		velocity 0.001
+		velocity_min 0.001
+		velocity_max 0.001
+		time_to_live 1.3
+		duration 0.3
+	}
+	
+	affector ColourFader
+	{
+		red	1
+		green	0.1
+		blue	0
+		alpha	0.05
+	}
+}
+ particle_system vindicator_flash			//信标尾迹追踪闪光
+{
+	quota	100
+	material	FlareFlash
+	particle_width	9.0
+	particle_height	9.0
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Ellipsoid
+	{
+		angle	180
+		colour	1 0.2 0.2 1
+
+		direction	0 1 0
+		emission_rate	1
+		position	0 0 0
+		velocity	0
+		time_to_live	1.8
+
+		duration 8
+
+		width	0
+		height	0
+		depth	0
+	}
+
+	affector ColourFader
+	{
+		red	-0.5
+		green	-0.5
+		blue	-0.5
+		alpha	-0.1
+	}
+
+	affector Scaler
+	{
+		rate	0.2
+	}
+}
+particle_system blast_smoke_cross	//十字爆炸烟雾
+{
+	quota 1000
+	material blast_smoke_cross
+	particle_width 4
+	particle_height 4
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	
+	emitter Ring
+	{
+		angle 0
+		colour 1 0.3 0 0.1
+		direction 0 1 0
+		emission_rate 40
+		position 0 0 0
+		velocity 0.1
+		time_to_live 0.1
+		duration 0.2
+		width 4
+		height 4
+		depth 1
+		inner_width 2
+		inner_height 2
+	}
+	
+	affector ColourFader
+	{
+		red	 0.1
+		green	-0.2
+		blue	-0.1
+		alpha	-1
+	}
+	affector Scaler
+	{
+		rate 60
+	}
+	
+	affector Rotator
+	{
+		rotation_speed_range_start -15
+		rotation_speed_range_end 15
+		rotation_range_start 0
+		rotation_range_end 30
+	}
+}
+
+particle_system blast_smoke_cross_short		//十字爆炸烟雾 短范围
+{
+	quota 1000
+	material blast_smoke_cross
+	particle_width 4
+	particle_height 4
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	
+	emitter Ring
+	{
+		angle 0
+		colour 1 0.3 0 0.1
+		direction 0 1 0
+		emission_rate 60
+		position 0 0 0
+		velocity 0.1
+		time_to_live 0.1
+		duration 0.2
+		width 2.3
+		height 2.3
+		depth 1
+		inner_width 0
+		inner_height 0
+	}
+	
+	affector ColourFader
+	{
+		red	 0.1
+		green	-0.2
+		blue	-0.1
+		alpha	-1
+	}
+	affector Scaler
+	{
+		rate 60
+	}
+	
+	affector Rotator
+	{
+		rotation_speed_range_start -15
+		rotation_speed_range_end 15
+		rotation_range_start 0
+		rotation_range_end 30
+	}
+}
+
+particle_system blast_smoke_02	//普通扩散烟雾
+{
+	quota 1000
+	material blast_smoke_02
+	particle_width 4
+	particle_height 4
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	
+	emitter Ring
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 40
+		position 0 0 0
+		velocity 0.2
+		time_to_live 0.6
+		duration 0.1
+		width 3
+		height 3
+		depth 1
+		inner_width 1
+		inner_height 1
+	}
+	
+	affector ColourFader
+	{
+		red	 0
+		green	-1
+		blue	-1
+		alpha	-1
+	}
+	
+	affector Scaler
+	{
+		rate 10
+	}
+	
+	affector Rotator
+	{
+		rotation_speed_range_start -15
+		rotation_speed_range_end 15
+		rotation_range_start 0
+		rotation_range_end 30
+	}
+	
+}
+
+particle_system spread_line	//点扩散冲击线性光
+{
+	quota 1000
+	material spread_line
+	particle_width 0.3
+	particle_height 4
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	
+	emitter Point
+	{
+		angle 50
+		colour 1 1 0 1
+		direction 0 -1 0
+		emission_rate 200
+		position 0 0 0
+		velocity -50
+		velocity_min -10
+		velocity_max -30
+		time_to_live 0.8
+		time_to_live_min 0.3
+		time_to_live_max 0.5
+		duration 0.1
+	}
+	
+	affector ColourFader
+	{
+		red	 1
+		green  0
+		blue	0
+		alpha	1
+	}
+	affector LinearForce
+	{
+		force_vector 0 -1 0
+		force_application add
+	}
+	affector Scaler
+	{
+		rate 0
+	}
+}
+
+particle_system blast_smoke_Vindicator	//普通扩散烟雾
+{
+	quota 3000
+	material spread_smoke
+	particle_width 1.5
+	particle_height 1.5
+	cull_each false
+	renderer billboard
+	local_space false
+	billboard_type point
+	common_direction 0 1 0
+	billboard_rotation_type vertex
+	
+	emitter Ring
+	{
+		angle 90
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0 1 0
+		emission_rate 200
+		position 0 1 0
+		velocity 1
+		time_to_live 1.5
+		time_to_live_min 1
+		time_to_live_min 1.5
+		duration 0.3
+		width 5
+		height 5
+		depth 1
+		inner_width 1
+		inner_height 1
+	}
+	affector Scaler
+	{
+		rate 1
+	}
+	affector ColourFader
+	{
+		red	 1
+		green	0.8
+		blue	0.8
+		alpha	-1
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -60
+		rotation_speed_range_end 60
+		rotation_range_start 0
+		rotation_range_end 30
+	}
+}
+
+------------------------------------通用子弹穿透特效--------------------------------------
+
+particle_system point_penetrate_linear_light	//点扩散冲击线性光 rx1
+{
+	quota 1000
+	material spread_line
+	particle_width 0.23
+	particle_height 1.2
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	
+	emitter Point
+	{
+		angle 40
+		colour 1 1 1 1
+		direction 0 -1 0
+		emission_rate 100
+		position 0 0 0
+		velocity -50
+		velocity_min -20
+		velocity_max -30
+		time_to_live_min 0.2
+		time_to_live_max 0.25
+		duration 0.08
+	}
+	
+	affector ColourFader2
+	{
+		red1	 10
+		green1  10
+		blue1	0
+		alpha1	10
+		red2	 10
+		green2  -10
+		blue2	-10
+		alpha2	10
+		state_change 0.15
+	}
+	affector Scaler
+	{
+		rate 0
+	}
+}
+
+particle_system blast_smoke_cross_light		//十字爆炸烟雾改散光  rx1
+{
+	quota 1000
+	material blast_smoke_cross
+	particle_width 1
+	particle_height 1
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	
+	emitter Ring
+	{
+		angle 45
+		colour 1 0.3 0 0.1
+		direction 0 1 0
+		emission_rate 60
+		position 0 0 0
+		velocity -30
+		time_to_live 0.1
+		duration 0.2
+		width 1
+		height 1
+		depth 3
+		inner_width 0
+		inner_height 0
+	}
+	
+	affector ColourFader
+	{
+		red	 0.1
+		green	-0.2
+		blue	-0.1
+		alpha	-1
+	}
+	affector Scaler
+	{
+		rate 40
+	}
+}
+
+particle_system blast_smoke_dust_normal		//爆炸扬尘烟雾 rx1
+{
+	quota 1000
+	material blast_smoke_cross
+	particle_width 1
+	particle_height 1
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	
+	emitter Ring
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 60
+		position 0 0 0
+		velocity 1
+		time_to_live 0.4
+		duration 0.2
+		width 2
+		height 2
+		depth 1
+		inner_width 1.5
+		inner_height 1.5
+	}
+	
+	affector ColourFader
+	{
+		red	 -1
+		green	-1
+		blue	-1
+		alpha	0
+	}
+	affector Scaler
+	{
+		rate 5
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 80
+		rotation_speed_range_end 80
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+}
+particle_system RF_blast_shine_center		//狙击枪类爆炸中心光 rx1
+{
+	quota 1000
+	material blast_smoke_cross
+	particle_width 2
+	particle_height 2
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	
+	emitter Ring
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 10
+		position 0 0 0
+		velocity 1
+		time_to_live 0.4
+		duration 0.1
+		width 0.1
+		height 0.1
+		depth 0.1
+		inner_width 0
+		inner_height 0
+	}
+	
+	affector ColourFader
+	{
+		red	 -0.5
+		green	-1
+		blue	-1
+		alpha	0
+	}
+	affector Scaler
+	{
+		rate 10
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -60
+		rotation_speed_range_end 60
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+}
+
+//particle_system MG_blast_shine_center_hollow		//高射速枪中心中空爆炸辉光
+{
+	quota 1000
+	material hollow_blast_smoke_01
+	particle_width 0.1
+	particle_height 0.1
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 0 1 1
+		direction 0 1 0
+		emission_rate 30
+		position 0 0 0
+		velocity 0
+		time_to_live 0.12
+		duration 0.05
+	}
+	
+	affector ColourFader2
+	{
+		red1	3
+		green1	3
+		blue1	3
+		alpha1	3
+		red2	-1
+		green2	-10
+		blue2	-1
+		alpha2	-10
+		state_change 0.02
+	}
+	affector Scaler
+	{
+		rate 30
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -60
+		rotation_speed_range_end 60
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+}
+//particle_system MG_blast_shine_center		//高射速枪中心爆炸辉光
+{
+	quota 1000
+	material explosion_smoke_02
+	particle_width 0.1
+	particle_height 0.1
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 0 1 1
+		direction 0 1 0
+		emission_rate 60
+		position 0 0 0
+		velocity 0
+		time_to_live 0.08
+		duration 0.05
+	}
+	
+	affector ColourFader2
+	{
+		red1	10
+		green1	10
+		blue1	10
+		alpha1	10
+		red2	-2
+		green2	-10
+		blue2	-2
+		alpha2	-10
+		state_change 0.03
+	}
+	affector Scaler
+	{
+		rate 30
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -60
+		rotation_speed_range_end 60
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+}
+//particle_system MG_blast_linear_shine		//高射速枪中心爆炸线性光
+{
+	quota 1000
+	material spread_line
+	particle_width 0.03
+	particle_height 2.5
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	billboard_type oriented_self
+	emitter Point
+	{
+		angle 180
+		colour 0.5 0.5 0.5 0.5
+		direction 0 1 0
+		emission_rate 60
+		position 0 0 0
+		velocity 10
+		time_to_live 0.12
+		duration 0.15
+	}
+	
+	affector ColourFader2
+	{
+		red1	10
+		green1	10
+		blue1	10
+		alpha1	10
+		red2	-10
+		green2	-10
+		blue2	-10
+		alpha2	-10
+		state_change 0.02
+	}
+	affector Scaler
+	{
+		rate 1
+	}
+}
+
+//particle_system MG_blast_broken_particle_01		//破碎碎片飞溅特效
+{
+	quota 1000
+	material broken_particle_01
+	particle_width 0.3
+	particle_height 0.3
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	billboard_type oriented_self
+	
+	emitter Point
+	{
+		angle 180
+		colour 1 0 1 1
+		direction 0 1 0
+		emission_rate 60
+		position 0 0 0
+		velocity 5
+		time_to_live 0.23
+		time_to_live_min 0.22
+		time_to_live_max 0.26
+		duration 0.15
+	}
+	
+	affector ColourFader
+	{
+		red	3
+		green	0
+		blue	3
+		alpha	3
+	}
+	affector Scaler
+	{
+		rate 2
+	}
+}
+//particle_system MG_blast_broken_particle_02	//破碎碎片飞溅特效
+{
+	quota 1000
+	material broken_particle_02
+	particle_width 0.3
+	particle_height 0.3
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	
+	emitter Point
+	{
+		angle 180
+		colour 1 0 1 1
+		direction 0 1 0
+		emission_rate 60
+		position 0 0 0
+		velocity 5
+		time_to_live 0.2
+		time_to_live_min 0.22
+		time_to_live_max 0.26
+		duration 0.15
+	}
+	
+	affector ColourFader
+	{
+		red	3
+		green	0
+		blue	3
+		alpha	3
+	}
+	affector Scaler
+	{
+		rate 2
+	}
+
+}
+//particle_system MG_blast_broken_particle_03		//破碎碎片飞溅特效
+{
+	quota 1000
+	material broken_particle_03
+	particle_width 0.3
+	particle_height 0.3
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	
+	emitter Point
+	{
+		angle 180
+		colour 1 0 1 1
+		direction 0 1 0
+		emission_rate 80
+		position 0 0 0
+		velocity 5
+		time_to_live 0.2
+		time_to_live_min 0.22
+		time_to_live_max 0.26
+		duration 0.1
+	}
+	affector ColourFader
+	{
+		red	3
+		green	0
+		blue	3
+		alpha	3
+	}
+	affector Scaler
+	{
+		rate 2
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -60
+		rotation_speed_range_end 60
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+}
+-------------------------------------------信标枪-------------------------------------
+//particle_system danger_area_range_20	//危险警告范围
+{
+	quota 1000
+	material aureola
+	particle_width 50
+	particle_height 50
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type perpendicular_common
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 0 0 1
+		direction 0 1 0
+		emission_rate 30
+		position 0 0 0
+		velocity 0.00001
+		time_to_live 4
+		duration 0.1
+	}
+	affector ColourFader2
+	{
+		red1	3
+		green1	0.1
+		blue1	0
+		alpha1	3
+		red2	-3
+		green2	-3
+		blue2	-3
+		alpha2	-3
+		state_change 1
+	}
+	affector Scaler
+	{
+		rate -1
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -40
+		rotation_speed_range_end -50
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+}
+
+//particle_system danger_alert	//危险警告标识
+{
+	quota 1000
+	material danger_icon
+	particle_width 20
+	particle_height 20
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type perpendicular_common
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 0 0 1
+		direction 0 1 0
+		emission_rate 10
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 4
+		duration 0.1
+	}
+	
+	affector ColourFader2
+	{
+		red1	3
+		green1	0.1
+		blue1	0
+		alpha1	3
+		red2	-3
+		green2	-3
+		blue2	-3
+		alpha2	-3
+		state_change 1
+	}
+	affector Scaler
+	{
+		rate 0.2
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 40
+		rotation_speed_range_end 40
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+}
+
+-----------------------------------------iws2000-------------------------------------
+particle_system iws2000_recoil_smoke		//后坐力扬尘
+{
+	quota 1000
+	emit_emitter_quota 1000
+	material explosion_smoke_01
+	particle_width 1.5
+	particle_height 1.5
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_common
+	common_direction 0 0.3 -1
+
+	emitter Ellipsoid 
+	{
+		angle 30
+		colour 0.2 0.2 0.2 0.3
+		direction 0 1 0
+		emission_rate 50
+		position 0 -0.2 0
+		velocity -0.8
+		velocity_min -0.4
+		velocity_max -2
+		time_to_live 1.5
+		time_to_live_max 1.2
+		time_to_live_min 1.8
+		duration 0.15
+		width 3
+		height 0
+		depth 5
+		inner_width 3
+		inner_height 3
+		inner_depth 3
+	}
+	
+	affector ColourFader2
+	{
+		red1	 -0.18
+		green1  -0.19
+		blue1	-0.2
+		alpha1	-0.2
+		red2	 -0.4
+		green2  -0.5
+		blue2	-0.5
+		alpha2	-0.5
+		state_change 0.5
+
+	}
+	affector Scaler
+	{
+		rate 0.7
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -150
+		rotation_speed_range_end 150
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+	affector LinearForce
+	{
+		force_vector 0 0 0
+		force_application add
+	}
+
+}
+
+particle_system crescent_smoke_impact		//月牙冲击烟雾
+{
+	quota 1000
+	emit_emitter_quota 1000
+	material crescent_smoke
+	particle_width 3
+	particle_height 3
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	common_direction -1 0 0
+
+	emitter Point 
+	{
+		angle 45
+		colour 0.5 0.5 0.5 0.5
+		direction 0 1 0
+		emission_rate 20
+		position 0 -0.2 0
+		velocity -3.5
+		velocity_min -2 
+		velocity_max -6
+		time_to_live 1.5
+		time_to_live_min 1
+		time_to_live_max 1.3
+		duration 0.1
+	}
+	
+	affector ColourFader2
+	{
+		red1	 0.2
+		green1  0.2
+		blue1	0.2
+		alpha1	0
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.6
+	}
+	affector Scaler
+	{
+		rate 0.7
+	}
+	
+	affector LinearForce
+	{
+		force_vector 0 -0.2 0
+		force_application add
+	}
+
+}
+
+particle_system lens_circle		//光圈
+{
+	quota 1000
+	emit_emitter_quota 1000
+	material lens_circle
+	particle_width 3
+	particle_height 3
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type perpendicular_self
+	common_direction -1 0 0
+	common_up_vector 0 1 0
+
+	emitter Point 
+	{
+		angle 0
+		colour 0.5 0.5 0.5 0.5
+		direction 0 -1 0
+		emission_rate 20
+		position 0 0 0
+		velocity 1
+		time_to_live_min 0.3
+		time_to_live_max 0.3
+		duration 0.3
+	}
+	
+	affector ColourFader2
+	{
+		red1	 0.2
+		green1  0.2
+		blue1	0.2
+		alpha1	0
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.1
+	}
+	affector Scaler
+	{
+		rate 0.8
+	}
+
+}
+
+particle_system lens_circle_enlarge		//扩散光圈
+{
+	quota 1000
+	emit_emitter_quota 1000
+	material lens_circle
+	particle_width 8
+	particle_height 8
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type perpendicular_self
+	common_direction -1 0 0
+	common_up_vector 0 1 0
+
+	emitter Point 
+	{
+		angle 0
+		colour 0.7 0.5 0.5 1
+		direction 0 -1 0
+		emission_rate 10
+		position 0 0 0
+		velocity 1
+		time_to_live_min 0.1
+		time_to_live_max 0.1
+		duration 0.1
+	}
+	
+	affector ColourFader2
+	{
+		red1	 0.4
+		green1  0.5
+		blue1	0
+		alpha1	10
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.05
+	}
+	affector Scaler
+	{
+		rate 100
+	}
+
+}
+
+particle_system lens_flare_01		//镜头光晕_长条椭圆状
+{
+	quota 1000
+	emit_emitter_quota 1000
+	material lens_flare_01
+	particle_width 3.5
+	particle_height 3.5
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+
+	emitter Point 
+	{
+		angle 0
+		colour 0.8 0.8 0.5 0.5
+		direction 0 1 0
+		emission_rate 20
+		position 0 0 0
+		velocity -0.8
+		time_to_live 1.5
+		time_to_live_min 0.8
+		time_to_live_max 1
+		duration 0.1
+	}
+	
+	affector ColourFader2
+	{
+		red1	 0.3
+		green1  0.2
+		blue1	0
+		alpha1	0
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.3
+	}
+	affector Scaler
+	{
+		rate 0.7
+	}
+	
+	affector LinearForce
+	{
+		force_vector 0 0 0
+		force_application add
+	}
+
+}
+
+particle_system square_fill_20		//点扩散飞溅菱形方块特效
+{
+	quota 1000
+	emit_emitter_quota 1000
+	material square_fill_20
+	particle_width 0.3
+	particle_height 0.3
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+
+	emitter Ring 
+	{
+		angle 0
+		colour 0.5 0.5 0.5 0.5
+		direction 0 1 0
+		emission_rate 30
+		position 0 0 0
+		velocity -3
+		velocity_min -3
+		velocity_max -4
+		time_to_live 1.5
+		time_to_live_min 1
+		time_to_live_max 1.5
+		duration 0.1
+		width 5
+		height 5
+		depth 2
+		inner_width 0
+		inner_height 0
+	}
+	
+	affector ColourFader2
+	{
+		red1	 1
+		green1  1
+		blue1	1
+		alpha1	0
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.6
+	}
+	affector Scaler
+	{
+		rate 0.5
+	}
+	
+	affector LinearForce
+	{
+		force_vector 0 0 0
+		force_application add
+	}
+
+}
+
+particle_system point_penetrate_linear_light_iws2000	//点扩散冲击线性光斑
+{
+	quota 1000
+	material spread_line
+	particle_width 0.23
+	particle_height 1.2
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	
+	emitter Point
+	{
+		angle 40
+		colour 1 1 1 1
+		direction 0 -1 0
+		emission_rate 100
+		position 0 0 0
+		velocity -50
+		velocity_min -10
+		velocity_max -15
+		time_to_live_min 0.5
+		time_to_live_max 0.6
+		duration 0.08
+	}
+	
+	affector ColourFader2
+	{
+		red1	 10
+		green1  10
+		blue1	0
+		alpha1	10
+		red2	 10
+		green2  -10
+		blue2	-10
+		alpha2	10
+		state_change 0.15
+	}
+	affector Scaler
+	{
+		rate 0
+	}
+}
+particle_system anti_U_type_point_penetrate_particle_iws2000	//点扩散飞溅倒U粒子
+{
+	quota 1000
+	material anti_u_type_flare_02
+	particle_width 2
+	particle_height 2
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	
+	emitter Point
+	{
+		angle 60
+		colour 1 1 0 1
+		direction 0 -1 0
+		emission_rate 10
+		position 0 0 0
+		velocity -50
+		velocity_min -10
+		velocity_max -20
+		time_to_live_min 0.3
+		time_to_live_max 0.4
+		duration 0.1
+	}
+	
+	affector ColourFader2
+	{
+		red1	 10
+		green1  10
+		blue1	0
+		alpha1	10
+		red2	 -10
+		green2  -10
+		blue2	-10
+		alpha2	10
+		state_change 0.1
+	}
+	affector Scaler
+	{
+		rate 2
+	}
+}
+
+particle_system v_type_impact_flare	//V形开合中心爆炸炫光
+{
+	quota 1000
+	material v_type_flare_01
+	particle_width 7
+	particle_height 7
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 -1 0
+		emission_rate 30
+		position 0 0 0
+		velocity -1
+		time_to_live_min 0.2
+		time_to_live_max 0.3
+		duration 0.1
+	}
+	
+	affector ColourFader2
+	{
+		red1	 10
+		green1  10
+		blue1	0
+		alpha1	10
+		red2	 -10
+		green2  -10
+		blue2	-10
+		alpha2	10
+		state_change 0.1
+	}
+	affector Scaler
+	{
+		rate 20
+	}
+}
+
+particle_system center_area_lighting
+{
+	quota 1000
+	material high_transparent_point
+	particle_width 7
+	particle_height 7
+	renderer billboard
+	billboard_type oriented_self
+	emitter Point
+	{
+		angle 90
+		colour 0.6 0.5 0.5 0.1
+		direction 0 1 0
+		emission_rate 50
+		position 0 0.5 0
+		velocity 0.001
+		velocity_min 0.001
+		velocity_max 0.001
+		time_to_live 1
+		time_to_live_min 0.3
+		time_to_live_max 0.4
+		duration 0.3
+	}
+
+	affector Scaler
+	{
+		rate -8
+	}
+	affector ColourFader2
+	{
+		red1	4
+		green1  4
+		blue1	-0.1
+		alpha1	1
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.1
+	}
+}
+——————————————————————————————————————天启坦克——————————————————————————————————————
+//particle_system ring_spread_smoke_apocalypse_tank		//地面环形烟雾
+{
+	quota 1000
+	material explosion_smoke_03
+	particle_width 2
+	particle_height 2
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	emitter Ring
+	{
+		angle 90
+		colour 0 0.3 1 1
+		direction 0 1 0
+		emission_rate 300
+		position 0 0 0
+		velocity 0.001
+		velocity_min 0.001
+		velocity_max 0.001
+		time_to_live 1
+		time_to_live_min 0.2
+		time_to_live_max 0.3
+		duration 0.15
+		width 2.5
+		height 2.5
+		depth 0.5
+		inner_width 0.1
+		inner_height 0.1
+	}
+
+	affector Scaler
+	{
+		rate 10
+	}
+	affector ColourFader2
+	{
+		red1	3
+		green1  3
+		blue1	3
+		alpha1	3
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.1
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+}
+//particle_system ring_spread_fog_apocalypse_tank		//环境烟雾
+{
+	quota 1000
+	material explosion_fog_01
+	particle_width 2
+	particle_height 2
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	emitter Ring
+	{
+		angle 90
+		colour 0 0.3 1 1
+		direction 0 1 0
+		emission_rate 100
+		position 0 0 0
+		velocity 0.001
+		velocity_min 0.001
+		velocity_max 0.001
+		time_to_live 1
+		time_to_live_min 0.4
+		time_to_live_max 0.5
+		duration 0.15
+		width 2.5
+		height 2.5
+		depth 1
+		inner_width 1
+		inner_height 1
+	}
+
+	affector Scaler
+	{
+		rate 10
+	}
+	affector ColourFader2
+	{
+		red1	0
+		green1  0.15
+		blue1	0.5
+		alpha1	0.5
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.1
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+}
+//particle_system vertical_smoke_apocalypse_tank		//柱状烟雾
+{
+	quota 1000
+	material explosion_smoke_03
+	particle_width 4
+	particle_height 4
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	emitter Point
+	{
+		angle 0
+		colour 0 0.3 1 1
+		direction 0 1 0
+		emission_rate 200
+		position 0 0 0
+		velocity 25
+		velocity_min 5
+		velocity_max 30
+		time_to_live 1
+		time_to_live_min 0.1
+		time_to_live_max 0.3
+		duration 0.2
+	}
+
+	affector Scaler
+	{
+		rate -9
+	}
+	affector ColourFader2
+	{
+		red1	0
+		green1  0.3
+		blue1	1
+		alpha1	10
+		red2	 -1
+		green2  -1
+		blue2	-1
+		alpha2	0
+		state_change 0.1
+	}
+}
+//particle_system flat_spark_thunder_apocalypse_tank_01		//地面环形闪电
+{
+	quota 1000
+	material spark_thunder_01
+	particle_width 4
+	particle_height 4
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_origin bottom_center
+	billboard_type perpendicular_common
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 30
+		position 0 0 0
+		velocity 0.001
+		velocity_min 0.001
+		velocity_max 0.001
+		time_to_live 0.1
+		duration 0.3
+	}
+	affector ColourFader2
+	{
+		red1	0
+		green1  0
+		blue1	0
+		alpha1	0
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.5
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+}
+//particle_system flat_spark_thunder_apocalypse_tank_02		//地面环形闪电
+{
+	quota 1000
+	material spark_thunder_02
+	particle_width 3
+	particle_height 3
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_origin bottom_center
+	billboard_type perpendicular_common
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 30
+		position 0 0 0
+		velocity 0.001
+		velocity_min 0.001
+		velocity_max 0.001
+		time_to_live 0.12
+		duration 0.3
+	}
+	affector ColourFader2
+	{
+		red1	0
+		green1  0
+		blue1	0
+		alpha1	0
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.5
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+}
+//particle_system flat_spark_thunder_apocalypse_tank_03		//地面环形闪电
+{
+	quota 1000
+	material spark_thunder_03
+	particle_width 4.5
+	particle_height 4.5
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_origin bottom_center
+	billboard_type perpendicular_common
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 30
+		position 0 0 0
+		velocity 0.001
+		velocity_min 0.001
+		velocity_max 0.001
+		time_to_live 0.08
+		duration 0.3
+	}
+	affector ColourFader2
+	{
+		red1	0
+		green1  0
+		blue1	0
+		alpha1	0
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.5
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
 }

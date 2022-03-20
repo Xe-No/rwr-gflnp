@@ -83,3 +83,962 @@ material R_flame {
 		}
 	}
 }
+----------------------------------------通用素材---------------------------------------------
+material ring_cyclone_hollow_01 	//中空漩涡气旋
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture ring_cyclone_hollow_01.png
+            }
+        }
+    }
+}
+material ring_cyclone_center_01 	//中心气旋
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture ring_cyclone_center_01.png
+            }
+        }
+    }
+}
+material explosion_smoke_03 	//高透明度爆炸烟雾
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture explosion_smoke_03.png
+            }
+        }
+    }
+}
+material explosion_fog_01 	//高透明度爆炸环境烟雾
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture explosion_fog_01.png
+            }
+        }
+    }
+}
+material explosion_fog_02 	//高透明度爆炸环境烟雾
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture explosion_fog_02.png
+            }
+        }
+    }
+}
+material ParticleUniverse/ExplosionFire
+{
+	receive_shadows on
+    technique
+    {
+        pass
+        {
+		
+            lighting on
+			ambient 0.4 0.2 0 0.05
+			emissive 0.4 0.15 0 0.05
+            depth_write off
+            scene_blend alpha_blend
+            fog_override false
+            texture_unit
+            {
+                texture pu_smoke_02_128x128.png
+            }
+        }
+    }
+}
+
+material Examples/Flare2   
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture R_flaretrail_2.png
+			}
+		}
+	}
+}
+material Examples/Flare2_2   
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture R_flaretrail_3.png
+			}
+		}
+	}
+}
+material PUMediaPack/Streak_01
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_streak_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+material PUMediaPack/Lightning_01
+{
+
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_lightning_01.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+material PUMediaPack/Lightning_02
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_lightning_02.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+material PUMediaPack/Lightning_03
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_lightning_03.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+material PUMediaPack/Lightning_04
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_lightning_04.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+material PUMediaPack/Smoke_01 {
+	receive_shadows on
+	technique {
+		pass {
+			lighting on
+			ambient 1 0 0 1
+			emissive 1 0 0 1
+			fog_override false
+
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture pump_smoke_01.png 	
+			}
+		}
+	}
+}
+
+material danger_icon {
+	receive_shadows on
+	technique {
+		pass {
+			lighting off
+			ambient 1 0 0 1
+			emissive 1 0 0 1
+			fog_override true
+			depth_write off
+			scene_blend add
+
+			texture_unit {
+				texture danger_icon.png 	
+			}
+		}
+	}
+}
+material aureola			//光环材质
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off			
+			diffuse vertexcolour
+			fog_override true
+			texture_unit
+			{
+				texture aureola.png
+			}
+		}
+	}
+}
+
+---通用素材尾---
+-----------------------------------thunderball--------------------------------------------------
+material PUMediaPack/Flare_03
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_flare_03.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+material thunderball_point
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 1 0 1 1
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture R_point_02.png
+
+            }
+        }
+    }
+}
+
+material PUMediaPack/Spark_01
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 1 1 1 1
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pump_spark_01.png
+			}
+        }
+    }
+}
+-----------------------------------------fix_gl-----------------------------------------
+//material Examples/Aureola
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off			
+			diffuse vertexcolour
+			cull_hardware none
+
+			texture_unit
+			{
+				texture aureola.png PF_BYTE_LA
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+//material fix_ExplosionFire
+{
+	receive_shadows on
+    technique
+    {
+        pass
+        {
+		
+            lighting off
+			emissive 1 1 1 0.05
+            depth_write off
+            scene_blend alpha_blend
+            fog_override false
+            texture_unit
+            {
+                texture pu_smoke_02_128x128.png
+            }
+        }
+    }
+}
+
+//material fix_armor
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 1 1 1 1
+            depth_write off
+            scene_blend alpha_blend
+            fog_override false
+            texture_unit
+            {
+                texture armor.png
+            }
+        }
+    }
+}
+
+//material fix_health_wrench_icon
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            depth_write off
+			scene_blend alpha_blend
+            fog_override false
+            texture_unit
+            {
+                texture wrench_fix_gl.png
+            }
+        }
+    }
+}
+-----------------------------------------heal_area------------------------------------------
+material Flare_healarea
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 0 1 0 1
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture R_point_01.png
+            }
+        }
+    }
+}
+material Flare_healarea2
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 0 1 0 1
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture R_point_02.png
+                
+            }
+        }
+    }
+}
+
+---------------------------------------辩护者炸弹---------------------------------------
+material point_light_area
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+			emissive 1 1 1 1
+            scene_blend add
+            depth_write off
+			fog_override true
+			
+            texture_unit
+            {
+                texture point_light_area.png
+            }
+        }
+    }
+}
+
+material blast_smoke_cross
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+			emissive 1 1 1 1
+            scene_blend add
+            depth_write off
+			fog_override true
+			
+            texture_unit
+            {
+                texture blast_smoke_cross.png
+            }
+        }
+    }
+}
+
+material blast_smoke_02
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+			emissive 1 1 1 1
+            scene_blend add
+            depth_write off
+			fog_override true
+			
+            texture_unit
+            {
+                texture blast_smoke_02.png
+            }
+        }
+    }
+}
+
+material spread_line
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+			emissive 1 1 1 1
+            scene_blend alpha_blend
+            depth_write off
+			fog_override true
+			
+            texture_unit
+            {
+                texture R_point_01.png
+            }
+        }
+    }
+}
+
+material spread_smoke
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+			emissive 1 1 1 1
+            scene_blend alpha_blend
+            depth_write off
+			fog_override true
+			
+            texture_unit
+            {
+                texture pu_smoke_02_128x128.png
+            }
+        }
+    }
+}
+
+--------------------------------破碎粒子------------------------------------------------------
+material broken_particle_01
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture broken_particle_01.png
+            }
+        }
+    }
+}
+material broken_particle_02
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture broken_particle_02.png
+            }
+        }
+    }
+}
+
+material broken_particle_03
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture broken_particle_03.png
+            }
+        }
+    }
+}
+
+material crescent_smoke 	//月牙形烟雾
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture crescent_smoke.png
+            }
+        }
+    }
+}
+
+material explosion_smoke_01 	//普通中心爆炸烟雾
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture explosion_smoke_01.png
+            }
+        }
+    }
+}
+
+material lens_flare_01 	//镜头光晕
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture lens_flare_01.png
+            }
+        }
+    }
+}
+
+
+material lens_circle 	//镜头光晕
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture lens_circle.png
+            }
+        }
+    }
+}
+
+
+material square_fill_20 	//菱形半透明填充
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture square_fill_20.png
+            }
+        }
+    }
+}
+
+material impact_through_effect_01 	//穿透山型炫光特效
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture impact_through_effect_01.png
+            }
+        }
+    }
+}
+material anti_u_type_flare_01 	//倒U撕裂穿透炫光特效
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture anti_u_type_flare_01.png
+            }
+        }
+    }
+}
+material anti_u_type_flare_02 	//倒U撕裂穿透炫光特效
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture anti_u_type_flare_02.png
+            }
+        }
+    }
+}
+material trees_break_through 	//树形三角穿透撕裂特效
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture trees_break_through.png
+            }
+        }
+    }
+}
+material v_type_flare_01 	//v形冲击扩散光效
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture v_type_flare_01.png
+            }
+        }
+    }
+}
+material high_transparent_point 	//v形冲击扩散光效
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture R_point_02.png
+            }
+        }
+    }
+}
+material hollow_blast_smoke_01 	//空心爆炸溅射烟雾
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture hollow_blast_smoke_01.png
+            }
+        }
+    }
+}
+material explosion_smoke_02 	//爆炸溅射烟雾
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture explosion_smoke_02.png
+            }
+        }
+    }
+}
+
+-----------------天启-------------
+material spark_thunder_01 	//折线型闪电
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture spark_thunder_01.png
+            }
+        }
+    }
+}
+material spark_thunder_02 	//V形分裂闪电
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture spark_thunder_02.png
+            }
+        }
+    }
+}
+material spark_thunder_03 	//II形竖直闪电
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture spark_thunder_03.png
+            }
+        }
+    }
+}
+material spark_thunder_03 	//II形竖直闪电
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture spark_thunder_03.png
+            }
+        }
+    }
+}
+--------------------------------------------------------------------------------------------

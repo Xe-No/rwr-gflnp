@@ -59,21 +59,20 @@ material fix_armor
     }
 }
 
-material fix_health
+material fix_health_wrench_icon
 {
 	receive_shadows off
     technique
     {
         pass
         {
-            lighting on
-			emissive 0 1 0 1
+            lighting off
             depth_write off
-            scene_blend alpha_blend
+			scene_blend alpha_blend
             fog_override false
             texture_unit
             {
-                texture cross.png
+                texture wrench_fix_gl.png
             }
         }
     }

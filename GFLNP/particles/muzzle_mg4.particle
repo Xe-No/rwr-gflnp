@@ -40,15 +40,16 @@ particle_system muzzle_mg4
 	{
 		time0 0.1
 		colour0 1 1 1 1
-		time1 0.4
-		colour1 0 0 1 0
-		time2 0.6
-		colour2 0 1 1 1
-		time3 0.7
-		colour3 0 0 0 0
-		time4 1
+		time1 0.2
+		colour1 1 0 0 0
+		time2 0.35
+		colour2 0 0 1 1
+		time3 0.5
+		colour3 2 0 2 2
+		time4 0.8
 		colour4 0 0 0 0
 		time5 1
 		colour5 0.5 0.5 0.5 0
 	}
 }
+

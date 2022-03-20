@@ -41,7 +41,7 @@
     <inventory encumbrance="12.0" price="43.0"/>
 
     <weak_hand_hold offset="0.4"/>
-    <projectile file="bullet.projectile">
+    <projectile file="mg4_bullet.projectile">
         <result class="hit" kill_probability="1.7" kill_decay_start_time="0.4" kill_decay_end_time="0.75"/>
     </projectile>
     

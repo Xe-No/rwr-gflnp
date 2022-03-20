@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="bullet" name="Mk4 SLAP" slot="1" pulldown_in_air="4">
-    <result class="blast" radius="1.35" damage="0.25" push="0.03" decal="0" character_state="death" faction_compare="not_equal" />
+    <result class="blast" radius="1.43" damage="0.25" push="0.03" decal="0" character_state="death" faction_compare="not_equal" />
     <trigger class="impact" />
     <rotation class="motion" />
 
@@ -39,11 +39,18 @@
     <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_02.wav" pitch_variety="0.4" volume="1.0" />              
 
     <sound class="result" key="static_object" copy="terrain" />
+
+		<effect class="result" key="character" ref="mg4_blast_broken_particle_01" />
+		<effect class="result" key="character" ref="mg4_blast_broken_particle_02" />
+	    <effect class="result" key="character" ref="mg4_blast_broken_particle_03" />
+	    <effect class="result" key="character" ref="mg4_blast_linear_shine" />
+	    <effect class="result" key="character" ref="mg4_blast_shine_center" />
+		<effect class="result" key="character" ref="mg4_blast_shine_center_hollow" />
+		<effect class="result" key="vehicle" copy="character" />
     
     <effect class="result" key="terrain" ref="Burst" use_surface_color="1" />
-    <effect class="result" key="vehicle" ref="Burst" use_surface_color="1" />
     <effect class="result" key="static_object" ref="Burst" use_surface_color="1" />
 	
-    <trail probability="1.0" key="laser_green"/>
+    <trail probability="1.0" key="laser_purple"/>
 
 </projectile>

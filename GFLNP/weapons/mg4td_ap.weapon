@@ -32,9 +32,8 @@
     <sound key="effect" fileref="mg4_switch.wav" pitch_variety="0.0" volume="0.3"/>
     <sound key="effect" fileref="mg4_switch.wav" pitch_variety="0.0" volume="0.3"/>
     <sound key="effect" fileref="mg4_switch.wav" pitch_variety="0.0" volume="0.3"/>
-    <sound key="effect" fileref="mg4_switch1.wav" pitch_variety="0.0" volume="0.3"/>
-    <sound key="effect" fileref="mg4_switch2.wav" pitch_variety="0.0" volume="0.3"/>
-    <sound key="effect" fileref="mg4_switch3.wav" pitch_variety="0.0" volume="0.3"/>
+    <sound key="effect" fileref="mg4_switch0.wav" pitch_variety="0.0" volume="0.3"/>
+    <sound key="effect" fileref="mg4_switch4.wav" pitch_variety="0.0" volume="0.3"/>
     <control key="effect" value="1"/>
     <model filename="mg4td_ap.xml"/>
 

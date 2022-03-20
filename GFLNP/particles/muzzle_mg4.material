@@ -11,7 +11,7 @@ material muzzle_mg4 {
 
 
             texture_unit {
-                texture muzzle_5.png
+                texture muzzle_6.png
             }
         }
     }

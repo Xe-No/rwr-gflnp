@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <weapon file="base_cb.weapon" key="ags30.weapon" quality="cb">
 	<tag name="machine gun"/>
-	<specification retrigger_time="0.33" accuracy_factor="0.95" spread_range="0.33" sustained_fire_grow_step="0.85" sustained_fire_diminish_rate="2.55" magazine_size="20" can_shoot_standing="0" can_shoot_crouching="0" can_shoot_prone="1" suppressed="0" name="AGS-30 GL" class="0" barrel_offset_3d="0 0.4 0.6" projectile_speed="120.0" projectiles_per_shot="1"/>
+	<specification retrigger_time="0.33" accuracy_factor="0.95" spread_range="0.23" sustained_fire_grow_step="0.85" sustained_fire_diminish_rate="2.55" magazine_size="20" can_shoot_standing="0" can_shoot_crouching="0" can_shoot_prone="1" suppressed="0" name="AGS-30 GL" class="0" barrel_offset_3d="0 0.4 0.6" projectile_speed="120.0" projectiles_per_shot="1"/>
 
     <next_in_chain key="ags30_n.weapon" share_ammo="0"/>
 	
