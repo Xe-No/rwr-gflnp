@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="rocket" slot="1" pulldown_in_air="13.0" key="c12_rail.projectile">
+    <tag name="rocket"/>
+    <result class="spawn" instance_class="projectile" instance_key="beam_cannon_sub.projectile" min_amount="1" max_amount="1" offset="0 -1 0" position_spread="0 0" direction_spread="0 0" />
+    <trigger class="impact" />
+    <rotation class="motion" />
+
+    <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
+
+    <commonness value="0.0" />
+
+    <trail probability="1.0" key="laser_blue_white" />
+</projectile>

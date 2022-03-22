@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
-<weapon key="gw_kord.weapon" />
-<weapon key="gw_thunder50.weapon" />
-<weapon key="gw_m4a1_pinkglassheart.weapon" />
-<weapon key="gw_ak15.weapon" />
-<weapon key="ew_rpl20.weapon" />
-<weapon key="gw_ebr800.weapon" />
-<weapon key="gw_an94mod.weapon" />
-<weapon key="gw_ak12_3302_sl.weapon" />
-<weapon key="ew_heir_apparent.weapon" />
-<weapon key="wingman_rep.weapon" />
-<weapon key="gw_thunder50_3309.weapon" />
-<weapon key="china_lake.weapon" />
-<weapon key="xm177e1.weapon" />
-<weapon key="gw_m4_sopmod_ii_551.weapon" />
-<weapon key="gw_kaluo_gl.weapon" />
-<weapon key="gw_m4a1_qingqiuhu.weapon" />
-<weapon key="chain_sawr.weapon" />
-<projectile key="m1128d_flare.projectile" />
+<weapon key="ew_bianchifa6lmg.weapon" />
+<weapon key="ew_turcotte_rapid_smg.weapon" />
+<weapon key="ew_p33_pereira.weapon" />
+<weapon key="gw_red_knife.weapon" />
+<weapon key="gw_six12.weapon" />
+<weapon key="gw_six12sd_slug.weapon" />
+<weapon key="ew_mallorian_armscompany_3516.weapon" />
+<weapon key="bronia_hg.weapon" />
+<weapon key="ew_caa.weapon" />
+<weapon key="gw_qbu10_he.weapon" />
+<weapon key="ew_baiz.weapon" />
+<weapon key="gw_ppsh41_mod.weapon" />
+<weapon key="gw_asvalmod.weapon" />
+<weapon key="gw_ak15mod.weapon" />	
+<weapon key="gw_iws2000_banisher_he.weapon" />
+<weapon key="gw_ak308.weapon" />
+
+<projectile key="c4_timer.projectile" />
+<projectile key="r_vindicator_dive_bomb.projectile" />
+<projectile key="token_rst.projectile" />
+<projectile key="token_medic.projectile" />
+<projectile key="token_pa15_3701.projectile" />
+
 </resources>
