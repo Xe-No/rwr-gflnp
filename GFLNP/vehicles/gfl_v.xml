@@ -204,5 +204,6 @@
 
 	<vehicle file="assembly_table.vehicle" />
 	<vehicle file="m1128d.vehicle" /> 
+	<vehicle file="uhlan.vehicle" /> 
 
 </vehicles>

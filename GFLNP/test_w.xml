@@ -25,6 +25,11 @@
 <weapon file="c12_msl.weapon" />
 <weapon file="c12_rg.weapon" />
 
+<weapon file="pw_strelet.weapon" />
+<weapon file="rodelero.weapon" />
+<weapon file="doppelsoldner_gl.weapon" />
+<weapon file="doppelsoldner_mgl.weapon" />
+
 
 
 </weapons>

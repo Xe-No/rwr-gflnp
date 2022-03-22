@@ -16,11 +16,17 @@
 <weapon key="gw_ak15mod.weapon" />	
 <weapon key="gw_iws2000_banisher_he.weapon" />
 <weapon key="gw_ak308.weapon" />
+<weapon key="pw_strelet.weapon" />
+<weapon key="rodelero.weapon" />
+<weapon key="doppelsoldner_gl.weapon" />
+<weapon key="doppelsoldner_mgl.weapon" />
 
 <projectile key="c4_timer.projectile" />
 <projectile key="r_vindicator_dive_bomb.projectile" />
 <projectile key="token_rst.projectile" />
 <projectile key="token_medic.projectile" />
 <projectile key="token_pa15_3701.projectile" />
+
+
 
 </resources>

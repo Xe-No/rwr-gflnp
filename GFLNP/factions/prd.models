@@ -2,4 +2,9 @@
 <models>
 	<model file="ps_strelet.xml" />
 
+	<model filename="doppelsoldner_l.xml"><requirement class="weapon" slot="0" key="doppelsoldner_gl.weapon"/></model>
+	<model filename="doppelsoldner.xml"><requirement class="weapon" slot="0" key="doppelsoldner_mgl.weapon"/></model>
+	<model filename="rodelero.xml"><requirement class="weapon" slot="0" key="rodelero.weapon"/></model>
+
+
 </models>
