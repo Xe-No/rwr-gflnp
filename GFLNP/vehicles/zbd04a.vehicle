@@ -33,11 +33,11 @@
 	collision_model_extent="4 3 8.6" 
 	visual_offset="0 0.6 0.0" /> 
 
-	0 <turret offset="0.19 0 -1.04" weapon_key="zbd04a_100mm.weapon" weapon_offset="0 2.5 3.5" weapon_recoil="0.05" max_rotation_step="0.00008" />
+	0 <turret offset="0.19 0 -1.04" weapon_key="zbd04a_100mm.weapon" weapon_offset="0 2.5 4.5" weapon_recoil="0.05" max_rotation_step="0.00008" />
 
-	1 <turret offset="0.19 0 -1.04" weapon_key="zbd04a_30mm.weapon" weapon_offset="-0.2 2.5 3" weapon_recoil="0.05" max_rotation_step="0.00008" />
+	1 <turret offset="0.19 0 -1.04" weapon_key="zbd04a_30mm.weapon" weapon_offset="-0.3 2.5 2.1" weapon_recoil="0.05" max_rotation_step="0.00008" />
 
-	2 <turret offset="0.19 0 -1.04" weapon_key="vmg.30.weapon" weapon_offset="+0.2 2.5 1.0" weapon_recoil="0.05" max_rotation_step="0.00008" />
+	2 <turret offset="0.19 0 -1.04" weapon_key="vmg.30.weapon" weapon_offset="+0.3 2.5 0.5" weapon_recoil="0.05" max_rotation_step="0.00008" />
 
 	<visual class="chassis" mesh_filename="zbd04a_chassis.mesh" texture_filename="zbd04a_chassis.png" offset="0.0 0.0 0.0" max_tilt="0.01" />
 	<visual class="chassis" key="broken" mesh_filename="zbd04a_chassis_broken.mesh" texture_filename="zbd04a_chassis_broken.png" />

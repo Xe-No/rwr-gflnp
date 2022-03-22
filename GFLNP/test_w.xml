@@ -18,6 +18,9 @@
 <weapon file="gw_ppsh41_mod.weapon" />
 <weapon file="gw_asvalmod.weapon" />
 <weapon file="gw_ak15mod.weapon" />	
+<weapon file="gw_iws2000_banisher_fsds.weapon" />
+<weapon file="gw_iws2000_banisher_he.weapon" />
+<weapon file="gw_ak308.weapon" />
 
 
 

@@ -822,7 +822,9 @@ gw_zb26_4703.weapon
 	<model filename="gs_six12.xml"><requirement class="weapon" slot="0" key="gw_six12.weapon"/></model>
 	<model filename="gs_six12.xml"><requirement class="weapon" slot="0" key="gw_six12sd.weapon"/></model>
 	<model filename="gs_six12.xml"><requirement class="weapon" slot="0" key="gw_six12sd_slug.weapon"/></model>
-
+	<model filename="gs_iws2000_banisher.xml"><requirement class="weapon" slot="0" key="gw_iws2000_banisher_he.weapon"/></model>
+	<model filename="gs_iws2000_banisher.xml"><requirement class="weapon" slot="0" key="gw_iws2000_banisher_fsds.weapon"/></model>
+	<model filename="gs_ak308.xml"><requirement class="weapon" slot="0" key="gw_ak308.weapon"/></model>
 </models>
     
 
