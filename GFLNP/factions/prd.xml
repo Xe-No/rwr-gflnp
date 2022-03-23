@@ -42,12 +42,12 @@
 
 	</soldier>
 
-	<soldier name="default_ai" spawn_score="1.0" copy_from="default">
+	<soldier name="str" spawn_score="1.0" copy_from="default">
 
 	</soldier>
 
 
-	<soldier name="dop" spawn_score="1" >
+	<soldier name="dop" spawn_score="1" copy_from="default">
 		<resources clear_weapons="1" >
 			<weapon key="doppelsoldner_gl.weapon" />
 			<weapon key="doppelsoldner_mgl.weapon" />
@@ -56,7 +56,7 @@
 	</soldier>
 
 
-	<soldier name="rodelero" spawn_score="1" >
+	<soldier name="rodelero" spawn_score="1" copy_from="default">
 		<resources clear_weapons="1" >
 			<weapon key="rodelero.weapon" />
 			<carry_item key='base_ar_vest.carry_item'  />
