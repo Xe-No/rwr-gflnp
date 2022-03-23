@@ -46,7 +46,7 @@ slot="1"/>
     <weak_hand_hold offset="0.005" />
 
     <hud_icon filename="gw_wingman_med.png" />
-    <commonness value="0.0001" can_respawn_with="1" />
+    <commonness value="0.0001" can_respawn_with="0" />
     <inventory encumbrance="10.0" price="450.0" />
 
     <effect class="muzzle" ref="LawMuzzle" />

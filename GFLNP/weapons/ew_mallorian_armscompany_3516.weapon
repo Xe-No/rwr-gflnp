@@ -38,7 +38,7 @@
   <animation state_key="prone_still" animation_key="prone_still, pistol"/>
   <animation state_key="walking_backwards" animation_key="walking backwards, pistol"/>
 	  
- <sound key="fire" fileref="shoot_3516.wav" volume="2.0"/>
+ <sound key="fire" fileref="shoot_3516.wav" volume="1.0"/>
     <sound key="magazine_out" fileref="thunder50_clipout.wav" volume="2.0" />
     <sound key="reload_one" fileref="thunder50_reload.wav" />
     <sound key="cycle" fileref="thunder50_cycle.wav" volume="2.0"/>

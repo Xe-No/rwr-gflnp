@@ -26,7 +26,7 @@
     <animation key="cycle" ref="30" />
 	<animation state_key="crouching" animation_key="XF5U_IWS2000_sit_shoot" />
     <animation state_key="reload" animation_key="reloading, vss_vintorez" />
-    <animation state_key="next_in_chain_in" animation_key="switch, vss_vintorez" />
+    <animation state_key="next_in_chain_out" animation_key="switch, vss_vintorez" />
 
     <sound key="fire" fileref="GFL_NTW20.wav" pitch_variety="0.05" volume="1.5" /> 
     <sound key="cycle" fileref="sniper_cycle_2.wav" />

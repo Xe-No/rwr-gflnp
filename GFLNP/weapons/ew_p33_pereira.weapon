@@ -19,7 +19,7 @@
 	burst_shots="1"
 	slot="1" />
 
-    <sound key="fire" fileref="p33_pereira.wav" volume="1.0" pitch_variety="0.05" />
+    <sound key="fire" fileref="p33_pereira.wav" volume="0.75" pitch_variety="0.05" />
     <sound key="cycle_out" fileref="p33_pereira_out.wav" volume="1.0" />
     <sound key="cycle_in" fileref="p33_pereira_clip_in.wav" volume="1.0" />
     <sound class="impact" fileref="rifle_drop.wav" />

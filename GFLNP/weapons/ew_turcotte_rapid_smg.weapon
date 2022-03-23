@@ -20,7 +20,7 @@
 
     <effect class="muzzle" ref="muzzle_blue" />
 
-    <sound key="fire" fileref="turcotte_rapid_smg.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="fire" fileref="turcotte_rapid_smg.wav" pitch_variety="0.05" volume="0.6" />
     <sound key="magazine_out" fileref="turcotte_rapid_smg_out.wav" />
     <sound key="magazine_in" fileref="turcotte_rapid_smg_clip_in.wav" />
     <sound key="cycle" fileref="smg_chamber.wav" />

@@ -408,7 +408,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 	     ScoredResource("m712.weapon", "weapon", 1.0f),
 	     ScoredResource("tkb059.weapon", "weapon", 0.2f),
 	     ScoredResource("gw_kaluo.weapon", "weapon", 0.2f),
-		 ScoredResource("ew_caa.weapon", "weapon", 2.0f),	//2x
+		 ScoredResource("ew_caa.weapon", "weapon", 1.0f),	//2x
 		 ScoredResource("gw_six12sd_slug.weapon", "weapon", 1.0f),	//2x
          ScoredResource("l30p.weapon", "weapon", 1.0f), 
          ScoredResource("enforcer.weapon", "weapon", 1.0f),
