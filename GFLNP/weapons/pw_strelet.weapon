@@ -33,7 +33,7 @@
 
     <projectile file="bullet.projectile">
 	    <result class="hit" kill_probability="1.5" kill_decay_start_time="0.4" kill_decay_end_time="0.78" />
-      <trail probability="1.0" key="laser_purple"/>
+      <trail probability="1.0" key="laser_blue"/>
     </projectile>
 
     <effect class="muzzle" ref="ejection" />

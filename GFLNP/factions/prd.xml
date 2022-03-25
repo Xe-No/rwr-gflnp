@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<faction name="Paradeus" color="1.0 1.0 1.0" firstnames_file="prd_class.name" lastnames_file="serial.name" chat_icon_filename="tx_chat_soldier.png" chat_icon_commander_filename="tx_chat_commander.png" campaign_completion_icon_filename="campaign_win_0.png" radio_queue_size="3">
+<faction name="Paradeus" color="1.0 1.0 1.0" firstnames_file="prd_class.name" lastnames_file="serial.name" chat_icon_filename="prd_rank1.png" chat_icon_commander_filename="prd_rank6.png" campaign_completion_icon_filename="campaign_win_0.png" radio_queue_size="3">
 	<!-- <rank filename="standard_rank.xml"> -->
 
-	<rank xp="0.0" name="R0 Combat-Doll">
-		<hud_icon filename="prd_r0.png" />
+	<rank xp="0.0" name="R1">
+		<hud_icon filename="prd_rank1.png" />
 	</rank>
-	<rank xp="0.1" name="R1 Combat-Doll">
-		<hud_icon filename="prd_r0.png" />
+	<rank xp="0.1" name="R2">
+		<hud_icon filename="prd_rank2.png" />
 	</rank>
-	<rank xp="1.0" name="R2 Combat-Doll">
-		<hud_icon filename="prd_r0.png" />
+	<rank xp="1.0" name="R3">
+		<hud_icon filename="prd_rank3.png" />
 	</rank>
-	<rank xp="10.0" name="R3 Combat-Doll">
-		<hud_icon filename="prd_r0.png" />
+	<rank xp="10.0" name="R4">
+		<hud_icon filename="prd_rank4.png" />
 	</rank>
-	<rank xp="100.0" name="R4 Combat-Doll">
-		<hud_icon filename="prd_r0.png" />
+	<rank xp="100.0" name="R5">
+		<hud_icon filename="prd_rank5.png" />
 	</rank>
+	<rank xp="1000.0" name="R6">
+		<hud_icon filename="prd_rank6.png" />
+	</rank>
+
 
 	<soldier name="default" spawn_score="0.0">
         <character filename="gk_player.character">
@@ -46,8 +50,16 @@
 
 	</soldier>
 
-
-	<soldier name="dop" spawn_score="1" copy_from="default">
+	<soldier name="rodelero" spawn_score="0.1" copy_from="default">
+		<ai filename="mecha.ai" />
+		<resources clear_weapons="1" >
+			<weapon key="rodelero.weapon" />
+			<carry_item key='base_ar_vest.carry_item'  />
+		</resources>
+	</soldier>
+	
+	<soldier name="dop" spawn_score="0.01" copy_from="default">
+		<ai filename="mecha.ai" />
 		<resources clear_weapons="1" >
 			<weapon key="doppelsoldner_gl.weapon" />
 			<weapon key="doppelsoldner_mgl.weapon" />
@@ -56,12 +68,7 @@
 	</soldier>
 
 
-	<soldier name="rodelero" spawn_score="1" copy_from="default">
-		<resources clear_weapons="1" >
-			<weapon key="rodelero.weapon" />
-			<carry_item key='base_ar_vest.carry_item'  />
-		</resources>
-	</soldier>
+
 
 基础指定
 
