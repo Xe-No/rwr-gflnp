@@ -42,7 +42,7 @@
     <control key="effect" value="1" />
 	<model filename="ak_qbu10.xml" />
 	
-	<hud_icon filename="gw_js127.png" />
+	<hud_icon filename="gw_qbu10_he.png" />
 	<commonness value="1.0" in_stock="1" can_respawn_with="0" />
 	<inventory encumbrance="20.0" price="30000" />
 	

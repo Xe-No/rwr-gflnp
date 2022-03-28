@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<weapon file="base_primary_rare.weapon" key="ew_mallorian_armscompany_3516.weapon" >
+<weapon file="base_primary_rare.weapon" key="ew_mallorian_armscompany_3516.weapon" quality="card">
     <tag name="assault"/>       
 	
     <specification retrigger_time="0.5"
@@ -38,7 +38,7 @@
   <animation state_key="prone_still" animation_key="prone_still, pistol"/>
   <animation state_key="walking_backwards" animation_key="walking backwards, pistol"/>
 	  
- <sound key="fire" fileref="shoot_3516.wav" volume="1.0"/>
+ <sound key="fire" fileref="shoot_3516.wav" volume="0.3"/>
     <sound key="magazine_out" fileref="thunder50_clipout.wav" volume="2.0" />
     <sound key="reload_one" fileref="thunder50_reload.wav" />
     <sound key="cycle" fileref="thunder50_cycle.wav" volume="2.0"/>
@@ -49,7 +49,7 @@
     
     <model filename="mallorian_armscompany_3516.xml"/>
     <hud_icon filename="hud_mallorian_armscompany_3516.png"/>
-
+    <commonness value="1.0" can_respawn_with="0" />
     <inventory encumbrance="8.0" price="7500"/>
 
     <projectile file="bullet.projectile">
