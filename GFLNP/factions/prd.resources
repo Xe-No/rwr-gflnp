@@ -27,8 +27,6 @@
 	<weapon key='pw_strelet.weapon' />
 
 
-	<projectile key='summon_ant5.projectile' />
-
 	<weapon key='m72_law.weapon' />
 
  	<vehicle key="uhlan.vehicle" />
