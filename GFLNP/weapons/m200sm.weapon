@@ -44,7 +44,7 @@
     
     <weak_hand_hold offset="0.3"/>
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="4.5" kill_decay_start_time="1.89" kill_decay_end_time="2.56"/>
+        <result class="hit" kill_probability="4.88" kill_decay_start_time="1.89" kill_decay_end_time="2.56"/>
     </projectile>
 	
 
@@ -58,4 +58,5 @@
     <stance state_key="over_wall" accuracy="0.9"/>
     
     <modifier class="speed" value="-0.15"/>    
+    <modifier class="detectability" value="-0.05" />
 </weapon>

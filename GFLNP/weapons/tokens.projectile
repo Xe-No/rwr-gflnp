@@ -105,6 +105,13 @@ token_medic.projectile
 <projectile name="Nazrin[RE]" file="token0.projectile" key="token_nazrin.projectile"  >
 	<hud_icon filename="token_nazrin.png" />
 </projectile>
+<projectile name="Kurumi[Wedding][RE]" file="token0.projectile" key="token_kurumi_wedding.projectile"  >
+	<hud_icon filename="kurumi_wedding.png" />
+</projectile>
+<projectile name="Douzi[RE]" file="token0.projectile" key="token_douzi.projectile"  >
+	<hud_icon filename="hud_unknown.png" />
+</projectile>
+
 
 <projectile name="Luka Chinadress[RE]" file="token0.projectile" key="token_luka_china.projectile"  >
 	<!-- <hud_icon filename="token_rumia.png" /> -->
