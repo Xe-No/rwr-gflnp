@@ -1,14 +1,11 @@
 <projectiles>
 
 
-<projectile file="six12sd_slug_blast.projectile" />
-<projectile file="token_frist_aid.projectile" />
+
 <projectile file="r_vindicator_dive_bomb.projectile" />
 <projectile file="r_vindicator_sub_sub_shrapnel.projectile" />	
 <projectile file="r_vindicator_sub_sub_missile.projectile" />
-<projectile file="c4_timer.projectile" />
-<projectile file="javelin_jr.projectile" />
-<projectile file="beam_cannon_sub.projectile" />
+
 	
 
 

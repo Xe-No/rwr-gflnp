@@ -67,6 +67,11 @@
     <carry_item file="gi_contract_tdoll.carry_item" />
     <carry_item file="gi_contract_equip.carry_item" />
     <carry_item file="gi_black_card.carry_item" />
+    <carry_item file="gi_contract_tdoll_1.carry_item" />
+    <carry_item file="gi_contract_tdoll_2.carry_item" />
+    <carry_item file="gi_contract_tdoll_3.carry_item" />
+    <carry_item file="gi_black_card_1.carry_item" />
+    <carry_item file="gi_black_card_2.carry_item" />
     <carry_item file="gi_battle_report.carry_item" />    
 
     <carry_item file="ghs_box.carry_item" /> 
