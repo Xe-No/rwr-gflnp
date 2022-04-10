@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call name="AH-64 Helo support"
+	key="ah64_assasin.call"
+	notify_metagame="1"
+	initiation_comment1="Call for Assasin! get that helo on this location! we gonna need her"
+	acknowledge_comment="Copy that, Assasin is on the way. Stand by."
+	radio_view_text="AH-64 helo support" 
+	launch_comment="This is Assasin, IP in bound to target."
+	show_target_marker="0">
+	
+	<round launch_time="1.5" spawn_time="1.5">
+	   <sound class="spawn" fileref="ah64_arriving_vo1.wav" volume="4.0" pitch_variety="0"/>
+	   <sound class="spawn" fileref="ah64_arriving_vo2.wav" volume="4.0" pitch_variety="0"/>
+	   <sound class="spawn" fileref="ah64_arriving_vo3.wav" volume="4.0" pitch_variety="0"/>
+	</round>
+	
+	<round launch_time="6.0" spawn_time="6.0">
+		<sound class="spawn" fileref="ah64_rocket_vo1.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_rocket_vo2.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_rocket_vo3.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_missile_vo1.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_missile_vo2.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_missile_vo3.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="launch" fileref="ah64_flyby.wav" volume="2.0" pitch_variety="0"/>
+	</round>
+	
+	<round launch_time="10.0" spawn_time="10.0">
+		<sound class="spawn" fileref="ah64_attacking_vo1.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_attacking_vo2.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_attacking_vo3.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_attacking_vo4.wav" volume="4.0" pitch_variety="0"/>
+	</round>
+	
+	<round launch_time="23.0" spawn_time="23.0">
+		<sound class="spawn" fileref="ah64_exiting_vo1.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_exiting_vo2.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_exiting_vo3.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_exiting_vo4.wav" volume="4.0" pitch_variety="0"/>
+		<sound class="spawn" fileref="ah64_exiting_vo5.wav" volume="4.0" pitch_variety="0"/>
+	</round>
+
+	<hud_icon filename="hud_ah64.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.3" />
+	<inventory encumbrance="0.0" price="640.0" />
+
+</call>

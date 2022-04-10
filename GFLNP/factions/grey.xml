@@ -104,6 +104,23 @@
 			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
 		</resources>
 	</soldier>
+	<soldier name="SCT3" firstnames_file="42LAB-SCT3.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player.character">
+			<parameter class="encumbrance" low="4.9" high="50.0" />
+			<parameter class="prone_moving_steer_amount" value="0.17" />
+			<parameter class="speed" value="1.25" />
+			<parameter class="speed_encumbered" low="1.0" high="0.4" />
+			<parameter class="detectability_running" value="1.05" />
+		</character>
+		<resources >
+			<weapon key='gk_supply_ss.weapon' />
+			<weapon key="gw_mp7a2.weapon" enabled="1"/>
+			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
+			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
+			<carry_item key="iop_x4_exo.carry_item" enabled="0"/>
+			<carry_item key="iop_t4_exo.carry_item" enabled="1"/>
+		</resources>
+	</soldier>
 	loli
 	<soldier name="LOLI" firstnames_file="42LAB-SCT.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_loli.character">
@@ -131,7 +148,7 @@
 	<soldier name="TEL" firstnames_file="42LAB-TEL.name" lastnames_file="gk_serial.name" spawn_score="0.2" copy_from="default">
 		<character filename="gk_player.character">
 			<parameter class="request_strike_time" value="0.1" />
-			<parameter class="speed" value="0.9" />
+			<parameter class="speed" value="0.95" />
 			<parameter class="speed_encumbered" low="0.8" high="0.3" />
 		</character>
 		<resources>
@@ -160,6 +177,43 @@
 			<call key="squad_404.call" enabled="1"/>
 			<call key="squad_AR.call" enabled="0"/>
 			<call key="squad_defy.call" enabled="0"/>
+		</resources>
+	</soldier>
+	<soldier name="TEL2" firstnames_file="42LAB-TEL2.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player.character">
+			<parameter class="request_strike_time" value="0.1" />
+		</character>
+		<resources>
+			<weapon key='gk_supply_ss.weapon' />
+			<weapon key='gw_mortar_binoculars.weapon' />
+			<projectile key="aav7_flare.projectile" />
+			<projectile key="zjx19_flare.projectile" />
+			<projectile key="wiesel_flare.projectile" />
+			<projectile key="vulcan_acav_flare.projectile" />
+			<projectile key="leopard2a5_flare.projectile" />
+			<projectile key="centurion_avre_flare.projectile" />
+			<projectile key="btr82a_flare.projectile" />
+			<projectile key="btr80a_flare.projectile" />
+			<projectile key="m1126_flare.projectile" />
+			<projectile key="tiger_flare.projectile" />
+			<projectile key="sturmtiger_flare.projectile" />
+			<call key="a10_gun_run.call" />
+			<call key="f16_missle_run.call" />
+			<call key="ac130_gun_run.call" />
+			<call key="buggy.call" enabled="0"/>
+			<call key="humvee.call" enabled="0"/>
+			<call key="tank.call" enabled="0"/>
+			<call key="apc_1.call" enabled="0"/>
+			<call key="paratroopers1.call" enabled="1"/>
+			<call key="paratroopers2.call" enabled="0"/>
+			<call key="paratroopers_medic.call" enabled="0"/>
+			<call key="squad_404.call" enabled="1"/>
+			<call key="squad_AR.call" enabled="0"/>
+			<call key="squad_defy.call" enabled="0"/>
+			<call key="ah64_assasin.call" enabled="1"/>
+			<call key="artillery_155.call" enabled="1"/>
+			
+
 		</resources>
 	</soldier>
 	ghost
@@ -197,12 +251,32 @@
 			<parameter class="detectability_walking" value="0.85" />
 			<parameter class="detectability_still" value="0.78" />
 			<parameter class="detectability_running" value="0.9" />
-			<parameter class="speed" value="0.85" />
+			<parameter class="speed" value="0.9" />
 			<parameter class="speed_encumbered" low="0.8" high="0.3" />
 		</character>
 		<resources >
 			<weapon key='gk_supply_ss.weapon' />
 			<carry_item key="optical_camo_cloak.carry_item" enabled="1"/>
+		</resources>
+	</soldier>
+	<soldier name="GST3" firstnames_file="42LAB-GST3.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player.character">
+			<parameter class="encumbrance" low="14.9" high="50.0" />
+			<parameter class="detectability_prone" value="0.35" />
+			<parameter class="detectability_wounded" value="0.35" />
+			<parameter class="detectability_crouching" value="0.47" />
+			<parameter class="detectability_crouch_moving" value="0.55" />
+			<parameter class="detectability_walking" value="0.82" />
+			<parameter class="detectability_still" value="0.75" />
+			<parameter class="detectability_running" value="0.87" />
+			<parameter class="speed" value="0.9" />
+			<parameter class="speed_encumbered" low="0.85" high="0.35" />
+		</character>
+		<resources >
+			<weapon key='gk_supply_ss.weapon' />
+			<weapon key="gw_mp5sd.weapon" enabled="1"/>
+			<carry_item key="optical_camo_cloak.carry_item" enabled="1"/>
+			<carry_item key="iop_optical_camo_cloak.carry_item" enabled="1"/>
 		</resources>
 	</soldier>
 	heavy
@@ -242,7 +316,7 @@
 			<parameter class="wounded_auto_death_time" value="75.0" />
 
 			<parameter class="encumbrance" low="39.9" high="50.0" />
-			<parameter class="speed" value="0.85" />
+			<parameter class="speed" value="0.9" />
 			<parameter class="speed_encumbered" low="0.85" high="0.55" />
 			<parameter class="accuracy" value="1.1" />
 			<parameter class="accuracy_encumbered" low="1.1" high="0.98" />
@@ -252,6 +326,105 @@
 			<carry_item key="iop_t3_bp.carry_item" enabled="1"/>
 		</resources>		
 	</soldier>	
+	<soldier name="HVY3" firstnames_file="42LAB-HVY3.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player.character">
+			<parameter class="detectability_prone" value="0.7" />
+			<parameter class="detectability_wounded" value="0.7" />
+			<parameter class="detectability_crouching" value="0.82" />
+			<parameter class="detectability_crouch_moving" value="0.9" />
+			<parameter class="detectability_walking" value="1.05" />
+			<parameter class="detectability_still" value="0.98" />
+			<parameter class="detectability_running" value="1.1" />
+
+			<parameter class="wounded_auto_death_time" value="85.0" />
+
+			<parameter class="encumbrance" low="39.9" high="50.0" />
+			<parameter class="speed_encumbered" low="1" high="0.55" />
+		</character>
+		<resources >
+			<weapon key='gk_supply_ss.weapon' />
+			<weapon key='hvy3_telescopic_shield.weapon' />
+			<carry_item key="iop_t3_bp.carry_item" enabled="1"/>
+			<carry_item key="iop_t4_bp.carry_item" enabled="1"/>
+			<carry_item key="hvy_vest.carry_item" enabled="1"/>
+		</resources>		
+	</soldier>
+	//addon-3
+	<soldier name="ERC" firstnames_file="42LAB-ERC.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player.character">
+			<parameter class="detectability_prone" value="0.4" />
+			<parameter class="detectability_wounded" value="0.4" />
+			<parameter class="detectability_crouching" value="0.52" />
+			<parameter class="detectability_crouch_moving" value="0.6" />
+			<parameter class="detectability_walking" value="0.85" />
+			<parameter class="detectability_still" value="0.78" />
+			<parameter class="detectability_running" value="0.9" />
+			<parameter class="speed" value="1.1" />
+			<parameter class="speed_encumbered" low="0.85" high="0.3" />
+			<parameter class="encumbrance" low="2.4" high="50.0" />
+		</character>
+		<resources clear_calls="1">
+			<weapon key='gk_supply_ss.weapon' />
+			<weapon key="gw_hk416c.weapon" enabled="1"/>
+			<projectile key="ecm.projectile" enabled="1"/>
+			<projectile key="gw_emp_grenade.projectile" enabled="1"/>
+			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
+			<carry_item key="iop_x4_exo.carry_item" enabled="1"/>
+			<call key="strike_air.call" />
+			<call key="strike_2b14.call" />
+			<call key="supply_quad.call" />
+			<call key="squad_404.call" enabled="1"/>
+		</resources>		
+	</soldier>
+	<soldier name="PZC" firstnames_file="42LAB-PZC.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player.character">
+			<parameter class="detectability_prone" value="0.4" />
+			<parameter class="detectability_wounded" value="0.4" />
+			<parameter class="detectability_crouching" value="0.52" />
+			<parameter class="detectability_crouch_moving" value="0.6" />
+			<parameter class="detectability_walking" value="0.85" />
+			<parameter class="detectability_still" value="0.78" />
+			<parameter class="detectability_running" value="0.9" />
+			<parameter class="speed" value="1.0" />
+			<parameter class="speed_encumbered" low="0.8" high="0.3" />
+			<parameter class="encumbrance" low="4.9" high="50.0" />
+		</character>
+		<resources>
+			<weapon key='gk_supply_ss.weapon' />
+			<weapon key='pzc_wrench.weapon' />
+			<carry_item key="pzc_vest.carry_item" enabled="1"/>
+			<projectile key="repair_c4.projectile" />
+			<projectile key="aav7_flare.projectile" />
+			<projectile key="zjx19_flare.projectile" />
+			<projectile key="wiesel_flare.projectile" />
+			<projectile key="vulcan_acav_flare.projectile" />
+			<projectile key="leopard2a5_flare.projectile" />
+			<projectile key="centurion_avre_flare.projectile" />
+			<projectile key="btr82a_flare.projectile" />
+			<projectile key="btr80a_flare.projectile" />
+			<projectile key="m1126_flare.projectile" />
+			<projectile key="tiger_flare.projectile" />
+			<projectile key="sturmtiger_flare.projectile" />
+		</resources>		
+	</soldier>	
+	<soldier name="MED" firstnames_file="42LAB-MED.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player.character">
+			<parameter class="prone_moving_steer_amount" value="0.1" />
+			<parameter class="speed" value="1.1" />
+			<parameter class="speed_encumbered" low="1.0" high="0.35" />
+			<parameter class="encumbrance" low="19.9" high="50.0" />
+			<parameter class="wounded_auto_death_time" value="75.0" />
+		</character>
+		<resources clear_calls="1">
+			<weapon key='gk_supply_ss.weapon' />
+			<weapon key='med_pistol_revive.weapon' />
+			<projectile key="medic_grenade.projectile" />
+			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
+			<carry_item key="iop_t4_exo.carry_item" enabled="1"/>
+			<call key="strike_air.call" />
+			<call key="supply_quad.call" />
+		</resources>	
+	</soldier>
 
 	<soldier name="SEN" firstnames_file="_X-LAB-SEN.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_player.character">

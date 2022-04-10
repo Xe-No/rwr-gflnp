@@ -1,3 +1,6 @@
 <vehicles>
 	<vehicle file="r_vindicator_sub_bomb.vehicle" /> 
+
+	<vehicle file="ecm.vehicle" /> 
+
 </vehicles>

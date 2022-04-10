@@ -2,5 +2,8 @@
     
     <carry_item file="doppelsoldner.carry_item" />
 
+    <carry_item file="pzc_vest.carry_item" />
+    <carry_item file="hvy_vest.carry_item" />
+
 
 </carry_items>

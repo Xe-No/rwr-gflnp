@@ -6,5 +6,7 @@
 	<call file="f16_missle_run.call" />
 	<call file="apc_1.call" />
 	<call file="artillery_105.call" />
+	<call file="artillery_155.call" />
+	<call file="ah64_assasin.call" />
 
 </calls>

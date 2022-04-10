@@ -1,0 +1,41 @@
+ particle_system ecm_flash
+{
+	quota	100
+	material	FlareFlash
+	particle_width	4.0
+	particle_height	4.0
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Ellipsoid
+	{
+		angle	180
+		colour	0.2 1 0.2 1
+
+		direction	0 1 0
+		emission_rate	1
+		position	0 0 0
+		velocity	0
+		time_to_live	1.8
+
+		duration 48
+
+		width	0
+		height	0
+		depth	0
+	}
+
+	affector ColourFader
+	{
+		red	-0.5
+		green	-0.5
+		blue	-0.5
+		alpha	-0.1
+	}
+
+	affector Scaler
+	{
+		rate	0.2
+	}
+}

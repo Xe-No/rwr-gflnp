@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="155mm artillery fire support" key="artillery_155.call"
+	initiation_comment1="Fire mission"
+	initiation_comment2="155mm artillery strike"
+	acknowledge_comment="Permission Granted."
+	acknowledge_time="1.0"
+	launch_comment="Shells Fire."
+        notify_metagame="1">
+
+	<round 
+	instances="12"
+	instance_class="grenade"
+	instance_key="155mm.projectile" 
+	instance_spread="25 40 25"  
+	common_spread="0 0 0" 
+	launch_time="4.0"
+	spawn_time="7.0">
+	<sound class="launch" fileref="naval_barrage_distant.wav" volume="7.0" />   
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+
+
+	<round 
+	instances="12"
+	instance_class="grenade"
+	instance_key="155mm.projectile" 
+	instance_spread="25 40 25"  
+	common_spread="0 0 0" 
+	launch_time="5.0"
+	spawn_time="8.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+
+	<round 
+	instances="12"
+	instance_class="grenade"
+	instance_key="155mm.projectile" 
+	instance_spread="25 40 25"  
+	common_spread="0 0 0" 
+	launch_time="8.0"
+	spawn_time="11.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+
+
+	<round 
+	instances="12"
+	instance_class="grenade"
+	instance_key="155mm.projectile" 
+	instance_spread="25 40 25"  
+	common_spread="0 0 0" 
+	launch_time="9.0"
+	spawn_time="12.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+
+
+
+	
+	<hud_icon filename="gw_artillery.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.8" />
+	<inventory encumbrance="0.0" price="1350.0" />
+	
+</call>

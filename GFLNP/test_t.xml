@@ -10,6 +10,15 @@
 <projectile file="ew_fiammetta_s_sub.projectile" />
 <projectile file="ew_fiammetta_m_sub.projectile" />
 
+<projectile file="ecm.projectile" />
+<projectile file="gw_emp_grenade.projectile" />
+<projectile file="gw_emp_blast.projectile" />
+<projectile file="repair_c4.projectile" />
+<projectile file="mortar_flare.projectile" />
+<projectile file="medic_grenade.projectile" />
+<projectile file="155mm.projectile" />
+
+
 	
 
 

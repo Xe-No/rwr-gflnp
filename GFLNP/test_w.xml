@@ -6,7 +6,14 @@
 <weapon file="ew_fiammetta_s.weapon" />
 <weapon file="ew_fiammetta_m.weapon" />
 
-
+<weapon file="pzc_wrench.weapon" />
+<weapon file="gw_mp7a2.weapon" />
+<weapon file="gw_mp5sd.weapon" />
+<weapon file="gw_hk416c.weapon" />
+<weapon file="gw_mortar_binoculars.weapon" />
+<weapon file="med_pistol_revive.weapon" />
+<weapon file="med_pistol_armor.weapon" />
+<weapon file="hvy3_telescopic_shield.weapon" />
 
 
 </weapons>

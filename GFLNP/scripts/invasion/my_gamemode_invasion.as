@@ -7,11 +7,16 @@
 #include "ac130x_gun_run.as"
 #include "f16_missle_run.as"
 #include "heli_gun_run.as"
+#include "ah64_assasin.as"
 
 // costume trackers
 #include "redeem_tracker.as"
 #include "server_tracker.as"
 #include "factory_spawner.as"
+#include "gfl_emp.as"
+#include "artb.as"
+//#include "v.as"
+
 // #include "mixer.as"
 
 
@@ -47,9 +52,13 @@ class MyGameModeInvasion : GameModeInvasion {
 		addTracker(SquadEquipmentKit(this)); 
 		addTracker(RangeFinder(this)); 
 		// addTracker(Halloween(this));
+		addTracker(EmpG(this));
+		addTracker(ArtB(this));
+		//addTracker(Vindicator(this));
 
 		addTracker(HeliGunRun(this));
-		addTracker(F16GunRun(this));		
+		addTracker(F16GunRun(this));	
+ 		addTracker(AH64GunRun(this));	
 		addTracker(RedeemTracker(this));
 		addTracker(ServerTracker(this));
 		addTracker(FactorySpawner(this));
@@ -86,7 +95,9 @@ class MyGameModeInvasion : GameModeInvasion {
 			CallMarkerConfig("strike_stuka.call", "call_marker", 16, 0.5, 20.0),
 
 			CallMarkerConfig("artillery_105.call", "call_marker", 8, 0.5, 80.0),
-			CallMarkerConfig("ac130_gun_run.call", "call_marker_gunship", 3, 1.0, 90.0)
+			CallMarkerConfig("artillery_155.call", "call_marker", 8, 0.5, 70.0),
+			CallMarkerConfig("ac130_gun_run.call", "call_marker_gunship", 3, 1.0, 90.0),
+			CallMarkerConfig("ah64_assasin.call", "call_marker_gunship", 9, 0.5, 75.0)
             //CallMarkerConfig("a10_gun_run.call", "call_marker", 4, 0.5) //handled in a10_gun_run.as
 			};
 

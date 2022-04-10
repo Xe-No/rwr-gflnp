@@ -72,6 +72,18 @@ class RepairCrane : Tracker {
 			count = 2;
 			xpReward = 0.0001;
 			rpReward = 0;
+		} else if (key == "repair_c4") {
+			range = 8.0;
+			repairValue = 10.0;
+			overHealth = 1.1;
+			y_offset = 0.0;
+			rpReward = 0;
+			xpReward = 0.0;
+		} else if (key == "heal_shot") {
+			range = 2.0;
+			count = 3;
+			xpReward = 0.0001;
+			rpReward = 2;
 		}
 		
 		if (repairValue > 0.0) {
