@@ -1,6 +1,10 @@
 <weapons>
 
-
+<weapon file="gw_castanas.weapon" />
+<weapon file="gw_an94_mod4_s.weapon" />
+<weapon file="gw_an94_mod4.weapon" />
+<weapon file="ew_fiammetta_s.weapon" />
+<weapon file="ew_fiammetta_m.weapon" />
 
 
 

@@ -1,0 +1,76 @@
+//-----------------------------------------------------------------------------------------------------------------------
+material castanas_mediapack_01/castanas_expl_lighing
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 1 1 1 1
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture castanas_expl_lighing.png
+			}
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material castanas_mediapack_01/castanas_expl_lighing_2
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 1 1 1 1
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture castanas_expl_lighing_2.png
+			}
+        }
+    }
+}
+
+material castanas_mediapack_01/castanas_expl_light
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture castanas_expl_light.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+material castanas_mediapack_01/castanas_expl_light_2
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture castanas_expl_light_2.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}

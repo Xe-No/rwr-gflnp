@@ -1,31 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
-<weapon key="ew_bianchifa6lmg.weapon" />
-<weapon key="ew_turcotte_rapid_smg.weapon" />
-<weapon key="ew_p33_pereira.weapon" />
-<weapon key="gw_red_knife.weapon" />
-<weapon key="gw_six12.weapon" />
-<weapon key="gw_six12sd_slug.weapon" />
-<weapon key="ew_mallorian_armscompany_3516.weapon" />
-<weapon key="bronia_hg.weapon" />
-<weapon key="ew_caa.weapon" />
-<weapon key="gw_qbu10_he.weapon" />
-<weapon key="ew_baiz.weapon" />
-<weapon key="gw_ppsh41_mod.weapon" />
-<weapon key="gw_asvalmod.weapon" />
-<weapon key="gw_ak15mod.weapon" />	
-<weapon key="gw_iws2000_banisher_he.weapon" />
-<weapon key="gw_ak308.weapon" />
-<weapon key="pw_strelet.weapon" />
-<weapon key="rodelero.weapon" />
-<weapon key="doppelsoldner_gl.weapon" />
-<weapon key="doppelsoldner_mgl.weapon" />
+<weapon key="gw_castanas.weapon" />
+<weapon key="gw_an94_mod4_s.weapon" />
+<weapon key="ew_fiammetta_s.weapon" />
+<weapon key="ew_fiammetta_m.weapon" />
 
-<projectile key="c4_timer.projectile" />
+<weapon key="rodelero.weapon" />
+
+
+
 <projectile key="r_vindicator_dive_bomb.projectile" />
-<projectile key="token_rst.projectile" />
-<projectile key="token_medic.projectile" />
-<projectile key="token_pa15_3701.projectile" />
+<projectile key="token_kurumi_wedding.projectile" />
+<projectile key="token_douzi.projectile" />
+<projectile key="token_grey_cat.projectile" />
 
 
 
