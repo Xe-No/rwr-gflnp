@@ -9,6 +9,7 @@
   magazine_size="60" 
   can_shoot_standing="1" 
   suppressed="0" 
+  spread_range="0.15"
   name="VEX" 
   class="0" 
   projectile_speed="130.0"
@@ -51,6 +52,7 @@
         <trail probability="1.0" key="laser_red"/>
     </projectile>
     <modifier class="speed" value="0.09" />
+    <modifier class="hit_success_probability" value="-0.2" />
 
     <shield offset="0.5 -0.35 -2" extent="1.7 1.4 0.4" />
     <shield offset="0.5 -0.35 2" extent="1.7 1.4 0.4" />

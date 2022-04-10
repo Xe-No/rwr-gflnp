@@ -13,7 +13,7 @@
   suppressed="0" 
   name="RPK-16" 
   class="0" 
-  projectile_speed="110.0" />
+  projectile_speed="150.0" />
 
     <animation state_key="recoil" animation_key="recoil, hip fire" />
   <animation state_key="recoil" animation_key="recoil2, hip fire" />
