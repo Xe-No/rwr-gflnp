@@ -13,6 +13,7 @@
   can_shoot_crouching="1" 
   can_shoot_prone="0"
   suppressed="0" 
+
   name="Fiammetta M" 
   class="0" 
   barrel_offset="1" 
@@ -22,6 +23,11 @@
   projectile_speed="110.0" 
   slot="0" 
   projectiles_per_shot="1" />
+
+    <next_in_chain key="ew_fiammetta_s.weapon" share_ammo="1"/>
+    <animation state_key="next_in_chain_in" animation_key="change weapon in" />
+	<animation state_key="next_in_chain_out" animation_key="change weapon out" />
+
     <animation key="recoil" ref="40" />
     <animation state_key="reload" animation_key="reloading, mgl" />
     <animation key="hold" ref="39" />

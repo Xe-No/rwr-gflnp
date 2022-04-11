@@ -50,7 +50,7 @@
     <model filename="mallorian_armscompany_3516.xml"/>
     <hud_icon filename="hud_mallorian_armscompany_3516.png"/>
     <commonness value="1.0" can_respawn_with="0" />
-    <inventory encumbrance="8.0" price="7500"/>
+    <inventory encumbrance="8.0" price="3516"/>
 
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="3.516" kill_decay_start_time="0.4" kill_decay_end_time="0.75"/>

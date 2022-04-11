@@ -18,8 +18,12 @@
   projectiles_per_shot="1"
   sight_range_modifier="1.0"
   burst_shots="1"
-  slot="1" 
+  slot="0" 
   spread_range="0.1"/>
+
+    <next_in_chain key="ew_fiammetta_m.weapon" share_ammo="1"/>
+    <animation state_key="next_in_chain_in" animation_key="change weapon in" />
+	<animation state_key="next_in_chain_out" animation_key="change weapon out" />
 
     <!--     <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="30.0" randomness="0.0" />    -->
     <ballistics curve_height="3.0" near_far_distance="10.0" speed_estimation_near="55.0" speed_estimation_far="35.0" max_speed="37.0" randomness="0.0" tweak_factor="2.2" />  
@@ -77,6 +81,6 @@
     <stance state_key="prone" accuracy="1.0" />
        
     
-    <modifier class="speed" value="0.1" />    
+    <modifier class="speed" value="-0.15" />    
 
 </weapon>

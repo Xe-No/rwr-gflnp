@@ -830,8 +830,8 @@ gw_zb26_4703.weapon
 	<model filename="es_hoshina_suzu252.xml"><requirement class="projectile" slot="0" key="token_252.projectile"/><requirement class="weapon" slot="0" key="gw_paw20_vd.weapon"/></model>
 	<model filename="gs_an94_mod4.xml"><requirement class="weapon" slot="0" key="gw_an94_mod4_s.weapon"/></model>
 	<model filename="gs_an94_mod4.xml"><requirement class="weapon" slot="0" key="gw_an94_mod4.weapon"/></model>
-	<model filename="es_fiammetta.xml"><requirement class="weapon" slot="1" key="ew_fiammetta_s.weapon"/><requirement class="weapon" slot="0" key="ew_fiammetta_m.weapon"/></model>
-
+	<model filename="es_fiammetta.xml"><requirement class="weapon" slot="0" key="ew_fiammetta_s.weapon"/></model>
+	<model filename="es_fiammetta.xml"><requirement class="weapon" slot="0" key="ew_fiammetta_m.weapon"/></model>
 
 </models>
     
