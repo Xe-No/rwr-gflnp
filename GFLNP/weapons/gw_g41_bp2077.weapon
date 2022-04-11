@@ -36,6 +36,17 @@
 
     <projectile file="bullet.projectile">
         <result class="hit"  kill_probability="1.6" kill_decay_start_time="0.32" kill_decay_end_time="0.64" />
+		<effect class="result" key="character" ref="g41_transparent_center_point_light" />  
+		<effect class="result" key="character" ref="g41_spray_square_01" />  
+		<effect class="result" key="character" ref="g41_spray_square_02"  />  
+		<effect class="result" key="character" ref="g41_spray_square_03" />
+		<effect class="result" key="character" ref="g41_spray_square_04" />
+		<effect class="result" key="character" ref="g41_center_circle_01" />
+		<effect class="result" key="character" ref="g41_center_circle_02" />
+		<effect class="result" key="character" ref="g41_center_circle_03" />
+		<effect class="result" key="character" ref="g41_center_circle_04" />
+		<effect class="result" key="character" ref="g41_linear_rectangle_01" />
+		<effect class="result" key="character" ref="g41_linear_rectangle_02" />
     </projectile>
 
     <stance state_key="over_wall" accuracy="1.0"/>
