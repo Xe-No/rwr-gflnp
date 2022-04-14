@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <models>
 	<model filename="ks_cyclops.xml" />
-	<model filename="ks_centaurus_camo.xml"><requirement class="weapons" slot="0" key="centaurus_bow.weapon"/></model>
-	<model filename="ks_centaurus.xml"><requirement class="weapons" slot="0" key="centaurus_bow_he.weapon"/></model>
-	<model filename="ks_centaurus.xml"><requirement class="weapons" slot="0" key="centaurus_bow_ince.weapon"/></model>
+	<model filename="ks_centaurus_camo.xml"><requirement class="weapon" slot="0" key="centaurus_bow.weapon"/></model>
+	<model filename="ks_centaurus.xml"><requirement class="weapon" slot="0" key="centaurus_bow_he.weapon"/></model>
+	<model filename="ks_centaurus.xml"><requirement class="weapon" slot="0" key="centaurus_bow_ince.weapon"/></model>
 	<model filename="ks_cerynitis.xml"><requirement class="weapon" slot="0" key="cerynitis.weapon"/></model>
 	<model filename="ks_cerynitis.xml"><requirement class="weapon" slot="0" key="cerynitis_2"/></model>
 	<model filename="ks_hydraii.xml"><requirement class="weapon" slot="0" key="hydraii.weapon"/></model>
