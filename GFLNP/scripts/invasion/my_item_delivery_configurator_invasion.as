@@ -32,7 +32,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		setupIcecream();      
 		setupXmasBox();          
 		setupNewyearBox();          
-		setupPlayBox();          
+		setupPlayBox();      
+		setupVB1();    
 		
 
 		
@@ -109,6 +110,55 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 	protected void processRewardPasses(array<array<ScoredResource@>>@ passes) {
 		// campaign can use this to cleanup unavailable experimental resources in passes 
 	}
+
+	// --------------------------------------------
+	protected void setupVB1() {
+		_log("adding vehicle box config", 1);
+		array<Resource@> deliveryList = {
+			 Resource("vb1.carry_item", "carry_item")
+		};
+
+		array<array<ScoredResource@>> rewardPasses = {
+			{
+				ScoredResource("flamer_tank_flare.projectile", "projectile", 1.0f, 2), 
+				ScoredResource("sev90_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("zbd04a_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("dicem_flare.projectile", "projectile", 1.0f, 5),
+				ScoredResource("dicetm_flare.projectile", "projectile", 1.0f, 5),
+				ScoredResource("cv9040c_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("m1128d_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("jeep_xmas_flare.projectile", "projectile", 1.0f, 5),
+				ScoredResource("jeep_gk_flare.projectile", "projectile", 1.0f, 5),
+				ScoredResource("guntruck_plus_flare.projectile", "projectile", 1.0f, 5),
+				ScoredResource("banana_car_flare.projectile", "projectile", 1.0f, 5),
+				ScoredResource("aav7_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("zjx19_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("vulcan_acav_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("btr82a_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("btr80a_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("m1126_flare.projectile", "projectile", 1.0f, 2)
+			},
+			{
+				ScoredResource("ztz99a_flare.projectile", "projectile", 1.0f),
+				ScoredResource("centurion_avre_flare.projectile", "projectile", 1.0f),
+				ScoredResource("leopard2a5_flare.projectile", "projectile", 1.0f),
+				ScoredResource("typhoon_kcco_flare.projectile", "projectile", 1.0f),
+				ScoredResource("typhoon_tx_flare.projectile", "projectile", 1.0f),
+				ScoredResource("coeus_flare.projectile", "projectile", 1.0f),
+				ScoredResource("uhlan_flare.projectile", "projectile", 1.0f)
+
+			}
+		};
+		
+		processRewardPasses(rewardPasses);
+
+		GiftItemDeliveryRandomRewarder@ rewarder = GiftItemDeliveryRandomRewarder(m_metagame, rewardPasses);
+
+		m_itemDeliveryOrganizer.addObjective(
+			ItemDeliveryObjective(m_metagame, 0, deliveryList, m_itemDeliveryOrganizer, null, "", "", "", -1 /* loop */, rewarder)
+			);
+	}
+
 
 	// --------------------------------------------
 	protected void setupPlayBox() {
@@ -470,6 +520,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
         		ScoredResource("bronia_hg.weapon", "weapon", 2.0f),	//2x up
 				ScoredResource("gw_iws2000_banisher_he.weapon", "weapon", 2.0f),	//2x up
 				ScoredResource("ew_fiammetta_m.weapon", "weapon", 2.0f),	//2x up
+		ScoredResource("gw_g41_lasercanno_diffusion.weapon", "weapon", 2.0f),	//2x up
         		ScoredResource("ace_of_spades.weapon", "weapon", 1.0f),
 				ScoredResource("ew_rpl20.weapon", "weapon", 1.0f),	
 				ScoredResource("ew_heir_apparent.weapon", "weapon", 1.0f),	

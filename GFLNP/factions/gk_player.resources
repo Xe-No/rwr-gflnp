@@ -110,6 +110,7 @@ Armory
 	<carry_item key="gi_black_card.carry_item" /> 
 	<carry_item key="gi_black_card_1.carry_item" /> 
 	<carry_item key="gi_black_card_2.carry_item" /> 
+	<carry_item key="vb1.carry_item" />
 
 	<carry_item key="dollars.carry_item" />
 	<carry_item key="dollars_300.carry_item" />

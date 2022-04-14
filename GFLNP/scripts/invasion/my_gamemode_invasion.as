@@ -15,7 +15,7 @@
 #include "factory_spawner.as"
 #include "gfl_emp.as"
 #include "artb.as"
-//#include "v.as"
+#include "vin.as"
 
 // #include "mixer.as"
 
@@ -54,7 +54,7 @@ class MyGameModeInvasion : GameModeInvasion {
 		// addTracker(Halloween(this));
 		addTracker(EmpG(this));
 		addTracker(ArtB(this));
-		//addTracker(Vindicator(this));
+		addTracker(Vindicator(this));
 
 		addTracker(HeliGunRun(this));
 		addTracker(F16GunRun(this));	

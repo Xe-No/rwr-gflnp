@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Vehicle Box" key="vb1.carry_item">
+    <hud_icon filename="hud_vehicle_box.png" />
+    <inventory encumbrance="0.5" buy_price="5000" sell_price="1.0" />
+
+    <model mesh_filename="vehicle_box.xml" />
+
+    <commonness value="0.00001" in_stock="1" />
+</carry_item>

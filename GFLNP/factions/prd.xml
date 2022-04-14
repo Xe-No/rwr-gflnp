@@ -51,9 +51,20 @@
 	</soldier>
 
 	<soldier name="rodelero" spawn_score="0.1" copy_from="default">
-		<ai filename="mecha.ai" />
-		<resources clear_weapons="1" >
+	<character filename="prd_rod.character">
+	</character>
+		<ai filename="mecha_rod.ai" />
+		<resources clear_weapons="1" clear_grenades="1">
 			<weapon key="rodelero.weapon" />
+			<projectile key='rod_selfstun.projectile' enabled="1" />
+			<carry_item key='base_ar_vest.carry_item'  />
+		</resources>
+	</soldier>
+	
+	<soldier name="streltsy" spawn_score="0.2" copy_from="default">
+		<ai filename="elite.ai" />
+		<resources clear_weapons="1" >
+			<weapon key="pw_streltsy.weapon" />
 			<carry_item key='base_ar_vest.carry_item'  />
 		</resources>
 	</soldier>

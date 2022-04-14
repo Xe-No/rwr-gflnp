@@ -5,6 +5,12 @@
 <weapon file="gw_an94_mod4.weapon" />
 <weapon file="ew_fiammetta_s.weapon" />
 <weapon file="ew_fiammetta_m.weapon" />
+<weapon file="gw_g41_lasercanno_diffusion.weapon" />
+<weapon file="gw_g41_lasercanno_at.weapon" />
+
+<weapon file="pw_streltsy.weapon" />
+
+
 
 <weapon file="pzc_wrench.weapon" />
 <weapon file="gw_mp7a2.weapon" />

@@ -17,7 +17,7 @@
     <sound key="cycle" fileref="m79_cycle.wav" volume="0.7"/>
     <sound class="impact" fileref="rifle_drop.wav"/>
 	<model filename="gw_g41_bp.xml"/>
-    <hud_icon filename="gw_g41.png"/>
+    <hud_icon filename="gw_g41_bp.png"/>
 	<inventory encumbrance="10.0" price="41"/>
 	
 	

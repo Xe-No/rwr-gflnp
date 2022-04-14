@@ -36,7 +36,9 @@ weapon
     <projectile key="dicetm_flare.projectile" />
 	<projectile key="cv9040c_flare.projectile" />
 	<projectile key="m1128d_flare.projectile" />
-	<projectile key="jeep_xmas_flare.projectile" />
+	<projectile key="jeep_gk_flare.projectile" />
+	<projectile key="guntruck_plus_flare.projectile" />
+
 	
 	<projectile key="icecream.projectile" />   
 	<projectile key="flash9_grenade.projectile" />   

@@ -8,10 +8,9 @@ pulldown_in_air="10.0"
 drop_count_factor_on_death="0.0"
 time_to_live_out_in_the_open="0.0"
 >
-    <collision class="sticky" />
-	<result class="spawn" instance_class="vehicle" instance_key="r_vindicator_sub_bomb.vehicle" 
-	min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0.00 -0.1" />
-	<trigger class="impact" />	
+	<result class="spawn" instance_class="projectile" instance_key="r_vindicator_dive_bomb_sub.projectile" 
+	min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0.0 0.0" />
+	<trigger class="impact"/>	
     <rotation class="random" />
 
     <model mesh_filename="vindicator_beacon.xml" />
@@ -29,14 +28,11 @@ time_to_live_out_in_the_open="0.0"
 	<capacity value="5" source="rank" source_value="50" />
     <capacity value="7" source="rank" source_value="100" />
     <capacity value="9" source="rank" source_value="150" />
-    <capacity value="11" source="rank" source_value="200" />
-    <capacity value="13" source="rank" source_value="250" />
-    <capacity value="15" source="rank" source_value="300" />
     <inventory encumbrance="0.5" price="450.0" />
 
-	<sound class="result" key="other" fileref="Vindicator_boom1.wav" pitch_variety="0.01" volume="0.35" />
-	<sound class="result" key="other" fileref="Vindicator_boom2.wav" pitch_variety="0.01" volume="0.35"/>
-	<sound class="result" key="other" fileref="Vindicator_boom3.wav" pitch_variety="0.01" volume="0.35"/>
+	<sound class="result" key="other" fileref="vindicator_call_01.wav" pitch_variety="0.0" volume="1.5" />
+	<sound class="result" key="other" fileref="vindicator_call_02.wav" pitch_variety="0.0" volume="1.5"/>
+	<sound class="result" key="other" fileref="vindicator_call_03.wav" pitch_variety="0.0" volume="1.5"/>
     <sound class="result" key="terrain" copy="other" />
     <sound class="result" key="static_object" copy="other" />
     <sound class="result" key="vehicle" copy="other" />

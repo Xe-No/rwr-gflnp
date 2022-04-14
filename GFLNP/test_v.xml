@@ -1,6 +1,8 @@
 <vehicles>
-	<vehicle file="r_vindicator_sub_bomb.vehicle" /> 
 
 	<vehicle file="ecm.vehicle" /> 
+
+	<vehicle file="jeep_gk.vehicle" /> 
+	<vehicle file="guntruck_plus.vehicle" /> 
 
 </vehicles>
