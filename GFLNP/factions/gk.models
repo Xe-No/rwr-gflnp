@@ -837,6 +837,7 @@ gw_zb26_4703.weapon
 	<model filename="es_fiammetta.xml"><requirement class="weapon" slot="0" key="ew_fiammetta_m.weapon"/></model>
 	<model filename="gs_g41_schoolsuit.xml"><requirement class="weapon" slot="0" key="gw_g41_lasercanno_diffusion.weapon"/></model>
 	<model filename="gs_g41_schoolsuit.xml"><requirement class="weapon" slot="0" key="gw_g41_lasercanno_at.weapon"/></model>
+	<model filename="sex_ump45.xml"><requirement class="weapon" slot="1" key="shield_45steel.weapon"/><requirement class="weapon" slot="0" key="gw_ump45.weapon"/></model>
 
 </models>
     

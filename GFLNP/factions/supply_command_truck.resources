@@ -11,6 +11,14 @@ weapon
 	<weapon key="repair_crane_resource.weapon" />
 	<weapon key="gps_laptop.weapon" />
 
+	<weapon key="blueprint_aek971_camo.weapon" />
+	<weapon key="blueprint_akalfa.weapon" />
+	<weapon key="blueprint_iws2000.weapon" />
+	<weapon key="blueprint_portable_mortar.weapon" />
+	<weapon key="blueprint_svdm.weapon" />
+	<weapon key="blueprint_tkb059.weapon" />
+	<weapon key="blueprint_vector.weapon" />
+
 
 	<projectile key="hand_grenade.projectile" />
 	<projectile key="sticky_grenade.projectile" />

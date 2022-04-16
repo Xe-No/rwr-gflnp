@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile file="base_valuable.carry_item" class="grenade" name="CB Part" key="cb_part.projectile" slot="0" pulldown_in_air="10">
+    <result class="spawn" instance_class="projectile" instance_key="cb_part.projectile"  activated="0" />  
+    <trigger class="impact"/>
+    <rotation class="random" />
+    <throwable curve_height="6.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="13.0" randomness="0.07" />
+
+    <model mesh_filename="cb_part.xml" />
+	<hud_icon filename="cb_part.png" />
+    <sound class="impact" fileref="bling.wav" />
+
+    <capacity value="20" source="rank" source_value="0.0" />
+    <commonness value="0.05" in_stock="0" can_respawn_with="0" />
+    <inventory encumbrance="1.0" price="50000.0" />
+
+</projectile>
