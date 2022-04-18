@@ -16,8 +16,9 @@
 	/>
 
 	<projectile file="bullet.projectile">
-		<result class="hit" kill_probability="1.5" kill_decay_start_time="0.2" kill_decay_end_time="0.4"/>
+		<result class="hit" kill_probability="1.5" kill_decay_start_time="0.24" kill_decay_end_time="0.44"/>
 	</projectile>
+	<modifier class="speed" value="+0.1" /> 
 
 
 	
@@ -42,6 +43,7 @@
 	<commonness value="0" />
 	<inventory encumbrance="10.0" price="10.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
+
 
 	
 

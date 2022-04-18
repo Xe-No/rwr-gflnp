@@ -211,6 +211,7 @@
 			<call key="squad_AR.call" enabled="0"/>
 			<call key="squad_defy.call" enabled="0"/>
 			<call key="ah64_assasin.call" enabled="1"/>
+			<call key="drop_pod.call" enabled="1"/>
 			<call key="artillery_155.call" enabled="1"/>
 			
 
@@ -405,6 +406,7 @@
 			<projectile key="m1126_flare.projectile" />
 			<projectile key="tiger_flare.projectile" />
 			<projectile key="sturmtiger_flare.projectile" />
+			<call key="tank_crew.call" enabled="1"/>
 		</resources>		
 	</soldier>	
 	<soldier name="MED" firstnames_file="42LAB-MED.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
@@ -658,6 +660,28 @@
 
 	</soldier>
 
+	<soldier name="tank_crew" spawn_score="0.0" copy_from="template_SMG">
+		<model filename="nishizumi_maho.xml" />
+		<ai filename="tank_crew.ai" />
+
+		<resources>
+			<weapon key="gw_kacpdw.weapon" />  
+			<carry_item key="base_smg_vest.carry_item" enabled="1" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />		
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="600.0" max="650.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="10.0" max="50.0" />
+		</attribute_config>
+	</soldier>   
 
 
 

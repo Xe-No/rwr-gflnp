@@ -1,6 +1,7 @@
 <vehicles>
 
 	<vehicle file="ecm.vehicle" /> 
+	<vehicle file="drop_pod.vehicle" /> 
 
 	<vehicle file="jeep_gk.vehicle" /> 
 	<vehicle file="guntruck_plus.vehicle" /> 

@@ -8,5 +8,6 @@
 	<call file="artillery_105.call" />
 	<call file="artillery_155.call" />
 	<call file="ah64_assasin.call" />
+	<call file="drop_pod.call" />
 
 </calls>
