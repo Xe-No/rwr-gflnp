@@ -10,9 +10,9 @@
 	<physics max_health="10.0" blast_damage_threshold="0.17" TODO_blast_damage_threshold="1.02" mass="200.0" extent="5 0.0 7" offset="0 0.0 0" top_offset="0 3.0 0" collision_model_pos="0 1.2 0" collision_model_extent="4.0 3.0 8.0" visual_offset="0 0.6 0.0" /> 
 
 
-	<turret offset="0 2.0 0.0" 	weapon_key="t14s_laser.weapon" 	weapon_offset="0.0 0.4 -0.2" 	weapon_recoil="0.1" 						max_rotation_step="0.0002" />
-	<turret offset="0 3.2325 0.0" 	weapon_key="vmg.30.weapon" 	weapon_offset="0.0 0.4 -0.2" 	weapon_recoil="0.0" physics_recoil="0.0" 	max_rotation_step="0.0005" />
-	<turret offset="0 2.4 0.0" 	weapon_key="vmg.30.weapon" 		weapon_offset="0.0 0.4 -0.2" 	weapon_recoil="0.0" physics_recoil="0.0" 	max_rotation_step="0.0002"/>	
+	<turret offset="0 2.0 0.0" 	weapon_key="t14s_laser.weapon" 	weapon_offset="0.0 0.4 -0.2" 	weapon_recoil="0.1" 						max_rotation_step="0.00005" />
+	<turret offset="0 3.2325 0.0" 	weapon_key="vmg.50.weapon" 	weapon_offset="0.0 0.4 -0.2" 	weapon_recoil="0.0" physics_recoil="0.0" 	max_rotation_step="0.00003" />
+	<!-- <turret offset="0 2.4 0.0" 	weapon_key="vmg.30.weapon" 		weapon_offset="0.0 0.4 -0.2" 	weapon_recoil="0.0" physics_recoil="0.0" 	max_rotation_step="0.0002"/>	 -->
 	
 <!-- 	<turret offset="0 2.70485 0.0" 	weapon_key="t14_cannon.weapon" 			weapon_offset="0.0 0.0 0.0"	weapon_recoil="0.1" 						max_rotation_step="0.0002" />
 	<turret offset="0 2.56831 0.0" 	weapon_key="t14_remote_mg.weapon" 	 	weapon_recoil="0.0" physics_recoil="0.0" 	max_rotation_step="0.0005" />
@@ -20,11 +20,11 @@
 	
 
 	<visual class="chassis" 								mesh_filename="t14_body.mesh" 			texture_filename="t14s_body.png" max_tilt="0.06" />
-	<visual class="chassis" key="broken" 					mesh_filename="t14_body.mesh" 			texture_filename="t14_body_broken.png" />
+	<visual class="chassis" key="broken" 					mesh_filename="t14_body.mesh" 			texture_filename="t14s_body_broken.png" />
 	<visual class="turret" turret_index="0" 				mesh_filename="t14_turret.mesh" 		texture_filename="t14s_turret.png" />
-	<visual class="turret" turret_index="0" key="broken" 	mesh_filename="t14_turret.mesh" 		texture_filename="t14_turret_broken.png" />  
+	<visual class="turret" turret_index="0" key="broken" 	mesh_filename="t14_turret.mesh" 		texture_filename="t14s_turret_broken.png" />  
 	<visual class="turret" turret_index="1" 				mesh_filename="t14_remote_mg.mesh" 		texture_filename="t14s_turret.png" />
-	<visual class="turret" turret_index="1" key="broken" 	mesh_filename="t14_remote_mg.mesh" 		texture_filename="t14_turret_broken.png" />
+	<visual class="turret" turret_index="1" key="broken" 	mesh_filename="t14_remote_mg.mesh" 		texture_filename="t14s_turret_broken.png" />
 	<visual class="turret" turret_index="2" 				mesh_filename="" 						texture_filename="" />
 	<visual class="turret" turret_index="2" key="broken" 	mesh_filename="" 						texture_filename="" />
 
@@ -42,16 +42,16 @@
 
 	
 
-	<visual class="track" mesh_filename="tank_track.mesh" offset="-1.6 0.5 0.2" >
-		<part texture_filename="tank_body.png" />
-		<part texture_filename="tank_track.png" texture_animation="translate" tire_binding="0" />
-		<part texture_filename="tank_wheel.png" texture_animation="rotate" tire_binding="0" />
+	<visual class="track" mesh_filename="tank_track.mesh" offset="-1.4 0.5 0.2" >
+		<!-- <part texture_filename="tank_body.png" /> -->
+		<part texture_filename="t14_track.png" texture_animation="translate" tire_binding="0" />
+		<part texture_filename="t14_wheel.png" texture_animation="rotate" tire_binding="0" />
 	</visual>
 
-	<visual class="track" mesh_filename="tank_track.mesh" offset="+1.6 0.5 0.2" >
-		<part texture_filename="tank_body.png" />
-		<part texture_filename="tank_track.png" texture_animation="translate" tire_binding="1" />
-		<part texture_filename="tank_wheel.png" texture_animation="rotate" tire_binding="1" />
+	<visual class="track" mesh_filename="tank_track.mesh" offset="+1.4 0.5 0.2" >
+		<!-- <part texture_filename="tank_body.png" /> -->
+		<part texture_filename="t14_track.png" texture_animation="translate" tire_binding="1" />
+		<part texture_filename="t14_wheel.png" texture_animation="rotate" tire_binding="1" />
 	</visual>
 
 	

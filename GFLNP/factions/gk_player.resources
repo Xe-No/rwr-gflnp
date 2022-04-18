@@ -15,7 +15,9 @@
 	<call key="strike_air.call" />
 	<call key="strike_2b14.call" />
 	<call key="artillery_105.call" />
-	<call key="drop_pod.call" />
+<!-- 	<call key="drop_pod.call" />
+	<call key="drop_pod_med.call" />
+	<call key="drop_pod_crew.call" /> -->
 
 	<!-- vehicle -->
     <vehicle key="tank_2.vehicle" />

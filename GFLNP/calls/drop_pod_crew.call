@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<call name="1 drop pod + 5 troopers" key="drop_pod.call"
+<call name="1 drop pod + 5 tank crew" key="drop_pod_crew.call"
 	   initiation_comment1="Requesting 5 pod-troopers"
 	   acknowledge_comment="Roger"
 	   launch_comment="1 drop pod ejected">
@@ -30,9 +30,9 @@
        
     </round>
 
-    <round instances="4"
+    <round instances="5"
            instance_class="soldier"
-	    instance_key="default"
+	    instance_key="tank_crew"
            instance_spread="3 0 3" 
            common_spread="0 0 0" 
            launch_time="5.0"
@@ -41,16 +41,6 @@
            vertical_offset_at_spawn="0.0">
     </round>
 
-    <round instances="1"
-           instance_class="soldier"
-	    instance_key="medic"
-           instance_spread="3 0 3" 
-           common_spread="0 0 0" 
-           launch_time="5.0"
-           spawn_time="6.0"
-           horizontal_offset_at_spawn="0.0"
-           vertical_offset_at_spawn="0.0">
-    </round>
 
     <hud_icon filename="hud_paratroopers1.png" />
     <capacity value="0" source="rank" source_value="0.0" />

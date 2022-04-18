@@ -31,6 +31,9 @@
 <projectile file="coeus_flare.projectile" />
 <projectile file="uhlan_flare.projectile" />
 
+
+<projectile file="landing_impact.projectile" />
+
 <projectile file="cb_part.projectile" />
 
 

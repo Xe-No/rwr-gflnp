@@ -407,6 +407,7 @@
 			<projectile key="tiger_flare.projectile" />
 			<projectile key="sturmtiger_flare.projectile" />
 			<call key="tank_crew.call" enabled="1"/>
+			<call key="drop_pod_crew.call" enabled="1"/>
 		</resources>		
 	</soldier>	
 	<soldier name="MED" firstnames_file="42LAB-MED.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
@@ -417,13 +418,14 @@
 			<parameter class="encumbrance" low="19.9" high="50.0" />
 			<parameter class="wounded_auto_death_time" value="75.0" />
 		</character>
-		<resources clear_calls="1">
+		<resources >
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key='med_pistol_revive.weapon' />
 			<projectile key="medic_grenade.projectile" />
 			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_t4_exo.carry_item" enabled="1"/>
-			<call key="strike_air.call" />
+			<call key="ac130_gun_run.call" enabled="0"/>
+			<call key="drop_pod_med.call" />
 			<call key="supply_quad.call" />
 		</resources>	
 	</soldier>

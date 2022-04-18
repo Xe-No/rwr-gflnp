@@ -115,7 +115,7 @@
 			
 		
 			MBT
-			<vehicle key="t14.vehicle" />
+			<vehicle key="tank_2.vehicle" />
 			IFV
 			<vehicle key="apc_2.vehicle" />
 			APC

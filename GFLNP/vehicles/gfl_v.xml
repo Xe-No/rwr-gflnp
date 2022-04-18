@@ -4,7 +4,7 @@
 	<vehicle file="tank.vehicle" />
 	<vehicle file="tank_1.vehicle" /> 
 	<vehicle file="tank_2.vehicle" />       
-	<!-- <vehicle file="t14s.vehicle" />       -->
+	<vehicle file="t14s.vehicle" />      
  	<vehicle file="typhoon_tx.vehicle" />       
 	<vehicle file="typhoon_kcco.vehicle" />       
 	<vehicle file="ztz99a.vehicle" />       

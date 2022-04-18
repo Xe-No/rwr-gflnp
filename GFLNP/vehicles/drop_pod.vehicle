@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle name="Drop Pod" key="drop_pod.vehicle" map_view_atlas_index="-1" time_to_live="240.0" should_be_destroyed="1" protectors="3">
+<vehicle name="Drop Pod" key="drop_pod.vehicle" map_view_atlas_index="-1" time_to_live="240.0" should_be_destroyed="1" protectors="3" max_character_collision_speed_on_normal="1000.0">
 	<tag name="metal_heavy" />
 	TODO:
 	地图图标
@@ -10,9 +10,10 @@
 
 	<control max_speed="1.0" acceleration="1" max_reverse_speed="1.0" max_rotation="0.0" max_water_depth="1.9" />
 
-	<physics max_health="24.0" mass="10000.0" extent="4.0 0.0 4.0" offset="0 0.0 0" top_offset="0 1 0" collision_model_pos="0 1.0 0" collision_model_extent="2 3.0 2" visual_offset="0 0.6 0.0" /> 
+	<physics max_health="24.0" mass="10000.0" extent="4.0 0.0 4.0" offset="0 0.0 0" top_offset="0 1 0" collision_model_pos="0 3.0 0" collision_model_extent="2 3.0 2" visual_offset="0 0.6 0.0" /> 
 
 	<!-- "Space Marine Drop Pod Open" (https://skfb.ly/68qHt) by tapsellry1 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). -->
+	<!-- Modified by Xe-No -->
 	<visual class="chassis" mesh_filename="drop_pod.mesh" texture_filename="drop_pod.png" />
     <spawn_point player_only="0" offset="3 0 3" />
  

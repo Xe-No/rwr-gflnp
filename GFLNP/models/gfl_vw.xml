@@ -78,6 +78,7 @@
 <weapon file="coeus_laser.weapon" />
 <weapon file="coeus_minigun.weapon" />
 <weapon file="m1128d_cannon.weapon" />
+<weapon file="t14s_laser.weapon" />
     <!-- <weapon file="templax_gl.weapon"/> -->
     <!-- <weapon file="templax_minig.weapon"/> -->
 </weapons>
