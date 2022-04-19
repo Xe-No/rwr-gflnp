@@ -5,8 +5,6 @@ name="RVindicator Dive Bomb"
 key="r_vindicator_dive_bomb.projectile" 
 slot="0"
 pulldown_in_air="10.0"
-drop_count_factor_on_death="0.0"
-time_to_live_out_in_the_open="0.0"
 >
 	<result class="spawn" instance_class="projectile" instance_key="r_vindicator_dive_bomb_sub.projectile" 
 	min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0.0 0.0" />

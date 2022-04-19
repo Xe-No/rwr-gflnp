@@ -414,8 +414,8 @@
 		<character filename="gk_player.character">
 			<parameter class="prone_moving_steer_amount" value="0.1" />
 			<parameter class="speed" value="1.1" />
-			<parameter class="speed_encumbered" low="1.0" high="0.35" />
-			<parameter class="encumbrance" low="19.9" high="50.0" />
+			<parameter class="speed_encumbered" low="0.95" high="0.35" />
+			<parameter class="encumbrance" low="9.9" high="50.0" />
 			<parameter class="wounded_auto_death_time" value="75.0" />
 		</character>
 		<resources >

@@ -521,6 +521,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_iws2000_banisher_he.weapon", "weapon", 2.0f),	//2x up
 				ScoredResource("ew_fiammetta_m.weapon", "weapon", 2.0f),	//2x up
 		ScoredResource("gw_g41_lasercanno_diffusion.weapon", "weapon", 2.0f),	//2x up
+		ScoredResource("kf2_seekersix_ap.weapon", "weapon", 2.0f),	//2x up
         		ScoredResource("ace_of_spades.weapon", "weapon", 1.0f),
 				ScoredResource("ew_rpl20.weapon", "weapon", 1.0f),	
 				ScoredResource("ew_heir_apparent.weapon", "weapon", 1.0f),	

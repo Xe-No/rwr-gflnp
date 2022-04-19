@@ -46,6 +46,7 @@ weapon
 	<projectile key="m1128d_flare.projectile" />
 	<projectile key="jeep_gk_flare.projectile" />
 	<projectile key="guntruck_plus_flare.projectile" />
+	<projectile key="r_vindicator_dive_bomb.projectile" />
 
 	
 	<projectile key="icecream.projectile" />   
