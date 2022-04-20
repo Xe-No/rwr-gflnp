@@ -121,13 +121,29 @@ calls
     <text key="Requesting 105mm artillery strike." text="¤ ¤ ¤ 请求105mm饱和式打击 ¤ ¤ ¤ " /> 
     <text key="105mm artillery strike" text="¤ ¤ ¤ 105mm榴弹炮饱和式打击 ¤ ¤ ¤" /> 
 	<text key="Coordinates confirmed." text="打击坐标确认完毕" /> 105-1
-	<text key="This is Badger 1,prepare to fire." text="这里是Badger 1,准备完毕" /> 105-2
+	<text key="This is Badger 1,prepare to fire." text="这里是Badger 1，准备完毕" /> 105-2
  <!--    <text key="Fire mission received,artillery inbound." text="火力支援确认，火炮来袭。" /> -->105-3（voice）
     <text key="Requesting 380mm naval strike." text="请求380mm舰炮支援" />
     <text key="380mm naval strike." text="380mm舰炮支援" />
 
+	<text key="AH-64 Helo support" text="AH-64武装直升机支援" />
+	<text key="AH-64 helo support" text="AH-64武装直升机支援" />
+	<text key="Call for Assasin! get that helo on this location! we gonna need her" text="呼叫Assassin！请求武装直升机支援此处" />
+	<text key="Copy that, Assasin is on the way. Stand by." text="了解，Assassin正在前往，做好准备" /> AH64-1
+	<text key="This is Assasin, IP in bound to target." text="这里是Assassin，起始点进场中" /> AH64-2
+	<text key="155mm artillery fire support" text="¤ ¤ ¤ 请求155mm炮击火力支援 ¤ ¤ ¤" />
+	<text key="155mm artillery strike" text="¤ ¤ ¤ 155mm榴弹炮打击 ¤ ¤ ¤" />
+	<text key="Permission Granted." text="许可已确认" /> 155-1
+	<text key="Shells Fire." text="炮击火力抵达" /> 155-2
+	<text key="1 drop pod + 5 troopers" text="5人舱降" />
+	<text key="Requesting 5 pod-troopers" text="请求5人舱降支援" />
+	<text key="1 drop pod ejected" text="1个空降舱已发射" />
+	<text key="1 drop pod + 5 tank crew" text="5人战车班组舱降" />
+	<text key="1 drop pod + 5 medic" text="5人医疗支援舱降" />
+	<text key="4 tank crew" text="4人战车班组支援" />
+
 	<text key="cover drop" text="空投沙袋" />
-	<text key="I need sandbags" text="我需要沙袋！" />
+	<text key="I need sandbags" text="我需要沙袋" />
 	<text key="Confirmed" text="确认" />
 	<text key="Sandbags on the way" text="正在空运沙袋" />
 	<text key="mortar strike (1x8)" text="迫击炮打击（1x8）" />
@@ -138,7 +154,7 @@ calls
 	<text key="4 paratroopers" text="4个伞兵" />
 	<text key="Reinforcements" text="增援部队" />
 	<text key="requesting 4" text="请求4人支援" />
-	<text key="Roger" text="明白" />
+	<text key="Roger" text="收到" />
 	<text key="4 airborne" text="4个空降兵" />
 	<text key="mortar strike (3x8)" text="迫击炮打击（3x8）"/>
 	<text key="fire three rounds." text="3轮迫击炮打击"/>
@@ -185,6 +201,10 @@ calls
     <text key="Aircraft approaching designated area." text="飞机正在飞往指定区域"/>    
     <text key="rocket artillery" text="火箭炮击"/> 
     <text key="Elite Reinforcements" text="精英小队支援" />  
+	<text key="spawn VFS" text="空投VFS"/>
+	<text key="I need light armoured anti-tank vehicle" text="我需要轻型反坦克装甲车！"/>
+	<text key="Confirmed, VFS's in the air." text="已确认，正在空运VFS"/>
+	<text key="Airdropping VFS now." text="正在空投VFS"/>
 
 vehicle
     <text key="M2A2 Bradley" text="M2A2 Bradley步战车" />
@@ -238,8 +258,15 @@ vehicle
 	<text key="BTR-80A" text="BTR-80A装甲车" />
 	<text key="Strf 9040C" text="Strf 9040C步战车" />
 	<text key="Jupiter Cannon [Light]" text="“木星”巨型炮台 [Light]" />
+	<text key="T-14S Armata" text="T-14S Armata坦克" />
+	<text key="Drop Pod" text="空降舱" />
+	<text key="Gun truck plus" text="武装卡车Plus" />
+	<text key="G&K Jeep" text="格里芬特供吉普车" />
+
 	<text key="404 jammer" text="404干扰信标" />
 	<text key="AR spawn flare" text="AR重生信标" />
+	<text key="mortar flare" text="迫击炮信标" />
+	<text key="ECM marker" text="电子反制设备" />
     <text key="HG Supply Box" text="手枪补给箱" />
     <text key="SMG Supply Box" text="冲锋枪补给箱" />
     <text key="AR Supply Box" text="突击步枪补给箱" />
@@ -329,6 +356,12 @@ drop
     <text key="NOXE Ghost Drop" text="NOXE Ghost导弹发射车空投信标"/>
     <text key="SEV-90 Drop" text="SEV-90反战车坦克空投信标"/>
 	<text key="M1128[Desert] drop" text="M1126机动火炮（沙漠涂装）空投信标" />
+	<text key="Coeus Drop" text="Coeus悬浮坦克空投信标" />
+	<text key="Gun truck plus Drop" text="武装卡车Plus空投信标" />
+	<text key="G&K Jeep Drop" text="格里芬特供吉普空投信标" />
+	<text key="Uhlan Drop" text="Uhlan机动坦克空投信标" />
+	<text key="Typhoon[KCCO] Drop" text="Typhon悬浮坦克[KCCO]空投信标" />
+	<text key="Typhoon[SF] Drop" text="Typhon悬浮坦克[SFIMC]空投信标" />
 
 drop item
 	<text key="whiskey bottle" text="威士忌" />
@@ -412,7 +445,9 @@ drop item
 	<text key="Token Box" text="信物箱子" />
 	<text key="Play Box" text="玩具箱子" />
 	<text key="Newyear Box" text="新年箱子" />
+	<text key="Vehicle Box" text="载具箱子" />
     <text key="Lottery ticket" text="彩票" />  
+	<text key="CB Part" text="CB零件" />
 
 projectile
 	<text key="Air Strike Marker" text="空袭标记信号弹" />
@@ -422,6 +457,7 @@ projectile
 	<text key="targetdrone summoner" text="嘲讽靶机胶囊" />
 	<text key="Dummy Core" text="核心" />
 	<text key="RVindicator Dive Bomb" text="辩护者俯冲轰炸信标" />
+	<text key="Electronic counter measure support marker" text="电子反制支援信标" />
 
 	<text key="4th Anniversary Token" text="4周年信物" />
     <text key="Chinadress Token" text="旗袍信物" />
@@ -460,6 +496,9 @@ projectile
 	<text key="RST[RE]" text="RST[RE]" />
 	<text key="PA-15[Highschool Heartbeat Story] [RE]" text="PA-15[高校心跳物语] [RE]" />
 	<text key="Medic[RE]" text="医疗兵[RE]" />
+	<text key="Douzi[RE]" text="豆子[RE]" />
+	<text key="Kurumi[Wedding][RE]" text="花嫁狂三[RE]" />
+	<text key="Grey cat sneeze" text="灰猫猫（打喷嚏呐！）" />
 
 	<text key="incendiary grenade" text="燃烧弹" />
 	<text key="Molotov" text="鸡尾酒燃烧弹" />
@@ -482,6 +521,9 @@ projectile
     <text key="bats" text="吸血出击"/>
     <text key="howling" text="狼吼"/>
 	<text key="EL-3807 Mini C5" text="EL-3807小型C5炸药" />
+	<text key="EMP grenade" text="EMP手雷" />
+	<text key="medic grenade" text="医疗手雷" />
+	<text key="Repair Charge" text="维修发生器" />
 
 zombies item
     <text key="Infected_100%" text="丧尸" />
@@ -758,6 +800,34 @@ armor
 	<text key="Doppelsoldner 15%" text="巨剑士装甲 3/20" />
 	<text key="Doppelsoldner 10%" text="巨剑士装甲 2/20" />
 	<text key="Doppelsoldner destoryed" text="巨剑士损坏装甲 1/20" />
+
+	<text key="PZC Armor 14/14" text="PZC抗爆护甲 14/14" />
+	<text key="PZC Armor 13/14" text="PZC抗爆护甲 13/14" />
+	<text key="PZC Armor 12/14" text="PZC抗爆护甲 12/14" />
+	<text key="PZC Armor 11/14" text="PZC抗爆护甲 11/14" />
+	<text key="PZC Armor 10/14" text="PZC抗爆护甲 10/14" />
+	<text key="PZC Armor 9/14" text="PZC抗爆护甲 9/14" />
+	<text key="PZC Armor 8/14" text="PZC抗爆护甲 8/14" />
+	<text key="PZC Armor 7/14" text="PZC抗爆护甲 7/14" />
+	<text key="PZC Armor 6/14" text="PZC抗爆护甲 6/14" />
+	<text key="PZC Armor 5/14" text="PZC抗爆护甲 5/14" />
+	<text key="PZC Armor 4/14" text="PZC抗爆护甲 4/14" />
+	<text key="PZC Armor 3/14" text="PZC抗爆护甲 3/14" />
+	<text key="PZC Armor 2/14" text="PZC抗爆护甲 2/14" />
+	<text key="PZC Armor destroyed" text="PZC抗爆护甲（损坏） 1/14" />
+
+	<text key="HVY Armor 12/12" text="HVY重型护甲 12/12" />
+	<text key="HVY Armor 11/12" text="HVY重型护甲 11/12" />
+	<text key="HVY Armor 10/12" text="HVY重型护甲 10/12" />
+	<text key="HVY Armor 9/12" text="HVY重型护甲 9/12" />
+	<text key="HVY Armor 8/12" text="HVY重型护甲 8/12" />
+	<text key="HVY Armor 7/12" text="HVY重型护甲 7/12" />
+	<text key="HVY Armor 6/12" text="HVY重型护甲 6/12" />
+	<text key="HVY Armor 5/12" text="HVY重型护甲 5/12" />
+	<text key="HVY Armor 4/12" text="HVY重型护甲 4/12" />
+	<text key="HVY Armor 3/12" text="HVY重型护甲 3/12" />
+	<text key="HVY Armor 2/12" text="HVY重型护甲 2/12" />
+	<text key="HVY Armor destroyed" text="HVY重型护甲（损坏） 1/12" />
 
 UI
 	<text key="throw some grenades at me!" text="朝这里扔手榴弹！" />

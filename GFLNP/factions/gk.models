@@ -527,6 +527,9 @@
     <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
     <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
 
+    <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="ecm.projectile"/><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
+    <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="ecm.projectile"/><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
+
     <model filename="gs_mk48.xml"><requirement class="weapon" slot="0" key="gw_mk48.weapon"/></model>
     <model filename="gs_mk48.xml"><requirement class="weapon" slot="0" key="gw_mk48_n.weapon"/></model>
 

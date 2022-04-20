@@ -75,6 +75,11 @@ projectile, vehicle and other
     <text key="bronia_hg" text="布洛妮娅" />
     <text key="grenade" text="榴弹" />
     <text key="Kraken Pulse Cannon" text="克拉肯脉冲炮" />
+    <text key="casnatas" text="雷暴信标" />
+    <text key="G41's lasercanno" text="G41激光炮" />
+    <text key="impact" text="冲击" />
+    <text key="medical dart" text="医疗飞镖" />
+    <text key="155mm Howitzer Shell" text="155mm榴弹炮" />
 
 AR
 -normal-
@@ -595,7 +600,34 @@ Paradeus
     <text key="Rodelero" text="剑盾士"/>
     <text key="Doppelsoldner-GL" text="巨剑士（榴弹）"/>
     <text key="Doppelsoldner-MGL" text="巨剑士（火箭弹）"/>
+    <text key="Streltsy" text="重炮士"/>
+
+42LAB
+    <text key="HK416C[ERC only]" text="HK416C消音卡宾枪[ERC限定]"/>
+    <text key="MP5SD[GST3 only]" text="MP5SD消音冲锋枪[GST3限定]"/>
+    <text key="Telescopic Shield[HVY3 only]" text="伸缩式折叠盾[HVY3限定]"/>
+    <text key="Medical Pistol" text="医疗手枪[MED限定]"/>
+    <text key="MP7[SCT3 only]" text="MP7A2冲锋枪[SCT3限定]"/>
+    <text key="Mortar Binoculars" text="迫击炮标记望远镜[TEL2限定]"/>
+    <text key="etile large wrench" text="精英大扳手[PZC限定]"/>
+
+Blueprint
+    <text key="blueprint_aek971_camo" text="蓝图（AEK-971[幽灵伪装GC]）"/>
+    <text key="blueprint_akalfa" text="蓝图（AKALFA）"/>
+    <text key="blueprint_iws2000" text="蓝图（IWS2000[第七封印者]）"/>
+    <text key="blueprint_portable_mortar" text="蓝图（便携迫击炮）"/>
+    <text key="blueprint_svdm" text="蓝图（SVDM）"/>
+    <text key="blueprint_tkb059" text="蓝图（TKB-059）"/>
+    <text key="blueprint_vector" text="蓝图（维克托）"/>
 
 TEST
+    <text key="Fiammetta M" text="菲亚梅塔 主武装"/>
+    <text key="Fiametta_s" text="菲亚梅塔 副武装"/>
+    <text key="AN-94[MOD4]" text="AN-94[MOD4]"/>
+    <text key="S-Castanas" text="雷暴信标"/>
+    <text key="G41[Miko's Cannon][Diffusion]" text="G41[巫女的炮火][扩散弹]"/>
+    <text key="G41[Miko's Cannon][Railgun]" text="G41[巫女的炮火][激光炮]"/>
+    <text key="Seeker Six AP" text="探索者六号[穿甲]"/>
+    <text key="Seeker Six HE" text="探索者六号[高爆]"/>
 
 </translation>
