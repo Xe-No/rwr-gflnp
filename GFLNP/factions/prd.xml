@@ -61,7 +61,7 @@
 		</resources>
 	</soldier>
 	
-	<soldier name="streltsy" spawn_score="0.2" copy_from="default">
+	<soldier name="streltsy" spawn_score="0.1" copy_from="default">
 		<ai filename="elite.ai" />
 		<resources clear_weapons="1" >
 			<weapon key="pw_streltsy.weapon" />
