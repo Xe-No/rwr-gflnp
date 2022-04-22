@@ -136,6 +136,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("vulcan_acav_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("btr82a_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("btr80a_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("apc_m2a2_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("m1126_flare.projectile", "projectile", 1.0f, 2)
 			},
 			{
@@ -145,6 +146,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("typhoon_kcco_flare.projectile", "projectile", 1.0f),
 				ScoredResource("typhoon_tx_flare.projectile", "projectile", 1.0f),
 				ScoredResource("coeus_flare.projectile", "projectile", 1.0f),
+				ScoredResource("tank_flare.projectile", "projectile", 1.0f),
+				ScoredResource("t14s_flare.projectile", "projectile", 1.0f),
 				ScoredResource("uhlan_flare.projectile", "projectile", 1.0f)
 
 			}

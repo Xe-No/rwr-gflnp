@@ -30,6 +30,9 @@
 <projectile file="typhoon_tx_flare.projectile" />
 <projectile file="coeus_flare.projectile" />
 <projectile file="uhlan_flare.projectile" />
+<projectile file="apc_m2a2_flare.projectile" />
+<projectile file="tank_flare.projectile" />
+<projectile file="t14s_flare.projectile" />
 
 
 <projectile file="landing_impact.projectile" />
