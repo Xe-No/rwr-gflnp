@@ -12,7 +12,7 @@
     class="4" 
     reload_one_at_a_time="0" 
     sight_range_modifier="1.5" 
-    projectile_speed="100.0" 
+    projectile_speed="50.0" 
     barrel_offset="0.65" 
     projectiles_per_shot="1" 
     burst_shots="1"
@@ -42,6 +42,8 @@
     <inventory encumbrance="20.0" price="6666.0" />
 
     <weak_hand_hold offset="0.3" />
+
+    <ballistics curve_height="10.0" near_far_distance="0.0" speed_estimation_near="0.0" speed_estimation_far="58.0" max_speed="42.0" randomness="0.0" tweak_factor="1.2" />
     <projectile file="seeker_ap.projectile" />
 
 	

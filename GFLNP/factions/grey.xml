@@ -1,5 +1,5 @@
 <!-- <?xml version="1.0" encoding="utf-8"?> -->
-<faction name="G&amp;K PMC" color="0.9 0.6 0.0" firstnames_file="gk_class.name" lastnames_file="gk_serial.name" chat_icon_filename="gk_chat_soldier.png" chat_icon_commander_filename="gk_chat_commander.png" campaign_completion_icon_filename="campaign_win_0.png" radio_queue_size="3">
+<faction name="G&amp;K PMC" color="0.9 0.6 0.0" firstnames_file="gk_class.name" lastnames_file="gk_serial.name" chat_icon_filename="gk_chat_soldier.png" chat_icon_filename_supporter="gk_chat_soldier.png" chat_icon_commander_filename="gk_chat_commander.png"  campaign_completion_icon_filename="campaign_win_0.png" radio_queue_size="3">
 
 	<rank xp="0.0" name="2 Star T-Doll">
 		<hud_icon filename="gk_2star.png" />
