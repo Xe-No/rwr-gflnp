@@ -206,4 +206,8 @@
 	<vehicle file="m1128d.vehicle" /> 
 	<vehicle file="uhlan.vehicle" /> 
 
+<!-- 32 -->
+	<vehicle file="jeep_gk.vehicle" /> 
+	<vehicle file="guntruck_plus.vehicle" /> 
+
 </vehicles>

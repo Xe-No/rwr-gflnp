@@ -2,20 +2,7 @@
 
 
 
-<projectile file="r_vindicator_dive_bomb.projectile" />
-<projectile file="r_vindicator_sub_sub_shrapnel.projectile" />	
-<projectile file="r_vindicator_sub_sub_missile.projectile" />
-<projectile file="r_vindicator_dive_bomb_sub.projectile" />
-<projectile file="r_vindicator_sub_sub_missile_spawn.projectile" />
-<projectile file="r_vindicator_sub_sub_shrapnel_spawn.projectile" />
-
-<projectile file="token_grey_cat.projectile" />
-<projectile file="ew_fiammetta_s_sub.projectile" />
-<projectile file="ew_fiammetta_m_sub.projectile" />
-<projectile file="gw_g41_lasercanno_diffusion_sub.projectile" />
-<projectile file="jeep_gk_flare.projectile" />
-<projectile file="guntruck_plus_flare.projectile" />
-
+<!-- MOD3 -->
 <projectile file="ecm.projectile" />
 <projectile file="gw_emp_grenade.projectile" />
 <projectile file="gw_emp_blast.projectile" />
@@ -23,20 +10,9 @@
 <projectile file="mortar_flare.projectile" />
 <projectile file="medic_grenade.projectile" />
 <projectile file="155mm.projectile" />
-
-<projectile file="rod_selfstun.projectile" />
-	
-<projectile file="typhoon_kcco_flare.projectile" />
-<projectile file="typhoon_tx_flare.projectile" />
-<projectile file="coeus_flare.projectile" />
-<projectile file="uhlan_flare.projectile" />
-<projectile file="apc_m2a2_flare.projectile" />
-<projectile file="tank_flare.projectile" />
-<projectile file="t14s_flare.projectile" />
-
-
 <projectile file="landing_impact.projectile" />
 
+<!-- CBP -->
 <projectile file="cb_part.projectile" />
 
 

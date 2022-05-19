@@ -564,6 +564,22 @@ RE
 <weapon file="doppelsoldner_mgl.weapon" />
 
 
+<!-- 32 -->
+
+
+<weapon file="gw_castanas.weapon" />
+<weapon file="gw_an94_mod4_s.weapon" />
+<weapon file="gw_an94_mod4.weapon" />
+<weapon file="ew_fiammetta_s.weapon" />
+<weapon file="ew_fiammetta_m.weapon" />
+<weapon file="gw_g41_lasercanno_diffusion.weapon" />
+<weapon file="gw_g41_lasercanno_at.weapon" />
+
+<weapon file="pw_streltsy.weapon" />
+<weapon file="kf2_seekersix_ap.weapon" />
+<weapon file="kf2_seekersix_he.weapon" />
+
+
 
   <weapon file="banner_santa.weapon">  
     <commonness value="0.0" in_stock="0" />  
