@@ -15,6 +15,26 @@
 <weapon file="base_blue_print.weapon" />
 <weapon file="blueprints.weapon" />
 
+<!-- 33 -->
+<weapon file="emmmm_f.weapon" />
+<weapon file="emmmm_t.weapon" />
+<weapon file="gw_ksvk_mod.weapon" />
+<weapon file="gw_ksvk_mod_f.weapon" />
+<weapon file="gw_mcx_6502.weapon" />
+<weapon file="gw_ntw20_2301.weapon" />
+<weapon file="gw_ntw20mod3.weapon" />
+<weapon file="gw_ntw20mod3_he.weapon" />
+<weapon file="gw_kn57.weapon" />
+<weapon file="ew_dragunov_ince.weapon" />
+<weapon file="gw_ltlx7000_6101_b.weapon" />
+<weapon file="gw_ltlx7000_6101_r.weapon" />
+<weapon file="gw_mcx.weapon" />
+<weapon file="gw_sks.weapon" />
+<weapon file="gw_sks_b.weapon" />
+<weapon file="pw_nyto_black.weapon" />
+
+
+
 
 
 </weapons>

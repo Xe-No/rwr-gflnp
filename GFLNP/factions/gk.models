@@ -844,6 +844,25 @@ gw_zb26_4703.weapon
 	<model filename="es_seekersix.xml"><requirement class="weapon" slot="0" key="kf2_seekersix_ap.weapon"/></model>
 	<model filename="es_seekersix.xml"><requirement class="weapon" slot="0" key="kf2_seekersix_he.weapon"/></model>
 
+<!-- 33 -->
+	<model filename="es_emmmm.xml"><requirement class="weapon" slot="0" key="emmmm_f.weapon"/></model>
+	<model filename="es_emmmm.xml"><requirement class="weapon" slot="0" key="emmmm_t.weapon"/></model>
+	<model filename="gs_ksvk_mod.xml"><requirement class="weapon" slot="0" key="gw_ksvk_mod.weapon"/></model>
+	<model filename="gs_ksvk_mod.xml"><requirement class="weapon" slot="0" key="gw_ksvk_mod_f.weapon"/></model>
+	<model filename="gs_mcx_6502.xml"><requirement class="weapon" slot="0" key="gw_mcx_6502.weapon"/></model>
+	<model filename="gs_ntw_2301.xml"><requirement class="weapon" slot="0" key="gw_ntw20_2301.weapon"/></model>
+	<model filename="gs_ntw20mod3.xml"><requirement class="weapon" slot="0" key="gw_ntw20mod3.weapon"/></model>
+	<model filename="gs_ntw20mod3.xml"><requirement class="weapon" slot="0" key="gw_ntw20mod3_he.weapon"/></model>	
+	<model filename="arkn_amiya.xml"><requirement class="weapon" slot="0" key="gw_kn57.weapon"/></model>	
+	<model filename="es_dragunov_ince.xml"><requirement class="weapon" slot="0" key="ew_dragunov_ince.weapon"/></model>	
+	<model filename="gs_ltlx7000_6101.xml"><requirement class="weapon" slot="0" key="gw_ltlx7000_6101_b.weapon"/></model>
+	<model filename="gs_ltlx7000_6101.xml"><requirement class="weapon" slot="0" key="gw_ltlx7000_6101_r.weapon"/></model>
+	<model filename="naoto_1.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="ew_rpl20.weapon"/></model>
+	<model filename="gs_mcx.xml"><requirement class="weapon" slot="0" key="gw_mcx.weapon"/></model>
+	<model filename="gs_sks.xml"><requirement class="weapon" slot="0" key="gw_sks.weapon"/></model>
+	<model filename="gs_sks.xml"><requirement class="weapon" slot="0" key="gw_sks_b.weapon"/></model>	
+	<model filename="ps_nyto_black.xml"><requirement class="weapon" slot="0" key="pw_nyto_black.weapon"/></model>	
+	
 </models>
     
 

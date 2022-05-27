@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
-<weapon key="gw_castanas.weapon" />
-<weapon key="gw_an94_mod4_s.weapon" />
-<weapon key="ew_fiammetta_s.weapon" />
-<weapon key="ew_fiammetta_m.weapon" />
-<weapon key="gw_g41_lasercanno_diffusion.weapon" />
+<weapon key="emmmm_f.weapon"/>
+<weapon key="emmmm_t.weapon"/>
+<weapon key="gw_ksvk_mod.weapon"/>
+<weapon key="gw_ksvk_mod_f.weapon"/>
+<weapon key="gw_mcx_6502.weapon"/>
+<weapon key="gw_ntw20_2301.weapon"/>
+<weapon key="gw_ntw20mod3.weapon"/>
+<weapon key="gw_ntw20mod3_he.weapon"/>
+<weapon key="gw_kn57.weapon"/>
+<weapon key="ew_dragunov_ince.weapon"/>
+<weapon key="gw_ltlx7000_6101_b.weapon"/>
+<weapon key="gw_ltlx7000_6101_r.weapon"/>
+<weapon key="gw_mcx.weapon"/>
+<weapon key="gw_sks.weapon"/>
+<weapon key="gw_sks_b.weapon"/>
+<weapon key="pw_nyto_black.weapon"/>
 
 <weapon key="rodelero.weapon" />
 
