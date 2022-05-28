@@ -28,7 +28,7 @@
 	<animation state_key="walking" animation_key="walking, heavy weapon"/>
 	<animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon"/>
 	
-    <sound key="fire" fileref="gfl_ksvk_mod.wav" volume="1.75"/>
+    <sound key="fire" fileref="gfl_ksvk_mod.wav" volume="1.45"/>
 	<sound key="cycle" fileref="lahti_l39_cycle.wav"/>
 	<sound key="magazine_out" fileref="ak762_clip_out.wav"/>
 	<sound key="magazine_in" fileref="ak762_clip_in.wav"/>
