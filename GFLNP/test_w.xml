@@ -33,6 +33,10 @@
 <weapon file="gw_sks_b.weapon" />
 <weapon file="pw_nyto_black.weapon" />
 
+<weapon file="otom_cannon.weapon" />
+<weapon file="jupiter_buggy_cannon.weapon" />
+<weapon file="mk47_car.weapon" />
+<weapon file="m3dm50_car.weapon" />
 
 
 

@@ -4,6 +4,12 @@
 	<vehicle file="ecm.vehicle" /> 
 	<vehicle file="drop_pod.vehicle" /> 
 
+	<vehicle file="otom.vehicle" /> 
+	<vehicle file="jupiter_buggy.vehicle" /> 
+	<vehicle file="bmdk17.vehicle" /> 
+	<vehicle file="humve1.vehicle" /> 
+	<vehicle file="m113apc.vehicle" /> 
+
 
 
 </vehicles>
