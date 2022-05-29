@@ -256,7 +256,7 @@ class AC130XGunRun : Tracker {
 
 
 		//checking all factions
-		for (int f = 0; f < 5; ++f){
+		for (int f = 0; f < 6; ++f){
 			// only affect enemy faction
 			if (f!= factionId){
 				//custom query, collects all soldiers of a faction near target position

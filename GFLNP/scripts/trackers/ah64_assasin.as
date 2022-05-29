@@ -119,17 +119,17 @@ class AH64GunRun : Tracker {
 
 				if (m_timer_25 <= 0.0){
 					antiPerson(AH64Queue[0], 2, "ac130_40mm.projectile", "ah64_cannon.wav");
-					m_timer_25 = 1.5;
+					m_timer_25 = 2.0;
 				}
 
 				if (m_timer_40 <= 0.0){
 					antiPerson(AH64Queue[0], 2, "ac130_40mm.projectile", "ah64_cannon.wav");
-					m_timer_40 = 1.5;
+					m_timer_40 = 2.0;
 				}
 
 				if (m_timer_105 <= 0.0){
 					antiPerson(AH64Queue[0], 1, "tracer_missile.projectile", "ah64_hellfire.wav");
-					m_timer_105 = 7.0;
+					m_timer_105 = 10.0;
 				}
 				//removeMarker(AH64Queue[0]);
 
@@ -255,7 +255,7 @@ class AH64GunRun : Tracker {
 
 
 		//checking all factions
-		for (int f = 0; f < 5; ++f){
+		for (int f = 0; f < 6; ++f){
 			// only affect enemy faction
 			if (f!= factionId){
 				//custom query, collects all soldiers of a faction near target position
