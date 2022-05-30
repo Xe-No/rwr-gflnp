@@ -662,7 +662,8 @@
 
 	</soldier>
 
-	<soldier name="tank_crew" spawn_score="0.0" copy_from="template_SMG">
+	<soldier name="tank_crew" spawn_score="0.0" >
+		<character filename="gk_player.character"/>
 		<model filename="nishizumi_maho.xml" />
 		<ai filename="tank_crew.ai" />
 
@@ -683,6 +684,7 @@
 		<attribute_config class="xp">
 			<attribute weight="1.0" min="10.0" max="50.0" />
 		</attribute_config>
+
 	</soldier>   
 
 
