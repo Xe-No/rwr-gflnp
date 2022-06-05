@@ -206,7 +206,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	addStage(setupIntrusion());   
 	addStage(setupUprising());   
 	addStage(setupUntildeath());   
-	addStage(setupUntildeath2());
+	// addStage(setupUntildeath2());
 	addStage(setupUntildeath3());
 	addStage(setupUntildeath4());
 	// addStage(setupFinalStage2());     // map12

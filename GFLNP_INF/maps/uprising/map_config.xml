@@ -15,5 +15,9 @@
                 <weapon file="tank2_cannon.weapon" />
 	<weapon file="tank2_mg.weapon" />  
 	<weapon file="tank2_missile_launcher.weapon" />
-
+                 
+                <vehicle file="aa_emplacement.vehicle" />
+                <vehicle file="hornet_2.vehicle" />
+                <vehicle file="icecream.vehicle" />
+                
 </map_config>

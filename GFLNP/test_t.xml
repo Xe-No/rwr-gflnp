@@ -10,6 +10,7 @@
 <projectile file="mortar_flare.projectile" />
 <projectile file="medic_grenade.projectile" />
 <projectile file="155mm.projectile" />
+<projectile file="mortar_shell_tel.projectile" />
 <projectile file="landing_impact.projectile" />
 
 <!-- CBP -->
