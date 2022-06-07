@@ -549,7 +549,9 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
         		// ScoredResource("zweihander.weapon", "weapon", 5.0f),
         		ScoredResource("akalfa_defy.weapon", "weapon", 2.0f),
         		ScoredResource("ew_microgun_univ.weapon", "weapon", 2.0f),
-        		ScoredResource("suit_hutao.carry_item", "carry_item", 2.0f, 3)
+        		ScoredResource("suit_hutao.carry_item", "carry_item", 1.0f, 3),		//共用概率
+		ScoredResource("suit_dsr50_dress.carry_item", "carry_item", 1.0f, 3),	//共用概率
+		ScoredResource("suit_momiji.carry_item", "carry_item", 1.0f, 3)		//共用概率
 			}
 		};   
 			

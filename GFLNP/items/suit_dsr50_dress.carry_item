@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carry_items>
-    <carry_item key="suit_hutao.carry_item" name="Hutao[RE]" slot="1" transform_on_consume="suit_hutao_1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="120.0">
-        <hud_icon filename="suit_hutao_4.png" />
+    <carry_item key="suit_dsr50_dress.carry_item" name="DSR50 Dress[RE]" slot="1" transform_on_consume="suit_dsr50_dress_1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="120.0">
+        <hud_icon filename="dsr50_dress_3.png" />
         
         <inventory encumbrance="4" price="300" />
 
@@ -21,8 +21,8 @@
         <modifier class="speed" value="+0.15" />  
     </carry_item>
 
-    <carry_item key="suit_hutao_1" name="Hutao[RE], 80%" slot="1" transform_on_consume="suit_hutao_2" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="120.0">
-        <hud_icon filename="suit_hutao_3.png" />
+    <carry_item key="suit_dsr50_dress_1" name="DSR50 Dress[RE], 80%" slot="1" transform_on_consume="suit_dsr50_dress_2" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="120.0">
+        <hud_icon filename="dsr50_dress_2.png" />
         
         <inventory encumbrance="4" price="20" />
 
@@ -42,8 +42,8 @@
         <modifier class="speed" value="+0.15" /> 
     </carry_item>
 
-    <carry_item key="suit_hutao_2" name="Hutao[RE], 60%" slot="1" transform_on_consume="suit_hutao_3" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="120.0">
-        <hud_icon filename="suit_hutao_2.png" />
+    <carry_item key="suit_dsr50_dress_2" name="DSR50 Dress[RE], 60%" slot="1" transform_on_consume="suit_dsr50_dress_3" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="120.0">
+        <hud_icon filename="dsr50_dress.png" />
         
         <inventory encumbrance="4" price="20" />
 
@@ -63,8 +63,8 @@
         <modifier class="speed" value="+0.1" />   
     </carry_item>
 
-    <carry_item key="suit_hutao_3" name="Hutao[RE], 40%" slot="1" transform_on_consume="suit_hutao_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="120.0">
-        <hud_icon filename="suit_hutao_1.png" />
+    <carry_item key="suit_dsr50_dress_3" name="DSR50 Dress[RE], 40%" slot="1" transform_on_consume="suit_dsr50_dress_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="120.0">
+        <hud_icon filename="dsr50_dress_1.png" />
         
         <inventory encumbrance="4" price="20" />
 
@@ -85,8 +85,8 @@
         <modifier class="speed" value="+0.05" />  
     </carry_item>
 
-    <carry_item key="suit_hutao_4" name="Hutao[RE], destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="120.0">
-        <hud_icon filename="suit_hutao_0.png" />
+    <carry_item key="suit_dsr50_dress_4" name="DSR50 Dress[RE], destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="120.0">
+        <hud_icon filename="dsr50_dress_0.png" />
         
         <inventory encumbrance="4" price="10" />
 

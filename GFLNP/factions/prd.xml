@@ -78,6 +78,15 @@
 		</resources>
 	</soldier>
 
+	<soldier name="nyto_black" spawn_score="0.01" copy_from="default">
+		<ai filename="mecha.ai" />
+		<resources clear_weapons="1" >
+			<weapon key="pw_nyto_black.weapon" />
+			<carry_item key='iop_t4_bp.carry_item'  />
+		</resources>
+	</soldier>
+
+
 
 
 

@@ -772,9 +772,9 @@ armor
     <text key="costume, reaper (unchained)" text="死神服（解锁） 1/3"/>
 
     <text key="Hutao[RE]" text="胡桃[RE] 5/5"/>
-    <text key="Hutao[RE], 60%" text="胡桃[RE] 4/5"/>
-    <text key="Hutao[RE], 40%" text="胡桃[RE] 3/5"/>
-    <text key="Hutao[RE], 20%" text="胡桃[RE] 2/5"/>
+    <text key="Hutao[RE], 80%" text="胡桃[RE] 4/5"/>
+    <text key="Hutao[RE], 60%" text="胡桃[RE] 3/5"/>
+    <text key="Hutao[RE], 40%" text="胡桃[RE] 2/5"/>
     <text key="Hutao[RE], destroyed" text="胡桃[RE] 1/5"/>
 
 	<text key="Doppelsoldner_Shield" text="巨剑士力场盾" />

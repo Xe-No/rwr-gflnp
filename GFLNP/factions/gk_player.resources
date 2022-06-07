@@ -127,6 +127,8 @@ Armory
 	<carry_item key="redstar.carry_item" />
 
 	<carry_item key="suit_hutao.carry_item" />
+	<carry_item key="suit_dsr50_dress.carry_item" />
+	<carry_item key="suit_momiji.carry_item" />
 
 extra
     <weapon key="gw_m4a1_mod_re.weapon" />

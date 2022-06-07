@@ -28,6 +28,18 @@
     <model filename="es_hutao.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_hutao_2"/></model>
     <model filename="es_hutao.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_hutao_3"/></model>
     <model filename="es_hutao.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_hutao_4"/></model>
+
+    <model filename="gs_dsr50_dress.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_dsr50_dress.carry_item"/></model>
+    <model filename="gs_dsr50_dress.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_dsr50_dress_1"/></model>
+    <model filename="gs_dsr50_dress.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_dsr50_dress_2"/></model>
+    <model filename="gs_dsr50_dress.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_dsr50_dress_3"/></model>
+    <model filename="gs_dsr50_dress.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_dsr50_dress_4"/></model>
+
+    <model filename="th_momiji.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_momiji.carry_item"/></model>
+    <model filename="th_momiji.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_momiji_1"/></model>
+    <model filename="th_momiji.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_momiji_2"/></model>
+    <model filename="th_momiji.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_momiji_3"/></model>
+    <model filename="th_momiji.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_momiji_4"/></model>
 	
 1 Layer
 

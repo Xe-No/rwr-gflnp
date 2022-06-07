@@ -6,6 +6,7 @@
 	<model filename="doppelsoldner.xml"><requirement class="weapon" slot="0" key="doppelsoldner_mgl.weapon"/></model>
 	<model filename="rodelero.xml"><requirement class="weapon" slot="0" key="rodelero.weapon"/></model>
 	<model filename="ps_streltsy.xml"><requirement class="weapon" slot="0" key="pw_streltsy.weapon"/></model>
+	<model filename="ps_nyto_black.xml"><requirement class="weapon" slot="0" key="pw_nyto_black.weapon"/></model>	
 
 
 </models>
