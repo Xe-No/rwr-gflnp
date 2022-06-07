@@ -789,10 +789,11 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("ew_rx1_railgun_ap.weapon", "weapon", 0.1f),
 		ScoredResource("ew_rumbler.weapon", "weapon", 0.1f),	
 		ScoredResource("wingman_med.weapon", "weapon", 0.1f),	
-		ScoredResource("china_lake.weapon", "weapon", 0.6f),	//2x
-		ScoredResource("ew_p33_pereira.weapon", "weapon", 2.0f),	//2x
-		ScoredResource("ew_mallorian_armscompany_3516.weapon", "weapon", 1.0f),	//2x
-		ScoredResource("gw_qbu10_he.weapon", "weapon", 0.4f),	//2x
+		ScoredResource("china_lake.weapon", "weapon", 0.3f),	
+		ScoredResource("ew_p33_pereira.weapon", "weapon", 1.0f),	
+		ScoredResource("ew_mallorian_armscompany_3516.weapon", "weapon", 0.5f),	
+		ScoredResource("ew_hemogoblin_gun.weapon", "weapon", 2.0f), 	//2x 0.33
+		ScoredResource("gw_qbu10_he.weapon", "weapon", 0.2f),	
 		ScoredResource("gift_box_community_1.carry_item", "carry_item", 1.0f),             
         ScoredResource("m712.weapon", "weapon", 1.0f),
 		ScoredResource("underpants.carry_item", "carry_item", 1.0f, 2),
