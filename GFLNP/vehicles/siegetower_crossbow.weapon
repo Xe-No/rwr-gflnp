@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="siegetower_crossbow.weapon">
+    <specification 
+    name="Crossbow"  
+    slot="2" class="0" 
+    magazine_size="-1"
+    retrigger_time="3.0" 
+    accuracy_factor="1.0" 
+    sight_range_modifier="1.4"
+    sustained_fire_grow_step="2" 
+    sustained_fire_diminish_rate="0.5" 
+    suppressed="1" 
+    projectile_speed="80.0" 
+    barrel_offset="1.4" 
+    use_basic_muzzle_smoke_effect="0"  />
+
+    <sound class="operation" key="fire" fileref="siegetower_crossbow_shot.wav" />
+    <model mesh_filename="siegetower_t0.mesh" texture_filename="siegetower.png"/>
+    <hud_icon filename="hud_compound_bow.png" />
+
+
+    <projectile file="arrow.projectile">
+        <result class="hit" kill_probability="3.5" kill_decay_start_time="0.6" kill_decay_end_time="1.0" />
+    </projectile>
+
+    <stance state_key="running" accuracy="0.1" />
+    <stance state_key="walking" accuracy="0.2" />
+    <stance state_key="crouch_moving" accuracy="0.6" />
+    <stance state_key="standing" accuracy="1.0" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="over_wall" accuracy="1.0" />
+
+
+    <modifier class="speed" value="-0.10" />
+</weapon>

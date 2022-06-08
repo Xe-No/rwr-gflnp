@@ -138,10 +138,11 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("btr80a_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("apc_m2a2_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("m1126_flare.projectile", "projectile", 1.0f, 2),
-				ScoredResource("jupiter_buggy.projectile", "projectile", 1.0f, 3),
-				ScoredResource("bmdk17.projectile", "projectile", 1.0f, 2),
-				ScoredResource("humve1.projectile", "projectile", 1.0f, 3),
-				ScoredResource("m113apc.projectile", "projectile", 1.0f, 3)
+				ScoredResource("jupiter_flare.projectile", "projectile", 1.0f, 3),
+				ScoredResource("bmdk17_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("humve1_flare.projectile", "projectile", 1.0f, 3),
+				ScoredResource("siegetower_flare.projectile", "projectile", 1.0f, 3),
+				ScoredResource("m113apc_flare.projectile", "projectile", 1.0f, 3)
 			},
 			{
 				ScoredResource("ztz99a_flare.projectile", "projectile", 1.0f),
@@ -152,7 +153,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("coeus_flare.projectile", "projectile", 1.0f),
 				ScoredResource("tank_flare.projectile", "projectile", 1.0f),
 				ScoredResource("t14s_flare.projectile", "projectile", 1.0f),
-				ScoredResource("otom.projectile", "projectile", 1.0f, 2),
+				ScoredResource("otom_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("uhlan_flare.projectile", "projectile", 1.0f)
 
 			}
