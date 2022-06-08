@@ -861,7 +861,8 @@ gw_zb26_4703.weapon
 	<model filename="naoto_1.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="ew_rpl20.weapon"/></model>
 	<model filename="gs_mcx.xml"><requirement class="weapon" slot="0" key="gw_mcx.weapon"/></model>
 	<model filename="gs_sks.xml"><requirement class="weapon" slot="0" key="gw_sks.weapon"/></model>
-	<model filename="gs_sks.xml"><requirement class="weapon" slot="0" key="gw_sks_b.weapon"/></model>	
+	<model filename="gs_sks.xml"><requirement class="weapon" slot="0" key="gw_sks_b.weapon"/></model>
+	<model filename="es_hemogoblin.xml"><requirement class="weapon" slot="0" key="ew_hemogoblin_gun.weapon"/></model>	
 	<model filename="ps_nyto_black.xml"><requirement class="weapon" slot="0" key="pw_nyto_black.weapon"/></model>	
 	
 </models>
