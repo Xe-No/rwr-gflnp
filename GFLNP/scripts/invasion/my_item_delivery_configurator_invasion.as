@@ -138,7 +138,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("btr80a_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("apc_m2a2_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("m1126_flare.projectile", "projectile", 1.0f, 2),
-				ScoredResource("jupiter_flare.projectile", "projectile", 1.0f, 3),
+				ScoredResource("jupiter_buggy_flare.projectile", "projectile", 1.0f, 3),
 				ScoredResource("bmdk17_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("humve1_flare.projectile", "projectile", 1.0f, 3),
 				ScoredResource("siegetower_flare.projectile", "projectile", 1.0f, 3),
