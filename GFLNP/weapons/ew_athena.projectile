@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Athena Mark" slot="1" pulldown_in_air="200.0" key="ew_athena.projectile" can_be_disarmed="0" can_be_detected_by_driver="0" can_be_detected_by_footmen="0">
+
+    <result class="spawn" instance_class="projectile" instance_key="ew_athena_summon.projectile" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+    <collision class="sticky" />
+    <trigger class="time" time_to_live="1.95"/>
+    <rotation class="motion" />
+
+    <model mesh_filename="" />
+
+</projectile>

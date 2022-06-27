@@ -1,69 +1,176 @@
 
+author：Rst
+2022.6.18
+使用、修改需经过授权
+
+
 particle_system rx1_smoke
 {
-	quota 5000
-	emit_emitter_quota 10000
+	quota 1000
 	material rx1_smoke
-	particle_width 0.3
-	particle_height 0.3
-	cull_each false
+	particle_width 3
+	particle_height 3
 	renderer billboard
-	sorted false
-	local_space false
-	iteration_interval 0
-	nonvisible_update_timeout 0
 	billboard_rotation_type vertex
-	emitter Point
-	{
-		angle 0
-		colour 1 1 1 1
-		colour_range_start 1 1 1 1
-		colour_range_end 1 1 1 1
-		direction 0 1 0
-		emission_rate 250
-		position 0 0 0
-		velocity 80
-		time_to_live 0.16
-		duration 0.1
-		emit_emitter rx1_linesmoke
-	}
-	emitter Cylinder
+	iteration_interval 0.01
+	emitter Box
 	{
 		name rx1_linesmoke
-		angle 9
-		colour 1 1 1 1
-		colour_range_start 1 1 1 1
-		colour_range_end 1 1 1 0
-		direction 0 0 1
-		up 0 0 1
-		emission_rate 100
+		angle 360
+		colour 1 1 1 0.1
+		direction 0 1 0
+		emission_rate 1000
 		position 0 0 0
-		velocity 1
-		velocity_min 1
-		velocity_max 1
-		time_to_live 0.7
-		duration 0.7
-		width 0.7
-		height 0
-		depth 0
+		velocity_min 0.1
+		velocity_max 0.3
+		time_to_live 1
+		duration 1.5
+		width 3
+		height 3
+		depth 1
 		
 	}
 	affector Scaler
 	{
-		rate 0.5
+		rate 1
 	}
 		affector Rotator
 	{
-		rotation_speed_range_start	-45
-		rotation_speed_range_end	45
+		rotation_speed_range_start	-180
+		rotation_speed_range_end	180
 		rotation_range_start	0
 		rotation_range_end	360
 	}
-
-	affector ColourImage
+	affector ColourFader2
 	{
-		image smokecolors.png
+		red1 	0
+		green1 	0
+		bule1 	0
+		alpha1 	0.1
+		red2 	-0
+		green2	-0
+		blue2	-0
+		alpha2	-0.3
+		state_change 0.5
 	}
-	
+	affector LinearForce{
+		force_vector 0 -4 0
+		force_application add
+	}
 }
 
+
+particle_system rx1_muzzle_halo
+{
+	quota 10
+	material point_soft_edge_100
+	particle_width 1
+	particle_height 1
+	renderer billboard
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 50
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.15
+		duration 0.1
+	}
+	affector ColourFader
+	{
+		red 	3
+		green 	1
+		bule 	0
+		alpha 	1
+	}
+}
+
+particle_system rx1_muzzle_halo2 : rx1_muzzle_halo
+{
+	particle_width 4
+	particle_height 4
+	emitter Point
+	{
+		colour 1 0.3 0 1
+		emission_rate 50
+	}
+}
+--------------------------------------material---------------------------------------
+material alpha_blend_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend alpha_blend
+		}
+	}
+}
+material add_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+		}
+	}
+}
+material rx1_smoke 
+{     
+	receive_shadows off     
+	technique 
+	{
+		pass 
+		{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend alpha_blend
+			texture_unit 
+			{
+				texture rx1_smoke.png 	
+			}
+		}
+	}
+}
+material point_soft_edge_100 
+{     
+	receive_shadows off     
+	technique 
+	{
+		pass 
+		{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+			texture_unit 
+			{
+				texture point_soft_edge_100.png 	
+			}
+		}
+	}
+}
+material rx1_trail
+{     
+	receive_shadows off     
+	technique 
+	{
+		pass 
+		{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+			texture_unit 
+			{
+				texture rx1_trail.png 	
+			}
+		}
+	}
+}

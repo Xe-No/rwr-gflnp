@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call name="call for airfleet support"
+	key="401_yamato.call"
+	notify_metagame="1"
+	initiation_comment1="we need battlecruiser support here"     
+	acknowledge_comment="Acknowledged, Course laid in"	
+	radio_view_text="call for airfleet support"  
+	launch_comment="Weapons charged and ready! Commencing bombardment"	
+	show_target_marker="0">
+	
+	<round launch_time="3" spawn_time="4">
+	   <sound class="spawn" fileref="401_yamato_call.wav" volume="2.5" pitch_variety="0"/>
+	</round>
+	
+	<round launch_time="4" spawn_time="18">
+	    <sound class="spawn" fileref="401_yamato_leave.wav" volume="2.5" pitch_variety="0"/>
+	</round>
+
+	<round launch_time="18" spawn_time="20">
+	</round>
+
+	<hud_icon filename="401_yamato.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.3" />
+	<inventory encumbrance="0.0" price="7500.0" />
+
+</call>
+//需要战列巡洋舰支援
+//收到指令，航道已输入
+//呼叫空中舰队支援
+//武器已经充能完毕，准备开始轰炸

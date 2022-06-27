@@ -16,7 +16,7 @@
     <commonness value="0.0" can_respawn_with="0" in_stock="1" />
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="4" source="rank" source_value="10.0" />
-    <inventory encumbrance="2.0" price="750.0" />
+    <inventory encumbrance="2.0" price="500.0" />
 
 
     <sound class="result" key="other" fileref="gw_emp_blast.wav" />

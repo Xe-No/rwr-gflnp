@@ -10,6 +10,7 @@
 	<weapon key="uw_m1014.weapon" />
 	<weapon key="gw_sat8.weapon" />
 	<weapon key="gw_vpm5.weapon" />
+	<weapon key="gw_m590a1.weapon" />
 
 
   	<carry_item key="base_sg_vest.carry_item" />

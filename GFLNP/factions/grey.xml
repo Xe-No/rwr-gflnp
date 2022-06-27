@@ -115,6 +115,7 @@
 		<resources >
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key="gw_mp7a2.weapon" enabled="1"/>
+			<weapon key="ew_sticky_bomb.weapon" enabled="1"/>
 			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_x4_exo.carry_item" enabled="0"/>
@@ -213,6 +214,7 @@
 			<call key="ah64_assasin.call" enabled="1"/>
 			<call key="drop_pod.call" enabled="1"/>
 			<call key="artillery_155.call" enabled="1"/>
+			<call key="401_yamato.call" enabled="1"/>
 			
 
 		</resources>
@@ -276,6 +278,7 @@
 		<resources >
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key="gw_mp5sd.weapon" enabled="1"/>
+			<weapon key="gst_box.weapon" enabled="1"/>
 			<carry_item key="optical_camo_cloak.carry_item" enabled="1"/>
 			<carry_item key="iop_optical_camo_cloak.carry_item" enabled="1"/>
 		</resources>
@@ -345,6 +348,7 @@
 		<resources >
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key='hvy3_telescopic_shield.weapon' />
+			<weapon key='hvy_repair_armor.weapon' />
 			<carry_item key="iop_t3_bp.carry_item" enabled="1"/>
 			<carry_item key="iop_t4_bp.carry_item" enabled="1"/>
 			<carry_item key="hvy_vest.carry_item" enabled="1"/>
@@ -367,6 +371,7 @@
 		<resources clear_calls="1">
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key="gw_hk416c.weapon" enabled="1"/>
+			<weapon key="gw_emp_launcher.weapon" enabled="1"/>
 			<projectile key="ecm.projectile" enabled="1"/>
 			<projectile key="gw_emp_grenade.projectile" enabled="1"/>
 			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
@@ -393,6 +398,7 @@
 		<resources>
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key='pzc_wrench.weapon' />
+			<weapon key='pzc_upgrade_fix.weapon' />
 			<carry_item key="pzc_vest.carry_item" enabled="1"/>
 			<projectile key="repair_c4.projectile" />
 			<projectile key="aav7_flare.projectile" />
@@ -408,6 +414,16 @@
 			<projectile key="sturmtiger_flare.projectile" />
 			<call key="tank_crew.call" enabled="1"/>
 			<call key="drop_pod_crew.call" enabled="1"/>
+			<call key="ac130_gun_run.call" />
+			<call key="buggy.call" enabled="1"/>
+			<call key="humvee.call" enabled="1"/>
+			<call key="tank.call" enabled="1"/>
+			<call key="apc_1.call" enabled="1"/>
+			<call key="paratroopers1.call" enabled="1"/>
+			<call key="paratroopers2.call" enabled="1"/>
+			<call key="squad_404.call" enabled="0"/>
+			<call key="squad_AR.call" enabled="0"/>
+			<call key="squad_defy.call" enabled="1"/>
 		</resources>		
 	</soldier>	
 	<soldier name="MED" firstnames_file="42LAB-MED.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
@@ -421,9 +437,11 @@
 		<resources >
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key='med_pistol_revive.weapon' />
+			<weapon key='med_pistol_armor.weapon' />
 			<projectile key="medic_grenade.projectile" />
 			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_t4_exo.carry_item" enabled="1"/>
+			<carry_item key="med_optical_camo_cloak.carry_item" enabled="1"/>
 			<call key="ac130_gun_run.call" enabled="0"/>
 			<call key="drop_pod_med.call" />
 			<call key="supply_quad.call" />

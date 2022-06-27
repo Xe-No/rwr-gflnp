@@ -1,0 +1,164 @@
+material mcx_sank_circle_03	{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+            texture_unit{
+			tex_address_mode border
+            tex_border_colour 0 0 0 0
+			texture sank_circle_03.png}
+		}
+	}
+}
+material  mcx_sank_circle_02{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+            texture_unit{
+			tex_address_mode border
+            tex_border_colour 0 0 0 0
+			texture sank_circle_02.png}
+		}
+	}
+}
+
+
+particle_system mcx_center_circle_01		
+{
+	quota 1000
+	material mcx_sank_circle_03
+	particle_width 0.75
+	particle_height 0.75
+	renderer billboard
+	billboard_type point
+	emitter Point
+	{
+		angle 90
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 100
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.5
+		duration 0.1
+	}
+	affector ColourFader2
+	{
+		red1	0
+		green1  0
+		blue1	0
+		alpha1	0
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.1
+	}
+	affector Scaler
+	{
+		rate 1.5
+	}
+}
+particle_system mcx_center_circle_02		
+{
+	quota 1000
+	material mcx_sank_circle_02
+	particle_width 1.25
+	particle_height 1.25
+	renderer billboard
+	billboard_type point
+	emitter Point
+	{
+		angle 90
+		colour 0 0 0 0
+		direction 0 1 0
+		emission_rate 40
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.7
+		duration 0.1
+	}
+	affector ColourInterpolator 
+	{
+		time0 0.5
+		colour0 0 0 0 0
+		time1 0.8
+		colour1 0 0.5 1 1 
+		time2 1
+		colour2 0 0 0 0 
+	}
+}
+
+
+particle_system mcx_center_circle_03	
+{
+	quota 1000
+	material mcx_sank_circle_03
+	particle_width 0.125
+	particle_height 0.125
+	renderer billboard
+	billboard_type point
+	emitter Point
+	{
+		angle 90
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 100
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.5
+		duration 0.1
+	}
+	affector ColourFader2
+	{
+		red1	0
+		green1  0
+		blue1	0
+		alpha1	0
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.1
+	}
+	affector Scaler
+	{
+		rate 1.5
+	}
+}
+particle_system mcx_center_circle_04	
+{
+	quota 1000
+	material mcx_sank_circle_02
+	particle_width 0.5
+	particle_height 0.5
+	renderer billboard
+	billboard_type point
+	emitter Point
+	{
+		angle 90
+		colour 0 0 0 0
+		direction 0 1 0
+		emission_rate 40
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.7
+		duration 0.1
+	}
+	affector ColourInterpolator 
+	{
+		time0 0.5
+		colour0 0 0 0 0
+		time1 0.8
+		colour1 0 0.5 1 1 
+		time2 1
+		colour2 0 0 0 0 
+	}
+}

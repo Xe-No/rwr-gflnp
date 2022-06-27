@@ -579,6 +579,32 @@ RE
 <weapon file="kf2_seekersix_ap.weapon" />
 <weapon file="kf2_seekersix_he.weapon" />
 
+<!-- 33 -->
+<weapon file="emmmm_f.weapon" />
+<weapon file="emmmm_t.weapon" />
+<weapon file="gw_ksvk_mod.weapon" />
+<weapon file="gw_ksvk_mod_f.weapon" />
+<weapon file="gw_mcx_6502.weapon" />
+<weapon file="gw_ntw20_2301.weapon" />
+<weapon file="gw_ntw20mod3.weapon" />
+<weapon file="gw_ntw20mod3_he.weapon" />
+<weapon file="gw_kn57.weapon" />
+<weapon file="ew_dragunov_ince.weapon" />
+<weapon file="gw_ltlx7000_6101_b.weapon" />
+<weapon file="gw_ltlx7000_6101_r.weapon" />
+<weapon file="gw_mcx.weapon" />
+<weapon file="gw_sks.weapon" />
+<weapon file="gw_sks_b.weapon" />
+<weapon file="pw_nyto_black.weapon" />
+<weapon file="ew_hemogoblin_gun.weapon" />
+
+<weapon file="otom_cannon.weapon" />
+<weapon file="jupiter_buggy_cannon.weapon" />
+<weapon file="mk47_car.weapon" />
+<weapon file="m3dm50_car.weapon" />
+<weapon file="siegetower_crossbow.weapon" />
+
+
 
 
   <weapon file="banner_santa.weapon">  

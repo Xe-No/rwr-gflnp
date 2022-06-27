@@ -1,0 +1,319 @@
+---------------------------------corinth_expl----------------------------1
+particle_system corinth_blast_spark
+{
+	quota 800
+	emit_emitter_quota 3
+	material monlit
+	particle_width 0.25
+	particle_height 6
+	cull_each false
+
+	renderer billboard
+                billboard_origin top_center
+	billboard_type oriented_self
+	billboard_rotation_type texcoord
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+
+	emitter Point
+	{
+		angle 165.6
+		colour 0.72 0.5 0.35 0
+		colour_range_start 0.72 0.4 0.35 0
+		colour_range_end 0.72 0.5 0.35 0
+		direction 0 1 0
+		up 0 0 -1
+		emission_rate 500
+		position 0 0 0
+		velocity 6
+		velocity_min 5
+		velocity_max 6
+		time_to_live 0.1
+		time_to_live_min 0.1
+		time_to_live_max 0.1
+		duration 0.05
+
+
+	}
+
+	affector Scaler
+	{
+		rate -1
+	}
+}
+
+----------------------------2
+
+particle_system corinth_fly_by
+{
+	quota	500
+	material corinth_all/corinth_blast_halo
+	particle_width	0.6
+	particle_height	0.6
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+	billboard_rotation_type vertex
+
+	emitter Point
+	{
+		angle	0
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	0 1 0
+		emission_rate	50
+		position	0 0 0
+		velocity	0.0
+		velocity_min	0.0
+		velocity_max	0.1
+		time_to_live	0.05
+		time_to_live_min	0.05
+		time_to_live_max	0.05
+		duration	0.5
+	}
+
+	affector Scaler
+	{
+		rate	0.5
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+	affector LinearForce
+	{
+		force_vector 0 1 0
+		force_application add
+	}
+}
+
+----------------------------3
+
+particle_system corinth_blast_smoke
+
+{
+	quota	9741
+	material	corinth_all/corinth_smoke
+	particle_width	1.5
+	particle_height	1.5
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+                billboard_origin bottom_center
+	billboard_rotation_type vertex
+
+	emitter Ring
+	{
+		angle	0
+		colour 0.5 0.3 0.3 1
+		colour_range_start 0.5 0.3 0.3 1
+		colour_range_end 0.5 0.3 0.3 1
+		direction	0 1 0
+		emission_rate	80
+		position	0 0 0
+		velocity	0.5
+		velocity_min	0.5
+		velocity_max	1
+		time_to_live 0.1
+		time_to_live_min 0.1
+		time_to_live_max 0.1
+		duration 0.05
+
+		width	1.5
+		height	1.5
+		depth	1.5
+		inner_width	0.5
+		inner_height	0.5
+	}
+
+	affector Scaler
+	{
+		rate	1.5
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+	affector ColourFader
+	{
+		red -0.8
+		green -1
+		blue -1
+		alpha -1
+	}
+}
+
+----------------------------4
+
+particle_system corinth_blast_smoke_2
+
+{
+	quota	9741
+	material	SmokeNormal
+	particle_width	1.5
+	particle_height	1.5
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Ring
+	{
+		angle	0
+		colour	0.9 0.85 0.6 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	0 1 0
+		emission_rate	140
+		position	0 0 0
+		velocity	0.5
+		velocity_min	0.5
+		velocity_max	1
+		time_to_live_min	0.3
+		time_to_live_max	0.3
+		duration	0.05
+		duration_min	0.05
+		duration_max	0.05
+		width	4
+		height	4
+		depth	4
+		inner_width	0.8
+		inner_height	0.8
+	}
+
+	affector Scaler
+	{
+		rate	1.5
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+	affector ColourFader
+	{
+		red	-0.8
+		green	-0.8
+		blue	-1
+		alpha	-1.2
+	}
+}
+----------------------------5
+
+particle_system corinth_huan
+{
+	quota 800
+	emit_emitter_quota 3
+	material corinth_all/corinth_huan
+	particle_width 3
+	particle_height 1
+	cull_each false
+
+	renderer billboard
+                billboard_origin bottom_center
+	billboard_type oriented_self
+	billboard_rotation_type vertex
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+
+	emitter Point
+	{
+		angle 180
+		colour 0.23 0.17 0.1 0
+		colour_range_start 0.23 0.17 0.1 0
+		colour_range_end 0.23 0.17 0.1 0
+		direction 0 -1 0
+		up 0 0 -1
+		emission_rate 750
+		position 0 0 0
+		velocity 20
+		velocity_min 20
+		velocity_max 20
+		time_to_live 0.15
+		time_to_live_min 0.1
+		time_to_live_max 0.15
+		duration 0.05
+
+
+	}
+
+	affector Scaler
+	{
+		rate 2
+	}
+}
+
+----------------------------6
+
+particle_system corinth_left_spark
+{
+	quota 800
+	emit_emitter_quota 3
+	material monlit
+	particle_width 0.2
+	particle_height 0.2
+	cull_each false
+
+	renderer billboard
+                billboard_origin bottom_center
+	billboard_type point
+	billboard_rotation_type vertex
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+
+	emitter Ring
+	{
+		angle 0
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0 -1 0
+		up -0 0 1
+		emission_rate 50
+		position 0 0 0
+		velocity 4
+		velocity_min 4
+		velocity_max 4
+		time_to_live 0.1
+		time_to_live_min 0.1
+		time_to_live_max 0.3
+		duration 0.4
+		duration_min 0.4
+		duration_max 0.4
+		width 5
+		height 5
+		depth 5
+		inner_width 0.7842
+		inner_height 0.1276
+
+	}
+
+	affector LinearForce
+	{
+		force_vector 0 -20 0
+		force_application add
+	}
+}

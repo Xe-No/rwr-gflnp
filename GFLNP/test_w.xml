@@ -11,34 +11,48 @@
 <weapon file="med_pistol_armor.weapon" />
 <weapon file="hvy3_telescopic_shield.weapon" />
 
+<weapon file="ew_sticky_bomb.weapon" />
+<weapon file="gst_box.weapon" />
+<weapon file="pzc_upgrade_fix.weapon" />
+<weapon file="gw_emp_launcher.weapon" />
+<weapon file="hvy_repair_armor.weapon" />
+
+
 <!-- CBP -->
 <weapon file="base_blue_print.weapon" />
 <weapon file="blueprints.weapon" />
 
-<!-- 33 -->
-<weapon file="emmmm_f.weapon" />
-<weapon file="emmmm_t.weapon" />
-<weapon file="gw_ksvk_mod.weapon" />
-<weapon file="gw_ksvk_mod_f.weapon" />
-<weapon file="gw_mcx_6502.weapon" />
-<weapon file="gw_ntw20_2301.weapon" />
-<weapon file="gw_ntw20mod3.weapon" />
-<weapon file="gw_ntw20mod3_he.weapon" />
-<weapon file="gw_kn57.weapon" />
-<weapon file="ew_dragunov_ince.weapon" />
-<weapon file="gw_ltlx7000_6101_b.weapon" />
-<weapon file="gw_ltlx7000_6101_r.weapon" />
-<weapon file="gw_mcx.weapon" />
-<weapon file="gw_sks.weapon" />
-<weapon file="gw_sks_b.weapon" />
-<weapon file="pw_nyto_black.weapon" />
-<weapon file="ew_hemogoblin_gun.weapon" />
 
-<weapon file="otom_cannon.weapon" />
-<weapon file="jupiter_buggy_cannon.weapon" />
-<weapon file="mk47_car.weapon" />
-<weapon file="m3dm50_car.weapon" />
-<weapon file="siegetower_crossbow.weapon" />
+<!-- 34 -->
+<weapon file="gw_m1873mod.weapon" />
+<weapon file="gw_m1873mod_f.weapon" />
+<weapon file="gw_tfq.weapon" />
+<weapon file="gw_tfq_cheche.weapon" />
+<weapon file="gw_mag7.weapon" />
+<weapon file="gw_type64.weapon" />
+<weapon file="gw_81hr.weapon" />
+<weapon file="fal_leina.weapon" />
+<weapon file="gw_tokarev.weapon" />
+<weapon file="gw_m590a1.weapon" />
+<weapon file="gw_corinth.weapon" />
+<weapon file="gw_corinth_2.weapon" />
+<weapon file="ew_mcxtang.weapon" />
+<weapon file="ew_mcxtang_sg.weapon" />
+<weapon file="ew_shoki.weapon" />
+<weapon file="ew_amb17.weapon" />
+<weapon file="gw_m4a1_pinkglassheart_s.weapon" />
+<weapon file="ew_dragunov_ince_pnt.weapon" />
+<weapon file="ew_double_freedom.weapon" />
+<weapon file="ew_double_freedom_ticket.weapon" />
+<weapon file="gw_cz75.weapon" />
+<weapon file="gw_cz75_axe.weapon" />
+<weapon file="gw_g41_bp2064.weapon" />
+<weapon file="gw_g41_bp2064_sg.weapon" />
+<weapon file="ew_athena.weapon" />
+<!-- <weapon file="bronia_gl.weapon" /> -->
+
+
+
 
 
 

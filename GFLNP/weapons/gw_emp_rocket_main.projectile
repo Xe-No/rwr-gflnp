@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="" slot="0" radius="0.0" key="gw_emp_rocket_main.projectile" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" >
+
+    <result class="spawn" instance_class="projectile" instance_key="gw_emp_rocket_blast.projectile" min_amount="4" max_amount="4" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+    <trigger class="time" time_to_live="0.0" />
+    <rotation class="random" />
+
+    <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
+
+
+</projectile>

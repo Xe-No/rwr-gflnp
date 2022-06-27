@@ -13,8 +13,28 @@
 <projectile file="mortar_shell_tel.projectile" />
 <projectile file="landing_impact.projectile" />
 
+<!-- <projectile file="ew_sticky_bomb_blast.projectile" /> -->
+
+<projectile file="ew_sticky_bomb_blast.projectile" />
+<projectile file="gw_emp_rocket_main.projectile" />
+<projectile file="gw_emp_rocket_blast.projectile" />
+
+<projectile file="401_yamato_cannon.projectile" />
+<projectile file="401_yamato_cannon_larger.projectile" />
+
+
+
+
 <!-- CBP -->
 <projectile file="cb_part.projectile" />
+
+<!-- 34 -->
+
+<projectile file="helldiver_general_bullet.projectile" />
+<projectile file="ew_athena_summon.projectile" />
+<projectile file="ew_athena_laser.projectile" />
+<projectile file="rx1_railgun_ap.projectile" />
+
 
 
 

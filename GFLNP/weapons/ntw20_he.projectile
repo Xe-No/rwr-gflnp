@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="bullet" name="ntw20HE" key="ntw20_he.projectile" slot="1" pulldown_in_air="4.0">
-    <result class="blast" radius="4" damage="0.01" push="0.05" decal="0" character_state="death" faction_compare="not_equal"/>
+    <result class="blast" radius="3.0" damage="0.01" push="0.05" decal="0" character_state="death" faction_compare="not_equal"/>
     <trigger class="impact" />
     <rotation class="motion" />
 

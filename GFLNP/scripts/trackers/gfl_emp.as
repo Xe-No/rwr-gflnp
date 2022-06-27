@@ -45,13 +45,13 @@ class EmpG : Tracker {
 	// --------------------------------------------
 	protected void handleResultEvent(const XmlElement@ event) {
 		//emp notify_script key
-		string empKey = "emp_g";
+		//string empKey = "emp_g";
 		int empId = event.getIntAttribute("character_id");
 		//checking if the event was triggered by an emp grenade
 		string key = event.getStringAttribute("key");
-		if (key == empKey) {
+		if (key == "emp_g") {
 			//emp effect radius
-			float range = 6.5;
+			float range = 8.0;
 		
 			//list of vehicles NOT affected by emp
 			array<string> targetKeys = {
@@ -61,8 +61,7 @@ class EmpG : Tracker {
 				"deployable_minig.vehicle",
 				"hornet.vehicle",
 				"mortar.vehicle",
-				"para_spawn.vehicle",
-				"tank2.vehicle"
+				"para_spawn.vehicle"
 			};
 		
 			Vector3 empPos = stringToVector3(event.getStringAttribute("position"));
@@ -71,6 +70,41 @@ class EmpG : Tracker {
 				"<command class='create_instance'" +
 				" instance_class='grenade'" +
 				" instance_key='gw_emp_blast.projectile'" +
+				" position='" + empPos.toString() + "' />";
+			m_metagame.getComms().send(c);
+
+			empVehicles(empPos, targetKeys, range);
+
+			string command = "";
+			int xrc = (1 + empList.length()) / 2;
+			float xpRewardFinal = xpReward * xrc;
+			float rpRewardFinal = rpReward * xrc;
+			command = "<command class='xp_reward' character_id='" + empId + "' reward='" + xpRewardFinal + "' />";
+			m_metagame.getComms().send(command);
+			command = "<command class='rp_reward' character_id='" + empId + "' reward='" + rpRewardFinal + "' />";
+			m_metagame.getComms().send(command);
+		}
+		if (key == "emp_r") {
+			//emp effect radius
+			float range = 7.0;
+		
+			//list of vehicles NOT affected by emp
+			array<string> targetKeys = {
+				"deployable_gl.vehicle",
+				"deployable_mg.vehicle",
+				"deployable_mg_2.vehicle",
+				"deployable_minig.vehicle",
+				"hornet.vehicle",
+				"mortar.vehicle",
+				"para_spawn.vehicle"
+			};
+		
+			Vector3 empPos = stringToVector3(event.getStringAttribute("position"));
+
+			string c = 
+				"<command class='create_instance'" +
+				" instance_class='grenade'" +
+				" instance_key='gw_emp_rocket_main.projectile'" +
 				" position='" + empPos.toString() + "' />";
 			m_metagame.getComms().send(c);
 
@@ -121,7 +155,7 @@ class EmpG : Tracker {
 		for (uint i = 0; i < empList.length() ; ++i){
 			if (empList[i].m_id == vehicleId){
 				//resetting the timer
-				empList[i].m_timer = 4.0;
+				empList[i].m_timer = 6.0;
 				return;
 			}
 		}

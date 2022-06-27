@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="gw_cz75.weapon">
+    <specification 
+	retrigger_time="0.06" 
+	accuracy_factor="1.2" 
+	sustained_fire_grow_step="1.0" 
+	sustained_fire_diminish_rate="1.5" 
+	magazine_size="15" 
+	can_shoot_standing="1" 
+	can_shoot_crouching="1" 
+	suppressed="0" 
+	name="CZ75" 
+	class="0" 
+	reload_one_at_a_time="0" 
+	sight_range_modifier="1.5" 
+	projectile_speed="120.0" 
+	barrel_offset="0.6" 
+	projectiles_per_shot="1" 
+	burst_shots="1"
+	carry_in_two_hands="0"
+	use_basic_muzzle_smoke_effect="1"
+	/>
+
+------------------------------------------------------------
+	<next_in_chain key="gw_cz75_axe.weapon" share_ammo="0" />
+
+	<animation state_key="recoil"	animation_key="recoil, pistol" />
+	<animation key="recoil" stance_key="prone" animation_key="recoil, pistol, prone" />	
+    <animation state_key="reload"	animation_key="reloading, pistol" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, pistol, prone" />	
+	<animation state_key="hold"	animation_key="hold, pistol" />
+	<animation state_key="hold_casual"	animation_key="hold, pistol" />
+	<animation state_key="hold_on_wall"	animation_key="hold, pistol" />
+	<animation state_key="still_against_wall"	animation_key="hold, pistol" />
+	<animation state_key="crouching"	animation_key="crouch, pistol" />
+	<animation state_key="running"	animation_key="running, pistol" />
+	<animation state_key="walking"	animation_key="walking, pistol" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+    <animation state_key="prone_still" animation_key="prone_still, pistol" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
+	
+	<sound key="fire" fileref="cz75_shoot_01.wav" pitch_variety="0.01" volume="1" />
+
+    <sound key="magazine_out" fileref="pistol_clip_out.wav" />
+    <sound key="magazine_in" fileref="pistol_clip_in.wav" volume="0.6" />    
+    <sound key="cycle" fileref="pistol_chamber.wav" volume="0.6" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+  !--  <model filename="socom.xml" />-->
+  
+    <weak_hand_hold offset="0.4" />
+
+    <hud_icon filename="gw_cz75.png" />
+    <commonness value="1" can_respawn_with="1" in_stock="1"/>
+    <inventory encumbrance="1.0" price="5.0" />
+    <weak_hand_hold offset="0.3" />
+
+-----------------------------------------------------------------
+    <projectile file="bullet.projectile" pulldown_in_air="4" > 
+
+		<result class="hit"  kill_probability="1.65" kill_decay_start_time="1.2" kill_decay_end_time="2"/>
+		
+		<trail probability="1" key="BulletApTrail"/>	
+		<effect class="result" key="other" copy="terrain"/>
+		<effect class="result" key="static_object" copy="terrain" />
+		<effect class="result" key="character" copy="terrain" />
+		<effect class="result" key="vehicle" copy="terrain" />
+    </projectile>
+
+
+ 
+   
+---------------------------------------------------------------------
+	<stance state_key="running" accuracy="0.4" />
+    <stance state_key="walking" accuracy="0.5" />
+    <stance state_key="crouch_moving" accuracy="0.6" />
+    <stance state_key="prone_moving" accuracy="0.6" />
+    <stance state_key="standing" accuracy="0.85" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.0" />
+    <modifier class="speed" value="+0.0" />     
+
+	
+</weapon>

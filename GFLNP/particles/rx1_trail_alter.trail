@@ -1,0 +1,6 @@
+<trail key="rx1_trail" material="rx1_trail"
+trail_length="60"
+intensity_range="0.5 0.5"
+initial_width_range="0.4 0.5"
+width_change="-6.0"
+/>

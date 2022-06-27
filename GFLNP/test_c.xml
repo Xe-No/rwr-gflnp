@@ -4,6 +4,7 @@
 
     <carry_item file="pzc_vest.carry_item" />
     <carry_item file="hvy_vest.carry_item" />
+    <carry_item file="med_optical_camo_cloak.carry_item" />
 
     <carry_item file="vb1.carry_item" />
 

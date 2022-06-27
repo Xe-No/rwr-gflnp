@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Athena Mark" slot="1" pulldown_in_air="60.0" key="ew_athena_summon.projectile" can_be_detected_by_driver="0" can_be_detected_by_footmen="0">
+
+    <result class="spawn" instance_class="projectile" instance_key="ew_athena_laser.projectile" min_amount="2" max_amount="2" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+    <trigger class="impact" />
+    <rotation class="motion" />
+
+    <model mesh_filename="" />
+
+    <sound class="result" key="other" fileref="ew_athena_mark.wav" pitch_variety="0.0" volume="1.0" />
+
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+</projectile>

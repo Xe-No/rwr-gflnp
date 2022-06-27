@@ -13,10 +13,11 @@
 		sight_range_modifier="1.15" 
 		name="M4A1[pink glass heart]" 
 		class="4" 
-        		burst_shots="3"
+        burst_shots="3"
 		projectile_speed="155.0" 
-		barrel_offset="0.5"
-		projectiles_per_shot="1"/>
+		barrel_offset="0.5"/>
+
+        <next_in_chain key="gw_m4a1_pinkglassheart_s.weapon" share_ammo="1" />
 
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />

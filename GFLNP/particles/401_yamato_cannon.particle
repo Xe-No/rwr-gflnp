@@ -1,0 +1,360 @@
+
+particle_system 401_yamato_cannon_trail_center
+{
+	quota 100
+	material pump_flare_03_01
+	particle_width 3
+	particle_height 3
+	renderer billboard	
+	billboard_rotation_type vertex
+	billboard_origin center
+	billboard_type point
+	iteration_interval 0
+	emitter Point{
+		angle 90
+        colour 1 0.9 0.9 1
+		direction 0 1 0
+		emission_rate 100
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.07
+		duration 5
+	}
+	affector ColourFader2{
+        red1	40
+		green1  40
+		blue1	40
+		alpha1	40
+		red2	 -40
+		green2  -40
+		blue2	-40
+		alpha2	-40
+		state_change 0.025
+    }
+	affector Scaler{rate -60}
+}
+particle_system 401_yamato_cannon_trail_center_larger : 401_yamato_cannon_trail_center
+{
+	particle_width 8
+	particle_height 8
+	emitter Point{
+		emission_rate 50
+		time_to_live 0.15
+	}
+	affector ColourFader2{}
+	affector Scaler{rate -40}
+}
+particle_system 401_yamato_cannon_trail_ambient : 401_yamato_cannon_trail_center{
+	particle_width 8
+	particle_height 8
+	emitter Point{
+		angle 90
+        colour 1 0.1 0.15 1
+		time_to_live 0.1
+	}
+	affector ColourFader2{
+        red1	30
+		green1  2
+		blue1	3
+		alpha1	40
+		red2	 -0
+		green2  -0
+		blue2	-0
+		alpha2	-40
+		state_change 0.025
+    }
+		affector Scaler{rate -80}
+}
+particle_system 401_yamato_cannon_trail_ambient_larger : 401_yamato_cannon_trail_ambient
+{
+	particle_width 20
+	particle_height 20
+	emitter Point
+	{	
+		emission_rate 20
+		angle 90
+        colour 1 0.1 0.15 0.1
+		time_to_live 0.24
+	}
+	affector ColourFader2{
+		red1	10
+		green1  3
+		blue1	3
+		alpha1	0
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-40
+		state_change 0.15
+	}
+	affector Scaler{rate -80}
+}
+
+particle_system 401_yamato_cannon_activated_trace_01 
+{
+	quota 10
+	material lens_circle_08
+	particle_width 2
+	particle_height 2
+	renderer billboard	
+	billboard_origin center
+	billboard_type point
+	emitter Point{
+		angle 90
+        colour 1 0.1 0 1
+		direction 0 1 0
+		emission_rate 10
+		position 0 0 0
+		velocity 3
+		time_to_live 0.35
+		duration 5
+	}
+	affector ColourFader2{
+        red1	80
+		green1  1
+		blue1	0
+		alpha1	40
+		red2	 -20
+		green2  -20
+		blue2	-20
+		alpha2	-40
+		state_change 0.05
+    }
+	affector Scaler{rate 15}
+}
+particle_system 401_yamato_cannon_result_01
+{
+	quota 100
+	material point_hard_edge
+	particle_width 0.15
+	particle_height 0.15
+	renderer billboard	
+	billboard_origin center
+	billboard_type point
+	emitter Box{
+		angle 0
+        colour 1 0.3 0 1
+		direction 0 1 0
+		emission_rate 400
+		velocity 10
+		position 0 0 0
+		time_to_live 0.5
+		duration 0.15
+		width 30
+		depth 6
+		height 30
+	}
+	affector ColourFader2{
+        red1	10
+		green1  2
+		blue1	0
+		alpha1	10
+		red2	 -5
+		green2  -5
+		blue2  -5
+		alpha2 -5
+		state_change 0.2
+    }
+}
+particle_system 401_yamato_cannon_result_02 : 401_yamato_cannon_result_01
+{
+	quota 50
+	material point_hard_edge
+	particle_width 0.15
+	particle_height 1
+	renderer billboard	
+	billboard_origin center
+	billboard_type oriented_self
+	emitter Box{
+		angle 0
+        colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 200
+		velocity 5
+		position 0 0 0
+		time_to_live 0.4
+		duration 0.15
+	}
+	affector ColourFader2{
+        red1	5
+		green1  5
+		blue1	5
+		alpha1	5
+		red2	 -5
+		green2  -5
+		blue2  -5
+		alpha2 -5
+		state_change 0.2
+    }
+}
+particle_system 401_yamato_cannon_activated_trace_03
+{
+	quota 50
+	material lens_flare_01
+	particle_width 30
+	particle_height 30
+	renderer billboard	
+	billboard_origin center
+	billboard_type point
+	emitter Point{
+		angle 0
+        colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 50
+		velocity 1
+		position 0 0 0
+		time_to_live 0.025
+		duration 5
+	}
+	affector ColourFader2{
+        red1	200
+		green1  200
+		blue1	200
+		alpha1	200
+		red2	 -10
+		green2  -10
+		blue2  -10
+		alpha2	-10
+		state_change 0.01
+    }
+	affector Rotator{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	90
+		rotation_range_end	90
+	}
+}
+
+particle_system 401_yamato_cannon_result_03  //命中反馈圈
+{
+	quota 100
+	material lens_circle_06
+	billboard_rotation_type vertex
+	particle_width 0.1
+	particle_height 0.1
+	billboard_type perpendicular_common
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+    emitter Point
+    {
+        angle 0
+        colour 1 0.3 0 1
+		direction 1 0 0
+		emission_rate 50
+		position 0 0 0
+		velocity_min 1
+        velocity_max 2
+		time_to_live 0.3
+		duration 0.1
+    }
+    affector Scaler
+	{
+		rate 80
+	}
+    affector ColourFader2{
+        red1	10
+		green1  3
+		blue1	6
+		alpha1	10
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.2
+    }
+}
+particle_system 401_yamato_cannon_result_03_larger : 401_yamato_cannon_result_03 
+{
+    emitter Point
+    {
+		time_to_live 0.3
+    }
+    affector Scaler
+	{
+		rate 180
+	}
+}
+----------------------material---------------------
+material alpha_blend_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend alpha_blend
+		}
+	}
+}
+material add_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+		}
+	}
+}
+
+material pump_flare_03_01 : add_base{
+	technique{
+		pass{
+			texture_unit{
+			texture pump_flare_03_01.png
+		}
+	}
+}
+}
+material 401_yamato_cannon : add_base
+{
+	technique{
+		pass{
+			texture_unit{
+			texture 401_yamato_cannon.png
+		}
+	}
+	}
+}
+material lens_circle_08 : add_base
+{
+	technique{
+		pass{
+			texture_unit{
+			texture lens_circle_08.png
+		}
+	}
+	}
+}
+material lens_circle_06 : add_base
+{
+	technique{
+		pass{
+			texture_unit{
+			texture lens_circle_06.png
+		}
+	}
+	}
+}
+material point_hard_edge : add_base
+{
+	technique{
+		pass{
+			texture_unit{
+			texture point_hard_edge.png
+		}
+	}
+	}
+}
+material lens_flare_01 : add_base
+{
+	technique{
+		pass{
+			texture_unit{
+			texture lens_flare_01.png
+		}
+	}
+	}
+}
+

@@ -1,0 +1,86 @@
+//-----------------------------------------------------------------------------------------------------------------------
+material corinth_blast_spark
+{
+                receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			fog_override true
+
+			texture_unit
+			{
+				texture monlit.png
+			}
+		}
+	}
+}
+
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+material corinth_blast_halo
+{
+                receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			fog_override true
+
+			texture_unit
+			{
+				texture liuhan.png
+			}
+		}
+	}
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material corinth_smoke
+{
+                receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			fog_override true
+
+			texture_unit
+			{
+				texture corinth_smoke.png
+			}
+		}
+	}
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material corinth_huan
+{
+                receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			fog_override true
+
+			texture_unit
+			{
+				texture corinth_huan.png
+			}
+		}
+	}
+}
+

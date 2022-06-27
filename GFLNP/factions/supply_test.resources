@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
-<weapon key="emmmm_f.weapon"/>
-<weapon key="emmmm_t.weapon"/>
-<weapon key="gw_ksvk_mod.weapon"/>
-<weapon key="gw_ksvk_mod_f.weapon"/>
-<weapon key="gw_mcx_6502.weapon"/>
-<weapon key="gw_ntw20_2301.weapon"/>
-<weapon key="gw_ntw20mod3.weapon"/>
-<weapon key="gw_ntw20mod3_he.weapon"/>
-<weapon key="gw_kn57.weapon"/>
-<weapon key="ew_dragunov_ince.weapon"/>
-<weapon key="gw_ltlx7000_6101_b.weapon"/>
-<weapon key="gw_ltlx7000_6101_r.weapon"/>
-<weapon key="gw_mcx.weapon"/>
-<weapon key="gw_sks.weapon"/>
-<weapon key="gw_sks_b.weapon"/>
-<weapon key="pw_nyto_black.weapon"/>
-
-<weapon key="rodelero.weapon" />
-
-
-
-<projectile key="r_vindicator_dive_bomb.projectile" />
-<projectile key="token_kurumi_wedding.projectile" />
-<projectile key="token_douzi.projectile" />
-<projectile key="token_grey_cat.projectile" />
+<weapon key="gw_m1873mod.weapon" />
+<weapon key="gw_m1873mod_f.weapon" />
+<weapon key="gw_tfq.weapon" />
+<weapon key="gw_tfq_cheche.weapon" />
+<weapon key="gw_mag7.weapon" />
+<weapon key="gw_type64.weapon" />
+<weapon key="gw_81hr.weapon" />
+<weapon key="fal_leina.weapon" />
+<weapon key="gw_tokarev.weapon" />
+<weapon key="gw_m590a1.weapon" />
+<weapon key="gw_corinth.weapon" />
+<weapon key="gw_corinth_2.weapon" />
+<weapon key="ew_mcxtang.weapon" />
+<weapon key="ew_mcxtang_sg.weapon" />
+<weapon key="ew_shoki.weapon" />
+<weapon key="ew_amb17.weapon" />
+<weapon key="gw_m4a1_pinkglassheart_s.weapon" />
+<weapon key="ew_dragunov_ince_pnt.weapon" />
+<weapon key="ew_double_freedom.weapon" />
+<weapon key="ew_double_freedom_ticket.weapon" />
+<weapon key="gw_cz75.weapon" />
+<weapon key="gw_cz75_axe.weapon" />
+<weapon key="gw_g41_bp2064.weapon" />
+<weapon key="gw_g41_bp2064_sg.weapon" />
+<weapon key="ew_athena.weapon" />
 
 <projectile key="otom.projectile" />
 <projectile key="jupiter_buggy.projectile" />

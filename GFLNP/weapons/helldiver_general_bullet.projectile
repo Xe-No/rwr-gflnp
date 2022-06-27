@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="Bullet" key="helldiver_general_bullet.projectile" slot="1">
+    <result class="blast" radius="1" damage="1" push="1" decal="0" character_state="death"  />
+    <trigger class="impact" />
+	<rotation class="motion" />
+	
+	
+	<!--
+    <model mesh_filename="rx1_bullet.xml" />
+	-->
+	<effect class="result" key="static_object" copy="terrain" />
+	<effect class="result" key="character" copy="terrain" />
+	<effect class="result" key="vehicle" copy="terrain" />
+	<effect class="result" key="other" copy="terrain" />
+
+</projectile>

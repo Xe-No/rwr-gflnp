@@ -80,10 +80,17 @@ class RepairCrane : Tracker {
 			rpReward = 0;
 			xpReward = 0.0;
 		} else if (key == "heal_shot") {
-			range = 2.0;
+			range = 3.0;
 			count = 3;
 			xpReward = 0.0001;
 			rpReward = 2;
+		} else if (key == "repair_upgrade") {
+			range = 3.0;
+			repairValue = 1.0;
+			overHealth = 1.5;
+			y_offset = 0.0;
+			rpReward = 0;
+			xpReward = 0.0;
 		}
 		
 		if (repairValue > 0.0) {
@@ -122,31 +129,60 @@ class RepairCrane : Tracker {
 									float vehicleMaxOverHealth = vehicleMaxHealth * overHealth;
 									
 									//only running the update command when necessary
-									if (vehicleHealth < vehicleMaxOverHealth) {
-										//rounding error fix
-										vehicleMaxOverHealth += 0.01;
+									if(key != "repair_upgrade"){
+										if (vehicleHealth < vehicleMaxOverHealth) {
+											//rounding error fix
+											vehicleMaxOverHealth += 0.01;
 										
-										string command = "";
+											string command = "";
 										
-										//calculating and applying repairs
-										float vehicleHealthDifference = vehicleMaxOverHealth - vehicleHealth;
-										if (vehicleHealthDifference > repairValue){
-											vehicleHealth += repairValue;
-											vehicleHealthDifference = repairValue;
-											command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleHealth + "' />";
-										} else {
-											command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleMaxOverHealth + "' />";
+											//calculating and applying repairs
+											float vehicleHealthDifference = vehicleMaxOverHealth - vehicleHealth;
+											if (vehicleHealthDifference > repairValue){
+												vehicleHealth += repairValue;
+												vehicleHealthDifference = repairValue;
+												command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleHealth + "' />";
+											} else {
+												command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleMaxOverHealth + "' />";
+											}
+											m_metagame.getComms().send(command);
+										
+											//rewarding the repairer
+											float xpRewardFinal = xpReward * vehicleHealthDifference;
+											float rpRewardFinal = rpReward * vehicleHealthDifference;
+											command = "<command class='xp_reward' character_id='" + repairerId + "' reward='" + xpRewardFinal + "' />";
+											m_metagame.getComms().send(command);
+											command = "<command class='rp_reward' character_id='" + repairerId + "' reward='" + rpRewardFinal + "' />";
+											m_metagame.getComms().send(command);
 										}
-										m_metagame.getComms().send(command);
+									}else if(key == "repair_upgrade"){
+										if (vehicleHealth < vehicleMaxOverHealth && vehicleHealth >= vehicleMaxHealth) {
+											//rounding error fix
+											vehicleMaxOverHealth += 0.01;
 										
-										//rewarding the repairer
-										float xpRewardFinal = xpReward * vehicleHealthDifference;
-										float rpRewardFinal = rpReward * vehicleHealthDifference;
-										command = "<command class='xp_reward' character_id='" + repairerId + "' reward='" + xpRewardFinal + "' />";
-										m_metagame.getComms().send(command);
-										command = "<command class='rp_reward' character_id='" + repairerId + "' reward='" + rpRewardFinal + "' />";
-										m_metagame.getComms().send(command);
+											string command = "";
+										
+											//calculating and applying repairs
+											float vehicleHealthDifference = vehicleMaxOverHealth - vehicleHealth;
+											if (vehicleHealthDifference > repairValue){
+												vehicleHealth += repairValue;
+												vehicleHealthDifference = repairValue;
+												command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleHealth + "' />";
+											} else {
+												command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleMaxOverHealth + "' />";
+											}
+											m_metagame.getComms().send(command);
+										
+											//rewarding the repairer
+											float xpRewardFinal = xpReward * vehicleHealthDifference;
+											float rpRewardFinal = rpReward * vehicleHealthDifference;
+											command = "<command class='xp_reward' character_id='" + repairerId + "' reward='" + xpRewardFinal + "' />";
+											m_metagame.getComms().send(command);
+											command = "<command class='rp_reward' character_id='" + repairerId + "' reward='" + rpRewardFinal + "' />";
+											m_metagame.getComms().send(command);
+										}
 									}
+
 								}
 							}
 						}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_CB.weapon" key="ew_mcxtang_sg.weapon" quality="card">
+    <specification 
+    retrigger_time="0.34" 
+    accuracy_factor="0.9" 
+    sustained_fire_grow_step="1.0" 
+    sustained_fire_diminish_rate="1.6" 
+    magazine_size="5" 
+    can_shoot_standing="1" 
+    suppressed="1" 
+    name="MCX TANG[SGMOD]" 
+    class="0" 
+    reload_one_at_a_time="1" 
+    sight_range_modifier="0.9" 
+    projectile_speed="140.0" 
+    projectiles_per_shot="5"
+     />
+    <next_in_chain key="ew_mcxtang.weapon" share_ammo="0" />
+
+    <animation state_key="recoil" ref="27" />
+    <animation state_key="cycle" ref="28" />
+    <animation state_key="reload" ref="29" />
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode"/>
+
+    <sound key="fire" fileref="gw_six12sd_shot.wav" pitch_variety="0.05" volume="1.05" />
+    <sound key="cycle" fileref="sg2_cycle.wav" />
+    <sound key="reload_one" fileref="sg2_reload3.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="ew_mcxtang.xml" />
+
+    <hud_icon filename="mcxtang_sg.png" />
+    <commonness value="1.0" can_respawn_with="0" />
+    <inventory encumbrance="10.0" price="600.0" />
+	
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="bullet.projectile">
+        <result class="hit" 
+        kill_probability="2.4" 
+        kill_decay_start_time="0.16" 
+        kill_decay_end_time="0.36"  />
+        <effect class="result" key="character" ref="mcx_center_circle_03" />
+        <effect class="result" key="character" ref="mcx_center_circle_04" />      
+        <trail probability="1.0" key="laser_blue"/>
+    </projectile>  
+
+    <effect class="muzzle" ref="ejection_sg" />
+    <effect class="muzzle" ref="muzzle_gf" />
+    
+    <stance state_key="running" accuracy="0.6" />
+    <stance state_key="walking" accuracy="0.7" />
+    <stance state_key="crouch_moving" accuracy="0.6" />
+    <stance state_key="standing" accuracy="0.8" />
+    <stance state_key="crouching" accuracy="0.8" />
+    <stance state_key="prone" accuracy="0.8" /> 
+    <stance state_key="prone_moving" accuracy="0.7" />
+    <stance state_key="over_wall" accuracy="0.85" />     
+     
+    <modifier class="speed" value="-0.03" />       
+</weapon>
+
