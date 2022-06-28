@@ -16,7 +16,7 @@
     <animation state_key="hold_casual" animation_key="check_weapon, mg4" />
     <animation key="reload" ref="33"/>
     <animation key="hold_on_wall" ref="1"/>
-    <animation state_key="walking" animation_key="walking, hip fire"/>
+    <animation state_key="walking" animation_key="walking"/>
     <animation state_key="crouching" animation_key="crouch, hold, mg4"/>
     <animation state_key="crouch_moving" animation_key="crouching forwards, hip fire"/>
     <animation key="recoil" stance_key="prone" animation_key="recoil1, prone" />
