@@ -9,8 +9,8 @@
 
 	<control max_speed="10" acceleration="10.0" max_reverse_speed="10.0" TODO_min_health_to_steer="0.4" max_rotation="0.0" max_water_depth="1.0" steer_smoothening="0.9" tracked="1" gears="1" max_limiter_speed="6.0" />
 
-	<physics max_health="12" blast_damage_threshold="0.9" mass="200.0" extent="4.0 0.0 5.6" offset="0 0.0 0" top_offset="0 2.4 0" collision_model_pos="0 0.56 0" collision_model_extent="3.2 2.0 6.4" visual_offset="0 0.2 0.0" /> 
-	<modifier class="blast_damage" value="-0.6" />
+	<physics max_health="12" blast_damage_threshold="1.2" mass="200.0" extent="4.0 0.0 5.6" offset="0 0.0 0" top_offset="0 2.4 0" collision_model_pos="0 0.56 0" collision_model_extent="3.2 2.0 6.4" visual_offset="0 0.2 0.0" /> 
+	<modifier class="blast_damage" value="-0.9" />
 
 	<turret offset="0.0 1.8 0.99" weapon_key="otom_cannon.weapon" weapon_offset="0 0.55 4.2" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0001" />
 

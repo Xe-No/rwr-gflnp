@@ -1,0 +1,77 @@
+material miyu_alpha_blend_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend alpha_blend
+		}
+	}
+}
+material miyu_add_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+		}
+	}
+}
+material miyu_icon	: miyu_add_base
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{ 
+				texture miyu_icon.png        
+            }
+        }
+    }
+}
+
+material miyu_icon_big	: miyu_add_base
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{  
+				texture miyu_icon_big.png
+            }
+        }
+    }
+}
+
+material miyu_lens	: miyu_add_base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture lens_circle_08.png
+            }
+        }
+    }
+}
+material miyu_leaf	: miyu_alpha_blend_base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture miyu_leaf.png
+            }
+        }
+    }
+}
+

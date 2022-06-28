@@ -892,6 +892,8 @@ gw_zb26_4703.weapon
 	<model filename="gs_g41_2064.xml"><requirement class="weapon" key="gw_g41_bp2064.weapon" slot="0" /></model>	
 	<model filename="gs_g41_2064.xml"><requirement class="weapon" key="gw_g41_bp2064_sg.weapon" slot="0" /></model>
 	<model filename="es_athena.xml"><requirement class="weapon" key="ew_athena.weapon" slot="0" /></model>
+	<model filename="bas_miyu.xml"><requirement class="weapon" key="baw_miyu.weapon" slot="0" /></model>
+	<model filename="bas_miyu.xml"><requirement class="weapon" key="baw_miyu_bin.weapon" slot="0" /></model>
 
 </models>
 

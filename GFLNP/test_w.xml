@@ -49,6 +49,8 @@
 <weapon file="gw_g41_bp2064.weapon" />
 <weapon file="gw_g41_bp2064_sg.weapon" />
 <weapon file="ew_athena.weapon" />
+<weapon file="baw_miyu.weapon" />
+<weapon file="baw_miyu_bin.weapon" />
 <!-- <weapon file="bronia_gl.weapon" /> -->
 
 
