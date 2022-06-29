@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<call name="call for airfleet support"
+<call name="Call for airfleet support"
 	key="401_yamato.call"
 	notify_metagame="1"
-	initiation_comment1="we need battlecruiser support here"     
+	initiation_comment1="We need battlecruiser support here"     
 	acknowledge_comment="Acknowledged, Course laid in"	
-	radio_view_text="call for airfleet support"  
+	radio_view_text="Call for airfleet support"  
 	launch_comment="Weapons charged and ready! Commencing bombardment"	
 	show_target_marker="0">
 	
