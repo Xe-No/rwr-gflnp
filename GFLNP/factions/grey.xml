@@ -391,7 +391,7 @@
 			<parameter class="detectability_walking" value="0.85" />
 			<parameter class="detectability_still" value="0.78" />
 			<parameter class="detectability_running" value="0.9" />
-			<parameter class="speed" value="1.0" />
+			<parameter class="speed" value="0.9" />
 			<parameter class="speed_encumbered" low="0.8" high="0.3" />
 			<parameter class="encumbrance" low="4.9" high="50.0" />
 		</character>
