@@ -1,0 +1,23 @@
+material DragonBreath_Ground
+{
+        receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			//ambient vertexcolour
+			//diffuse vertexcolour
+			//scene_blend one zero
+			scene_blend add
+			fog_override true
+			depth_write off
+
+			texture_unit
+			{
+				texture dragonbreath_ground.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}

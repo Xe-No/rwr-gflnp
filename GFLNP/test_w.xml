@@ -51,7 +51,14 @@
 <weapon file="ew_athena.weapon" />
 <weapon file="baw_miyu.weapon" />
 <weapon file="baw_miyu_bin.weapon" />
-<!-- <weapon file="bronia_gl.weapon" /> -->
+<weapon file="bronia_gl.weapon" />
+<weapon file="banner_ep.weapon" />
+<weapon file="banner_qk.weapon" />
+<weapon file="gw_ltlx7000_6702.weapon" />
+<weapon file="gw_ltlx7000_6702_d.weapon" />
+<weapon file="gw_m1_c.weapon" />
+<weapon file="ew_hmtech401.weapon" />
+<weapon file="ew_hmtech401_med.weapon" />
 
 
 

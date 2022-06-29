@@ -894,7 +894,11 @@ gw_zb26_4703.weapon
 	<model filename="es_athena.xml"><requirement class="weapon" key="ew_athena.weapon" slot="0" /></model>
 	<model filename="bas_miyu.xml"><requirement class="weapon" key="baw_miyu.weapon" slot="0" /></model>
 	<model filename="bas_miyu.xml"><requirement class="weapon" key="baw_miyu_bin.weapon" slot="0" /></model>
-
+	<model filename="gs_ltlx7000_6702.xml"><requirement class="weapon" key="gw_ltlx7000_6702.weapon" slot="0" /></model>
+	<model filename="gs_ltlx7000_6702.xml"><requirement class="weapon" key="gw_ltlx7000_6702_d.weapon" slot="0" /></model>
+	<model filename="gs_m1_c.xml"><requirement class="weapon" key="gw_m1_c.weapon" slot="0" /></model>
+	<model filename="es_hmtech401.xml"><requirement class="weapon" key="ew_hmtech401.weapon" slot="0" /></model>
+	<model filename="es_hmtech401.xml"><requirement class="weapon" key="ew_hmtech401_med.weapon" slot="0" /></model>
 </models>
 
     

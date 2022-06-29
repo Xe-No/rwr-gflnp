@@ -1,0 +1,108 @@
+particle_system DragonBreath_Ground {
+	quota	800
+	material DragonBreath_Ground
+	particle_width	0.5
+	particle_height	0.4
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Point {
+		angle	20
+		colour	0 0 0 0
+		direction	0 1 0
+		emission_rate	10
+		position	0 0 0
+		velocity_min	1
+		velocity_max	3
+		time_to_live	0.8
+		duration	1.0
+	}
+
+	affector Scaler {
+		rate	0.1
+	}
+
+
+	affector Rotator {
+		rotation_speed_range_start	-60
+		rotation_speed_range_end	60
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+	affector ColourFader2{          //着色器效果器
+		red1	10                
+		green1  	10                 
+		blue1	3
+		alpha1	5
+		red2	 -4
+		green2  	-5
+		blue2	-5
+		alpha2	-3
+		state_change 0.6           //不可超过time_to_live，且为倒计时
+	}
+
+	affector LinearForce {
+		force_vector 0 5 0
+		force_application add
+	}
+}
+particle_system DragonSparkle_ltlx
+{
+	quota	500
+	material	BrokenSparkle
+	particle_width	0.3
+	particle_height	0.3
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Box
+	{
+		angle	100
+		colour	1 1 0.2 1
+		colour_range_start	1 1 0.2 1
+		colour_range_end	1 1 0.2 1
+		direction	0 1 0
+		emission_rate	120
+		position	0.0 0 0.0
+		velocity	15
+		velocity_min	4
+		velocity_max	10
+		time_to_live	0.25
+		time_to_live_min	0.15
+		time_to_live_max	0.25
+		duration	1
+		duration_min	0.12
+		duration_max	0.3
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+		width	0.1
+		height	0.0
+		depth	0.1
+	}
+
+	affector Scaler
+	{
+		rate	-0.8
+	}
+
+
+
+
+	affector ColourFader2{          //着色器效果器
+		red1	10                
+		green1  	10                 
+		blue1	3
+		alpha1	5
+		red2	 -3
+		green2  -5
+		blue2	-5
+		alpha2	-3
+		state_change 0.24           //不可超过time_to_live，且为倒计时
+	}
+}
+
+

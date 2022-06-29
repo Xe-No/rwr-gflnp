@@ -25,6 +25,13 @@
 <weapon key="gw_g41_bp2064.weapon" />
 <weapon key="gw_g41_bp2064_sg.weapon" />
 <weapon key="ew_athena.weapon" />
+<weapon key="bronia_gl.weapon" />
+<weapon key="banner_ep.weapon" />
+<weapon key="banner_qk.weapon" />
+<weapon key="gw_ltlx7000_6702.weapon" />
+<weapon key="gw_ltlx7000_6702_d.weapon" />
+<weapon key="gw_m1_c.weapon" />
+<weapon key="ew_hmtech401.weapon" />
 
 <projectile key="otom.projectile" />
 <projectile key="jupiter_buggy.projectile" />

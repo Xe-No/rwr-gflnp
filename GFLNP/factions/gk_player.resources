@@ -70,6 +70,8 @@ Armory
 	<weapon key="gw_repair_q.weapon" />
     <weapon key="claymore_resource.weapon" />
     <weapon key="handflag.weapon" />
+    <weapon key="banner_qk.weapon" />
+
 
 	<weapon key="gw_toz81.weapon" />
 	<weapon key="ew_rumbler_consume.weapon" />
