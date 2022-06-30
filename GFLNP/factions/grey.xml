@@ -384,16 +384,16 @@
 	</soldier>
 	<soldier name="PZC" firstnames_file="42LAB-PZC.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_player.character">
-			<parameter class="detectability_prone" value="0.4" />
-			<parameter class="detectability_wounded" value="0.4" />
-			<parameter class="detectability_crouching" value="0.52" />
-			<parameter class="detectability_crouch_moving" value="0.6" />
-			<parameter class="detectability_walking" value="0.85" />
-			<parameter class="detectability_still" value="0.78" />
-			<parameter class="detectability_running" value="0.9" />
-			<parameter class="speed" value="0.9" />
+			<parameter class="detectability_prone" value="0.5" />
+			<parameter class="detectability_wounded" value="0.5" />
+			<parameter class="detectability_crouching" value="0.62" />
+			<parameter class="detectability_crouch_moving" value="0.7" />
+			<parameter class="detectability_walking" value="0.9" />
+			<parameter class="detectability_still" value="0.83" />
+			<parameter class="detectability_running" value="0.95" />
+			<parameter class="speed" value="1.0" />
 			<parameter class="speed_encumbered" low="0.8" high="0.3" />
-			<parameter class="encumbrance" low="4.9" high="50.0" />
+			<parameter class="encumbrance" low="9.9" high="50.0" />
 		</character>
 		<resources>
 			<weapon key='gk_supply_ss.weapon' />

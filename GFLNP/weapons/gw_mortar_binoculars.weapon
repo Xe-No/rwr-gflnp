@@ -57,7 +57,7 @@
 
     <capacity value="2" source="rank" source_value="0.0" />
 
-    <inventory encumbrance="5.0" price="200.0" />
+    <inventory encumbrance="4.0" price="200.0" />
 
     <projectile file="gw_mortar_binoculars.projectile" />
     
