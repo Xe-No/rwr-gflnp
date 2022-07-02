@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call name="GK Sniper Support"
+	key="sniper_call.call"
+	notify_metagame="1"
+	initiation_comment1="We need some support, but don't make too much noise."     
+	acknowledge_comment="Roger, sniper in position."	
+	radio_view_text="GK Sniper Support"  
+	launch_comment="I'm not responsible for any accidents okay?"	
+	show_target_marker="0">
+	
+	<round launch_time="2.1" spawn_time="2.1">
+	   <sound class="spawn" fileref="sniper_call_dsr50.wav" volume="1.2" pitch_variety="0"/>
+	</round>
+	
+	<round launch_time="13" spawn_time="13">
+	</round>
+
+
+	<hud_icon filename="sniper_call.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.3" />
+	<inventory encumbrance="0.0" price="75.0" />
+
+</call>

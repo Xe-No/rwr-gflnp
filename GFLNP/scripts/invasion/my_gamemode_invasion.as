@@ -17,6 +17,7 @@
 #include "artb.as"
 #include "vin.as"
 #include "401_yamato.as"
+#include "sniper_support.as"
 
 // #include "mixer.as"
 
@@ -60,6 +61,7 @@ class MyGameModeInvasion : GameModeInvasion {
 		addTracker(HeliGunRun(this));
 		addTracker(F16GunRun(this));	
  		addTracker(AH64GunRun(this));	
+		addTracker(SnipGunRun(this));	
 		addTracker(RedeemTracker(this));
 		addTracker(ServerTracker(this));
 		addTracker(FactorySpawner(this));
@@ -98,7 +100,8 @@ class MyGameModeInvasion : GameModeInvasion {
 			CallMarkerConfig("artillery_105.call", "call_marker", 8, 0.5, 80.0),
 			CallMarkerConfig("artillery_155.call", "call_marker", 8, 0.5, 70.0),
 			CallMarkerConfig("ac130_gun_run.call", "call_marker_gunship", 3, 1.0, 90.0),
-			CallMarkerConfig("401_yamato.call", "call_marker", 2, 1.0, 120.0),
+			CallMarkerConfig("401_yamato.call", "call_marker", 2, 1.0, 130.0),
+			CallMarkerConfig("sniper_call.call", "call_marker_gunship", 0, 0.5, 50.0),
 			CallMarkerConfig("ah64_assasin.call", "call_marker_gunship", 9, 0.5, 75.0)
             //CallMarkerConfig("a10_gun_run.call", "call_marker", 4, 0.5) //handled in a10_gun_run.as
 			};

@@ -379,6 +379,7 @@
 			<call key="strike_air.call" />
 			<call key="strike_2b14.call" />
 			<call key="supply_quad.call" />
+			<call key="sniper_call.call" />
 			<call key="squad_404.call" enabled="1"/>
 		</resources>		
 	</soldier>

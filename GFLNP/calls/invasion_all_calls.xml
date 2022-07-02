@@ -12,5 +12,6 @@
 	<call file="drop_pod_med.call" />
 	<call file="drop_pod_crew.call" />
 	<call file="401_yamato.call" />
+	<call file="sniper_call.call" />
 
 </calls>

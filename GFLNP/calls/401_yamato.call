@@ -12,11 +12,11 @@
 	   <sound class="spawn" fileref="401_yamato_call.wav" volume="2.5" pitch_variety="0"/>
 	</round>
 	
-	<round launch_time="4" spawn_time="18">
+	<round launch_time="4" spawn_time="19">
 	    <sound class="spawn" fileref="401_yamato_leave.wav" volume="2.5" pitch_variety="0"/>
 	</round>
 
-	<round launch_time="18" spawn_time="20">
+	<round launch_time="19" spawn_time="21">
 	</round>
 
 	<hud_icon filename="401_yamato.png" />

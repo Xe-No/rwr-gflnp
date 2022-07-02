@@ -21,6 +21,8 @@
 
 <projectile file="401_yamato_cannon.projectile" />
 <projectile file="401_yamato_cannon_larger.projectile" />
+<projectile file="sniper_call_dsr50.projectile" />
+<projectile file="sniper_call_dsr50_blast.projectile" />
 
 
 

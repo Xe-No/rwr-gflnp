@@ -4,7 +4,7 @@
     <result class="blast" radius="30" damage="30.0" push="3.0" decal="1" />
     <trigger class="impact" />
     <rotation class="motion" />
-    <model mesh_filename="ammo.xml" />
+    <model mesh_filename="" />
 
     <commonness value="0.0" />
 

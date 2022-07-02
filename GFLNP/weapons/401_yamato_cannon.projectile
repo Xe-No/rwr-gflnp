@@ -3,7 +3,7 @@
     <result class="blast" radius="7.0" damage="3.01" push="1" decal="1" />
     <trigger class="impact" />
     <rotation class="motion" />
-    <model mesh_filename="mortar_shell_heavy.xml" />
+    <model mesh_filename="" />
     <commonness value="0.0" />
 
     <sound class="result" key="other" fileref="explosion1.wav" />
