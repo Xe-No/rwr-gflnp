@@ -625,6 +625,33 @@
 		</attribute_config>
 	</soldier>                              
 
+	<soldier name="medic_MED" spawn_score="0.0">  
+		<character filename="gk.character" />
+		<ai filename="medic.ai" />
+		<model file="es_stiara.xml" />
+
+
+		<resources file="common.resources" clear_weapons="1" clear_carry_items="1">
+			<weapon key="gw_ump45.weapon" />
+			<weapon key='medikit_ai_2.weapon' />
+			<carry_item key='base_mg_vest.carry_item' />
+			<projectile key='hand_grenade.projectile' enabled="1" />      
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />		
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1" min="0.0" max="5.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.3" max="0.6" />
+		</attribute_config>
+	</soldier>            
+
+
 	<soldier name="para" spawn_score="0.0" copy_from="template_SG">
 		<model filename="gs_aa12.xml" />
 		<character>
