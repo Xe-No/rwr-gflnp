@@ -767,7 +767,7 @@ gw_zb26_4703.weapon
 	<model filename="gs_williams.22.xml"><requirement class="weapon" slot="0" key="williams.22.weapon"/></model>
 	<model filename="gs_lewis_5501.xml"><requirement class="weapon" slot="0" key="gw_lewis_5501.weapon"/></model>
 	<model filename="gs_vex.xml"><requirement class="weapon" slot="0" key="vex.weapon"/></model>
-
+	<model filename="gs_vex_magshot.xml"><requirement class="weapon" slot="0" key="vex_positron.weapon"/></model>
 	<model filename="gs_g41_bp.xml"><requirement class="weapon" slot="0" key="gw_g41_bp2077.weapon"/></model>
 	<model filename="gs_g41_bp.xml"><requirement class="weapon" slot="0" key="gw_g41_bp2077_gl.weapon"/></model>
 	<model filename="gs_targetdrone.xml"><requirement class="weapon" slot="0" key="targetdrone.weapon"/></model>
@@ -899,6 +899,8 @@ gw_zb26_4703.weapon
 	<model filename="gs_m1_c.xml"><requirement class="weapon" key="gw_m1_c.weapon" slot="0" /></model>
 	<model filename="es_hmtech401.xml"><requirement class="weapon" key="ew_hmtech401.weapon" slot="0" /></model>
 	<model filename="es_hmtech401.xml"><requirement class="weapon" key="ew_hmtech401_med.weapon" slot="0" /></model>
+	<model filename="vtb_ayame.xml"><requirement class="projectile" slot="0" key="impact_grenade.projectile"/><requirement class="weapon" slot="0" key="ew_rpl20.weapon"/></model>
+
 </models>
 
     

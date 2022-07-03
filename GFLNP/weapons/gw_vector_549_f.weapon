@@ -22,8 +22,8 @@
 	
 	<inventory encumbrance="10.0" price="500.0"/>
 	
-	<ballistics curve_height="5.0" near_far_distance="70.0" speed_estimation_near="10.0" speed_estimation_far="70.0" max_speed="40.0" randomness="0.05" tweak_factor="1.4"/> 
-	<projectile file="flamethrower_flame.projectile"/>
+	<ballistics curve_height="3.0" near_far_distance="0.0" speed_estimation_near="30.0" speed_estimation_far="60.0" max_speed="50.0" randomness="0.05" tweak_factor="2.75"/> 
+	<projectile file="flamethrower_flame.projectile" pulldown_in_air="30.0"/>
 	
 	<stance state_key="running" accuracy="1.0"/>
 	<stance state_key="walking" accuracy="1.0"/>

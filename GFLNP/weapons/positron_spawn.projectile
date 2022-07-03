@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="Bullet" key="positron_spawn.projectile" slot="1">
+
+    <trigger class="time"  time_to_live="0.44" />
+	
+	<collision class="sticky" />
+	<rotation class="motion" />
+		
+	<result class="spawn" instance_class="projectile" instance_key="positron_damage.projectile" 
+	min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />	
+	
+	<effect class="result" key="static_object" copy="terrain" />
+	<effect class="result" key="character" copy="terrain" />
+	<effect class="result" key="vehicle" copy="terrain" />
+	<effect class="result" key="other" copy="terrain" />
+
+</projectile>

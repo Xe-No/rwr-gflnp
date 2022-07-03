@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="" key="positron_damage.projectile" slot="1">
+
+    <result class="blast" radius="5.8" damage="0.2" push="0.8" decal="0" character_state="death" faction_compare="not_equal"  />
+    <trigger class="time" time_to_live="0.2"  />
+	<rotation class="motion" />
+
+	<effect class="result" key="terrain" ref="401_positron_cyclone"/>
+    <effect class="activated" ref="401_positron_avticated_trail_01"/>
+    <effect class="activated" ref="401_positron_avticated_trail_02"/>
+
+	<sound class="result" key="other"  fileref="positron_laser_hit2.wav" pitch_variety="0.00"  volume="2.0"/>
+	
+	<sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+	
+	<effect class="result" key="static_object" copy="terrain" />
+	<effect class="result" key="character" copy="terrain" />
+	<effect class="result" key="vehicle" copy="terrain" />
+	<effect class="result" key="other" copy="terrain" />
+
+</projectile>

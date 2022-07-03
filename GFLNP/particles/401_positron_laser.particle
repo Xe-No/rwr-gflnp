@@ -1,0 +1,476 @@
+
+author: rst
+2022.6.18
+未经授权禁止复用、修改使用本粒子
+已授权401使用
+
+particle_system 401_positron_avticated_trail_01
+{
+	quota 100
+	material point_soft_edge_100_pass
+	particle_width 8
+	particle_height 8
+	renderer billboard
+	billboard_rotation_type vertex
+	iteration_interval 0
+	emitter Point
+	{
+		angle 360
+		colour 0.1 0.4 1 1
+		direction 0 1 0
+		emission_rate 100
+		position 0 0 0
+		velocity_min 0.1
+		velocity_max 0.3
+		time_to_live 0.4
+		duration 1
+		
+	}
+	affector Scaler 
+	{
+		rate 1
+	}
+		affector Rotator
+	{
+		rotation_speed_range_start	-180
+		rotation_speed_range_end	180
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+	affector ColourFader2
+	{
+		red1 	0
+		green1 	0
+		bule1 	10
+		alpha1 	20
+		red2 	-0
+		green2	-0
+		blue2	-0
+		alpha2	-0.3
+		state_change 0.3
+	}
+	affector LinearForce{
+		force_vector 0 -4 0
+		force_application add
+	}
+}
+
+particle_system 401_positron_avticated_trail_02 :  401_positron_avticated_trail_01
+{
+	particle_width 6
+	particle_height 6
+	material add_smoke
+	emitter Point
+	{
+		colour 0.5 0.6 1 0
+		emission_rate 150
+	}
+	affector Scaler
+	{
+		rate 1
+	}
+		affector Rotator
+	{
+	}
+	affector ColourFader2
+	{
+		red1 	-0.5
+		green1  -0.5
+		bule1 	-0.5
+		alpha1 	-0
+		red2 	-0
+		green2	-0
+		blue2	-0
+		alpha2	-0.3
+		state_change 0.3
+	}
+
+}
+
+particle_system 401_positron_muzzle_thunder_01
+{
+    quota 50
+    material positron_pump_lightning
+    particle_width 100
+	particle_height 8
+	renderer billboard	
+    billboard_origin center_left
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+    local_space true
+    emitter Box{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 10
+		position 0 0 0
+		velocity 0.001
+		time_to_live 0.5
+		duration 0.1
+		depth 5
+		width 3
+		height 3
+    }
+	affector Rotator{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start    -90
+		rotation_range_end	-90
+	}
+	affector ColourFader2
+	{
+		red1 	100
+		green1  -0
+		bule1 	-0
+		alpha1 	-0
+		red2 	-0
+		green2	-0
+		blue2	-0
+		alpha2	-0
+		state_change 0.01
+	}
+}
+particle_system 401_positron_muzzle_positron_railwave : 401_positron_muzzle_thunder_01
+{
+	material positron_railwave
+	particle_height 5
+	emitter Box{
+		depth 1
+		width 1
+		height 1
+    }
+	affector Rotator{
+	}
+	affector ColourFader2
+	{
+		red1 	100
+		green1  100
+		bule1 	100
+		alpha1 	-0
+		red2 	-0
+		green2	-0
+		blue2	-0
+		alpha2	-0
+		state_change 0.01
+	}
+	affector Scaler{rate -2}
+}
+
+particle_system 401_positron_cyclone    
+{
+	quota 100
+	material lens_circle_06
+	billboard_rotation_type vertex
+	particle_width 0.1
+	particle_height 0.1
+	billboard_type perpendicular_common
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+    emitter Point
+    {
+        angle 0
+        colour 1 0.3 0 1
+		direction 1 0 0
+		emission_rate 50
+		position 0 0 0
+		velocity_min 1
+        velocity_max 2
+		time_to_live 0.3
+		duration 0.1
+    }
+    affector Scaler
+	{
+		rate 100
+	}
+    affector ColourFader2{
+        red1	10
+		green1  6
+		blue1	3
+		alpha1	10
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.2
+    }
+}
+
+particle_system 401_positron_muzzle_halo
+{
+	quota 10
+	material muzzle_lens_01_cull
+	particle_width 30
+	particle_height 30
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type perpendicular_self
+	common_direction 0 1 0
+	emitter Point
+	{
+		angle 0
+		colour 0 0 0 0
+		direction 0 1 0
+		emission_rate 30
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.6
+		duration 0.15
+	}
+	affector ColourFader2
+	{
+		red1 	0.5
+		green1 	0.5
+		blue1 	0.5
+		alpha1 	-1
+		red2	-6
+		green2 	-6
+		blue2	-6
+		alpha2 	-6
+		state_change 0.3
+	}
+	affector Rotator{
+		rotation_speed_range_start	360
+		rotation_speed_range_end     360
+		rotation_range_start    0
+		rotation_range_end	360
+	}
+	
+}
+
+particle_system 401_positron_muzzle_halo2 : 401_positron_muzzle_halo
+{
+	particle_width 20
+	particle_height 20
+	material lens_circle_06_cull
+	emitter Point
+	{
+		emission_rate 10
+		duration 0.5
+	}
+	affector ColourFader2
+	{
+		red1 	1.5
+		green1 	1.5
+		blue1 	1.5
+		alpha1 	6
+		red2	-6
+		green2 	-6
+		blue2	-6
+		alpha2 	-6
+		state_change 0.3
+	}
+	affector Rotator{
+		rotation_speed_range_start	90
+		rotation_speed_range_end     90
+		rotation_range_start    0
+		rotation_range_end	360
+	}
+}
+particle_system 401_positron_muzzle_halo3 : 401_positron_muzzle_halo2
+{
+	particle_width 15
+	particle_height 15
+	material RainbowWave_cull
+	emitter Point
+	{
+		emission_rate 10
+		duration 0.6
+	}
+	affector ColourFader2
+	{
+		red1 	1
+		green1 	1
+		blue1 	1
+	}
+	affector Rotator{
+		rotation_speed_range_start	-90
+		rotation_speed_range_end     -90
+		rotation_range_start    0
+		rotation_range_end	360
+	}
+}
+
+particle_system 401_positron_muzzle_halo4
+{
+	quota 10
+	material point_soft_edge_red_alpha
+	particle_width 5
+	particle_height 5
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	emitter Point
+	{
+		angle 90
+		colour 0.5 1 1 1
+		direction 0 1 0
+		emission_rate 50
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.65
+		duration 0.1
+	}
+	affector Scaler{rate 10}
+	affector ColourFader2
+	{
+		red1 	3
+		green1 	6
+		blue1 	0
+		alpha1 	6
+		red2	-3
+		green2 	-3
+		blue2	-3
+		alpha2 	-6
+		state_change 0.3
+	}
+	affector Rotator{
+		rotation_speed_range_start	360
+		rotation_speed_range_end     360
+		rotation_range_start    0
+		rotation_range_end	360
+	}
+}
+------------------------------material----------------------------
+material alpha_blend_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend alpha_blend
+		}
+	}
+}
+material add_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+		}
+	}
+}
+material pump_flare_03_01 : add_base{
+	technique{
+		pass{
+			texture_unit{
+			texture pump_flare_03_01.png
+			}
+		}
+	}
+}
+material point_soft_edge_100_pass : add_base{
+	technique{
+		pass{
+			depth_func always_pass
+			texture_unit{
+			texture point_soft_edge_100.png
+			}
+		}
+	}
+}
+material lens_circle_06_cull : add_base{
+	technique{
+		pass{
+			cull_hardware none
+			texture_unit{
+			texture lens_circle_06.png
+			}
+		}
+	}
+}
+material point_soft_edge_red_alpha{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			scene_blend alpha_blend
+			fog_override true
+			depth_write on
+			depth_check off
+			depth_func always_pass
+			texture_unit{
+			texture point_soft_edge_red_alpha.png
+			}
+		}
+	}
+}
+material muzzle_lens_01_cull : add_base{
+	technique{
+		pass{
+			depth_func less
+			cull_hardware none
+			texture_unit{
+			texture muzzle_lens_01.png
+			}
+		}
+	}
+}
+material RainbowWave_cull : add_base{
+	technique{
+		pass{
+			cull_hardware none
+			texture_unit{
+			texture RainbowWave.png
+			}
+		}
+	}
+}
+material positron_pump_lightning : add_base{
+	technique{
+		pass{
+			texture_unit{
+			anim_texture positron_pump_lightning.png 4 0.2
+			wave_xform scroll_x sawtooth 1 1 0 5
+			tex_address_mode wrap
+			}
+		}
+	}
+}
+material positron_railwave : add_base{
+	technique{
+		pass{
+			texture_unit{
+			texture positron_railwave.png 
+			wave_xform scroll_x sawtooth 1 1 0 -2
+			tex_address_mode wrap
+			}
+		}
+	}
+}
+
+material add_smoke : add_base{
+	technique{
+		pass{
+			depth_func always_pass
+			texture_unit{
+			anim_texture add_smoke.png 3 0.1
+			wave_xform sine scale_x 1 1 0 0.1
+			wave_xform sine scale_y 1 1 0 0.1
+			tex_address_mode border
+			tex_border_colour 0 0 0 0
+			}
+		}
+	}
+}
+material 401_positron_trail 
+{     
+	receive_shadows off     
+	technique 
+	{
+		pass 
+		{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend alpha_blend
+			texture_unit 
+			{
+				texture 401_positron_trail.png 	
+			}
+		}
+	}
+}
