@@ -843,6 +843,8 @@ gw_zb26_4703.weapon
 	<model filename="gs_g41_schoolsuit.xml"><requirement class="weapon" slot="0" key="gw_g41_lasercanno_diffusion.weapon"/></model>
 	<model filename="gs_g41_schoolsuit.xml"><requirement class="weapon" slot="0" key="gw_g41_lasercanno_at.weapon"/></model>
 	<model filename="sex_ump45.xml"><requirement class="weapon" slot="1" key="shield_45steel.weapon"/><requirement class="weapon" slot="0" key="gw_ump45.weapon"/></model>
+	<model filename="sex_ump45.xml"><requirement class="weapon" slot="1" key="shield_45steel.weapon"/><requirement class="weapon" slot="0" key="gw_ump45_410.weapon"/></model>
+	<model filename="sex_ump45.xml"><requirement class="weapon" slot="1" key="shield_45steel.weapon"/><requirement class="weapon" slot="0" key="gw_ump45mod.weapon"/></model>
 	<model filename="es_seekersix.xml"><requirement class="weapon" slot="0" key="kf2_seekersix_ap.weapon"/></model>
 	<model filename="es_seekersix.xml"><requirement class="weapon" slot="0" key="kf2_seekersix_he.weapon"/></model>
 

@@ -84,6 +84,15 @@
     <rotation class="motion" />
     <modifier class="speed" value="0.09" />
 
+    <stance state_key="running" accuracy="0.4" />
+    <stance state_key="walking" accuracy="0.675" />
+    <stance state_key="crouch_moving" accuracy="0.75" />
+    <stance state_key="prone_moving" accuracy="0.3" />
+
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.95" />
+    <stance state_key="prone" accuracy="1.0" />
+
     <shield offset="0.5 -0.35 -2" extent="1.7 1.4 0.4" />
     <shield offset="0.5 -0.35 2" extent="1.7 1.4 0.4" />
 </weapon>

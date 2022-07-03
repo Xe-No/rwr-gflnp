@@ -163,8 +163,8 @@
 			<projectile key="btr82a_flare.projectile" />
 			<projectile key="btr80a_flare.projectile" />
 			<projectile key="m1126_flare.projectile" />
-			<projectile key="tiger_flare.projectile" />
-			<projectile key="sturmtiger_flare.projectile" />
+			<projectile key="l333_flare.projectile" />
+			<projectile key="pz4h_flare.projectile" />
 			<call key="a10_gun_run.call" />
 			<call key="f16_missle_run.call" />
 			<call key="ac130_gun_run.call" />
@@ -198,6 +198,8 @@
 			<projectile key="m1126_flare.projectile" />
 			<projectile key="tiger_flare.projectile" />
 			<projectile key="sturmtiger_flare.projectile" />
+			<projectile key="l333_flare.projectile" />
+			<projectile key="pz4h_flare.projectile" />
 			<call key="a10_gun_run.call" />
 			<call key="f16_missle_run.call" />
 			<call key="ac130_gun_run.call" />
@@ -413,6 +415,9 @@
 			<projectile key="m1126_flare.projectile" />
 			<projectile key="tiger_flare.projectile" />
 			<projectile key="sturmtiger_flare.projectile" />
+			<projectile key="l333_flare.projectile" />
+			<projectile key="pz4h_flare.projectile" />
+			<projectile key="lav6g_flare.projectile" />
 			<call key="tank_crew.call" enabled="1"/>
 			<call key="drop_pod_crew.call" enabled="1"/>
 			<call key="buggy.call" enabled="1"/>

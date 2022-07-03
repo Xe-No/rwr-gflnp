@@ -40,7 +40,7 @@ class EmpG : Tracker {
 	}
 
 	protected	float xpReward = 0.005;
-	protected	uint rpReward = 150;
+	protected	uint rpReward = 120;
 
 	// --------------------------------------------
 	protected void handleResultEvent(const XmlElement@ event) {
@@ -70,7 +70,8 @@ class EmpG : Tracker {
 				"<command class='create_instance'" +
 				" instance_class='grenade'" +
 				" instance_key='gw_emp_blast.projectile'" +
-				" position='" + empPos.toString() + "' />";
+				" position='" + empPos.toString() + "'" +
+				" character_id='" + empId + "' />";
 			m_metagame.getComms().send(c);
 
 			empVehicles(empPos, targetKeys, range);
@@ -105,7 +106,8 @@ class EmpG : Tracker {
 				"<command class='create_instance'" +
 				" instance_class='grenade'" +
 				" instance_key='gw_emp_rocket_main.projectile'" +
-				" position='" + empPos.toString() + "' />";
+				" position='" + empPos.toString() + "'" +
+				" character_id='" + empId + "' />";
 			m_metagame.getComms().send(c);
 
 			empVehicles(empPos, targetKeys, range);

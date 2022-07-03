@@ -36,6 +36,8 @@
 <projectile file="ew_athena_summon.projectile" />
 <projectile file="ew_athena_laser.projectile" />
 <projectile file="rx1_railgun_ap.projectile" />
+<projectile file="positron_damage.projectile" />
+<projectile file="positron_spawn.projectile" />
 
 
 

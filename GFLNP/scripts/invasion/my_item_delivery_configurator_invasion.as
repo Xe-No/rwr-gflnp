@@ -142,7 +142,9 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("bmdk17_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("humve1_flare.projectile", "projectile", 1.0f, 3),
 				ScoredResource("siegetower_flare.projectile", "projectile", 1.0f, 3),
-				ScoredResource("m113apc_flare.projectile", "projectile", 1.0f, 3)
+				ScoredResource("m113apc_flare.projectile", "projectile", 1.0f, 3),
+				ScoredResource("l333_flare.projectile", "projectile", 0.5f, 2),
+				ScoredResource("lav6g_flare.projectile", "projectile", 0.2f, 2)
 			},
 			{
 				ScoredResource("ztz99a_flare.projectile", "projectile", 1.0f),
@@ -154,7 +156,10 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("tank_flare.projectile", "projectile", 1.0f),
 				ScoredResource("t14s_flare.projectile", "projectile", 1.0f),
 				ScoredResource("otom_flare.projectile", "projectile", 1.0f, 2),
-				ScoredResource("uhlan_flare.projectile", "projectile", 1.0f)
+				ScoredResource("uhlan_flare.projectile", "projectile", 1.0f),
+				ScoredResource("sturmtiger_flare.projectile", "projectile", 0.2f),
+				ScoredResource("tiger_flare.projectile", "projectile", 0.2f),
+				ScoredResource("pz4h_flare.projectile", "projectile", 0.5f)
 
 			}
 		};
