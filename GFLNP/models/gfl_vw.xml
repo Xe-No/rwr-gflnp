@@ -79,6 +79,10 @@
 <weapon file="coeus_minigun.weapon" />
 <weapon file="m1128d_cannon.weapon" />
 <weapon file="t14s_laser.weapon" />
+<weapon file="tiger_cannon.weapon" />
+<weapon file="sturmtiger_cannon.weapon" />
+<weapon file="lav6_gl.weapon" />
+<weapon file="lav6_hmg.weapon" />
     <!-- <weapon file="templax_gl.weapon"/> -->
     <!-- <weapon file="templax_minig.weapon"/> -->
 </weapons>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_CB.weapon" key="ew_mcxtang_sg.weapon" quality="card">
+<weapon file="base_cb.weapon" key="ew_mcxtang_sg.weapon" quality="card">
     <specification 
     retrigger_time="0.34" 
     accuracy_factor="0.9" 

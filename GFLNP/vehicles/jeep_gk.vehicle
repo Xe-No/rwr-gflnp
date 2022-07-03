@@ -1,4 +1,4 @@
-<vehicle file="vehicle_base.vehicle" name="G&K Jeep" key="jeep_gk.vehicle" map_view_atlas_index="-1" allow_ai_to_use="1" >
+<vehicle file="vehicle_base.vehicle" name="GK Jeep" key="jeep_gk.vehicle" map_view_atlas_index="-1" allow_ai_to_use="1" >
 	<tag name="metal_thin" />
   
 	<tire_set offset="0.68 0.0 1.19" radius="0.32" />

@@ -11,6 +11,10 @@
 	<vehicle file="m113apc.vehicle" /> 
 	<vehicle file="siegetower.vehicle" /> 
 
-
+	<vehicle file="pz4h.vehicle" />
+	<vehicle file="tiger.vehicle" />
+	<vehicle file="sturmtiger.vehicle" />
+	<vehicle file="l333.vehicle" />
+	<vehicle file="lav6g.vehicle" />
 
 </vehicles>
