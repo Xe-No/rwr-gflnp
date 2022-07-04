@@ -7,10 +7,10 @@
 	<tire_set offset="1.2 0.0 -0.9" radius="0.7" />
 	<tire_set offset="1.2 0.0 -2.4" radius="0.7" />
 
-	<control max_speed="18.0" acceleration="18.0"  max_reverse_speed="18.0" min_health_to_steer="0.30" max_rotation="0.9" max_water_depth="3.0" can_steer_in_water="0" steer_smoothening="0.7" />
+	<control max_speed="15.0" acceleration="15.0"  max_reverse_speed="15.0" min_health_to_steer="0.30" max_rotation="0.9" max_water_depth="3.0" can_steer_in_water="0" steer_smoothening="0.7" />
 
 	<physics 
-		max_health="25.0" blast_damage_threshold="1.2"  mass="100.0" 
+		max_health="12.0" blast_damage_threshold="1.2"  mass="100.0" 
 		extent="2.4 0.0 4" offset="0 0.0 0" top_offset="0 5.6 0" 
 		collision_model_pos="0 0.9 0.32" collision_model_extent="2.72 1.8 8.0" visual_offset="0 0.2 0" /> 
 	<modifier class="blast_damage" value="-0.9" />
@@ -18,9 +18,9 @@
 2 GL -> t3 t4
 3 TOW - > t2
 
-	0<turret offset="0.2 2.45 -0.73" weapon_key="lav6_hmg.weapon" weapon_offset="-0.1 0.1 2.48" weapon_recoil="0" max_rotation_step="0.00015" />
+	0<turret offset="0.2 2.45 -0.73" weapon_key="lav6g_hmg.weapon" weapon_offset="-0.1 0.1 2.48" weapon_recoil="0" max_rotation_step="0.00015" />
 	1<turret offset="0 0 0" weapon_key="vmg.50ap.weapon" weapon_offset="-0.3 0.5 0.6" weapon_recoil="0" max_rotation_step="0.0001" rotation_range="0.0" parent_turret_index="0" />
-	2<turret offset="-0.25 1.0 0.2" weapon_key="lav6_gl.weapon" weapon_offset="0 0 0.0" weapon_recoil="0" max_rotation_step="0.0001"  parent_turret_index="0" />
+	2<turret offset="-0.25 1.0 0.2" weapon_key="lav6g_gl.weapon" weapon_offset="0 0 0.0" weapon_recoil="0" max_rotation_step="0.0001"  parent_turret_index="0" />
 	3<turret offset="0 0 0" weapon_key="wiesel_tow.weapon" weapon_offset="1.3 1.5 0.5" weapon_recoil="0" max_rotation_step="0.0001" rotation_range="0.0" parent_turret_index="0" />	
 	4<turret offset="0 0 0" weapon_key="none.weapon" parent_turret_index="0" />
 	5<turret offset="0 0 0" weapon_key="none.weapon" />

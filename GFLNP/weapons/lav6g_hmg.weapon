@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon key="lav6_hmg.weapon">
+<weapon key="lav6g_hmg.weapon">
     <specification retrigger_time="0.2" 
     accuracy_factor="1.0" 
     sustained_fire_grow_step="1.2" 
     sustained_fire_diminish_rate="1.2" 
     spread_range="0.17"
-	sight_range_modifier="1.4"
+	sight_range_modifier="1.2"
     ai_sight_range_modifier="1.0"     
     magazine_size="-1" 
     can_shoot_standing="0" 

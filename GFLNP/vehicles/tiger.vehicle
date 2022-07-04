@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="Tiger" key="tiger.vehicle" respawn_time="100" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="0.2">
+<vehicle file="vehicle_base.vehicle" name="Tiger[modernization]" key="tiger.vehicle" respawn_time="100" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="0.2">
 	<tag name="metal_heavy" />
 	<!-- <tag name="tank" /> -->
 	<tag name="heavy_combat" />
@@ -8,10 +8,10 @@
 	<tire_set offset="1.7 0.0 -2.7" radius="0.5" />
 
 	<control max_speed="7.0" acceleration="15" max_reverse_speed="5" min_health_to_steer="4.5" max_rotation="0.0" max_water_depth="1.5" steer_smoothening="0.0" tracked="1" gears="1" />
-	<physics max_health="12.0" blast_damage_threshold="0.80" mass="300.0" extent="3.8 0 5.8" offset="0 0 0" top_offset="0 3 0" collision_model_pos="0 1 -0.5" collision_model_extent="4 2 7" visual_offset="0 0.3 0"/>
+	<physics max_health="13.0" blast_damage_threshold="1.10" mass="300.0" extent="3.8 0 5.8" offset="0 0 0" top_offset="0 3 0" collision_model_pos="0 1 -0.5" collision_model_extent="4 2 7" visual_offset="0 0.3 0"/>
 	 
 	<!-- <physics max_health="12.0" mass="200.0" extent="5 0.0 7" offset="0 0.0 0" top_offset="0 3.0 0" collision_model_pos="0 1.2 0" collision_model_extent="4.0 3.0 8.0" visual_offset="0 0.6 0.0" />  -->
-	<modifier class="blast_damage" value="-0.7" />
+	<modifier class="blast_damage" value="-0.8" />
 
 	<turret offset="0 0 0" weapon_key="tiger_cannon.weapon" weapon_offset="0.0 2.2 5.2" weapon_recoil="0.1" max_rotation_step="0.00005" />
 	<turret offset="-0.65 1.92 2.4" weapon_key="wiesel_mg3.weapon" weapon_offset="0 0 0" weapon_recoil="0.0" physics_recoil="0.0" rotation="0" rotation_range="0.6" max_rotation_step="0.0005" />
