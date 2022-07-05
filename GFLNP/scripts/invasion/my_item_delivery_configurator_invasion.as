@@ -465,7 +465,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("gw_an94_mod4_s.weapon", "weapon", 1.0f),	
 		ScoredResource("ew_dragunov_ince.weapon", "weapon", 2.0f),	//2x up  0.33
         ScoredResource("aa12_frag.weapon", "weapon", 1.0f),
-		ScoredResource("ew_athena.weapon", "weapon", 1.0f),		//2x up  0.34
+		ScoredResource("ew_athena.weapon", "weapon", 2.0f),		//2x up  0.34
+		ScoredResource("baw_miyu.weapon", "weapon", 2.0f),		//2x up  0.34
         ScoredResource("chain_sawr.weapon", "weapon", 0.5f), 
         ScoredResource("wiesel_flare.projectile", "projectile", 1.0f, 2),
         ScoredResource("costume_underpants.carry_item", "carry_item", 1.0f),        
