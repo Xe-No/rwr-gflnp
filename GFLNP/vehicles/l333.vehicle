@@ -21,7 +21,7 @@
 
 	<physics 
 	max_health="8.0" 
-	mass="120.0" 
+	mass="20.0" 
 	broken_mass="5"
     remove_collision_threshold="0.2"	
 	extent="3.84 0 4.16" 
@@ -43,16 +43,19 @@
 	<visual class="chassis" key="broken" 	mesh_filename="l333_b0.mesh" texture_filename="l333.dds" />
 	<visual class="turret" key="broken" 	mesh_filename="l333_t0.mesh" texture_filename="l333.dds" />
 
-	<visual class="track" mesh_filename="l333_track.mesh" offset="-0.88 0.0 -0.11" >
+
+	<visual class="track" mesh_filename="l333_track.mesh" offset="+0.88 0.0 -0.11" >
 		<part texture_filename="l333_track.png" texture_animation="translate" tire_binding="0" />
 	</visual>
 
-	<visual class="track" mesh_filename="l333_track.mesh" offset="+0.88 0.0 -0.11" >
+	<visual class="track" mesh_filename="l333_track.mesh" offset="-0.88 0.0 -0.11" >
 		<part texture_filename="l333_track.png" texture_animation="translate" tire_binding="1" />
 	</visual>
 
+
+
 	<character_slot type="driver" position="-0.7 0.56 0.24" rotation="0" exit_rotation="-1.57" hiding="1" />
-	<character_slot type="gunner" position="+0.7 0.76 0.24" rotation="0" exit_rotation="-1.57" hiding="1" >
+	<character_slot type="gunner" position="+0.7 0.76 0.24" rotation="0" exit_rotation="1.57" hiding="1" >
 		<turret index="0" /><turret index="1" />
 	</character_slot>
 

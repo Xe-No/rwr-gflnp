@@ -1,0 +1,8 @@
+default: 1/1_2/2/3/11
+winter: 4/8_2/12 
+desert: 6/6_2/9/10/ud1/ud3/ud4
+marine: 5/7/8/17/roberto/intrusion/uprising
+forest: 16
+urban: 13
+
+ZTZ99A/ZBD04A camo from Kevin Zhu
