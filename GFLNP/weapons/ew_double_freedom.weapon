@@ -50,7 +50,7 @@
     <weak_hand_hold offset="0" />
 
 -----------------------------------------------------------------
-    <projectile file="helldiver_general_bullet.projectile" time_to_live="0.23" pulldown_in_air="80" name="DBS2-DoubleFreedom"> 
+    <projectile file="helldiver_general_bullet.projectile" time_to_live="0.26" pulldown_in_air="80" name="DBS2-DoubleFreedom"> 
 	<result class="blast" radius="3.2" damage="0.01" push="1" decal="0" character_state="death"  />
 	<collision class="sticky" />
     <effect class="activated" ref="DoubleFreedom_activated_02"/>
@@ -71,7 +71,7 @@
     <stance state_key="prone_moving" accuracy="1" />
     <stance state_key="over_wall" accuracy="1" />
 
-    <modifier class="speed" value="0" />    
+    <modifier class="speed" value="0.06" />    
 
 	
 </weapon>
