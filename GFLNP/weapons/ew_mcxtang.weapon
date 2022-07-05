@@ -7,7 +7,7 @@
   last_burst_retrigger_time="0.3"  
   sustained_fire_grow_step="0.17" 
   sustained_fire_diminish_rate="1.50" 
-  magazine_size="45" 
+  magazine_size="35" 
   can_shoot_standing="1" 
   suppressed="1" 
   name="MCX TANG" 
