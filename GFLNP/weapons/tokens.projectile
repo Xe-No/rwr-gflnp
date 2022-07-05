@@ -129,6 +129,9 @@ token_medic.projectile
 	<model mesh_file="token_akemi_homura_drop.xml" />
 	<hud_icon filename="akemi_homura_6.png" />
 </projectile>
+<projectile name="Sangonomiya Kokomi[RE]" file="token0.projectile" key="token_sangonomiya_kokomi.projectile"  >
+	<hud_icon filename="token_sangonomiya_kokomi.png" />
+</projectile>
 <!-- flash -->
 <projectile name="Komeiji Koishi[RE]" file="token_stun.projectile" key="token_koishi.projectile"  >
 	<model mesh_file="token_koishi.xml" />

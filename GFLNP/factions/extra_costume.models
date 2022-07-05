@@ -76,6 +76,7 @@
 	<model filename="es_luka_china.xml"><requirement class="projectile" slot="0" key="token_luka_china.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="es_miku_china.xml"><requirement class="projectile" slot="0" key="token_miku_china.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="es_luotianyi_china.xml"><requirement class="projectile" slot="0" key="token_luotianyi_china.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_sangonomiya_kokomi.xml"><requirement class="projectile" slot="0" key="token_sangonomiya_kokomi.projectile"/><requirement class="rank" range="0 100000000" /></model>
 
 
 
