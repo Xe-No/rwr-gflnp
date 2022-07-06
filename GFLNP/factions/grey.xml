@@ -418,6 +418,9 @@
 			<projectile key="l333_flare.projectile" />
 			<projectile key="pz4h_flare.projectile" />
 			<projectile key="lav6g_flare.projectile" />
+			<projectile key="humve1_flare.projectile" />
+			<projectile key="bmdk17_flare.projectile" />
+			<projectile key="jupiter_buggy_flare.projectile" />
 			<call key="tank_crew.call" enabled="1"/>
 			<call key="drop_pod_crew.call" enabled="1"/>
 			<call key="buggy.call" enabled="1"/>
