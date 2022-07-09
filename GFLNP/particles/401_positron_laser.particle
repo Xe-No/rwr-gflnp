@@ -8,8 +8,8 @@ particle_system 401_positron_avticated_trail_01
 {
 	quota 100
 	material point_soft_edge_100_pass
-	particle_width 8
-	particle_height 8
+	particle_width 6
+	particle_height 6
 	renderer billboard
 	billboard_rotation_type vertex
 	iteration_interval 0
@@ -57,8 +57,8 @@ particle_system 401_positron_avticated_trail_01
 
 particle_system 401_positron_avticated_trail_02 :  401_positron_avticated_trail_01
 {
-	particle_width 6
-	particle_height 6
+	particle_width 3
+	particle_height 3
 	material add_smoke
 	emitter Point
 	{
@@ -92,7 +92,7 @@ particle_system 401_positron_muzzle_thunder_01
     quota 50
     material positron_pump_lightning
     particle_width 100
-	particle_height 8
+	particle_height 2
 	renderer billboard	
     billboard_origin center_left
 	billboard_rotation_type vertex
@@ -100,9 +100,9 @@ particle_system 401_positron_muzzle_thunder_01
     local_space true
     emitter Box{
 		angle 0
-		colour 1 1 1 1
+		colour 0.5 0.5 0.5 0.5
 		direction 0 1 0
-		emission_rate 10
+		emission_rate 5
 		position 0 0 0
 		velocity 0.001
 		time_to_live 0.5
@@ -133,7 +133,7 @@ particle_system 401_positron_muzzle_thunder_01
 particle_system 401_positron_muzzle_positron_railwave : 401_positron_muzzle_thunder_01
 {
 	material positron_railwave
-	particle_height 5
+	particle_height 3
 	emitter Box{
 		depth 1
 		width 1
@@ -159,7 +159,7 @@ particle_system 401_positron_muzzle_positron_railwave : 401_positron_muzzle_thun
 particle_system 401_positron_cyclone    
 {
 	quota 100
-	material lens_circle_06
+	material lens_circle_06_cull
 	billboard_rotation_type vertex
 	particle_width 0.1
 	particle_height 0.1
@@ -171,11 +171,11 @@ particle_system 401_positron_cyclone
         angle 0
         colour 1 0.3 0 1
 		direction 1 0 0
-		emission_rate 50
+		emission_rate 30
 		position 0 0 0
 		velocity_min 1
         velocity_max 2
-		time_to_live 0.3
+		time_to_live 0.25
 		duration 0.1
     }
     affector Scaler
@@ -197,10 +197,10 @@ particle_system 401_positron_cyclone
 
 particle_system 401_positron_muzzle_halo
 {
-	quota 10
+	quota 50
 	material muzzle_lens_01_cull
-	particle_width 30
-	particle_height 30
+	particle_width 10
+	particle_height 10
 	renderer billboard
 	billboard_rotation_type vertex
 	billboard_type perpendicular_self
@@ -210,11 +210,11 @@ particle_system 401_positron_muzzle_halo
 		angle 0
 		colour 0 0 0 0
 		direction 0 1 0
-		emission_rate 30
+		emission_rate 10
 		position 0 0 0
 		velocity 0.0001
 		time_to_live 0.6
-		duration 0.15
+		duration 0.1
 	}
 	affector ColourFader2
 	{
@@ -239,12 +239,12 @@ particle_system 401_positron_muzzle_halo
 
 particle_system 401_positron_muzzle_halo2 : 401_positron_muzzle_halo
 {
-	particle_width 20
-	particle_height 20
+	particle_width 10
+	particle_height 10
 	material lens_circle_06_cull
 	emitter Point
 	{
-		emission_rate 10
+		emission_rate 2
 		duration 0.5
 	}
 	affector ColourFader2
@@ -268,13 +268,13 @@ particle_system 401_positron_muzzle_halo2 : 401_positron_muzzle_halo
 }
 particle_system 401_positron_muzzle_halo3 : 401_positron_muzzle_halo2
 {
-	particle_width 15
-	particle_height 15
+	particle_width 5
+	particle_height 5
 	material RainbowWave_cull
 	emitter Point
 	{
-		emission_rate 10
-		duration 0.6
+		emission_rate 5
+		duration 0.2
 	}
 	affector ColourFader2
 	{
@@ -292,10 +292,10 @@ particle_system 401_positron_muzzle_halo3 : 401_positron_muzzle_halo2
 
 particle_system 401_positron_muzzle_halo4
 {
-	quota 10
+	quota 50
 	material point_soft_edge_red_alpha
-	particle_width 5
-	particle_height 5
+	particle_width 2
+	particle_height 2
 	renderer billboard
 	billboard_rotation_type vertex
 	billboard_type point
@@ -304,11 +304,11 @@ particle_system 401_positron_muzzle_halo4
 		angle 90
 		colour 0.5 1 1 1
 		direction 0 1 0
-		emission_rate 50
+		emission_rate 5
 		position 0 0 0
 		velocity 0.0001
 		time_to_live 0.65
-		duration 0.1
+		duration 0.2
 	}
 	affector Scaler{rate 10}
 	affector ColourFader2
@@ -424,7 +424,7 @@ material positron_pump_lightning : add_base{
 		pass{
 			texture_unit{
 			anim_texture positron_pump_lightning.png 4 0.2
-			wave_xform scroll_x sawtooth 1 1 0 5
+			wave_xform scroll_x sawtooth 1 1 0 0.1
 			tex_address_mode wrap
 			}
 		}

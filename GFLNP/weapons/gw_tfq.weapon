@@ -9,7 +9,7 @@
   magazine_size="5" 
   can_shoot_standing="1" 
   suppressed="1" 
-  name="TF-Q sniper rife" 
+  name="The Fix by Q sniper rifle" 
   class="2" 
   burst_shots="1"
   reload_one_at_a_time="0" 

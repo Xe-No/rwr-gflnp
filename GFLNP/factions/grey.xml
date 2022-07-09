@@ -396,7 +396,7 @@
 			<parameter class="detectability_running" value="0.9" />
 			<parameter class="speed" value="1.0" />
 			<parameter class="speed_encumbered" low="0.8" high="0.3" />
-			<parameter class="encumbrance" low="9.9" high="50.0" />
+			<parameter class="encumbrance" low="4.9" high="50.0" />
 		</character>
 		<resources>
 			<weapon key='gk_supply_ss.weapon' />
