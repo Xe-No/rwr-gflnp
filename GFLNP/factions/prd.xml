@@ -74,7 +74,7 @@
 		<resources clear_weapons="1" >
 			<weapon key="doppelsoldner_gl.weapon" />
 			<weapon key="doppelsoldner_mgl.weapon" />
-			<carry_item key='base_ar_vest.carry_item'  />
+			<carry_item key='doppelsoldner.carry_item'  />
 		</resources>
 	</soldier>
 

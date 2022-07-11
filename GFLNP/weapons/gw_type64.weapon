@@ -29,7 +29,7 @@
 
     <hud_icon filename="gw_type64.png" />
     <commonness value="0.3" can_respawn_with="1" />
-    <inventory encumbrance="18.0" price="64.0" />
+    <inventory encumbrance="8.0" price="64.0" />
 
     <weak_hand_hold offset="0.2" />
     <projectile file="bullet.projectile">

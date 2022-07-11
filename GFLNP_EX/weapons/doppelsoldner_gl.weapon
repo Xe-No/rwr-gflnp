@@ -17,8 +17,8 @@
   slot="0" 
   barrel_offset="0.9"
   projectile_speed="150.0"
-  sight_range_modifier="1.6"
-  ai_sight_range_modifier="1.2"
+  sight_range_modifier="1.2"
+  ai_sight_range_modifier="1.1"
   burst_shots="1"
   projectiles_per_shot="1" />
 
