@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_AR.weapon" key="gw_m4a1mod.weapon">
+<weapon file="base_cb.weapon" key="gw_m4a1mod.weapon">
     <!-- <tag name="sniper" /> -->
     <specification 
   		retrigger_time="-1.0" 
