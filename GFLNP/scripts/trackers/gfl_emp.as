@@ -61,6 +61,7 @@ class EmpG : Tracker {
 				"deployable_minig.vehicle",
 				"hornet.vehicle",
 				"mortar.vehicle",
+				"cover1.vehicle",
 				"para_spawn.vehicle"
 			};
 		
@@ -97,6 +98,7 @@ class EmpG : Tracker {
 				"deployable_minig.vehicle",
 				"hornet.vehicle",
 				"mortar.vehicle",
+				"cover1.vehicle",
 				"para_spawn.vehicle"
 			};
 		
@@ -141,7 +143,8 @@ class EmpG : Tracker {
 					const XmlElement@ vehicleInfo = getVehicleInfo(m_metagame, vehicleId);
 					if (vehicleInfo !is null) {
 						string vehicleKey = vehicleInfo.getStringAttribute("key");
-						if (targetKeys.find(vehicleKey) == -1){
+						float vehicleHealth = vehicleInfo.getFloatAttribute("health");
+						if (targetKeys.find(vehicleKey) == -1 && vehicleHealth > 0.0){
 							addToEmpList (vehicleId);
 						}
 					}
