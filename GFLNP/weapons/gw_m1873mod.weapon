@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon key="gw_m1873mod.weapon" quality="card">     
+<weapon drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="1.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="90.0"  key="gw_m1873mod.weapon" quality="card">     
     <specification
 	retrigger_time="0.01"
 	accuracy_factor="0.95"
