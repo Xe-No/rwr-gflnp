@@ -21,6 +21,7 @@
 <!-- CBP -->
 <weapon file="base_blue_print.weapon" />
 <weapon file="blueprints.weapon" />
+<weapon file="oath_weapons.weapon" />
 
 
 <!-- 34 -->
@@ -63,7 +64,7 @@
 
 
 
-
+<weapon file="mg4a3td.weapon" />
 
 
 

@@ -29,6 +29,7 @@
 
 <!-- CBP -->
 <projectile file="cb_part.projectile" />
+<projectile file="oath_core.projectile" />
 
 <!-- 34 -->
 

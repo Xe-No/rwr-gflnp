@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+	<weapon file="gw_m4a1mod3.weapon" key="gw_m4a1mod3_oath.weapon" time_to_live_out_in_the_open="0">
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/><inventory price="10.0" />
+		<hud_icon filename="gw_m4a1mod3_oath.png" />
+	</weapon>
+	<weapon file="gw_ar15mod.weapon" key="gw_ar15mod_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_ar15mod_sl_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_ar15mod_oath.png" />
+	</weapon>
+	<weapon file="gw_ar15mod_sl.weapon" key="gw_ar15mod_sl_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_ar15mod_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_ar15mod_sl_oath.png" />
+	</weapon>	
+   	 <weapon file="gw_m4_sopmod_iimod.weapon" key="gw_m4_sopmod_iimod_oath.weapon" time_to_live_out_in_the_open="0">
+    		<next_in_chain key="gw_m4_sopmod_iimod_gl_oath.weapon" share_ammo="0" /><inventory price="10.0" />
+    		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+    		<hud_icon filename="gw_m4_sopmod_iimod_oath.png" />
+  	  </weapon>
+	<weapon file="gw_m4_sopmod_iimod_gl.weapon" key="gw_m4_sopmod_iimod_gl_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_m4_sopmod_iimod_oath.weapon" share_ammo="0" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_m4_sopmod_iimod_gl_oath.png" />
+	</weapon>
+	<weapon file="gw_supersass_mod.weapon" key="gw_supersass_mod_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_supersass_mod_2_oath.weapon" share_ammo="0" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_supersass_mod_oath.png" />
+	</weapon>
+	<weapon file="gw_supersass_mod_2.weapon" key="gw_supersass_mod_2_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_supersass_mod_oath.weapon" share_ammo="0" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_supersass_mod_oath.png" />
+	</weapon>
+	<weapon file="gw_vector_agent.weapon" key="gw_vector_agent_oath.weapon" time_to_live_out_in_the_open="0">
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/><inventory price="10.0" />
+		<hud_icon filename="gw_vector_agent_oath.png" />
+	</weapon>
+	<weapon file="ro635_mod.weapon" key="ro635_mod_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="ro635_mod_am_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="ro635_mod_oath.png" />
+	</weapon>
+	<weapon file="ro635_mod_am.weapon" key="ro635_mod_am_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="ro635_mod_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="ro635_mod_am_oath.png" />
+	</weapon>
+	<weapon file="gw_mg4_mod.weapon" key="gw_mg4_mod_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_mg4_mod_n_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_mg4_mod_oath.png" />
+	</weapon>
+	<weapon file="gw_mg4_mod_n.weapon" key="gw_mg4_mod_n_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_mg4_mod_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_mg4_mod_n_oath.png" />
+	</weapon>
+	<weapon file="sv98_mod.weapon" key="sv98_mod_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="sv98_mod_ap_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="sv98_mod_oath.png" />
+	</weapon>
+	<weapon file="sv98_mod_ap.weapon" key="sv98_mod_ap_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="sv98_mod_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="sv98_mod_ap_oath.png" />
+	</weapon>
+	<weapon file="gw_ntw20mod3.weapon" key="gw_ntw20mod3_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_ntw20mod3_he_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_ntw20mod3_oath.png" />
+	</weapon>
+	<weapon file="gw_ntw20mod3_he.weapon" key="gw_ntw20mod3_he_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_ntw20mod3_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_ntw20mod3_he_oath.png" />
+	</weapon>
+	<weapon file="sat8_1802.weapon" key="sat8_1802_oath.weapon" time_to_live_out_in_the_open="0">
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/><inventory price="10.0" />
+		<hud_icon filename="sat8_1802_oath.png" />
+	</weapon>
+
+</weapons>	

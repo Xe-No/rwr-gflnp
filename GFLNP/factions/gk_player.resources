@@ -180,6 +180,24 @@ re token
 	<projectile key="token_grey_cat.projectile" />
 	<projectile key="token_sangonomiya_kokomi.projectile" />
 
+oath
+  	<weapon key="gw_ar15mod_sl_oath.weapon" />
+  	<weapon key="gw_ar15mod_oath.weapon" />
+   	<weapon key="gw_m4_sopmod_iimod_oath.weapon" />
+   	<weapon key="gw_m4_sopmod_iimod_gl_oath.weapon" />
+   	<weapon key="gw_m4a1mod3_oath.weapon" />
+   	<weapon key="gw_supersass_mod_oath.weapon" />
+    	<weapon key="gw_supersass_mod_2_oath.weapon" />
+    	<weapon key="gw_vector_agent_oath.weapon" />
+    	<weapon key="ro635_mod_oath.weapon" />
+    	<weapon key="ro635_mod_am_oath.weapon" />
+    	<weapon key="gw_mg4_mod_oath.weapon" />
+    	<weapon key="gw_mg4_mod_n_oath.weapon" />
+    	<weapon key="sat8_1802_oath.weapon" />
+    	<weapon key="sv98_mod_oath.weapon" />
+    	<weapon key="sv98_mod_ap_oath.weapon" />
+    	<weapon key="gw_ntw20mod3_oath.weapon" />
+    	<weapon key="gw_ntw20mod3_he_oath.weapon" />
 
 
 </resources>

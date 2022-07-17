@@ -18,6 +18,7 @@
 #include "vin.as"
 #include "401_yamato.as"
 #include "sniper_support.as"
+#include "cbp.as"
 
 // #include "mixer.as"
 
@@ -65,6 +66,8 @@ class MyGameModeInvasion : GameModeInvasion {
 		addTracker(RedeemTracker(this));
 		addTracker(ServerTracker(this));
 		addTracker(FactorySpawner(this));
+		addTracker(GFLEquipmentEvent(this));
+
 		// addTracker(Mixer(this));
 	}
 	

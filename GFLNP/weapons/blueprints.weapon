@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapons>
-	blueprint_aek971_camo
-	blueprint_akalfa
-	blueprint_iws2000
-	blueprint_portable_mortar
+
 	blueprint_svdm
 	blueprint_tkb059
 	blueprint_vector
@@ -11,24 +8,25 @@
 
 
 
-	<weapon name="blueprint_aek971_camo" file="base_blue_print.weapon" key="blueprint_aek971_camo.weapon"  >
-		<hud_icon filename="blueprint_aek971_camo.png" />
+	<weapon name="blueprint_decomposition" file="base_blue_print.weapon" key="blueprint_decomposition.weapon"  >
+		<hud_icon filename="blueprint_decomposition.png" />
 	</weapon>
 
-	<weapon name="blueprint_akalfa" file="base_blue_print.weapon" key="blueprint_akalfa.weapon"  >
-		<hud_icon filename="blueprint_akalfa.png" />
+	<weapon name="blueprint_copy" file="base_blue_print.weapon" key="blueprint_copy.weapon"  >
+		<hud_icon filename="blueprint_copy.png" />
 	</weapon>
 
-	<weapon name="blueprint_iws2000" file="base_blue_print.weapon" key="blueprint_iws2000.weapon"  >
-		<hud_icon filename="blueprint_iws2000.png" />
+	<weapon name="blueprint_exchange" file="base_blue_print.weapon" key="blueprint_exchange.weapon"  >
+		<hud_icon filename="blueprint_exchange.png" />
 	</weapon>
 
-	<weapon name="blueprint_portable_mortar" file="base_blue_print.weapon" key="blueprint_portable_mortar.weapon"  >
-		<hud_icon filename="blueprint_portable_mortar.png" />
+	<weapon name="blueprint_oath" file="base_blue_print.weapon" key="blueprint_oath.weapon"  >
+		<hud_icon filename="blueprint_oath.png" />
 	</weapon>
 
-	<weapon name="blueprint_svdm" file="base_blue_print.weapon" key="blueprint_svdm.weapon"  >
-		<hud_icon filename="blueprint_svdm.png" />
+	<weapon name="blueprint_oath_core" file="base_blue_print.weapon" key="blueprint_oath_core.weapon"  >
+		<hud_icon filename="blueprint_oath_core.png" />
+		<inventory encumbrance="2" buy_price="100000" sell_price="1"/>
 	</weapon>
 
 	<weapon name="blueprint_tkb059" file="base_blue_print.weapon" key="blueprint_tkb059.weapon"  >

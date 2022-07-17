@@ -121,7 +121,23 @@ material mg4Flame {
 			fog_override true
 
 			texture_unit {
-				texture mg4_impact_flame.png
+				texture impact_flame_green.png
+			}
+		}
+	}
+}
+
+material mg4Flame2 {
+        receive_shadows off
+	technique {
+		pass {
+			lighting off
+			depth_write off
+			scene_blend add
+			fog_override true
+
+			texture_unit {
+				texture impact_flame_blue.png
 			}
 		}
 	}
