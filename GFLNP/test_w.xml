@@ -24,46 +24,9 @@
 <weapon file="oath_weapons.weapon" />
 
 
-<!-- 34 -->
-<weapon file="gw_m1873mod.weapon" />
-<weapon file="gw_m1873mod_f.weapon" />
-<weapon file="gw_tfq.weapon" />
-<weapon file="gw_tfq_cheche.weapon" />
-<weapon file="gw_mag7.weapon" />
-<weapon file="gw_type64.weapon" />
-<weapon file="gw_81hr.weapon" />
-<weapon file="fal_leina.weapon" />
-<weapon file="gw_tokarev.weapon" />
-<weapon file="gw_m590a1.weapon" />
-<weapon file="gw_corinth.weapon" />
-<weapon file="gw_corinth_2.weapon" />
-<weapon file="ew_mcxtang.weapon" />
-<weapon file="ew_mcxtang_sg.weapon" />
-<weapon file="ew_shoki.weapon" />
-<weapon file="ew_amb17.weapon" />
-<weapon file="gw_m4a1_pinkglassheart_s.weapon" />
-<weapon file="ew_dragunov_ince_pnt.weapon" />
-<weapon file="ew_double_freedom.weapon" />
-<weapon file="ew_double_freedom_ticket.weapon" />
-<weapon file="gw_cz75.weapon" />
-<weapon file="gw_cz75_axe.weapon" />
-<weapon file="gw_g41_bp2064.weapon" />
-<weapon file="gw_g41_bp2064_sg.weapon" />
-<weapon file="ew_athena.weapon" />
-<weapon file="baw_miyu.weapon" />
-<weapon file="baw_miyu_bin.weapon" />
-<weapon file="bronia_gl.weapon" />
-<weapon file="banner_ep.weapon" />
-<weapon file="banner_qk.weapon" />
-<weapon file="gw_ltlx7000_6702.weapon" />
-<weapon file="gw_ltlx7000_6702_d.weapon" />
-<weapon file="gw_m1_c.weapon" />
-<weapon file="ew_hmtech401.weapon" />
-<weapon file="ew_hmtech401_med.weapon" />
-<weapon file="vex_positron.weapon" />
 
 
-
+<!-- 35 -->
 <weapon file="mg4a3td.weapon" />
 
 
