@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_resupply.weapon" key="arb14_2.weapon" time_to_live_out_in_the_open="400.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="400.0" >
+<weapon file="base_resupply.weapon" key="arb14_1.weapon" time_to_live_out_in_the_open="400.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="360.0" >
     <tag name="cqb" />
     <specification 
   retrigger_time="0.12" 
@@ -11,7 +11,7 @@
   can_shoot_standing="1" 
   can_shoot_crouching="1" 
   suppressed="0" 
-  name="AR-14B silencer" 
+  name="AR-14B" 
   class="0" 
   reload_one_at_a_time="0" 
   sight_range_modifier="1.8" 
@@ -21,7 +21,7 @@
   burst_shots="1"
   />
   
-    <next_in_chain key="arb14.weapon" share_ammo="1" />
+    <next_in_chain key="arb14_2.weapon" share_ammo="1" />
 
     <animation key="recoil" ref="27" />
     <animation key="cycle" ref="30" />
@@ -30,32 +30,32 @@
   <animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
     
 
-    <sound key="fire" fileref="arb14_2.wav"  volume="0.4" />
+    <sound key="fire" fileref="arb14_1.wav"  volume="0.4" />
     <sound key="magazine_out" fileref="ar762_clip_out.wav" />
     <sound key="magazine_in" fileref="ar762_clip_in.wav" />
     <sound key="cycle" fileref="ar_chamber.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
     <sound key="effect" fileref="aa12_switch.wav" />
     <control key="effect" value="1" />
-    <model filename="arb14_2.xml" />
+    <model filename="arb14_1.xml" />
 
-    <hud_icon filename="arb14_2.png" />
+    <hud_icon filename="arb14_1.png" />
 
 
     <effect class="muzzle" ref="sakura" />
 
 
-    <inventory encumbrance="10.0" price="1000.0" />
+    <inventory encumbrance="1.0" price="1000.0" />
 
+    <!-- <weak_hand_hold offset="0.2" /> -->
     <projectile class="bullet" name="12.7mm" slot="1" pulldown_in_air="10">
         <result class="spawn" instance_class="projectile" instance_key="12.7mm_blast.projectile" min_amount="2" max_amount="2" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
         <trigger class="impact" />
         <rotation class="motion" />
         <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
-        <trail probability="1.0" key="laser_orange"/>
+        <trail probability="1.0" key="laser_green"/>
         <effect class="activated" ref="sakura" />
     </projectile>
-
     
     <stance state_key="running" accuracy="0.6" />
     <stance state_key="walking" accuracy="0.85" />

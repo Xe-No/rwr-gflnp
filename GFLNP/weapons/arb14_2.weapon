@@ -11,7 +11,7 @@
   can_shoot_standing="1" 
   can_shoot_crouching="1" 
   suppressed="0" 
-  name="AR-14B silencer" 
+  name="ARB-14（消音器）" 
   class="0" 
   reload_one_at_a_time="0" 
   sight_range_modifier="1.8" 
@@ -21,7 +21,7 @@
   burst_shots="1"
   />
   
-    <next_in_chain key="arb14.weapon" share_ammo="1" />
+    <next_in_chain key="arb14_1.weapon" share_ammo="1" />
 
     <animation key="recoil" ref="27" />
     <animation key="cycle" ref="30" />
@@ -45,14 +45,14 @@
     <effect class="muzzle" ref="sakura" />
 
 
-    <inventory encumbrance="10.0" price="1000.0" />
+    <inventory encumbrance="1.0" price="1000.0" />
 
     <projectile class="bullet" name="12.7mm" slot="1" pulldown_in_air="10">
         <result class="spawn" instance_class="projectile" instance_key="12.7mm_blast.projectile" min_amount="2" max_amount="2" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
         <trigger class="impact" />
         <rotation class="motion" />
         <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
-        <trail probability="1.0" key="laser_orange"/>
+        <trail probability="1.0" key="laser_green"/>
         <effect class="activated" ref="sakura" />
     </projectile>
 
