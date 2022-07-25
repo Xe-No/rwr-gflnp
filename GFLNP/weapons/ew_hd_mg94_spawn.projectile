@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="MG94 Spawn" key="ew_hd_mg94_spawn.projectile" slot="1" pull_down_in_air="10">
+    <trigger class="impact" />
+	<rotation class="motion" />
+		
+	<result class="spawn" instance_class="projectile" instance_key="ew_hd_mg94.projectile" 
+	min_amount="0" max_amount="2" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />	
+
+	<effect class="result" key="static_object" copy="terrain" />
+	<effect class="result" key="character" copy="terrain" />
+	<effect class="result" key="vehicle" copy="terrain" />
+	<effect class="result" key="other" copy="terrain" />
+
+</projectile>

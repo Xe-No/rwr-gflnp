@@ -102,7 +102,20 @@ class GFLEquipmentEvent : Tracker {
 				{"gw_kn57.weapon","sr"},
 				{"gw_aa12_2403_he.weapon","sr"},
 				{"gw_aa12_2403_s.weapon","sr"},
-				{"ew_amb17.weapon","ur"}
+				{"ew_amb17.weapon","ur"},
+				{"gw_hk416_starry_cocoon.weapon","ur"},
+				{"gw_hk416_starry_cocoon_gl.weapon","ur"},
+				{"mg4a3td.weapon","ur"},
+				{"mg4a3td_sl.weapon","ur"},
+				{"ew_disaster_railgun.weapon","ur"},
+				{"gw_m16_astatoz.weapon","ur"},
+				{"m27_ar.weapon","ssr"},
+				{"m27_mg.weapon","ssr"},
+				{"ew_25a2_k.weapon","ssr"},
+				{"ew_sig516.weapon","ssr"},
+				{"ew_sig516_300blk.weapon","ssr"},
+				{"gw_m37_1706.weapon","ssr"},
+				{"gw_m37_1706_run.weapon","ssr"}
 		};
 		dictionary dict2 = {
 				{"mg4td_ap.weapon","mg4a3td.weapon"},

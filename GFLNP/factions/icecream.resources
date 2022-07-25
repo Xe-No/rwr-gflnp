@@ -32,5 +32,10 @@
 	<weapon key="xm8.weapon" enabled="1" />
 	<weapon key="aks74u.weapon" enabled="1" />
 	<weapon key="ew_double_freedom_ticket.weapon" enabled="1" /> 
+	<weapon key="ew_hd_mg94_ticket.weapon" enabled="1" /> 
+	<weapon key="ew_p6_gunslinger_ticket.weapon" enabled="1" /> 
+	<weapon key="ew_p2_peacemaker_ticket.weapon" enabled="1" /> 
+	<weapon key="ew_rx1_railgun_ticket.weapon" enabled="1" /> 
+	<weapon key="ew_rumbler_ticket.weapon" enabled="1" /> 
 
 </resources>

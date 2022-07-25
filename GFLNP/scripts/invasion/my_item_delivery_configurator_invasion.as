@@ -329,6 +329,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("gold_bar.carry_item", "carry_item", 1.0f),
 		ScoredResource("fal_leina.weapon", "weapon", 2.0f),	//2X UP 0.34
 		ScoredResource("gw_type64.weapon", "weapon", 2.0f),	//2X UP 0.34
+		ScoredResource("gw_jefty_mn1891pu.weapon", "weapon", 2.0f),	//2X UP 0.35
 		ScoredResource("gw_supershorty.weapon", "weapon", 1.0f)      
 			},
 			{
@@ -368,6 +369,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("costume_clown.carry_item", "carry_item", 1.0f),
 		ScoredResource("gold_bar.carry_item", "carry_item", 1.0f),
 		ScoredResource("laptop.carry_item", "carry_item", 1.0f),
+		ScoredResource("gw_jefty_mn1891pu.weapon", "weapon", 2.0f),	//2X UP 0.35
 		ScoredResource("suitcase.carry_item", "carry_item", 1.0f),
         ScoredResource("stoner_lmg.weapon", "weapon", 1.0f)
 			},
@@ -463,10 +465,12 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
         ScoredResource("gw_mk153.weapon", "weapon", 0.3f), 
         ScoredResource("gw_qlu11.weapon", "weapon", 0.3f), 
 		ScoredResource("gw_an94_mod4_s.weapon", "weapon", 1.0f),	
-		ScoredResource("ew_dragunov_ince.weapon", "weapon", 2.0f),	//2x up  0.33
+		ScoredResource("ew_dragunov_ince.weapon", "weapon", 1.0f),	
         ScoredResource("aa12_frag.weapon", "weapon", 1.0f),
 		ScoredResource("ew_athena.weapon", "weapon", 2.0f),		//2x up  0.34
-		ScoredResource("baw_miyu.weapon", "weapon", 2.0f),		//2x up  0.34
+		ScoredResource("baw_miyu.weapon", "weapon", 1.0f),		//2x up  0.34
+		ScoredResource("m27_ar.weapon", "weapon", 1.0f),		//2x up  0.35
+		ScoredResource("ew_sig516.weapon", "weapon", 1.0f),		//2x up  0.35
         ScoredResource("chain_sawr.weapon", "weapon", 0.5f), 
         ScoredResource("wiesel_flare.projectile", "projectile", 1.0f, 2),
         ScoredResource("costume_underpants.carry_item", "carry_item", 1.0f),        
@@ -489,7 +493,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 	     ScoredResource("gw_kaluo.weapon", "weapon", 0.2f),
 		 ScoredResource("ew_caa.weapon", "weapon", 0.5f),	
 		 ScoredResource("gw_six12sd_slug.weapon", "weapon", 0.5f),	
-		 ScoredResource("gw_kn57.weapon", "weapon", 2.0f),	//2x up 0.33
+		 ScoredResource("gw_kn57.weapon", "weapon", 1.0f),	
          ScoredResource("l30p.weapon", "weapon", 1.0f), 
          ScoredResource("enforcer.weapon", "weapon", 1.0f),
          ScoredResource("squall.weapon", "weapon", 1.0f),
@@ -502,6 +506,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 	     ScoredResource("taser.weapon", "weapon", 1.0f),
 	     ScoredResource("gw_aa12_2403_he.weapon", "weapon", 1.0f),
 	     ScoredResource("ew_amb17.weapon", "weapon", 0.4f),		//2X UP 0.34
+		 ScoredResource("gw_hk416_starry_cocoon.weapon", "weapon", 0.4f),		//2X UP 0.35
+		 ScoredResource("gw_m16_astatoz.weapon", "weapon", 0.4f),		//2X UP 0.35
 	     ScoredResource("token_chinadress.projectile", "projectile", 1.0f, 1),
          ScoredResource("flamer_tank_flare.projectile", "projectile", 1.0f, 2),
          ScoredResource("sev90_flare.projectile", "projectile", 1.0f, 2), 
@@ -537,7 +543,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
         		ScoredResource("zero_ninjato.weapon", "weapon", 1.0f),
         		ScoredResource("tac50hs_35.weapon", "weapon", 1.0f),
         		ScoredResource("aek971_camo.weapon", "weapon", 1.0f),
-        		ScoredResource("mg4td_ap.weapon", "weapon", 1.0f),
+        		ScoredResource("mg4td_ap.weapon", "weapon", 0.5f),	//共享出率MG-4
+				ScoredResource("mg4a3td_sl.weapon", "weapon", 0.5f),	//共享出率MG-4
         		ScoredResource("m200sk.weapon", "weapon", 1.0f), 
         		ScoredResource("gw_g41_bp2077.weapon", "weapon", 1.0f),
         		ScoredResource("vex.weapon", "weapon", 1.0f),
@@ -547,14 +554,17 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_iws2000_banisher_he.weapon", "weapon", 1.0f),	
 				ScoredResource("ew_fiammetta_m.weapon", "weapon", 1.0f),	
 				ScoredResource("gw_g41_lasercanno_diffusion.weapon", "weapon", 1.0f),	
-				ScoredResource("emmmm_f.weapon", "weapon", 2.0f),	//2x up 0.33
+				ScoredResource("emmmm_f.weapon", "weapon", 1.0f),	
 				ScoredResource("ew_mcxtang.weapon", "weapon", 2.0f),	//2x up 0.34
 				ScoredResource("ew_shoki.weapon", "weapon", 2.0f),	//2x up 0.34
 				ScoredResource("gw_ltlx7000_6702.weapon", "weapon", 2.0f),	//2x up 0.34
+				ScoredResource("ew_disaster_railgun.weapon", "weapon", 2.0f),	//2x up 0.35
 				ScoredResource("kf2_seekersix_ap.weapon", "weapon", 1.0f),	 
         		ScoredResource("ace_of_spades.weapon", "weapon", 1.0f),
 				ScoredResource("ew_rpl20.weapon", "weapon", 1.0f),	
 				ScoredResource("ew_heir_apparent.weapon", "weapon", 1.0f),	
+				ScoredResource("ew_25a2_k.weapon", "weapon", 4.0f),		//2x up 0.35
+				ScoredResource("gw_m37_1706.weapon", "weapon", 4.0f),		//2x up 0.35
 				ScoredResource("gw_ak308.weapon", "weapon", 2.0f),	
 				ScoredResource("williams.22.weapon", "weapon", 2.0f),
 				ScoredResource("ew_n_mp5k.weapon", "weapon", 2.0f),	
@@ -806,8 +816,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("gift_box_1.carry_item", "carry_item", 1.0f),
 		ScoredResource("gift_box_2.carry_item", "carry_item", 1.0f),
 		ScoredResource("gift_box_3.carry_item", "carry_item", 1.0f),
-		ScoredResource("ew_rx1_railgun_ap.weapon", "weapon", 0.1f),
-		ScoredResource("ew_rumbler.weapon", "weapon", 0.1f),	
+		// ScoredResource("ew_rx1_railgun_ap.weapon", "weapon", 0.1f),
+		// ScoredResource("ew_rumbler.weapon", "weapon", 0.1f),	
 		ScoredResource("wingman_med.weapon", "weapon", 0.1f),	
 		ScoredResource("china_lake.weapon", "weapon", 0.3f),	
 		ScoredResource("ew_p33_pereira.weapon", "weapon", 1.0f),	
@@ -1482,6 +1492,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_ntw20mod3.weapon", "weapon", 1.0f),	
 				ScoredResource("gw_ltlx7000_6101_b.weapon", "weapon", 1.0f),	
 				ScoredResource("gw_m1873mod.weapon", "weapon", 3.0f),		//3X UP 0.34
+				ScoredResource("gw_g3_spuhr.weapon", "weapon", 3.0f),		//3X UP 0.35
+				ScoredResource("gw_g36c_mod.weapon", "weapon", 3.0f),		//3X UP 0.35
 				ScoredResource("gw_ak15mod.weapon", "weapon", 1.0f)
 			}
 		};  
@@ -1575,6 +1587,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_ak12_3302.weapon", "weapon", 1.0f),
 				ScoredResource("gw_ppsh41_mod.weapon", "weapon", 1.0f),
 				ScoredResource("gw_g41_bp2064.weapon", "weapon", 3.0f),		//3X UP 0.34
+				ScoredResource("gw_g3_spuhr.weapon", "weapon", 3.0f),		//3X UP 0.35
+				ScoredResource("gw_g36c_mod.weapon", "weapon", 3.0f),		//3X UP 0.35
 				ScoredResource("gw_asvalmod.weapon", "weapon", 1.0f)
 			}
 		};  

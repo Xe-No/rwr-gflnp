@@ -40,7 +40,9 @@
 <projectile file="positron_damage.projectile" />
 <projectile file="positron_spawn.projectile" />
 
-
-
+<!-- 35 -->
+<projectile file="hk416_starry_cocoon_gl.projectile" />
+<projectile file="ew_hd_mg94.projectile" />
+<projectile file="ew_p6_gunslinger.projectile" />	
 
 </projectiles>

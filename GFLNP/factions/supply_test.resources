@@ -1,43 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
-<weapon key="gw_m1873mod.weapon" />
-<weapon key="gw_m1873mod_f.weapon" />
-<weapon key="gw_tfq.weapon" />
-<weapon key="gw_tfq_cheche.weapon" />
-<weapon key="gw_mag7.weapon" />
-<weapon key="gw_type64.weapon" />
-<weapon key="gw_81hr.weapon" />
-<weapon key="fal_leina.weapon" />
-<weapon key="gw_tokarev.weapon" />
-<weapon key="gw_m590a1.weapon" />
-<weapon key="gw_corinth.weapon" />
-<weapon key="gw_corinth_2.weapon" />
-<weapon key="ew_mcxtang.weapon" />
-<weapon key="ew_mcxtang_sg.weapon" />
-<weapon key="ew_shoki.weapon" />
-<weapon key="ew_amb17.weapon" />
-<weapon key="gw_m4a1_pinkglassheart_s.weapon" />
-<weapon key="ew_dragunov_ince_pnt.weapon" />
-<weapon key="ew_double_freedom.weapon" />
-<weapon key="ew_double_freedom_ticket.weapon" />
-<weapon key="gw_cz75.weapon" />
-<weapon key="gw_cz75_axe.weapon" />
-<weapon key="gw_g41_bp2064.weapon" />
-<weapon key="gw_g41_bp2064_sg.weapon" />
-<weapon key="ew_athena.weapon" />
-<weapon key="bronia_gl.weapon" />
-<weapon key="banner_ep.weapon" />
-<weapon key="banner_qk.weapon" />
-<weapon key="gw_ltlx7000_6702.weapon" />
-<weapon key="gw_ltlx7000_6702_d.weapon" />
-<weapon key="gw_m1_c.weapon" />
-<weapon key="ew_hmtech401.weapon" />
+<weapon key="mg4a3td.weapon" />
+<weapon key="ew_hd_mg94.weapon" />
+<weapon key="ew_hd_mg94_ticket.weapon" />
+<weapon key="gw_hk416_starry_cocoon.weapon" />
+<weapon key="gw_hk416_starry_cocoon_gl.weapon" />
+<weapon key="gw_g36c_mod.weapon" />
+<weapon key="gw_jefty_mn1891pu.weapon" />
+<weapon key="m27_ar.weapon" />
+<weapon key="m27_mg.weapon" />
+<weapon key="gw_m37_1706.weapon" />
+<weapon key="gw_m37_1706_run.weapon" />
+<weapon key="ew_p6_gunslinger.weapon" />
+<weapon key="ew_p6_gunslinger_burst.weapon" />
+<weapon key="ew_p6_gunslinger_ticket.weapon" />
+<weapon key="ew_25a2_k.weapon" />
+<weapon key="ew_p2_peacemaker.weapon" />
+<weapon key="ew_p2_peacemaker_ticket.weapon" />
+<weapon key="ew_sig516.weapon" />
+<weapon key="ew_sig516_300blk.weapon" />
+<weapon key="gw_m16_astatoz.weapon" />
+<weapon key="ew_disaster_railgun.weapon" />
+<weapon key="gw_g3_spuhr.weapon" />
+<weapon key="gw_g3_spuhr_sniper.weapon" />
 
+	
 <projectile key="otom.projectile" />
 <projectile key="jupiter_buggy.projectile" />
 <projectile key="bmdk17.projectile" />
 <projectile key="humve1.projectile" />
 <projectile key="m113apc.projectile" />
+
 
 
 

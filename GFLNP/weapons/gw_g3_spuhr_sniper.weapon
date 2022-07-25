@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_card_rf.weapon" key="gw_g3_spuhr_sniper.weapon">
+    <tag name="assault" />
+    <specification 
+    retrigger_time="0.5" 
+    accuracy_factor="1.0" 
+    sustained_fire_grow_step="0.6" 
+    sustained_fire_diminish_rate="1.8" 
+    magazine_size="20" 
+    can_shoot_standing="1" 
+    suppressed="0" 
+    name="G3A3-BUNNY-SNIPER" 
+    class="4" 
+    burst_shots="1"
+    sight_range_modifier="1.55" 
+    projectile_speed="160.0"
+    barrel_offset="0.6"
+    />
+    
+	<next_in_chain key="gw_g3_spuhr.weapon" share_ammo="1" />  
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" />    
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, aks74u" />
+
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+
+    <sound key="fire" fileref="g3_shot.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="gw_g3_spuhr_sniper.xml" />
+
+    <hud_icon filename="gw_g3_spuhr_sniper.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="1" />
+      
+    <inventory encumbrance="10.0" price="290.0" />
+
+   <projectile file="bullet.projectile">
+       <result class="hit" kill_probability="2.7" kill_decay_start_time="0.5" kill_decay_end_time="0.7" />
+    </projectile>
+
+    <stance state_key="running" accuracy="0.1" />
+    <stance state_key="walking" accuracy="0.5" />
+    <stance state_key="crouch_moving" accuracy="0.5" />
+    <stance state_key="prone_moving" accuracy="0.6" />
+
+    <stance state_key="standing" accuracy="0.95" />
+    <stance state_key="crouching" accuracy="0.98" />
+    <stance state_key="prone" accuracy="1.0" />
+	<modifier class="speed" value="-0.15" />
+
+</weapon>
