@@ -23,6 +23,7 @@
 <weapon key="ew_disaster_railgun.weapon" />
 <weapon key="gw_g3_spuhr.weapon" />
 <weapon key="gw_g3_spuhr_sniper.weapon" />
+<weapon key="arb14_1.weapon" />
 
 	
 <projectile key="otom.projectile" />

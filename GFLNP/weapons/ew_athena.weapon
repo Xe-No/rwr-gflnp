@@ -2,7 +2,7 @@
 <weapon file="base_cb.weapon" key="ew_athena.weapon" quality="cb">
 	<tag name="bazooka"/>
 	<specification
-	retrigger_time="6.0"
+	retrigger_time="5.6"
 	accuracy_factor="1.0"
 	sight_range_modifier="2.4"
 	sight_height_offset="6.0"
@@ -15,18 +15,22 @@
 	suppressed="0"
 	name="MINI Athena"
 	class="2"
-	projectile_speed="400.0"
-	barrel_offset="0.0"
+	projectile_speed="200.0"
+	barrel_offset_3d="0 50 0"
 	projectiles_per_shot="1"
 	spread_range="0.0"
 	use_basic_muzzle_smoke_effect="0"/> 
+
+	<next_in_chain key="ew_athena_s.weapon" share_ammo="0"/>
+
 	<animation key="recoil" ref="12"/>
 	<animation state_key="reload" animation_key="reloading, athena"/>
 	<animation state_key="cycle" animation_key="reloading, athena"/>
 	<animation state_key="crouching" animation_key="crouch still"/>
-	<animation state_key="running" animation_key="walking"/>  
+	<animation state_key="running" animation_key="walking"/>
     <animation state_key="walking" animation_key="walking"/>
     <animation state_key="walking_backwards" animation_key="walking backwards"/>
+	<animation state_key="next_in_chain_out" animation_key="switch, vss_vintorez"/>
 
 	<sound key="fire" fileref="ew_athena_fire.wav" pitch_variety="0.1"/>
 	<sound key="magazine_out" fileref="portable_mortar_reload.wav" volume="0.0"/>
@@ -48,7 +52,7 @@
 
 	<projectile file="ew_athena.projectile"/>
 
-	<ballistics curve_height="200" near_far_distance="0.0" speed_estimation_near="400.0" speed_estimation_far="400.0" max_speed="400.0" randomness="0.0"/>
+	<ballistics curve_height="45" near_far_distance="0.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" randomness="0.0" tweak_factor="2.4"/>
 
 	<stance state_key="running" accuracy="1.0"/>
 	<stance state_key="walking" accuracy="1.0"/>

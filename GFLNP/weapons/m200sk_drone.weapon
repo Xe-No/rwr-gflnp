@@ -2,7 +2,7 @@
 <weapon file="base_cb.weapon" key="m200sk_drone.weapon">  
 	<specification
 		accuracy_factor="1.0"
-		barrel_offset_3d="0 4 -0.3"
+		barrel_offset_3d="0 5.5 1.0"
 		burst_shots="1"
 		can_shoot_standing="1"
 		carry_in_two_hands="0"

@@ -52,6 +52,7 @@
 	<stance state_key="prone" accuracy="1.0"/>
 	
 	<modifier class="speed" value="+0.05"/>
+    <modifier class="hit_success_probability" value="-0.1" />
 
 	    <shield offset="-0.3 0.0 0" extent="0.6 4.0 0.4"/>
 </weapon>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_resupply.weapon" key="arb14_1.weapon" time_to_live_out_in_the_open="400.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="360.0" >
+<weapon file="base_cb.weapon" key="arb14_1.weapon" >
     <tag name="cqb" />
     <specification 
   retrigger_time="0.12" 
-  spread_range="0.1"
+  spread_range="0.25"
   accuracy_factor="1.0" 
   sustained_fire_grow_step="3.0" 
-  sustained_fire_diminish_rate="1" 
+  sustained_fire_diminish_rate="3.5" 
   magazine_size="50" 
   can_shoot_standing="1" 
   can_shoot_crouching="1" 
@@ -14,7 +14,7 @@
   name="AR-14B" 
   class="0" 
   reload_one_at_a_time="0" 
-  sight_range_modifier="1.8" 
+  sight_range_modifier="1.4" 
   projectile_speed="200.0" 
   barrel_offset="0.6" 
   projectiles_per_shot="1" 
@@ -47,9 +47,8 @@
 
     <inventory encumbrance="1.0" price="1000.0" />
 
-    <!-- <weak_hand_hold offset="0.2" /> -->
     <projectile class="bullet" name="12.7mm" slot="1" pulldown_in_air="10">
-        <result class="spawn" instance_class="projectile" instance_key="12.7mm_blast.projectile" min_amount="2" max_amount="2" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+        <result class="spawn" instance_class="projectile" instance_key="12.7mm_blast.projectile" min_amount="1" max_amount="2" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
         <trigger class="impact" />
         <rotation class="motion" />
         <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />

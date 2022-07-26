@@ -1,0 +1,91 @@
+// 鸣谢：RST （辩护者光束、辩护者点光源、iws光圈material）
+particle_system liner_light_following //跟随竖直光
+{
+	quota 100
+	material point_light_area
+	particle_width 0.3
+	particle_height 99
+	renderer billboard
+	billboard_type oriented_common
+	common_direction 0 1 0
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 0.3 0 0.3
+		direction 0 0 1
+		emission_rate 20
+		position 0 0 0
+		velocity 0
+		velocity_min 0
+		velocity_max 0
+		time_to_live 0.05
+		duration 2
+	}
+}
+
+particle_system liner_light_thick //粗竖直光
+{
+	quota 1000
+	material point_light_area
+	particle_width 0.8
+	particle_height 99
+	renderer billboard
+	billboard_type oriented_common
+	common_direction 0 1 0
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 0.3 0 0.3
+		direction 0 0 1
+		emission_rate 10
+		position 0 0 0
+		velocity 0.001
+		velocity_min 0.001
+		velocity_max 0.001
+		time_to_live 1.2
+		duration 0.3
+	}
+	
+	affector ColourFader
+	{
+		red	1
+		green	0.1
+		blue	0
+		alpha	0.05
+	}
+}
+
+particle_system point_light_circle	//爆炸光环
+{
+	quota 1000
+	material lens_circle
+	particle_width 5
+	particle_height 5
+	renderer billboard
+	billboard_type perpendicular_common
+	billboard_origin center
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 0.3 0 0.00001
+		direction 0 1 0
+		emission_rate 40
+		position 0 0.3 0
+		velocity 0.1
+		time_to_live 1
+		duration 1
+	}
+	
+	affector ColourFader
+	{
+		red	 0.1
+		green	-0.2
+		blue	-0.1
+		alpha	-1
+	}	
+}

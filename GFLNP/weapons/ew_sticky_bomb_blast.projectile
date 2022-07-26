@@ -10,7 +10,7 @@
 
     <commonness value="0.0" />
 
-    <sound class="result" key="other" fileref="ew_sticky_bomb.wav" pitch_variety="0.5" volume="3.5" />
+    <sound class="result" key="other" fileref="ew_sticky_bomb.wav" pitch_variety="0.5" volume="2.0" />
 
 
     <sound class="result" key="terrain" copy="other" />
@@ -37,6 +37,5 @@
     <effect class="result" key="static_object" copy="terrain" />
     <effect class="result" key="vehicle" copy="terrain" />
     <effect class="result" key="character" copy="terrain" />
-
 
 </projectile>

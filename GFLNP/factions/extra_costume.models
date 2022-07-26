@@ -40,6 +40,12 @@
     <model filename="th_momiji.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_momiji_2"/></model>
     <model filename="th_momiji.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_momiji_3"/></model>
     <model filename="th_momiji.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_momiji_4"/></model>
+
+    <model filename="asuna.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_asuna.carry_item"/></model>
+    <model filename="asuna.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_asuna_1"/></model>
+    <model filename="asuna.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_asuna_2"/></model>
+    <model filename="asuna.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_asuna_3"/></model>
+    <model filename="asuna.xml"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_asuna_4"/></model>
 	
 1 Layer
 
@@ -92,6 +98,12 @@
 	<model filename="kurumi_wedding.xml"><requirement class="projectile" slot="0" key="token_kurumi_wedding.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="gs_bullet.xml"><requirement class="projectile" slot="0" key="token_douzi.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="es_hoshina_suzu252.xml"><requirement class="projectile" slot="0" key="token_252.projectile"/><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="1" key="microgun.weapon"/>/></model>
+
+<!-- 35 -->
+	<model filename="token_raiden_mei.xml"><requirement class="projectile" slot="0" key="token_raiden_mei.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="token_takina.xml"><requirement class="projectile" slot="0" key="token_takina.projectile"/><requirement class="rank" range="0 100000000" /></model>
+
+
 
 	<model filename="ys_sllh.xml"><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
 	<model filename="marisa.xml"><requirement class="weapon" slot="0" key="gw_mk12mod0.weapon"/></model>

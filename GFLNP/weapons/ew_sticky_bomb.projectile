@@ -9,6 +9,6 @@
     <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
     
     <effect class="activated" ref="TracerFlash_alter" lighting="0" /> 
+    <effect class="activated" ref="Propulsion" />
 	
-
 </projectile>

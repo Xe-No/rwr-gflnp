@@ -3,7 +3,7 @@
     <tag name="bazooka"/>
     <tag name="denied_in_penalty"/>
 
-    <specification retrigger_time="-1.0" accuracy_factor="1.0" sustained_fire_grow_step="0.4" sustained_fire_diminish_rate="0.1" magazine_size="1" can_shoot_standing="1" can_shoot_crouching="1" suppressed="0" name="Javelin, anti-personnel" class="0" reload_one_at_a_time="0" sight_range_modifier="1.0" projectile_speed="100.0" slot="0" projectiles_per_shot="1"/>
+    <specification retrigger_time="-1.0" accuracy_factor="1.0" sustained_fire_grow_step="0.4" sustained_fire_diminish_rate="0.1" magazine_size="1" can_shoot_standing="1" can_shoot_crouching="1" suppressed="0" name="Javelin, anti-personnel" class="0" reload_one_at_a_time="0" sight_range_modifier="1.35" projectile_speed="100.0" slot="0" projectiles_per_shot="1"/>
     <animation key="recoil" ref="40"/>
     <animation state_key="reload" animation_key="reloading, javelin"/>
     <animation key="hold" ref="39"/>

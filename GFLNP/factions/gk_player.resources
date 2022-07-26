@@ -30,6 +30,7 @@
 Armory	
 	<weapon key="gw_98k.weapon" />
 	<weapon key="gw_9a91.weapon" />
+	<weapon key="gw_9a91_sl.weapon" />
 	<weapon key="gw_ak12.weapon" />
 	<weapon key="gw_ak12_s.weapon" />
 	<weapon key="gw_an94.weapon" />
@@ -131,6 +132,7 @@ Armory
 	<carry_item key="suit_hutao.carry_item" />
 	<carry_item key="suit_dsr50_dress.carry_item" />
 	<carry_item key="suit_momiji.carry_item" />
+	<carry_item key="suit_asuna.carry_item" />
 
 extra
     <weapon key="gw_m4a1_mod_re.weapon" />
@@ -179,6 +181,8 @@ re token
 	<projectile key="token_douzi.projectile" />
 	<projectile key="token_grey_cat.projectile" />
 	<projectile key="token_sangonomiya_kokomi.projectile" />
+	<projectile key="token_raiden_mei.projectile" />
+	<projectile key="token_takina.projectile" />
 
 oath
   	<weapon key="gw_ar15mod_sl_oath.weapon" />

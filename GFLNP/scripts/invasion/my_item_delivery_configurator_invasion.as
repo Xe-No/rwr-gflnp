@@ -300,6 +300,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("token_grey_cat.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_kurumi_wedding.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_douzi.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_raiden_mei.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_takina.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_sangonomiya_kokomi.projectile", "projectile", 1.0f, 2)
 			}
 		};
@@ -559,6 +561,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("ew_shoki.weapon", "weapon", 2.0f),	//2x up 0.34
 				ScoredResource("gw_ltlx7000_6702.weapon", "weapon", 2.0f),	//2x up 0.34
 				ScoredResource("ew_disaster_railgun.weapon", "weapon", 2.0f),	//2x up 0.35
+				ScoredResource("arb14_1.weapon", "weapon", 2.0f),	//2x up 0.35
 				ScoredResource("kf2_seekersix_ap.weapon", "weapon", 1.0f),	 
         		ScoredResource("ace_of_spades.weapon", "weapon", 1.0f),
 				ScoredResource("ew_rpl20.weapon", "weapon", 1.0f),	
@@ -579,9 +582,10 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
         		// ScoredResource("zweihander.weapon", "weapon", 5.0f),
         		ScoredResource("akalfa_defy.weapon", "weapon", 2.0f),
         		ScoredResource("ew_microgun_univ.weapon", "weapon", 2.0f),
-        		ScoredResource("suit_hutao.carry_item", "carry_item", 1.0f, 3),		//共用概率
-		ScoredResource("suit_dsr50_dress.carry_item", "carry_item", 1.0f, 3),	//共用概率
-		ScoredResource("suit_momiji.carry_item", "carry_item", 1.0f, 3)		//共用概率
+        		ScoredResource("suit_hutao.carry_item", "carry_item", 0.5f, 3),		//共用概率
+				ScoredResource("suit_dsr50_dress.carry_item", "carry_item", 0.5f, 3),	//共用概率
+				ScoredResource("suit_asuna.carry_item", "carry_item", 1.5, 3),	//共用概率
+				ScoredResource("suit_momiji.carry_item", "carry_item", 0.5f, 3)		//共用概率
 			}
 		};   
 			

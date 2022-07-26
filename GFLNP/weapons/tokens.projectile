@@ -33,6 +33,7 @@ token_g41_maid.projectile
 token_rst.projectile
 token_pa15_3701.projectile
 token_medic.projectile
+
 <projectile name="RST[RE]" file="token0.projectile" key="token_rst.projectile"  >
 	<hud_icon filename="es_rst.png" />
 </projectile>
@@ -132,6 +133,9 @@ token_medic.projectile
 <projectile name="Sangonomiya Kokomi[RE]" file="token0.projectile" key="token_sangonomiya_kokomi.projectile"  >
 	<hud_icon filename="token_sangonomiya_kokomi.png" />
 </projectile>
+<projectile name="Raiden Mei[RE]" file="token0.projectile" key="token_raiden_mei.projectile"  >
+	<hud_icon filename="token_raiden.png" />
+</projectile>
 <!-- flash -->
 <projectile name="Komeiji Koishi[RE]" file="token_stun.projectile" key="token_koishi.projectile"  >
 	<model mesh_file="token_koishi.xml" />
@@ -140,6 +144,9 @@ token_medic.projectile
 <projectile name="Kaenbyou Rin[RE]" file="token_stun.projectile" key="token_rin.projectile"  >
 	<model mesh_file="token_rin.xml" />
 	<hud_icon filename="token_rin.png" />
+</projectile>
+<projectile name="Inoue Takina[RE]" file="token_stun.projectile" key="token_takina.projectile"  >
+	<hud_icon filename="token_takina.png" />
 </projectile>
 
 <!-- Fisrt Aid -->
