@@ -924,7 +924,11 @@ gw_zb26_4703.weapon
 	<model filename="gs_jefty_mn1891pu.xml"><requirement class="weapon" key="gw_jefty_mn1891pu.weapon" slot="0" /></model>
 	<model filename="gs_g36c_mod.xml"><requirement class="weapon" key="gw_g36c_mod.weapon" slot="0" /></model>
 	<model filename="gs_m27.xml"><requirement class="weapon" key="m27_ar.weapon" slot="0" /></model>
-	<model filename="gs_m27_1.xml"><requirement class="weapon" key="m27_mg.weapon" slot="0" /></model>
+	<model filename="gs_m27.xml"><requirement class="weapon" key="m27_mg.weapon" slot="0" /></model>
+	<model filename="gs_m27_1.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="m27_ar.weapon"/></model>
+	<model filename="gs_m27_1.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="m27_mg.weapon"/></model>
+	<model filename="gs_m27_1.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="m27_ar.weapon"/></model>
+	<model filename="gs_m27_1.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="m27_mg.weapon"/></model>
 	<model filename="es_25a2_k.xml"><requirement class="weapon" slot="0" key="ew_25a2_k.weapon"/></model>
 	<model filename="gs_m37_1706.xml"><requirement class="weapon" slot="0" key="gw_m37_1706.weapon"/></model>
 	<model filename="gs_m37_1706.xml"><requirement class="weapon" slot="0" key="gw_m37_1706_run.weapon"/></model>

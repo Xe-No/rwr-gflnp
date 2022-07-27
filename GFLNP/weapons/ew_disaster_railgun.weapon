@@ -38,7 +38,7 @@ on_ground_up="0 0 1"
     <animation state_key="reload" animation_key="disaster_railgun_reloading" />
 
     <sound key="effect" fileref="reloading_disaster_railgun.wav" pitch_variety="0.03" volume="2.0" /> 
-    <sound key="fire" fileref="fire_disaster_railgun.wav" pitch_variety="0.03" volume="3.5" />
+    <sound key="fire" fileref="fire_disaster_railgun.wav" pitch_variety="0.03" volume="4.5" />
     <sound key="dry_fire" fileref="" pitch_variety="0.03" volume="1.0" />
 	<sound key="stab" fileref="" pitch_variety="0.03" volume="1.0"/>
 	<sound key="stab_hit" fileref="" pitch_variety="0.03" volume="1.0"/>
@@ -54,7 +54,7 @@ on_ground_up="0 0 1"
     <hud_icon filename="ew_disaster_railgun.png" /> 
 	
     <commonness value="0" can_respawn_with="0" in_stock="1" /> 
-    <inventory encumbrance="12.0" price="401.0" /> 
+    <inventory encumbrance="15.0" price="401.0" /> 
     <capacity value="1"  source="rank" source_value="0.0" />
     <weak_hand_hold offset="0.3" /> 
 

@@ -27,7 +27,7 @@
 	<weapon key='pw_strelet.weapon' />
 
 
-	<weapon key='m72_law.weapon' />
+<!--	<weapon key='m72_law.weapon' /> -->
 
  	<vehicle key="uhlan.vehicle" />
  	<vehicle key="apc_2.vehicle" />

@@ -508,7 +508,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 	     ScoredResource("taser.weapon", "weapon", 1.0f),
 	     ScoredResource("gw_aa12_2403_he.weapon", "weapon", 1.0f),
 	     ScoredResource("ew_amb17.weapon", "weapon", 0.4f),		//2X UP 0.34
-		 ScoredResource("gw_hk416_starry_cocoon.weapon", "weapon", 0.4f),		//2X UP 0.35
+		 ScoredResource("gw_m37_1706.weapon", "weapon", 1.0f),		//2x up 0.35
 		 ScoredResource("gw_m16_astatoz.weapon", "weapon", 0.4f),		//2X UP 0.35
 	     ScoredResource("token_chinadress.projectile", "projectile", 1.0f, 1),
          ScoredResource("flamer_tank_flare.projectile", "projectile", 1.0f, 2),
@@ -562,12 +562,12 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_ltlx7000_6702.weapon", "weapon", 2.0f),	//2x up 0.34
 				ScoredResource("ew_disaster_railgun.weapon", "weapon", 2.0f),	//2x up 0.35
 				ScoredResource("arb14_1.weapon", "weapon", 2.0f),	//2x up 0.35
+				 ScoredResource("gw_hk416_starry_cocoon.weapon", "weapon", 2.0f),		//2X UP 0.35
 				ScoredResource("kf2_seekersix_ap.weapon", "weapon", 1.0f),	 
         		ScoredResource("ace_of_spades.weapon", "weapon", 1.0f),
 				ScoredResource("ew_rpl20.weapon", "weapon", 1.0f),	
 				ScoredResource("ew_heir_apparent.weapon", "weapon", 1.0f),	
 				ScoredResource("ew_25a2_k.weapon", "weapon", 4.0f),		//2x up 0.35
-				ScoredResource("gw_m37_1706.weapon", "weapon", 4.0f),		//2x up 0.35
 				ScoredResource("gw_ak308.weapon", "weapon", 2.0f),	
 				ScoredResource("williams.22.weapon", "weapon", 2.0f),
 				ScoredResource("ew_n_mp5k.weapon", "weapon", 2.0f),	
