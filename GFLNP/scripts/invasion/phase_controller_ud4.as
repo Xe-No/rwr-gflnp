@@ -76,7 +76,7 @@ class PhaseUD4_1 : PhaseUD4 {
 	void start() {
 		PhaseUD4::start();
 		_log("PhaseUD4_1 starting");
-		sendFactionMessage(m_metagame, 0, "Strong enemy force pushing forward. Stand our bases at all cost.", 0.9)
+		sendFactionMessage(m_metagame, 0, "Strong enemy force pushing forward. Stand our bases at all cost.", 0.9);
 
 		//$this->timer = 10.0 * 60.0;
 
@@ -138,7 +138,7 @@ class PhaseUD4_2 : PhaseUD4 {
 		PhaseUD4::start();
 		_log("PhaseUD4_2 starting");
 
-		sendFactionMessage(m_metagame, 0, "Enemy attack get weak", 0.9)
+		sendFactionMessage(m_metagame, 0, "Enemy attack get weak. Time to counterstrike!", 0.9);
 
 		// set enemy commander ai
 		m_metagame.getComms().send("<command class='commander_ai' faction='1' base_defense='0.7' border_defense='0.2' />");
