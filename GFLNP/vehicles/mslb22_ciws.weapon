@@ -25,7 +25,9 @@
     <animation key="hold" ref="32" />
     <animation key="hold_on_wall" ref="1" />
     <animation key="walking" ref="31" />
-    <sound key="fire" fileref="minigun_shot.wav" pitch_variety="0.05" volume="0.75" />
+    <sound key="fire" fileref="ciws_shot1.wav" pitch_variety="0.05" volume="0.75" />
+    <sound key="fire" fileref="ciws_shot2.wav" pitch_variety="0.05" volume="0.75" />
+    <sound key="fire" fileref="ciws_shot3.wav" pitch_variety="0.05" volume="0.75" />
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
@@ -41,14 +43,5 @@
     <projectile file="bullet.projectile">
         <result class="blast" radius="1.0" damage="0.2" decal="1" character_state="death" />
     </projectile>
-    
-<!-- front plate-mid -->    
-    <shield offset="-0.6 -0.4 0" extent="0.2 0.5 0.8" />    
-<!-- left plate -->
-    <shield offset="0 -0.4 0.6" extent="1.4 0.68 0.2" />
-<!-- right plate -->  
-    <shield offset="0 -0.4 -0.6" extent="1.4 0.68 0.2" />      
-<!-- rear plate --> 
-    <shield offset="0.6 -0.4 0" extent="0.2 0.90 0.8" />  
     
 </weapon>

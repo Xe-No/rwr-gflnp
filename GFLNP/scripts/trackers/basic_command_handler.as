@@ -110,7 +110,7 @@ class BasicCommandHandler : Tracker {
 
 			if (info !is null) {
 				int id = info.getIntAttribute("character_id");
-				int faction_id = info.getIntAttribute("character_id");
+				int faction_id = info.getIntAttribute("faction_id");
 
 
 				// string pos = info.getStringAttribute("aim_target");
@@ -203,7 +203,7 @@ class BasicCommandHandler : Tracker {
 
 		else if (matchString(paras[0], "action1")) {
 			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
-			int id = info.getIntAttribute("character_id");
+			int characterId = info.getIntAttribute("character_id");
 			animate(characterId, "jumping jacks", true, true);
 		}
 

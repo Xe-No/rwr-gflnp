@@ -39,7 +39,9 @@
     <effect class="muzzle" ref="LawMuzzle" />
     <effect class="muzzle" ref="UpDust" />
 
-    <sound key="fire" fileref="noxe_shot.wav" volume="0.5" pitch_variety="0.0" />
+    <sound key="fire" fileref="asm_shot1.wav" volume="0.5" pitch_variety="0.0" />
+    <sound key="fire" fileref="asm_shot2.wav" volume="0.5" pitch_variety="0.0" />
+    <sound key="fire" fileref="asm_shot3.wav" volume="0.5" pitch_variety="0.0" />
 
 
 </weapon>
