@@ -23,13 +23,16 @@
     <animation key="recoil" ref="14" />
     <animation state_key="reload" animation_key="reloading, ak47" />
     <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
-    <animation state_key="next_in_chain_in" animation_key="switch fire mode" />
+    <animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2"/>
+    <animation state_key="next_in_chain_out" animation_key="mount bayonet part 1"/>
 		
     <sound key="fire" fileref="GFL_AR15.wav" pitch_variety="0.05" volume="1.0" />
     <sound key="magazine_out" fileref="ak762_clip_out.wav" />
     <sound key="magazine_in" fileref="ak762_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
+    <sound key="effect" fileref="sl_in.wav"/>
+    <control key="effect" value="1"/>
     <model filename="akalfa_defy.xml" />
 
     <hud_icon filename="akalfa_defy_sl.png" />

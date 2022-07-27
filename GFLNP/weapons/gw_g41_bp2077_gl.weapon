@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <weapon file="base_cb.weapon" key="gw_g41_bp2077_gl.weapon" quality="cb">
 	<tag name="sniper"/>
-	<specification retrigger_time="2.0" accuracy_factor="1.0" sustained_fire_grow_step="8.0" sustained_fire_diminish_rate="2.0" magazine_size="1" can_shoot_standing="1" can_shoot_crouching="1" suppressed="1" name="G41[Beach Punk 2077]" class="4" burst_shots="1" projectiles_per_shot="4" reload_one_at_a_time="0" ai_sight_range_modifier="1.1" sight_range_modifier="1.0" projectile_speed="150.0" barrel_offset="0.65"/>
+	<specification retrigger_time="2.0" accuracy_factor="1.0" sustained_fire_grow_step="8.0" sustained_fire_diminish_rate="2.0" magazine_size="1" can_shoot_standing="1" can_shoot_crouching="1" suppressed="1" name="G41[Beach Punk 2077]" class="4" burst_shots="1" projectiles_per_shot="4" reload_one_at_a_time="0" ai_sight_range_modifier="1.1" sight_range_modifier="1.0" projectile_speed="150.0" barrel_offset="0.65" stab_enabled = "1"/>
 
     <next_in_chain key="gw_g41_bp2077.weapon" share_ammo="0"/>    
 	
@@ -11,7 +11,7 @@
     <animation state_key="reload" animation_key="reloading, m79"/>
     <animation state_key="next_in_chain_in" animation_key="switch fire mode"/> 
 	<animation state_key="hold" animation_key="still_muzzle_down" />  
-    <animation state_key="running" animation_key="running_muzzle_down" />
+    <!-- <animation state_key="running" animation_key="running_muzzle_down" /> -->
     <animation state_key="hold_casual" animation_key="still_gun_check" /> 
     <animation state_key="hold_casual" animation_key="front_flip" />
 	<animation state_key="hold_casual" animation_key="rolling" /> 

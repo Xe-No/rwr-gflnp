@@ -55,7 +55,7 @@ player_death_drop_owner_lock_time="0"
 
 
     <sound key="effect" fileref="" pitch_variety="0.03" volume="1.0" /> 
-    <sound key="fire" fileref="hd_mg94_fire.wav" pitch_variety="0.06" volume="0.65" />
+    <sound key="fire" fileref="hd_mg94_fire.wav" pitch_variety="0.06" volume="0.4" />
     <sound key="dry_fire" fileref="hd_mg94_dryfire_01.wav" pitch_variety="0.03" volume="1.0" />
     <sound key="dry_fire" fileref="hd_mg94_dryfire_02.wav" pitch_variety="0.03" volume="1.0" />
 	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.03" volume="0.5" />

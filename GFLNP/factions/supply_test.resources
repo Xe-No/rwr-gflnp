@@ -32,6 +32,9 @@
 <projectile key="humve1.projectile" />
 <projectile key="m113apc.projectile" />
 
+<projectile key="at_mine_mk3.projectile" />
+<projectile key="airdropped_stun_mine_mk3.projectile" />
+
 
 
 
