@@ -3,7 +3,9 @@
 #include "stage_configurator.as"
 #include "stage_invasion.as"
 #include "phase_controller_map12.as"
+#include "phase_controller_ud4.as"
 #include "pausing_koth_timer.as"
+#include "until_death_timer.as"
 #include "spawn_at_node.as"
 #include "comms_capacity_handler.as"
 #include "attack_defense_handler_map16.as"
@@ -182,7 +184,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	// ------------------------------------------------------------------------------------------------
 	protected void setupNormalStages() {
 	// addStage(setupViper());          
-      
+    addStage(setupUntildeath4());
 	addStage(setupStage7());          // map6
 	// addStage(setupStage18());         // map13_2
 	addStage(setupStage1());          // map2
@@ -206,7 +208,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	addStage(setupIntrusion());   
 	addStage(setupUprising());   
 	addStage(setupUntildeath());   
-	// addStage(setupUntildeath2());
+	addStage(setupUntildeath2());
 	addStage(setupUntildeath3());
 	addStage(setupUntildeath4());
 	// addStage(setupFinalStage2());     // map12
@@ -914,7 +916,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.addTracker(Spawner(m_metagame, 1, Vector3(255,0,344),20, "default_ai"));          // added 15 in 1.65, less over_capacity to compensate
 
 
-		stage.m_maxSoldiers = 21 * 5;     // was 33 * 3 in 1.65
+		stage.m_maxSoldiers = 35 * 5;     // was 33 * 3 in 1.65
 		stage.m_playerAiCompensation = 4;                                         // was 5 (test4)
 		stage.m_playerAiReduction = 2;                                            // wasn't set in 1.65, thus 0   
 		stage.m_soldierCapacityModel = "constant";
@@ -924,7 +926,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 		stage.m_defenseWinTime = 600.0;   // was 600 in 1.65
 		stage.m_defenseWinTimeMode = "custom";
-		stage.addTracker(PausingKothTimer(m_metagame, stage.m_defenseWinTime));
+		stage.addTracker(UntilDeathTimer(m_metagame, stage.m_defenseWinTime));
 		
 		// random faction index
 		int rfi = rand(1, getFactionConfigs().size() - 2);
@@ -936,7 +938,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		{
 			Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(1, 0.25, 0.05));             // was 0.2 0.1 in 1.65
 			f.m_overCapacity = 60;
-			f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
+			// f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
 			f.m_capacityOffset = 60;
 			stage.m_factions.insertLast(f);
 		}
@@ -957,9 +959,9 @@ class StageConfiguratorInvasion : StageConfigurator {
 		}
 
 		// metadata
-		stage.m_primaryObjective = "f1";
-		stage.m_kothTargetBase = "f1";
-		stage.m_radioObjectivePresent = false;
+		stage.m_primaryObjective = "koth";
+		stage.m_kothTargetBase = "f3";
+		stage.m_radioObjectivePresent = true;
 
 		return stage;
 	}
@@ -977,7 +979,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.addTracker(Spawner(m_metagame, 1, Vector3(255,0,344),20, "default_ai"));          // added 15 in 1.65, less over_capacity to compensate
 
 
-		stage.m_maxSoldiers = 21 * 5;     // was 33 * 3 in 1.65
+		stage.m_maxSoldiers = 35 * 5;     // was 33 * 3 in 1.65
 		stage.m_playerAiCompensation = 4;                                         // was 5 (test4)
 		stage.m_playerAiReduction = 2;                                            // wasn't set in 1.65, thus 0   
 		stage.m_soldierCapacityModel = "constant";
@@ -987,7 +989,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 		stage.m_defenseWinTime = 720.0;   // was 600 in 1.65
 		stage.m_defenseWinTimeMode = "custom";
-		stage.addTracker(PausingKothTimer(m_metagame, stage.m_defenseWinTime));
+		stage.addTracker(UntilDeathTimer(m_metagame, stage.m_defenseWinTime));
 		
 		// random faction index
 		int rfi = rand(1, getFactionConfigs().size() - 2);
@@ -999,7 +1001,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		{
 			Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(1, 0.25, 0.05));             // was 0.2 0.1 in 1.65
 			f.m_overCapacity = 60;
-			f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
+			//f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
 			f.m_capacityOffset = 60;
 			stage.m_factions.insertLast(f);
 		}
@@ -1020,9 +1022,9 @@ class StageConfiguratorInvasion : StageConfigurator {
 		}
 
 		// metadata
-		stage.m_primaryObjective = "s1";
-		stage.m_kothTargetBase = "fs1";
-		stage.m_radioObjectivePresent = false;
+		stage.m_primaryObjective = "koth";
+		stage.m_kothTargetBase = "military port";
+		stage.m_radioObjectivePresent = true;
 
 		return stage;
 	}
@@ -1039,7 +1041,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.addTracker(Spawner(m_metagame, 1, Vector3(255,0,344),20, "default_ai"));          // added 15 in 1.65, less over_capacity to compensate
 
 
-		stage.m_maxSoldiers = 21 * 5;     // was 33 * 3 in 1.65
+		stage.m_maxSoldiers = 35 * 5;     // was 33 * 3 in 1.65
 		stage.m_playerAiCompensation = 4;                                         // was 5 (test4)
 		stage.m_playerAiReduction = 2;                                            // wasn't set in 1.65, thus 0   
 		stage.m_soldierCapacityModel = "constant";
@@ -1049,7 +1051,8 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 		stage.m_defenseWinTime = 720.0;   // was 600 in 1.65
 		stage.m_defenseWinTimeMode = "custom";
-		stage.addTracker(PausingKothTimer(m_metagame, stage.m_defenseWinTime));
+		
+		stage.addTracker(UntilDeathTimer(m_metagame, stage.m_defenseWinTime));
 		
 		// random faction index
 		int rfi = rand(1, getFactionConfigs().size() - 2);
@@ -1061,7 +1064,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		{
 			Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(1, 0.25, 0.05));             // was 0.2 0.1 in 1.65
 			f.m_overCapacity = 60;
-			f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
+			//f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
 			f.m_capacityOffset = 60;
 			stage.m_factions.insertLast(f);
 		}
@@ -1082,36 +1085,39 @@ class StageConfiguratorInvasion : StageConfigurator {
 		}
 
 		// metadata
-		stage.m_primaryObjective = "s1";
+		stage.m_primaryObjective = "koth";
 		stage.m_kothTargetBase = "s1";
-		stage.m_radioObjectivePresent = false;
+		stage.m_radioObjectivePresent = true;
 
 		return stage;
 	}
 
 	protected Stage@ setupUntildeath4() {
-		Stage@ stage = createStage();
+		PhasedStage@ stage = createPhasedStage();
+		stage.setPhaseController(PhaseControllerUD4(m_metagame));
 		stage.m_mapInfo.m_name = "untildeath4";
 		stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/untildeath4";
 		stage.m_mapInfo.m_id = "untildeath4";
 
-		stage.m_includeLayers.insertLast("layer1.invasion"); 
-
-		stage.addTracker(Overtime(m_metagame, 0));
-		stage.addTracker(Spawner(m_metagame, 1, Vector3(255,0,344),20, "default_ai"));          // added 15 in 1.65, less over_capacity to compensate
 
 
-		stage.m_maxSoldiers = 21 * 5;     // was 33 * 3 in 1.65
+
+		// stage.m_includeLayers.insertLast("layer1.invasion"); 
+
+		stage.m_maxSoldiers = 35 * 5;     // was 33 * 3 in 1.65
 		stage.m_playerAiCompensation = 4;                                         // was 5 (test4)
 		stage.m_playerAiReduction = 2;                                            // wasn't set in 1.65, thus 0   
-		stage.m_soldierCapacityModel = "constant";
 
-		stage.m_minRandomCrates = 1; 
-		stage.m_maxRandomCrates = 2;
 
-		stage.m_defenseWinTime = 720.0;   // was 600 in 1.65
-		stage.m_defenseWinTimeMode = "custom";
-		stage.addTracker(PausingKothTimer(m_metagame, stage.m_defenseWinTime));
+
+
+
+		// stage.m_defenseWinTime = 720.0;   // was 600 in 1.65
+		// stage.m_defenseWinTimeMode = "custom";
+		
+		// stage.addTracker(UntilDeathTimer(m_metagame, stage.m_defenseWinTime));
+
+
 		
 		// random faction index
 		int rfi = rand(1, getFactionConfigs().size() - 2);
@@ -1123,7 +1129,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		{
 			Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(1, 0.25, 0.05));             // was 0.2 0.1 in 1.65
 			f.m_overCapacity = 60;
-			f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
+			//f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
 			f.m_capacityOffset = 60;
 			stage.m_factions.insertLast(f);
 		}
@@ -1144,10 +1150,10 @@ class StageConfiguratorInvasion : StageConfigurator {
 		}
 
 		// metadata
-		stage.m_primaryObjective = "s1";
-		stage.m_kothTargetBase = "s1";
-		stage.m_radioObjectivePresent = false;
-
+		// stage.m_primaryObjective = "koth";
+		// stage.m_kothTargetBase = "s1";
+		// stage.m_radioObjectivePresent = true;
+		
 		return stage;
 	}
 

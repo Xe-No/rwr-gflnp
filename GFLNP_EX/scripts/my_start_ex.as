@@ -1,6 +1,7 @@
 #include "path://media/packages/vanilla/scripts"
 #include "path://media/packages/GFLNP/scripts"
 #include "path://media/packages/GFLNP_INF/scripts"
+#include "path://media/packages/GFLNP_EX/scripts"
 #include "my_gamemode_infinite.as"
 
 // --------------------------------------------
