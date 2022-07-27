@@ -201,6 +201,15 @@ class BasicCommandHandler : Tracker {
 			}
 		}
 
+		else if (matchString(paras[0], "action1")) {
+			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
+			int id = info.getIntAttribute("character_id");
+			animate(characterId, "jumping jacks", true, true);
+		}
+
+
+
+
 
 
 		else if (matchString(paras[0], "mutate1")) {
@@ -400,7 +409,6 @@ class BasicCommandHandler : Tracker {
 			return;
 		}
 		// it's a silent server command, check which one
-
 
 
 
@@ -1501,6 +1509,16 @@ class BasicCommandHandler : Tracker {
 		return false;
 	}
 
+	// --------------------------------------------
+	void animate(int characterId, string animationKey, bool interruptable = false, bool hideWeapon = false) {
+		XmlElement command("command");
+		command.setStringAttribute("class", "update_character");
+		command.setIntAttribute("id", characterId);
+		command.setStringAttribute("animate", animationKey);
+		command.setBoolAttribute("interruptable", interruptable);
+		command.setBoolAttribute("hide_weapon", hideWeapon);
+		m_metagame.getComms().send(command);
+	}
 
 	// --------------------------------------------
 //	array<string>@ loadStringsFromFile(const Metagame@ metagame, string filename, string itemName = "item", string valueName = "value") {

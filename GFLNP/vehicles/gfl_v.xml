@@ -188,5 +188,6 @@
 <!-- 32 -->
 	<vehicle file="jeep_gk.vehicle" /> 
 	<vehicle file="guntruck_plus.vehicle" /> 
+	<vehicle file="mslb22.vehicle" /> 
 
 </vehicles>
