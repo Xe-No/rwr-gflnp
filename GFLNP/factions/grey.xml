@@ -455,6 +455,55 @@
 			<call key="supply_quad.call" />
 		</resources>	
 	</soldier>
+	<!-- TEST -->
+		<soldier name="Pilot" firstnames_file="Pilot.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player.character">
+			<parameter class="detectability_prone" value="0.4" />
+			<parameter class="detectability_wounded" value="0.4" />
+			<parameter class="detectability_crouching" value="0.52" />
+			<parameter class="detectability_crouch_moving" value="0.6" />
+			<parameter class="detectability_walking" value="0.85" />
+			<parameter class="detectability_still" value="0.78" />
+			<parameter class="detectability_running" value="0.9" />
+			<parameter class="speed" value="1.1" />
+			<parameter class="wounded_auto_death_time" value="75.0" />
+			<parameter class="request_strike_time" value="0.1" />
+		</character>
+		<resources >
+			<weapon key='gk_supply_ss.weapon' />
+			<weapon key='med_pistol_revive.weapon' />
+			<weapon key='med_pistol_armor.weapon' />
+			<weapon key="gw_hk416c.weapon" enabled="1"/>
+			<weapon key="gw_emp_launcher.weapon" enabled="1"/>
+			<weapon key='gw_mortar_binoculars.weapon' />
+			<projectile key="ecm.projectile" enabled="1"/>
+			<projectile key="gw_emp_grenade.projectile" enabled="1"/>
+			<projectile key="tank_flare.projectile" />
+			<projectile key="lav6g_flare.projectile" />
+			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
+			<carry_item key="iop_x4_exo.carry_item" enabled="1"/>		
+			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
+			<carry_item key="iop_t4_exo.carry_item" enabled="1"/>
+			<carry_item key="med_optical_camo_cloak.carry_item" enabled="1"/>
+			<call key="a10_gun_run.call" />
+			<call key="f16_missle_run.call" />
+			<call key="ac130_gun_run.call" />
+			<call key="buggy.call" enabled="0"/>
+			<call key="humvee.call" enabled="0"/>
+			<call key="tank.call" enabled="0"/>
+			<call key="apc_1.call" enabled="0"/>
+			<call key="paratroopers1.call" enabled="1"/>
+			<call key="paratroopers2.call" enabled="0"/>
+			<call key="paratroopers_medic.call" enabled="0"/>
+			<call key="squad_404.call" enabled="1"/>
+			<call key="squad_AR.call" enabled="0"/>
+			<call key="squad_defy.call" enabled="0"/>
+			<call key="ah64_assasin.call" enabled="1"/>
+			<call key="drop_pod.call" enabled="1"/>
+			<call key="artillery_155.call" enabled="1"/>
+			<call key="401_yamato.call" enabled="1"/>
+		</resources>	
+	</soldier>
 
 	<soldier name="SEN" firstnames_file="_X-LAB-SEN.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_player.character">
