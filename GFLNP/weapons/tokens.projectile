@@ -112,6 +112,9 @@ token_medic.projectile
 <projectile name="Douzi[RE]" file="token0.projectile" key="token_douzi.projectile"  >
 	<hud_icon filename="hud_unknown.png" />
 </projectile>
+<projectile name="Alicemana[RE]" file="token0.projectile" key="token_alicemana.projectile"  >
+	<hud_icon filename="alicemana.png" />
+</projectile>
 
 
 <projectile name="Luka Chinadress[RE]" file="token0.projectile" key="token_luka_china.projectile"  >
@@ -157,7 +160,7 @@ token_medic.projectile
 
 <!-- C4 -->
 <projectile name="Mingshi ARB[RE]" file="token_c4.projectile" key="token_mingshi_arb.projectile"  >
-	<model mesh_file="hongjianjian.mesh" texture_file="hongjianjian.png"/>
+	<model mesh_file="hongjianjian.xml" />
 	<hud_icon filename="token_mingshi.png"/>
 </projectile>
 <projectile name="Elaina[RE]" file="token_c4.projectile" key="token_elaina.projectile"  >

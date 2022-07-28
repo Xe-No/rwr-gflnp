@@ -24,13 +24,12 @@
     <animation state_key="hold_casual"                      animation_key="0 pose" />
     <animation state_key="crouching"                        animation_key="0 pose" />
     <animation state_key="prone_still"                      animation_key="0 pose" />
-
-    <animation state_key="running"                          animation_key="0 loop" />
-    <animation state_key="walking"                          animation_key="0 loop" />
-    <animation state_key="walking_backwards"                animation_key="0 loop" />
-    <animation state_key="crouch_moving"                    animation_key="0 loop" />
-    <animation state_key="crouch_moving_backwards"          animation_key="0 loop" />
-    <animation state_key="prone_moving"                     animation_key="0 loop" />
+    <animation state_key="running"                          animation_key="0 pose" />
+    <animation state_key="walking"                          animation_key="0 pose" />
+    <animation state_key="walking_backwards"                animation_key="0 pose" />
+    <animation state_key="crouch_moving"                    animation_key="0 pose" />
+    <animation state_key="crouch_moving_backwards"          animation_key="0 pose" />
+    <animation state_key="prone_moving"                     animation_key="0 pose" />
 
     <sound key="fire" fileref="gw_mosin1891.wav" volume="1.0"/>
     <sound key="cycle" fileref="mosin_cycle.wav"/>
@@ -40,11 +39,12 @@
     <sound key="cycle_in" fileref="mosin_cycle_in.wav"/>
     <sound class="impact" fileref="rifle_drop.wav"/>
     <model filename=""/>
+	    <commonness value="0" can_respawn_with="0" in_stock="1" /> 
     <addon_model filename="baw_miyu_bin.xml"/>
     <hud_icon filename="baw_miyu.png"/>
-    <inventory encumbrance="10.0" price="1220.0"/>
+    <inventory encumbrance="10.0" price="0.0"/>
     <modifier class="detectability" value="-0.2" />
-    <modifier class="speed" value="-0.6" /> 
+    <modifier class="speed" value="-0.7" /> 
 
 
 </weapon>

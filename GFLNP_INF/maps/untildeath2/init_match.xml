@@ -3,16 +3,14 @@
   <command 
 	  class="start_game" 
 	  vehicles="1" 
-	  max_soldiers="100" 
+	  max_soldiers="200" 
     soldier_capacity_model="constant"
 	  player_bot_compensation="6" 
 	  xp_multiplier="1.0"
 	  rp_multiplier="1.0"
 	  friendly_fire="0"
-    defense_win_time="720"
+    defense_win_time="920"
 	  base_capture_system="any"> 
-primaryObjective ="s1"
-kothTargetBase ="s1"
 
     <faction initial_over_capacity="0" ai_accuracy="0.94" />
     <faction initial_over_capacity="0" ai_accuracy="0.94" />

@@ -302,6 +302,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("token_douzi.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_raiden_mei.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_takina.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_alicemana.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_sangonomiya_kokomi.projectile", "projectile", 1.0f, 2)
 			}
 		};
@@ -473,6 +474,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("baw_miyu.weapon", "weapon", 1.0f),		//2x up  0.34
 		ScoredResource("m27_ar.weapon", "weapon", 1.0f),		//2x up  0.35
 		ScoredResource("ew_sig516.weapon", "weapon", 1.0f),		//2x up  0.35
+		ScoredResource("ew_hmtech501.weapon", "weapon", 2.0f),		//2x up  0.35
         ScoredResource("chain_sawr.weapon", "weapon", 0.5f), 
         ScoredResource("wiesel_flare.projectile", "projectile", 1.0f, 2),
         ScoredResource("costume_underpants.carry_item", "carry_item", 1.0f),        
@@ -561,7 +563,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("ew_shoki.weapon", "weapon", 2.0f),	//2x up 0.34
 				ScoredResource("gw_ltlx7000_6702.weapon", "weapon", 2.0f),	//2x up 0.34
 				ScoredResource("ew_disaster_railgun.weapon", "weapon", 2.0f),	//2x up 0.35
-				ScoredResource("arb14_1.weapon", "weapon", 2.0f),	//2x up 0.35
+				ScoredResource("ar_14b_1.weapon", "weapon", 2.0f),	//2x up 0.35
 				 ScoredResource("gw_hk416_starry_cocoon.weapon", "weapon", 2.0f),		//2X UP 0.35
 				ScoredResource("kf2_seekersix_ap.weapon", "weapon", 1.0f),	 
         		ScoredResource("ace_of_spades.weapon", "weapon", 1.0f),

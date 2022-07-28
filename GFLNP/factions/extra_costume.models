@@ -102,6 +102,7 @@
 <!-- 35 -->
 	<model filename="token_raiden_mei.xml"><requirement class="projectile" slot="0" key="token_raiden_mei.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="token_takina.xml"><requirement class="projectile" slot="0" key="token_takina.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="gs_mana1.xml"><requirement class="projectile" slot="0" key="token_alicemana.projectile"/><requirement class="rank" range="0 100000000" /></model>
 
 
 

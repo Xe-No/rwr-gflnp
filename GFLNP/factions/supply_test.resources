@@ -4,13 +4,10 @@
 <weapon key="ew_hd_mg94.weapon" />
 <weapon key="ew_hd_mg94_ticket.weapon" />
 <weapon key="gw_hk416_starry_cocoon.weapon" />
-<weapon key="gw_hk416_starry_cocoon_gl.weapon" />
 <weapon key="gw_g36c_mod.weapon" />
 <weapon key="gw_jefty_mn1891pu.weapon" />
 <weapon key="m27_ar.weapon" />
-<weapon key="m27_mg.weapon" />
 <weapon key="gw_m37_1706.weapon" />
-<weapon key="gw_m37_1706_run.weapon" />
 <weapon key="ew_p6_gunslinger.weapon" />
 <weapon key="ew_p6_gunslinger_burst.weapon" />
 <weapon key="ew_p6_gunslinger_ticket.weapon" />
@@ -18,12 +15,11 @@
 <weapon key="ew_p2_peacemaker.weapon" />
 <weapon key="ew_p2_peacemaker_ticket.weapon" />
 <weapon key="ew_sig516.weapon" />
-<weapon key="ew_sig516_300blk.weapon" />
 <weapon key="gw_m16_astatoz.weapon" />
 <weapon key="ew_disaster_railgun.weapon" />
 <weapon key="gw_g3_spuhr.weapon" />
-<weapon key="gw_g3_spuhr_sniper.weapon" />
-<weapon key="arb14_1.weapon" />
+<weapon key="ar_14b_1.weapon" />
+<weapon key="ew_hmtech501.weapon" />
 
 	
 <projectile key="otom.projectile" />

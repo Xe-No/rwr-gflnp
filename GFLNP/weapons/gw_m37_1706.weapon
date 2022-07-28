@@ -10,7 +10,7 @@
 		suppressed="1" 
 		name="M37 [Summer Parader]" 
 		class="0" 
-		barrel_offset="0.6"
+		barrel_offset="0.85"
 		projectile_speed="150.0" 
 		reload_one_at_a_time="1" 
 		projectiles_per_shot="6"

@@ -184,7 +184,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	// ------------------------------------------------------------------------------------------------
 	protected void setupNormalStages() {
 	// addStage(setupViper());          
-    addStage(setupUntildeath4());
+    // addStage(setupUntildeath4());
 	addStage(setupStage7());          // map6
 	// addStage(setupStage18());         // map13_2
 	addStage(setupStage1());          // map2
@@ -200,6 +200,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	addStage(setupFinalStage1());     // map11
     addStage(setupStage8());          // map8
  	addStage(setupStage14());         // map6_2
+	addStage(setupRedDawn2()); 
     addStage(setupStage2());          // map4
     addStage(setupStage5());          // map1
     addStage(setupStage6());          // map5
@@ -1835,6 +1836,60 @@ class StageConfiguratorInvasion : StageConfigurator {
 		return stage;
 	}
 	// -----------------------------
+		protected Stage@ setupRedDawn2() {
+		Stage@ stage = createStage();
+		stage.m_mapInfo.m_name = "Red Dawn";
+		stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/red_dawn2";
+		stage.m_mapInfo.m_id = "red_dawn2";
+
+		stage.m_maxSoldiers = 10 * 20;                                             // was 17*7 in 1.65
+		stage.m_playerAiCompensation = 4;                                         // was 7 (test4)
+        stage.m_playerAiReduction = 2;                                            // was 3 (test2)
+    
+	    stage.addTracker(Spawner(m_metagame, 1, Vector3(485,5,705), 10, "default_ai"));        // outpost filler (1.70)
+
+		stage.addTracker(PeacefulLastBase(m_metagame, 0));
+		stage.addTracker(CommsCapacityHandler(m_metagame));
+
+	    stage.m_minRandomCrates = 2; 
+	    stage.m_maxRandomCrates = 3;
+
+		// random faction index
+		int rfi = rand(1, getFactionConfigs().size() - 2);
+	
+		{
+			// greens will push a bit harder here
+			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.4, 0.15));   // was 0.3, 0.12 in 1.65
+			f.m_overCapacity = 0;
+			f.m_capacityOffset = 0; 
+			f.m_capacityMultiplier = 1.0;                                          // was 0.9 in 1.65
+			f.m_bases = 1;
+			stage.m_factions.insertLast(f);
+		}
+		{
+			Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(1, 0.45, 0.2));        // was not set (default) in 1.65
+			f.m_overCapacity = 10;                                              // was 60 (test2) 
+			f.m_capacityOffset = 15;                                               // was 10 in 1.65
+			stage.m_factions.insertLast(f);
+		}
+
+		// metadata
+		stage.m_primaryObjective = "capture";
+		stage.m_radioObjectivePresent = false;
+
+		{
+			XmlElement command("command");
+			command.setStringAttribute("class", "faction_resources");
+			command.setIntAttribute("faction_id", 1);
+			addFactionResourceElements(command, "vehicle", array<string> = {"aa_emplacement.vehicle"}, true);
+
+			stage.m_extraCommands.insertLast(command);
+		}
+
+		setDefaultAttackBreakTimes(stage);
+		return stage;
+	} 
+	//---------------------------------------------------
 	protected Stage@ setupStage18() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Dry Enclave";

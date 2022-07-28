@@ -29,7 +29,7 @@
     <animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
      
     <sound key="fire" fileref="rx1_railgun_shot_charge.wav" pitch_variety="0.00"  volume="0.6" />
-    <sound key="cycle" fileref="rx1_railgun_reload.wav" pitch_variety="0.00"  volume="0.7"/>
+    <!-- <sound key="cycle" fileref="rx1_railgun_reload.wav" pitch_variety="0.00"  volume="0.7"/>  -->
     <sound key="magazine_out" fileref="sniper_clip_out_1.wav" />
     <sound key="magazine_in" fileref="sniper_clip_in_1.wav" />
     <sound key="cycle_out" fileref="sniper_cycle_out_1.wav" />

@@ -44,12 +44,13 @@
 <projectile file="hk416_starry_cocoon_gl.projectile" />
 <projectile file="ew_hd_mg94.projectile" />
 <projectile file="ew_p6_gunslinger.projectile" />	
-
+<projectile file="ar_14b_chaozhongdan.projectile" />
 	<projectile file="at_mine_mk3.projectile" />	
 	<projectile file="at_mine_mk3_trigger.projectile" />	
 	<projectile file="at_mine_mk3_damage.projectile" />
 	<projectile file="airdropped_stun_mine_mk3.projectile" />	
 	<projectile file="airdropped_stun_mine_mk3_trigger.projectile" />	
-	<projectile file="airdropped_stun_mine_mk3_stun.projectile" />	
+	<projectile file="airdropped_stun_mine_mk3_stun.projectile" />
+	
 
 </projectiles>

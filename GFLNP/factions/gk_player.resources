@@ -183,6 +183,7 @@ re token
 	<projectile key="token_sangonomiya_kokomi.projectile" />
 	<projectile key="token_raiden_mei.projectile" />
 	<projectile key="token_takina.projectile" />
+	<projectile key="token_alicemana.projectile" />
 
 oath
   	<weapon key="gw_ar15mod_sl_oath.weapon" />

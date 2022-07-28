@@ -110,13 +110,15 @@ class GFLEquipmentEvent : Tracker {
 				{"mg4a3td_sl.weapon","ur"},
 				{"ew_disaster_railgun.weapon","ur"},
 				{"gw_m16_astatoz.weapon","ur"},
-				{"arb14_1.weapon","ur"},
-				{"arb14_2.weapon","ur"},
+				{"ar_14b_1.weapon","ur"},
+				{"ar_14b_2.weapon","ur"},
 				{"m27_ar.weapon","ssr"},
 				{"m27_mg.weapon","ssr"},
 				{"ew_25a2_k.weapon","ssr"},
 				{"ew_sig516.weapon","ssr"},
 				{"ew_sig516_300blk.weapon","ssr"},
+				{"ew_hmtech501.weapon","sr"},
+				{"ew_hmtech501_hesh.weapon","sr"},
 				{"gw_m37_1706.weapon","ssr"},
 				{"gw_m37_1706_run.weapon","ssr"}
 		};

@@ -4,7 +4,7 @@
 	<rotation class="motion" />
 		
 	<result class="spawn" instance_class="projectile" instance_key="ew_hd_mg94.projectile" 
-	min_amount="0" max_amount="2" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />	
+	min_amount="0" max_amount="3" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />	
 
 	<effect class="result" key="static_object" copy="terrain" />
 	<effect class="result" key="character" copy="terrain" />

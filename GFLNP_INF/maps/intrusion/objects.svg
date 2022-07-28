@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.56"
-     inkscape:cx="782.99074"
-     inkscape:cy="300.20873"
+     inkscape:zoom="7.2407734"
+     inkscape:cx="939.79605"
+     inkscape:cy="1390.6549"
      inkscape:document-units="px"
-     inkscape:current-layer="layer38"
+     inkscape:current-layer="layer18"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
@@ -64697,6 +64697,15 @@ key = radio_jammer.vehicle;
          width="6"
          id="rect7651-13-5-8-6-4-4-7-3-9-0-3-2-7-2-4-0-3-8-5-2-0-9-1-0-5"
          style="display:inline;opacity:0.79775277;fill:#2cffe7;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new" />
+      <rect
+         transform="matrix(-0.87373104,-0.48640937,0.48640937,-0.87373104,0,0)"
+         inkscape:label="#ladder"
+         y="-543.09027"
+         x="-1687.9701"
+         height="2.25"
+         width="6"
+         id="rect7651-13-5-8-6-4-4-7-3-9-0-3-2-7-2-4-0-3-8-5-2-0-9-1-2-5-0"
+         style="display:inline;opacity:0.79775277;fill:#2cffe7;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new" />
     </g>
     <g
        style="display:inline"
@@ -66939,6 +66948,19 @@ alpha_blend = 1;</desc>
              id="desc7945-3-9-9-0-6-3-1-2-3-6-1-1-1">type = deck_start;</desc>
         </path>
       </g>
+      <rect
+         transform="matrix(0.13877901,-0.99032337,0.99032337,0.13877901,0,0)"
+         inkscape:label="#mesh"
+         y="974.37372"
+         x="-548.10254"
+         height="7.4386048"
+         width="14.233747"
+         id="rect5814-8-9-12-61-4-2-1-4-3-0-6"
+         style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1;enable-background:new">
+        <desc
+           id="desc46349-3-5-7-1-2-5">template = radar_dish;
+</desc>
+      </rect>
     </g>
     <g
        inkscape:label="crates"
@@ -68159,20 +68181,6 @@ tag = apc;</desc>
            id="desc26444-1-2-5-6-2-5-5-1-9-5-4-07-0">type = vehicle; key = deployable_minig_2.vehicle;</desc>
       </rect>
       <rect
-         style="display:inline;fill:#00ffff;stroke:#ffff00;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
-         id="spawn1-70-1-4-922-9-1-0"
-         width="7"
-         height="7"
-         x="-970.20422"
-         y="-564.12219"
-         inkscape:label=""
-         transform="matrix(-0.99296378,-0.11841846,0.11841846,-0.99296378,0,0)"
-         inkscape:transform-center-x="0.067753933"
-         inkscape:transform-center-y="-0.17720203">
-        <desc
-           id="desc152873-6-7-6">type = vehicle; key = aa_emplacement.vehicle;</desc>
-      </rect>
-      <rect
          transform="matrix(0.15690437,-0.9876138,0.9876138,0.15690437,0,0)"
          inkscape:label=""
          y="1150.2035"
@@ -68221,30 +68229,6 @@ tag = apc;</desc>
            id="desc26444-1-2-5-6-2-5-5-1-9-5-4-86">type = vehicle; key = deployable_minig_2.vehicle;</desc>
       </rect>
       <rect
-         transform="matrix(0.99991289,-0.01319902,0.01319902,0.99991289,0,0)"
-         inkscape:label=""
-         y="545.7547"
-         x="1461.7371"
-         height="2.7343748"
-         width="2.7343748"
-         id="spawn6969-30-4-9-6-9-5-11-6-8-4-3-8-6-5-57-7"
-         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#800000;stroke-width:1.79999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new">
-        <desc
-           id="desc26444-1-2-5-6-2-5-5-1-9-5-0-6-3-0-8-2">type = vehicle; key = deployable_minig_2.vehicle;</desc>
-      </rect>
-      <rect
-         transform="matrix(0.99991289,-0.01319902,0.01319902,0.99991289,0,0)"
-         inkscape:label=""
-         y="547.17645"
-         x="1593.5704"
-         height="2.7343748"
-         width="2.7343748"
-         id="spawn6969-30-4-9-6-9-5-11-6-8-4-3-8-6-5-57-7-4"
-         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#800000;stroke-width:1.79999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new">
-        <desc
-           id="desc26444-1-2-5-6-2-5-5-1-9-5-0-6-3-0-8-2-5">type = vehicle; key = deployable_minig_2.vehicle;</desc>
-      </rect>
-      <rect
          transform="matrix(0.05261595,-0.99861482,0.99861482,0.05261595,0,0)"
          inkscape:label=""
          y="1493.713"
@@ -68267,30 +68251,6 @@ tag = apc;</desc>
          style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#800000;stroke-width:1.79999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new">
         <desc
            id="desc26444-1-2-5-6-2-5-5-1-9-5-0-6-3-0-8-2-5-7">type = vehicle; key = deployable_minig_2.vehicle;</desc>
-      </rect>
-      <rect
-         transform="matrix(-0.02207877,-0.99975623,0.99975623,-0.02207877,0,0)"
-         inkscape:label=""
-         y="1461.917"
-         x="-557.00549"
-         height="2.7343748"
-         width="2.7343748"
-         id="spawn6969-30-4-9-6-9-5-11-6-8-4-3-8-6-5-57-7-46"
-         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#800000;stroke-width:1.79999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new">
-        <desc
-           id="desc26444-1-2-5-6-2-5-5-1-9-5-0-6-3-0-8-2-1">type = vehicle; key = deployable_minig_2.vehicle;</desc>
-      </rect>
-      <rect
-         transform="matrix(-9.0541223e-4,0.99999959,-0.99999959,-9.0541223e-4,0,0)"
-         inkscape:label=""
-         y="-1599.1053"
-         x="519.79578"
-         height="2.7343748"
-         width="2.7343748"
-         id="spawn6969-30-4-9-6-9-5-11-6-8-4-3-8-6-5-57-7-4-5"
-         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#800000;stroke-width:1.79999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new">
-        <desc
-           id="desc26444-1-2-5-6-2-5-5-1-9-5-0-6-3-0-8-2-5-77">type = vehicle; key = deployable_minig_2.vehicle;</desc>
       </rect>
       <rect
          transform="matrix(0.02080782,-0.99978349,0.99978349,0.02080782,0,0)"
@@ -68560,6 +68520,76 @@ key = tank2.vehicle;</desc>
         <desc
            id="desc7082-9-7-0-4-7-4-2">type = vehicle;
 key = armored_truck.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#00ffff;stroke:#ffff00;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
+         id="spawn1-70-1-4-922-9-1-0-0"
+         width="7"
+         height="7"
+         x="-85.837349"
+         y="1599.749"
+         inkscape:label=""
+         transform="matrix(0.59903528,-0.80072263,0.80072263,0.59903528,0,0)"
+         inkscape:transform-center-x="-0.1873573"
+         inkscape:transform-center-y="0.029930095">
+        <desc
+           id="desc152873-6-7-6-0">type = vehicle; key = aa_emplacement.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#00ffff;stroke:#ffff00;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
+         id="spawn1-70-1-4-922-9-1-0-0-6"
+         width="7"
+         height="7"
+         x="-85.389923"
+         y="1660.3196"
+         inkscape:label=""
+         transform="matrix(0.59903528,-0.80072263,0.80072263,0.59903528,0,0)"
+         inkscape:transform-center-x="-0.1873573"
+         inkscape:transform-center-y="0.029930095">
+        <desc
+           id="desc152873-6-7-6-0-4">type = vehicle; key = aa_emplacement.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#00ffff;stroke:#ffff00;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
+         id="spawn1-70-1-4-922-9-1-0-0-6-3"
+         width="7"
+         height="7"
+         x="-82.032181"
+         y="1629.269"
+         inkscape:label=""
+         transform="matrix(0.59903528,-0.80072263,0.80072263,0.59903528,0,0)"
+         inkscape:transform-center-x="-0.1873573"
+         inkscape:transform-center-y="0.029930095">
+        <desc
+           id="desc152873-6-7-6-0-4-5">type = vehicle; key = aa_emplacement.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#00ffff;stroke:#ffff00;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
+         id="spawn1-70-1-4-922-9-1-0"
+         width="7"
+         height="7"
+         x="-1476.5771"
+         y="-520.59076"
+         inkscape:label=""
+         transform="matrix(-0.99998606,-0.00527998,0.00527998,-0.99998606,0,0)"
+         inkscape:transform-center-x="0.087375412"
+         inkscape:transform-center-y="-0.16840239">
+        <desc
+           id="desc152873-6-7-6">type = vehicle; key = aa_emplacement.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#00ffff;stroke:#ffff00;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
+         id="spawn1-70-1-4-922-9-1-0-4"
+         width="7"
+         height="7"
+         x="-1608.3969"
+         y="-519.7912"
+         inkscape:label=""
+         transform="matrix(-0.99998606,-0.00527998,0.00527998,-0.99998606,0,0)"
+         inkscape:transform-center-x="0.087375412"
+         inkscape:transform-center-y="-0.16840239">
+        <desc
+           id="desc152873-6-7-6-8">type = vehicle; key = aa_emplacement.vehicle;</desc>
       </rect>
     </g>
   </g>
