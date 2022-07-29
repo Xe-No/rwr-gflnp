@@ -10,7 +10,7 @@
     magazine_size="6" 
     can_shoot_standing="1" 
     suppressed="0" 
-    name="c8-sfw[12G Skeleton Key]" 
+    name="c8-sfw[12G Master Key]" 
     class="0" 
 	use_basic_muzzle_smoke_effect="0"
     reload_one_at_a_time="0" 
@@ -43,7 +43,7 @@
     <inventory encumbrance="10.0" price="300" />
 
     <weak_hand_hold offset="0.2" />
-    <projectile file="c8_sfw_bullet.projectile" time_to_live="0.20" pulldown_in_air="80" name="12G Skeleton Key">
+    <projectile file="c8_sfw_bullet.projectile" time_to_live="0.20" pulldown_in_air="80" name="12G Master Key">
         <result class="blast" radius="1.0" damage="0.01" push="0.1" decal="1" character_state="death" faction_compare="not_equal" />
     </projectile>
 	
