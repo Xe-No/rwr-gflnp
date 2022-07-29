@@ -20,6 +20,7 @@
 <weapon key="gw_g3_spuhr.weapon" />
 <weapon key="ar_14b_1.weapon" />
 <weapon key="ew_hmtech501.weapon" />
+<weapon key="ew_c8_sfw.weapon" />
 
 	
 <projectile key="otom.projectile" />

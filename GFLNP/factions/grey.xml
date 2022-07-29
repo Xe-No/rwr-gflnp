@@ -1444,6 +1444,12 @@
 		</attribute_config>
 	</soldier>    
 
+	<soldier name="supply_bp" spawn_score="6" copy_from="default">
+		<character filename="gk_player.character"/>
+		<ai filename="default.ai" />
+		<resources file="supply_bp.resources"/>
+	</soldier>
+
 	<soldier name="supply_hg" spawn_score="5" copy_from="template_HG">
 		<character filename="gk_player.character"/>
 		<ai filename="default.ai" />

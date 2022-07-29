@@ -185,7 +185,7 @@ class GFLEquipmentEvent : Tracker {
 					const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
 
 				//如果玩家不为空值，执行语句
-					if(characterInfo != null){
+					if(characterInfo !is null){
 
 						//获取玩家手雷栏物品键值，如果为CB碎片，获取碎片数量赋予k1.
 						string key3 = getPartKey(m_metagame, characterId);
@@ -238,7 +238,7 @@ class GFLEquipmentEvent : Tracker {
 					const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
 
 				//如果玩家不为空值，执行语句
-					if(characterInfo != null){
+					if(characterInfo !is null){
 
 						//获取玩家手雷栏物品键值，如果为CB碎片，获取碎片数量赋予k1.
 						string key3 = getPartKey(m_metagame, characterId);
@@ -291,7 +291,7 @@ class GFLEquipmentEvent : Tracker {
 					const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
 
 				//如果玩家不为空值，执行语句
-					if(characterInfo != null){
+					if(characterInfo !is null){
 
 						//获取玩家手雷栏物品键值，如果为CB碎片，获取碎片数量赋予k1.
 						string key3 = getPartKey(m_metagame, characterId);
@@ -347,7 +347,7 @@ class GFLEquipmentEvent : Tracker {
 				const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
 
 				//如果玩家不为空值，执行语句
-				if(characterInfo != null){
+				if(characterInfo !is null){
 
 					//获取玩家手雷栏物品键值，如果为烙印核心，获取核心数量赋予k1.
 					string key3 = getPartKey(m_metagame, characterId);
@@ -382,7 +382,7 @@ class GFLEquipmentEvent : Tracker {
 			int k  = 10;
 			int k1 = 0;
 			const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
-			if(characterInfo != null){
+			if(characterInfo !is null){
 				string key3 = getPartKey(m_metagame, characterId);
 				if(key3 == "cb_part.projectile"){
 					k1 = getpartAmount(m_metagame, characterId);
@@ -417,7 +417,7 @@ class GFLEquipmentEvent : Tracker {
 	
 	//分解获得CB碎片,接收玩家ID与碎片数量。
 	void receiveCBpart(Metagame@ metagame, int characterId, int num) {
-		for(uint i = 0;i < num;++i){
+		for(int i = 0;i < num;++i){
 
 			XmlElement c3 ("command");
 			c3.setStringAttribute("class", "update_inventory");

@@ -57,7 +57,8 @@
 <weapon file="ew_athena_s.weapon" />
 <weapon file="ew_hmtech501.weapon" />
 <weapon file="ew_hmtech501_hesh.weapon" />
-
+<weapon file="ew_c8_sfw.weapon" />
+<weapon file="ew_c8_12gaugcc.weapon" />
 
 
 </weapons>

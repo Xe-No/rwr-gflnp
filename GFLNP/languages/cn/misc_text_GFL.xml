@@ -167,9 +167,13 @@ calls
 	<text key="1 drop pod + 5 medic" text="5人医疗支援舱降" />
 	<text key="4 tank crew" text="4人战车班组支援" />
 	<text key="call for airfleet support" text="请求空中舰队支援" />
-	<text key="we need battlecruiser support here" text="需要战列巡洋舰支援" />
+	<text key="We need battlecruiser support here" text="需要战列巡洋舰支援" />
 	<text key="Acknowledged, Course laid in" text="收到指令，航道已输入" /> yamato-1
 	<text key="Weapons charged and ready! Commencing bombardment" text="武器已经充能完毕，准备开始轰炸" /> yamato-2
+	<text key="GK Sniper Support" text="格里芬狙击支援" />
+	<text key="We need some support, but don't make too much noise." text="请求微声支援，要求隐秘进行" />
+	<text key="Roger, sniper in position." text="了解，狙击手就位" /> sniper-1
+	<text key="I'm not responsible for any accidents okay?" text="“我不会为任何意外事故负责，了解？”" /> sniper-2
 
 	<text key="cover drop" text="空投沙袋" />
 	<text key="I need sandbags" text="请求沙袋支援" />
@@ -272,6 +276,11 @@ vehicle
 	<text key="M113 apc" text="M113装甲输送车"/>
 	<text key="BMD-K17" text="BMD-K17步兵战车"/>
 	<text key="Jupiter[lite] Combat Vehicle" text="“木星 [Lite]”轻型机动载具"/>
+	<text key="Sturmtiger[modernization]" text="“突击虎”自行突击炮（现代型）"/>
+	<text key="Tiger[modernization]" text="“虎”式重型坦克（现代型）"/>
+	<text key="Panzer IV (H)[modernization]" text="四号H型坦克（现代型）"/>
+	<text key="LAV 6.0" text="LAV6.0轮式装甲车"/>
+	<text key="L3/33DM" text="L3/33DM轻坦歼击车"/>
 
 -vanilla-
 	<text key="Jeep" text="吉普车" />
@@ -387,6 +396,9 @@ drop flare
 	<text key="T-14S Drop" text="T-14S Armata激光坦克空投信标" />
 	<text key="MAA Abraham Drop" text="MAA Abrams主战坦克空投信标" />
 	<text key="M2A2 Drop" text="M2A2 Bradley步战车空投信标" />
+	<text key="Panzer IV (H) drop" text="四号H型坦克空投信标" />
+	<text key="L3/33 drop" text="L3/33轻坦歼击车空投信标" />
+	<text key="LAV 6.0 drop" text="LAV6.0轮式装甲车空投信标" />
 
 drop item
 -rp-
@@ -537,6 +549,7 @@ projectile
 	<text key="Douzi[RE]" text="豆子[RE]" />
 	<text key="Kurumi[Wedding][RE]" text="花嫁狂三[RE]" />
 	<text key="Grey cat sneeze" text="灰猫猫（打喷嚏呐！）" />
+	<text key="Sangonomiya Kokomi[RE]" text="珊瑚宫心海[RE]" />
 
 -other-
 	<text key="ballistic knife" text="弹道战术刀" />
@@ -842,18 +855,23 @@ armor
 	<text key="PZC Armor 2/14" text="PZC抗爆护甲 2/14" />
 	<text key="PZC Armor destroyed" text="PZC抗爆护甲（损坏） 1/14" />
 
-	<text key="HVY Armor 12/12" text="HVY抗爆护甲 12/12" />
-	<text key="HVY Armor 11/12" text="HVY抗爆护甲 11/12" />
-	<text key="HVY Armor 10/12" text="HVY抗爆护甲 10/12" />
-	<text key="HVY Armor 9/12" text="HVY抗爆护甲 9/12" />
-	<text key="HVY Armor 8/12" text="HVY抗爆护甲 8/12" />
-	<text key="HVY Armor 7/12" text="HVY抗爆护甲 7/12" />
-	<text key="HVY Armor 6/12" text="HVY抗爆护甲 6/12" />
-	<text key="HVY Armor 5/12" text="HVY抗爆护甲 5/12" />
-	<text key="HVY Armor 4/12" text="HVY抗爆护甲 4/12" />
-	<text key="HVY Armor 3/12" text="HVY抗爆护甲 3/12" />
-	<text key="HVY Armor 2/12" text="HVY抗爆护甲 2/12" />
-	<text key="HVY Armor destroyed" text="HVY抗爆护甲（损坏） 1/12" />
+	<text key="HVY Armor 12/12" text="HVY重型护甲 12/12" />
+	<text key="HVY Armor 11/12" text="HVY重型护甲 11/12" />
+	<text key="HVY Armor 10/12" text="HVY重型护甲 10/12" />
+	<text key="HVY Armor 9/12" text="HVY重型护甲 9/12" />
+	<text key="HVY Armor 8/12" text="HVY重型护甲 8/12" />
+	<text key="HVY Armor 7/12" text="HVY重型护甲 7/12" />
+	<text key="HVY Armor 6/12" text="HVY重型护甲 6/12" />
+	<text key="HVY Armor 5/12" text="HVY重型护甲 5/12" />
+	<text key="HVY Armor 4/12" text="HVY重型护甲 4/12" />
+	<text key="HVY Armor 3/12" text="HVY重型护甲 3/12" />
+	<text key="HVY Armor 2/12" text="HVY重型护甲 2/12" />
+	<text key="HVY Armor destroyed" text="HVY重型护甲（损坏） 1/12" />
+
+	<text key="MED Optical Camouflage Cloak" text="MED光学迷彩披风 4/4" />
+	<text key="MED Optical Camouflage Cloak, 60%" text="MED光学迷彩披风 3/4" />
+	<text key="MED Optical Camouflage Cloak, 40%" text="MED光学迷彩披风 2/4" />
+	<text key="MED Optical Camouflage Cloak, destroyed" text="MED光学迷彩披风（损坏） 1/4" />
 
 -enemy-
 	<text key="Doppelsoldner_Shield" text="巨剑士力场盾" />
@@ -923,17 +941,9 @@ UI
 
 	<text key="hold &#37;control" text="按住&#37;control键" />
 
-	<text key="Game started" text="开始游戏，本mod官方QQ群：748950999/1072742936（已满），欢迎加入。
-1.禁止恶意TK
-2.禁止舔其他玩家的尸体
-3.请勿大量呼叫支援、摆放沙包、抽卡，不然会卡服
-4.其他玩家潜行时，请尽量避免干扰对方
-5.请尽量不要把指挥车，雷达车开到前线，请不要炸自己家信号塔等
-6.请尽量不要抢他人垃圾
-7.意外TK他人时，请回一句sry(抱歉)
-8.禁止利用恶性BUG，外挂等进行破坏游戏的行为
-9.游玩时请保持好心情，不要吵架，玩的开心
-遇到违反规则玩家时，可以进行举报，被举报者将会依据程度进行处罚RP、TKBAN或者BAN等惩罚，请不要进行恶意举报。" />
+	<text key="Game started" text="游戏开始，本mod官方QQ群：748950999/1072742936（已满），欢迎加入。
+简要规则：禁止恶意TK，意外TK时请回复sry(抱歉)；禁止舔其他玩家的尸体；请勿大量呼叫支援、摆放沙包、抽卡；尽量不要抢他人垃圾；尽量避免干扰潜行玩家；禁止利用恶性BUG或使用外挂。
+游玩时请保持好心情，不要吵架，玩的开心。遇到违反规则玩家时，可以进行举报，被举报者将会依据程度进行处罚RP、TKBAN或者BAN等惩罚，请不要进行恶意举报。" />
 
 	<text key="not much of a destroyer" text="不称职的毁灭者"/>
 	<text key="* destroy &#37;target_count vehicles" text="* 摧毁 &#37;target_count 辆载具"/>

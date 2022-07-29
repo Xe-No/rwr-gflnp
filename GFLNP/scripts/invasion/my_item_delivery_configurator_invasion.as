@@ -428,7 +428,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("costume_werewolf.carry_item", "carry_item", 1.0f),
 		ScoredResource("cd.carry_item", "carry_item", 1.0f),
 		ScoredResource("honey_badger.weapon", "weapon", 1.0f),
-		ScoredResource("ew_hmtech401.weapon", "weapon", 2.0f),	//2X UP 0.34
+		ScoredResource("ew_hmtech401.weapon", "weapon", 2.0f),	//2X UP 0.35
+		ScoredResource("ew_c8_sfw.weapon", "weapon", 2.0f),	//2X UP 0.35
 		ScoredResource("m60e4.weapon", "weapon", 1.0f),
 		ScoredResource("gw_ebr800.weapon", "weapon", 1.0f),	 
 		ScoredResource("ew_turcotte_rapid_smg.weapon", "weapon", 1.0f),	

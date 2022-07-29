@@ -11,11 +11,7 @@ weapon
 	<weapon key="repair_crane_resource.weapon" />
 	<weapon key="gps_laptop.weapon" />
 
-	<weapon key="blueprint_copy.weapon" />
-	<weapon key="blueprint_decomposition.weapon" />
-	<weapon key="blueprint_exchange.weapon" />
-	<weapon key="blueprint_oath.weapon" />
-	<weapon key="blueprint_oath_core.weapon" />
+
 
 
 

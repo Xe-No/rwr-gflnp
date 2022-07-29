@@ -16,5 +16,6 @@
 	<vehicle file="sturmtiger.vehicle" />
 	<vehicle file="l333.vehicle" />
 	<vehicle file="lav6g.vehicle" />
+	<vehicle file="workbench.vehicle" />	
 
 </vehicles>

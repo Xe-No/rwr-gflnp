@@ -204,5 +204,7 @@ oath
     	<weapon key="gw_ntw20mod3_oath.weapon" />
     	<weapon key="gw_ntw20mod3_he_oath.weapon" />
 
+		<weapon key="gk_workbench_base.weapon" />
+
 
 </resources>

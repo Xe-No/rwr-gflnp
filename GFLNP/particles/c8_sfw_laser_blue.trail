@@ -1,0 +1,6 @@
+<trail key="c8_sfw_laser_blue"
+ material="c8sfw_laser_blue" 
+ trail_length="15"
+ intensity_range="0.01 0.05"
+ initial_width_range="0.1 0.3"
+ width_change="+10" />

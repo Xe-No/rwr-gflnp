@@ -29,5 +29,10 @@
         <hud_icon filename="gk_supply_sg.png" /> TODO
         <!-- <inventory encumbrance="10.0" price="500.0" /> -->
     </weapon>
+    <weapon file="gk_supply_base.weapon" key="gk_workbench_base.weapon" >
+        <specification name="CBP Blueprint Workbench" spawn_instance_key="workbench.vehicle" />
+        <hud_icon filename="hud_workbench.png" /> 
+        <inventory encumbrance="10.0" price="321.0" />
+    </weapon>
 </weapons>
 

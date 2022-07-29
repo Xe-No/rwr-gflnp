@@ -84,6 +84,12 @@ projectile, vehicle and other
     <text key="ntw20HE" text="NTW-20[心智升级MOD3]（高爆弹）" />
     <text key="NTW-20_HEI" text="NTW-20[贵族体验馆]" />
     <text key="Laser Pointer" text="激光指示器" />
+    <text key="Athena Mark" text="迷你雅典娜激光引导" />
+    <text key="sticky bomb" text="黏性爆弹" />
+    <text key="Sticky_bomb" text="黏性爆弹" />
+    <text key="EMP rocket" text="EMP火箭弹" />
+    <text key="BRONIA!" text="布洛妮娅！" />
+    <text key="AXE" text="飞斧" />
 
 AR
 -normal-
@@ -185,6 +191,9 @@ AR
     <text key="AS VAL[Digi-Mind]" text="AS VAL[心智升级MOD3]" />
     <text key="AK-15[Digi-Mind]" text="AK-15[心智升级MOD3]" />
     <text key="MCX[Crimson Meteor]" text="MCX[真红陨星]"/>
+    <text key="G41[Beach Punk 2064]" text="G41[沙滩朋克2064]"/>
+    <text key="HMTech-401" text="HMTech-401医疗型突击步枪"/>
+    <text key="FAL[leina]" text="FAL[蕾娜]"/>
 -cb-
     <text key="TKB-059" text="TKB-059三管突击步枪"/>
     <text key="SCAR-SC" text="SCAR短版突击步枪"/>
@@ -200,6 +209,9 @@ AR
     <text key="Sunaookami Shiroko" text="SG553[砂狼白子]" />
     <text key="AN-94[MOD4]" text="AN-94[升级改造MOD4]"/>
     <text key="KN-57[Jack of all Trades]" text="KN-57[万事通]"/>
+    <text key="MCX TANG" text="MCX[TANG]"/>
+    <text key="MCX TANG[SGMOD]" text="MCX[TANG]（霰弹）"/>
+    <text key="AMB-17" text="AMB-17突击步枪"/>
 
 RF
 -normal-
@@ -241,6 +253,7 @@ RF
     <text key="TAC-50" text="TAC-50消音反器材步枪"/>
     <text key="IWS2000" text="IWS2000反器材步枪"/>
     <text key="SKS" text="SKS半自动步枪"/>
+    <text key="81-HR" text="八一式马步枪"/>
 -rare-
     <text key="M14[Christmas Parade Dress]" text="M14[圣诞巡游礼服]"/>
     <text key="M99[Rabbit Squad]" text="M99[兔子班]"/>
@@ -270,6 +283,9 @@ RF
     <text key="NTW 20[Aristocrat Experience Service]" text="NTW-20[贵族体验馆]"/>
     <text key="NTW 20[Digi-Mind]" text="NTW-20[心智升级MOD3]"/>
     <text key="NTW 20[Digi-Mind HE]" text="NTW-20[心智升级MOD3]（高爆弹）"/>
+    <text key="The Fix by Q sniper rifle" text="TF-Q狙击步枪"/>
+    <text key="TF-Q[RIDE MOD]" text="TF-Q狙击步枪（骑乘模式）"/>
+    <text key="Garand M1C" text="加兰德M1C步枪"/>
 -cb-
     <text key="Dragunov SVDM" text="德拉贡诺夫SVDM狙击步枪"/>
     <text key="Barrett MK22" text="巴雷特MK22狙击步枪"/>
@@ -279,6 +295,9 @@ RF
     <text key="AK-308" text="AK-308半自动步枪" />
     <text key="IWS2000[The Seventh Banisher]" text="IWS2000[第七封印者]" />
     <text key="Dragunov Incendiary Rifle" text="德拉贡诺夫热线狙击步枪"/>
+    <text key="Rabbit M39" text="莫辛纳甘M39[垃姬兔]"/>
+    <text key="Recycle Bin" text="可回收垃圾桶？"/>
+    <text key="S.H.O.K.I" text="S.H.O.K.I"/>
 
 HG
 -normal-
@@ -301,6 +320,9 @@ HG
     <text key="HS2000" text="HS2000手枪"/>
     <text key="QSB-91" text="QSB-91匕首手枪"/>
     <text key="Thunder.50BMG" text="雷电.50手枪" />
+    <text key="CZ75" text="CZ75自动手枪"/>
+    <text key="CZ75 AXE" text="CZ75（飞斧）"/>
+    <text key="Tokarev" text="托卡列夫手枪"/>
 -rare-
     <text key="Five-seveN[Cruise Queen]" text="FN-57[游轮女王]"/>
     <text key="Five-seveN[Smile of Acceptance]" text="FN-57[被接纳的笑容]"/>
@@ -318,6 +340,8 @@ HG
     <text key="Thunder.50BMG[Dream of the Black Swan]" text="雷电.50[黑天鹅的梦]" />
     <text key="Orga Pistol" text="奥尔加团长的手枪"/>
     <text key="Mallorian Armscompany 3516" text="马洛里安武器公司3516" />
+    <text key="M1873 SAA[Digi-Mind] / Duel Survivor" text="柯尔特左轮[心智升级MOD3]（决斗幸存者）"/>
+    <text key="M1873 SAA[Digi-Mind] / Fire Command" text="柯尔特左轮[心智升级MOD3]（火力号令）"/>
 
 SG
 -normal-
@@ -337,17 +361,22 @@ SG
     <text key="V-PM5" text="V-PM5霰弹枪"/>
     <text key="LTLX7000" text="LTLX7000霰弹枪"/>
     <text key="SIX12" text="SIX12霰弹枪" />
+    <text key="Mossberg M590A1" text="莫斯伯格M590A1霰弹枪"/>
+    <text key="MAG-7" text="MAG-7霰弹枪"/>
 -rare-
     <text key="USAS-12[VRAIN Power]" text="USAS-12[VRAIN Power]"/>
     <text key="SAT-8[Plum Blossom Seal]" text="SAT-8[梅花印]"/>
     <text key="M500[Daydream between classes]" text="M500[课间白日梦]"/>
     <text key="SEELE" text="“希尔”双管霰弹枪"/>
     <text key="LTLX7000[Night-Tide Invitation]" text="LTLX7000[夜潮的邀约]"/>
+    <text key="Corinth" text="科林斯泵动霰弹枪"/>
+    <text key="Corinth buckshot" text="科林斯泵动霰弹枪（空爆）"/>
 -cb-
     <text key="AA-12[Smokeless Lollipop]" text="AA-12[无烟棒棒糖]"/>
     <text key="AA-12[Never Rising Sun]" text="AA-12[太阳永不升起]"/>
     <text key="SIX12 SD" text="SIX12 SD霰弹枪" />
     <text key="SIX12 SD - Slug" text="SIX12 SD霰弹枪（独头弹）" />
+    <text key="LTLX7000[Dancing Shrine Maiden]" text="LTLX7000[巫姬翩舞起]"/>
 
 SMG
 -normal-
@@ -458,7 +487,7 @@ MG
     <text key="Chain SAW" text="“链锯”消音机枪" />
     <text key="MG-4[Tactical Defender]" text="MG-4[战术防御]"/>
     <text key="Universe Destroyer" text="宇宙毁灭者"/>
-    <text key="Kat's Heir Apparent" text="Kat指定继承喵" />
+    <text key="Kat's Heir Apparent" text="H.E.I.R - A.P.P.A.R.E.N.T. 猫猫继承者" />
     <text key="VEX" text="VEX外骨骼机炮系统"/>
     <text key="RPL-20" text="RPL-20轻机枪" />
 
@@ -501,12 +530,15 @@ other primary
     <text key="Seeker Six HE" text="探索者六号（高爆）"/>
     <text key="Ms.Silence" text="沉默小姐“闪光”火箭发射器"/>
     <text key="Ms.Silence[PEW!]" text="沉默小姐“闪光”火箭发射器（PEW!）"/>
-    <text key="Hemogoblin" text="“血红蛋白”"/>
+    <text key="Hemogoblin" text="“血红蛋白”发射器"/>
+    <text key="MINI Athena" text="迷你雅典娜激光引导系统"/>
+    <text key="DBS2-DoubleFreedom" text="DBS2双重解放"/>
+    <text key="DBS2 Exchange ticket" text="DBS2兑换券"/>
     <text key="AA-12[EV]" text="AA-12[EV]"/>
     <text key="PF-98[EV]" text="PF-98[EV]"/>
     <text key="TKB-059[EV]" text="TKB-059[EV]"/>
     <text key="Super SASS[EV]" text="Super SASS[EV]"/>
-    <text key="M.E.M.O.R.I.Z.E.D." text="M.E.M.O.R.I.Z.E.D.纪.念."/>
+    <text key="M.E.M.O.R.I.Z.E.D." text="M.E.M.O.R.I.Z.E.D. 纪念"/>
 
 secondary
     <text key="SMAW" text="SMAW火箭筒"/>
@@ -578,6 +610,9 @@ secondary
     <text key="P33_Pereira" text="P33 Pereira手枪" />
     <text key="Micro-Roni CAA" text="G18 Micro-Roni战术卡宾转换手枪" />
     <text key="S-Castanas" text="雷暴信标"/>
+    <text key="Type-64 SD" text="64式微声冲锋枪"/>
+    <text key="Be one with Yuri" text="“Be One With Yuri”"/>
+    <text key="Someone's Quilt" text="Someone's Quilt"/> （这啥梗啊不认识啊）
 
 US
     <text key="GAU-8Avenger" text="GAU-8复仇者机枪" />
@@ -632,21 +667,27 @@ Paradeus
 
 42LAB
     <text key="HK416C[ERC only]" text="HK416C消音卡宾枪[ERC限定]"/>
-    <text key="MP5SD[GST3 only]" text="MP5SD消音冲锋枪[GST3限定]"/>
+    <text key="EMP launcher[ERC only]" text="EMP火箭发射器[ERC限定]"/>
+    <text key="MP5SD[GST3 only]" text="MP5SD微声冲锋枪[GST3限定]"/>
+    <text key="BOX![GST3 only]" text="隐蔽纸箱[GST3限定]"/>
     <text key="Telescopic Shield[HVY3 only]" text="折叠盾牌[HVY3限定]"/>
+    <text key="HVY Repair Armor " text="快速修复用途插板[HVY3限定]"/>
+    <text key="HVY Repair Armor" text="快速修复用途插板[HVY3限定]"/>
     <text key="Medical Pistol" text="医疗手枪[MED限定]"/>
     <text key="MP7[SCT3 only]" text="MP7A2冲锋枪[SCT3限定]"/>
+    <text key="Sticky Bomb[SCT only]" text="黏性爆弹发射器[SCT3限定]"/>
     <text key="Mortar Binoculars" text="迫击炮标记望远镜[TEL2限定]"/>
     <text key="etile large wrench" text="精英大扳手[PZC限定]"/>
+    <text key="Vehicle Upgrade Fix[PZC only]" text="载具升级包[PZC限定]"/>
 
 Blueprint
-    <text key="blueprint_aek971_camo" text="蓝图（AEK-971[幽灵伪装]）"/>
+    <!-- <text key="blueprint_aek971_camo" text="蓝图（AEK-971[幽灵伪装]）"/>
     <text key="blueprint_akalfa" text="蓝图（AK-α）"/>
     <text key="blueprint_iws2000" text="蓝图（IWS2000[第七封印者]）"/>
     <text key="blueprint_portable_mortar" text="蓝图（便携迫击炮）"/>
     <text key="blueprint_svdm" text="蓝图（SVDM）"/>
     <text key="blueprint_tkb059" text="蓝图（TKB-059）"/>
-    <text key="blueprint_vector" text="蓝图（维克托[能天使]）"/>
+    <text key="blueprint_vector" text="蓝图（维克托[能天使]）"/> 不知道改成啥 姑且先注掉-->
 
 TEST
 

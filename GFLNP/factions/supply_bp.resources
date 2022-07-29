@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
+ 	<weapon key="blueprint_copy.weapon" />
+	<weapon key="blueprint_decomposition.weapon" />
+	<weapon key="blueprint_exchange.weapon" />
+	<weapon key="blueprint_oath.weapon" />
+	<weapon key="blueprint_oath_core.weapon" />
+    <projectile key="m1128d_flare.projectile" />
+    <projectile key="r_vindicator_dive_bomb.projectile" />
+    <projectile key="ztz99a_flare.projectile" />
+    <projectile key="c4.projectile" />
+    <projectile key="c4_timer.projectile" />
+
+
+    <weapon key="ew_double_freedom_ticket.weapon" enabled="1" /> 
+	<weapon key="ew_hd_mg94_ticket.weapon" enabled="1" /> 
+	<weapon key="ew_p6_gunslinger_ticket.weapon" enabled="1" /> 
+	<weapon key="ew_p2_peacemaker_ticket.weapon" enabled="1" /> 
+	<weapon key="ew_rx1_railgun_ticket.weapon" enabled="1" /> 
+	<weapon key="ew_rumbler_ticket.weapon" enabled="1" />    
+</resources>
