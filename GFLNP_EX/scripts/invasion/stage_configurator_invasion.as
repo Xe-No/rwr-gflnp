@@ -1105,7 +1105,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 		// stage.m_includeLayers.insertLast("layer1.invasion"); 
 
-		stage.m_maxSoldiers = 35 * 5;     // was 33 * 3 in 1.65
+		stage.m_maxSoldiers = 30 * 5;     // was 33 * 3 in 1.65
 		stage.m_playerAiCompensation = 4;                                         // was 5 (test4)
 		stage.m_playerAiReduction = 2;                                            // wasn't set in 1.65, thus 0   
 
@@ -1131,7 +1131,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 			Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(1, 0.25, 0.05));             // was 0.2 0.1 in 1.65
 			f.m_overCapacity = 60;
 			//f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
-			f.m_capacityOffset = 60;
+			f.m_capacityOffset = 45;
 			stage.m_factions.insertLast(f);
 		}
 		{

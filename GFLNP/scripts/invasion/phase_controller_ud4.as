@@ -82,7 +82,7 @@ class PhaseUD4_1 : PhaseUD4 {
 
 		// quick phase1, for testing
 
-		m_timer = 1.0 * 60.0;
+		m_timer = 5.0 * 60.0;
 
 		// set enemy commander ai
 		m_metagame.getComms().send("<command class='commander_ai' faction='1' base_defense='0.1' border_defense='0.1' attack_start_spread='0' />");

@@ -42,7 +42,7 @@
 	    <commonness value="0" can_respawn_with="0" in_stock="1" /> 
     <addon_model filename="baw_miyu_bin.xml"/>
     <hud_icon filename="baw_miyu.png"/>
-    <inventory encumbrance="10.0" price="0.0"/>
+    <inventory encumbrance="10.0" price="1220.0"/>
     <modifier class="detectability" value="-0.2" />
     <modifier class="speed" value="-0.7" /> 
 

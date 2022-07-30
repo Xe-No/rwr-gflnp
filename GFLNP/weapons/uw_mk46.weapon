@@ -11,7 +11,7 @@
   can_shoot_standing="0" 
   can_shoot_crouching="0"  
   sight_range_modifier="1.2" 	
-  ai_sight_range_modifier="1.1"
+  ai_sight_range_modifier="0.9"
   suppressed="0" 
   name="MK46" 
   class="0" 
