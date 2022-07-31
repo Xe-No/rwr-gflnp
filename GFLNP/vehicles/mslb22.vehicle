@@ -1,19 +1,19 @@
-<vehicle name="Type 22 missile boat" key="mslb22.vehicle" map_view_atlas_index="11" respawn_time="300" minimum_fill_requirement="0.5" existence="one_per_faction" reserves_spawn_point="1" >
+<vehicle name="Type 22 missile boat" key="mslb22.vehicle" map_view_atlas_index="11" respawn_time="300" minimum_fill_requirement="0.5" existence="one_per_faction" reserves_spawn_point="1" time_to_live="7200">
 	<tag name="metal_heavy" />
 	<tag name="vehicle" />
 	<tag name="heavy_combat" />
 				
-	<tire_set offset="10 0.0 18" radius="0.4" />
-	<tire_set offset="10 0.0 0.0" radius="0.4" />  
-	<tire_set offset="10 0.0 -18" radius="0.4" />
+	<tire_set offset="6 0.0 18" radius="0.4" />
+	<tire_set offset="6 0.0 0.0" radius="0.4" />  
+	<tire_set offset="6 0.0 -18" radius="0.4" />
 
-	<control max_speed="20.0" acceleration="18.0" max_reverse_speed="5.0" max_rotation="1.628" max_water_depth="0.0" can_steer_in_water="1" can_steer_on_ground="0" gears="1" steer_smoothening="0.8" />
+	<control max_speed="40.0" acceleration="18.0" max_reverse_speed="5.0" max_rotation="1.628" max_water_depth="0.0" can_steer_in_water="1" can_steer_on_ground="0" gears="1" steer_smoothening="0.8" />
 
 	<physics max_health="16.0" mass="2240.0" extent="9.0 0.0 35.0" offset="0 1.0 0" collision_model_pos="0 -0.5 0" collision_model_extent="10.0 4.0 36.0" visual_offset="0 0.4 0" /> 
 
 	<turret offset="0.0 3.1 11.3" weapon_key="mslb22_ciws.weapon" weapon_offset="0.0 0.1 0.9" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.005" rotation="0" rotation_range="4.7" aim_shoot_threshold="0.9" />   
-	<turret offset="+2.5 5 -5.8" weapon_key="mslb22_asm.weapon" weapon_offset="0.0 2.1 1.2" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.0002" rotation="0" rotation_range="0" />
-	<turret offset="-2.5 5 -5.8" weapon_key="mslb22_asm.weapon" weapon_offset="0.0 2.1 1.2" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.0002" rotation="0" rotation_range="0" />
+	<turret offset="+2.5 5 -5.8" weapon_key="mslb22_asm.weapon" weapon_offset="0.0 2.1 1.2" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.005" rotation="0" rotation_range="0.3" />
+	<turret offset="-2.5 5 -5.8" weapon_key="mslb22_asm.weapon" weapon_offset="0.0 2.1 1.2" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.005" rotation="0" rotation_range="0.3" />
 
 	<visual class="chassis" 				mesh_filename="mslb22_b0.mesh" texture_filename="mslb22.png" max_tilt="0"/>
 	<visual class="turret" turret_index="0" mesh_filename="mslb22_t0.mesh" texture_filename="mslb22.png" />
@@ -26,7 +26,7 @@
 	<character_slot type="gunner" enter_position="-5 1 +7" seat_position="-5 8.0 +7" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 		<turret index="0" />
 	</character_slot>   
-	<character_slot type="gunner" enter_position="+5 1.0 +5" seat_position="+5 15.0 +5" rotation="+1.57" exit_rotation="+1.57" hiding="1" >
+	<character_slot type="gunner" enter_position="-5 1.0 +5" seat_position="-5 15.0 +5" rotation="-1.57" exit_rotation="-1.57" hiding="1" >
 		<turret index="1" /><turret index="2" />
 	</character_slot>
 

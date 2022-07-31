@@ -31,9 +31,9 @@
 	collision_model_extent="4.0 3.0 8.0" 
 	visual_offset="0 0.2 0.0" /> 
 
-	<turret offset="0 3.7 -1.2" weapon_key="tank_cannon.weapon" weapon_offset="0.0 0 3.4" weapon_recoil="0.2" max_rotation_step="0.00005" />
+	<turret offset="0 3.2 -1.2" weapon_key="tank_cannon.weapon" weapon_offset="0.0 0 3.4" weapon_recoil="0.2" max_rotation_step="0.00005" />
 	<turret offset="0 0 0" weapon_key="vmg.30.weapon" weapon_offset="0.0 +0.6 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0000" parent_turret_index="0" />
-	<turret offset="0.4 0.2 0" weapon_key="noxe.weapon" weapon_offset="0.4 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0000" parent_turret_index="0" />
+	<turret offset="0.4 0.4 -0.4" weapon_key="noxe.weapon" weapon_offset="0.4 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0000" parent_turret_index="0" />
 
 	<visual class="chassis" mesh_filename="uhlan_b0.mesh" texture_filename="uhlan_b0.png" max_tilt="0.06" />
 	<visual class="turret" turret_index="0" mesh_filename="uhlan_t0.mesh" texture_filename="uhlan_t0.png" />
@@ -45,15 +45,15 @@
 	<visual key="broken" class="turret" turret_index="1" mesh_filename="40mm.mesh" texture_filename="tank.png" />
 	<visual key="broken" class="turret" turret_index="2" mesh_filename="uhlan_t1.mesh" texture_filename="uhlan_t0.png" />
 
-	<visual class="track" mesh_filename="uhlan_tr.mesh" offset="-1.6 0.5 0.2" >
-		<part texture_filename="uhlan_b0.png" />
+	<visual class="track" mesh_filename="uhlan_tr.mesh" offset="-1.6 0.1 0.0" >
 		<part texture_filename="uhlan_wh.png" texture_animation="rotate" tire_binding="0" />
+		<part texture_filename="uhlan_b0.png" />
 		<part texture_filename="uhlan_tr.png" texture_animation="translate" tire_binding="0" />
 	</visual>
 
-	<visual class="track" mesh_filename="uhlan_tr.mesh" offset="+1.6 0.5 0.2" >
-		<part texture_filename="uhlan_b0.png" />
+	<visual class="track" mesh_filename="uhlan_tr.mesh" offset="+1.6 0.1 0.0" >
 		<part texture_filename="uhlan_wh.png" texture_animation="rotate" tire_binding="1" />
+		<part texture_filename="uhlan_b0.png" />
 		<part texture_filename="uhlan_tr.png" texture_animation="translate" tire_binding="1" />
 	</visual>
 

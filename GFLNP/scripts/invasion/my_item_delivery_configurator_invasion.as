@@ -159,6 +159,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("uhlan_flare.projectile", "projectile", 1.0f),
 				ScoredResource("sturmtiger_flare.projectile", "projectile", 0.2f),
 				ScoredResource("tiger_flare.projectile", "projectile", 0.2f),
+				ScoredResource("mslb22_flare.projectile", "projectile", 0.03f),
 				ScoredResource("pz4h_flare.projectile", "projectile", 0.5f)
 
 			}

@@ -8,7 +8,7 @@
 
 	<control max_speed="24.0" acceleration="8.0" max_reverse_speed="7.0" min_health_to_steer="0.12" max_rotation="0.7" max_water_depth="1.0" steer_smoothening="0.8" />
 
-	<physics max_health="5.8" mass="4.3" extent="2.5 0.0 4.86" offset="0 0.0 0.475" top_offset="0 4 0" collision_model_pos="0 0.5 0.0" collision_model_extent="3 2.0 7" visual_offset="0 0.4 -0" gravity="-41" preserve_motion_on_impact_factor="1.0" friction_offset="0.0" drag_offset="-0.1" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6" />  
+	<physics max_health="5.8" mass="4.3" extent="2.5 0.0 4.86" offset="0 0.0 0.475" top_offset="0 4 0" collision_model_pos="0 0.5 0.0" collision_model_extent="3 2.0 6.6" visual_offset="0 0.4 -0" gravity="-41" preserve_motion_on_impact_factor="1.0" friction_offset="0.0" drag_offset="-0.1" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6" />  
 
 	<turret offset="0.16 2.40 -0.16" weapon_key="vmg.30.weapon" weapon_offset="0 0.2 0.6" weapon_recoil="0" max_rotation_step="0.0001" rotation_range="1.4"/>
 
@@ -20,9 +20,9 @@
 	<visual class="turret" key="broken" mesh_filename="gaz_turret.mesh" texture_filename="gaz.png" /> -->
 	<visual class="tire" mesh_filename="gaz_wh.mesh" texture_filename="gaz.png" />
 
-	<character_slot type="driver" position="1 0.4 -0.16" rotation="0" exit_rotation="1.57" hiding="1" />
+	<character_slot type="driver" position="1 0.4 0.0" rotation="0" exit_rotation="1.57" hiding="1" />
 	<character_slot type="gunner" attached_on_turret="0" seat_position="0.0 -0.7 -0.9" enter_position="0 0 -2.5" rotation="0"  exit_rotation="-1.57" hiding="0" animation_key="tank mg still" marker_offset="0 0.1 0" />
-	<character_slot type="passenger" position="-1 0.4 -0.16" rotation="-1.57" exit_rotation="-1.57" hiding="1" />
+	<character_slot type="passenger" position="-1 0.4 0.0" rotation="-1.57" exit_rotation="-1.57" hiding="1" />
 
 	<character_slot type="passenger" position="1 0.4 -1.12" rotation="1.57" exit_rotation="1.57" hiding="1" />
 	<character_slot type="passenger" position="-1 0.4 -1.12" rotation="-1.57" exit_rotation="-1.57" hiding="1" />

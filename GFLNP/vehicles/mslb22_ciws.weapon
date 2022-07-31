@@ -25,9 +25,10 @@
     <animation key="hold" ref="32" />
     <animation key="hold_on_wall" ref="1" />
     <animation key="walking" ref="31" />
-    <sound key="fire" fileref="ciws_shot1.wav" pitch_variety="0.05" volume="0.75" />
+    <sound key="fire" fileref="ciws_shot.wav" pitch_variety="0.05" volume="0.75" />
+<!--     <sound key="fire" fileref="ciws_shot1.wav" pitch_variety="0.05" volume="0.75" />
     <sound key="fire" fileref="ciws_shot2.wav" pitch_variety="0.05" volume="0.75" />
-    <sound key="fire" fileref="ciws_shot3.wav" pitch_variety="0.05" volume="0.75" />
+    <sound key="fire" fileref="ciws_shot3.wav" pitch_variety="0.05" volume="0.75" /> -->
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
@@ -35,6 +36,7 @@
 
 
     <effect class="muzzle" ref="muzzle_ciws" />
+    <effect class="muzzle" ref="CIWS_updust" />
     <hud_icon filename="hud_acav_minig.png" />
     <commonness value="0.00" />
     <inventory encumbrance="11.0" price="2.0" />

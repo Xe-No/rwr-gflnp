@@ -201,10 +201,78 @@ class BasicCommandHandler : Tracker {
 			}
 		}
 
-		else if (matchString(paras[0], "action1")) {
+		else if (matchString(paras[0], "pose")) {
 			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
 			int characterId = info.getIntAttribute("character_id");
-			animate(characterId, "jumping jacks", true, true);
+			array<string> actions = {
+				"male action pose",
+				"female laying pose 3",
+				"male laying pose",
+				"female laying pose 5",
+				"female laying pose 4",
+				"male sitting pose 2",
+				"female laying pose 6",
+				"female laying pose",
+				"male sitting pose 3",
+				"female standing pose 2",
+				"female standing pose 3",
+				"female standing pose 4",
+				"male sitting pose 4",
+				"female standing pose 5",
+				"female standing pose 6",
+				"male sitting pose",
+				"female standing pose",
+				"male standing pose",
+				"female dance pose",
+				"female crouch pose",
+				"male action pose 2",
+				"female laying pose 2"
+			};
+			if (pn == 2) {	
+				uint action_i = parseInt(paras[1]);
+				if (action_i >= actions.size()) return;
+				animate(characterId, actions[action_i]);
+			}
+		}
+
+
+		else if (matchString(paras[0], "action")) {
+			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
+			int characterId = info.getIntAttribute("character_id");
+			array<string> actions = {
+				'bicycle crunch',
+				'crouch death',
+				'crouching',
+				'laying seizure',
+				'waving',
+				'waving 2'
+			};
+			if (pn == 2) {	
+				uint action_i = parseInt(paras[1]);
+				if (action_i >= actions.size()) return;
+				animate(characterId, actions[action_i]);
+			}
+		}
+
+		else if (matchString(paras[0], "dance")) {
+			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
+			int characterId = info.getIntAttribute("character_id");
+			array<string> actions = {
+				'jumping jacks',
+				'breakdance flare',
+				'breakdance uprock 1',
+				'breakdance headspin start',
+				'breakdance headspin',
+				'breakdance freeze 1',
+				'breakdance hip hop move',
+				'breakdance footwork 1'
+				'hip hop dancing'
+			};
+			if (pn == 2) {	
+				uint action_i = parseInt(paras[1]);
+				if (action_i >= actions.size()) return;
+				animate(characterId, actions[action_i]);
+			}
 		}
 
 
@@ -1510,7 +1578,7 @@ class BasicCommandHandler : Tracker {
 	}
 
 	// --------------------------------------------
-	void animate(int characterId, string animationKey, bool interruptable = false, bool hideWeapon = false) {
+	void animate(int characterId, string animationKey, bool interruptable = true, bool hideWeapon = true) {
 		XmlElement command("command");
 		command.setStringAttribute("class", "update_character");
 		command.setIntAttribute("id", characterId);
