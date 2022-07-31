@@ -74,7 +74,6 @@ class GFLEquipmentEvent : Tracker {
 				{"portable_mortar.weapon","ssr"},
 				{"javelin_ap.weapon","ssr"},
 				{"gw_qlu11.weapon","ssr"},
-				{"javelin_ap.weapon","ssr"},
 				{"akalfa_defy.weapon","ssr"},
 				{"akalfa_defy_sl.weapon","ssr"},
 				{"ew_microgun_univ.weapon","ssr"},
