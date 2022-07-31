@@ -941,6 +941,16 @@ gw_zb26_4703.weapon
 	<model filename="es_hmtech501.xml"><requirement class="weapon" slot="0" key="ew_hmtech501_hesh.weapon"/></model>
 	<model filename="es_buck.xml"><requirement class="weapon" slot="0" key="ew_c8_sfw.weapon"/></model>
 	<model filename="es_buck.xml"><requirement class="weapon" slot="0" key="ew_c8_12gaugcc.weapon"/></model>
+	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="0" key="ew_hd_mg94.weapon"/></model>
+	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p6_gunslinger.weapon"/><requirement class="weapon" slot="0" key="ew_rx1_railgun_ap.weapon"/></model>
+	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p6_gunslinger.weapon"/><requirement class="weapon" slot="0" key="ew_rx1_railgun_charge.weapon"/></model>
+	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p6_gunslinger.weapon"/><requirement class="weapon" slot="0" key="ew_rumbler.weapon"/></model>
+	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p6_gunslinger_burst.weapon"/><requirement class="weapon" slot="0" key="ew_rx1_railgun_ap.weapon"/></model>
+	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p6_gunslinger_burst.weapon"/><requirement class="weapon" slot="0" key="ew_rx1_railgun_charge.weapon"/></model>
+	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p6_gunslinger_burst.weapon"/><requirement class="weapon" slot="0" key="ew_rumbler.weapon"/></model>
+	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p2_peacemaker.weapon"/><requirement class="weapon" slot="0" key="ew_rx1_railgun_ap.weapon"/></model>
+	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p2_peacemaker.weapon"/><requirement class="weapon" slot="0" key="ew_rx1_railgun_charge.weapon"/></model>
+	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p2_peacemaker.weapon"/><requirement class="weapon" slot="0" key="ew_rumbler.weapon"/></model>
 
 
 <!-- oath -->

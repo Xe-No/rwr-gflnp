@@ -47,6 +47,7 @@
 <projectile file="ar_14b_chaozhongdan.projectile" />
 	<projectile file="at_mine_mk3.projectile" />	
 	<projectile file="at_mine_mk3_trigger.projectile" />	
+	<projectile file="at_mine_mk3_stay.projectile" />
 	<projectile file="at_mine_mk3_damage.projectile" />
 	<projectile file="airdropped_stun_mine_mk3.projectile" />	
 	<projectile file="airdropped_stun_mine_mk3_trigger.projectile" />	

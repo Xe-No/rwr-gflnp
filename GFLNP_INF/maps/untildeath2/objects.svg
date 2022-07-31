@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="10.24"
-     inkscape:cx="1029.3173"
-     inkscape:cy="1027.9697"
+     inkscape:zoom="7.2407734"
+     inkscape:cx="990.17377"
+     inkscape:cy="1036.0463"
      inkscape:document-units="px"
-     inkscape:current-layer="layer14"
+     inkscape:current-layer="layer16"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
@@ -16116,6 +16116,38 @@ see_through = 1;
 climb_type = 1;
 hack1 = 1;</desc>
     </rect>
+    <rect
+       style="display:inline;opacity:1;fill:#008080;fill-opacity:1;stroke:#ffff00;enable-background:new"
+       id="mesh3-9-9-5-4-6-2-55-94-1"
+       width="12"
+       height="12"
+       x="2801.5627"
+       y="1987.708"
+       inkscape:label="#mesh_template">
+      <title
+         id="title33916-8-7-7">flag_pole</title>
+      <desc
+         id="desc6851-7-7-8-4">name = flag_pole; 
+mesh_name = flag_pole.mesh; 
+texture0 = flag_pole.png; 
+collision_model_type = 1; 
+collision_model_size = 6 1 6;
+walkable = 1;</desc>
+    </rect>
+    <rect
+       style="display:inline;opacity:1;fill:#008080;fill-opacity:1;stroke:#ffff00;enable-background:new"
+       id="mesh3-9-9-5-4-6-2-55-94-1-0"
+       width="12"
+       height="12"
+       x="2675.3538"
+       y="1984.7018"
+       inkscape:label="#mesh">
+      <title
+         id="title33916-8-7-9">flag_pole</title>
+      <desc
+         id="desc6851-7-7-8-4-4">template = flag_pole; 
+</desc>
+    </rect>
   </g>
   <g
      style="display:none"
@@ -16411,8 +16443,7 @@ hack1 = 1;</desc>
      style="display:inline"
      inkscape:label="offroad"
      id="layer36"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <path
        style="display:inline;fill:none;stroke:#955f11;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
        d="m 827.74824,1490.7303 -0.23143,-41.8022 -34.43741,-44.4365 -45.42698,-27.5704"
@@ -16457,11 +16488,11 @@ hack1 = 1;</desc>
        sodipodi:nodetypes="cccc" />
     <path
        style="display:inline;fill:none;stroke:#955f11;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-       d="m 869.75421,1135.6533 44.3904,8.1289 35.76211,10.9307 2.79327,23.1837 -42.9212,25.0016 -55.92307,7.2325"
+       d="m 869.75421,1135.6533 46.04768,1.776 18.23976,2.5517 17.79857,6.1693 2.14519,16.7494 1.2005,15.5493 -7.07937,12.6299 -14.2351,7.3354 -25.47372,5.1744 -54.542,6.542"
        id="path16851_navigation-6-8-1-7-6-8-7-2"
        inkscape:connector-curvature="0"
        inkscape:label="#path16851"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="cccccccccc" />
     <path
        style="display:inline;fill:none;stroke:#955f11;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
        d="m 949.30372,990.36501 -17.21925,44.28409 -29.48723,30.6948 -31.61628,14.9665"
@@ -16485,11 +16516,11 @@ hack1 = 1;</desc>
        sodipodi:nodetypes="ccc" />
     <path
        style="display:inline;fill:none;stroke:#955f11;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-       d="m 1161.4358,1221.2795 -41.5088,-14.5384 -23.4278,-21.5206 -3.1801,-20.8889 31.1062,-7.5247 30.5033,-0.814"
+       d="m 1161.4358,1221.2795 -26.689,-5.0938 -20.0679,-7.7873 -18.1797,-23.1779 -0.9704,-20.0603 28.8965,-8.3533 30.5033,-0.814"
        id="path16851_navigation-6-8-1-7-6-8-7-8"
        inkscape:connector-curvature="0"
        inkscape:label="#path16851"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="ccccccc" />
     <path
        style="display:inline;fill:none;stroke:#955f11;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
        d="m 1399.1408,935.86086 49.7686,-17.97407 39.3467,-0.24033 126.4988,2.64178"
@@ -16633,7 +16664,7 @@ capturable =0;</desc>
        transform="matrix(-0.00120682,0.99999927,-0.99999934,-0.001153,0,0)">
       <desc
          id="desc4876-3-1-3-6-4-31-2-11">name=g4;
-faction_index=4;
+faction_index=0;
 capturable =0;</desc>
     </rect>
   </g>
@@ -20030,6 +20061,86 @@ climbable = 0;</desc>
          sodipodi:nodetypes="cc">
         <desc
            id="desc8096-3-8-6-2-2-5-0-1-5-5-7-5-6-8-3-96-2">template = StoneWall1; height = 5.8; wall_height = 0.6; separator_height = 0.4;</desc>
+      </path>
+      <path
+         id="wall69-6-6-7-2-1-4-9-8-1-7-6-70-7-76-7-7-9"
+         style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         d="m 1136.3833,1200.591 -0.081,-11.2153"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc">
+        <desc
+           id="desc8096-3-8-6-2-2-5-0-1-5-5-7-57-6-5-1">template = StoneWall1; height = 1.4; wall_height = 1.2; separator_height = 0.4;
+merge = 1;</desc>
+      </path>
+      <path
+         id="wall69-6-6-7-2-1-4-9-8-1-7-6-70-7-76-7-7-9-6"
+         style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         d="m 1136.3142,1189.4734 -0.081,-11.2153"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc">
+        <desc
+           id="desc8096-3-8-6-2-2-5-0-1-5-5-7-57-6-5-1-0">template = StoneWall1; height = 3.0; wall_height = 1.2; separator_height = 0.4;
+merge = 1;</desc>
+      </path>
+      <path
+         id="wall69-6-6-7-2-1-4-9-8-1-7-6-70-7-76-7-7-9-9"
+         style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         d="m 1136.2451,1178.2868 -0.081,-11.2153"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc">
+        <desc
+           id="desc8096-3-8-6-2-2-5-0-1-5-5-7-57-6-5-1-9">template = StoneWall1; height = 1.4; wall_height = 1.2; separator_height = 0.4;
+merge = 1;</desc>
+      </path>
+      <path
+         id="wall69-6-6-7-2-1-4-9-8-1-7-6-70-7-76-7-7-9-3"
+         style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         d="m 1123.1033,1200.6772 13.3637,-0.081"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc">
+        <desc
+           id="desc8096-3-8-6-2-2-5-0-1-5-5-7-57-6-5-1-6">template = StoneWall1; height = 2.0; wall_height = 1.2; separator_height = 0.4;
+merge = 1;</desc>
+      </path>
+      <path
+         id="wall69-6-6-7-2-1-4-9-8-1-7-6-70-7-76-7-7-9-1"
+         style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         d="m 913.78891,1186.173 -0.081,-11.2153"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc">
+        <desc
+           id="desc8096-3-8-6-2-2-5-0-1-5-5-7-57-6-5-1-2">template = StoneWall1; height = 1.4; wall_height = 1.2; separator_height = 0.4;
+merge = 1;</desc>
+      </path>
+      <path
+         id="wall69-6-6-7-2-1-4-9-8-1-7-6-70-7-76-7-7-9-6-8"
+         style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         d="m 913.71981,1175.0554 -0.081,-11.2153"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc">
+        <desc
+           id="desc8096-3-8-6-2-2-5-0-1-5-5-7-57-6-5-1-0-0">template = StoneWall1; height = 3.0; wall_height = 1.2; separator_height = 0.4;
+merge = 1;</desc>
+      </path>
+      <path
+         id="wall69-6-6-7-2-1-4-9-8-1-7-6-70-7-76-7-7-9-9-3"
+         style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         d="m 913.65071,1163.8688 8.75783,-8.4532"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc">
+        <desc
+           id="desc8096-3-8-6-2-2-5-0-1-5-5-7-57-6-5-1-9-5">template = StoneWall1; height = 1.4; wall_height = 1.2; separator_height = 0.4;
+merge = 1;</desc>
+      </path>
+      <path
+         id="wall69-6-6-7-2-1-4-9-8-1-7-6-70-7-76-7-7-9-3-4"
+         style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         d="m 923.73668,1186.1091 13.3637,-0.081"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc">
+        <desc
+           id="desc8096-3-8-6-2-2-5-0-1-5-5-7-57-6-5-1-6-9">template = StoneWall1; height = 2.0; wall_height = 1.2; separator_height = 0.4;
+merge = 1;</desc>
       </path>
     </g>
     <g
@@ -51276,7 +51387,7 @@ climbable = 0;
            inkscape:label="#path7943_platform"
            inkscape:connector-curvature="0"
            id="platform-9-1-3-8-1-0-88-52"
-           d="m 1319.6769,-17.189533 47.8544,-59.886853"
+           d="m 1319.8596,-17.418566 47.6717,-59.65782"
            style="display:inline;fill:none;stroke:#ff0000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new">
           <desc
              id="desc7945-4-9-9-8-5-4-7-2-2-1-4">type = deck_end; height = 6.6; wall_height = 0.5; wall_template = StoneWall1; top_material = pavement;
@@ -51290,7 +51401,7 @@ no_collision_side1;
            inkscape:label="#path7943_platform"
            inkscape:connector-curvature="0"
            id="path7943-1-0-5-3-8-2-1-4-3-8-8-45"
-           d="m 1244.4941,-77.793094 48.0118,-59.775566"
+           d="m 1244.7525,-78.116996 47.7534,-59.451664"
            style="display:inline;fill:none;stroke:#0000ff;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new">
           <desc
              id="desc7945-3-9-9-0-6-3-1-2-3-6-1-7">type = deck_start;</desc>
@@ -53627,6 +53738,305 @@ alpha_blend = 1;</desc>
          width="6"
          id="rect7651-13-5-8-6-4-4-7-3-9-0-3-2-7-2-4-0-3-8-5-2-0-9-2-1-34-6"
          style="display:inline;opacity:0.79775277;fill:#2cffe7;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new" />
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4"
+         width="4"
+         height="3"
+         x="-1545.0171"
+         y="-511.867"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.88685122,-0.4620551,0.4620551,-0.88685122,0,0)">
+        <desc
+           id="desc17142-2">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-6"
+         width="4"
+         height="3"
+         x="-1081.2439"
+         y="-1210.7122"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.99917305,0.04065975,-0.04065975,-0.99917305,0,0)">
+        <desc
+           id="desc17142-2-6">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7"
+         width="4"
+         height="3"
+         x="-900.67212"
+         y="-1184.5771"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.9995415,0.03027862,-0.03027862,-0.9995415,0,0)">
+        <desc
+           id="desc17142-2-60">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-4"
+         width="4"
+         height="3"
+         x="-905.16516"
+         y="-1184.6157"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.9995415,0.03027862,-0.03027862,-0.9995415,0,0)">
+        <desc
+           id="desc17142-2-60-0">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-4-0"
+         width="4"
+         height="3"
+         x="-1494.6378"
+         y="40.381001"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.60896732,-0.79319531,0.79319531,-0.60896732,0,0)">
+        <desc
+           id="desc17142-2-60-0-8">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1"
+         width="4"
+         height="3"
+         x="-1068.4236"
+         y="922.54004"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.03027862,-0.9995415,0.9995415,-0.03027862,0,0)">
+        <desc
+           id="desc17142-2-60-4">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-9"
+         width="4"
+         height="3"
+         x="-1063.5188"
+         y="922.55042"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.03027862,-0.9995415,0.9995415,-0.03027862,0,0)">
+        <desc
+           id="desc17142-2-60-4-7">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-1"
+         width="4"
+         height="3"
+         x="-1058.8212"
+         y="922.5545"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.03027862,-0.9995415,0.9995415,-0.03027862,0,0)">
+        <desc
+           id="desc17142-2-60-4-4">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-2"
+         width="4"
+         height="3"
+         x="-1054.1235"
+         y="922.55872"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.03027862,-0.9995415,0.9995415,-0.03027862,0,0)">
+        <desc
+           id="desc17142-2-60-4-9">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0"
+         width="4"
+         height="3"
+         x="-703.07697"
+         y="1207.1301"
+         inkscape:label="#rect17140"
+         transform="matrix(0.28736896,-0.95781996,0.95781996,0.28736896,0,0)">
+        <desc
+           id="desc17142-2-60-4-0">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5"
+         width="4"
+         height="3"
+         x="82.096069"
+         y="1392.0406"
+         inkscape:label="#rect17140"
+         transform="matrix(0.76686564,-0.64180767,0.64180767,0.76686564,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4"
+         width="4"
+         height="3"
+         x="938.35992"
+         y="1032.8973"
+         inkscape:label="#rect17140"
+         transform="matrix(0.99973827,-0.02287759,0.02287759,0.99973827,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4-7"
+         width="4"
+         height="3"
+         x="1016.6616"
+         y="960.61005"
+         inkscape:label="#rect17140"
+         transform="matrix(0.99870898,0.05079735,-0.05079735,0.99870898,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6-7">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4-7-6-7"
+         width="4"
+         height="3"
+         x="1005.0668"
+         y="-1114.1738"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.01854562,0.99982802,-0.99982802,-0.01854562,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6-7-9-2">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4-7-6-7-8"
+         width="4"
+         height="3"
+         x="1009.6237"
+         y="-1114.2584"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.01854562,0.99982802,-0.99982802,-0.01854562,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6-7-9-2-7">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4-7-6-7-8-5"
+         width="4"
+         height="3"
+         x="1014.2507"
+         y="-1114.275"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.01854562,0.99982802,-0.99982802,-0.01854562,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6-7-9-2-7-6">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4-7-6-7-8-5-4"
+         width="4"
+         height="3"
+         x="1018.8777"
+         y="-1114.2919"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.01854562,0.99982802,-0.99982802,-0.01854562,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6-7-9-2-7-6-7">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4-7-6-7-8-5-1"
+         width="4"
+         height="3"
+         x="1000.6483"
+         y="-1114.0919"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.01854562,0.99982802,-0.99982802,-0.01854562,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6-7-9-2-7-6-3">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4-7-6-7-8-5-2"
+         width="4"
+         height="3"
+         x="1462.9093"
+         y="-290.40933"
+         inkscape:label="#rect17140"
+         transform="matrix(0.58581855,0.81044224,-0.81044224,0.58581855,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6-7-9-2-7-6-32">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4-7-6-7-8-5-2-1-21"
+         width="4"
+         height="3"
+         x="-1101.1632"
+         y="-1004.3919"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.99993412,-0.0114785,0.0114785,-0.99993412,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6-7-9-2-7-6-32-4-6">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4-7-6-7-8-5-2-1-21-5"
+         width="4"
+         height="3"
+         x="-1096.6863"
+         y="-1004.3762"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.99993412,-0.0114785,0.0114785,-0.99993412,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6-7-9-2-7-6-32-4-6-6">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4-7-6-7-8-5-2-1-21-0"
+         width="4"
+         height="3"
+         x="-1092.1971"
+         y="-1004.3587"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.99993412,-0.0114785,0.0114785,-0.99993412,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6-7-9-2-7-6-32-4-6-3">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;enable-background:new"
+         id="spawn7140-4-7-1-0-5-4-7-6-7-8-5-2-1-21-08"
+         width="4"
+         height="3"
+         x="-1087.6407"
+         y="-1004.48"
+         inkscape:label="#rect17140"
+         transform="matrix(-0.99993412,-0.0114785,0.0114785,-0.99993412,0,0)">
+        <desc
+           id="desc17142-2-60-4-0-1-6-7-9-2-7-6-32-4-6-4">type = vehicle; 
+key = cover1.vehicle;</desc>
+      </rect>
     </g>
     <g
        style="display:inline"
@@ -57268,6 +57678,58 @@ no_collision_start;</desc>
         <title
            id="title9038-5-7-7-4">PARA_RED</title>
       </rect>
+      <rect
+         transform="matrix(0.04510934,-0.99898206,0.99898206,0.04510934,0,0)"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         id="item_supply2-2-4-1-34-61"
+         width="4"
+         height="4"
+         x="-889.82056"
+         y="1571.127"
+         inkscape:label="">
+        <desc
+           id="desc9425-9-0-5-11-7">type = weapon_rack;
+</desc>
+      </rect>
+      <rect
+         transform="matrix(0.02009054,-0.99979816,0.99979816,0.02009054,0,0)"
+         inkscape:label="#mesh"
+         y="1540.6212"
+         x="-929.67084"
+         height="8"
+         width="6"
+         id="mesh3-9-9-5-4-6-2-55-9-2-49"
+         style="display:inline;fill:#800000;fill-opacity:1;stroke:#000000;stroke-width:1;enable-background:new">
+        <title
+           id="title33916-4-4-1">armory</title>
+        <desc
+           id="desc6851-7-7-1-8-7">template = armory;
+</desc>
+      </rect>
+      <rect
+         inkscape:label=""
+         y="-1540.401"
+         x="929.01038"
+         height="4"
+         width="4"
+         id="item_supply2-2-4-8-388-7-0-3-2-0-51-9-9-8-8-7-8-9-7-3-8"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         transform="matrix(-0.01374296,0.99990556,-0.99990556,-0.01374296,0,0)">
+        <desc
+           id="desc19397-9-7-3-5-8-7-7-2-0-6-4-8-6-4-2-39">type = stash;</desc>
+      </rect>
+      <rect
+         inkscape:label=""
+         y="-1475.5922"
+         x="1038.6398"
+         height="4"
+         width="4"
+         id="item_supply2-2-4-8-388-7-0-3-2-0-51-9-9-8-8-7-8-9-7-9-81"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         transform="matrix(0.05173982,0.9986606,-0.9986606,0.05173982,0,0)">
+        <desc
+           id="desc19397-9-7-3-5-8-7-7-2-0-6-4-8-6-4-0-06">type = stash;</desc>
+      </rect>
     </g>
     <g
        inkscape:label="crates"
@@ -58376,6 +58838,162 @@ alpha_blend = 1;</desc>
          id="avoid1-7-7-0-9-5"
          d="m 1124.4465,1861.7041 -49.6976,25.8362 -50.5377,7.3673 -77.82985,-15.6222 -36.78684,-38.4208 0.27948,-53.743 13.05658,-37.9865 18.28823,-67.2386 28.45752,-20.1807 45.21758,-4.4168 60.6181,10.0574 36.413,26.9904 12.9181,66.2807 14.6696,52.1544 z"
          style="display:inline;fill:none;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:url(#Arrow2Mend-912);enable-background:new" />
+      <rect
+         transform="matrix(0.99936897,0.03551974,-0.03551974,0.99936897,0,0)"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         id="item_supply2-2-4-1-34-6"
+         width="4"
+         height="4"
+         x="1401.9551"
+         y="1492.1566"
+         inkscape:label="">
+        <desc
+           id="desc9425-9-0-5-11-4">type = weapon_rack;
+</desc>
+      </rect>
+      <rect
+         transform="matrix(0.99994493,0.01049427,-0.01049427,0.99994493,0,0)"
+         inkscape:label="#mesh"
+         y="1519.0389"
+         x="1363.3633"
+         height="8"
+         width="6"
+         id="mesh3-9-9-5-4-6-2-55-9-2-4"
+         style="display:inline;fill:#800000;fill-opacity:1;stroke:#000000;stroke-width:1;enable-background:new">
+        <title
+           id="title33916-4-4-8">armory</title>
+        <desc
+           id="desc6851-7-7-1-8-9">template = armory;
+</desc>
+      </rect>
+      <rect
+         inkscape:label=""
+         y="-1533.3766"
+         x="-1364.1146"
+         height="4"
+         width="4"
+         id="item_supply2-2-4-8-388-7-0-3-2-0-51-9-9-8-8-7-8-9-7-3-5"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         transform="matrix(-0.99999141,-0.00414595,0.00414595,-0.99999141,0,0)">
+        <desc
+           id="desc19397-9-7-3-5-8-7-7-2-0-6-4-8-6-4-2-0">type = stash;</desc>
+      </rect>
+      <rect
+         inkscape:label=""
+         y="-1618.6893"
+         x="-1250.027"
+         height="4"
+         width="4"
+         id="item_supply2-2-4-8-388-7-0-3-2-0-51-9-9-8-8-7-8-9-7-9-9"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         transform="matrix(-0.99811804,0.06132186,-0.06132186,-0.99811804,0,0)">
+        <desc
+           id="desc19397-9-7-3-5-8-7-7-2-0-6-4-8-6-4-0-7">type = stash;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.04510934,-0.99898206,0.99898206,0.04510934,0,0)"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         id="item_supply2-2-4-1-34-4"
+         width="4"
+         height="4"
+         x="-884.67023"
+         y="486.7366"
+         inkscape:label="">
+        <desc
+           id="desc9425-9-0-5-11-53">type = weapon_rack;
+</desc>
+      </rect>
+      <rect
+         transform="matrix(0.02009054,-0.99979816,0.99979816,0.02009054,0,0)"
+         inkscape:label="#mesh"
+         y="456.69943"
+         x="-897.3797"
+         height="8"
+         width="6"
+         id="mesh3-9-9-5-4-6-2-55-9-2-5"
+         style="display:inline;fill:#800000;fill-opacity:1;stroke:#000000;stroke-width:1;enable-background:new">
+        <title
+           id="title33916-4-4-2">armory</title>
+        <desc
+           id="desc6851-7-7-1-8-8">template = armory;
+</desc>
+      </rect>
+      <rect
+         inkscape:label=""
+         y="-456.70615"
+         x="889.83856"
+         height="4"
+         width="4"
+         id="item_supply2-2-4-8-388-7-0-3-2-0-51-9-9-8-8-7-8-9-7-3-55"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         transform="matrix(-0.01374296,0.99990556,-0.99990556,-0.01374296,0,0)">
+        <desc
+           id="desc19397-9-7-3-5-8-7-7-2-0-6-4-8-6-4-2-3">type = stash;</desc>
+      </rect>
+      <rect
+         inkscape:label=""
+         y="-396.78564"
+         x="928.61377"
+         height="4"
+         width="4"
+         id="item_supply2-2-4-8-388-7-0-3-2-0-51-9-9-8-8-7-8-9-7-9-8"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         transform="matrix(0.05173982,0.9986606,-0.9986606,0.05173982,0,0)">
+        <desc
+           id="desc19397-9-7-3-5-8-7-7-2-0-6-4-8-6-4-0-2">type = stash;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.99964748,0.02655036,-0.02655036,0.99964748,0,0)"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         id="item_supply2-2-4-1-34-7"
+         width="4"
+         height="4"
+         x="1033.8588"
+         y="350.49414"
+         inkscape:label="">
+        <desc
+           id="desc9425-9-0-5-11-9">type = weapon_rack;
+</desc>
+      </rect>
+      <rect
+         transform="matrix(0.99999884,0.00152072,-0.00152072,0.99999884,0,0)"
+         inkscape:label="#mesh"
+         y="368.52069"
+         x="1023.9584"
+         height="8"
+         width="6"
+         id="mesh3-9-9-5-4-6-2-55-9-2-2"
+         style="display:inline;fill:#800000;fill-opacity:1;stroke:#000000;stroke-width:1;enable-background:new">
+        <title
+           id="title33916-4-4-9">armory</title>
+        <desc
+           id="desc6851-7-7-1-8-5">template = armory;
+</desc>
+      </rect>
+      <rect
+         inkscape:label=""
+         y="-380.72668"
+         x="-1032.0205"
+         height="4"
+         width="4"
+         id="item_supply2-2-4-8-388-7-0-3-2-0-51-9-9-8-8-7-8-9-7-3-0"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         transform="matrix(-0.99998835,0.00482776,-0.00482776,-0.99998835,0,0)">
+        <desc
+           id="desc19397-9-7-3-5-8-7-7-2-0-6-4-8-6-4-2-5">type = stash;</desc>
+      </rect>
+      <rect
+         inkscape:label=""
+         y="-446.77307"
+         x="-994.09698"
+         height="4"
+         width="4"
+         id="item_supply2-2-4-8-388-7-0-3-2-0-51-9-9-8-8-7-8-9-7-9-92"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         transform="matrix(-0.99752758,0.07027613,-0.07027613,-0.99752758,0,0)">
+        <desc
+           id="desc19397-9-7-3-5-8-7-7-2-0-6-4-8-6-4-0-0">type = stash;</desc>
+      </rect>
     </g>
     <g
        style="display:inline"
@@ -58614,8 +59232,8 @@ tag = apc;</desc>
          id="spawn1-1-4-2-1-0-9-6-5-4"
          width="3.982286"
          height="7.3961515"
-         x="981.82764"
-         y="454.38983"
+         x="980.79901"
+         y="459.21176"
          inkscape:label=""
          transform="matrix(0.99747504,-0.07101791,0.07101791,0.99747504,0,0)">
         <desc
@@ -58627,8 +59245,8 @@ tag = tank;</desc>
          id="spawn1-1-4-2-1-0-9-6-5-4-8"
          width="3.982286"
          height="7.3961515"
-         x="1046.4678"
-         y="353.96017"
+         x="1046.8909"
+         y="358.53986"
          inkscape:label=""
          transform="matrix(0.99959753,0.02836878,-0.02836878,0.99959753,0,0)">
         <desc
@@ -58715,19 +59333,6 @@ tag = apc;</desc>
       </rect>
       <rect
          style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12.00000106, 12.00000106;stroke-dashoffset:4.60000038;stroke-opacity:1;enable-background:new"
-         id="spawn1-1-4-2-1-0-9-6-5-4-5-8"
-         width="3.982286"
-         height="7.3961515"
-         x="-1350.699"
-         y="-1587.6737"
-         inkscape:label=""
-         transform="matrix(-0.99924526,0.03884458,-0.03884458,-0.99924526,0,0)">
-        <desc
-           id="desc7082-7-0-45-7-94-8-7-0-8-8-4">type = vehicle;
-tag = tank;</desc>
-      </rect>
-      <rect
-         style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12.00000106, 12.00000106;stroke-dashoffset:4.60000038;stroke-opacity:1;enable-background:new"
          id="spawn1-1-4-2-1-0-9-6-5-4-8-9-3"
          width="3.982286"
          height="7.3961515"
@@ -58770,25 +59375,12 @@ tag = apc;</desc>
          id="spawn1-1-4-2-1-0-9-6-5-0"
          width="3.982286"
          height="7.3961515"
-         x="-843.92255"
-         y="-1477.4061"
+         x="-852.52734"
+         y="-1478.0544"
          inkscape:label=""
          transform="matrix(-0.99988051,-0.01545868,0.01545868,-0.99988051,0,0)">
         <desc
            id="desc7082-7-0-45-7-94-8-7-0-1">type = vehicle;
-tag = tank;</desc>
-      </rect>
-      <rect
-         style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12.00000106, 12.00000106;stroke-dashoffset:4.60000038;stroke-opacity:1;enable-background:new"
-         id="spawn1-1-4-2-1-0-9-6-5-3"
-         width="3.982286"
-         height="7.3961515"
-         x="-832.95734"
-         y="-1492.7639"
-         inkscape:label=""
-         transform="matrix(-0.99999392,0.00348648,-0.00348648,-0.99999392,0,0)">
-        <desc
-           id="desc7082-7-0-45-7-94-8-7-0-0">type = vehicle;
 tag = tank;</desc>
       </rect>
       <rect
@@ -58965,6 +59557,18 @@ key = repair_crane.vehicle;</desc>
          transform="matrix(0.99994874,0.01012503,-0.01012503,0.99994874,0,0)">
         <desc
            id="desc7082-7-40-7-0">type = vehicle; key = racing_car1.vehicle;</desc>
+      </rect>
+      <rect
+         transform="matrix(-0.99998415,0.00562951,-0.00562951,-0.99998415,0,0)"
+         inkscape:label=""
+         y="-1495.9552"
+         x="-1343.2448"
+         height="2.7343748"
+         width="2.7343748"
+         id="spawn6969-30-4-9-6-9-5-11-6-8-4-3-8-7-4-0-8"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#800000;stroke-width:1.79999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new">
+        <desc
+           id="desc26444-1-2-5-6-2-5-5-1-9-5-0-6-4-3-15-9">type = vehicle; key = deployable_minig_2.vehicle;</desc>
       </rect>
     </g>
     <g

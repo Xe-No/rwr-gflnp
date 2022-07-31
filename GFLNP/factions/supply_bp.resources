@@ -10,6 +10,8 @@
     <projectile key="ztz99a_flare.projectile" />
     <projectile key="c4.projectile" />
     <projectile key="c4_timer.projectile" />
+<projectile key="at_mine_mk3.projectile" />
+<projectile key="airdropped_stun_mine_mk3.projectile" />	
 
 
     <weapon key="ew_double_freedom_ticket.weapon" enabled="1" /> 

@@ -184,7 +184,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	// ------------------------------------------------------------------------------------------------
 	protected void setupNormalStages() {
 	// addStage(setupViper());          
-    // addStage(setupUntildeath4());
+    // addStage(setupUntildeath2());
 	addStage(setupStage7());          // map6
 	// addStage(setupStage18());         // map13_2
 	addStage(setupStage1());          // map2
@@ -993,19 +993,33 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.addTracker(UntilDeathTimer(m_metagame, stage.m_defenseWinTime));
 		
 		// random faction index
-		int rfi = rand(1, getFactionConfigs().size() - 2);
+		array<int> rfi = randomFactionIndexes(getFactionConfigs().size() - 1, 3);
 
 		{
 			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.3, 0.1));      // was  0.1 0.1 in 1.65
 			stage.m_factions.insertLast(f);
 		}
 		{
-			Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(1, 0.25, 0.05));             // was 0.2 0.1 in 1.65
-			f.m_overCapacity = 60;
+			Faction f(getFactionConfigs()[rfi[0]], createCommanderAiCommand(1, 0.25, 0.05));             // was 0.2 0.1 in 1.65
+			f.m_overCapacity = 25;
 			//f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
-			f.m_capacityOffset = 60;
+			f.m_capacityOffset = 10;
 			stage.m_factions.insertLast(f);
 		}
+		{
+			Faction f(getFactionConfigs()[rfi[1]], createCommanderAiCommand(2, 0.25, 0.05));             // was 0.2 0.1 in 1.65
+			f.m_overCapacity = 40;
+			//f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
+			f.m_capacityOffset = 20;
+			stage.m_factions.insertLast(f);
+		}
+		{
+			Faction f(getFactionConfigs()[rfi[2]], createCommanderAiCommand(3, 0.25, 0.05));             // was 0.2 0.1 in 1.65
+			f.m_overCapacity = 20;
+			//f.m_capacityMultiplier = 0.0001;                                                      // was 1.32 in 1.65, now working with offset only
+			f.m_capacityOffset = 5;
+			stage.m_factions.insertLast(f);
+		}				
 		{
 			// neutral
 			Faction f(getFactionConfigs()[getFactionConfigs().size() - 1], createCommanderAiCommand(2));
@@ -1842,7 +1856,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/red_dawn2";
 		stage.m_mapInfo.m_id = "red_dawn2";
 
-		stage.m_maxSoldiers = 10 * 20;                                             // was 17*7 in 1.65
+		stage.m_maxSoldiers = 8 * 20;                                             // was 17*7 in 1.65
 		stage.m_playerAiCompensation = 4;                                         // was 7 (test4)
         stage.m_playerAiReduction = 2;                                            // was 3 (test2)
     
@@ -1868,8 +1882,8 @@ class StageConfiguratorInvasion : StageConfigurator {
 		}
 		{
 			Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(1, 0.45, 0.2));        // was not set (default) in 1.65
-			f.m_overCapacity = 10;                                              // was 60 (test2) 
-			f.m_capacityOffset = 15;                                               // was 10 in 1.65
+			f.m_overCapacity = 8;                                              // was 60 (test2) 
+			f.m_capacityOffset = 12;                                               // was 10 in 1.65
 			stage.m_factions.insertLast(f);
 		}
 

@@ -7,34 +7,31 @@ slot="0"
 pulldown_in_air="50"
 on_ground_up="0 1 0"
 use_time_to_live="1"
-time_to_live="90"
-time_to_live_out_in_the_open="10"
-drop_count_factor_on_death="1"
+time_to_live="300"
 radius="1.2"
 can_be_disarmed="1"
-can_be_detected_by_footmen="0"
+can_be_detected_by_footmen="1"
 can_be_detected_by_driver="0"
-blast_damage_threshold="8.01"
+blast_damage_threshold="8.1"
 >
 
-	<collision class="sticky" /> 
-	<result class="spawn" instance_class="projectile" instance_key="at_mine_mk3_damage.projectile" 
-			min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />	
+		<collision class="sticky" />
+	<result class="spawn" instance_class="projectile" instance_key="at_mine_mk3_stay.projectile" 
+			min_amount="1" max_amount="1" offset="0 -0.2 0" position_spread="0 0" direction_spread="0 0" />	
     <trigger class="impact">
-     <collider class="terrain" enabled="0" />     
-     <collider class="static_object" enabled="0" /> 
-     <collider class="vehicle" enabled="1" faction_compare="not_equal"/> 
-     <collider class="character" enabled="1" faction_compare="not_equal"/>
+     <collider class="terrain" enabled="1" />     
+     <collider class="static_object" enabled="1" /> 
+     <collider class="vehicle" enabled="1" /> 
+     <collider class="character" enabled="1" />
     </trigger> 
 	
 	<capacity value="0" source="rank" source_value="0" />
-	<capacity value="2" source="rank" source_value="250" />
+	<capacity value="2" source="rank" source_value="0" />
 	<inventory encumbrance="3" price="0.0" />
     <model mesh_filename="at_mine_mk3.xml" />
     <hud_icon filename="at_mine_mk3_single.png" />
 	<commonness value="0.0" can_respawn_with="0" in_stock="0"/>	
 	
-	<sound class="result" key="other" fileref="at_mine_mk3_trigger.wav" pitch_variety="0.01" volume="1" />
     <sound class="result" key="terrain" copy="other" />
     <sound class="result" key="static_object" copy="other" />
     <sound class="result" key="vehicle" copy="other" />
