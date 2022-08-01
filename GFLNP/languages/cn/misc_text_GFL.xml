@@ -173,7 +173,7 @@ calls
 	<text key="GK Sniper Support" text="格里芬狙击支援" />
 	<text key="We need some support, but don't make too much noise." text="请求微声支援，要求隐秘进行" />
 	<text key="Roger, sniper in position." text="了解，狙击手就位" /> sniper-1
-	<text key="I'm not responsible for any accidents okay?" text="“我不会为任何意外事故负责，了解？”" /> sniper-2
+	<text key="I'm not responsible for any accidents okay?" text="“发生什么意外的话我可不管哦？”" /> sniper-2
 
 	<text key="cover drop" text="空投沙袋" />
 	<text key="I need sandbags" text="请求沙袋支援" />

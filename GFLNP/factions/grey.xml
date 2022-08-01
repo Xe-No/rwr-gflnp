@@ -457,7 +457,7 @@
 		</resources>	
 	</soldier>
 	<!-- TEST -->
-		<soldier name="Pilot" firstnames_file="16LAB.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<soldier name="Pilot" firstnames_file="Pilot.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_player.character">
 			<parameter class="detectability_prone" value="0.4" />
 			<parameter class="detectability_wounded" value="0.4" />

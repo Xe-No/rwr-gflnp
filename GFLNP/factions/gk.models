@@ -932,8 +932,8 @@ gw_zb26_4703.weapon
 	<model filename="es_25a2_k.xml"><requirement class="weapon" slot="0" key="ew_25a2_k.weapon"/></model>
 	<model filename="gs_m37_1706.xml"><requirement class="weapon" slot="0" key="gw_m37_1706.weapon"/></model>
 	<model filename="gs_m37_1706.xml"><requirement class="weapon" slot="0" key="gw_m37_1706_run.weapon"/></model>
-	<model filename="gs_naoto_516.xml"><requirement class="weapon" slot="0" key="ew_sig516.weapon"/></model>
-	<model filename="gs_naoto_516.xml"><requirement class="weapon" slot="0" key="ew_sig516_300blk.weapon"/></model>
+	<model filename="gs_naoto_3.xml"><requirement class="weapon" slot="0" key="ew_sig516.weapon"/></model>
+	<model filename="gs_naoto_3.xml"><requirement class="weapon" slot="0" key="ew_sig516_300blk.weapon"/></model>
 	<model filename="gs_m16_astatoz.xml"><requirement class="weapon" slot="0" key="gw_m16_astatoz.weapon"/></model>
 	<model filename="gs_g3_spuhr.xml"><requirement class="weapon" slot="0" key="gw_g3_spuhr.weapon"/></model>
 	<model filename="gs_g3_spuhr.xml"><requirement class="weapon" slot="0" key="gw_g3_spuhr_sniper.weapon"/></model>
