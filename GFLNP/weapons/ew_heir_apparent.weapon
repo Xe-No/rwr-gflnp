@@ -38,7 +38,7 @@
 
     <hud_icon filename="heir_apparent.png" />
     <commonness value="0.0" />
-    <inventory encumbrance="120.0" price="17777.0" />
+    <inventory encumbrance="120.0" price="177.0" />
     <effect class="muzzle" ref="sawsnone" />
     <weak_hand_hold offset="0.4" />
     <projectile file="bullet.projectile">

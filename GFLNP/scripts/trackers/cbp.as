@@ -151,7 +151,7 @@ class GFLEquipmentEvent : Tracker {
 
 		//获取事件物品键值
 		string key = event.getStringAttribute("item_key");	
-		int copyfail = -7000;
+		int copyfail = -20000;
 		int oathfail = -1500;
 		int exchangeRP = -100;
 		if(dict.exists(key)){
@@ -195,8 +195,11 @@ class GFLEquipmentEvent : Tracker {
 						//如果碎片数量大于需要数量，删除需要数量的碎片，获得CB武器
 						if(k1 >= k){
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
+							int check = checkCBP(m_metagame, characterId);
+							if(check >= 0){
 							receiveCB(m_metagame, characterId, "weapon", key);
 							receiveCB(m_metagame, characterId, "weapon", key);
+							}
 						}else{
 							//合成失败返还武器，扣除少量RP，防止靠返还武器故意刷钱
 							receiveCB(m_metagame, characterId, "weapon", key);
@@ -247,10 +250,12 @@ class GFLEquipmentEvent : Tracker {
 
 						//如果碎片数量大于需要数量，删除需要数量的碎片，获得CB武器
 						if(k1 >= k){
-							
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
+							int check = checkCBP(m_metagame, characterId);
+							if(check >= 0){
 							receiveCB(m_metagame, characterId, "weapon", key);
 							receiveCB(m_metagame, characterId, "weapon", key);
+							}
 						}else{
 							//合成失败返还武器，扣除少量RP，防止靠返还武器故意刷钱
 							receiveCB(m_metagame, characterId, "weapon", key);
@@ -302,8 +307,11 @@ class GFLEquipmentEvent : Tracker {
 						//如果碎片数量大于需要数量，删除需要数量的碎片，获得CB武器
 						if(k1 >= k){
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
+							int check = checkCBP(m_metagame, characterId);
+							if(check >= 0){
 							receiveCB(m_metagame, characterId, "weapon", key);
 							receiveCB(m_metagame, characterId, "weapon", key);
+							}
 						}else{
 							//合成失败返还武器，扣除少量RP，防止靠返还武器故意刷钱
 							receiveCB(m_metagame, characterId, "weapon", key);
@@ -388,8 +396,10 @@ class GFLEquipmentEvent : Tracker {
 					k1 = getpartAmount(m_metagame, characterId);
 					if(k1 >= k){
 						deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
+						int check = checkCBP(m_metagame, characterId);
+						if(check >= 0){
 						receiveCB(m_metagame, characterId, "projectile", "oath_core.projectile");
-
+						}
 					}else{
 						receiveCB(m_metagame, characterId, "weapon", key);
 						sendPrivateMessageKey(m_metagame, characterId, "CBpart not enough");
@@ -510,8 +520,25 @@ class GFLEquipmentEvent : Tracker {
 		return itemKey;
 	}
 
+	int checkCBP(Metagame@ metagame, int characterId){
+			const XmlElement@ characterInfo2 = getCharacterInfo2(metagame, characterId);
+			if (characterInfo2 is null){
+				return -1;
+			}
+			array<const XmlElement@>@ equipment = characterInfo2.getElementsByTagName("item");
+			if (equipment.size() == 0){
+				return -1;
+			}
+			string itemKey = equipment[2].getStringAttribute("key");
+			int amount = -1;
+			amount = equipment[2].getIntAttribute("amount") ;
+			if(itemKey == "cb_part.projectile" && amount > 0){
+				return 1;
+			}else{
+				return -1;
+			}
 
-
+	}
 
 
 
