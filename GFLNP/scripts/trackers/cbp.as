@@ -193,7 +193,7 @@ class GFLEquipmentEvent : Tracker {
 						}
 
 						//如果碎片数量大于需要数量，删除需要数量的碎片，获得CB武器
-						if(k1 >= k){
+						if(k1 >= k+1){
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
 							int check = checkCBP(m_metagame, characterId);
 							if(check >= 0){
@@ -249,7 +249,7 @@ class GFLEquipmentEvent : Tracker {
 						}
 
 						//如果碎片数量大于需要数量，删除需要数量的碎片，获得CB武器
-						if(k1 >= k){
+						if(k1 >= k+1){
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
 							int check = checkCBP(m_metagame, characterId);
 							if(check >= 0){
@@ -305,7 +305,7 @@ class GFLEquipmentEvent : Tracker {
 						}
 
 						//如果碎片数量大于需要数量，删除需要数量的碎片，获得CB武器
-						if(k1 >= k){
+						if(k1 >= k+1){
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
 							int check = checkCBP(m_metagame, characterId);
 							if(check >= 0){
@@ -394,7 +394,7 @@ class GFLEquipmentEvent : Tracker {
 				string key3 = getPartKey(m_metagame, characterId);
 				if(key3 == "cb_part.projectile"){
 					k1 = getpartAmount(m_metagame, characterId);
-					if(k1 >= k){
+					if(k1 >= k+1){
 						deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
 						int check = checkCBP(m_metagame, characterId);
 						if(check >= 0){
