@@ -194,8 +194,8 @@ class GFLEquipmentEvent : Tracker {
 
 						//如果碎片数量大于需要数量，删除需要数量的碎片，获得CB武器
 						if(k1 >= k){
-							receiveCB(m_metagame, characterId, "weapon", key);
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
+							receiveCB(m_metagame, characterId, "weapon", key);
 							receiveCB(m_metagame, characterId, "weapon", key);
 						}else{
 							//合成失败返还武器，扣除少量RP，防止靠返还武器故意刷钱
@@ -247,8 +247,9 @@ class GFLEquipmentEvent : Tracker {
 
 						//如果碎片数量大于需要数量，删除需要数量的碎片，获得CB武器
 						if(k1 >= k){
-							receiveCB(m_metagame, characterId, "weapon", key);
+							
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
+							receiveCB(m_metagame, characterId, "weapon", key);
 							receiveCB(m_metagame, characterId, "weapon", key);
 						}else{
 							//合成失败返还武器，扣除少量RP，防止靠返还武器故意刷钱
@@ -300,8 +301,8 @@ class GFLEquipmentEvent : Tracker {
 
 						//如果碎片数量大于需要数量，删除需要数量的碎片，获得CB武器
 						if(k1 >= k){
-							receiveCB(m_metagame, characterId, "weapon", key);
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
+							receiveCB(m_metagame, characterId, "weapon", key);
 							receiveCB(m_metagame, characterId, "weapon", key);
 						}else{
 							//合成失败返还武器，扣除少量RP，防止靠返还武器故意刷钱
