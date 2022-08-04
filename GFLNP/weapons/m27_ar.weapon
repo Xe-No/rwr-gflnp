@@ -9,7 +9,7 @@
   barrel_offset="0.8"
   magazine_size="31" 
   can_shoot_standing="1" 
-  suppressed="0" 
+  suppressed="1" 
   name="M27 IAR" 
   class="0" 
   sight_range_modifier="1.4"
