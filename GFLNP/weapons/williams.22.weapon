@@ -3,8 +3,8 @@
 
 <!-- performance -->    
 	<specification 
-	retrigger_time="0.06" 
-	accuracy_factor="1" 
+	retrigger_time="0.05" 
+	accuracy_factor="1.1" 
 	sustained_fire_grow_step="0.26"
 	sustained_fire_diminish_rate="2" 
 	magazine_size="100" 
@@ -20,12 +20,19 @@
 	</projectile>
 	<modifier class="speed" value="+0.1" /> 
 
-
+    <stance state_key="running" accuracy="0.7" />
+    <stance state_key="walking" accuracy="0.8" />
+    <stance state_key="crouch_moving" accuracy="0.6" />
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="1" />
+    <stance state_key="prone" accuracy="1.05" /> 
+    <stance state_key="prone_moving" accuracy="0.3" />
+    <stance state_key="over_wall" accuracy="1.05" />
 	
 	<weak_hand_hold offset="0.2" />
 
 <!-- art -->	
-	<model filename="gw_m3_greasegun.xml" />
+	<model filename="williams.22.xml" />
 	<hud_icon filename="williams.22.png" />
 	<sound key="fire" fileref="williams.22_shot.wav" pitch_variety="0.05" volume="0.65"/>
 	<sound key="magazine_out" fileref="williams.22_out.wav" />
