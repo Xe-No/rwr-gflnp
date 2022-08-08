@@ -153,7 +153,6 @@ class GFLEquipmentEvent : Tracker {
 		string key = event.getStringAttribute("item_key");	
 		int copyfail = -20000;
 		int oathfail = -1500;
-		int exchangeRP = -100;
 		if(dict.exists(key)){
 			string value = string(dict[key]);
 
@@ -324,17 +323,32 @@ class GFLEquipmentEvent : Tracker {
 				}	
 			}
 		}
-		//CB枪械同类转化功能，暂用于MG4TD与MG4A3TD互相转化
+		//转化功能，根据手雷栏道具进行转化
 		if(dict2.exists(key) && event.getIntAttribute("target_container_type_id") == 1){
+			int k = 0;
 			string v2 = string(dict2[key]);
 			int characterId = event.getIntAttribute("character_id");
 			string key2 = getFunctionKey(m_metagame, characterId);
-
+			string key3 = getPartKey(m_metagame, characterId);
+			array<string> targetKeys = targetWeapons(m_metagame, key3);
 			if(key2 == "blueprint_exchange.weapon"){
+				if(targetKeys.find(key) != -1){
+					k = getpartAmount(m_metagame, characterId);
+					if(k > 0){
+						deletepart(m_metagame, characterId, 1, "projectile", key3);
+						receiveCB(m_metagame, characterId, "weapon", v2);					
+					}else{
+						receiveCB(m_metagame, characterId, "weapon", key);
+						string command = "";
+						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+						m_metagame.getComms().send(command);
+					}
+				}else{
+					receiveCB(m_metagame, characterId, "weapon", key);
 					string command = "";
-					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + exchangeRP + "' />";
+					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
 					m_metagame.getComms().send(command);
-					receiveCB(m_metagame, characterId, "weapon", v2);
+				}
 				
 			}
 		}
@@ -540,6 +554,24 @@ class GFLEquipmentEvent : Tracker {
 
 	}
 
+	array<string> targetWeapons(Metagame@ metagame, string key){
+		
+		if(key == "gw_mg4_marker.projectile"){
+			array<string> result = {
+				"mg4td_ap.weapon",
+				"mg4td_ke.weapon",
+				"mg4a3td.weapon",
+				"mg4a3td_sl.weapon"
+			};
+			return result;
+		}else{
+			array<string> result = {"",""};
+			return result;
+		}
+	
+	
+	
+	}
 
 
 }

@@ -30,7 +30,7 @@
         <animation key="recoil" stance_key="over_wall" ref="14"/>
         <animation state_key="hold" animation_key="hold, mg4"/>
         <animation state_key="hold_casual" animation_key="check_weapon, mg4" />
-        <animation state_key="reload" animation_key="reloading, stoner_lmg"/>
+        <animation state_key="reload" animation_key="reloading, pkm"/>
         <animation key="hold_on_wall" ref="1"/>
         <animation state_key="walking" animation_key="walking"/>
         <animation state_key="crouching" animation_key="crouch, hold, mg4"/>
@@ -123,7 +123,7 @@
         <animation key="recoil" stance_key="over_wall" ref="14"/>
         <animation state_key="hold" animation_key="hold, mg4"/>
         <animation state_key="hold_casual" animation_key="check_weapon, mg4" />
-        <animation state_key="reload" animation_key="reloading, stoner_lmg"/>
+        <animation state_key="reload" animation_key="reloading, pkm"/>
         <animation key="hold_on_wall" ref="1"/>
         <animation state_key="walking" animation_key="walking"/>
         <animation state_key="crouching" animation_key="crouch, hold, mg4"/>

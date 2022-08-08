@@ -315,7 +315,7 @@
 	<call key="jugger_drop.call" />
 	<call key="a10_gun_run.call" />
 	<call key="ac130_gun_run.call" />
-	<call key="f16_missle_run.call" />
+	<!-- <call key="f16_missle_run.call" /> -->
 
 
 	<projectile key="hand_grenade.projectile" />

@@ -3,7 +3,7 @@
 	<call file="all_calls.xml" />
 	<call file="a10_gun_run.call" />
 	<call file="ac130_gun_run.call" />
-	<call file="f16_missle_run.call" />
+	<!-- <call file="f16_missle_run.call" /> -->
 	<call file="apc_1.call" />
 	<call file="artillery_105.call" />
 	<call file="artillery_155.call" />
@@ -13,5 +13,6 @@
 	<call file="drop_pod_crew.call" />
 	<call file="401_yamato.call" />
 	<call file="sniper_call.call" />
+	<call file="a10_gun_run_2.call" />
 
 </calls>

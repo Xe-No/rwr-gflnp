@@ -5,11 +5,8 @@
 	<weapon key="blueprint_exchange.weapon" />
 	<weapon key="blueprint_oath.weapon" />
 	<weapon key="blueprint_oath_core.weapon" />
-    <projectile key="m1128d_flare.projectile" />
+    <projectile key="gw_mg4_marker.projectile" />
     <projectile key="r_vindicator_dive_bomb.projectile" />
-    <projectile key="ztz99a_flare.projectile" />
-    <projectile key="c4.projectile" />
-    <projectile key="c4_timer.projectile" />
 <projectile key="at_mine_mk3.projectile" />
 <projectile key="airdropped_stun_mine_mk3.projectile" />	
 

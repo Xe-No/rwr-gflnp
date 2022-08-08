@@ -104,7 +104,8 @@
 	<model filename="token_takina.xml"><requirement class="projectile" slot="0" key="token_takina.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="gs_mana1.xml"><requirement class="projectile" slot="0" key="token_alicemana.projectile"/><requirement class="rank" range="0 100000000" /></model>
 
-
+<!-- 35 -->
+	<model filename="gs_mg4td_1.xml"><requirement class="projectile" slot="0" key="gw_mg4_marker.projectile"/><requirement class="rank" range="0 100000000" /></model>
 
 	<model filename="ys_sllh.xml"><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
 	<model filename="marisa.xml"><requirement class="weapon" slot="0" key="gw_mk12mod0.weapon"/></model>

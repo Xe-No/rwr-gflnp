@@ -5,9 +5,10 @@
 
 // costume trackers
 #include "ac130x_gun_run.as"
-#include "f16_missle_run.as"
+// #include "f16_missle_run.as"
 #include "heli_gun_run.as"
 #include "ah64_assasin.as"
+#include "a10_gun_run_2.as"
 
 // costume trackers
 #include "redeem_tracker.as"
@@ -51,6 +52,7 @@ class MyGameModeInvasion : GameModeInvasion {
 		addTracker(EmpGrenade(this));
 		addTracker(RepairCrane(this));
 		addTracker(A10GunRun(this));
+		addTracker(A10_2GunRun(this));
 		addTracker(AC130XGunRun(this));
 		addTracker(SquadEquipmentKit(this)); 
 		addTracker(RangeFinder(this)); 
@@ -60,7 +62,7 @@ class MyGameModeInvasion : GameModeInvasion {
 		addTracker(Vindicator(this));
 		addTracker(Ya401GunRun(this));
 		addTracker(HeliGunRun(this));
-		addTracker(F16GunRun(this));	
+		// addTracker(F16GunRun(this));	
  		addTracker(AH64GunRun(this));	
 		addTracker(SnipGunRun(this));	
 		addTracker(RedeemTracker(this));

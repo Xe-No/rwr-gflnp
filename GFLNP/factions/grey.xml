@@ -1446,38 +1446,38 @@
 		</attribute_config>
 	</soldier>    
 
-	<soldier name="supply_bp" spawn_score="6" copy_from="default">
+	<soldier name="supply_bp" spawn_score="0" copy_from="default">
 		<character filename="gk_player.character"/>
 		<ai filename="default.ai" />
 		<resources file="supply_bp.resources"/>
 	</soldier>
 
-	<soldier name="supply_hg" spawn_score="5" copy_from="template_HG">
+	<soldier name="supply_hg" spawn_score="0" copy_from="template_HG">
 		<character filename="gk_player.character"/>
 		<ai filename="default.ai" />
 		<resources file="supply_hg.resources"/>
 	</soldier>  
-	<soldier name="supply_rf" spawn_score="5" copy_from="template_RF">
+	<soldier name="supply_rf" spawn_score="0" copy_from="template_RF">
 		<character filename="gk_player.character"/>
 		<ai filename="default.ai" />
 		<resources file="supply_rf.resources"/>
 	</soldier> 
-	<soldier name="supply_ar" spawn_score="4" copy_from="template_AR">
+	<soldier name="supply_ar" spawn_score="0" copy_from="template_AR">
 		<character filename="gk_player.character"/>
 		<ai filename="default.ai" />
 		<resources file="supply_ar.resources"/>
 	</soldier> 
-	<soldier name="supply_smg" spawn_score="3" copy_from="template_SMG">
+	<soldier name="supply_smg" spawn_score="0" copy_from="template_SMG">
 		<character filename="gk_player.character"/>
 		<ai filename="default.ai" />
 		<resources file="supply_smg.resources"/>
 	</soldier> 
-	<soldier name="supply_mg" spawn_score="2" copy_from="template_MG">
+	<soldier name="supply_mg" spawn_score="0" copy_from="template_MG">
 		<character filename="gk_player.character"/>
 		<ai filename="default.ai" />
 		<resources file="supply_mg.resources"/>
 	</soldier> 
-	<soldier name="supply_sg" spawn_score="1" copy_from="template_SG">
+	<soldier name="supply_sg" spawn_score="0" copy_from="template_SG">
 		<character filename="gk_player.character"/>
 		<ai filename="default.ai" />
 		<resources file="supply_sg.resources"/>
