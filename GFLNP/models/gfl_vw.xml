@@ -85,6 +85,8 @@
 <weapon file="lav6g_hmg.weapon" />
 <weapon file="mslb22_ciws.weapon" />
 <weapon file="mslb22_asm.weapon" />
+<weapon file="m5apc_cannon.weapon" />
+<weapon file="m5apc_mg.weapon" />
     <!-- <weapon file="templax_gl.weapon"/> -->
     <!-- <weapon file="templax_minig.weapon"/> -->
 </weapons>
