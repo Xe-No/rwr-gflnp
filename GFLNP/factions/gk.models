@@ -952,7 +952,9 @@ gw_zb26_4703.weapon
 	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p2_peacemaker.weapon"/><requirement class="weapon" slot="0" key="ew_rx1_railgun_charge.weapon"/></model>
 	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p2_peacemaker.weapon"/><requirement class="weapon" slot="0" key="ew_rumbler.weapon"/></model>
 
-
+<!-- 36 -->
+	<model filename="gs_ar15.xml"><requirement class="weapon" slot="0" key="uw_ar15_beowulf.weapon"/></model>
+	
 <!-- oath -->
 	<model filename="gs_m4a1mod.xml"><requirement class="weapon" slot="0" key="gw_m4a1mod3_oath.weapon"/></model>
 	<model filename="gs_ar15mod.xml"><requirement class="weapon" slot="0" key="gw_ar15mod_sl_oath.weapon"/></model>

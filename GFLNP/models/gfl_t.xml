@@ -204,7 +204,26 @@
 <projectile file="tank_flare.projectile" />
 <projectile file="t14s_flare.projectile" />
 
+<!-- 34 -->
+<projectile file="helldiver_general_bullet.projectile" />
+<projectile file="ew_athena_summon.projectile" />
+<projectile file="ew_athena_laser.projectile" />
+<projectile file="rx1_railgun_ap.projectile" />
+<projectile file="positron_damage.projectile" />
+<projectile file="positron_spawn.projectile" />
 
+<!-- 35 -->
+<projectile file="hk416_starry_cocoon_gl.projectile" />
+<projectile file="ew_hd_mg94.projectile" />
+<projectile file="ew_p6_gunslinger.projectile" />	
+<projectile file="ar_14b_chaozhongdan.projectile" />
+<projectile file="at_mine_mk3.projectile" />	
+<projectile file="at_mine_mk3_trigger.projectile" />	
+<projectile file="at_mine_mk3_stay.projectile" />
+<projectile file="at_mine_mk3_damage.projectile" />
+<projectile file="airdropped_stun_mine_mk3.projectile" />	
+<projectile file="airdropped_stun_mine_mk3_trigger.projectile" />	
+<projectile file="airdropped_stun_mine_mk3_stun.projectile" />
 
 
 

@@ -643,6 +643,39 @@ RE
 <weapon file="vex_positron.weapon" />
 
 
+<!-- 35 -->
+<weapon file="mg4a3td.weapon" />
+<weapon file="ar_14b_1.weapon" />
+<weapon file="ar_14b_2.weapon" />
+<weapon file="ew_hd_mg94.weapon" />
+<weapon file="ew_hd_mg94_ticket.weapon" />
+<weapon file="gw_hk416_starry_cocoon.weapon" />
+<weapon file="gw_hk416_starry_cocoon_gl.weapon" />
+<weapon file="gw_g36c_mod.weapon" />
+<weapon file="gw_jefty_mn1891pu.weapon" />
+<weapon file="m27_ar.weapon" />
+<weapon file="m27_mg.weapon" />
+<weapon file="gw_m37_1706.weapon" />
+<weapon file="gw_m37_1706_run.weapon" />
+<weapon file="ew_p6_gunslinger.weapon" />
+<weapon file="ew_p6_gunslinger_burst.weapon" />
+<weapon file="ew_p6_gunslinger_ticket.weapon" />
+<weapon file="ew_25a2_k.weapon" />
+<weapon file="ew_p2_peacemaker.weapon" />
+<weapon file="ew_p2_peacemaker_ticket.weapon" />
+<weapon file="ew_sig516.weapon" />
+<weapon file="ew_sig516_300blk.weapon" />
+<weapon file="gw_m16_astatoz.weapon" />
+<weapon file="ew_disaster_railgun.weapon" />
+<weapon file="gw_g3_spuhr.weapon" />
+<weapon file="gw_g3_spuhr_sniper.weapon" />
+<weapon file="ew_rx1_railgun_ticket.weapon" />
+<weapon file="ew_rumbler_ticket.weapon" />
+<weapon file="ew_athena_s.weapon" />
+<weapon file="ew_hmtech501.weapon" />
+<weapon file="ew_hmtech501_hesh.weapon" />
+<weapon file="ew_c8_sfw.weapon" />
+<weapon file="ew_c8_12gaugcc.weapon" />
 
 
 

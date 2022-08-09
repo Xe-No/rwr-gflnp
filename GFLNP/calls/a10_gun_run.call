@@ -14,7 +14,7 @@
 	   <sound class="launch" fileref="a10_flyby.wav" volume="2.0"/>
 	</round>
 
-	<round launch_time="5.03"
+	<round launch_time="5.01"
 	   spawn_time="5.03">
 	<sound class="launch" fileref="a10_shots.wav" volume="4.0"/>
 	</round>

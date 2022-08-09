@@ -16,5 +16,7 @@
     <carry_item file="suit_momiji.carry_item" />
     <carry_item file="suit_asuna.carry_item" />
 
+<!-- 36 -->
+    <carry_item file="iotv_vest.carry_item" />	
 
 </carry_items>
