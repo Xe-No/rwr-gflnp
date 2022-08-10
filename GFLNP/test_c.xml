@@ -17,6 +17,12 @@
     <carry_item file="suit_asuna.carry_item" />
 
 <!-- 36 -->
-    <carry_item file="iotv_vest.carry_item" />	
+    <carry_item file="iotv_vest.carry_item" />
+    <carry_item file="gi_sr_weapon_card.carry_item" />
+    <carry_item file="gi_ssr_weapon_card.carry_item" />
+    <carry_item file="gi_ur_weapon_card.carry_item" />
+
+
+
 
 </carry_items>

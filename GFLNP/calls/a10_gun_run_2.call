@@ -11,7 +11,7 @@
 	<round launch_time="2.0"
 	   spawn_time="2.0">
 
-	   <sound class="launch" fileref="a10_flyby.wav" volume="2.0"/>
+	   <sound class="launch" fileref="a10_flyby_2.wav" volume="2.0"/>
 	</round>
 
 	<round launch_time="2.11"

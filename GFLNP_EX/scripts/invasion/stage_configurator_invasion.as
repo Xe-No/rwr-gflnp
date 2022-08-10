@@ -184,7 +184,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	// ------------------------------------------------------------------------------------------------
 	protected void setupNormalStages() {
 	// addStage(setupViper());          
-    // addStage(setupUntildeath2());
+    // addStage(setupRedDawn2());
 	addStage(setupStage7());          // map6
 	// addStage(setupStage18());         // map13_2
 	addStage(setupStage1());          // map2
@@ -1857,7 +1857,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/red_dawn2";
 		stage.m_mapInfo.m_id = "red_dawn2";
 
-		stage.m_maxSoldiers = 8 * 20;                                             // was 17*7 in 1.65
+		stage.m_maxSoldiers = 20 * 10;                                             // was 17*7 in 1.65
 		stage.m_playerAiCompensation = 4;                                         // was 7 (test4)
         stage.m_playerAiReduction = 2;                                            // was 3 (test2)
     
@@ -1883,8 +1883,8 @@ class StageConfiguratorInvasion : StageConfigurator {
 		}
 		{
 			Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(1, 0.45, 0.2));        // was not set (default) in 1.65
-			f.m_overCapacity = 8;                                              // was 60 (test2) 
-			f.m_capacityOffset = 12;                                               // was 10 in 1.65
+			f.m_overCapacity = 80;                                              // was 60 (test2) 
+			f.m_capacityOffset = 15;                                               // was 10 in 1.65
 			stage.m_factions.insertLast(f);
 		}
 
