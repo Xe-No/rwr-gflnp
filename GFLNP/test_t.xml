@@ -37,6 +37,8 @@
 <projectile file="a10_bomb.projectile" />
 <projectile file="gw_mg4_marker.projectile" />
 <projectile file="strike_marker_ah64.projectile" />
+<projectile file="shadow_predation.projectile" />
+<projectile file="tw_scarecrow_fake.projectile" />
 	
 
 </projectiles>

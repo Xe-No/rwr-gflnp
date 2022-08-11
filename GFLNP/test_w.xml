@@ -28,6 +28,10 @@
 <!-- 36 -->
 <weapon file="uw_ar15_beowulf.weapon" />
 <weapon file="jupiter_cannon_luancher.weapon" />
+<weapon file="tw_hunter_hg_ai.weapon" />
+<weapon file="tw_scarecrow.weapon" />
+<weapon file="tw_scarecrow_fake.weapon" />
+
 
 
 </weapons>

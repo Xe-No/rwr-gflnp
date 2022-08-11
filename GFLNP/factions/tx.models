@@ -30,7 +30,9 @@
 
 
 	<model filename="ts_scarecrow.xml" ><requirement class="weapon" slot="0" key="tw_scarecrow.weapon"/></model>
+	<model filename="ts_scarecrow.xml" ><requirement class="weapon" slot="0" key="tw_scarecrow_fake.weapon"/></model>
 	<model filename="ts_executioner.xml" ><requirement class="weapon" slot="0" key="tw_executioner_pistol.weapon"/></model>
+	<model filename="ts_hunter.xml"><requirement class="weapon" slot="0" key="tw_hunter_hg_ai.weapon"/></model>
 
 	<model filename="ts_dragoon.xml" ><requirement class="weapon" slot="0" key="dragoon.weapon"/></model>
 	<model filename="ts_aegis.xml" ><requirement class="weapon" slot="0" key="tw_aegis.weapon"/></model>

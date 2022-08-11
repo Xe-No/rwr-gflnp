@@ -56,6 +56,7 @@
 	DGL 歌利亚 	goliath
 	DSC 侦察者	scout
 	DRK 巡游者	prowler
+	DMJ 捷豹		jaguar
 
 铁血杂兵
 	SMG	切割者 	ripper	
@@ -71,7 +72,8 @@
 	MG2
 
 精英
-	稻草人
+	稻草人	SP65
+	猎手	SP721
 	刽子手
 <!-- 		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1">
 			<weapon key='tw_smg.weapon' />
@@ -154,12 +156,31 @@
 
 
 -----------------Elite
-	<soldier name="ts_scarecrow" spawn_score="0.00" firstnames_file="SF-SP65.name" lastnames_file="serial.name" copy_from="ts_elite">
-		<resources clear_weapons="1" clear_carry_items="1">
+	<soldier name="ts_scarecrow" spawn_score="0.05" firstnames_file="SF-SP65.name" lastnames_file="serial.name" copy_from="ts_elite">
+		<resources clear_weapons="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="tw_scarecrow.weapon" />
-			<carry_item key='base_ar_vest.carry_item'  />
+			<projectile key='shadow_predation.projectile' />
+			<carry_item key='doppelsoldner.carry_item'  />
 		</resources>
-		<attribute_config class="rp"><attribute weight="1.0" min="1000.0" max="3000.0" /></attribute_config>
+		<ai filename="elite_scarecrow.ai" />
+		<attribute_config class="rp"><attribute weight="1.0" min="10000.0" max="30000.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="10.02" max="20.02" /></attribute_config>
+	</soldier>
+	<soldier name="ts_scarecrow_fake" spawn_score="0.00" firstnames_file="SF-SP65.name" lastnames_file="serial.name" copy_from="ts_elite">
+		<resources clear_weapons="1" clear_carry_items="1">
+			<weapon key="tw_scarecrow_fake.weapon" />
+			<carry_item key='vest3.carry_item'  />
+		</resources>
+		<ai filename="suicide.ai" />
+		<attribute_config class="rp"><attribute weight="1.0" min="10000.0" max="30000.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="5.02" max="6.02" /></attribute_config>
+	</soldier>
+	<soldier name="ts_hunter" spawn_score="0.05" firstnames_file="SF-SP721.name" lastnames_file="serial.name" copy_from="ts_elite">
+		<resources clear_weapons="1" clear_carry_items="1">
+			<weapon key="tw_hunter_hg_ai.weapon" />
+			<carry_item key='doppelsoldner.carry_item'  />
+		</resources>
+		<attribute_config class="rp"><attribute weight="1.0" min="10000.0" max="30000.0" /></attribute_config>
 		<attribute_config class="xp"><attribute weight="1.0" min="10.02" max="20.02" /></attribute_config>
 	</soldier>
 
@@ -177,9 +198,9 @@
 
 
 -------------------drone
-	<soldier name="ts_drk" spawn_score="0.05"  firstnames_file="SF-DRK.name" lastnames_file="serial.name" >
-		<!-- <character filename="drone.character" /> -->
-		<character filename="default.character" />
+	<soldier name="ts_drk" spawn_score="0.1"  firstnames_file="SF-DRK.name" lastnames_file="serial.name" >
+		<character filename="drone.character" /> 
+		<!-- <character filename="default.character" /> -->
 		<ai filename="default.ai" >
 			<parameter class="uses_vehicles" value="0" />
 		</ai>
@@ -187,6 +208,31 @@
 
 		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1">
 			<weapon key='tw_drk.weapon' />
+			<projectile key='selfstun.projectile' />
+			<!-- <carry_item key='base_vest_mg.carry_item' /> -->
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.5" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp"><attribute weight="1.0" min="0.0" max="0.0" /></attribute_config>
+		<attribute_config class="xp"><attribute weight="1.0" min="0.0" max="0.0" /></attribute_config>
+	</soldier>
+
+	<soldier name="ts_dmj" spawn_score="0.05"  firstnames_file="SF-DMJ.name" lastnames_file="serial.name" >
+		<!-- <character filename="drone.character" /> -->
+		<character filename="tx_jaguar.character" />
+		<ai filename="default.ai" >
+			<parameter class="uses_vehicles" value="0" />
+		</ai>
+		<model filename="ts_jaguar.xml" />
+
+		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1">
+			<weapon key='tw_jaguar.weapon' />
 			<projectile key='selfstun.projectile' />
 			<!-- <carry_item key='base_vest_mg.carry_item' /> -->
 		</resources>

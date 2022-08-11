@@ -166,7 +166,7 @@
 			<projectile key="l333_flare.projectile" />
 			<projectile key="pz4h_flare.projectile" />
 			<call key="a10_gun_run.call" />
-			<call key="f16_missle_run.call" />
+			<!-- <call key="f16_missle_run.call" /> -->
 			<call key="ac130_gun_run.call" />
 			<call key="buggy.call" enabled="0"/>
 			<call key="humvee.call" enabled="0"/>
@@ -201,7 +201,7 @@
 			<projectile key="l333_flare.projectile" />
 			<projectile key="pz4h_flare.projectile" />
 			<call key="a10_gun_run.call" />
-			<call key="f16_missle_run.call" />
+			<!-- <call key="f16_missle_run.call" /> -->
 			<call key="ac130_gun_run.call" />
 			<call key="buggy.call" enabled="0"/>
 			<call key="humvee.call" enabled="0"/>
