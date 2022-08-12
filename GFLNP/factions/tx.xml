@@ -176,10 +176,12 @@
 		<attribute_config class="xp"><attribute weight="1.0" min="5.02" max="6.02" /></attribute_config>
 	</soldier>
 	<soldier name="ts_hunter" spawn_score="0.05" firstnames_file="SF-SP721.name" lastnames_file="serial.name" copy_from="ts_elite">
-		<resources clear_weapons="1" clear_carry_items="1">
+		<resources clear_weapons="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="tw_hunter_hg_ai.weapon" />
+			<projectile key='capturers_aim.projectile' />
 			<carry_item key='doppelsoldner.carry_item'  />
 		</resources>
+		<ai filename="elite_scarecrow.ai" />
 		<attribute_config class="rp"><attribute weight="1.0" min="10000.0" max="30000.0" /></attribute_config>
 		<attribute_config class="xp"><attribute weight="1.0" min="10.02" max="20.02" /></attribute_config>
 	</soldier>

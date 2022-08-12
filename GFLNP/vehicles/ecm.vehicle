@@ -1,4 +1,4 @@
-<vehicle name="ECM marker" key="ecm.vehicle" map_view_atlas_index="9" jams_enemy_radio="1" protectors="0"  usable_for_cover="0" time_to_live="50.0">
+<vehicle name="ECM marker" key="ecm.vehicle" map_view_atlas_index="9" jams_enemy_radio="1" protectors="0"  usable_for_cover="0" time_to_live="60.0">
 	<tire_set offset="0.1 0.0 0.1" radius="0.1" />
 	<tire_set offset="0.1 0.0 -0.1" radius="0.1" />
 

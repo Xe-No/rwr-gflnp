@@ -447,6 +447,8 @@
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key='med_pistol_revive.weapon' />
 			<weapon key='med_pistol_armor.weapon' />
+			<weapon key='gw_mp9_med.weapon' />
+			<weapon key='gw_mp9_med_gl.weapon' />
 			<projectile key="medic_grenade.projectile" />
 			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_t4_exo.carry_item" enabled="1"/>

@@ -16,7 +16,8 @@
 <weapon file="pzc_upgrade_fix.weapon" />
 <weapon file="gw_emp_launcher.weapon" />
 <weapon file="hvy_repair_armor.weapon" />
-
+<weapon file="gw_mp9_med.weapon" />
+<weapon file="gw_mp9_med_gl.weapon" />
 
 <!-- CBP -->
 <weapon file="base_blue_print.weapon" />

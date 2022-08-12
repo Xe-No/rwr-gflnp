@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="sticky bomb" key="ew_sticky_bomb.projectile" slot="1" pulldown_in_air="8.0">
+<projectile class="grenade" name="sticky bomb" key="ew_sticky_bomb.projectile" slot="1" pulldown_in_air="52.0">
 
-    <result class="spawn" instance_class="projectile" instance_key="ew_sticky_bomb_blast.projectile" min_amount="5" max_amount="5" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+    <result class="spawn" instance_class="projectile" instance_key="ew_sticky_bomb_blast.projectile" min_amount="2" max_amount="5" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
     <collision class="sticky" />
     <trigger class="remote_detonate" />
     
