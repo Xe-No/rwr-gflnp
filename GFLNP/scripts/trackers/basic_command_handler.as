@@ -226,7 +226,8 @@ class BasicCommandHandler : Tracker {
 				"female dance pose",
 				"female crouch pose",
 				"male action pose 2",
-				"female laying pose 2"
+				"female laying pose 2",
+				"prone, orga"
 			};
 			if (pn == 2) {	
 				uint action_i = parseInt(paras[1]);

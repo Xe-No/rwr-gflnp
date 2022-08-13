@@ -4,7 +4,7 @@
     <trigger class="impact" />
     <rotation class="motion" />
 
-    <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
+    <model mesh_filename="40mm.mesh" texture_filename="40mm.png" damage_origin_vehicle="0" />
 
     <sound class="result" key="other" fileref="ricochet_b1.wav" />
     <sound class="result" key="terrain" copy="other" />
