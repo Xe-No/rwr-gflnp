@@ -554,9 +554,7 @@ RE
 <weapon file="gw_iws2000_banisher_fsds.weapon" />
 <weapon file="gw_iws2000_banisher_he.weapon" />
 <weapon file="gw_ak308.weapon" />
-<weapon file="c12_mg.weapon" />
-<weapon file="c12_msl.weapon" />
-<weapon file="c12_rg.weapon" />
+
 
 <weapon file="pw_strelet.weapon" />
 <weapon file="rodelero.weapon" />

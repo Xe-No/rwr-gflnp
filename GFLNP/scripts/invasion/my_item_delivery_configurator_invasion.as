@@ -460,13 +460,13 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 
 		array<array<ScoredResource@>> rewardPasses = {
 			{
-		ScoredResource("costume_butcher.carry_item", "carry_item", 5.0f),  		
-        ScoredResource("costume_lizard.carry_item", "carry_item", 5.0f),
-        ScoredResource("costume_underpants.carry_item", "carry_item", 5.0f),       
-        ScoredResource("costume_banana.carry_item", "carry_item", 5.0f),
-        ScoredResource("costume_underpants.carry_item", "carry_item", 5.0f),
-        ScoredResource("camo_vest.carry_item", "carry_item", 5.0f), 
-		ScoredResource("token_4th.projectile", "projectile", 5.0f, 1), 
+		ScoredResource("16lab_x4_exo.carry_item", "carry_item", 5.0f, 5),  		
+        ScoredResource("42lab_uc_exo.carry_item", "carry_item", 5.0f, 5),
+        ScoredResource("16lab_t4_exo.carry_item", "carry_item", 5.0f, 5),       
+        ScoredResource("16lab_optical_camo_cloak.carry_item", "carry_item", 5.0f, 5),
+        ScoredResource("16lab_t4_bp.carry_item", "carry_item", 5.0f, 5),
+        ScoredResource("camo_vest.carry_item", "carry_item", 5.0f, 5), 
+		ScoredResource("cb_part.projectile", "projectile", 5.0f), 
 		ScoredResource("dooms_hammer.projectile", "projectile", 5.0f, 5),       
 		ScoredResource("gi_ssr_weapon_card.carry_item", "carry_item", 18.0f),
 		ScoredResource("gi_ur_weapon_card.carry_item", "carry_item", 6.0f),	  

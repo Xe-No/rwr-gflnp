@@ -78,9 +78,6 @@
 
 	<!-- <model filename="us_general.xml"><requirement class="rank" range="100 10000" /></model> -->
 
--------------C12-----------------
-	<model filename="c12_c.xml"><requirement class="weapon" slot="0" key="c12_mg.weapon"/></model>	
-	<model filename="c12_c.xml"><requirement class="weapon" slot="0" key="c12_msl.weapon"/></model>
-	<model filename="c12_c.xml"><requirement class="weapon" slot="0" key="c12_rg.weapon"/></model>
+
 
 </models>
