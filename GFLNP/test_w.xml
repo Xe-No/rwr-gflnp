@@ -32,6 +32,12 @@
 <weapon file="tw_hunter_hg_ai.weapon" />
 <weapon file="tw_scarecrow.weapon" />
 <weapon file="tw_scarecrow_fake.weapon" />
+<weapon file="gw_g41r.weapon" />
+<weapon file="gw_g41r_s.weapon" />
+<weapon file="naoto_rpl20.weapon" />
+<weapon file="naoto_rpl20_d.weapon" />
+<weapon file="ew_annihilator_grenade_launcher.weapon" />
+<weapon file="ew_annihilator_grenade_launcher_ticket.weapon" />
 
 
 

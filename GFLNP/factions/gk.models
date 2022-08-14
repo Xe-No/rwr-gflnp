@@ -954,6 +954,13 @@ gw_zb26_4703.weapon
 
 <!-- 36 -->
 	<model filename="gs_ar15.xml"><requirement class="weapon" slot="0" key="uw_ar15_beowulf.weapon"/></model>
+	<model filename="gs_g41r_black.xml"><requirement class="weapon" slot="0" key="gw_g41r.weapon"/></model>
+	<model filename="gs_g41r_white.xml"><requirement class="weapon" slot="0" key="gw_g41r_s.weapon"/></model>
+	<model filename="gs_naoto_luca.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
+	<model filename="gs_naoto_luca.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
+	<model filename="gs_naoto_c4.xml"><requirement class="weapon" slot="0" key="naoto_rpl20.weapon"/></model>
+	<model filename="gs_naoto_c4.xml"><requirement class="weapon" slot="0" key="naoto_rpl20_d.weapon"/></model>	
+	<model filename="es_ceremonial.xml"><requirement class="weapon" key="ew_annihilator_grenade_launcher.weapon" slot="0" /></model>
 	
 <!-- oath -->
 	<model filename="gs_m4a1mod.xml"><requirement class="weapon" slot="0" key="gw_m4a1mod3_oath.weapon"/></model>
