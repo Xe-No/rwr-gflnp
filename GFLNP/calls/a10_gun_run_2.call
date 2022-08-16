@@ -5,7 +5,7 @@
 	initiation_comment1="Requesting Strafing gun."
 	acknowledge_comment="Roger."
 	radio_view_text="A-10 Strafing run" 
-	launch_comment="This is Thunder II,solid copy on all."
+	launch_comment="4-3 ,this is Thunder II,one second."
 	show_target_marker="0">
 	
 	<round launch_time="2.0"

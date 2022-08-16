@@ -6,6 +6,7 @@
 	<weapon key="blueprint_oath.weapon" />
 	<weapon key="blueprint_oath_core.weapon" />
     <projectile key="gw_mg4_marker.projectile" />
+    <projectile key="naoto_marker.projectile" />
     <projectile key="r_vindicator_dive_bomb.projectile" />
 <projectile key="at_mine_mk3.projectile" />
 <projectile key="airdropped_stun_mine_mk3.projectile" />	
@@ -17,4 +18,5 @@
 	<weapon key="ew_p2_peacemaker_ticket.weapon" enabled="1" /> 
 	<weapon key="ew_rx1_railgun_ticket.weapon" enabled="1" /> 
 	<weapon key="ew_rumbler_ticket.weapon" enabled="1" />    
+	<weapon key="ew_annihilator_grenade_launcher_ticket.weapon" enabled="1" /> 
 </resources>

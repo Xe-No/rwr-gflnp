@@ -151,6 +151,9 @@ token_medic.projectile
 <projectile name="Inoue Takina[RE]" file="token_stun.projectile" key="token_takina.projectile"  >
 	<hud_icon filename="token_takina.png" />
 </projectile>
+<projectile name="Shokuhou Misaki[RE]" file="token_stun.projectile" key="token_shokuhou_misaki.projectile"  >
+	<hud_icon filename="token_shokuhou_misaki.png" />
+</projectile>
 
 <!-- Fisrt Aid -->
 <projectile name="Medic[RE]" file="token_frist_aid.projectile" key="token_medic.projectile"  >
@@ -165,6 +168,9 @@ token_medic.projectile
 </projectile>
 <projectile name="Elaina[RE]" file="token_c4.projectile" key="token_elaina.projectile"  >
 	<hud_icon filename="token_elaina.png" />
+</projectile>
+<projectile name="NEKO ZERO[RE]" file="token_c4.projectile" key="token_neko_zero.projectile"  >
+	<hud_icon filename="token_neko_zero.png" />
 </projectile>
 
 

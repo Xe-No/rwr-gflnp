@@ -184,6 +184,9 @@ re token
 	<projectile key="token_raiden_mei.projectile" />
 	<projectile key="token_takina.projectile" />
 	<projectile key="token_alicemana.projectile" />
+	<projectile key="token_iruru_fire.projectile" />
+	<projectile key="token_shokuhou_misaki.projectile" />
+	<projectile key="token_neko_zero.projectile" />
 
 oath
   	<weapon key="gw_ar15mod_sl_oath.weapon" />

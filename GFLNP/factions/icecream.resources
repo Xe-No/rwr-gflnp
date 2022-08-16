@@ -37,5 +37,6 @@
 	<weapon key="ew_p2_peacemaker_ticket.weapon" enabled="1" /> 
 	<weapon key="ew_rx1_railgun_ticket.weapon" enabled="1" /> 
 	<weapon key="ew_rumbler_ticket.weapon" enabled="1" /> 
+	<weapon key="ew_annihilator_grenade_launcher_ticket.weapon" enabled="1" /> 
 
 </resources>

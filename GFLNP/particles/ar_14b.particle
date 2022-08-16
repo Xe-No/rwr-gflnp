@@ -126,6 +126,32 @@ material ar14b_lasergreen	: arb_add_base
         }
     }
 }
+material ar14b_lasergreen_2	: arb_add_base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture laser_black.png
+            }
+        }
+    }
+}
+material ar14b_green_muzzle	: arb_add_base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture muzzle_green.png
+            }
+        }
+    }
+}
 
 particle_system arbxue_01		
 {
@@ -279,8 +305,8 @@ particle_system arb_xingxing_1
     {
 	quota 1000
 	material arb_xingxing
-	particle_width 1.5
-	particle_height	1.5
+	particle_width 1.2
+	particle_height	1.2
 	cull_each false
 	renderer billboard
 	billboard_rotation_type vertex
@@ -491,5 +517,104 @@ particle_system arb_xinzhimofang_1
 	{
 		force_vector 0 -4 0
 		force_application add
+	}
+}
+particle_system arb_xingxing_2
+{
+	quota 2000
+	emit_emitter_quota 10000
+	material arb_xingxing
+	particle_width 1
+	particle_height 1
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_origin center
+	billboard_type point
+	emitter Point
+	{
+		angle 90
+		colour 1 1 1 0.5
+		direction 0 1 0
+		emission_rate 250
+		position 0 0 0
+		velocity_min 2
+		velocity_max 4
+		time_to_live_min 0.5
+		time_to_live_max 1
+		duration 0.5
+		emit_emitter ar1
+	}
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 0.5
+		direction 0 1 0
+		emission_rate 500
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.03
+		duration 3
+		name ar1
+	}
+	affector ColourFader2
+	{
+		red1	0
+		green1	0
+		blue1	0
+		alpha1	0
+		red2	0
+		green2	0
+		blue2	0
+		alpha2	-10
+		state_change   1
+	}
+		affector Scaler
+	{
+		rate -0.8
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start	-20
+		rotation_speed_range_end	20
+		rotation_range_start	0
+		rotation_range_end	20
+	}
+}
+particle_system ar14b_green_muzzle_flame
+{
+	material ar14b_green_muzzle
+	particle_width 3
+	particle_height 3
+	quota 1000
+	cull_each false
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+	billboard_origin center
+	billboard_rotation_type texcoord
+	point_rendering false
+	accurate_facing false
+
+	emitter Box
+	{
+		position 0 0 0
+		direction 0 0 0
+		angle 0
+		emission_rate 150
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		velocity_min 1
+		velocity_max 8
+		time_to_live 0.1
+		duration_min 0.05
+		duration_max 0.05
+		repeat_delay_min 0
+		repeat_delay_max 0
+		width 0.25
+		height 0.25
+		depth 0.2
 	}
 }

@@ -307,6 +307,9 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("token_raiden_mei.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_takina.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_alicemana.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_iruru_fire.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_shokuhou_misaki.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_neko_zero.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_sangonomiya_kokomi.projectile", "projectile", 1.0f, 2)
 			}
 		};
@@ -336,6 +339,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("gold_bar.carry_item", "carry_item", 1.0f),
 		ScoredResource("fal_leina.weapon", "weapon", 1.0f),	
 		ScoredResource("gw_type64.weapon", "weapon", 1.0f),	
+		ScoredResource("gw_g41r.weapon", "weapon", 2.0f),	//2X UP 0.36
 		ScoredResource("gw_jefty_mn1891pu.weapon", "weapon", 2.0f),	//2X UP 0.35
 		ScoredResource("gw_supershorty.weapon", "weapon", 1.0f)      
 			},
@@ -387,6 +391,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		ScoredResource("cigars.carry_item", "carry_item", 1.0f),
 		ScoredResource("gw_mk23.weapon", "weapon", 1.0f),
 		ScoredResource("gw_type64.weapon", "weapon", 1.0f),	
+		ScoredResource("gw_g41r.weapon", "weapon", 2.0f),	//2X UP 0.36
 		ScoredResource("honey_badger.weapon", "weapon", 1.0f),
 		ScoredResource("m60e4.weapon", "weapon", 1.0f),
 		ScoredResource("gift_box_3.carry_item", "carry_item", 1.0f)         
@@ -457,7 +462,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		array<Resource@> deliveryList = {
 			 Resource("gift_box_community_1.carry_item", "carry_item")
 		};
-
+		//CB1
 		array<array<ScoredResource@>> rewardPasses = {
 			{
 		ScoredResource("16lab_x4_exo.carry_item", "carry_item", 5.0f, 5),  		
@@ -669,9 +674,11 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("ew_disaster_railgun.weapon", "weapon", 2.0f),	//2x up 0.35
 				ScoredResource("ar_14b_1.weapon", "weapon", 2.0f),	//2x up 0.35
 				ScoredResource("gw_hk416_starry_cocoon.weapon", "weapon", 2.0f),		//2X UP 0.35
+				ScoredResource("ew_megumin_wand_float.weapon", "weapon", 2.0f),		//2X UP 0.36
 				ScoredResource("kf2_seekersix_ap.weapon", "weapon", 1.0f),	 
         		ScoredResource("ace_of_spades.weapon", "weapon", 1.0f),
-				ScoredResource("ew_rpl20.weapon", "weapon", 1.0f),	
+				ScoredResource("ew_rpl20.weapon", "weapon", 0.5f),		//共享出率RPL
+				ScoredResource("naoto_rpl20.weapon", "weapon", 0.5f),		//共享出率RPL
 				ScoredResource("ew_heir_apparent.weapon", "weapon", 1.0f),	
 				ScoredResource("tkb059.weapon", "weapon", 1.0f),
 	    		ScoredResource("gw_kaluo.weapon", "weapon", 1.0f),        
@@ -690,11 +697,6 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 			ItemDeliveryObjective(m_metagame, 0, deliveryList, m_itemDeliveryOrganizer, null, "", "", "", -1 /* loop */, rewarder)
 			);
 	}
-
-	// ----------------------------------------------------
-		
-		//setupSSRcard(); 
-		//setupURcard(); 
 
 
 

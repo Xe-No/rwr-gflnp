@@ -15,6 +15,7 @@
   class="0" 
   reload_one_at_a_time="0" 
   sight_range_modifier="1.4" 
+  use_basic_muzzle_smoke_effect="0"
   projectile_speed="200.0" 
   barrel_offset="0.6" 
   projectiles_per_shot="1" 
@@ -77,6 +78,8 @@
         <effect class="activated" ref="arb_xingxing_1" />
     </projectile>
     
+	<effect class="muzzle" ref="ar14b_green_muzzle_flame" />
+	
     <stance state_key="running" accuracy="0.6" />
     <stance state_key="walking" accuracy="0.85" />
     <stance state_key="crouch_moving" accuracy="0.6" />

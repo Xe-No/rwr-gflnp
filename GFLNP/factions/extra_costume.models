@@ -97,15 +97,21 @@
 	<model filename="es_grey_cat.xml"><requirement class="projectile" slot="0" key="token_grey_cat.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="kurumi_wedding.xml"><requirement class="projectile" slot="0" key="token_kurumi_wedding.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="gs_bullet.xml"><requirement class="projectile" slot="0" key="token_douzi.projectile"/><requirement class="rank" range="0 100000000" /></model>
-	<model filename="es_hoshina_suzu252.xml"><requirement class="projectile" slot="0" key="token_252.projectile"/><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="1" key="microgun.weapon"/>/></model>
+	<model filename="es_hoshina_suzu252.xml"><requirement class="projectile" slot="0" key="token_252.projectile"/><requirement class="rank" range="0 100000000" /><requirement class="weapon" slot="1" key="microgun.weapon"/></model>
 
 <!-- 35 -->
 	<model filename="token_raiden_mei.xml"><requirement class="projectile" slot="0" key="token_raiden_mei.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="token_takina.xml"><requirement class="projectile" slot="0" key="token_takina.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="gs_mana1.xml"><requirement class="projectile" slot="0" key="token_alicemana.projectile"/><requirement class="rank" range="0 100000000" /></model>
 
-<!-- 35 -->
+<!-- 36 -->
 	<model filename="gs_mg4td_1.xml"><requirement class="projectile" slot="0" key="gw_mg4_marker.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_iruru.xml"><requirement class="projectile" key="token_iruru_fire.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_iruru_break.xml"><requirement class="projectile" key="token_iruru_fire.projectile" slot="0" /><requirement class="weapon" slot="1" key="medikit.weapon"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_iruru_break.xml"><requirement class="projectile" key="token_iruru_fire.projectile" slot="0" /><requirement class="weapon" slot="1" key="medikit_ai_2.weapon"/><requirement class="rank" range="0 100000000" /></model>	
+	<model filename="token_shokuhou_misaki.xml"><requirement class="projectile" key="token_shokuhou_misaki.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
+	<model filename="token_neko_zero.xml"><requirement class="projectile" key="token_neko_zero.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
+
 
 	<model filename="ys_sllh.xml"><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
 	<model filename="marisa.xml"><requirement class="weapon" slot="0" key="gw_mk12mod0.weapon"/></model>

@@ -125,7 +125,10 @@ class GFLEquipmentEvent : Tracker {
 				{"mg4td_ap.weapon","mg4a3td.weapon"},
 				{"mg4td_ke.weapon","mg4a3td_sl.weapon"},
 				{"mg4a3td.weapon","mg4td_ap.weapon"},
-				{"mg4a3td_sl.weapon","mg4td_ke.weapon"}
+				{"mg4a3td_sl.weapon","mg4td_ke.weapon"},
+				{"ew_rpl20.weapon","naoto_rpl20.weapon"},
+				{"naoto_rpl20.weapon","ew_rpl20.weapon"},
+				{"naoto_rpl20_d.weapon","ew_rpl20.weapon"}
 		};
 		dictionary dict3 = {
 				{"gw_ar15mod_sl.weapon","gw_ar15mod_sl_oath.weapon"},
@@ -562,6 +565,13 @@ class GFLEquipmentEvent : Tracker {
 				"mg4td_ke.weapon",
 				"mg4a3td.weapon",
 				"mg4a3td_sl.weapon"
+			};
+			return result;
+		}else if(key == "naoto_marker.projectile"){
+			array<string> result = {
+				"ew_rpl20.weapon",
+				"naoto_rpl20.weapon",
+				"naoto_rpl20_d.weapon"
 			};
 			return result;
 		}else{

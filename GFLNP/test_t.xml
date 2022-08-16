@@ -41,6 +41,14 @@
 <projectile file="tw_scarecrow_fake.projectile" />
 <projectile file="capturers_aim.projectile" />
 <projectile file="capturers_aim_blast.projectile" />
+<projectile file="naoto_marker.projectile" />
+<projectile file="token_iruru_fire.projectile" />	
+<projectile file="token_iruru_fire_sub.projectile" />	
+<projectile file="wand_guiding_01.projectile" />
+<projectile file="wand_droping_02.projectile" />
+<projectile file="wand_waiting_03.projectile" />
+<projectile file="wand_damage_04.projectile" />
+
 	
 
 </projectiles>

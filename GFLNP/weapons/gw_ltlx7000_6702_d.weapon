@@ -12,7 +12,7 @@
     class="0" 
     reload_one_at_a_time="1" 
     sight_range_modifier="1.0" 
-    projectile_speed="120.0" 
+    projectile_speed="130.0" 
     projectiles_per_shot="18"
      />
     <next_in_chain key="gw_ltlx7000_6702.weapon" share_ammo="0"/>

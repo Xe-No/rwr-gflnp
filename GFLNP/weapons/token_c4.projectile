@@ -17,7 +17,7 @@
     <capacity value="4" source="rank" source_value="10.0" />
 
     <!-- appearance -->
-    <model mesh_filename="grenade.xml" />
+    <model mesh_filename="c4.mesh" texture_filename="c4.png" />
     <hud_icon filename="hud_grenade.png" />
 
     <!-- sound -->

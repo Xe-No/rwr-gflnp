@@ -1,0 +1,6 @@
+<trail key="ar14blasergreen_2" 
+material="ar14b_lasergreen_2" 
+trail_length="1" 
+intensity_range="0.8 0.1" 
+initial_width_range="0.1 0.1"
+width_change="1" />

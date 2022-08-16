@@ -38,7 +38,8 @@
 <weapon file="naoto_rpl20_d.weapon" />
 <weapon file="ew_annihilator_grenade_launcher.weapon" />
 <weapon file="ew_annihilator_grenade_launcher_ticket.weapon" />
-
+<weapon file="ew_megumin_wand_float.weapon" />
+<weapon file="ew_megumin_wand_summon.weapon" />
 
 
 </weapons>
