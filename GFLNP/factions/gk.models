@@ -967,6 +967,18 @@ gw_zb26_4703.weapon
 	<model filename="es_ceremonial.xml"><requirement class="weapon" key="ew_annihilator_grenade_launcher.weapon" slot="0" /></model>
 	<model filename="megumin.xml"><requirement class="weapon" key="ew_megumin_wand_float.weapon" slot="0" /></model>
 	<model filename="megumin.xml"><requirement class="weapon" key="ew_megumin_wand_summon.weapon" slot="0" /></model>
+	<model filename="gs_derringer.xml"><requirement class="weapon" key="gw_derringer.weapon" slot="0" /></model>
+	<model filename="gs_fedorov.xml"><requirement class="weapon" key="gw_fedorov.weapon" slot="0" /></model>
+	<model filename="gs_kolibri.xml"><requirement class="weapon" key="gw_kolibri.weapon" slot="0" /></model>
+	<model filename="gs_s99.xml"><requirement class="weapon" key="gw_s99.weapon" slot="0" /></model>
+	<model filename="gs_vp1915.xml"><requirement class="weapon" key="gw_vp1915.weapon" slot="0" /></model>
+	<model filename="es_sc_ghost.xml"><requirement class="weapon" key="ew_c10.weapon" slot="0" /></model>
+	<model filename="gs_type80.xml"><requirement class="weapon" key="gw_type80.weapon" slot="0" /></model>
+	<model filename="gs_type80.xml"><requirement class="weapon" key="gw_type80_n.weapon" slot="0" /></model>
+	<model filename="gs_lee_enfield_10.xml"><requirement class="weapon" key="gw_lee_enfield_10.weapon" slot="0" /></model>
+	<model filename="gs_lee_enfield_10.xml"><requirement class="weapon" key="gw_lee_enfield_10_burstshots.weapon" slot="0" /></model>
+	<model filename="gs_hrg_bastion.xml"><requirement class="weapon" key="gw_hrg_bastionshell.weapon" slot="0" /></model>
+	<model filename="gs_hrg_bastion.xml"><requirement class="weapon" key="gw_hrg_bastion.weapon" slot="0" /></model>	
 
 <!-- oath -->
 	<model filename="gs_m4a1mod.xml"><requirement class="weapon" slot="0" key="gw_m4a1mod3_oath.weapon"/></model>

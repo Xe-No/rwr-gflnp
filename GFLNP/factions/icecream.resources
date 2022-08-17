@@ -31,6 +31,7 @@
 	<weapon key="f2000.weapon" enabled="1" />
 	<weapon key="xm8.weapon" enabled="1" />
 	<weapon key="aks74u.weapon" enabled="1" />
+	<weapon key="ew_fsfa.weapon" enabled="1" />
 	<weapon key="ew_double_freedom_ticket.weapon" enabled="1" /> 
 	<weapon key="ew_hd_mg94_ticket.weapon" enabled="1" /> 
 	<weapon key="ew_p6_gunslinger_ticket.weapon" enabled="1" /> 

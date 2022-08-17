@@ -1,37 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
 <weapon key="mg4a3td.weapon" />
-<weapon key="ew_hd_mg94.weapon" />
-<weapon key="ew_hd_mg94_ticket.weapon" />
+<weapon key="gw_mp9_med.weapon" />
+<weapon key="uw_ar15_beowulf.weapon" />
 <weapon key="gw_hk416_starry_cocoon.weapon" />
-<weapon key="gw_g36c_mod.weapon" />
-<weapon key="gw_jefty_mn1891pu.weapon" />
+<weapon key="ew_sticky_bomb.weapon" />
+<weapon key="hvy_repair_armor.weapon" />
 <weapon key="m27_ar.weapon" />
 <weapon key="gw_m37_1706.weapon" />
-<weapon key="ew_p6_gunslinger.weapon" />
-<weapon key="ew_p6_gunslinger_burst.weapon" />
-<weapon key="ew_p6_gunslinger_ticket.weapon" />
-<weapon key="ew_25a2_k.weapon" />
-<weapon key="ew_p2_peacemaker.weapon" />
-<weapon key="ew_p2_peacemaker_ticket.weapon" />
-<weapon key="ew_sig516.weapon" />
-<weapon key="gw_m16_astatoz.weapon" />
-<weapon key="ew_disaster_railgun.weapon" />
-<weapon key="gw_g3_spuhr.weapon" />
+<weapon key="ew_c10.weapon" />
+<weapon key="jupiter_cannon_luancher.weapon" />
+<weapon key="gw_g41r.weapon" />
+<weapon key="naoto_rpl20.weapon" />
+<weapon key="ew_annihilator_grenade_launcher.weapon" />
+<weapon key="ew_annihilator_grenade_launcher_ticket.weapon" />
+<weapon key="ew_megumin_wand_float.weapon" />
+<weapon key="gw_vp1915.weapon" />
+<weapon key="gw_s99.weapon" />
+<weapon key="gw_kolibri.weapon" />
 <weapon key="ar_14b_1.weapon" />
+<weapon key="gw_fedorov.weapon" />
+<weapon key="gw_derringer.weapon" />
+<weapon key="ew_fsfa.weapon" />
+<weapon key="gw_type80.weapon" />
+<weapon key="gw_lee_enfield_10.weapon" />
+<weapon key="gw_hrg_bastion.weapon" />
+<weapon key="emmmmm_f.weapon" />
 <weapon key="ew_hmtech501.weapon" />
-<weapon key="ew_c8_sfw.weapon" />
 
+<carry_item key="iotv_vest.carry_item" />
+<carry_item key="gi_sr_weapon_card.carry_item" />
+<carry_item key="gi_ssr_weapon_card.carry_item" />
+<carry_item key="gi_ur_weapon_card.carry_item" />
 	
-<projectile key="otom.projectile" />
-<projectile key="jupiter_buggy.projectile" />
-<projectile key="bmdk17.projectile" />
-<projectile key="humve1.projectile" />
-<projectile key="m113apc.projectile" />
+<projectile key="naoto_marker.projectile" />
+<projectile key="gw_mg4_marker.projectile" />
+<projectile key="strike_marker_ah64.projectile" />
+<projectile key="strike_marker.projectile" />
+<projectile key="capturers_aim.projectile" />
 
 <projectile key="at_mine_mk3.projectile" />
-<projectile key="airdropped_stun_mine_mk3.projectile" />
-
+<projectile key="airdropped_stun_mine_mk3.projectile" />	
 
 
 

@@ -4,15 +4,16 @@
 	    accuracy_factor="0.98" 
 	    barrel_offset="0.45" 
 	    can_shoot_standing="1" 
-	    class="0"
+	    class="4"
+	    burst_shots="1"
             slot="0" 
 	    magazine_size="17" 
-	    name="XM177" 
-	    projectile_speed="140.0" 
-	    retrigger_time="0.075" 
+	    name="XM177[Stopping Power Semiauto]" 
+	    projectile_speed="177.0" 
+	    retrigger_time="0.177" 
 	    suppressed="1" 
 	    sustained_fire_diminish_rate="1.77" 
-	    sustained_fire_grow_step="0.17"
+	    sustained_fire_grow_step="0.34"
 	    />
 
   <next_in_chain key="xm177e2.weapon" share_ammo="0" />
@@ -33,10 +34,12 @@
     <model filename="xm177.xml" />
     <hud_icon filename="xm177.png" />
     <commonness value="0.0" />
-    <inventory encumbrance="10.0" price="177.0" />
+    <inventory encumbrance="15.0" price="177.0" />
 
     <projectile file="bullet.projectile">
-        <result class="hit"  kill_probability="1.53" kill_decay_start_time="0.4" kill_decay_end_time="0.6" />
+        <result class="hit"  kill_probability="1.77" kill_decay_start_time="0.35" kill_decay_end_time="0.7" />
+        <sound class="result" key="character" fileref="hit_marker.wav" pitch_variety="1.0" volume="1.5" />
+        <trail probability="1.0" key="laser_red"/>
     </projectile>
 
     <stance state_key="running" accuracy="0.77" />
