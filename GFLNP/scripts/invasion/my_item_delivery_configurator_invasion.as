@@ -207,7 +207,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("summon_targetdrone.projectile", "projectile", 1.0f, 5),
 				ScoredResource("gw_red_knife.weapon", "weapon", 1.0f),	
 				ScoredResource("gw_castanas.weapon", "weapon", 1.0f),
-				ScoredResource("gw_corinth.weapon", "weapon", 2.0f),	//2X up 0.34
+				ScoredResource("gw_corinth.weapon", "weapon", 1.0f),	
+				ScoredResource("ew_martini_henry.weapon", "weapon", 2.0f),	//2X up 0.36
 				ScoredResource("gw_m4a1_pinkglassheart.weapon", "weapon", 1.0f)
 			}
 		};
@@ -310,6 +311,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("token_iruru_fire.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_shokuhou_misaki.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_neko_zero.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_api.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_angelia.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_sangonomiya_kokomi.projectile", "projectile", 1.0f, 2)
 			}
 		};
@@ -608,6 +611,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("m27_ar.weapon", "weapon", 2.0f),		//2x up  0.35
 				ScoredResource("ew_sig516.weapon", "weapon", 2.0f),		//2x up  0.35
 				ScoredResource("ew_25a2_k.weapon", "weapon", 2.0f),		//2x up 0.35
+				ScoredResource("ew_mk18cqb_hkykn.weapon", "weapon", 2.0f),		//2x up 0.36
+				ScoredResource("ew_chameleon.weapon", "weapon", 2.0f),		//2x up 0.36
 				ScoredResource("gw_ak308.weapon", "weapon", 1.0f),	
 				ScoredResource("williams.22.weapon", "weapon", 1.0f),
 				ScoredResource("ew_n_mp5k.weapon", "weapon", 1.0f),	
@@ -676,6 +681,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_hk416_starry_cocoon.weapon", "weapon", 2.0f),		//2X UP 0.35
 				ScoredResource("ew_megumin_wand_float.weapon", "weapon", 2.0f),		//2X UP 0.36
 				ScoredResource("gw_hrg_bastion.weapon", "weapon", 2.0f),		//2X UP 0.36
+				ScoredResource("ew_hongxue_1.weapon", "weapon", 2.0f),		//2X UP 0.36
 				ScoredResource("kf2_seekersix_ap.weapon", "weapon", 1.0f),	 
         		ScoredResource("ace_of_spades.weapon", "weapon", 1.0f),
 				ScoredResource("ew_rpl20.weapon", "weapon", 0.5f),		//共享出率RPL

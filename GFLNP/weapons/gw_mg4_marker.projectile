@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="MG-4 Mode Transducer" key="gw_mg4_marker.projectile" pulldown_in_air="26" slot="0" radius="0.15" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="90.0">
+<projectile class="grenade" name="MG-4 Mode Transducer" key="gw_mg4_marker.projectile" pulldown_in_air="26" slot="0" radius="0.15" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="90.0" can_be_detected_by_driver="0" can_be_detected_by_footmen="0">
     <tag name="grenade" />
 
     <result class="spawn" instance_class="call" instance_key="a10_gun_run_2.call"  min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0 0" direction_spread="0 0" />

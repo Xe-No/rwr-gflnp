@@ -154,6 +154,9 @@ token_medic.projectile
 <projectile name="Shokuhou Misaki[RE]" file="token_stun.projectile" key="token_shokuhou_misaki.projectile"  >
 	<hud_icon filename="token_shokuhou_misaki.png" />
 </projectile>
+<projectile name="A-Pi[RE]" file="token_stun.projectile" key="token_api.projectile"  >
+	<hud_icon filename="token_api.png" />
+</projectile>
 
 <!-- Fisrt Aid -->
 <projectile name="Medic[RE]" file="token_frist_aid.projectile" key="token_medic.projectile"  >
@@ -171,6 +174,15 @@ token_medic.projectile
 </projectile>
 <projectile name="NEKO ZERO[RE]" file="token_c4.projectile" key="token_neko_zero.projectile"  >
 	<hud_icon filename="token_neko_zero.png" />
+</projectile>
+<projectile name="Angelia[RE]" file="token_c4.projectile" key="token_angelia.projectile"  >
+	<model mesh_file="collapse.xml" />
+	<hud_icon filename="token_angelia.png"/>
+</projectile>
+<projectile name="Dima[C4]" file="token_c4.projectile" key="token_dima.projectile" can_be_disarmed="1" time_to_live_out_in_the_open="90.0">
+	<hud_icon filename="token_dima.png"/>
+    	<commonness value="0.0" in_stock="1" can_respawn_with="0" />
+   	<inventory encumbrance="2.0" price="25.0" />
 </projectile>
 
 

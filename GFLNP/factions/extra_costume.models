@@ -111,6 +111,9 @@
 	<model filename="es_iruru_break.xml"><requirement class="projectile" key="token_iruru_fire.projectile" slot="0" /><requirement class="weapon" slot="1" key="medikit_ai_2.weapon"/><requirement class="rank" range="0 100000000" /></model>	
 	<model filename="token_shokuhou_misaki.xml"><requirement class="projectile" key="token_shokuhou_misaki.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
 	<model filename="token_neko_zero.xml"><requirement class="projectile" key="token_neko_zero.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
+	<model filename="token_api.xml"><requirement class="projectile" key="token_api.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
+	<model filename="token_angelia.xml"><requirement class="projectile" key="token_angelia.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
+	<model filename="token_dima.xml"><requirement class="projectile" key="token_dima.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
 
 
 	<model filename="ys_sllh.xml"><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>

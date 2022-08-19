@@ -7,9 +7,10 @@
 	<weapon key="blueprint_oath_core.weapon" />
     <projectile key="gw_mg4_marker.projectile" />
     <projectile key="naoto_marker.projectile" />
+	<projectile key="token_dima.projectile" />
     <projectile key="r_vindicator_dive_bomb.projectile" />
-<projectile key="at_mine_mk3.projectile" />
-<projectile key="airdropped_stun_mine_mk3.projectile" />	
+	<projectile key="at_mine_mk3.projectile" />
+	<projectile key="airdropped_stun_mine_mk3.projectile" />	
 
 
     <weapon key="ew_double_freedom_ticket.weapon" enabled="1" /> 

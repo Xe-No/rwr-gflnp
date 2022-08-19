@@ -19,7 +19,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.1" />
-		<modifier class="speed" value="-0.15" />
+		<modifier class="speed" value="-0.1" />
 	</carry_item>
     <carry_item key="hvy_vest_2" name="HVY Armor 11/12" slot="1" transform_on_consume="hvy_vest_3" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
         <hud_icon filename="hvy_vest_10.png" />
@@ -40,7 +40,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.1" />
-		<modifier class="speed" value="-0.15" />
+		<modifier class="speed" value="-0.1" />
     </carry_item>
     <carry_item key="hvy_vest_3" name="HVY Armor 10/12" slot="1" transform_on_consume="hvy_vest_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
         <hud_icon filename="hvy_vest_9.png" />
@@ -61,7 +61,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.1" />
-		<modifier class="speed" value="-0.15" />
+		<modifier class="speed" value="-0.1" />
     </carry_item>
     <carry_item key="hvy_vest_4" name="HVY Armor 9/12" slot="1" transform_on_consume="hvy_vest_5" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
         <hud_icon filename="hvy_vest_8.png" />
@@ -82,7 +82,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.1" />
-		<modifier class="speed" value="-0.15" />
+		<modifier class="speed" value="-0.1" />
     </carry_item>
 	<carry_item key="hvy_vest_5" name="HVY Armor 8/12" slot="1" transform_on_consume="hvy_vest_6" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="hvy_vest_7.png" />
@@ -103,7 +103,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.1" />
-		<modifier class="speed" value="-0.15" />
+		<modifier class="speed" value="-0.1" />
 	</carry_item>
 	<carry_item key="hvy_vest_6" name="HVY Armor 7/12" slot="1" transform_on_consume="hvy_vest_7" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="hvy_vest_6.png" />
@@ -124,7 +124,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.1" />
-		<modifier class="speed" value="-0.15" />
+		<modifier class="speed" value="-0.1" />
 	</carry_item>
 	<carry_item key="hvy_vest_7" name="HVY Armor 6/12" slot="1" transform_on_consume="hvy_vest_8" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="hvy_vest_5.png" />
@@ -145,7 +145,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.1" />
-		<modifier class="speed" value="-0.15" />
+		<modifier class="speed" value="-0.1" />
 	</carry_item>
 	<carry_item key="hvy_vest_8" name="HVY Armor 5/12" slot="1" transform_on_consume="hvy_vest_9" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="hvy_vest_4.png" />
@@ -166,7 +166,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.1" />
-		<modifier class="speed" value="-0.2" />
+		<modifier class="speed" value="-0.15" />
 	</carry_item>
 	<carry_item key="hvy_vest_9" name="HVY Armor 4/12" slot="1" transform_on_consume="hvy_vest_10" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="hvy_vest_3.png" />
@@ -187,7 +187,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.1" />
-		<modifier class="speed" value="-0.2" />
+		<modifier class="speed" value="-0.15" />
 	</carry_item>
 	<carry_item key="hvy_vest_10" name="HVY Armor 3/12" slot="1" transform_on_consume="hvy_vest_11" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="hvy_vest_2.png" />
@@ -208,7 +208,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.1" />
-		<modifier class="speed" value="-0.2" />
+		<modifier class="speed" value="-0.15" />
 	</carry_item>
 	<carry_item key="hvy_vest_11" name="HVY Armor 2/12" slot="1" transform_on_consume="hvy_vest_12" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="hvy_vest_1.png" />
@@ -229,7 +229,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.15" />
-		<modifier class="speed" value="-0.25" />
+		<modifier class="speed" value="-0.2" />
 	</carry_item>
 	<carry_item key="hvy_vest_12" name="HVY Armor destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="hvy_vest_0.png" />
@@ -249,6 +249,6 @@
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
 		<modifier class="hit_success_probability" value="-1.0" />
 		<modifier class="detectability" value="0.15" />
-		<modifier class="speed" value="-0.25" />
+		<modifier class="speed" value="-0.2" />
 	</carry_item>
 </carry_items>

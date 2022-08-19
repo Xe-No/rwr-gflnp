@@ -119,7 +119,16 @@ class GFLEquipmentEvent : Tracker {
 				{"ew_hmtech501.weapon","sr"},
 				{"ew_hmtech501_hesh.weapon","sr"},
 				{"gw_m37_1706.weapon","ssr"},
-				{"gw_m37_1706_run.weapon","ssr"}
+				{"gw_m37_1706_run.weapon","ssr"},
+				{"ew_megumin_wand_float.weapon","ur"},
+				{"ew_megumin_wand_summon.weapon","ur"},
+				{"gw_hrg_bastion.weapon","ur"},
+				{"gw_hrg_bastionshell.weapon","ur"},
+				{"ew_hongxue_1.weapon","ur"},
+				{"ew_hongxue_2.weapon","ur"},
+				{"ew_mk18cqb_hkykn.weapon","ssr"},
+				{"ew_mk18cqb_hkykn_slug.weapon","ssr"},
+				{"ew_chameleon.weapon","ssr"}
 		};
 		dictionary dict2 = {
 				{"mg4td_ap.weapon","mg4a3td.weapon"},
@@ -147,7 +156,18 @@ class GFLEquipmentEvent : Tracker {
 				{"sv98_mod.weapon","sv98_mod_oath.weapon"},
 				{"sv98_mod_ap.weapon","sv98_mod_ap_oath.weapon"},
 				{"gw_ntw20mod3.weapon","gw_ntw20mod3_oath.weapon"},
-				{"gw_ntw20mod3_he.weapon","gw_ntw20mod3_he_oath.weapon"}
+				{"gw_ntw20mod3_he.weapon","gw_ntw20mod3_he_oath.weapon"},
+				{"gw_g41_bp2064.weapon","gw_g41_bp2064_oath.weapon"},
+				{"gw_g41_bp2064_sg.weapon","gw_g41_bp2064_sg_oath.weapon"},
+				{"gw_hk416mod.weapon","gw_hk416mod_oath.weapon"},
+				{"gw_hk416mod_gl.weapon","gw_hk416mod_gl_oath.weapon"},
+				{"gw_9a91_1302.weapon","gw_9a91_1302_oath.weapon"},
+				{"gw_ksvk_mod.weapon","gw_ksvk_mod_oath.weapon"},
+				{"gw_ksvk_mod_f.weapon","gw_ksvk_mod_f_oath.weapon"},
+				{"gw_ppsh41_mod.weapon","gw_ppsh41_mod_oath.weapon"},
+				{"gw_ltlx7000_6101_b.weapon","gw_ltlx7000_6101_b_oath.weapon"},
+				{"gw_ltlx7000_6101_r.weapon","gw_ltlx7000_6101_r_oath.weapon"}
+
 		};
 
 

@@ -53,5 +53,13 @@
 <weapon file="gw_lee_enfield_10_burstshots.weapon" />
 <weapon file="gw_hrg_bastion.weapon" />
 <weapon file="gw_hrg_bastionshell.weapon" />
+<weapon file="tw_jaguar.weapon" />
+<weapon file="ew_mk18cqb_hkykn.weapon" />
+<weapon file="ew_mk18cqb_hkykn_slug.weapon" />
+<weapon file="ew_chameleon.weapon" />
+<weapon file="ew_hongxue_1.weapon" />
+<weapon file="ew_hongxue_2.weapon" />
+<weapon file="ew_martini_henry.weapon" />
+<weapon file="ew_martini_henry_bt.weapon" />
 
 </weapons>

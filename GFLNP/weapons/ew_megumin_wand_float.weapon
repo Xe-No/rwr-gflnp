@@ -42,7 +42,7 @@
     <animation state_key="next_in_chain_in" animation_key="" />
     <animation state_key="next_in_chain_out" animation_key="" />
      
-    <sound key="fire" fileref="wand_float_fire.wav" pitch_variety="0.00"  volume="2" />
+    <sound key="fire" fileref="wand_float_fire.wav" pitch_variety="0.00"  volume="1" />
 
     <sound key="cycle" fileref="potion_open.wav" pitch_variety="0.00"  volume="4"/>
     <sound key="magazine_out" fileref="potion_open.wav" pitch_variety="0.00"  volume="4"/>

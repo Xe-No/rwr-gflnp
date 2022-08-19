@@ -27,11 +27,17 @@
 <weapon key="gw_hrg_bastion.weapon" />
 <weapon key="emmmmm_f.weapon" />
 <weapon key="ew_hmtech501.weapon" />
+<weapon key="ew_mk18cqb_hkykn.weapon" />
+<weapon key="ew_chameleon.weapon" />
+<weapon key="ew_hongxue_1.weapon" />
+<weapon key="ew_martini_henry.weapon" />
+
 
 <carry_item key="iotv_vest.carry_item" />
 <carry_item key="gi_sr_weapon_card.carry_item" />
 <carry_item key="gi_ssr_weapon_card.carry_item" />
 <carry_item key="gi_ur_weapon_card.carry_item" />
+<carry_item key="hvy_vest.carry_item" />
 	
 <projectile key="naoto_marker.projectile" />
 <projectile key="gw_mg4_marker.projectile" />

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_cb.weapon" key="ew_mk18cqb_hkykn.weapon">
+    <specification 
+		retrigger_time="0.08" 
+		accuracy_factor="1.0" 
+		sustained_fire_grow_step="0.2" 
+        sustained_fire_diminish_rate="1.44" 
+		magazine_size="35" 
+		can_shoot_standing="1" 
+		suppressed="1" 
+		name="MK18CQB[HEAVYSLUG]" 
+		class="0" 
+		projectile_speed="150.0"
+        sight_range_modifier="1.10" 
+		barrel_offset="0.5"/>
+
+        <next_in_chain key="ew_mk18cqb_hkykn_slug.weapon" share_ammo="0" />
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, m16a4" />
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+    <sound key="fire" fileref="mk18cqb_shoot.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="magazine_out" fileref="mk18cqb_clip_out.wav" volume="1.1"  />
+    <sound key="magazine_in" fileref="mk18cqb_clip_in.wav" volume="1.1" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <control key="effect" value="1" />
+    <model filename="ew_mk18cqb_hkykn.xml" />
+    <hud_icon filename="ew_mk18cqb_hkykn.png" />
+    <commonness value="1.0" can_respawn_with="0" />
+   <inventory encumbrance="10.0" price="500.0" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit"  kill_probability="1.50" kill_decay_start_time="0.30" kill_decay_end_time="0.55" />
+         <trail key="laser_black"/>
+    </projectile>
+
+
+    <modifier class="speed" value="0" />
+
+    <stance state_key="running" accuracy="0.4" />
+    <stance state_key="walking" accuracy="0.675" />
+    <stance state_key="crouch_moving" accuracy="0.75" />
+    <stance state_key="prone_moving" accuracy="0.3" />
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.95" />
+    <stance state_key="prone" accuracy="1.0" />  
+
+
+
+</weapon>

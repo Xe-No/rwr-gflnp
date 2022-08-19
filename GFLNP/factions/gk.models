@@ -246,9 +246,6 @@
 
 	<model filename="gs_mg42.xml"><requirement class="weapon" slot="0" key="mg42.weapon"/></model>
 	<model filename="gs_mg42.xml"><requirement class="weapon" slot="0" key="mg42_n.weapon"/></model>
-
-	<model filename="gs_mg4_mod.xml"><requirement class="weapon" slot="0" key="gw_mg4_mod.weapon"/></model>
-	<model filename="gs_mg4_mod.xml"><requirement class="weapon" slot="0" key="gw_mg4_mod_n.weapon"/></model>
 	
 	<model filename="gs_ump40.xml"><requirement class="weapon" slot="0" key="ump40.weapon"/></model>
 
@@ -510,25 +507,9 @@
     <model filename="gs_vector_549.xml"><requirement class="weapon" slot="0" key="gw_vector_549_f.weapon"/></model>
     <model filename="gs_vector_agent.xml"><requirement class="weapon" slot="0" key="gw_vector_agent.weapon"/></model>
 
-    <model filename="gs_mg4.xml"><requirement class="weapon" slot="0" key="gw_mg4.weapon"/></model>
-    <model filename="gs_mg4.xml"><requirement class="weapon" slot="0" key="gw_mg4_n.weapon"/></model>
     <model filename="gs_mg4_ammoschool.xml"><requirement class="weapon" slot="0" key="gw_mg4_ammoschool.weapon"/></model>
     <model filename="gs_mg4_ammoschool.xml"><requirement class="weapon" slot="0" key="gw_mg4_ammoschool_n.weapon"/></model>
 
-    <model filename="gs_mg4td.xml"><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
-    <model filename="gs_mg4td.xml"><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
-
-    <model filename="gs_mg4.xml"><requirement class="projectile" slot="0" key="stun_grenade.projectile"/><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
-    <model filename="gs_mg4.xml"><requirement class="projectile" slot="0" key="stun_grenade.projectile"/><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
-
-    <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
-    <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
-
-    <model filename="gs_mg4td_2.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
-    <model filename="gs_mg4td_2.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
-
-    <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="ecm.projectile"/><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
-    <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="ecm.projectile"/><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
 
     <model filename="gs_mk48.xml"><requirement class="weapon" slot="0" key="gw_mk48.weapon"/></model>
     <model filename="gs_mk48.xml"><requirement class="weapon" slot="0" key="gw_mk48_n.weapon"/></model>
@@ -687,8 +668,7 @@ extra
 	<model filename="gs_ares_shrike.xml"><requirement class="weapon" slot="0" key="ares_shrike_b.weapon"/></model>
 
 
-	<model filename="gs_mg4_703.xml"><requirement class="weapon" slot="0" key="gw_mg4_703.weapon"/></model>
-	<model filename="gs_mg4_703.xml"><requirement class="weapon" slot="0" key="gw_mg4_703_n.weapon"/></model>
+
 
 	<model filename="gs_an94_2404.xml"><requirement class="weapon" slot="0" key="gw_an94_2404.weapon"/></model>
 	<model filename="gs_an94_2404.xml"><requirement class="weapon" slot="0" key="gw_an94_2404_f.weapon"/></model>
@@ -704,7 +684,37 @@ extra
 
 	<model filename="gs_qbu88_566.xml"><requirement class="weapon" slot="0" key="gw_qbu88_566.weapon"/></model>
 
+<!-- mg4 -->
+    <model filename="gs_mg4.xml"><requirement class="weapon" slot="0" key="gw_mg4.weapon"/></model>
+    <model filename="gs_mg4.xml"><requirement class="weapon" slot="0" key="gw_mg4_n.weapon"/></model>
 
+	<model filename="gs_mg4_703.xml"><requirement class="weapon" slot="0" key="gw_mg4_703.weapon"/></model>
+	<model filename="gs_mg4_703.xml"><requirement class="weapon" slot="0" key="gw_mg4_703_n.weapon"/></model>
+
+	<model filename="gs_mg4_mod.xml"><requirement class="weapon" slot="0" key="gw_mg4_mod.weapon"/></model>
+	<model filename="gs_mg4_mod.xml"><requirement class="weapon" slot="0" key="gw_mg4_mod_n.weapon"/></model>
+
+	<model filename="gs_mg4td.xml"><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
+    <model filename="gs_mg4td.xml"><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
+    <model filename="gs_mg4.xml"><requirement class="projectile" slot="0" key="stun_grenade.projectile"/><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
+    <model filename="gs_mg4.xml"><requirement class="projectile" slot="0" key="stun_grenade.projectile"/><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
+    <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
+    <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
+    <model filename="gs_mg4td_2.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
+    <model filename="gs_mg4td_2.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
+    <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="ecm.projectile"/><requirement class="weapon" slot="0" key="mg4td_ap.weapon"/></model>
+    <model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="ecm.projectile"/><requirement class="weapon" slot="0" key="mg4td_ke.weapon"/></model>
+
+	<model filename="gs_mg4td_2.xml"><requirement class="weapon" slot="0" key="mg4a3td.weapon"/></model>
+   	<model filename="gs_mg4td_2.xml"><requirement class="weapon" slot="0" key="mg4a3td_sl.weapon"/></model>
+	<model filename="gs_mg4.xml"><requirement class="projectile" slot="0" key="stun_grenade.projectile"/><requirement class="weapon" slot="0" key="mg4a3td.weapon"/></model>
+    <model filename="gs_mg4.xml"><requirement class="projectile" slot="0" key="stun_grenade.projectile"/><requirement class="weapon" slot="0" key="mg4a3td_sl.weapon"/></model>
+	<model filename="gs_mg4td_1.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="mg4a3td.weapon"/></model>
+	<model filename="gs_mg4td_1.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="mg4a3td_sl.weapon"/></model>
+	<model filename="gs_mg4td.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="mg4a3td.weapon"/></model>
+	<model filename="gs_mg4td.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="mg4a3td_sl.weapon"/></model>
+   	<model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="ecm.projectile"/><requirement class="weapon" slot="0" key="mg4a3td_sl.weapon"/></model>
+   	<model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="ecm.projectile"/><requirement class="weapon" slot="0" key="mg4a3td.weapon"/></model>
 
     
 	27
@@ -910,16 +920,6 @@ gw_zb26_4703.weapon
 
 <!-- 35 -->
 
-    <model filename="gs_mg4td_2.xml"><requirement class="weapon" slot="0" key="mg4a3td.weapon"/></model>
-   	<model filename="gs_mg4td_2.xml"><requirement class="weapon" slot="0" key="mg4a3td_sl.weapon"/></model>
-	<model filename="gs_mg4.xml"><requirement class="projectile" slot="0" key="stun_grenade.projectile"/><requirement class="weapon" slot="0" key="mg4a3td.weapon"/></model>
-    <model filename="gs_mg4.xml"><requirement class="projectile" slot="0" key="stun_grenade.projectile"/><requirement class="weapon" slot="0" key="mg4a3td_sl.weapon"/></model>
-	<model filename="gs_mg4td_1.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="mg4a3td.weapon"/></model>
-	<model filename="gs_mg4td_1.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="mg4a3td_sl.weapon"/></model>
-	<model filename="gs_mg4td.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="mg4a3td.weapon"/></model>
-	<model filename="gs_mg4td.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="mg4a3td_sl.weapon"/></model>
-   	<model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="ecm.projectile"/><requirement class="weapon" slot="0" key="mg4a3td_sl.weapon"/></model>
-   	<model filename="gs_mg4_703.xml"><requirement class="projectile" slot="0" key="ecm.projectile"/><requirement class="weapon" slot="0" key="mg4a3td.weapon"/></model>
 	<model filename="azl_mingshi_arblasting1.xml"><requirement class="weapon" slot="0" key="ar_14b_1.weapon"/></model>
 	<model filename="azl_mingshi_arblasting1.xml"><requirement class="weapon" slot="0" key="ar_14b_2.weapon"/></model>
 	<model filename="es_volcanic.xml"><requirement class="weapon" key="ew_hd_mg94.weapon" slot="0" /></model>
@@ -957,7 +957,7 @@ gw_zb26_4703.weapon
 	<model filename="es_ceremonial.xml"><requirement class="weapon" slot="1" key="ew_p2_peacemaker.weapon"/><requirement class="weapon" slot="0" key="ew_rumbler.weapon"/></model>
 
 <!-- 36 -->
-	<model filename="gs_ar15.xml"><requirement class="weapon" slot="0" key="uw_ar15_beowulf.weapon"/></model>
+	<model filename="gs_lvoac.xml"><requirement class="weapon" slot="0" key="uw_ar15_beowulf.weapon"/></model>
 	<model filename="gs_g41r_black.xml"><requirement class="weapon" slot="0" key="gw_g41r.weapon"/></model>
 	<model filename="gs_g41r_white.xml"><requirement class="weapon" slot="0" key="gw_g41r_s.weapon"/></model>
 	<model filename="gs_naoto_luca.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
@@ -979,6 +979,14 @@ gw_zb26_4703.weapon
 	<model filename="gs_lee_enfield_10.xml"><requirement class="weapon" key="gw_lee_enfield_10_burstshots.weapon" slot="0" /></model>
 	<model filename="gs_hrg_bastion.xml"><requirement class="weapon" key="gw_hrg_bastionshell.weapon" slot="0" /></model>
 	<model filename="gs_hrg_bastion.xml"><requirement class="weapon" key="gw_hrg_bastion.weapon" slot="0" /></model>	
+	<model filename="es_mk18cqb_hkykn.xml"><requirement class="weapon" key="ew_mk18cqb_hkykn.weapon" slot="0" /></model>
+	<model filename="es_mk18cqb_hkykn.xml"><requirement class="weapon" key="ew_mk18cqb_hkykn_slug.weapon" slot="0" /></model>	
+	<model filename="es_dima.xml"><requirement class="weapon" key="ew_chameleon.weapon" slot="0" /></model>	
+	<model filename="es_hongxue.xml"><requirement class="weapon" key="ew_hongxue_1.weapon" slot="0" /></model>	
+	<model filename="es_hongxue.xml"><requirement class="weapon" key="ew_hongxue_2.weapon" slot="0" /></model>	
+	<model filename="es_erika_sawamura.xml"><requirement class="weapon" key="ew_martini_henry.weapon" slot="0" /></model>	
+	<model filename="es_erika_sawamura.xml"><requirement class="weapon" key="ew_martini_henry_bt.weapon" slot="0" /></model>	
+
 
 <!-- oath -->
 	<model filename="gs_m4a1mod.xml"><requirement class="weapon" slot="0" key="gw_m4a1mod3_oath.weapon"/></model>
@@ -998,7 +1006,16 @@ gw_zb26_4703.weapon
 	<model filename="gs_sv98_mod.xml"><requirement class="weapon" slot="0" key="sv98_mod_ap_oath.weapon"/></model>
 	<model filename="gs_ntw20mod3.xml"><requirement class="weapon" slot="0" key="gw_ntw20mod3_oath.weapon"/></model>
 	<model filename="gs_ntw20mod3.xml"><requirement class="weapon" slot="0" key="gw_ntw20mod3_he_oath.weapon"/></model>	
-
+	<model filename="gs_g41_2064.xml"><requirement class="weapon" slot="0" key="gw_g41_bp2064_oath.weapon"/></model>
+	<model filename="gs_g41_2064.xml"><requirement class="weapon" slot="0" key="gw_g41_bp2064_sg_oath.weapon"/></model>
+	<model filename="gs_hk416mod.xml"><requirement class="weapon" slot="0" key="gw_hk416mod_oath.weapon"/></model>
+	<model filename="gs_hk416mod.xml"><requirement class="weapon" slot="0" key="gw_hk416mod_gl_oath.weapon"/></model>	
+	<model filename="gs_9a91_1302.xml"><requirement class="weapon" slot="0" key="gw_9a91_1302_oath.weapon"/></model>
+	<model filename="gs_ksvk_mod.xml"><requirement class="weapon" slot="0" key="gw_ksvk_mod_oath.weapon"/></model>
+	<model filename="gs_ksvk_mod.xml"><requirement class="weapon" slot="0" key="gw_ksvk_mod_f_oath.weapon"/></model>	
+	<model filename="gs_ppsh41_mod.xml"><requirement class="weapon" slot="0" key="gw_ppsh41_mod_oath.weapon"/></model>	
+	<model filename="gs_ltlx7000_6101.xml"><requirement class="weapon" slot="0" key="gw_ltlx7000_6101_b_oath.weapon"/></model>
+	<model filename="gs_ltlx7000_6101.xml"><requirement class="weapon" slot="0" key="gw_ltlx7000_6101_r_oath.weapon"/></model>
 
 </models>
 

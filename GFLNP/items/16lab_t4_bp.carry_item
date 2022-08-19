@@ -19,7 +19,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="hit_success_probability" value="-0.9" />
         <modifier class="detectability" value="0.15" />
-        <modifier class="speed" value="-0.2" /> 
+        <modifier class="speed" value="-0.1" /> 
     </carry_item>
 
     <carry_item key="16lab_t4_bp_2" name="16LAB TYPE IV Bulletproof Plate,90%" slot="1" transform_on_consume="16lab_t4_bp_3" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -41,7 +41,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="hit_success_probability" value="-0.9" />
         <modifier class="detectability" value="0.15" />
-        <modifier class="speed" value="-0.2" /> 
+        <modifier class="speed" value="-0.1" /> 
     </carry_item>
 
     <carry_item key="16lab_t4_bp_3" name="16LAB TYPE IV Bulletproof Plate,80%" slot="1" transform_on_consume="16lab_t4_bp_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -62,7 +62,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="hit_success_probability" value="-0.4" />
         <modifier class="detectability" value="0.15" />
-        <modifier class="speed" value="-0.2" />  
+        <modifier class="speed" value="-0.1" />  
     </carry_item>
 	
     <carry_item key="16lab_t4_bp_4" name="16LAB TYPE IV Bulletproof Plate,70%" slot="1" transform_on_consume="16lab_t4_bp_5" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -83,7 +83,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="hit_success_probability" value="-0.8" />
         <modifier class="detectability" value="0.15" />
-        <modifier class="speed" value="-0.2" /> 
+        <modifier class="speed" value="-0.1" /> 
     </carry_item>
 	
     <carry_item key="16lab_t4_bp_5" name="16LAB TYPE IV Bulletproof Plate,60%" slot="1" transform_on_consume="16lab_t4_bp_6" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -104,7 +104,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="hit_success_probability" value="-0.8" />
         <modifier class="detectability" value="0.15" />
-        <modifier class="speed" value="-0.2" /> 
+        <modifier class="speed" value="-0.1" /> 
     </carry_item>
      
     <carry_item key="16lab_t4_bp_6" name="16LAB TYPE IV Bulletproof Plate,50%" slot="1" transform_on_consume="16lab_t4_bp_7" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -125,7 +125,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="hit_success_probability" value="-0.7" />
         <modifier class="detectability" value="0.15" />
-        <modifier class="speed" value="-0.15" /> 
+        <modifier class="speed" value="-0.05" /> 
     </carry_item>
 
     <carry_item key="16lab_t4_bp_7" name="16LAB TYPE IV Bulletproof Plate,40%" slot="1" transform_on_consume="16lab_t4_bp_8" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -146,7 +146,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
         <modifier class="hit_success_probability" value="-0.7" />
         <modifier class="detectability" value="0.15" />
-        <modifier class="speed" value="-0.15" />  
+        <modifier class="speed" value="-0.05" />  
     </carry_item>
 
     <carry_item key="16lab_t4_bp_8" name="16LAB TYPE IV Bulletproof Plate,30%" slot="1" transform_on_consume="16lab_t4_bp_9" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -167,7 +167,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="death" />
         <modifier class="hit_success_probability" value="-0.6" />
         <modifier class="detectability" value="0.15" />
-        <modifier class="speed" value="-0.15" /> 
+        <modifier class="speed" value="-0.05" /> 
     </carry_item>
 
     <carry_item key="16lab_t4_bp_9" name="16LAB TYPE IV Bulletproof Plate,20%" slot="1" transform_on_consume="16lab_t4_bp_10" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -188,7 +188,7 @@
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="death" />
         <modifier class="hit_success_probability" value="-0.6" />
         <modifier class="detectability" value="0.15" />
-        <modifier class="speed" value="-0.15" />  
+        <modifier class="speed" value="-0.05" />  
     </carry_item>
 
     <carry_item key="16lab_t4_bp_10" name="16LAB TYPE IV Bulletproof Plate,destroyed" slot="1"  drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
@@ -204,7 +204,7 @@
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="1"/>
         <modifier class="hit_success_probability" value="-0.5" />
         <modifier class="detectability" value="0.12" />
-        <modifier class="speed" value="-0.1" /> 
+        <modifier class="speed" value="0.0" /> 
     </carry_item>
 
 
