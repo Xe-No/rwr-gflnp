@@ -126,6 +126,8 @@ class GFLEquipmentEvent : Tracker {
 				{"gw_hrg_bastionshell.weapon","ur"},
 				{"ew_hongxue_1.weapon","ur"},
 				{"ew_hongxue_2.weapon","ur"},
+				{"naoto_rpl20.weapon","ur"},
+				{"naoto_rpl20_d.weapon","ur"},
 				{"ew_mk18cqb_hkykn.weapon","ssr"},
 				{"ew_mk18cqb_hkykn_slug.weapon","ssr"},
 				{"ew_chameleon.weapon","ssr"}

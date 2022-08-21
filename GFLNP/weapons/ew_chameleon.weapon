@@ -4,15 +4,16 @@
     <specification 
     retrigger_time="0.068" 
     accuracy_factor="1.0" 
-    sustained_fire_grow_step="0.17" 
-    sustained_fire_diminish_rate="1.48" 
-    sight_range_modifier="1.2"
-    magazine_size="45" 
+    sustained_fire_grow_step="0.15" 
+    sustained_fire_diminish_rate="1.18" 
+    sight_range_modifier="1.0"
+    magazine_size="55" 
     can_shoot_standing="1" 
     suppressed="1" 
+    barrel_offset="0.60" 
     name="Chameleon[Dima]" 
     class="0" 
-    projectile_speed="155.0"/>
+    projectile_speed="150.0"/>
 
     <animation key="recoil" ref="12"/>
     <animation key="recoil" ref="13"/>

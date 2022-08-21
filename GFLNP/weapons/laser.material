@@ -227,3 +227,52 @@ material laser_light_red {
 		}
 	}
 }
+
+material laser_blue_tighten {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend add
+
+			texture_unit {
+				texture b_blue_trail.png
+			}
+		}
+	}
+}
+material laser_green_tighten {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend add
+
+			texture_unit {
+				texture b_green_trail.png
+			}
+		}
+	}
+}
+material laser_purple_tighten {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend add
+
+			texture_unit {
+				texture b_purple_trail.png
+			}
+		}
+	}
+}

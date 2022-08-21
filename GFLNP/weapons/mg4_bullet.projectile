@@ -92,6 +92,6 @@
 
 
     <!-- <trail probability="1.0" key="laser" /> -->
-    <trail probability="1.0" key="laser_green"/>
+    <trail probability="1.0" key="laser_green_tighten"/>
 
 </projectile>

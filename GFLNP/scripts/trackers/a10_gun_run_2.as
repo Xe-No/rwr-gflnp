@@ -58,12 +58,21 @@ class A10_2GunRun : Tracker {
 				int direction = gunRunDirection(senderPos, targetPos);
 
 				const XmlElement@ character = getCharacterInfo(m_metagame, characterId);
+				if(character is null){
+					direction = 0;
+				}
 				int playerId = character.getIntAttribute("player_id");
 				const XmlElement@ player = getPlayerInfo(m_metagame, playerId);
-				if (player.hasAttribute("aim_target")) 
-				{
-					Vector3 targetPos2 = stringToVector3(player.getStringAttribute("aim_target"));
-					direction = gunRunDirection(targetPos2, targetPos);
+				if(player is null){
+					direction = 0;
+				}else if(player.hasAttribute("aim_target")) {
+					Vector3 targetPos2 = Vector3(1,1,1);
+					targetPos2 = stringToVector3(player.getStringAttribute("aim_target"));
+					if(targetPos2 !is null){
+						direction = gunRunDirection(targetPos2, targetPos);
+					}else{
+						direction = 0;
+					}
 				}
 
 			//determining on which direction out of the 12 the current call fits the most

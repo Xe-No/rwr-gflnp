@@ -15,7 +15,6 @@
   class="0" 
   reload_one_at_a_time="0" 
   sight_range_modifier="1.4" 
-  use_basic_muzzle_smoke_effect="0"
   projectile_speed="200.0" 
   barrel_offset="0.6" 
   projectiles_per_shot="1" 
@@ -63,6 +62,7 @@
 	<commonness value="1.0" can_respawn_with="0" />
 	
 	
+	<effect class="muzzle" ref="arb_sakura_1" />
 
 
     <inventory encumbrance="10.0" price="1000.0" />
@@ -73,9 +73,9 @@
         <trigger class="impact" />
         <rotation class="motion" />
         <model mesh_filename="chaozhongdan.xml" />
-        <trail probability="1.0" key="ar14blasergreen_2"/>
+        <trail probability="1.0" key="ar14blasergreen"/>
         
-        <effect class="activated" ref="arb_xingxing_2" />
+        <effect class="activated" ref="arb_xingxing_1" />
     </projectile>
 
     

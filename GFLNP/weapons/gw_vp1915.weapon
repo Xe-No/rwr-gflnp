@@ -32,7 +32,7 @@
 	  <animation state_key="crouching" animation_key="crouch, hold, hip fire" />
 	  <animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
 
-    <sound key="fire" fileref="gw_vp1915.wav" volume="0.5" pitch_variety="0.05" />
+    <sound key="fire" fileref="gw_vp1915.wav" volume="0.3" pitch_variety="0.05" />
 	<sound key="magazine_out" fileref="mg_clip_out.wav" />
 	<sound key="magazine_in" fileref="mg_clip_in.wav" />
 	<sound key="cycle" fileref="mg_chamber.wav" />

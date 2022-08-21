@@ -2,7 +2,7 @@
 <weapon file="base_cb.weapon" key="emmmm_t.weapon" quality="card">
     <tag name="bazooka" />
     <specification 
-  retrigger_time="1.5" 
+  retrigger_time="2.2" 
   accuracy_factor="1.0" 
   sustained_fire_grow_step="0.8" 
   sustained_fire_diminish_rate="0.8" 

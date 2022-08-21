@@ -51,6 +51,6 @@
     <effect class="result" key="terrain" ref="Burst" use_surface_color="1" />
     <effect class="result" key="static_object" ref="Burst" use_surface_color="1" />
 	
-    <trail probability="1.0" key="laser_purple"/>
+    <trail probability="1.0" key="laser_purple_tighten"/>
 
 </projectile>
