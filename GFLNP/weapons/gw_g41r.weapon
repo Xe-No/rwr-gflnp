@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<weapon file="base_AR.weapon" key="gw_g41r.weapon" on_ground_up="0 0 1">
+<weapon file="base_card_ar.weapon" key="gw_g41r.weapon" on_ground_up="0 0 1">
     <specification 
 	    retrigger_time="0.067" 
 	    accuracy_factor="1.0" 

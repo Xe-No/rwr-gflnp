@@ -9,7 +9,7 @@
     <effect class="muzzle" ref="ejection"/>
     <effect class="muzzle" ref="muzzle_blue"/>
 
-    <ballistics curve_height="10.0" near_far_distance="10.0" speed_estimation_near="40.0" speed_estimation_far="90.0" max_speed="95.0" randomness="0.0" tweak_factor="1.55"/> 
+    <ballistics curve_height="14.4" near_far_distance="0.0" speed_estimation_near="60.0" speed_estimation_far="150.0" max_speed="150.0" randomness="0.0" tweak_factor="1.95"/>
 
 
     <animation state_key="recoil" animation_key="recoil, hip fire"/>
@@ -36,7 +36,7 @@
     <inventory encumbrance="18.0" price="100.0" in_stock="0"/>
 
 	<weak_hand_hold offset="0.4"/>
-	<projectile file="milkor_mgl.projectile">
+	<projectile file="milkor_mgl.projectile" pulldown_in_air="58.5">
 		<result class="blast" radius="4.5" damage="1.11" push="0.4" decal="1" character_state="death"/>
 	</projectile>
 

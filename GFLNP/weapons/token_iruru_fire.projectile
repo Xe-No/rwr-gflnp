@@ -12,8 +12,8 @@ can_be_detected_by_footmen="0"
 can_be_detected_by_driver="0"
 radius="0.3"
 blast_damage_threshold="0.3"
-time_to_live_out_in_the_open="150"
-player_death_drop_owner_lock_time="120"
+time_to_live_out_in_the_open="0"
+player_death_drop_owner_lock_time="0"
 >
     <collision class="sticky" />
     <result class="spawn" instance_class="grenade" instance_key="token_iruru_fire_sub.projectile" min_amount="15" max_amount="25" offset="0 8.0 0" position_spread="2 -8" direction_spread="0.0 0.0" />   
