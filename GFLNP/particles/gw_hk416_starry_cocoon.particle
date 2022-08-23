@@ -415,7 +415,7 @@ particle_system hk416_sc_gl_hit_smoke_02		//环境烟雾
 	emitter Ring
 	{
 		angle 0
-		colour 0.9 0.9 1 0.06
+		colour 0.9 0.9 1 0.03
 		direction 0 1 0
 		emission_rate 300
 		position 0 2 0
@@ -494,7 +494,7 @@ particle_system hk416_sc_gl_hit_smoke_03		//爆点烟雾
 	emitter Point
 	{
 		angle 180
-		colour 0.9 0.95 1 0.1
+		colour 0.9 0.95 1 0.02
 		direction 0 1 0
 		emission_rate 200
 		position 0 0 0
@@ -522,11 +522,11 @@ particle_system hk416_sc_gl_hit_smoke_03		//爆点烟雾
 		red1 	-0.2
 		green1 	-0.2
 		blue1 	-0.2
-		alpha1 	0.05
+		alpha1 	0.0
 		red2 	-0
 		green2	-0
 		blue2	-0
-		alpha2	-0.05
+		alpha2	-0.04
 		state_change 4
 	}
 	affector LinearForce{
