@@ -12,7 +12,7 @@
     class="0" 
     reload_one_at_a_time="1" 
     sight_range_modifier="0.9" 
-    projectile_speed="110.0" 
+    projectile_speed="140.0" 
     projectiles_per_shot="5"
      />
     <next_in_chain key="ew_mcxtang.weapon" share_ammo="0" />
