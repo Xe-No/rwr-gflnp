@@ -281,6 +281,7 @@ vehicle
 	<text key="Panzer IV (H)[modernization]" text="四号H型坦克（现代型）"/>
 	<text key="LAV 6.0" text="LAV6.0轮式装甲车"/>
 	<text key="L3/33DM" text="L3/33DM轻坦歼击车"/>
+	<text key="Type 22 missile boat [Minimization]" text="022型导弹快艇"/>
 
 -vanilla-
 	<text key="Jeep" text="吉普车" />
@@ -399,6 +400,7 @@ drop flare
 	<text key="Panzer IV (H) drop" text="四号H型坦克空投信标" />
 	<text key="L3/33 drop" text="L3/33轻坦歼击车空投信标" />
 	<text key="LAV 6.0 drop" text="LAV6.0轮式装甲车空投信标" />
+	<text key="Type 22 missile boat drop" text="22型导弹快艇空投信标" />
 
 drop item
 -rp-
@@ -488,88 +490,6 @@ drop item
 	<text key="Newyear Box" text="新年箱子" />
 	<text key="Vehicle Box" text="载具箱子" />
 	<text key="Lottery ticket" text="彩票" />
-
-projectile
--grenade-
-	<text key="incendiary grenade" text="燃烧弹" />
-	<text key="Molotov" text="鸡尾酒燃烧弹" />
-	<text key="sticky grenade" text="黏性手雷" />
-	<text key="F1 hand grenade" text="F1重型手雷" />
-	<text key="hand grenade" text="手榴弹" />
-	<text key="impact grenade" text="触发式手榴弹" />
-	<text key="C4" text="C4炸药" />
-	<text key="stun grenade" text="震撼弹" />
-	<text key="Flash 9" text="9连闪光弹" />
-	<text key="Doom's Hammer" text="毁灭之锤" />
-	<text key="VOG-25 Khattabka" text="VOG-25手榴弹" />
-	<text key="flashbang a1" text="A1高抛闪光弹" />
-	<text key="EL-3807 Mini C5" text="EL-3807小型C5炸药" />
-	<text key="EMP grenade" text="EMP手雷" />
-	<text key="medic grenade" text="急救手雷" />
-	<text key="Repair Charge" text="维修发生器" />
-
--token-
-	<text key="4th Anniversary Token" text="4周年信物" />
-	<text key="Chinadress Token" text="旗袍信物" />
-	<text key="City Hunter Token" text="城市猎人信物" />
-
-	<text key="Inori[RE]" text="蝶祈[RE]"/>
-	<text key="Luna[RE]" text="露娜[RE]"/>
-	<text key="Naoto[RE]" text="Naoto[RE]"/>
-	<text key="Hakuryu[RE]" text="白龙[RE]"/>
-	<text key="252[RE]" text="252[RE]"/>
-	<text key="Benben B W[RE]" text="Benben黑白[RE]"/>
-	<text key="Black Rock Shooter[RE]" text="黑岩射手[RE]"/>
-	<text key="Suzakuin Tsubaki[RE]" text="朱雀院椿[RE]"/>
-	<text key="Suzakuin Tsubaki Swimsuit[RE]" text="朱雀院椿泳装[RE]"/>
-	<text key="Katou Megumi Schoolbag[RE]" text="加藤惠的背包[RE]"/>
-	<text key="Solomon's Nightmare[RE]" text="所罗门梦魇[RE]"/>
-	<text key="Orga[RE]" text="奥尔加[RE]"/>
-	<text key="Qswan[RE]" text="硫酸惹[RE]"/>
-	<text key="86 Leina[RE]" text="蕾娜(86)[RE]"/>
-	<text key="Chara Neko[RE]" text="Chara Neko[RE]"/>
-	<text key="Remilia Scarlet[RE]" text="蕾米莉亚·斯卡蕾特[RE]"/>
-	<text key="Elaina[RE]" text="伊蕾娜[RE]"/>
-	<text key="Shigure Summer[RE]" text="时雨夏装[RE]"/>
-	<text key="Yuudachi[RE]" text="夕立[RE]"/>
-	<text key="Rumia[RE]" text="露米娅[RE]"/>
-	<text key="Flandre Scarlet[RE]" text="芙兰朵露·斯卡蕾特[RE]"/>
-	<text key="Nazrin[RE]" text="纳兹琳[RE]"/>
-	<text key="Luka Chinadress[RE]" text="Luka旗袍[RE]"/>
-	<text key="Miku Chinadress[RE]" text="Miku旗袍[RE]"/>
-	<text key="Luotianyi Chinadress[RE]" text="洛天依旗袍[RE]"/>
-	<text key="Kaenbyou Rin[RE]" text="火焰猫燐[RE]" />
-	<text key="Komeiji Koishi[RE]" text="古明地恋[RE]" />
-	<text key="Mingshi ARB[RE]" text="明石ARB[RE]" />
-	<text key="G41 Maid[RE]" text="女仆G41[RE]" />
-	<text key="Akemi Homura[RE]" text="晓美焰[RE]" />
-	<text key="RST[RE]" text="RST[RE]" />
-	<text key="PA-15[Highschool Heartbeat Story] [RE]" text="PA-15[高校心跳物语] [RE]" />
-	<text key="Medic[RE]" text="医疗兵[RE]" />
-	<text key="Douzi[RE]" text="豆子[RE]" />
-	<text key="Kurumi[Wedding][RE]" text="花嫁狂三[RE]" />
-	<text key="Grey cat sneeze" text="灰猫猫（打喷嚏呐！）" />
-	<text key="Sangonomiya Kokomi[RE]" text="珊瑚宫心海[RE]" />
-
--other-
-	<text key="ballistic knife" text="弹道战术刀" />
-	<text key="Stim pack" text="兴奋剂" />
-	<text key="Stim pack, active" text="兴奋剂（已激活）" />
-	<text key="shuriken" text="手里剑" />
-	<text key="Ice cream" text="冰淇淋" />
-	<text key="Banana peel" text="香蕉皮" />
-	<text key="bats" text="吸血出击"/>
-	<text key="howling" text="狼吼"/>
-	
-	<text key="Air Strike Marker" text="空袭标记信号弹" />
-	<text key="ant x5 summoner" text="兵蚁x5压缩胶囊" />
-	<text key="ant ro635 summoner" text="RO压缩胶囊" />
-	<text key="ant ro635 x5 summoner" text="ROx5压缩胶囊" />
-	<text key="targetdrone summoner" text="嘲讽靶机胶囊" />
-	<text key="Dummy Core" text="核心" />
-	<text key="CB Part" text="CB配件" />
-	<text key="RVindicator Dive Bomb" text="辩护者俯冲轰炸信标" />
-	<text key="Electronic counter measure support marker" text="电子反制支援信标" />
 
 zombies
 -item-
@@ -839,6 +759,12 @@ armor
 	<text key="Momiji[RE], 30%" text="犬走椛[RE] 2/5"/>
 	<text key="Momiji[RE], destroyed" text="犬走椛[RE]（损坏） 1/5"/>
 
+	<text key="Asuna[RE]" text="亚丝娜[RE] 5/5"/>
+	<text key="Asuna[RE], 80%" text="亚丝娜[RE] 4/5"/>
+	<text key="Asuna[RE], 60%" text="亚丝娜[RE] 3/5"/>
+	<text key="Asuna[RE], 30%" text="亚丝娜[RE] 2/5"/>
+	<text key="Asuna[RE], destroyed" text="亚丝娜[RE]（损坏） 1/5"/>
+
 -42lab-
 	<text key="PZC Armor 14/14" text="PZC抗爆护甲 14/14" />
 	<text key="PZC Armor 13/14" text="PZC抗爆护甲 13/14" />
@@ -941,43 +867,42 @@ UI
 
 	<text key="hold &#37;control" text="按住&#37;control键" />
 
-	<text key="Game started" text="游戏开始，本mod官方QQ群：748950999/1072742936（已满），欢迎加入。
-简要规则：禁止恶意TK，意外TK时请回复sry(抱歉)；禁止舔其他玩家的尸体；请勿大量呼叫支援、摆放沙包、抽卡；尽量不要抢他人垃圾；尽量避免干扰潜行玩家；禁止利用恶性BUG或使用外挂。
+	<text key="Game started" text="游戏开始，本mod官方QQ群：748950999/1072742936（已满），欢迎加入。【简要规则：禁止恶意TK，意外TK请回复sry(抱歉)；禁止舔其他玩家尸体；请勿大量呼叫支援、摆放沙包、抽卡；尽量不要抢他人垃圾；尽量避免干扰潜行玩家；禁止利用恶性BUG或使用外挂。】
 游玩时请保持好心情，不要吵架，玩的开心。遇到违反规则玩家时，可以进行举报，被举报者将会依据程度进行处罚RP、TKBAN或者BAN等惩罚，请不要进行恶意举报。" />
 
-	<text key="not much of a destroyer" text="不称职的毁灭者"/>
 	<text key="* destroy &#37;target_count vehicles" text="* 摧毁 &#37;target_count 辆载具"/>
-	<text key="Rookie destroyer" text="菜鸟级毁灭者"/>
-	<text key="Master destroyer" text="大师级毁灭者"/>
-	<text key="Elite destroyer" text="精英级毁灭者"/>
-	<text key="barely a saboteur" text="勉强算个破坏者"/>
+	<text key="not much of a destroyer" text="值得纪念的一刻"/>
+	<text key="Rookie destroyer" text="战地摇滚"/>
+	<text key="Master destroyer" text="深渊之歌"/>
+	<text key="Elite destroyer" text="格里芬敢死队"/>
 	<text key="* destroy &#37;target_count structures or deployed weapons" text="* 摧毁 &#37;target_count 个建筑或固定武器"/>
 	<text key="* destroy &#37;target_count radio towers" text="* 摧毁 &#37;target_count 座无线电塔"/>
-	<text key="Rookie saboteur" text="菜鸟级破坏者"/>
-	<text key="Master saboteur" text="大师级破坏者"/>
-	<text key="Elite saboteur" text="精英级破坏者"/>
-	<text key="wannabe tracker" text="志愿成为追踪者"/>
+	<text key="barely a saboteur" text="摧毁建筑"/>
+	<text key="Rookie saboteur" text="拆迁办事处"/>
+	<text key="Master saboteur" text="哈里斯的夜间派对"/>
+	<text key="Elite saboteur" text="炸回石器时代"/>
 	<text key="* locate &#37;target_count secret crates" text="* 定位 &#37;target_count 个神秘板条箱"/>
 	<text key="* deliver &#37;target_count hidden vehicles" text="* 传送 &#37;target_count 辆隐藏载具"/>
-	<text key="Rookie tracker" text="菜鸟级追踪者"/>
-	<text key="Master tracker" text="大师级追踪者"/>
-	<text key="Elite tracker" text="精英级追踪者"/>
-	<text key="combat student" text="新兵蛋子"/>
+	<text key="wannabe tracker" text="嘿，惊喜！"/>
+	<text key="Rookie tracker" text="新闻爱好者"/>
+	<text key="Master tracker" text="只有神才不掷骰子"/>
+	<text key="Elite tracker" text="命运之轮"/>
 	<text key="* kill &#37;target_count enemy soldiers" text="* 消灭 &#37;target_count 个敌军士兵"/>
-	<text key="Rookie killer" text="菜鸟杀手"/>
-	<text key="Master combatant" text="战斗大师"/>
-	<text key="Elite marksman" text="精英射手"/>
-	<text key="learning stealth" text="学习潜行"/>
+	<text key="combat student" text="第一滴血"/>
+	<text key="Rookie killer" text="战争机器"/>
+	<text key="Master combatant" text="无命之王"/>
+	<text key="Elite marksman" text="格里芬大镖客"/>
 	<text key="* stab &#37;target_count enemy soldiers, silently" text="* 悄悄刺杀 &#37;target_count 个敌军士兵"/>
 	<text key="* shoot &#37;target_count enemy soldiers, silently" text="* 悄悄射杀 &#37;target_count 个敌军士兵, "/>
 	<text key="* locate &#37;target_count important enemy targets" text="* 定位 &#37;target_count 个敌军重要目标"/>
-	<text key="Special Forces Trainee" text="特种部队实习生"/>
-	<text key="Spec Ops Expert" text="特种部队专家"/>
-	<text key="Elite Commando" text="精英突击队员"/>
+	<text key="learning stealth" text="电子特警"/>
+	<text key="Special Forces Trainee" text="调色板"/>
+	<text key="Spec Ops Expert" text="21世纪少女"/>
+	<text key="Elite Commando" text="自由归于众生"/>
 
 	<text key="Rank challenge completed" text="等级挑战完成: &#37;rank_title" />
 
-	<text key="Click to respawn" text="点击复活" />
+	<text key="Click to respawn" text="点击重新部署" />
 	<text key="Disabled" text="重生点禁用" />
 	<text key="Repair required" text="需要修理" />
 
