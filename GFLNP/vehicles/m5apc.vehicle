@@ -1,4 +1,4 @@
-<vehicle file="vehicle_base.vehicle" name="M5 APC" key="m5apc.vehicle" respawn_time="80" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="0.25">
+<vehicle  name="M5 APC" key="m5apc.vehicle" respawn_time="80" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="0.25">
 	<tag name="metal_heavy" />
 	<tag name="apc" />
 
@@ -21,7 +21,7 @@
 	TODO_blast_damage_threshold="1.02" 
 	mass="12.0" 
 	broken_mass="5"
-    remove_collision_threshold="0.2"
+  remove_collision_threshold="0.2"
 	extent="3.0 0.0 5.0" 
 	offset="0 0.0 0" 
 	top_offset="0 7 0" 
@@ -31,10 +31,10 @@
 	friction_offset="0.0" 
 	drag_offset="-0.05" /> 
 
-	<turret offset="0 2.48 -1.58" weapon_key="m5apc_cannon.weapon" weapon_offset="+0.15 0.73 1.6" weapon_recoil="0.1" max_rotation_step="0.0001" />
-	<turret offset="0 2.48 -1.58" weapon_key="m5apc_cannon.weapon" weapon_offset="-0.15 0.73 1.6" weapon_recoil="0.1" max_rotation_step="0.0001" />
-	<turret offset="+1.35 2.07 -0.35" weapon_key="m5apc_mg.weapon" weapon_offset="0 0.1 1" weapon_recoil="0.1" max_rotation_step="0.0001" rotation="+1.57" rotation_range="2" />
-	<turret offset="-1.35 2.07 -0.35" weapon_key="m5apc_mg.weapon" weapon_offset="0 0.1 1" weapon_recoil="0.1" max_rotation_step="0.0001" rotation="-1.57" rotation_range="2" />
+	<turret offset="0 2.48 -1.58" weapon_key="m5apc_cannon.weapon" weapon_offset="+0.15 0.33 1.6" weapon_recoil="0.1" max_rotation_step="0.0001" />
+	<turret offset="0 2.48 -1.58" weapon_key="m5apc_cannon.weapon" weapon_offset="-0.15 0.33 1.6" weapon_recoil="0.1" max_rotation_step="0.0001" />
+	<turret offset="+1.35 2.07 -0.35" weapon_key="m5apc_mg.weapon" weapon_offset="0 0.1 0.6" weapon_recoil="0.01" max_rotation_step="0.0001" rotation="+1.57" rotation_range="2" />
+	<turret offset="-1.35 2.07 -0.35" weapon_key="m5apc_mg.weapon" weapon_offset="0 0.1 0.6" weapon_recoil="0.01" max_rotation_step="0.0001" rotation="-1.57" rotation_range="2" />
 
 	<visual class="chassis" mesh_filename="m5apc_b0.mesh" texture_filename="m5apc.png" />
 	<visual class="turret" turret_index="0" mesh_filename="m5apc_t0.mesh" texture_filename="m5apc.png" />
@@ -50,7 +50,7 @@
 	<visual class="turret"  key="broken" turret_index="2" mesh_filename="m5apc_mg.mesh" texture_filename="m5apc.png" />
 	<visual class="turret"  key="broken" turret_index="3" mesh_filename="m5apc_mg.mesh" texture_filename="m5apc.png" />
 
-	<character_slot type="driver" position="0 0.3 +3" rotation="0" exit_rotation="1.57" hiding="1" />
+	<character_slot type="driver" position="0 0.3 +3" rotation="0" exit_rotation="0" hiding="1" />
 	<character_slot type="gunner" position="0 0.3 -3" rotation="0" exit_rotation="-1.57" hiding="1" >
 		<turret index="0"/><turret index="1"/>
 	</character_slot>

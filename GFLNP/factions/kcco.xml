@@ -36,6 +36,7 @@
 		<!-- <models file="extra_costume.models" /> -->
 
 		<resources file="kcco.resources" />
+		<resources file="kcco_vehicle.resources" />
 		<resources file="common_vehicles.resources" />
 		<item_class_existence_config>
 			<item_class_existence class="weapon" slot="1" probability="0.4" />

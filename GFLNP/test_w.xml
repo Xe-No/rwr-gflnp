@@ -61,5 +61,7 @@
 <weapon file="ew_hongxue_2.weapon" />
 <weapon file="ew_martini_henry.weapon" />
 <weapon file="ew_martini_henry_bt.weapon" />
+<weapon file="lightsaber.weapon" />
+<weapon file="lightsaber_gun.weapon" />
 
 </weapons>

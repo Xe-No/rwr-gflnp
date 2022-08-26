@@ -189,6 +189,7 @@ re token
 	<projectile key="token_neko_zero.projectile" />
 	<projectile key="token_api.projectile" />
 	<projectile key="token_angelia.projectile" />
+	<projectile key="token_tirpitz.projectile" />
 
 oath
   	<weapon key="gw_ar15mod_sl_oath.weapon" />

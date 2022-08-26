@@ -190,4 +190,7 @@
 	<vehicle file="guntruck_plus.vehicle" /> 
 	<vehicle file="mslb22.vehicle" /> 
 
+	<vehicle file="strv122a.vehicle" /> 
+	<vehicle file="t90.vehicle" /> 
+
 </vehicles>

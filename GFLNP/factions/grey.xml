@@ -398,42 +398,7 @@
 			<parameter class="speed_encumbered" low="0.8" high="0.3" />
 			<parameter class="encumbrance" low="4.9" high="50.0" />
 		</character>
-		<resources>
-			<weapon key='gk_supply_ss.weapon' />
-			<weapon key='pzc_wrench.weapon' />
-			<weapon key='pzc_upgrade_fix.weapon' />
-			<carry_item key="pzc_vest.carry_item" enabled="1"/>
-			<projectile key="repair_c4.projectile" />
-			<projectile key="aav7_flare.projectile" />
-			<projectile key="zjx19_flare.projectile" />
-			<projectile key="wiesel_flare.projectile" />
-			<projectile key="vulcan_acav_flare.projectile" />
-			<projectile key="leopard2a5_flare.projectile" />
-			<projectile key="centurion_avre_flare.projectile" />
-			<projectile key="btr82a_flare.projectile" />
-			<projectile key="btr80a_flare.projectile" />
-			<projectile key="m1126_flare.projectile" />
-			<projectile key="tiger_flare.projectile" />
-			<projectile key="sturmtiger_flare.projectile" />
-			<projectile key="l333_flare.projectile" />
-			<projectile key="pz4h_flare.projectile" />
-			<projectile key="lav6g_flare.projectile" />
-			<projectile key="humve1_flare.projectile" />
-			<projectile key="bmdk17_flare.projectile" />
-			<projectile key="mslb22_flare.projectile" />
-			<projectile key="jupiter_buggy_flare.projectile" />
-			<call key="tank_crew.call" enabled="1"/>
-			<call key="drop_pod_crew.call" enabled="1"/>
-			<call key="buggy.call" enabled="1"/>
-			<call key="humvee.call" enabled="1"/>
-			<call key="tank.call" enabled="1"/>
-			<call key="apc_1.call" enabled="1"/>
-			<call key="paratroopers1.call" enabled="1"/>
-			<call key="paratroopers2.call" enabled="1"/>
-			<call key="squad_404.call" enabled="0"/>
-			<call key="squad_AR.call" enabled="1"/>
-			<call key="squad_defy.call" enabled="1"/>
-		</resources>		
+		<resources filename="pzc.resources" />	
 	</soldier>	
 	<soldier name="MED" firstnames_file="42LAB-MED.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_player.character">
@@ -484,6 +449,11 @@
 			<projectile key="tank_flare.projectile" />
 			<projectile key="lav6g_flare.projectile" />
 			<projectile key="mslb22_flare.projectile" />
+			<projectile key="cha2tes_flare.projectile" />
+			<projectile key="t90_flare.projectile" />
+			<projectile key="strv122a_flare.projectile" />
+			<projectile key="cetus_flare.projectile" />
+			<projectile key="jupiter_buggy_flare.projectile" />
 			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_x4_exo.carry_item" enabled="1"/>		
 			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>

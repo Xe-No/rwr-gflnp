@@ -71,22 +71,30 @@
 	<weapon file="zbd04a_100mm.weapon" 	/>
 	<weapon file="zbd04a_30mm.weapon" 	/>
 	<weapon file="jupiter_cannon.weapon" 	/>
-<weapon file="bmp3_atc.weapon" />
-<weapon file="bmp3_atc_ejector.weapon" />
-<weapon file="btr82a_atc.weapon" />
-<weapon file="btr82a_atc_ejector.weapon" />
-<weapon file="coeus_laser.weapon" />
-<weapon file="coeus_minigun.weapon" />
-<weapon file="m1128d_cannon.weapon" />
-<weapon file="t14s_laser.weapon" />
-<weapon file="tiger_cannon.weapon" />
-<weapon file="sturmtiger_cannon.weapon" />
-<weapon file="lav6g_gl.weapon" />
-<weapon file="lav6g_hmg.weapon" />
-<weapon file="mslb22_ciws.weapon" />
-<weapon file="mslb22_asm.weapon" />
-<weapon file="m5apc_cannon.weapon" />
-<weapon file="m5apc_mg.weapon" />
+	<weapon file="bmp3_atc.weapon" />
+	<weapon file="bmp3_atc_ejector.weapon" />
+	<weapon file="btr82a_atc.weapon" />
+	<weapon file="btr82a_atc_ejector.weapon" />
+	<weapon file="coeus_laser.weapon" />
+	<weapon file="coeus_minigun.weapon" />
+	<weapon file="m1128d_cannon.weapon" />
+	<weapon file="t14s_laser.weapon" />
+	<weapon file="tiger_cannon.weapon" />
+	<weapon file="sturmtiger_cannon.weapon" />
+	<weapon file="lav6g_gl.weapon" />
+	<weapon file="lav6g_hmg.weapon" />
+	<weapon file="mslb22_ciws.weapon" />
+	<weapon file="mslb22_asm.weapon" />
+	<weapon file="m5apc_cannon.weapon" />
+	<weapon file="m5apc_mg.weapon" />
+	
+
+	<weapon file="cetus_minigun.weapon" />
+	<weapon file="strv122_122gun.weapon" />
+	<weapon file="strv122_ksp94.weapon" />
+	<weapon file="t90_125mm.weapon" />
+	<weapon file="vmg_6p49.weapon" />
+	
     <!-- <weapon file="templax_gl.weapon"/> -->
     <!-- <weapon file="templax_minig.weapon"/> -->
 </weapons>

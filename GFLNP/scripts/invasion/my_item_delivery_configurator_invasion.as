@@ -147,7 +147,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("siegetower_flare.projectile", "projectile", 1.0f, 3),
 				ScoredResource("m113apc_flare.projectile", "projectile", 1.0f, 3),
 				ScoredResource("l333_flare.projectile", "projectile", 0.5f, 2),
-				ScoredResource("lav6g_flare.projectile", "projectile", 0.2f, 2)
+				ScoredResource("lav6g_flare.projectile", "projectile", 0.2f, 2),
+				ScoredResource("m5apc_flare.projectile", "projectile", 0.5f, 2)
 			},
 			{
 				ScoredResource("ztz99a_flare.projectile", "projectile", 1.0f),
@@ -163,7 +164,9 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("sturmtiger_flare.projectile", "projectile", 0.2f),
 				ScoredResource("tiger_flare.projectile", "projectile", 0.2f),
 				ScoredResource("mslb22_flare.projectile", "projectile", 0.03f),
-				ScoredResource("pz4h_flare.projectile", "projectile", 0.5f)
+				ScoredResource("pz4h_flare.projectile", "projectile", 0.5f),
+				ScoredResource("t90_flare.projectile", "projectile", 0.5f),
+				ScoredResource("strv122a_flare.projectile", "projectile", 0.5f)
 
 			}
 		};
@@ -986,6 +989,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
         //ScoredResource("steyr_tmp.weapon", "weapon", 1.0f),       
         //ScoredResource("fal_bayonet.weapon", "weapon", 1.0f), 
         ScoredResource("microgun.weapon", "weapon", 0.0001f),                     
+        ScoredResource("lightsaber.weapon", "weapon", 0.1f),                     
         //ScoredResource("enforcer.weapon", "weapon", 1.0f),       
         //ScoredResource("gw_idw.weapon", "weapon", 1.0f), 
         ScoredResource("gw_repair_em.weapon", "weapon", 1.0f),                       
