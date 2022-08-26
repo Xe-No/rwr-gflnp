@@ -19,4 +19,9 @@
 	<vehicle file="workbench.vehicle" />	
 	<vehicle file="m5apc.vehicle" />	
 
+	<vehicle file="t90.vehicle" />	
+	<vehicle file="strv122a.vehicle" />	
+	<vehicle file="cetus.vehicle" />	
+	<vehicle file="cha2tes.vehicle" />	
+
 </vehicles>
