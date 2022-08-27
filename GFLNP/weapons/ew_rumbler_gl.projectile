@@ -9,7 +9,6 @@
 	<!--
 	<result class="spawn" instance_class="projectile" instance_key="ew_rumbler_gl_sub.projectile" 
 	min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
-	<!--
 	<result class="spawn" instance_class="vehicle" instance_key="vindicator_sub_bomb.vehicle" 
 	min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0.00 -0.1" />
 	-->

@@ -1,0 +1,28 @@
+<carry_items>
+    
+<!-- PRD -->
+    <carry_item file="doppelsoldner.carry_item" />
+ 
+
+<!-- MOD3 -->
+    <carry_item file="pzc_vest.carry_item" />
+    <carry_item file="hvy_vest.carry_item" />
+    <carry_item file="med_optical_camo_cloak.carry_item" />
+    <carry_item file="ghost_optical_camo_cloak.carry_item" />
+
+    <carry_item file="vb1.carry_item" />
+
+    <carry_item file="suit_dsr50_dress.carry_item" />
+    <carry_item file="suit_momiji.carry_item" />
+    <carry_item file="suit_asuna.carry_item" />
+
+<!-- 36 -->
+    <carry_item file="iotv_vest.carry_item" />
+    <carry_item file="gi_sr_weapon_card.carry_item" />
+    <carry_item file="gi_ssr_weapon_card.carry_item" />
+    <carry_item file="gi_ur_weapon_card.carry_item" />
+
+
+
+
+</carry_items>

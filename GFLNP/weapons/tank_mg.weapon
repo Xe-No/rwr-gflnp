@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon key="tank2_mg.weapon">
+<weapon key="tank_mg.weapon">
     <specification retrigger_time="0.04" 
     accuracy_factor="1.0" 
     sustained_fire_grow_step="0.17" 
@@ -17,7 +17,7 @@
     slot="2" 
     barrel_offset="1.0" 
     projectiles_per_shot="1" 
-    sight_height_offset="2.0" />    />
+    sight_height_offset="2.0" />   
     
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />

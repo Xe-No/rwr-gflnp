@@ -36,6 +36,11 @@ class BasicCommandHandler : Tracker {
 		int pn = paras.size();
 		if (pn == 0) return;
 
+		const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
+		if (info is null) return;
+		int characterId = info.getIntAttribute("character_id");
+
+
 		// sendPrivateMessage(m_metagame, senderId, squad);
 
 		if (matchString(paras[0], "refresh_vip")) {
@@ -105,105 +110,94 @@ class BasicCommandHandler : Tracker {
 
 
 		else if (matchString(paras[0], "link")) {
-			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
+			int id = info.getIntAttribute("character_id");
+			int faction_id = info.getIntAttribute("faction_id");
 
+			// string pos = info.getStringAttribute("aim_target");
+			const XmlElement@ info2 = getCharacterInfo2(m_metagame, id);
+			array<const XmlElement@>@ equipment = info2.getElementsByTagName("item");
+			// int w_amount = equipment[0].getIntAttribute("amount");
+			string w_key = equipment[0].getStringAttribute("key");
+			string p_key = equipment[2].getStringAttribute("key");
+			int p_amount = equipment[2].getIntAttribute("amount");
+			// sendPrivateMessage(m_metagame, senderId, w_key);	
+			// sendPrivateMessage(m_metagame, senderId, p_key);
 
-			if (info !is null) {
-				int id = info.getIntAttribute("character_id");
-				int faction_id = info.getIntAttribute("faction_id");
+			array<string> w_keys = w_key.split(".");
+			string w_key_0 = w_keys[0];
 
-
-				// string pos = info.getStringAttribute("aim_target");
-				const XmlElement@ info2 = getCharacterInfo2(m_metagame, id);
-				array<const XmlElement@>@ equipment = info2.getElementsByTagName("item");
-				// int w_amount = equipment[0].getIntAttribute("amount");
-				string w_key = equipment[0].getStringAttribute("key");
-				string p_key = equipment[2].getStringAttribute("key");
-				int p_amount = equipment[2].getIntAttribute("amount");
-				// sendPrivateMessage(m_metagame, senderId, w_key);	
-				// sendPrivateMessage(m_metagame, senderId, p_key);
-
-				array<string> w_keys = w_key.split(".");
-				string w_key_0 = w_keys[0];
-
-				if (p_key == "dummy_core.projectile" && p_amount > 0) {
+			if (p_key == "dummy_core.projectile" && p_amount > 0) {
+				
+				dictionary dict = {
 					
-					dictionary dict = {
-						
-						{"gw_ak12",		"gs_ak12"},
-						{"gw_an94",		"gs_an94"},
+					{"gw_ak12",		"gs_ak12"},
+					{"gw_an94",		"gs_an94"},
 
-						{"gw_ar15",		"gs_ar15"},
-						{"gw_m16a1",	"gs_m16a1"},
-						{"gw_m4a1",		"gs_m4a1"},
-                        {"gw_m4_sopmod_ii",    "gs_m4 sopmod ii"},
+					{"gw_ar15",		"gs_ar15"},
+					{"gw_m16a1",	"gs_m16a1"},
+					{"gw_m4a1",		"gs_m4a1"},
+                    {"gw_m4_sopmod_ii",    "gs_m4 sopmod ii"},
 
-						{"gw_g11",		"gs_g11"},
-						{"gw_hk416",	"gs_hk416"},
-						{"gw_ump9",		"gs_ump9"},
-						{"gw_ump45",	"gs_ump45"},
+					{"gw_g11",		"gs_g11"},
+					{"gw_hk416",	"gs_hk416"},
+					{"gw_ump9",		"gs_ump9"},
+					{"gw_ump45",	"gs_ump45"},
 
-						
-						{"gw_m1873",	"gs_m1873"},
-						{"gw_m9",		"gs_m9"},
+					
+					{"gw_m1873",	"gs_m1873"},
+					{"gw_m9",		"gs_m9"},
 
-						{"gw_m14",		"gs_m14"},
-						{"gw_98k",		"gs_98k"},
-						{"gw_m99",		"gs_m99"},
-						{"gw_m82a1",	"gs_m82a1"},
-						{"rw_cb98",		"gs_sv98"},
+					{"gw_m14",		"gs_m14"},
+					{"gw_98k",		"gs_98k"},
+					{"gw_m99",		"gs_m99"},
+					{"gw_m82a1",	"gs_m82a1"},
+					{"rw_cb98",		"gs_sv98"},
 
-						{"gw_fnfnc",	"gs_fnfnc"},
-						{"gw_95type",	"gs_95type"},
-						{"gw_95type",	"gs_97type"},
-						
-						{"gw_mp40",		"gs_mp40"},
-						{"gw_mp5",		"gs_mp5"},
-						
-						{"mg42",		"gs_mg42"},
-						{"gw_pkp",		"gs_pkp"},
-						{"gw_negev",	"gs_negev"},
-						{"gw_m2hb",		"gs_m2hb"},
-						
-						{"aa-12",		"gs_aa12"},
-						{"spas-12",		"gs_spas12"}
-					};
-					if (dict.exists(w_key_0)) {
-						string s_key = string(dict[w_key_0]);
-						
-						XmlElement command("command");
-							command.setStringAttribute("class", "play_sound");
-							command.setStringAttribute("filename", "ding.wav");
-							command.setStringAttribute("position",  info.getStringAttribute("position"));
-						m_metagame.getComms().send(command);
+					{"gw_fnfnc",	"gs_fnfnc"},
+					{"gw_95type",	"gs_95type"},
+					{"gw_95type",	"gs_97type"},
+					
+					{"gw_mp40",		"gs_mp40"},
+					{"gw_mp5",		"gs_mp5"},
+					
+					{"mg42",		"gs_mg42"},
+					{"gw_pkp",		"gs_pkp"},
+					{"gw_negev",	"gs_negev"},
+					{"gw_m2hb",		"gs_m2hb"},
+					
+					{"aa-12",		"gs_aa12"},
+					{"spas-12",		"gs_spas12"}
+				};
+				if (dict.exists(w_key_0)) {
+					string s_key = string(dict[w_key_0]);
+					
+					XmlElement command("command");
+						command.setStringAttribute("class", "play_sound");
+						command.setStringAttribute("filename", "ding.wav");
+						command.setStringAttribute("position",  info.getStringAttribute("position"));
+					m_metagame.getComms().send(command);
 
-						XmlElement c2("command");
-							c2.setStringAttribute("class", "update_inventory");
-							c2.setIntAttribute("character_id", id); 
-							c2.setIntAttribute("add", 0); 
-							c2.setIntAttribute("container_type_id", 4);
-							{
-								XmlElement j("item");
-								j.setStringAttribute("class", "projectile");
-								j.setStringAttribute("key", "dummy_core.projectile");
-								c2.appendChild(j);
-							}
-						m_metagame.getComms().send(c2);
+					XmlElement c2("command");
+						c2.setStringAttribute("class", "update_inventory");
+						c2.setIntAttribute("character_id", id); 
+						c2.setIntAttribute("add", 0); 
+						c2.setIntAttribute("container_type_id", 4);
+						{
+							XmlElement j("item");
+							j.setStringAttribute("class", "projectile");
+							j.setStringAttribute("key", "dummy_core.projectile");
+							c2.appendChild(j);
+						}
+					m_metagame.getComms().send(c2);
 
-						
-						spawnInstanceNearPlayer(senderId, s_key , "soldier");
-					}
+					
+					spawnInstanceNearPlayer(senderId, s_key , "soldier");
 				}
-
-
-
-
-			}
+			}	
 		}
 
 		else if (matchString(paras[0], "pose")) {
-			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
-			int characterId = info.getIntAttribute("character_id");
+
 			array<string> actions = {
 				"male action pose",
 				"female laying pose 3",
@@ -238,8 +232,6 @@ class BasicCommandHandler : Tracker {
 
 
 		else if (matchString(paras[0], "action")) {
-			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
-			int characterId = info.getIntAttribute("character_id");
 			array<string> actions = {
 				'bicycle crunch',
 				'crouch death',
@@ -256,8 +248,6 @@ class BasicCommandHandler : Tracker {
 		}
 
 		else if (matchString(paras[0], "dance")) {
-			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
-			int characterId = info.getIntAttribute("character_id");
 			array<string> actions = {
 				'jumping jacks',
 				'breakdance flare',
@@ -266,7 +256,7 @@ class BasicCommandHandler : Tracker {
 				'breakdance headspin',
 				'breakdance freeze 1',
 				'breakdance hip hop move',
-				'breakdance footwork 1'
+				'breakdance footwork 1',
 				'hip hop dancing'
 			};
 			if (pn == 2) {	
@@ -277,10 +267,6 @@ class BasicCommandHandler : Tracker {
 		}
 
 
-
-
-
-
 		else if (matchString(paras[0], "mutate1")) {
 			handleMutate(senderId, "infected_walk.carry_item", 15);
 		}
@@ -288,17 +274,6 @@ class BasicCommandHandler : Tracker {
 		else if (matchString(paras[0], "mutate2")) {
 			handleMutate(senderId, "infected_brute.carry_item", 20);
 		}
-
-
-
-		// else if (matchString(paras[0], "mutate3")) {
-		// 	handleMutate(senderId, "infected_berserker.carry_item", 25);
-		// }
-
-
-
-
-
 
 		else if (matchString(paras[0], "whereami")) {
 			_log("whereami received", 1);
@@ -530,8 +505,7 @@ class BasicCommandHandler : Tracker {
 		} 
 
 		else if (matchString(paras[0], "save_data")) {
-			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
-			int cid = info.getIntAttribute("character_id");
+
 
 			string com1 = """
 <command 
@@ -543,16 +517,13 @@ class BasicCommandHandler : Tracker {
 			//string com1 = "<command class='add_custom_stat' character_id="+ cid +" tag='bbq'></command>";
 
 			m_metagame.getComms().send(com1);
-			sendPrivateMessage(m_metagame, senderId, cid+"");
+			sendPrivateMessage(m_metagame, senderId, characterId+"");
 		}
 		
 		else if (matchString(paras[0], "acid")) {
-
-			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
-			int id = info.getIntAttribute("character_id");
 			XmlElement c2("command");
 				c2.setStringAttribute("class", "update_inventory");
-				c2.setIntAttribute("character_id", id); 
+				c2.setIntAttribute("character_id", characterId); 
 				c2.setIntAttribute("add", 1); 
 				c2.setIntAttribute("container_type_id", 4);
 				{
@@ -579,7 +550,7 @@ class BasicCommandHandler : Tracker {
 				}
 			}
 		} else  if(matchString(paras[0], "promote")) {
-			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
+			
 			if (info !is null) {
 				int id = info.getIntAttribute("character_id");
 				string command =
@@ -592,7 +563,7 @@ class BasicCommandHandler : Tracker {
 				_log("player info is null");
 			}
 		} else if (matchString(paras[0], "rp")) {
-			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
+			
 			if (info !is null) {
 				int id = info.getIntAttribute("character_id");
 				string command =

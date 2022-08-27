@@ -17,7 +17,7 @@
   projectile_speed="80.0" 
     slot="2"   
   projectiles_per_shot="8" 
-  sight_height_offset="3.0" />  />
+  sight_height_offset="3.0" />  
 
     <!-- <ballistics curve_height="15.0" near_far_distance="1.0" speed_estimation_near="20.0" max_speed="100.0" randomness="0.0" /> -->
     <ballistics near_far_distance="1.0" speed_estimation_near="20.0" speed_estimation_far="35.0" max_speed="80.0" randomness="0.1" />
