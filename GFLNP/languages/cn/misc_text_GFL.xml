@@ -276,12 +276,15 @@ vehicle
 	<text key="M113 apc" text="M113装甲输送车"/>
 	<text key="BMD-K17" text="BMD-K17步兵战车"/>
 	<text key="Jupiter[lite] Combat Vehicle" text="“木星 [Lite]”轻型机动载具"/>
-	<text key="Sturmtiger[modernization]" text="“突击虎”自行突击炮（现代型）"/>
-	<text key="Tiger[modernization]" text="“虎”式重型坦克（现代型）"/>
-	<text key="Panzer IV (H)[modernization]" text="四号H型坦克（现代型）"/>
+	<text key="Sturmtiger[modernization]" text="“突击虎”自行突击炮[近现代化改造]"/>
+	<text key="Tiger[modernization]" text="“虎”式重型坦克[近现代化改造]"/>
+	<text key="Panzer IV (H)[modernization]" text="四号H型坦克[近现代化改造]"/>
 	<text key="LAV 6.0" text="LAV6.0轮式装甲车"/>
 	<text key="L3/33DM" text="L3/33DM轻坦歼击车"/>
-	<text key="Type 22 missile boat [Minimization]" text="022型导弹快艇"/>
+	<text key="Type 22 missile boat [Minimization]" text="22型导弹快艇[小型化改造]"/>
+	<text key="T90 MBT" text="T90主战坦克"/>
+	<text key="Ersatz Leopard2a5" text="伪装豹豹AAAAA"/>
+	<text key="Challenger 2 TES" text="挑战者2TES"/>
 
 -vanilla-
 	<text key="Jeep" text="吉普车" />
