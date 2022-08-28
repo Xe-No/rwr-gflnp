@@ -61,6 +61,8 @@ Armory
 	<weapon key="gw_qbz191.weapon" />
 	<weapon key="pf89.weapon" />
 	<weapon key="gw_ak15.weapon" />
+	<weapon key="gw_type80.weapon" />
+	<weapon key="gw_type80_n.weapon" />
 	
 <!-- ST -->
 	<weapon key='st_mg0.weapon' />

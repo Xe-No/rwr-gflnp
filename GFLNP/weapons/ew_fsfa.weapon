@@ -41,7 +41,7 @@
     <model filename="frommer_stop_auto.xml" />
     <hud_icon filename="frommer_stop_auto.png" />
     <inventory encumbrance="7.0" buy_price="40000.0" sell_price="22.0"/>
-    <commonness value="0.0015" can_respawn_with="0" in_stock="0"/>
+    <commonness value="0.0015" can_respawn_with="0" in_stock="1"/>
 
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="1.64" kill_decay_start_time="0.38" kill_decay_end_time="0.54" />
