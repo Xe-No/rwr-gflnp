@@ -64,7 +64,7 @@
 		<turret index="1" />
 	</character_slot>
 
-	<character_slot type="passenger" attached_on_turret="0" enter_position="-3 0.5 0" seat_position="-0.6 -0.3 0.2" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still" marker_offset="0 1 0" >
+	<character_slot type="passenger" attached_on_turret="0" enter_position="-3 0.5 0" seat_position="-0.6 -0.3 0.2" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="travelling car, aiming" marker_offset="0 1 0" >
 		<!-- <turret index="3" /><turret index="4" /> -->
 	</character_slot>
 
