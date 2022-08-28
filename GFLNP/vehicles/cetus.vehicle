@@ -64,9 +64,9 @@
 	<sound key="destroy" filename="explosion4.wav" />  
 	<sound key="cleanup" filename="explosion3.wav" />
 
-	<effect event_key="drive_chassis" ref="xPropulsion" offset="0.0 2.0 -2.6" />
-	<effect event_key="drive" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
-	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />
+	<!-- <effect event_key="drive_chassis" ref="xPropulsion" offset="0.0 2.0 -2.6" /> -->
+<!-- 	<effect event_key="drive" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
+	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" /> -->
 
 	<effect event_key="health" value="3.15" ref="SmallSmokeVehicle" offset="0.0 2.4 1.6" />   
 	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.0 4.0 0.0" />

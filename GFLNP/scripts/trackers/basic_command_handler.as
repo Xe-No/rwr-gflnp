@@ -277,7 +277,7 @@ class BasicCommandHandler : Tracker {
 
 		else if (matchString(paras[0], "whereami")) {
 			_log("whereami received", 1);
-			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
+			// const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
 			if (info !is null) {
 				int characterId = info.getIntAttribute("character_id");
 				@info = getCharacterInfo(m_metagame, characterId);
@@ -307,7 +307,7 @@ class BasicCommandHandler : Tracker {
 			string item = message.substr(5);
 			// sendPrivateMessage(m_metagame, senderId, name);
 	
-			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
+			// const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
 			if (info !is null)
 			{	
 				string name = info.getStringAttribute("name");
@@ -1041,7 +1041,7 @@ class BasicCommandHandler : Tracker {
 					notify(m_metagame, "reward player", dictionary = {{"%player_name", name}}, "misc");
 					sendPrivateMessage(m_metagame, senderId, "1");
 					//get character
-					const XmlElement@ info = getPlayerInfo(m_metagame, playerId);
+					// const XmlElement@ info = getPlayerInfo(m_metagame, playerId);
 					if (info !is null) {
 						int id = info.getIntAttribute("character_id");
 						string command =
