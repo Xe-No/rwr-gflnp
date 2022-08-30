@@ -22,7 +22,7 @@
   burst_shots="1"
   projectiles_per_shot="1" />
 
-    <drop_on_death_result class="spawn" instance_class="carry_item" instance_key="lottery.carry_item" min_amount="1" max_amount="5" offset="0 1 0" position_spread="0 0" direction_spread="0.01 0.01" />    
+    <drop_on_death_result class="spawn" instance_class="carry_item" instance_key="lottery.carry_item" min_amount="1" max_amount="3" offset="0 1 0" position_spread="0 0" direction_spread="0.01 0.01" />    
 
     <next_in_chain key="doppelsoldner_mgl.weapon" share_ammo="0" /> 
 

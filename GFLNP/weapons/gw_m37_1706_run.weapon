@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_cb.weapon" key="gw_m37_1706_run.weapon" quality="cb">
     <specification 
-		retrigger_time="5" 
-		accuracy_factor="1.0" 
+		retrigger_time="0.42" 
+		accuracy_factor="0.9" 
 		sustained_fire_grow_step="1.0" 
      		 sustained_fire_diminish_rate="1.6" 
-		magazine_size="-1" 
+		magazine_size="8" 
 		can_shoot_standing="1" 
 		can_shoot_crouching="1" 
-		can_shoot_prone="0" 
-		suppressed="1" 
+		can_shoot_prone="1" 
+		suppressed="0" 
 		barrel_offset="0.6"
 		name="M37 [Summer Parader]" 
-		class="4" 
-		projectile_speed="30.0" 
+		class="0" 
+		projectile_speed="130.0" 
 		burst_shots="1"
 		reload_one_at_a_time="1" 
-		projectiles_per_shot="0"
+		projectiles_per_shot="6"
 		sight_range_modifier="1.0"
 		 stab_enabled="1"
 		 stab_range="2"/>
 
-    <next_in_chain key="gw_m37_1706.weapon" share_ammo="0"/>
-    <animation state_key="next_in_chain_in" animation_key="switch, aa-12"/>
+    <next_in_chain key="gw_m37_1706.weapon" share_ammo="1"/>
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2"/>
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1"/>
 
     <animation state_key="recoil" ref="27" />
     <animation state_key="cycle" ref="28" />
     <animation state_key="reload" animation_key="reloading, double at a time"/>
  <animation state_key="stabbing" animation_key="melee, bayonet" />
 		
-    <sound key="fire" fileref="m37_1706_shoot.wav" pitch_variety="0.05" volume="0.0" />
+    <sound key="fire" fileref="GFL_M37.wav" pitch_variety="0.05" volume="1.0" />
     <sound key="cycle" fileref="sg2_cycle.wav" />
     <sound key="reload_one" fileref="m37_1706_reload.wav"/>
     <sound class="impact" fileref="rifle_drop.wav" />
-    <sound key="effect" fileref="aa12_switch.wav"/>
-    <control key="effect" value="1"/>
-    <model filename="gw_m37_1706.xml" />
+		<sound key="effect" fileref="sl_out.wav" />
+		<control key="effect" value="1" />
+    <model filename="gw_m37_1706_run.xml" />
 
    <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="1.0"/>   
     <sound key="stab_hit" fileref="impact_whip.wav" pitch_variety="0.05" volume="1.6"/>  
 
-    <hud_icon filename="gw_m37_1706.png" />
+    <hud_icon filename="gw_m37_1706_run.png" />
     <inventory encumbrance="15.0" price="1706.0" />
 
     <weak_hand_hold offset="0.2" />
@@ -58,9 +59,10 @@
     <stance state_key="standing" accuracy="0.8" />
     <stance state_key="crouching" accuracy="0.8" />
     <stance state_key="prone" accuracy="0.75" />
-    <stance state_key="over_wall" accuracy="0.85"/>     
-    
-    <modifier class="speed" value="+0.15" />
+    <stance state_key="over_wall" accuracy="0.85"/>    
+ 
+    <modifier class="hit_success_probability" value="-0.1" />
+    <modifier class="speed" value="+0.05" />
 
 
 </weapon>

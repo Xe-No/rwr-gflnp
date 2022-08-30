@@ -859,7 +859,7 @@ gw_zb26_4703.weapon
 	<model filename="es_seekersix.xml"><requirement class="weapon" slot="0" key="kf2_seekersix_he.weapon"/></model>
 
 <!-- 33 -->
-	<model filename="es_emmmm.xml"><requirement class="weapon" slot="0" key="emmmm_f.weapon"/></model>
+	<model filename="es_emmmm_f.xml"><requirement class="weapon" slot="0" key="emmmm_f.weapon"/></model>
 	<model filename="es_emmmm.xml"><requirement class="weapon" slot="0" key="emmmm_t.weapon"/></model>
 	<model filename="gs_ksvk_mod.xml"><requirement class="weapon" slot="0" key="gw_ksvk_mod.weapon"/></model>
 	<model filename="gs_ksvk_mod.xml"><requirement class="weapon" slot="0" key="gw_ksvk_mod_f.weapon"/></model>

@@ -63,5 +63,5 @@
 
     <effect class="muzzle" ref="ejection" />
     <effect class="muzzle" ref="muzzle_blue" />
-    <modifier class="speed" value="+0.2" />
+    <modifier class="speed" value="+0.05" />
 </weapon>

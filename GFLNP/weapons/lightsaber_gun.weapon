@@ -80,6 +80,8 @@
 	
 	<modifier class="speed" value="+0.12" />
 	
-    <shield offset="-0.3 0.0 0" extent="1.6 1.6 1.6" />
+    <shield offset="-0.3 0.0 0" extent="0.25 1.6 1.6" />
+    <shield offset="-0.3 0.0 0" extent="1.6 1.6 0.25" />
+    <shield offset="-0.3 0.0 0" extent="1.6 0.25 1.6" />
 	
 </weapon>

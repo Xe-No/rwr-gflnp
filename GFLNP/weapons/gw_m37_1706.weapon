@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_cb.weapon" key="gw_m37_1706.weapon" quality="cb">
     <specification 
-		retrigger_time="-1" 
+		retrigger_time="0.42" 
 		accuracy_factor="0.9" 
 		sustained_fire_grow_step="1.0" 
      		 sustained_fire_diminish_rate="1.6" 
@@ -9,15 +9,16 @@
 		can_shoot_standing="1" 
 		suppressed="1" 
 		name="M37 [Summer Parader]" 
-		class="1" 
+		class="0" 
 		barrel_offset="0.85"
-		projectile_speed="130.0" 
+		projectile_speed="120.0" 
 		reload_one_at_a_time="1" 
 		projectiles_per_shot="6"
 		sight_range_modifier="1.0"/>
 
-    <next_in_chain key="gw_m37_1706_run.weapon" share_ammo="0"/>
-    <animation state_key="next_in_chain_in" animation_key="switch, aa-12"/>
+    <next_in_chain key="gw_m37_1706_run.weapon" share_ammo="1"/>
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2"/>
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1"/>
 
 
     <animation state_key="recoil" ref="27" />
@@ -28,8 +29,8 @@
     <sound key="cycle" fileref="sg2_cycle.wav" />
     <sound key="reload_one" fileref="m37_1706_reload.wav"/>
     <sound class="impact" fileref="rifle_drop.wav" />
-    <sound key="effect" fileref="aa12_switch.wav"/>
-    <control key="effect" value="1"/>
+		<sound key="effect" fileref="sl_out.wav" />
+		<control key="effect" value="1" />
     <model filename="gw_m37_1706.xml" />
 
     <hud_icon filename="gw_m37_1706.png" />
@@ -52,7 +53,7 @@
     <stance state_key="prone" accuracy="0.75" />
     <stance state_key="over_wall" accuracy="0.85"/>     
     
-    <modifier class="speed" value="-0.03" />
+    <modifier class="speed" value="-0.05" />
 
 
 </weapon>

@@ -16,9 +16,9 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	0 <turret offset="0 2.6 0.15" weapon_key="strv122_122gun.weapon" 		weapon_offset="0.0 0.91 7" 	weapon_recoil="0.2" physics_recoil="0.1" max_rotation_step="0.00006" />
+	0 <turret offset="0 2.6 0.15" weapon_key="strv122_122gun.weapon" 		weapon_offset="0.0 0.91 7" 	weapon_recoil="0.2" physics_recoil="0.1" max_rotation_step="0.00010" />
 	1 <turret offset="0.54 0.87 0.1" weapon_key="strv122_122ksp94.weapon" 		weapon_offset="0.55 0.5 0" 		weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00032" parent_turret_index="0" rotation="0.2" rotation_range="1"/>
-	2 <turret offset="0 2.2 0.0" 	weapon_key="strv122_122ksp94.weapon" 			weapon_offset="0.35 0.7 3" 	weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00006"/>
+	2 <turret offset="0 2.2 0.0" 	weapon_key="strv122_122ksp94.weapon" 			weapon_offset="0.35 0.7 3" 	weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00010"/>
 	<!-- 3 <turret offset="-0.29 1.36 -1.39" weapon_key="m3dm50_car.weapon" weapon_offset="-0.33 0.8 1.0" weapon_recoil="0.0" parent_turret_index="0" />
 	4 <turret offset="-0.29 1.36 -1.39" weapon_key="mk47_car.weapon" weapon_offset="+0.33 0.8 0.6" weapon_recoil="0.0" parent_turret_index="0" /> -->
 
@@ -70,21 +70,16 @@
 
 
 	<!-- sound handling -->
-	<rev_sound filename="tank_rev0.wav" low_pitch="0.2" high_pitch="0.4" low_rev="0.0" high_rev="1.0" volume="0.9" />
-	<rev_sound filename="tank_rev0_b.wav" low_pitch="0.5" high_pitch="0.6" low_rev="0.0" high_rev="0.8" volume="0.6" /> 
-	<rev_sound filename="tank_rev1.wav" low_pitch="0.1" high_pitch="0.3" low_rev="0.3" high_rev="0.5" volume="1.0" />
-	<rev_sound filename="tank_tracks.wav" low_pitch="0.4" high_pitch="0.8" low_rev="0.1" high_rev="1.0" volume="0.9" />  
-	<rev_sound filename="tank_rev2.wav" low_pitch="0.2" high_pitch="0.4" low_rev="0.8" high_rev="1.0" volume="0.9" />
-
+	<rev_sound filename="strv122_rev1.wav" low_rev="0.0" high_rev="1.0" pitch_variety="0.0" volume="0.6"/>
+	<rev_sound filename="strv122_rev2.wav" low_rev="0.1" high_rev="1.0" pitch_variety="0.0" volume="0.6"/>
+                <sound key="ignition" filename="strv122_ignition.wav" pitch_variety="0.0" volume="0.6"/>
 	<sound key="squeal" filename="tire_squeal.wav" />
-	<sound key="ignition" filename="jeep2_ignition.wav" />
 	<sound key="hit" filename="car_hit1.wav" />
 	<sound key="hit" filename="car_hit2.wav" />
 	<sound key="destroy" filename="vehicle_explosion_1.wav" />   
 	<sound key="cleanup" filename="vehicle_explosion_1.wav" />    
 
-	<sound key="turret_rotation" filename="turret_rotation1.wav" volume="0.8" />
-	<sound key="turret_rotation" filename="turret_rotation2.wav" volume="0.8"/>
+	<sound key="turret_rotation" filename="strv122a_rotation.wav" pitch_variety="0.0" volume="0.01" />
   
 	<effect event_key="drive" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
 	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />

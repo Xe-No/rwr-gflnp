@@ -46,7 +46,7 @@
 
     <weak_hand_hold offset="0.005" />
 
-    <hud_icon filename="uw_m320.png" />
+    <hud_icon filename="upa_jupiter.png" />
     <capacity value="2" source="rank" source_value="0.0" />
     <commonness value="0.0002" in_stock="1" can_respawn_with="0" />
     <inventory encumbrance="12.0" price="500.0" />
