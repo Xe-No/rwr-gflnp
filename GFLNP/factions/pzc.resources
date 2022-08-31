@@ -38,4 +38,5 @@
     <call key="squad_404.call" enabled="0"/>
     <call key="squad_AR.call" enabled="1"/>
     <call key="squad_defy.call" enabled="1"/>
+    <call key="ac130_gun_run.call" enabled="1"/>
 </resources>        
