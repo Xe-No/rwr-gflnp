@@ -105,7 +105,7 @@
 	<model filename="gs_mana1.xml"><requirement class="projectile" slot="0" key="token_alicemana.projectile"/><requirement class="rank" range="0 100000000" /></model>
 
 <!-- 36 -->
-	<model filename="gs_mg4td_1.xml"><requirement class="projectile" slot="0" key="gw_mg4_marker.projectile"/><requirement class="rank" range="0 100000000" /></model>
+	<model filename="gs_mg4td_2.xml"><requirement class="projectile" slot="0" key="gw_mg4_marker.projectile"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="es_iruru.xml"><requirement class="projectile" key="token_iruru_fire.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
 	<model filename="es_iruru_break.xml"><requirement class="projectile" key="token_iruru_fire.projectile" slot="0" /><requirement class="weapon" slot="1" key="medikit.weapon"/><requirement class="rank" range="0 100000000" /></model>
 	<model filename="es_iruru_break.xml"><requirement class="projectile" key="token_iruru_fire.projectile" slot="0" /><requirement class="weapon" slot="1" key="medikit_ai_2.weapon"/><requirement class="rank" range="0 100000000" /></model>	
