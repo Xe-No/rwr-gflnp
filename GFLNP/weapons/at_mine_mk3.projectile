@@ -32,7 +32,7 @@ player_death_drop_owner_lock_time="120"
     <capacity value="2" source="rank" source_value="250" />
     <capacity value="4" source="rank" source_value="300" />
 	<capacity value="5" source="rank" source_value="400" />
-    <inventory encumbrance="0.5" price="800.0" />
+    <inventory encumbrance="0.5" price="500.0" />
 
 	<sound class="result" key="other" fileref="at_mine_mk3_deploying_01.wav" pitch_variety="0.01" volume="1" />
 	<sound class="result" key="other" fileref="at_mine_mk3_deploying_02.wav" pitch_variety="0.01" volume="1"/>
