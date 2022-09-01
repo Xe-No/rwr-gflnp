@@ -84,7 +84,7 @@ token_medic.projectile
 <projectile name="86 Leina[RE]" file="token0.projectile" key="token_86leina.projectile"  >
 	<hud_icon filename="token_86leina.png" />
 </projectile>
-<projectile name="Chara Neko[RE]" file="token0.projectile" key="token_chara_neko.projectile"  >
+<projectile name="Chara Neko[RE]" file="token_c4.projectile" key="token_chara_neko.projectile"  >
 	<hud_icon filename="token_chara_neko.png" />
 </projectile>
 <projectile name="Remilia Scarlet[RE]" file="token0.projectile" key="token_remilia.projectile"  >
