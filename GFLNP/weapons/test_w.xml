@@ -25,43 +25,10 @@
 <weapon file="blueprints.weapon" />
 <weapon file="oath_weapons.weapon" />
 
+<weapon file="enemy_elite_weapons.weapon" />
 
 
-<!-- 36 -->
-<weapon file="uw_ar15_beowulf.weapon" />
-<weapon file="jupiter_cannon_luancher.weapon" />
-<weapon file="tw_hunter_hg_ai.weapon" />
-<weapon file="tw_scarecrow.weapon" />
-<weapon file="tw_scarecrow_fake.weapon" />
-<weapon file="gw_g41r.weapon" />
-<weapon file="gw_g41r_s.weapon" />
-<weapon file="naoto_rpl20.weapon" />
-<weapon file="naoto_rpl20_d.weapon" />
-<weapon file="ew_annihilator_grenade_launcher.weapon" />
-<weapon file="ew_annihilator_grenade_launcher_ticket.weapon" />
-<weapon file="ew_megumin_wand_float.weapon" />
-<weapon file="ew_megumin_wand_summon.weapon" />
-<weapon file="gw_vp1915.weapon" />
-<weapon file="gw_s99.weapon" />
-<weapon file="gw_kolibri.weapon" />
-<weapon file="gw_fedorov.weapon" />
-<weapon file="gw_derringer.weapon" />
-<weapon file="ew_fsfa.weapon" />
-<weapon file="gw_type80.weapon" />
-<weapon file="gw_type80_n.weapon" />
-<weapon file="gw_lee_enfield_10.weapon" />
-<weapon file="gw_lee_enfield_10_burstshots.weapon" />
-<weapon file="gw_hrg_bastion.weapon" />
-<weapon file="gw_hrg_bastionshell.weapon" />
-<weapon file="tw_jaguar.weapon" />
-<weapon file="ew_mk18cqb_hkykn.weapon" />
-<weapon file="ew_mk18cqb_hkykn_slug.weapon" />
-<weapon file="ew_chameleon.weapon" />
-<weapon file="ew_hongxue_1.weapon" />
-<weapon file="ew_hongxue_2.weapon" />
-<weapon file="ew_martini_henry.weapon" />
-<weapon file="ew_martini_henry_bt.weapon" />
-<weapon file="lightsaber.weapon" />
-<weapon file="lightsaber_gun.weapon" />
+
+
 
 </weapons>

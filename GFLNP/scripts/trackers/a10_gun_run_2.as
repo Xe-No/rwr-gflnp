@@ -238,8 +238,8 @@ class A10_2GunRun : Tracker {
 				}
 		// Insert the new height, scales with the loop index
 		// Also randomize the positions a tiny bit
-				float randx = rand(-4.0f, 4.0f);
-				float randz = rand(-2.0f, 2.0f);
+				float randx = rand(-3.5f, 3.5f);
+				float randz = rand(-3.5f, 3.5f);
 				newPos.set(newPos.get_opIndex(0) + randx, newPos.get_opIndex(1) + 40.0, newPos.get_opIndex(2) + randz);
 				newPos = newPos.add(Vector3(  direction.get_opIndex(2) * distance * k  ,  0,   - direction.get_opIndex(0) * distance *k) );
 
