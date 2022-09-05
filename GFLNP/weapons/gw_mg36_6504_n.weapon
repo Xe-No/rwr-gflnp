@@ -14,7 +14,7 @@
   class="0" 
   projectile_speed="130.0"
   barrel_offset_3d="0 0 0" 
-  projectiles_per_shot="1" />
+  projectiles_per_shot="0" />
 
 		<next_in_chain key="gw_mg36_6504_f.weapon" share_ammo="1"/>
     <animation state_key="next_in_chain_in" animation_key="change weapon in"/>
@@ -33,7 +33,7 @@
 	<animation state_key="crouch_moving_backwards" animation_key="crouching backwards, pistol 2"/>
     <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
 
-    <sound key="fire" fileref="GFL_MG36.wav" pitch_variety="0.04" volume="1.0"/>
+    <sound key="fire" fileref="GFL_MG36.wav" pitch_variety="0.04" volume="0.0"/>
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />

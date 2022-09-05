@@ -52,7 +52,7 @@ class SnipGunRun : Tracker {
 		// Hey we got a call!
 
 		// Check call key
-		if (event.getStringAttribute("call_key") == "sniper_call.call") {
+		if (event.getStringAttribute("call_key") == "sniper_call.call" || event.getStringAttribute("call_key") == "sniper_call_ai.call" ) {
 			string phase = event.getStringAttribute("phase");
 			//during the request all necessary information gets stored about the call, except for the marker the vehicle, it's done later
 			if (phase == "queue") {

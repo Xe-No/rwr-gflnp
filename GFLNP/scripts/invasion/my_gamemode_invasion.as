@@ -97,6 +97,7 @@ class MyGameModeInvasion : GameModeInvasion {
 			CallMarkerConfig("squad_404.call", "call_marker_gunship", 11, 0.5, 1.0),
 			CallMarkerConfig("squad_AR.call", "call_marker_gunship", 11, 0.5, 1.0),
 			CallMarkerConfig("squad_defy.call", "call_marker_gunship", 11, 0.5, 60.0),
+			CallMarkerConfig("squad_somst.call", "call_marker_gunship", 11, 0.5, 60.0),
 			
 			CallMarkerConfig("strike_2b14.call", "call_marker", 6, 0.5, 40.0),
 			CallMarkerConfig("strike_air.call", "call_marker", 7, 0.5, 10.0),

@@ -14,5 +14,7 @@
 	<call file="401_yamato.call" />
 	<call file="sniper_call.call" />
 	<call file="a10_gun_run_2.call" />
+	<call file="squad_somst.call" />
+	<call file="sniper_call_ai.call" />
 
 </calls>
