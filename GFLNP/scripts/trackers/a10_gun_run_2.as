@@ -136,6 +136,8 @@ class A10_2GunRun : Tracker {
 		int direction = int( (((atan2(-sightLine.get_opIndex(2), -sightLine.get_opIndex(0))) / m_pi) * 180 + 105) / 30 );
 		
 		if (direction == 0) { direction = 12; }
+		else if (direction == -1) { direction = 11; }
+		else if (direction == -2) { direction = 10; }
 		
 		return direction;
 	}

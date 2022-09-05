@@ -72,7 +72,7 @@
     <inventory encumbrance="4.0" price="999.0" />
 
 
-<!-- --------------------------------------------------------------------- -->
+<!-- ===================================================================== -->
     <projectile file="wand_guiding_01.projectile" pulldown_in_air="0.1"> 
     <trigger class="time" time_to_live="1.0" />
     <collision class="sticky" />
@@ -96,7 +96,7 @@
 
 
     <shield offset="-0.45 -0.15 -0.1" extent="2 0.1 0.1" />
-<!-- --------------------------------------------------------------------- -->
+<!-- ===================================================================== -->
     <stance state_key="running" accuracy="1" />
     <stance state_key="walking" accuracy="1" />
     <stance state_key="crouch_moving" accuracy="1" />
