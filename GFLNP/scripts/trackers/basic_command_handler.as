@@ -275,28 +275,6 @@ class BasicCommandHandler : Tracker {
 			handleMutate(senderId, "infected_brute.carry_item", 20);
 		}
 
-		else if (matchString(paras[0], "whereami")) {
-			_log("whereami received", 1);
-			// const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
-			if (info !is null) {
-				int characterId = info.getIntAttribute("character_id");
-				@info = getCharacterInfo(m_metagame, characterId);
-				if (info !is null) {
-					string posStr = info.getStringAttribute("position");
-					Vector3 pos = stringToVector3(posStr);
-					string region = m_metagame.getRegion(pos);
-
-					string text = posStr + ", " + region;
-
-					sendPrivateMessage(m_metagame, senderId, text);
-				} else {
-					_log("character info not ok", 1);
-				}
-			} else {
-				_log("player info not ok", 1);
-			}
-		}
-
 		// admin and moderator and VIP only from here on
 		if (!m_metagame.getAdminManager().isAdmin(sender, senderId) && !m_metagame.getModeratorManager().isModerator(sender, senderId) && !m_metagame.getVIPManager().isVIP(sender, senderId)  ) {
 			return;

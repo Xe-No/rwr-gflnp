@@ -988,6 +988,7 @@ gw_zb26_4703.weapon
 	<model filename="es_erika_sawamura.xml"><requirement class="weapon" key="ew_martini_henry_bt.weapon" slot="0" /></model>	
 	<model filename="es_perseus.xml"><requirement class="weapon" key="gw_mp9_med.weapon" slot="0" /></model>	
 	<model filename="es_perseus.xml"><requirement class="weapon" key="gw_mp9_med_gl.weapon" slot="0" /></model>
+	<model filename="surtr_armed.xml"><requirement class="weapon" key="surtr_skill.weapon" slot="0" /></model>
 
 
 <!-- oath -->

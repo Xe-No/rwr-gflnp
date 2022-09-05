@@ -19,6 +19,7 @@
 <weapon file="gw_mp9_med_gl.weapon" />
 
 <weapon file="ew_c10.weapon" />
+<weapon file="surtr_skill.weapon" />
 
 <!-- CBP -->
 <weapon file="base_blue_print.weapon" />
