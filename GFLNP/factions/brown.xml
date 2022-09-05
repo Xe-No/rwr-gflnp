@@ -570,6 +570,62 @@
 		</attribute_config>
 	</soldier> 
 
+	<soldier name="ksk_ops" spawn_score="0.08">
+		<character filename="ru_male.character" />
+		<ai filename="elite_scarecrow.ai" />
+		<model filename="ksk_ops.xml" />
+
+		<resources file="common.resources" clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
+			<weapon key="gw_mg4_mod_ai.weapon" />
+			<weapon key="gw_hk416mod_ai.weapon" />
+			<weapon key="stoner_lmg.weapon" />
+			<weapon key="g36.weapon" />
+			<weapon key="pf89.weapon" />
+			<weapon key="rw_golden_tt.weapon" />
+			<carry_item key='iotv_vest.carry_item' />
+          		  	<projectile key='strike_marker_somst.projectile' enabled="1" />
+			<call key="sniper_call_ai.call" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1" min="5" max="10.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="800.0" max="1000.0" />
+		</attribute_config>
+	</soldier> 
+	<soldier name="ksk_somst" spawn_score="0.0">
+		<character filename="ru_male.character" />
+		<ai filename="grenadier.ai" />
+		<model filename="ksk_somst.xml" />
+
+		<resources file="common.resources" clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
+			<weapon key="gw_mp7.weapon" />
+			<weapon key="gw_g36c_mod_ai.weapon" />
+			<weapon key="medikit_ai_2.weapon" />
+			<carry_item key='vest3.carry_item' />
+          		  	<projectile key='stun_grenade.projectile' enabled="1" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1" min="1.2" max="5.0" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="800.0" max="1000.0" />
+		</attribute_config>
+	</soldier> 
+
+
 	<soldier name="miniboss" spawn_score="0.01" squad_size_xp_cap="0.5">
 		<character filename="default_miniboss_male.character" />
 		<ai filename="elite.ai" />

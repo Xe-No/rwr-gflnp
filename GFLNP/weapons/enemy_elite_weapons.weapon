@@ -4,18 +4,18 @@
 
 	<weapon file="gw_mg4_mod.weapon" key="gw_mg4_mod_ai.weapon" time_to_live_out_in_the_open="0" name="MG-4">
 		<next_in_chain key="gw_mg4_mod_n_ai.weapon" share_ammo="1" /><inventory price="10.0" />
-		<commonness value="0.00000001" can_respawn_with="1" in_stock="1"/>
+		<commonness value="1" can_respawn_with="1" in_stock="1"/>
 		<hud_icon filename="gw_mg4_mod_oath.png" />
 	</weapon>
 	<weapon file="gw_mg4_mod_n.weapon" key="gw_mg4_mod_n_ai.weapon" time_to_live_out_in_the_open="0" name="MG-4">
 		<next_in_chain key="gw_mg4_mod_ai.weapon" share_ammo="1" /><inventory price="10.0" />
-		<commonness value="0.00000001" can_respawn_with="1" in_stock="1"/>
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
 		<hud_icon filename="gw_mg4_mod_n_oath.png" />
 	</weapon>
 
 	<weapon file="gw_hk416mod.weapon" key="gw_hk416mod_ai.weapon" time_to_live_out_in_the_open="0" name="HK416">
 		<next_in_chain key="gw_hk416mod_gl_ai.weapon" share_ammo="0" /><inventory price="10.0" />
-		<commonness value="0.00000001" can_respawn_with="1" in_stock="1"/>
+		<commonness value="1" can_respawn_with="1" in_stock="1"/>
 		<hud_icon filename="gw_hk416mod_oath.png" />
 	</weapon>
 	<weapon file="gw_hk416mod_gl.weapon" key="gw_hk416mod_gl_ai.weapon" time_to_live_out_in_the_open="0" name="HK416">
@@ -24,4 +24,10 @@
 		<hud_icon filename="gw_hk416mod_gl_oath.png" />
 	</weapon>
 	
+	<weapon file="gw_g36c_mod.weapon" key="gw_g36c_mod_ai.weapon" time_to_live_out_in_the_open="0" name="G36C">
+		<inventory price="10.0" />
+		<commonness value="1" can_respawn_with="1" in_stock="1"/>
+		<hud_icon filename="gw_g36c_mod.png" />
+	</weapon>
+
 </weapons>	

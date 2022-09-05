@@ -57,6 +57,7 @@ class HeliGunRun : Tracker {
 		string call_key = event.getStringAttribute("call_key");
 		if (call_key == "jugger_drop.call" 
 			|| call_key == "paratroopers_medic.call" 
+			|| call_key == "squad_somst.call" 
 			// || call_key == "squad_404.call"
 			// || call_key == "squad_AR.call"
 			|| call_key == "squad_defy.call"

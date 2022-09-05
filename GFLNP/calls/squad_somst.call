@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call 	
+	name="SOMST Reinforcements" key="squad_somst.call"
+	initiation_comment1="SOMST Reinforcements"
+	initiation_comment2="requesting 5"
+	acknowledge_comment="Roger."
+	launch_comment="5 airborne"
+ 	notify_metagame="1"  >
+
+	<round 
+		instances="5"
+		instance_class="soldier"
+		instance_key="ksk_somst"
+		instance_spread="10 15 10" 
+		common_spread="0 0 0" 
+		launch_time="2.0"
+		spawn_time="5.0">
+
+		<effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+		<sound class="launch" fileref="plane_flyby.wav" />
+	</round>
+
+    <round launch_time="8.0"
+       spawn_time="20.0">
+    </round>
+
+
+
+	<hud_icon filename="hud_paratroopers2.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="1.0" />
+	<inventory encumbrance="0.0" price="100.0" />
+
+</call>
