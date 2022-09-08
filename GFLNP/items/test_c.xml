@@ -2,7 +2,10 @@
     
 <!-- PRD -->
     <carry_item file="doppelsoldner.carry_item" />
- 
+
+<!-- TX -->
+    <carry_item file="tx_boss_gager.carry_item" />
+
 
 <!-- MOD3 -->
     <carry_item file="pzc_vest.carry_item" />

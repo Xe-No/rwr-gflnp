@@ -5,6 +5,10 @@
 
     <next_in_chain key="gw_aa12_2403_s.weapon" share_ammo="0"/>
 
+	<ballistics curve_height="0.001" near_far_distance="0.0" 
+    speed_estimation_near="0" speed_estimation_far="105"
+     max_speed="300.0" randomness="0.0" tweak_factor="5.0" />	
+
     <animation key="recoil" ref="27"/>
     <animation key="cycle" ref="28"/>
     <animation key="reload" animation_key="reloading, aa-12"/>

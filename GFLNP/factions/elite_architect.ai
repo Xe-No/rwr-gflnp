@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ai filename="default.ai">
+  <parameter class="accuracy_offset" value="0.1" /> 
+  <parameter class="accuracy_offset_in_player_squad" value="0.05" />
+  
+  <parameter class="check_reinforcement_need_time" value="10.0" />
+  <parameter class="call_reinforcements_max_distance" value="45.0" />
+  <parameter class="strike_frequency_time" value="5.0" />
+  <parameter class="force_comparison_multiplier_to_call_reinforcements" value="1.1" />
+
+  <parameter class="grenade_monitor_range" value="60.0" />
+  <parameter class="max_distance_to_throw_grenade" value="60.0" />
+  <parameter class="min_distance_to_throw_grenade" value="3.0" />
+  <parameter class="min_number_of_enemies_to_throw_grenade" value="2" />
+  <parameter class="throw_grenade_time_interval_max" value="20.0" />
+  <parameter class="throw_grenade_time_interval_min" value="5.0" />
+
+</ai>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="bullet" name="Frag12" key="aa12_he.projectile" slot="1" pulldown_in_air="10">
 
-    <result class="spawn" instance_class="projectile" instance_key="aa12_he_blast.projectile" min_amount="2" max_amount="3" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
-    <trigger class="impact" />
+    <result class="spawn" instance_class="projectile" instance_key="aa12_he_blast.projectile" min_amount="2" max_amount="2" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+    <trigger class="time" time_to_live="0.37"/>
     <rotation class="motion" />
 
     <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />

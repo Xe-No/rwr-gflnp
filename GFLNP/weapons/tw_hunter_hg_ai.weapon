@@ -57,7 +57,7 @@
     <!-- <commonness value="1.0" can_respawn_with="1" /> -->
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="2.0" kill_decay_start_time="0.35" kill_decay_end_time="0.67" />
+        <result class="hit" kill_probability="1.7" kill_decay_start_time="0.35" kill_decay_end_time="0.67" />
         <trail probability="1.0" key="laser_purple"/>
     </projectile>
 

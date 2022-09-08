@@ -19,17 +19,19 @@
 <weapon file="gw_mp9_med_gl.weapon" />
 
 <weapon file="ew_c10.weapon" />
-<weapon file="surtr_skill.weapon" />
+<!-- <weapon file="surtr_skill.weapon" /> -->
 
 <!-- CBP -->
 <weapon file="base_blue_print.weapon" />
 <weapon file="blueprints.weapon" />
 <weapon file="oath_weapons.weapon" />
 
+<!-- 37 -->
 <weapon file="enemy_elite_weapons.weapon" />
 <weapon file="rw_golden_tt.weapon" />
-
-
+<weapon file="tw_gager.weapon" />
+<weapon file="tw_architect.weapon" />
+<weapon file="tw_architect_gl.weapon" />
 
 
 
