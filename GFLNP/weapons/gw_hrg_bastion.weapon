@@ -8,7 +8,7 @@
     stance_accuracy_rate="1" 
     sustained_fire_grow_step="0.4" 
     sustained_fire_diminish_rate="1.8" 
-    magazine_size="250" 
+    magazine_size="1" 
     can_shoot_standing="1" 
     can_shoot_crouching="1" 
     suppressed="0" 
@@ -16,9 +16,10 @@
     class="0" 
     barrel_offset="0.9"
     sight_range_modifier="1.0" 
+    projectiles_per_shot="0"
     projectile_speed="180.0" />
 
-    <next_in_chain key="gw_hrg_bastionshell.weapon" share_ammo="1" />
+    <next_in_chain key="gw_hrg_bastionshell.weapon" share_ammo="0" />
 
     <animation state_key="recoil" animation_key="recoil, hip fire" />
     <animation state_key="recoil" animation_key="recoil2, hip fire" />
@@ -61,5 +62,5 @@
         <result class="hit" kill_probability="1.75" kill_decay_start_time="0.35" kill_decay_end_time="0.56" />
     </projectile>
   
-    <modifier class="speed" value="-0.20" />    
+    <modifier class="speed" value="-0.10" />    
 </weapon>

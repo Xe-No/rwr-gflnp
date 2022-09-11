@@ -1,0 +1,40 @@
+//-----------------------------------------------------------------------------------------------------------------------
+material wf_all/flaretrail
+{
+	receive_shadows on
+	technique {
+		pass {
+			lighting off
+			fog_override true
+
+			depth_write off
+			scene_blend add
+
+			texture_unit 
+                                               {
+				texture flaretrail.png
+			}
+		}
+	}
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+material wf_all/corinth_huan
+{
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override true
+
+			depth_write off
+			scene_blend add
+
+			texture_unit 
+                                               {
+				texture corinth_huan.png
+			}
+		}
+	}
+}
+

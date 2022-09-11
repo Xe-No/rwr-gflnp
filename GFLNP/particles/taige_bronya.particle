@@ -2,7 +2,22 @@ author：rst
 2022.6.27
 未经授权禁止复用和二改哟
 已授权Taige使用
-
+		<effect class="result" key="terrain" ref="taige_bronya_01" lighting="0" />
+		<effect class="result" key="terrain" ref="taige_bronya_02" lighting="0" />
+		<effect class="result" key="terrain" ref="taige_bronya_center_emissive" lighting="0" />
+		<effect class="result" key="terrain" ref="taige_bronya_surrounding_word_01" lighting="0" />
+		<effect class="result" key="terrain" ref="taige_bronya_surrounding_word_02" lighting="0" />
+		<effect class="result" key="terrain" ref="taige_bronya_surrounding_word_03" lighting="0" />
+		<effect class="result" key="terrain" ref="taige_bronya_surrounding_word_04" lighting="0" />
+		<effect class="result" key="terrain" ref="taige_bronya_ambient_decoration_01" lighting="0" />
+		<effect class="result" key="terrain" ref="taige_bronya_ambient_decoration_02" lighting="0" />
+		<effect class="result" key="terrain" ref="taige_bronya_linear_light" lighting="0" />
+		<effect class="result" key="terrain" ref="taige_bronya_impact_circle" lighting="0" />
+		<effect class="activated" ref="taige_bronya_activated_trail" lighting="0" />
+		<effect class="activated" ref="taige_bronya_activated_longtrail" lighting="0" />
+		<effect class="activated" ref="taige_bronya_activated_center" lighting="0" />
+		<effect class="activated" ref="taige_bronya_activated_trailstar" lighting="0" />
+		
 particle_system taige_bronya_01 //命中底部法阵
 {
 	quota 50
@@ -403,7 +418,7 @@ particle_system taige_bronya_activated_trail
     emitter Point
     {
         angle 0
-        colour 0 0.3 1 1
+        colour 0 0 0 0
 		direction 1 0 0
 		emission_rate 18
 		position 0 0 0
@@ -414,19 +429,21 @@ particle_system taige_bronya_activated_trail
     }
     affector Scaler
 	{
-		rate -15
+		rate -12
 	}
-    affector ColourFader2{
-        red1	0
-		green1  3
-		blue1	10
-		alpha1	10
-		red2	 -5
-		green2  -5
-		blue2	-5
-		alpha2	-5
-		state_change 0.2
-    }
+    affector ColourInterpolator
+	{
+		time0 0
+		colour0 0 0 0 0
+		time1 0.1
+		colour1 0 0 0 0
+		time2 0.2
+		colour2 0 0.3 1 1
+		time3 0.9
+		colour3 0 0.3 1 1	
+		time4 1
+		colour4 0 0 0 0
+	}
 	affector Rotator
 	{
 		rotation_speed_range_start	360
@@ -477,6 +494,142 @@ particle_system taige_bronya_muzzle_blue
 		rotation_speed_range_end	0
 		rotation_range_start	0
 		rotation_range_end	0
+	}
+}
+
+particle_system taige_bronya_activated_center
+{
+	quota 50
+	material point_soft_edge_100
+	particle_width 2
+	particle_height 2
+	renderer billboard
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	iteration_interval 0.01
+	
+	emitter Point
+	{
+		angle 0
+		colour 0.5 0.8 1 1
+		direction 0 1 0
+		emission_rate 20
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.3
+		duration 3
+	}
+	affector Scaler
+	{
+		rate -5
+	}
+	affector ColourFader2
+	{
+		red1 	0
+		green1 	0
+		blue1 	1
+		alpha1 	0
+		red2 	-10
+		green2	-10
+		blue2	3
+		alpha2	-3
+		state_change 0.33
+	}
+}
+particle_system taige_bronya_activated_longtrail
+{
+	quota 100
+	material point_soft_edge_100
+	particle_width 1
+	particle_height 1
+	renderer billboard
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	iteration_interval 0
+	
+	emitter Point
+	{
+		angle 0
+		colour 0 0.5 1 1
+		direction 0 1 0
+		emission_rate 40
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.5
+		duration 3
+	}
+	affector Scaler
+	{
+		rate -0.7
+	}
+	affector ColourFader2
+	{
+		red1 	0
+		green1 	0
+		blue1 	0
+		alpha1 	0
+		red2 	-3
+		green2	-3
+		blue2	-3
+		alpha2	-3
+		state_change 0.33
+	}
+}
+particle_system taige_bronya_activated_trailstar
+{
+	quota 100
+	material point_soft_edge_100
+	particle_width 0.2
+	particle_height 0.2
+	renderer billboard
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	iteration_interval 0
+	
+	emitter Box
+	{
+		angle 0
+		colour 0 0.5 1 1
+		direction 0 1 0
+		emission_rate 40
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 1
+		duration 3
+		width 1
+		height 1
+		depth 1
+	}
+	affector Scaler
+	{
+		rate 0
+	}
+	affector ColourFader2
+	{
+		red1 	0
+		green1 	0
+		blue1 	0
+		alpha1 	0
+		red2 	-3
+		green2	-3
+		blue2	-3
+		alpha2	-3
+		state_change 0.33
+	}
+	affector DirectionRandomiser 
+	{
+		randomness 5
+		scope 100
+		keep_velocity false
 	}
 }
 

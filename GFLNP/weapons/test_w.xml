@@ -32,7 +32,11 @@
 <weapon file="tw_gager.weapon" />
 <weapon file="tw_architect.weapon" />
 <weapon file="tw_architect_gl.weapon" />
-
+<weapon file="ew_reisenu_a.weapon" />
+<weapon file="ew_reisenu_b.weapon" />
+<weapon file="gw_ogris.weapon" />
+<weapon file="gw_mk12.weapon" />
+<weapon file="gw_mk12_a.weapon" />
 
 
 </weapons>

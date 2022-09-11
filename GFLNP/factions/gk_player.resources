@@ -192,6 +192,9 @@ re token
 	<projectile key="token_api.projectile" />
 	<projectile key="token_angelia.projectile" />
 	<projectile key="token_tirpitz.projectile" />
+	<projectile key="token_reisenu_card.projectile" />
+	<projectile key="token_skyfire.projectile"  />
+
 
 oath
   	<weapon key="gw_ar15mod_sl_oath.weapon" />

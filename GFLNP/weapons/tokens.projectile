@@ -139,6 +139,10 @@ token_medic.projectile
 <projectile name="Raiden Mei[RE]" file="token0.projectile" key="token_raiden_mei.projectile"  >
 	<hud_icon filename="token_raiden.png" />
 </projectile>
+<projectile name="Skyfire[RE]" file="token0.projectile" key="token_skyfire.projectile"  >
+	<hud_icon filename="token_skyfire.png" />
+</projectile>
+
 <!-- flash -->
 <projectile name="Komeiji Koishi[RE]" file="token_stun.projectile" key="token_koishi.projectile"  >
 	<model mesh_file="token_koishi.xml" />

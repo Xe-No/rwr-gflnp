@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_AR.weapon" key="gw_mk12_a.weapon">
+  <tag name="assault" />
+  <specification slot="0" 
+    retrigger_time="0.12" 
+    accuracy_factor="0.97" 
+    sustained_fire_grow_step="0.27" 
+    sustained_fire_diminish_rate="1.4" 
+    magazine_size="15" 
+    can_shoot_standing="1" 
+    suppressed="1" 
+    name="MK 12" 
+    class="0" 
+    sight_range_modifier="1.80"
+    projectile_speed="169.0"
+    barrel_offset="0.7"/>
+
+
+  <next_in_chain key="gw_mk12.weapon" share_ammo="1" />
+  
+
+  <animation key="recoil" ref="12" />
+  <animation key="recoil" ref="13" />
+  <animation key="recoil" ref="14" />
+  <animation state_key="reload" animation_key="reloading, ak47" />
+  <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+  <animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />
+  <animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+  <animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />	
+
+  <sound key="fire" fileref="mk18_shot.wav"  volume="0.3" />
+  <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+  <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+  <sound key="cycle" fileref="rifle_chamber.wav" />
+  <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="1.0"/>
+  <sound class="impact" fileref="rifle_drop.wav" />
+  
+  <control key="effect" value="1" />
+  <model filename="gw_mk12_a.xml" />
+
+  <hud_icon filename="gw_mk12_a.png" />
+  <commonness value="0.006" can_respawn_with="1" in_stock="1" />
+  <inventory encumbrance="10.0"  price="12.0" />
+
+  <projectile file="bullet.projectile">
+	 <result class="hit" kill_probability="1.81" kill_decay_start_time="0.71" kill_decay_end_time="0.91" />
+   
+  </projectile>
+    
+  <stance state_key="running" accuracy="0.4" />
+  <stance state_key="walking" accuracy="0.675" />
+  <stance state_key="crouch_moving" accuracy="0.75" />
+  <stance state_key="prone_moving" accuracy="0.3" />
+
+  <stance state_key="standing" accuracy="0.82" />
+  <stance state_key="crouching" accuracy="0.9" />
+  <stance state_key="prone" accuracy="1.05" />
+    
+  <modifier class="speed" value="-0.12" />
+
+</weapon>

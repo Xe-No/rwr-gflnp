@@ -9,7 +9,7 @@ time_to_live_out_in_the_open="150.0" drop_count_factor_on_death="1.0" player_dea
 >
 	<result class="spawn" instance_class="projectile" instance_key="r_vindicator_dive_bomb_sub.projectile" 
 	min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0.0 0.0" />
-	<trigger class="impact"/>	
+    <trigger class="time" time_to_live="2.6"/>	
     <rotation class="random" />
 
     <model mesh_filename="vindicator_beacon.xml" />

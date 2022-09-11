@@ -37,7 +37,11 @@
 <projectile file="architect_call_marker.projectile" />
 <projectile file="architect_gl.projectile" />
 <projectile file="missile_fervor.projectile" />
-
+<projectile file="ew_reisenu_b.projectile" />
+<projectile file="token_reisenu_card.projectile" />
+<projectile file="reisenu_card_damage.projectile" />
+<projectile file="ew_annihilator_grenade_launcher_damage.projectile" />
 	
+
 
 </projectiles>

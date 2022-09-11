@@ -20,7 +20,8 @@
     <next_in_chain key="bronia_hg.weapon" share_ammo="0"/>
 
      <ballistics curve_height="5.0" near_far_distance="10.0" speed_estimation_near="40.0" speed_estimation_far="100.0" max_speed="100.0" randomness="0.0" tweak_factor="1.55"/> 
-    <animation state_key="hold" animation_key="still, mgl" />
+    <animation key="hold" ref="39" />
+    <animation key="hold_on_wall" ref="39" />
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
     <animation key="recoil" ref="14" />
@@ -31,7 +32,7 @@
     <sound key="cycle" fileref="m79_cycle.wav" volume="1.0"/>
     <sound class="impact" fileref="rifle_drop.wav" />
 
-   <model filename="bronia_hg.xml"/>
+   <model filename="bfsa_final_project.xml"/>
      
      <projectile file="bronia_gl.projectile"/>
     
@@ -41,9 +42,9 @@
     
      <inventory encumbrance="10.0" price="300.0"/>
 
-     <effect class="muzzle" ref="LawMuzzle"/>
-    
-  <effect class="muzzle" ref="UpDust"/>
+    <effect class="muzzle" ref="ejection" />
+    <effect class="muzzle" ref="muzzle_blue" />
+
 
 	<stance state_key="running" accuracy="1.0"/>
 	<stance state_key="walking" accuracy="1.0"/>
