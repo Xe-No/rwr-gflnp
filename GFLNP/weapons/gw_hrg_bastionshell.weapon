@@ -3,7 +3,7 @@
     <tag name="machine gun" />
     <specification 
     retrigger_time="0.075"
-    spread_range="0.2" 
+    spread_range="0.22" 
     accuracy_factor="1"
     stance_accuracy_rate="1" 
     sustained_fire_grow_step="0.4" 
