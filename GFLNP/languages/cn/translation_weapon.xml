@@ -99,6 +99,14 @@ projectile, vehicle and other
     <text key="HMTech501-HESH" text="HMTech-501榴弹"/>
     <text key="ar_14b_chaozhongdan" text="AR-14B重型弹"/>
     <text key="JEFTY" text="洁芙缇"/>
+    <text key="LDGP Mark 82" text="LDGP Mark 82航弹" />
+    <text key="Magic" text="魔法" />
+    <text key="Capturer's Aim" text="困兽狙击" />
+    <text key="Shadow Predation" text="暗影捕食" />
+    <text key="Jupiter cannon" text="“木星”" />
+    <text key="Ka-Boom !" text="Ka-Boom!" />
+    <text key="Point" text="鸿雪（点题）" />
+    <text key="Sharpen sketch" text="鸿雪（锐笔速写）" />
     <text key="Bullet" text="子弹" />
 
 AR
@@ -158,8 +166,10 @@ AR
     <text key="QBZ 191" text="QBZ191突击步枪"/>
     <text key="AK-15" text="AK-15突击步枪" />
     <text key="SIG MCX automatic rife" text="SIG MCX突击步枪"/>
+    <text key="Fedorov Avtomat" text="菲德洛夫自动步枪" />
 -rare-
     <text key="9A-91[Bullets Café]" text="9A-91[子弹咖啡馆]"/>
+    <text key="9A-91[Bullets Cafe]" text="9A-91[子弹咖啡馆]"/>
     <text key="AR-15[Digi-Mind]" text="AR-15[心智升级MOD3]"/>
     <text key="FN FAL[Winter Supply Operation]" text="FN FAL[冬幕补给行动]"/>
     <text key="FN FAL[FAL's Summer]" text="FN FAL[FAL的夏天]"/>
@@ -208,11 +218,26 @@ AR
     <text key="c8-sfw" text="C8-SFW突击步枪"/>
     <text key="G3A3-BUNNY" text="G3A3[酒馆里的兔女郎]"/>
     <text key="G36C[Digi-Mind]" text="G36C[心智升级MOD3]"/>
+    <text key="G41r(auto)" text="G41R全自动步枪" />
+    <text key="G41r(semi)" text="G41R半自动步枪" />
 -cb-
-    <text key="TKB-059" text="TKB-059三管突击步枪"/>
+--SR--
+    <text key="HMTech 501" text="HMTech-501突击步枪"/>
+    <text key="HMTech 501[HESH]" text="HMTech-501突击步枪（碎甲榴弹）"/>
+    <text key="AN-94[MOD4]" text="AN-94[升级改造MOD4]"/>
+    <text key="KN-57[Jack of all Trades]" text="KN-57[万事通]"/>
+--SSR--
     <text key="SCAR-SC" text="SCAR短版突击步枪"/>
-    <text key="Aek-971[Ghost Camoflague]" text="Aek-971[幽灵伪装]"/>
     <text key="AK-Alfa Defy" text="AK-α Defy突击步枪"/>
+    <text key="M27 IAR" text="HK M27自动步枪"/>
+    <text key="25A2-K Prototype Rifle" text="25A2-K原型突击步枪"/>
+    <text key="SIG516" text="SIG516突击步枪"/>
+    <text key="Chameleon[Dima]" text="“变色龙”[蒂玛]" />
+    <text key="MK18CQB[HEAVYSLUG]" text="MK18CQB步枪" />
+    <text key="MK18CQB[HEAVYSLUG]SLUGMOD" text="MK18CQB步枪（重型独头弹）" />
+--UR--
+    <text key="TKB-059" text="TKB-059三管突击步枪"/>
+    <text key="Aek-971[Ghost Camoflague]" text="Aek-971[幽灵伪装]"/>
     <text key="MDR[KURO]" text="MDR[KURO]"/>
     <text key="KURO[KEYBOARD]" text="MDR[KURO]"/>
     <text key="G41[Beach Punk 2077]" text="G41[沙滩朋克2077]"/>
@@ -220,9 +245,9 @@ AR
     <text key="M16A5.308" text="M16A5多用途步枪（.308模式）"/>
     <text key="M16A5_GL" text="M16A5多用途步枪（榴弹模式）"/>
     <text key="XM177" text="XM177短突击步枪" />
+    <text key="XM177[Stopping Power Semiauto]" text="XM177[停止作用]" />
+    <text key="Kat's Ka-Boom[Failed Prototype MK.I]" text="K.A - B.O.O.M.[失败原型MK.I]" />
     <text key="Sunaookami Shiroko" text="SG553[砂狼白子]" />
-    <text key="AN-94[MOD4]" text="AN-94[升级改造MOD4]"/>
-    <text key="KN-57[Jack of all Trades]" text="KN-57[万事通]"/>
     <text key="MCX TANG" text="MCX[TANG]"/>
     <text key="MCX TANG[SGMOD]" text="MCX[TANG]（霰弹）"/>
     <text key="AMB-17" text="AMB-17突击步枪"/>
@@ -232,11 +257,6 @@ AR
     <text key="AR-14B（silencer）" text="AR-14B消音突击步枪"/>
     <text key="AR-14B(silencer)" text="AR-14B消音突击步枪"/>
     <text key="M16-Astatoz" text="M16-Astatoz突击步枪"/>
-    <text key="M27 IAR" text="HK M27步兵自动步枪"/>
-    <text key="25A2-K Prototype Rifle" text="25A2-K原型突击步枪"/>
-    <text key="SIG516" text="SIG516突击步枪"/>
-    <text key="HMTech 501" text="HMTech-501突击步枪"/>
-    <text key="HMTech 501[HESH]" text="HMTech-501突击步枪（碎甲榴弹）"/>
 
 RF
 -normal-
@@ -254,7 +274,7 @@ RF
     <text key="Barrett M82A1 HE" text="M82A1反器材步枪（高爆弹）"/>
     <text key="Barrett M82A1" text="M82A1反器材步枪"/>
     <text key="M99" text="M99反器材步枪"/>
-    <text key="Lee-Enfield" text="李-英菲尔德步枪"/>
+    <text key="Lee-Enfield" text="李-恩菲尔德步枪"/>
     <text key="NTW 20" text="NTW-20反器材步枪"/>
     <text key="Super SASS" text="Super SASS消音狙击步枪"/>
     <text key="Dragunov SVD" text="德拉贡诺夫SVD狙击步枪"/>
@@ -279,6 +299,7 @@ RF
     <text key="IWS2000" text="IWS2000反器材步枪"/>
     <text key="SKS" text="SKS半自动步枪"/>
     <text key="81-HR" text="八一式马步枪"/>
+    <text key="Savage 99[.303 Savage]" text="萨维奇99型杠杆步枪（.303萨维奇弹）" />
 -rare-
     <text key="M14[Christmas Parade Dress]" text="M14[圣诞巡游礼服]"/>
     <text key="M99[Rabbit Squad]" text="M99[兔子班]"/>
@@ -313,17 +334,23 @@ RF
     <text key="Garand M1C" text="加兰德M1C步枪"/>
     <text key="G3A3-BUNNY-SNIPER" text="G3A3[酒馆里的兔女郎]（狙击型）"/>
     <text key="Jefty MN91/30PU" text="洁芙缇定制款狙击型莫辛纳甘步枪"/>
+    <text key="Lee-Enfield[Huntress' Frock]" text="李-恩菲尔德[狩猎者礼服]" />
+    <text key="Martini Henry" text="马蒂尼-亨利步枪" />
+    <text key="Martini Henry--Charge" text="马蒂尼-亨利步枪（突刺）" />
 -cb-
+--SR--
+    <text key="Dragunov Incendiary Rifle" text="德拉贡诺夫热线狙击步枪"/>
+--SSR--
     <text key="Dragunov SVDM" text="德拉贡诺夫SVDM狙击步枪"/>
     <text key="Barrett MK22" text="巴雷特MK22狙击步枪"/>
-    <text key="TAC-50[HeavyScouter]" text="TAC-50[重装斥候]"/>
     <text key="M200 [Slenderman]" text="M200[细长鬼影]"/>
-    <text key="M200[Slient Killing]" text="M200[无声杀戮]"/>
     <text key="AK-308" text="AK-308半自动步枪" />
-    <text key="IWS2000[The Seventh Banisher]" text="IWS2000[第七封印者]" />
-    <text key="Dragunov Incendiary Rifle" text="德拉贡诺夫热线狙击步枪"/>
     <text key="Rabbit M39" text="莫辛纳甘M39[垃姬兔]"/>
     <text key="Recycle Bin" text="可回收垃圾桶？"/>
+--UR--
+    <text key="M200[Slient Killing]" text="M200[无声杀戮]"/>
+    <text key="TAC-50[HeavyScouter]" text="TAC-50[重装斥候]"/>
+    <text key="IWS2000[The Seventh Banisher]" text="IWS2000[第七封印者]"/>
     <text key="S.H.O.K.I" text="S.H.O.K.I"/>
 
 HG
@@ -350,6 +377,8 @@ HG
     <text key="CZ75" text="CZ75自动手枪"/>
     <text key="CZ75 AXE" text="CZ75（飞斧）"/>
     <text key="Tokarev" text="托卡列夫手枪"/>
+    <text key="Derringer[.41 Short]" text="德林加手枪（.41口径短筒型）" />
+    <text key="Kolibri Pistole" text="“蜂鸟”微型手枪" />
 -rare-
     <text key="Five-seveN[Cruise Queen]" text="FN-57[游轮女王]"/>
     <text key="Five-seveN[Smile of Acceptance]" text="FN-57[被接纳的笑容]"/>
@@ -399,12 +428,15 @@ SG
     <text key="Corinth" text="科林斯泵动霰弹枪"/>
     <text key="Corinth buckshot" text="科林斯泵动霰弹枪（空爆）"/>
 -cb-
+--SR--
     <text key="AA-12[Smokeless Lollipop]" text="AA-12[无烟棒棒糖]"/>
     <text key="AA-12[Never Rising Sun]" text="AA-12[太阳永不升起]"/>
+--SSR--
     <text key="SIX12 SD" text="SIX12 SD霰弹枪" />
     <text key="SIX12 SD - Slug" text="SIX12 SD霰弹枪（独头弹）" />
-    <text key="LTLX7000[Dancing Shrine Maiden]" text="LTLX7000[巫姬翩舞起]"/>
     <text key="M37 [Summer Parader]" text="M37[盛夏巡礼者]"/>
+--UR--
+    <text key="LTLX7000[Dancing Shrine Maiden]" text="LTLX7000[巫姬翩舞起]"/>
 
 SMG
 -normal-
@@ -433,6 +465,7 @@ SMG
     <text key="PPSH 43" text="PPS-43冲锋枪"/>
     <text key="KP-31 Suomi" text="KP-31索米冲锋枪"/>
     <text key="JS-09" text="JS-09冲锋枪"/>
+    <text key="Villar Perosa 1915" text="VP1915冲锋枪" />
 -rare-
     <text key="IDW[Cat In Box]" text="IDW[箱中之猫]"/>
     <text key="IDW[Digi-Mind]" text="IDW[心智升级MOD3]"/>
@@ -458,10 +491,12 @@ SMG
     <text key="PPSh-41[Digi-Mind]" text="PPSh-41[心智升级MOD3]" />
     <text key="Turcotte Rapid Smg" text="Turcotte高速冲锋枪" />
 -cb-
+--SSR--
     <text key="Exusiai" text="维克托[能天使]"/>
-    <text key="Amamiya Kokoro" text="维克托[阿喵喵]"/>
     <text key="Williams .22 SMG" text="威廉姆斯.22冲锋枪"/>
     <text key="MP5K" text="MP5K双持冲锋枪"/>
+--UR--
+    <text key="Amamiya Kokoro" text="维克托[阿喵喵]"/>
     <text key="Blue Flame Silver Falcon Final Project HG MODE" text="蓝焰银隼·最终企划 便携型" />
     <text key="Blue Flame Silver Falcon Final Project GL MODE" text="蓝焰银隼·最终企划 榴弹型" />
 
@@ -497,6 +532,7 @@ MG
     <text key="ST MG0 " text="ST MG0样板机枪" />
     <text key="ST MG0" text="ST MG0样板机枪" />
     <text key="Kord" text="KORD重机枪" />
+    <text key="type80" text="80式轻机枪" />
 -rare-
     <text key="AMELI[Christmas Tree]" text="阿梅利[卖礼物的圣诞树]"/>
     <text key="AMELI[Ameli's Catch]" text="阿梅利[阿梅利的接球]"/>
@@ -512,17 +548,18 @@ MG
     <text key="Lewis[Warmth of the Wintersweet]" text="刘易斯[迎寒客]"/>
     <text key="BianchiFA-6LMG" text="Bianchi FA-6轻机枪" />
 -cb-
+--SSR--
     <text key="Chain SAW" text="“链锯”消音机枪" />
-    <text key="MG-4[Tactical Defender]" text="MG-4[战术防御]"/>
     <text key="Universe Destroyer" text="宇宙毁灭者"/>
+--UR--
     <text key="Kat's Heir Apparent" text="H.E.I.R - A.P.P.A.R.E.N.T. 猫猫继承者" />
     <text key="VEX" text="VEX外骨骼机炮系统"/>
     <text key="RPL-20" text="RPL-20轻机枪" />
+    <text key="MG-4[Tactical Defender]" text="MG-4[战术防御]"/>
     <text key="MG4A3[Tactical Defender]" text="MG4A3[战术防御]"/>
+    <text key="HRG bastion" text="HRG“堡垒”机枪" />
 
 other primary
-    <text key="PF-98" text="PF-98 XN1 120mm火箭筒"/>
-    <text key="MK153[SMAW 83mm]" text="MK153 SMAW 83mm反坦克火箭筒"/>
     <text key="Milkor MGL" text="Milkor榴弹发射器"/>
     <text key="RGM-40" text="RGM-40榴弹发射器"/>
     <text key="PAW-20" text="PAW-20榴弹发射器"/>
@@ -530,23 +567,30 @@ other primary
     <text key="XM-25" text="XM-25空爆弹发射器"/>
     <text key="m79 grenade launcher" text="M79榴弹发射器"/>
     <text key="M79 incendiary grenade launcher" text="M79燃烧榴弹发射器"/>
-    <text key="QLU-11" text="QLU-11狙击榴弹发射器"/>
-    <text key="Z.E.R.O." text="Z.E.R.O."/>
-    <text key="Javelin, anti-personnel" text="“标枪”反步兵导弹发射器"/>
-    <text key="RWM Mortar" text="RWM 50mm便携迫击炮"/>
+    <text key="AGS-30 Mobile GL" text="AGS-30便携自动榴弹发射器"/>
     <text key="QLT-89" text="QLT-89 50mm单兵掷弹筒"/>
     <text key="Blowgun" text="吹箭"/>
     <text key="Chain Saw" text="油锯"/>
     <text key="Zweihander" text="双手巨剑"/>
     <text key="luxurious sea lord" text="衔珠海皇"/>
-    <text key="AGS-30 GL" text="AGS-30自动榴弹发射器"/>
-    <text key="AGS-30 Mobile GL" text="AGS-30便携自动榴弹发射器"/>
     <text key="Defibrillator" text="电复律机"/>
     <text key="Welding torch" text="焊枪"/>
     <text key="Reaper's Scythe" text="死神之镰"/>
     <text key="targetdrone" text="嘲讽靶机"/>
     <text key="Red[DoubleKnives]" text="RED（双刃）" />
     <text key="Red[FlyCutter]" text="RED（飞刀）" />
+    <text key="Hemogoblin" text="“血红蛋白”发射器"/>
+--SR--
+    <text key="PF-98" text="PF-98 XN1 120mm火箭筒"/>
+    <text key="MK153[SMAW 83mm]" text="MK153 SMAW 83mm反坦克火箭筒"/>
+    <text key="MINI Athena" text="迷你雅典娜激光引导系统"/>
+--SSR--
+    <text key="QLU-11" text="QLU-11狙击榴弹发射器"/>
+    <text key="Javelin, anti-personnel" text="“标枪”反步兵导弹发射器"/>
+    <text key="RWM Mortar" text="RWM 50mm便携迫击炮"/>
+--UR--
+    <text key="Z.E.R.O." text="Z.E.R.O."/>
+    <text key="AGS-30 GL" text="AGS-30自动榴弹发射器"/>
     <text key="Fiammetta M" text="菲亚梅塔 主武装"/>
     <text key="Fiametta_s" text="菲亚梅塔 副武装"/>
     <text key="Fiammetta S" text="菲亚梅塔 副武装"/>
@@ -556,10 +600,11 @@ other primary
     <text key="Seeker Six HE" text="探索者六号（高爆）"/>
     <text key="Ms.Silence" text="沉默小姐“闪光”火箭发射器"/>
     <text key="Ms.Silence[PEW!]" text="沉默小姐“闪光”火箭发射器（PEW!）"/>
-    <text key="Hemogoblin" text="“血红蛋白”发射器"/>
-    <text key="MINI Athena" text="迷你雅典娜激光引导系统"/>
-    <text key="DBS2-DoubleFreedom" text="DBS2双重解放"/>
-    <text key="DBS2 Exchange ticket" text="DBS2兑换券"/>
+    <text key="Megumin's wand[Fire Ball]" text="慧慧的法杖（火球术）" />
+    <text key="Megumin's wand[Explosion]" text="慧慧的法杖（Explosion!）" />
+    <text key="HongXue Sharpen sketch" text="鸿雪（锐笔速写）" />
+    <text key="HongXue Point" text="鸿雪（点题）" />
+--EX--
     <text key="AA-12[EV]" text="AA-12[EV]"/>
     <text key="PF-98[EV]" text="PF-98[EV]"/>
     <text key="TKB-059[EV]" text="TKB-059[EV]"/>
@@ -634,12 +679,35 @@ secondary
     <text key="Banner" text="旗帜"/>
     <text key="Dog Comfort" text="狗狗舔舔"/>
     <text key="P33_Pereira" text="P33 Pereira手枪" />
-    <text key="Micro-Roni CAA" text="G18 Micro-Roni战术卡宾转换手枪" />
     <text key="S-Castanas" text="雷暴信标"/>
     <text key="Type-64 SD" text="64式微声冲锋枪"/>
     <text key="Be one with Yuri" text="“Be One With Yuri”"/>
     <text key="Someone's Quilt" text="苍天已死，紫天当立，岁在甲子，天下大吉！"/>
+    <text key="Frommer Stop Full-Auto Classic" text="费罗梅尔停止自动手枪" />
+    <text key="Kagemitsu G4" text="影光G4" />
+--SSR--
+    <text key="Micro-Roni CAA" text="G18 Micro-Roni战术卡宾转换手枪" />
+--UR--
     <text key="Apocalypse railgun" text="天灾电磁炮"/>
+
+Helldivers
+    <text key="RX1 Railgun[AP]" text="RX-1轨道枪（穿甲弹）"/>
+    <text key="RX1 Railgun[Charge]" text="RX-1轨道枪（电荷弹）"/>
+    <text key="Rumbler" text="M-25“雷鸣者”便携榴弹迫击炮" />
+    <text key="Rumbler[Consume]" text="M-25“雷鸣者”消耗型三联装榴炮" />
+    <text key="DBS2-DoubleFreedom" text="DBS-2“双重解放”霰弹枪"/>
+    <text key="MG-94 MK3 Machine Gun" text="MG-94 MK3机枪"/>
+    <text key="P-6 Gunslinger [PVP-mode]" text="P-6“神枪手”重型左轮（对决模式）"/>
+    <text key="P-6 Gunslinger [Burst-mode]" text="P-6“神枪手”重型左轮（连射模式）"/>
+    <text key="P-2 PeaceMaker" text="P-2“和平制造者”自动手枪"/>
+    <text key="Annihilator Grenade Launcher" text="消灭者榴弹发射器" />
+    <text key="Annihilator Grenade Launcher ticket" text="消灭者榴弹发射器兑换券" />
+    <text key="P-2 PeaceMaker Exchange ticket" text="P-2“和平制造者”兑换券"/>
+    <text key="P-6 Gunslinger Exchange ticket" text="P-6“神枪手”兑换券"/>
+    <text key="M-2 Rumbler Exchange ticket" text="M-25“雷鸣者”兑换券"/>
+    <text key="RX1 Railgun Exchange ticket" text="RX-1轨道枪兑换券"/>
+    <text key="DBS2 Exchange ticket" text="DBS-2“双重解放”兑换券"/>
+    <text key="MG-94 Exchange ticket" text="MG-94机枪兑换券"/>
 
 projectile
 -grenade-
@@ -698,11 +766,18 @@ projectile
 	<text key="Medic[RE]" text="医疗兵[RE]" />
 	<text key="Douzi[RE]" text="豆子[RE]" />
 	<text key="Kurumi[Wedding][RE]" text="花嫁狂三[RE]" />
-	<text key="Grey cat sneeze" text="灰猫猫（打喷嚏呐！）" />
+	<text key="Grey cat sneeze" text="灰猫猫（打喷嚏呐！）[RE]" />
 	<text key="Sangonomiya Kokomi[RE]" text="珊瑚宫心海[RE]" />
 	<text key="Inoue Takina[RE]" text="井之上泷奈[RE]" />
 	<text key="Alicemana[RE]" text="有栖Mana[RE]" />
 	<text key="Raiden Mei[RE]" text="雷电芽衣[RE]" />
+    <text key="Shokuhou Misaki[RE]" text="食蜂操析[RE]" />
+    <text key="A-Pi[RE]" text="A-Pi[RE]" />
+    <text key="NEKO ZERO[RE]" text="零喵[RE]" />
+    <text key="Angelia[RE]" text="安洁莉娅[RE]" />
+    <text key="Tirpitz[RE]" text="提尔比茨[RE]" />
+    <text key="Iruru" text="伊露露[RE]" />
+    <text key="Dima[C4]" text="蒂玛（C4）" />
 -other-
 	<text key="ballistic knife" text="弹道战术刀" />
 	<text key="Stim pack" text="兴奋剂" />
@@ -717,7 +792,7 @@ projectile
 	<text key="ant ro635 summoner" text="RO压缩胶囊" />
 	<text key="ant ro635 x5 summoner" text="ROx5压缩胶囊" />
 	<text key="targetdrone summoner" text="嘲讽靶机胶囊" />
-	<text key="Dummy Core" text="核心" />
+	<text key="Dummy Core" text="扩编核心" />
 	<text key="RVindicator Dive Bomb" text="“辩护者”轰炸信标" />
 	<text key="Electronic counter measure support marker" text="电子反制支援信标" />
 	<text key="AirDropped Stun Mine Mk3 Beacon" text="空投眩晕地雷MK3部署信标" />
@@ -725,32 +800,22 @@ projectile
 	<text key="AT Mine MK3 Beacon" text="反坦克地雷MK3部署信标" />
 	<text key="AT Mine MK3" text="反坦克地雷MK3" />
 
-Helldivers
-    <text key="RX1 Railgun[AP]" text="RX-1轨道枪（穿甲弹）"/>
-    <text key="RX1 Railgun[Charge]" text="RX-1轨道枪（电荷弹）"/>
-    <text key="Rumbler" text="“雷鸣者”便携榴弹迫击炮" />
-    <text key="Rumbler[Consume]" text="“雷鸣者”消耗型三联装榴炮" />
-    <text key="MG-94 MK3 Machine Gun" text="MG-94 MK3机枪"/>
-    <text key="P-6 Gunslinger [PVP-mode]" text="P-6“神枪手”重型左轮（对决模式）"/>
-    <text key="P-6 Gunslinger [Burst-mode]" text="P-6“神枪手”重型左轮（连射模式）"/>
-    <text key="P-2 PeaceMaker" text="P-2“和平制造者”自动手枪"/>
-    <text key="P-2 PeaceMaker Exchange ticket" text="P-2“和平制造者”兑换券"/>
-    <text key="P-6 Gunslinger Exchange ticket" text="P-6“神枪手”兑换券"/>
-    <text key="M-2 Rumbler Exchange ticket" text="M-25“雷鸣者”兑换券"/>
-    <text key="RX1 Railgun Exchange ticket" text="RX-1轨道枪兑换券"/>
-    <text key="MG-94 Exchange ticket" text="MG-94机枪兑换券"/>
+GFL
+    <text key="C10 Canister Rifle" text="C10狙击步枪" />
 
 US
     <text key="GAU-8Avenger" text="GAU-8复仇者机枪" />
     <text key="HellFire" text="地狱火导弹" />
     <text key="RailCannon" text="轨道炮" />
+    <text key="UPA-TECH Jupiter Cannon Luancher" text="UPA科技小型“木星”发射器" />
+    <text key="Alexander Arms .50 Beowulf" text=".50贝奥武夫自动步枪" />
 
 SF
     <text key="Ripper-3" text="切割者Ripper"/>
     <text key="S.F.Standard Assault Rifle" text="胡蜂Vespid"/>
     <text key="S.F.Standard Sniper Rifle" text="猎鸥Jaeger"/>
     <text key="Striker 2000" text="痛击者Striker"/>
-    <text key="Prowler Mortar" text="巡游者Prowler迫击炮型"/>
+    <text key="Prowler SMG" text="巡游者Prowler"/>
     <text key="Jaguar Mortar" text="劫豹Jaguar"/>
     <text key="Scout SMG" text="侦查者Scout"/>
     <text key="Goliath" text="歌利亚Golyat"/>
@@ -760,8 +825,9 @@ SF
     <text key="Striker 2000 SWAP" text="痛击者Striker SWAP"/>
     <text key="dragoon" text="龙骑兵Dragoon"/>
     <text key="Ant" text="兵蚁Dinergate"/>
-    <text key="Executioner" text="刽子手"/>
-    <text key="Scarecrow" text="稻草人"/>
+    <text key="Executioner" text="刽子手Executioner"/>
+    <text key="Scarecrow" text="稻草人Scarecrow"/>
+    <text key="Hunter" text="猎手Hunter"/>
 
 KCCO
     <text key="Cerynitis" text="牝鹿Cerynitis"/>
@@ -774,8 +840,8 @@ KCCO
     <text key="Dactyl" text="指灵Dactyl"/>
     <text key="orthrus" text="欧特鲁斯Orthrus"/>
     <text key="Aegis" text="圣盾Aegis"/>
-    <text key="aegis shield 100%" text="圣盾 100%"/>
-    <text key="aegis shield 50%" text="圣盾 50%"/>
+    <text key="aegis shield 100%" text="圣盾盾牌 100%"/>
+    <text key="aegis shield 50%" text="圣盾盾牌 50%"/>
     <text key="AA-02" text="AA-02 负罪者"/>
     <text key="AA-02 MG" text="AA-02 负罪者"/>
     <text key="AA02S-HGPlasma" text="AA-02S 双足飞龙"/>
@@ -789,7 +855,7 @@ Paradeus
     <text key="Doppelsoldner-GL" text="巨剑士Doppelsoldner（榴弹）"/>
     <text key="Doppelsoldner-MGL" text="巨剑士Doppelsoldner（火箭弹）"/>
     <text key="Streltsy" text="重炮士Streltsy"/>
-    <text key="Nyto Black" text="涅托（黑）"/>
+    <text key="Nyto Black" text="涅托Nyto（黑）"/>
 
 42LAB
     <text key="HK416C[ERC only]" text="HK416C消音卡宾枪[ERC限定]"/>
@@ -800,6 +866,7 @@ Paradeus
     <text key="HVY Repair Armor " text="快速修复用途插板[HVY3限定]"/>
     <text key="HVY Repair Armor" text="快速修复用途插板[HVY3限定]"/>
     <text key="Medical Pistol" text="医疗手枪[MED限定]"/>
+    <text key="MP9[MED only]" text="MP9微声冲锋枪[MED限定]"/>
     <text key="MP7[SCT3 only]" text="MP7A2冲锋枪[SCT3限定]"/>
     <text key="Sticky Bomb[SCT only]" text="黏性爆弹发射器[SCT3限定]"/>
     <text key="Mortar Binoculars" text="迫击炮标记望远镜[TEL2限定]"/>
@@ -814,6 +881,8 @@ Blueprint
     <text key="blueprint_oath" text="烙印蓝图"/>
     <text key="CB Part" text="CB配件" />
 	<text key="Oath Core" text="烙印核心" />
+    <text key="RPL20 Mode Transducer" text="RPL-20模式变换组件" />
+    <text key="MG-4 Mode Transducer" text="MG-4模式变换组件" />
 
 TEST
 

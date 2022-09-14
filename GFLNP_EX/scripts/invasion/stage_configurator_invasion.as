@@ -207,7 +207,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	addStage(setupRoberto());          
 	addStage(setupClairemont());
 	addStage(setupUntildeath()); 
-	addStage(setupUprising());     
+	// addStage(setupUprising());     
 	addStage(setupUntildeath2());
 	addStage(setupIntrusion()); 
 	addStage(setupUntildeath3());

@@ -41,6 +41,7 @@
 <projectile file="token_reisenu_card.projectile" />
 <projectile file="reisenu_card_damage.projectile" />
 <projectile file="ew_annihilator_grenade_launcher_damage.projectile" />
+<projectile file="xenophage_blast.projectile" />
 	
 
 

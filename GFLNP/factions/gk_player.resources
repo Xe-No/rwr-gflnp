@@ -194,6 +194,10 @@ re token
 	<projectile key="token_tirpitz.projectile" />
 	<projectile key="token_reisenu_card.projectile" />
 	<projectile key="token_skyfire.projectile"  />
+	<projectile key="token_sinon.projectile"  />
+	<projectile key="token_rose.projectile"  />
+	<projectile key="token_kana.projectile"  />
+	<projectile key="token_mdr_3305.projectile"  />
 
 
 oath

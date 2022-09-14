@@ -108,7 +108,7 @@ calls
 	<text key="This is Odin 6 ETA 5 seconds." text="这里是Odin 6，预计5秒" /> strike air-2
 	<!--	<text key="Odin 6-2,bombs away." text="" /> --> strike air-3（voice）
 	<text key="4 paratroopers" text="8个伞兵" />
-	<text key="8 paratroopers" text="16个伞兵"/>
+	<text key="8 paratroopers" text="16个伞兵" />
 	<text key="requesting 16" text="请求16人支援" />
 	<text key="16 airborne" text="16个空降兵" />
 	<text key="requesting 2" text="请求重型装甲地面部队" />
@@ -119,7 +119,8 @@ calls
 	<!--	<text key="Shot out." text="已开火。" /> --> 2B14-3（voice）
 	<text key="A-10 Strafing run" text="A-10攻击机支援" />
 	<text key="Requesting Strafing gun." text="请求扫射攻击" />
-	<text key="This is Warhorse 5,solid copy on all." text="这里是野马5，准备入场" /> A10-2	
+	<text key="This is Warhorse 5,solid copy on all." text="这里是野马5，准备入场" /> A10-2
+	<text key="4-3 ,this is Thunder II,one second." text="4-3，这里是雷霆II，1秒到达" /> A10_2-2
    	<!-- <text key="Warhorse off safe.Guns guns guns." text="" />  --> A10-3（voice）
 	<text key="Aircraft on its way, coming at &#37;direction o'clock!" text="攻击机正在接近，&#37;direction 点钟方向！" />
 	<text key="Requesting AC-130 air strike" text="请求AC-130空中支援" />
@@ -138,11 +139,11 @@ calls
 	<text key="UAV on line." text="无人机已上线" />
 	<text key="Missile on the way." text="导弹已发射" />
 	<text key="Firendly predator missile in bound." text="友方AGM导弹介入" />
-	<text key="spawn APC" text="空投步战车"/>
+	<text key="spawn APC" text="空投步战车" />
 	<text key="I need infantry fighting vehicle" text="请求步战车支援" />
 	<text key="Confirmed, IFV in the air." text="已确认，正在空运步战车" />
 	<text key="Airdropping IFV now." text="正在空投步战车" />
-	<text key="Requesting 105mm artillery strike." text="¤ ¤ ¤ 请求105mm饱和式打击 ¤ ¤ ¤ " />
+	<text key="Requesting 105mm artillery strike." text="¤ ¤ ¤ 请求105mm饱和式打击 ¤ ¤ ¤" />
 	<text key="105mm artillery strike" text="¤ ¤ ¤ 105mm榴弹炮饱和式打击 ¤ ¤ ¤" />
 	<text key="Coordinates confirmed." text="打击坐标确认完毕" /> 105-1
 	<text key="This is Badger 1,prepare to fire." text="这里是Badger 1，准备完毕" /> 105-2
@@ -166,7 +167,7 @@ calls
 	<text key="1 drop pod + 5 tank crew" text="5人战车班组舱降" />
 	<text key="1 drop pod + 5 medic" text="5人医疗支援舱降" />
 	<text key="4 tank crew" text="4人战车班组支援" />
-	<text key="call for airfleet support" text="请求空中舰队支援" />
+	<text key="call for airfleet support" text="¤ ¤ ¤ 请求空中舰队支援 ¤ ¤ ¤" />
 	<text key="We need battlecruiser support here" text="需要战列巡洋舰支援" />
 	<text key="Acknowledged, Course laid in" text="收到指令，航道已输入" /> yamato-1
 	<text key="Weapons charged and ready! Commencing bombardment" text="武器已经充能完毕，准备开始轰炸" /> yamato-2
@@ -280,11 +281,13 @@ vehicle
 	<text key="Tiger[modernization]" text="“虎”式重型坦克[近现代化改造]"/>
 	<text key="Panzer IV (H)[modernization]" text="四号H型坦克[近现代化改造]"/>
 	<text key="LAV 6.0" text="LAV6.0轮式装甲车"/>
-	<text key="L3/33DM" text="L3/33DM轻坦歼击车"/>
+	<text key="L3/33DM" text="L3/33DM轻型坦克歼击车"/>
 	<text key="Type 22 missile boat [Minimization]" text="22型导弹快艇[小型化改造]"/>
-	<text key="T90 MBT" text="T90主战坦克"/>
+	<text key="T90 MBT" text="T-90主战坦克"/>
 	<text key="Ersatz Leopard2a5" text="伪装豹豹AAAAA"/>
-	<text key="Challenger 2 TES" text="挑战者2TES"/>
+	<text key="Challenger 2 TES" text="挑战者2 TES"/>
+	<text key="Cetus Mech Tank" text="Cetus机械坦克"/>
+	<text key="M5 APC" text="M5轻型装甲运兵车"/>
 
 -vanilla-
 	<text key="Jeep" text="吉普车" />
@@ -401,9 +404,14 @@ drop flare
 	<text key="MAA Abraham Drop" text="MAA Abrams主战坦克空投信标" />
 	<text key="M2A2 Drop" text="M2A2 Bradley步战车空投信标" />
 	<text key="Panzer IV (H) drop" text="四号H型坦克空投信标" />
-	<text key="L3/33 drop" text="L3/33轻坦歼击车空投信标" />
+	<text key="L3/33 drop" text="L3/33轻型坦克歼击车空投信标" />
 	<text key="LAV 6.0 drop" text="LAV6.0轮式装甲车空投信标" />
 	<text key="Type 22 missile boat drop" text="22型导弹快艇空投信标" />
+	<text key="M5APC drop" text="M5轻型装甲运兵车空投信标" />
+	<text key="Challenger 2TES drop" text="挑战者2 TES空投信标" />
+	<text key="Cetus drop" text="Cetus机械坦克空投信标" />
+	<text key="T-90 drop" text="T-90主战坦克空投信标" />
+	<text key="Strv122A drop" text="Strv122A主战坦克空投信标" />
 
 drop item
 -rp-
@@ -492,6 +500,9 @@ drop item
 	<text key="Play Box" text="玩具箱子" />
 	<text key="Newyear Box" text="新年箱子" />
 	<text key="Vehicle Box" text="载具箱子" />
+	<text key="GFL SR Random Weapon Card" text="GFL随机SR武器兑换卡" />
+	<text key="GFL SSR Random Weapon Card" text="GFL随机SSR武器兑换卡" />
+	<text key="GFL UR Random Weapon Card" text="GFL随机UR武器兑换卡" />
 	<text key="Lottery ticket" text="彩票" />
 
 zombies
@@ -706,6 +717,13 @@ armor
 	<text key="Camouflaged Vest, 20&#37;" text="迷彩背心 2/5" />
 	<text key="Camouflaged Vest, destroyed" text="迷彩背心（损坏） 1/5" />
 
+	<text key="Improved Outer Tactical Vest" text="改进型外穿式战术背心 6/6" />
+	<text key="Improved Outer Tactical Vest, 80%" text="改进型外穿式战术背心 5/6" />
+	<text key="Improved Outer Tactical Vest, 60%" text="改进型外穿式战术背心 4/6" />
+	<text key="Improved Outer Tactical Vest, 40%" text="改进型外穿式战术背心 3/6" />
+	<text key="Improved Outer Tactical Vest, 20%" text="改进型外穿式战术背心 2/6" />
+	<text key="Improved Outer Tactical Vest, destroyed" text="改进型外穿式战术背心（损坏） 1/6" />
+
 -suit-
 	<text key="costume, clown" text="小丑服 2/2" />
 	<text key="costume, clown, destroyed" text="小丑服（损坏） 1/2"/>
@@ -802,30 +820,35 @@ armor
 	<text key="MED Optical Camouflage Cloak, 40%" text="MED光学迷彩披风 2/4" />
 	<text key="MED Optical Camouflage Cloak, destroyed" text="MED光学迷彩披风（损坏） 1/4" />
 
--enemy-
-	<text key="Doppelsoldner_Shield" text="巨剑士力场盾" />
-	<text key="Doppelsoldner_Normal" text="巨剑士装甲" />
-	<text key="Doppelsoldner_Down" text="巨剑士损坏装甲" />
-	<text key="Doppelsoldner" text="巨剑士力场盾 20/20" />
-	<text key="Doppelsoldner 95%" text="巨剑士力场盾 19/20" />
-	<text key="Doppelsoldner 90%" text="巨剑士力场盾 18/20" />
-	<text key="Doppelsoldner 85%" text="巨剑士力场盾 17/20" />
-	<text key="Doppelsoldner 80%" text="巨剑士装甲 16/20" />
-	<text key="Doppelsoldner 75%" text="巨剑士装甲 15/20" />
-	<text key="Doppelsoldner 70%" text="巨剑士装甲 14/20" />
-	<text key="Doppelsoldner 65%" text="巨剑士装甲 13/20" />
-	<text key="Doppelsoldner 60%" text="巨剑士装甲 12/20" />
-	<text key="Doppelsoldner 55%" text="巨剑士装甲 11/20" />
-	<text key="Doppelsoldner 50%" text="巨剑士装甲 10/20" />
-	<text key="Doppelsoldner 45%" text="巨剑士装甲 9/20" />
-	<text key="Doppelsoldner 40%" text="巨剑士装甲 8/20" />
-	<text key="Doppelsoldner 35%" text="巨剑士装甲 7/20" />
-	<text key="Doppelsoldner 30%" text="巨剑士装甲 6/20" />
-	<text key="Doppelsoldner 25%" text="巨剑士装甲 5/20" />
-	<text key="Doppelsoldner 20%" text="巨剑士装甲 4/20" />
-	<text key="Doppelsoldner 15%" text="巨剑士装甲 3/20" />
-	<text key="Doppelsoldner 10%" text="巨剑士装甲 2/20" />
-	<text key="Doppelsoldner destoryed" text="巨剑士装甲（损坏） 1/20" />
+-ai only-
+	<text key="Ghost Optical Camouflage Cloak" text="GHOST光学迷彩披风 4/4" />
+	<text key="Ghost Optical Camouflage Cloak, 60%" text="GHOST光学迷彩披风 3/4" />
+	<text key="Ghost Optical Camouflage Cloak, 40%" text="GHOST光学迷彩披风 2/4" />
+	<text key="Ghost Optical Camouflage Cloak, destroyed" text="GHOST光学迷彩披风（损坏） 1/4" />
+
+	<text key="Doppelsoldner_Shield" text="精英力场盾" />
+	<text key="Doppelsoldner_Normal" text="精英装甲" />
+	<text key="Doppelsoldner_Down" text="损坏精英装甲" />
+	<text key="Doppelsoldner" text="精英力场盾 20/20" />
+	<text key="Doppelsoldner 95%" text="精英力场盾 19/20" />
+	<text key="Doppelsoldner 90%" text="精英力场盾 18/20" />
+	<text key="Doppelsoldner 85%" text="精英力场盾 17/20" />
+	<text key="Doppelsoldner 80%" text="精英装甲 16/20" />
+	<text key="Doppelsoldner 75%" text="精英装甲 15/20" />
+	<text key="Doppelsoldner 70%" text="精英装甲 14/20" />
+	<text key="Doppelsoldner 65%" text="精英装甲 13/20" />
+	<text key="Doppelsoldner 60%" text="精英装甲 12/20" />
+	<text key="Doppelsoldner 55%" text="精英装甲 11/20" />
+	<text key="Doppelsoldner 50%" text="精英装甲 10/20" />
+	<text key="Doppelsoldner 45%" text="精英装甲 9/20" />
+	<text key="Doppelsoldner 40%" text="精英装甲 8/20" />
+	<text key="Doppelsoldner 35%" text="精英装甲 7/20" />
+	<text key="Doppelsoldner 30%" text="精英装甲 6/20" />
+	<text key="Doppelsoldner 25%" text="精英装甲 5/20" />
+	<text key="Doppelsoldner 20%" text="精英装甲 4/20" />
+	<text key="Doppelsoldner 15%" text="精英装甲 3/20" />
+	<text key="Doppelsoldner 10%" text="精英装甲 2/20" />
+	<text key="Doppelsoldner destoryed" text="精英装甲（损坏） 1/20" />
 
 UI
 	<text key="throw some grenades at me!" text="朝这里扔手榴弹！" />

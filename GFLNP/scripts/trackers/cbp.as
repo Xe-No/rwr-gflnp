@@ -130,7 +130,10 @@ class GFLEquipmentEvent : Tracker {
 				{"naoto_rpl20_d.weapon","ur"},
 				{"ew_mk18cqb_hkykn.weapon","ssr"},
 				{"ew_mk18cqb_hkykn_slug.weapon","ssr"},
-				{"ew_chameleon.weapon","ssr"}
+				{"ew_chameleon.weapon","ssr"},
+				{"gw_sat8_2601.weapon","ur"},
+				{"ew_xenophage.weapon","ur"},
+				{"gw_g41_7406.weapon","ur"}
 		};
 		dictionary dict2 = {
 				{"mg4td_ap.weapon","mg4a3td.weapon"},
@@ -174,32 +177,32 @@ class GFLEquipmentEvent : Tracker {
 
 
 
-		//»ñÈ¡ÊÂ¼şÎïÆ·¼üÖµ
+		//è·å–äº‹ä»¶ç‰©å“é”®å€¼
 		string key = event.getStringAttribute("item_key");	
 		int copyfail = -20000;
 		int oathfail = -1500;
 		if(dict.exists(key)){
 			string value = string(dict[key]);
 
-			//URÎäÆ÷Ïà¹Ø
-			//È·ÈÏÊÇ·ñÊÇURÎïÆ·±»³öÊÛ
+			//URæ­¦å™¨ç›¸å…³
+			//ç¡®è®¤æ˜¯å¦æ˜¯URç‰©å“è¢«å‡ºå”®
 
 			if(value == "ur" && event.getIntAttribute("target_container_type_id") == 1){
 
-				//»ñÈ¡ÊÂ¼şÍæ¼ÒID
+				//è·å–äº‹ä»¶ç©å®¶ID
 				int characterId = event.getIntAttribute("character_id");
-				//»ñÈ¡¹¦ÄÜÀ¶Í¼ÊÇ·ñ°²×°¼°Ê²Ã´¹¦ÄÜ
+				//è·å–åŠŸèƒ½è“å›¾æ˜¯å¦å®‰è£…åŠä»€ä¹ˆåŠŸèƒ½
 				string key2 = getFunctionKey(m_metagame, characterId);
 			
-				//·Ö½â
+				//åˆ†è§£
 				if(key2 == "blueprint_decomposition.weapon"){
 				
-					//·¢ËÍCBËéÆ¬
+					//å‘é€CBç¢ç‰‡
 					receiveCBpart(m_metagame, characterId, 10);
 
 				}
 
-				//ºÏ³É
+				//åˆæˆ
 
 				else if(key2 == "blueprint_copy.weapon"){
 
@@ -207,16 +210,16 @@ class GFLEquipmentEvent : Tracker {
 					int k1 = 0;
 					const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
 
-				//Èç¹ûÍæ¼Ò²»Îª¿ÕÖµ£¬Ö´ĞĞÓï¾ä
+				//å¦‚æœç©å®¶ä¸ä¸ºç©ºå€¼ï¼Œæ‰§è¡Œè¯­å¥
 					if(characterInfo !is null){
 
-						//»ñÈ¡Íæ¼ÒÊÖÀ×À¸ÎïÆ·¼üÖµ£¬Èç¹ûÎªCBËéÆ¬£¬»ñÈ¡ËéÆ¬ÊıÁ¿¸³Óèk1.
+						//è·å–ç©å®¶æ‰‹é›·æ ç‰©å“é”®å€¼ï¼Œå¦‚æœä¸ºCBç¢ç‰‡ï¼Œè·å–ç¢ç‰‡æ•°é‡èµ‹äºˆk1.
 						string key3 = getPartKey(m_metagame, characterId);
 						if(key3 == "cb_part.projectile"){
 							k1 = getpartAmount(m_metagame, characterId);
 						}
 
-						//Èç¹ûËéÆ¬ÊıÁ¿´óÓÚĞèÒªÊıÁ¿£¬É¾³ıĞèÒªÊıÁ¿µÄËéÆ¬£¬»ñµÃCBÎäÆ÷
+						//å¦‚æœç¢ç‰‡æ•°é‡å¤§äºéœ€è¦æ•°é‡ï¼Œåˆ é™¤éœ€è¦æ•°é‡çš„ç¢ç‰‡ï¼Œè·å¾—CBæ­¦å™¨
 						if(k1 >= k+1){
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
 							int check = checkCBP(m_metagame, characterId);
@@ -225,7 +228,7 @@ class GFLEquipmentEvent : Tracker {
 							receiveCB(m_metagame, characterId, "weapon", key);
 							}
 						}else{
-							//ºÏ³ÉÊ§°Ü·µ»¹ÎäÆ÷£¬¿Û³ıÉÙÁ¿RP£¬·ÀÖ¹¿¿·µ»¹ÎäÆ÷¹ÊÒâË¢Ç®
+							//åˆæˆå¤±è´¥è¿”è¿˜æ­¦å™¨ï¼Œæ‰£é™¤å°‘é‡RPï¼Œé˜²æ­¢é è¿”è¿˜æ­¦å™¨æ•…æ„åˆ·é’±
 							receiveCB(m_metagame, characterId, "weapon", key);
 							string command = "";
 							command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
@@ -238,24 +241,24 @@ class GFLEquipmentEvent : Tracker {
 				}
 
 			}
-			//SSRÎäÆ÷Ïà¹Ø
-			//È·ÈÏÊÇ·ñÊÇSSRÎïÆ·±»³öÊÛ
+			//SSRæ­¦å™¨ç›¸å…³
+			//ç¡®è®¤æ˜¯å¦æ˜¯SSRç‰©å“è¢«å‡ºå”®
 			if(value == "ssr" && event.getIntAttribute("target_container_type_id") == 1){
 
-				//»ñÈ¡ÊÂ¼şÍæ¼ÒID
+				//è·å–äº‹ä»¶ç©å®¶ID
 				int characterId = event.getIntAttribute("character_id");
-				//»ñÈ¡¹¦ÄÜÀ¶Í¼ÊÇ·ñ°²×°¼°Ê²Ã´¹¦ÄÜ
+				//è·å–åŠŸèƒ½è“å›¾æ˜¯å¦å®‰è£…åŠä»€ä¹ˆåŠŸèƒ½
 				string key2 = getFunctionKey(m_metagame, characterId);
 			
-				//·Ö½â
+				//åˆ†è§£
 				if(key2 == "blueprint_decomposition.weapon"){
 				
-					//·¢ËÍCBËéÆ¬
+					//å‘é€CBç¢ç‰‡
 					receiveCBpart(m_metagame, characterId, 5);
 
 				}
 
-				//ºÏ³É
+				//åˆæˆ
 
 				else if(key2 == "blueprint_copy.weapon"){
 
@@ -263,16 +266,16 @@ class GFLEquipmentEvent : Tracker {
 					int k1 = 0;
 					const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
 
-				//Èç¹ûÍæ¼Ò²»Îª¿ÕÖµ£¬Ö´ĞĞÓï¾ä
+				//å¦‚æœç©å®¶ä¸ä¸ºç©ºå€¼ï¼Œæ‰§è¡Œè¯­å¥
 					if(characterInfo !is null){
 
-						//»ñÈ¡Íæ¼ÒÊÖÀ×À¸ÎïÆ·¼üÖµ£¬Èç¹ûÎªCBËéÆ¬£¬»ñÈ¡ËéÆ¬ÊıÁ¿¸³Óèk1.
+						//è·å–ç©å®¶æ‰‹é›·æ ç‰©å“é”®å€¼ï¼Œå¦‚æœä¸ºCBç¢ç‰‡ï¼Œè·å–ç¢ç‰‡æ•°é‡èµ‹äºˆk1.
 						string key3 = getPartKey(m_metagame, characterId);
 						if(key3 == "cb_part.projectile"){
 							k1 = getpartAmount(m_metagame, characterId);
 						}
 
-						//Èç¹ûËéÆ¬ÊıÁ¿´óÓÚĞèÒªÊıÁ¿£¬É¾³ıĞèÒªÊıÁ¿µÄËéÆ¬£¬»ñµÃCBÎäÆ÷
+						//å¦‚æœç¢ç‰‡æ•°é‡å¤§äºéœ€è¦æ•°é‡ï¼Œåˆ é™¤éœ€è¦æ•°é‡çš„ç¢ç‰‡ï¼Œè·å¾—CBæ­¦å™¨
 						if(k1 >= k+1){
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
 							int check = checkCBP(m_metagame, characterId);
@@ -281,7 +284,7 @@ class GFLEquipmentEvent : Tracker {
 							receiveCB(m_metagame, characterId, "weapon", key);
 							}
 						}else{
-							//ºÏ³ÉÊ§°Ü·µ»¹ÎäÆ÷£¬¿Û³ıÉÙÁ¿RP£¬·ÀÖ¹¿¿·µ»¹ÎäÆ÷¹ÊÒâË¢Ç®
+							//åˆæˆå¤±è´¥è¿”è¿˜æ­¦å™¨ï¼Œæ‰£é™¤å°‘é‡RPï¼Œé˜²æ­¢é è¿”è¿˜æ­¦å™¨æ•…æ„åˆ·é’±
 							receiveCB(m_metagame, characterId, "weapon", key);
 							string command = "";
 							command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
@@ -294,24 +297,24 @@ class GFLEquipmentEvent : Tracker {
 				}
 
 			}
-			//SRÎäÆ÷Ïà¹Ø
-			//È·ÈÏÊÇ·ñÊÇSRÎïÆ·±»³öÊÛ
+			//SRæ­¦å™¨ç›¸å…³
+			//ç¡®è®¤æ˜¯å¦æ˜¯SRç‰©å“è¢«å‡ºå”®
 			if(value == "sr" && event.getIntAttribute("target_container_type_id") == 1){
 
-				//»ñÈ¡ÊÂ¼şÍæ¼ÒID
+				//è·å–äº‹ä»¶ç©å®¶ID
 				int characterId = event.getIntAttribute("character_id");
-				//»ñÈ¡¹¦ÄÜÀ¶Í¼ÊÇ·ñ°²×°¼°Ê²Ã´¹¦ÄÜ
+				//è·å–åŠŸèƒ½è“å›¾æ˜¯å¦å®‰è£…åŠä»€ä¹ˆåŠŸèƒ½
 				string key2 = getFunctionKey(m_metagame, characterId);
 			
-				//·Ö½â
+				//åˆ†è§£
 				if(key2 == "blueprint_decomposition.weapon"){
 				
-					//·¢ËÍCBËéÆ¬
+					//å‘é€CBç¢ç‰‡
 					receiveCBpart(m_metagame, characterId, 1);
 
 				}
 
-				//ºÏ³É
+				//åˆæˆ
 
 				else if(key2 == "blueprint_copy.weapon"){
 
@@ -319,16 +322,16 @@ class GFLEquipmentEvent : Tracker {
 					int k1 = 0;
 					const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
 
-				//Èç¹ûÍæ¼Ò²»Îª¿ÕÖµ£¬Ö´ĞĞÓï¾ä
+				//å¦‚æœç©å®¶ä¸ä¸ºç©ºå€¼ï¼Œæ‰§è¡Œè¯­å¥
 					if(characterInfo !is null){
 
-						//»ñÈ¡Íæ¼ÒÊÖÀ×À¸ÎïÆ·¼üÖµ£¬Èç¹ûÎªCBËéÆ¬£¬»ñÈ¡ËéÆ¬ÊıÁ¿¸³Óèk1.
+						//è·å–ç©å®¶æ‰‹é›·æ ç‰©å“é”®å€¼ï¼Œå¦‚æœä¸ºCBç¢ç‰‡ï¼Œè·å–ç¢ç‰‡æ•°é‡èµ‹äºˆk1.
 						string key3 = getPartKey(m_metagame, characterId);
 						if(key3 == "cb_part.projectile"){
 							k1 = getpartAmount(m_metagame, characterId);
 						}
 
-						//Èç¹ûËéÆ¬ÊıÁ¿´óÓÚĞèÒªÊıÁ¿£¬É¾³ıĞèÒªÊıÁ¿µÄËéÆ¬£¬»ñµÃCBÎäÆ÷
+						//å¦‚æœç¢ç‰‡æ•°é‡å¤§äºéœ€è¦æ•°é‡ï¼Œåˆ é™¤éœ€è¦æ•°é‡çš„ç¢ç‰‡ï¼Œè·å¾—CBæ­¦å™¨
 						if(k1 >= k+1){
 							deletepart(m_metagame, characterId, k, "projectile", "cb_part.projectile");
 							int check = checkCBP(m_metagame, characterId);
@@ -337,7 +340,7 @@ class GFLEquipmentEvent : Tracker {
 							receiveCB(m_metagame, characterId, "weapon", key);
 							}
 						}else{
-							//ºÏ³ÉÊ§°Ü·µ»¹ÎäÆ÷£¬¿Û³ıÉÙÁ¿RP£¬·ÀÖ¹¿¿·µ»¹ÎäÆ÷¹ÊÒâË¢Ç®
+							//åˆæˆå¤±è´¥è¿”è¿˜æ­¦å™¨ï¼Œæ‰£é™¤å°‘é‡RPï¼Œé˜²æ­¢é è¿”è¿˜æ­¦å™¨æ•…æ„åˆ·é’±
 							receiveCB(m_metagame, characterId, "weapon", key);
 							string command = "";
 							command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
@@ -348,7 +351,7 @@ class GFLEquipmentEvent : Tracker {
 				}	
 			}
 		}
-		//×ª»¯¹¦ÄÜ£¬¸ù¾İÊÖÀ×À¸µÀ¾ß½øĞĞ×ª»¯
+		//è½¬åŒ–åŠŸèƒ½ï¼Œæ ¹æ®æ‰‹é›·æ é“å…·è¿›è¡Œè½¬åŒ–
 		if(dict2.exists(key) && event.getIntAttribute("target_container_type_id") == 1){
 			int k = 0;
 			string v2 = string(dict2[key]);
@@ -377,32 +380,32 @@ class GFLEquipmentEvent : Tracker {
 				
 			}
 		}
-		//ÎäÆ÷ÀÓÓ¡£¨±äÎªREÇ¹£©
+		//æ­¦å™¨çƒ™å°ï¼ˆå˜ä¸ºREæªï¼‰
 		if(dict3.exists(key) && event.getIntAttribute("target_container_type_id") == 1){
 
-			//²éÑ¯¶ÔÓ¦OATHÄ£Ê½¼´REµÄ¼üÖµ
+			//æŸ¥è¯¢å¯¹åº”OATHæ¨¡å¼å³REçš„é”®å€¼
 			string v3 = string(dict3[key]);
-			//»ñÈ¡ÊÂ¼şÍæ¼ÒID
+			//è·å–äº‹ä»¶ç©å®¶ID
 			int characterId = event.getIntAttribute("character_id");
-			//»ñÈ¡¹¦ÄÜÀ¶Í¼ÊÇ·ñ°²×°¼°Ê²Ã´¹¦ÄÜ
+			//è·å–åŠŸèƒ½è“å›¾æ˜¯å¦å®‰è£…åŠä»€ä¹ˆåŠŸèƒ½
 			string key2 = getFunctionKey(m_metagame, characterId);
 
-			//ÀÓÓ¡
+			//çƒ™å°
 			if(key2 == "blueprint_oath.weapon"){
 				int k  = 1;
 				int k1 = 0;
 				const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
 
-				//Èç¹ûÍæ¼Ò²»Îª¿ÕÖµ£¬Ö´ĞĞÓï¾ä
+				//å¦‚æœç©å®¶ä¸ä¸ºç©ºå€¼ï¼Œæ‰§è¡Œè¯­å¥
 				if(characterInfo !is null){
 
-					//»ñÈ¡Íæ¼ÒÊÖÀ×À¸ÎïÆ·¼üÖµ£¬Èç¹ûÎªÀÓÓ¡ºËĞÄ£¬»ñÈ¡ºËĞÄÊıÁ¿¸³Óèk1.
+					//è·å–ç©å®¶æ‰‹é›·æ ç‰©å“é”®å€¼ï¼Œå¦‚æœä¸ºçƒ™å°æ ¸å¿ƒï¼Œè·å–æ ¸å¿ƒæ•°é‡èµ‹äºˆk1.
 					string key3 = getPartKey(m_metagame, characterId);
 					if(key3 == "oath_core.projectile"){
 						k1 = getpartAmount(m_metagame, characterId);
 					}
 
-					//Èç¹ûËéÆ¬ÊıÁ¿´óÓÚĞèÒªÊıÁ¿£¬É¾³ıĞèÒªÊıÁ¿µÄºËĞÄ£¬»ñµÃoathÎäÆ÷
+					//å¦‚æœç¢ç‰‡æ•°é‡å¤§äºéœ€è¦æ•°é‡ï¼Œåˆ é™¤éœ€è¦æ•°é‡çš„æ ¸å¿ƒï¼Œè·å¾—oathæ­¦å™¨
 					if(k1 >= k){
 
 						deletepart(m_metagame, characterId, k, "projectile", "oath_core.projectile");
@@ -410,7 +413,7 @@ class GFLEquipmentEvent : Tracker {
 						receiveCB(m_metagame, characterId, "weapon", v3);
 						receiveCB(m_metagame, characterId, "weapon", v3);
 					}else{
-						//ºÏ³ÉÊ§°Ü·µ»¹ÎäÆ÷£¬¿Û³ıÉÙÁ¿RP£¬·ÀÖ¹¿¿·µ»¹ÎäÆ÷¹ÊÒâË¢Ç®
+						//åˆæˆå¤±è´¥è¿”è¿˜æ­¦å™¨ï¼Œæ‰£é™¤å°‘é‡RPï¼Œé˜²æ­¢é è¿”è¿˜æ­¦å™¨æ•…æ„åˆ·é’±
 						receiveCB(m_metagame, characterId, "weapon", key);
 						string command = "";
 						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' />";
@@ -422,9 +425,9 @@ class GFLEquipmentEvent : Tracker {
 			}
 
 		}
-		//ÀÓÓ¡ºËĞÄºÏ³É
+		//çƒ™å°æ ¸å¿ƒåˆæˆ
 		if(key == "blueprint_oath_core.weapon" && event.getIntAttribute("target_container_type_id") == 1){
-			//»ñÈ¡ÊÂ¼şÍæ¼ÒID
+			//è·å–äº‹ä»¶ç©å®¶ID
 			int characterId = event.getIntAttribute("character_id");
 			int k  = 10;
 			int k1 = 0;
@@ -464,7 +467,7 @@ class GFLEquipmentEvent : Tracker {
 		return true;
 	}
 	
-	//·Ö½â»ñµÃCBËéÆ¬,½ÓÊÕÍæ¼ÒIDÓëËéÆ¬ÊıÁ¿¡£
+	//åˆ†è§£è·å¾—CBç¢ç‰‡,æ¥æ”¶ç©å®¶IDä¸ç¢ç‰‡æ•°é‡ã€‚
 	void receiveCBpart(Metagame@ metagame, int characterId, int num) {
 		for(int i = 0;i < num;++i){
 
@@ -480,7 +483,7 @@ class GFLEquipmentEvent : Tracker {
 		}
 	}
 
-	//ºÏ³É»ñµÃCBÎäÆ÷»ò¼Ó×°Åä¼şµÄÎäÆ÷£¬½ÓÊÕÍæ¼ÒID£¬µÀ¾ßÀàĞÍ£¨Ä¬ÈÏÎªweapon£©£¬ÎäÆ÷¼üÖµ£¨ÓÉ¡°Í¼Ö½¶ÔÓ¦¡±Éú³É£©
+	//åˆæˆè·å¾—CBæ­¦å™¨æˆ–åŠ è£…é…ä»¶çš„æ­¦å™¨ï¼Œæ¥æ”¶ç©å®¶IDï¼Œé“å…·ç±»å‹ï¼ˆé»˜è®¤ä¸ºweaponï¼‰ï¼Œæ­¦å™¨é”®å€¼ï¼ˆç”±â€œå›¾çº¸å¯¹åº”â€ç”Ÿæˆï¼‰
 	void receiveCB(Metagame@ metagame, int characterId, string itemClass, string key) {
 		XmlElement c1 ("command");
 		c1.setStringAttribute("class", "update_inventory");
@@ -495,7 +498,7 @@ class GFLEquipmentEvent : Tracker {
 		m_metagame.getComms().send(c1);
 	}
 
-	//ÏûºÄCBËéÆ¬»òÅä¼ş
+	//æ¶ˆè€—CBç¢ç‰‡æˆ–é…ä»¶
 	void deletepart(Metagame@ metagame, int characterId, int parts, string itemClass, string key){
 		for(int i = 0;i < parts ; ++i){
 			XmlElement c2 ("command");
@@ -512,7 +515,7 @@ class GFLEquipmentEvent : Tracker {
 		
 	}
 
-	//»ñÈ¡CBËéÆ¬»òÅä¼şÊıÁ¿
+	//è·å–CBç¢ç‰‡æˆ–é…ä»¶æ•°é‡
 	int getpartAmount(Metagame@ metagame, int characterId){
 			const XmlElement@ characterInfo2 = getCharacterInfo2(metagame, characterId);
 			if (characterInfo2 is null){
@@ -531,7 +534,7 @@ class GFLEquipmentEvent : Tracker {
 
 
 
-	//»ñÈ¡Åä¼ş»òËéÆ¬¼üÖµ
+	//è·å–é…ä»¶æˆ–ç¢ç‰‡é”®å€¼
 	string getPartKey(Metagame@ metagame, int characterId){
 		const XmlElement@ characterInfo2 = getCharacterInfo2(metagame,characterId);
 		if (characterInfo2 is null){
@@ -545,7 +548,7 @@ class GFLEquipmentEvent : Tracker {
 		return itemKey;
 	}
 
-	//»ñÈ¡¹¦ÄÜÖ´ĞĞÀ¶Í¼¼üÖµ
+	//è·å–åŠŸèƒ½æ‰§è¡Œè“å›¾é”®å€¼
 	string getFunctionKey(Metagame@ metagame, int characterId){
 		const XmlElement@ characterInfo2 = getCharacterInfo2(metagame,characterId);
 		if (characterInfo2 is null){
@@ -559,6 +562,7 @@ class GFLEquipmentEvent : Tracker {
 		return itemKey;
 	}
 
+	//æ£€æŸ¥ç©å®¶åœ¨è„šæœ¬è¿›è¡Œä¸­æ˜¯å¦ç§»åŠ¨äº†CBPï¼Œè‹¥ç§»åŠ¨äº†ï¼Œå°†ç»ˆæ­¢è„šæœ¬
 	int checkCBP(Metagame@ metagame, int characterId){
 			const XmlElement@ characterInfo2 = getCharacterInfo2(metagame, characterId);
 			if (characterInfo2 is null){
@@ -579,6 +583,7 @@ class GFLEquipmentEvent : Tracker {
 
 	}
 
+	//è½¬åŒ–è„šæœ¬è½¬åŒ–è¡¨
 	array<string> targetWeapons(Metagame@ metagame, string key){
 		
 		if(key == "gw_mg4_marker.projectile"){

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapons>
 
-	blueprint_svdm
-	blueprint_tkb059
-	blueprint_vector
-
 
 
 
@@ -29,12 +25,12 @@
 		<inventory encumbrance="2" buy_price="100000" sell_price="1"/>
 	</weapon>
 
-	<weapon name="blueprint_tkb059" file="base_blue_print.weapon" key="blueprint_tkb059.weapon"  >
-		<hud_icon filename="blueprint_tkb059.png" />
+	<weapon name="blueprint_refit_ammo" file="base_blue_print.weapon" key="blueprint_refit_ammo.weapon"  >
+		<hud_icon filename="blueprint_refit_ammo.png" />
 	</weapon>
 
-	<weapon name="blueprint_vector" file="base_blue_print.weapon" key="blueprint_vector.weapon"  >
-		<hud_icon filename="blueprint_vector.png" />
+	<weapon name="blueprint_refit_parts" file="base_blue_print.weapon" key="blueprint_refit_parts.weapon"  >
+		<hud_icon filename="blueprint_refit_parts.png" />
 	</weapon>
 
 </weapons>	

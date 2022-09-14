@@ -24,7 +24,8 @@
 	<effect class="activated" ref="FlareSparkle" post_processing="0" offset="0 0.1 0.3"/>
 	<effect class="activated" ref="FlareSmoke" post_processing="0" offset="0 0.4 0.3"/>
 	<effect class="activated" ref="FlareFlash" post_processing="0" offset="0 0.1 0.3"/> 
- 
+ <effect class="activated" ref="alert_expand_ring" lighting="0" />
+<effect class="activated" ref="alert_center_alerticon" lighting="0" />
 
 
 </projectile>

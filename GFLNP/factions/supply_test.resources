@@ -14,6 +14,16 @@
 <weapon key="ew_hmtech501.weapon" />
 <weapon key="gw_ogris.weapon" />
 <weapon key="gw_mk12.weapon" />
+<weapon key="aa12_frag_b.weapon" />
+<weapon key="gw_ltlx7000_6702.weapon" />
+<weapon key="gw_sat8_2601.weapon" />
+<weapon key="ew_xenophage.weapon" />
+<weapon key="gw_g41_7406.weapon" />
+<weapon key="naoto_rpl20.weapon" />
+<weapon key="jupiter_cannon_luancher.weapon" />
+<weapon key="gw_g41_lasercanno_diffusion.weapon" />
+<weapon key="ew_rumbler_gl.weapon" />
+<weapon key="ew_baiz.weapon" />
 
 
 <carry_item key="iotv_vest.carry_item" />

@@ -2,7 +2,7 @@
 <weapon file="base_cb.weapon" key="gw_ltlx7000_6702.weapon">
     <specification 
     retrigger_time="0.35" 
-    accuracy_factor="0.75" 
+    accuracy_factor="0.84" 
     sustained_fire_grow_step="1.0" 
     sustained_fire_diminish_rate="1.6" 
     magazine_size="5" 
@@ -20,7 +20,7 @@
 
     <animation state_key="recoil" ref="27" />
     <animation state_key="cycle" ref="28" />
-    <animation state_key="reload" animation_key="reloading, double at a time"/>
+    <animation state_key="reload" animation_key="quad load"/>
 
     <sound key="fire" fileref="benelli_m4_supp_shot.wav" pitch_variety="0.05" volume="1.0" />
     <sound key="cycle" fileref="sg2_cycle.wav" />

@@ -842,6 +842,8 @@ gw_zb26_4703.weapon
 	<model filename="gs_six12.xml"><requirement class="weapon" slot="0" key="gw_six12sd_slug.weapon"/></model>
 	<model filename="gs_iws2000_banisher.xml"><requirement class="weapon" slot="0" key="gw_iws2000_banisher_he.weapon"/></model>
 	<model filename="gs_iws2000_banisher.xml"><requirement class="weapon" slot="0" key="gw_iws2000_banisher_fsds.weapon"/></model>
+	<model filename="gs_iws2000_sandcastle_terminator.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="gw_iws2000_banisher_he.weapon"/></model>
+	<model filename="gs_iws2000_sandcastle_terminator.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="gw_iws2000_banisher_fsds.weapon"/></model>
 	<model filename="gs_ak308.xml"><requirement class="weapon" slot="0" key="gw_ak308.weapon"/></model>
 
 <!-- 32 -->
@@ -996,7 +998,11 @@ gw_zb26_4703.weapon
 	<model filename="gs_bombard.xml"><requirement class="weapon" key="gw_ogris.weapon" slot="0" /></model>
 	<model filename="gs_mk12.xml"><requirement class="weapon" key="gw_mk12.weapon" slot="0" /></model>
 	<model filename="gs_mk12.xml"><requirement class="weapon" key="gw_mk12_a.weapon" slot="0" /></model>
-
+	<model filename="gs_iws2000_sandcastle_terminator.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="gw_iws2000_fsds.weapon"/></model>
+	<model filename="gs_iws2000_sandcastle_terminator.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="gw_iws2000_he.weapon"/></model>
+	<model filename="gs_sat8_2601.xml"><requirement class="weapon" key="gw_sat8_2601.weapon" slot="0" /></model>
+	<model filename="es_xenophage.xml"><requirement class="weapon" key="ew_xenophage.weapon" slot="0" /></model>
+	<model filename="gs_g41_7406.xml"><requirement class="weapon" key="gw_g41_7406.weapon" slot="0" /></model>
 
 <!-- oath -->
 	<model filename="gs_m4a1mod.xml"><requirement class="weapon" slot="0" key="gw_m4a1mod3_oath.weapon"/></model>

@@ -321,6 +321,10 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("token_tirpitz.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_reisenu_card.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_skyfire.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_sinon.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_rose.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_kana.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_mdr_3305.projectile", "projectile", 1.0f, 2),
 				ScoredResource("token_sangonomiya_kokomi.projectile", "projectile", 1.0f, 2)
 			}
 		};
@@ -691,6 +695,9 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("ew_megumin_wand_float.weapon", "weapon", 2.0f),		//2X UP 0.36
 				ScoredResource("gw_hrg_bastion.weapon", "weapon", 2.0f),		//2X UP 0.36
 				ScoredResource("ew_hongxue_1.weapon", "weapon", 2.0f),		//2X UP 0.36
+				ScoredResource("gw_sat8_2601.weapon", "weapon", 2.0f),		//2X UP 0.37
+				ScoredResource("ew_xenophage.weapon", "weapon", 2.0f),		//2X UP 0.37
+				ScoredResource("gw_g41_7406.weapon", "weapon", 2.0f),		//2X UP 0.37
 				ScoredResource("kf2_seekersix_ap.weapon", "weapon", 1.0f),	 
         		ScoredResource("ace_of_spades.weapon", "weapon", 1.0f),
 				ScoredResource("ew_rpl20.weapon", "weapon", 0.5f),		//共享出率RPL

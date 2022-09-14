@@ -37,6 +37,9 @@
 <weapon file="gw_ogris.weapon" />
 <weapon file="gw_mk12.weapon" />
 <weapon file="gw_mk12_a.weapon" />
+<weapon file="gw_sat8_2601.weapon" />
+<weapon file="ew_xenophage.weapon" />
+<weapon file="gw_g41_7406.weapon" />
 
 
 </weapons>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="Vindicator dive bomb" slot="1" pulldown_in_air="80.0" key="r_vindicator_sub_sub_missile.projectile">
-    <result class="blast" radius="5" damage="10" decal="0" push="3" character_state="death" />
+    <result class="blast" radius="5" damage="10" decal="0" push="3" character_state="death" damage_origin_vehicle="0" />
     <trigger class="impact" />
     <rotation class="motion" />	
     <model mesh_filename="vindicator_bullet.xml" />
