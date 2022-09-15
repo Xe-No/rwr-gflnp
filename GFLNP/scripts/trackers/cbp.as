@@ -17,7 +17,7 @@ class GFLEquipmentEvent : Tracker {
 // 1 Sell
 
 
-
+		//CB合成分解字典
 		dictionary dict = {
 				{"ags30.weapon","ur"},
 				{"ags30_n.weapon","ur"},
@@ -135,6 +135,8 @@ class GFLEquipmentEvent : Tracker {
 				{"ew_xenophage.weapon","ur"},
 				{"gw_g41_7406.weapon","ur"}
 		};
+
+		//转化字典
 		dictionary dict2 = {
 				{"mg4td_ap.weapon","mg4a3td.weapon"},
 				{"mg4td_ke.weapon","mg4a3td_sl.weapon"},
@@ -144,6 +146,8 @@ class GFLEquipmentEvent : Tracker {
 				{"naoto_rpl20.weapon","ew_rpl20.weapon"},
 				{"naoto_rpl20_d.weapon","ew_rpl20.weapon"}
 		};
+
+		//烙印字典
 		dictionary dict3 = {
 				{"gw_ar15mod_sl.weapon","gw_ar15mod_sl_oath.weapon"},
 				{"gw_ar15mod.weapon","gw_ar15mod_oath.weapon"},
@@ -175,6 +179,22 @@ class GFLEquipmentEvent : Tracker {
 
 		};
 
+		//配件安装字典
+		dictionary dict4 = {
+			{"uw_m14ebr.weapon","gw_m14_bipod.weapon"},
+			{"uw_m14ebr_sl.weapon","gw_m14_bipod.weapon"},
+			{"gw_m14.weapon","gw_m14_bipod.weapon"},
+			{"gw_m14_303.weapon","gw_m14_bipod.weapon"},
+			{"gw_m14_303_f.weapon","gw_m14_bipod.weapon"}
+		};
+
+		//子弹安装字典
+		dictionary dict5 = {
+			{"gw_ar15mod_sl.weapon","gw_ar15mod_300.weapon"},
+			{"gw_ar15mod.weapon","gw_ar15mod_300.weapon"},
+			{"gw_ar15mod_sl_oath.weapon","gw_ar15mod_300.weapon"},
+			{"gw_ar15mod_oath.weapon","gw_ar15mod_300.weapon"}
+		};
 
 
 		//获取事件物品键值
@@ -450,7 +470,66 @@ class GFLEquipmentEvent : Tracker {
 			}
 
 		}
-            
+
+		//配件安装功能，根据手雷栏道具进行转化
+		if(dict4.exists(key) && event.getIntAttribute("target_container_type_id") == 1){
+			int k = 0;
+			string v2 = string(dict4[key]);
+			int characterId = event.getIntAttribute("character_id");
+			string key2 = getFunctionKey(m_metagame, characterId);
+			string key3 = getPartKey(m_metagame, characterId);
+			array<string> targetKeys = targetWeapons(m_metagame, key3);
+			if(key2 == "blueprint_refit_parts.weapon"){
+				if(targetKeys.find(key) != -1){
+					k = getpartAmount(m_metagame, characterId);
+					if(k > 0){
+						deletepart(m_metagame, characterId, 1, "projectile", key3);
+						receiveCB(m_metagame, characterId, "weapon", v2);					
+					}else{
+						receiveCB(m_metagame, characterId, "weapon", key);
+						string command = "";
+						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+						m_metagame.getComms().send(command);
+					}
+				}else{
+					receiveCB(m_metagame, characterId, "weapon", key);
+					string command = "";
+					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+					m_metagame.getComms().send(command);
+				}
+				
+			}
+		}
+
+		//子弹安装功能，根据手雷栏道具进行转化
+		if(dict5.exists(key) && event.getIntAttribute("target_container_type_id") == 1){
+			int k = 0;
+			string v2 = string(dict5[key]);
+			int characterId = event.getIntAttribute("character_id");
+			string key2 = getFunctionKey(m_metagame, characterId);
+			string key3 = getPartKey(m_metagame, characterId);
+			array<string> targetKeys = targetWeapons(m_metagame, key3);
+			if(key2 == "blueprint_refit_ammo.weapon"){
+				if(targetKeys.find(key) != -1){
+					k = getpartAmount(m_metagame, characterId);
+					if(k > 0){
+						deletepart(m_metagame, characterId, 1, "projectile", key3);
+						receiveCB(m_metagame, characterId, "weapon", v2);					
+					}else{
+						receiveCB(m_metagame, characterId, "weapon", key);
+						string command = "";
+						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+						m_metagame.getComms().send(command);
+					}
+				}else{
+					receiveCB(m_metagame, characterId, "weapon", key);
+					string command = "";
+					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+					m_metagame.getComms().send(command);
+				}
+				
+			}
+		} 
      }
 		
     
@@ -599,6 +678,23 @@ class GFLEquipmentEvent : Tracker {
 				"ew_rpl20.weapon",
 				"naoto_rpl20.weapon",
 				"naoto_rpl20_d.weapon"
+			};
+			return result;
+		}else if(key == "parts_m14_bipod.projectile"){
+			array<string> result = {
+				"uw_m14ebr.weapon",
+				"uw_m14ebr_sl.weapon",
+				"gw_m14.weapon",
+				"gw_m14_303.weapon",
+				"gw_m14_303_f.weapon"
+			};
+			return result;
+		}else if(key == "ammo_ar15_300blk.projectile"){
+			array<string> result = {
+				"gw_ar15mod_sl.weapon",
+				"gw_ar15mod.weapon",
+				"gw_ar15mod_sl_oath.weapon",
+				"gw_ar15mod_oath.weapon"
 			};
 			return result;
 		}else{

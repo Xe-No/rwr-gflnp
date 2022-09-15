@@ -24,6 +24,12 @@
 <weapon key="gw_g41_lasercanno_diffusion.weapon" />
 <weapon key="ew_rumbler_gl.weapon" />
 <weapon key="ew_baiz.weapon" />
+<weapon key="gw_km.weapon" />
+<weapon key="gw_type64_104.weapon" />
+<weapon key="gw_m14_bipod.weapon" />
+<weapon key="gw_hs50.weapon" />
+<weapon key="gw_ar15mod_300.weapon" />
+<weapon key="ew_megumin_wand_float.weapon" />
 
 
 <carry_item key="iotv_vest.carry_item" />

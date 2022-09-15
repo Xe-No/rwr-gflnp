@@ -9,6 +9,8 @@
 	<weapon key="blueprint_refit_parts.weapon" />
     <projectile key="gw_mg4_marker.projectile" />
     <projectile key="naoto_marker.projectile" />
+    <projectile key="parts_m14_bipod.projectile" />
+	<projectile key="ammo_ar15_300blk.projectile" />
 	<projectile key="token_dima.projectile" />
     <projectile key="r_vindicator_dive_bomb.projectile" />
 	<projectile key="at_mine_mk3.projectile" />

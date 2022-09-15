@@ -882,7 +882,7 @@ Blueprint
     <text key="CB Part" text="CB配件" />
 	<text key="Oath Core" text="烙印核心" />
     <text key="RPL20 Mode Transducer" text="RPL-20模式变换组件" />
-    <text key="MG-4 Mode Transducer" text="MG-4模式变换组件" />
+    <text key="MG-4 Mode Transducer[A10 marker]" text="MG-4模式变换组件[A10信标]" />
 
 TEST
 

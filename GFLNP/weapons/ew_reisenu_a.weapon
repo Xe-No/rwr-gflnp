@@ -97,10 +97,10 @@ on_ground_up="0 0 1"
 		<sound class="result" key="character" fileref="reisenu_fire_hit_i.wav" pitch_variety="0.03" volume="1.0" />
 		
 		!--
-		<effect class="result" key="character" ref="reisenu_fire_hit_i" lighting="0"/>
-		<effect class="result" key="character" ref="reisenu_fire_hit_add_i" lighting="0"/>
-		<effect class="result" key="character" ref="reisenu_fire_hit_laser_i" lighting="0"/>
-		<effect class="result" key="character" ref="reisenu_fire_muzzle_i" lighting="0"/>
+		<effect class="result" key="terrain" ref="reisenu_fire_hit_i" lighting="0"/>
+		<effect class="result" key="terrain" ref="reisenu_fire_hit_add_i" lighting="0"/>
+		<effect class="result" key="terrain" ref="reisenu_fire_hit_laser_i" lighting="0"/>
+		<effect class="result" key="terrain" ref="reisenu_fire_muzzle_i" lighting="0"/>
 		-->
 		
 		<sound class="result" key="terrain" copy="other" />

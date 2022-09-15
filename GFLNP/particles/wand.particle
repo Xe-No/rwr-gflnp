@@ -1,6 +1,9 @@
 By Rst for G41
 2022.5.10
 未经授权不可复用、修改使用
+2022.9.15
+优化粒子特效，降低会聚光粒子发射量和贴图大小
+降低环境烟雾和粒子数量
 ------------------------------------------------聚光特效----------------------------------
 particle_system wand_gather_wave_01     //汇聚光效暗光		
 {
@@ -17,7 +20,7 @@ particle_system wand_gather_wave_01     //汇聚光效暗光
 		angle 0
         colour 0 0 0 0
 		direction 0 1 0
-		emission_rate 40
+		emission_rate 25
 		position 0 0 0
 		velocity 0.001
 		time_to_live 1
@@ -412,8 +415,8 @@ particle_system wand_magic_area_smoke
 {
     quota 320
     material explosion_smoke_01_alpha
-    particle_width 7
-	particle_height 7
+    particle_width 14
+	particle_height 14
     billboard_rotation_type vertex
 	billboard_type point
     emitter Ring{
@@ -421,7 +424,7 @@ particle_system wand_magic_area_smoke
 		colour_range_start 1 1 1 0.1
         colour_range_end 1 1 1 0.2
 		direction 0 1 0
-		emission_rate 70
+		emission_rate 30
 		position 0 0 0
 		velocity_min -8
         velocity_max -13

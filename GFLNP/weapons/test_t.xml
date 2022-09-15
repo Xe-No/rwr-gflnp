@@ -30,6 +30,8 @@
 <!-- CBP -->
 <projectile file="cb_part.projectile" />
 <projectile file="oath_core.projectile" />
+<projectile file="parts_m14_bipod.projectile" />
+<projectile file="ammo_ar15_300blk.projectile" />
 
 <!-- 37 -->
 <projectile file="strike_marker_somst.projectile" />
