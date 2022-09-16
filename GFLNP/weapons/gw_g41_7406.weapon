@@ -7,7 +7,7 @@
         sustained_fire_diminish_rate="1.7" 
 		magazine_size="31" 
 		can_shoot_standing="1" 
-		suppressed="0" 
+		suppressed="1" 
 		name="G41 [Universal Express]" 
 		class="0" 
 		projectile_speed="170.0"
