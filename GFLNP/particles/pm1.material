@@ -1,0 +1,39 @@
+material plasma_light
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 0.3 1 1 1
+            scene_blend add
+            depth_write off
+			fog_override true
+
+            texture_unit
+            {
+                texture plasma_light.png
+            }
+        }
+    }
+}
+
+material plasma_woosh
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+			emissive 0.3 1 1 1
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture woosh.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}

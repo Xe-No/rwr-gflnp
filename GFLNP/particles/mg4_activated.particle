@@ -82,7 +82,7 @@ particle_system ben_mg4_activated_cross
 		velocity	0
 		time_to_live	0.8
 
-		duration 48
+		duration 5
 
 		width	0
 		height	0

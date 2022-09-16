@@ -133,6 +133,9 @@ class GFLEquipmentEvent : Tracker {
 				{"ew_chameleon.weapon","ssr"},
 				{"gw_sat8_2601.weapon","ur"},
 				{"ew_xenophage.weapon","ur"},
+				{"ew_leviathan_breath.weapon","ur"},
+				{"ew_trinity_ghoul.weapon","ur"},
+				{"ew_pm1.weapon","ur"},
 				{"gw_g41_7406.weapon","ur"}
 		};
 

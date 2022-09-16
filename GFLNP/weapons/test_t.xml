@@ -44,7 +44,10 @@
 <projectile file="reisenu_card_damage.projectile" />
 <projectile file="ew_annihilator_grenade_launcher_damage.projectile" />
 <projectile file="xenophage_blast.projectile" />
-	
+<projectile file="ew_pm1_sub.projectile" />
+<projectile file="inscription_of_the_dead.projectile" />
+<projectile file="inscription_of_the_dead_blast.projectile" />
+<projectile file="vabow_damage.projectile" />
 
 
 </projectiles>

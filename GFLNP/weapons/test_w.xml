@@ -49,6 +49,9 @@
 <weapon file="gw_type64_104_shotgun.weapon" />
 <weapon file="gw_hs50.weapon" />
 <weapon file="gw_hs50_cw.weapon" />
-
+<weapon file="gw_3x_railgun.weapon" />
+<weapon file="ew_pm1.weapon" />
+<weapon file="ew_leviathan_breath.weapon" />
+<weapon file="ew_trinity_ghoul.weapon" />
 
 </weapons>

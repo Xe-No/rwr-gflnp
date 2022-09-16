@@ -212,6 +212,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_castanas.weapon", "weapon", 1.0f),
 				ScoredResource("gw_corinth.weapon", "weapon", 1.0f),	
 				ScoredResource("ew_martini_henry.weapon", "weapon", 2.0f),	//2X up 0.36
+				ScoredResource("gw_3x_railgun.weapon", "weapon", 2.0f),	//2X up 0.37
 				ScoredResource("ew_reisenu_a.weapon", "weapon", 2.0f, 5),	//2X up 0.37
 				ScoredResource("gw_km.weapon", "weapon", 2.0f, 5),	//2X up 0.37
 				ScoredResource("gw_ogris.weapon", "weapon", 2.0f),	//2X up 0.37
@@ -699,6 +700,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_sat8_2601.weapon", "weapon", 2.0f),		//2X UP 0.37
 				ScoredResource("ew_xenophage.weapon", "weapon", 2.0f),		//2X UP 0.37
 				ScoredResource("gw_g41_7406.weapon", "weapon", 2.0f),		//2X UP 0.37
+				ScoredResource("ew_pm1.weapon", "weapon", 2.0f),		//2X UP 0.37
+				ScoredResource("ew_leviathan_breath.weapon", "weapon", 2.0f),		//2X UP 0.37
 				ScoredResource("kf2_seekersix_ap.weapon", "weapon", 1.0f),	 
         		ScoredResource("ace_of_spades.weapon", "weapon", 1.0f),
 				ScoredResource("ew_rpl20.weapon", "weapon", 0.5f),		//共享出率RPL

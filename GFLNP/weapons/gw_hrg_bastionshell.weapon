@@ -2,11 +2,11 @@
 <weapon file="base_cb.weapon" key="gw_hrg_bastionshell.weapon">
     <tag name="machine gun" />
     <specification 
-    retrigger_time="0.075"
+    retrigger_time="0.1"
     spread_range="0.22" 
     accuracy_factor="1"
     stance_accuracy_rate="1" 
-    sustained_fire_grow_step="0.4" 
+    sustained_fire_grow_step="0.3" 
     sustained_fire_diminish_rate="1.8" 
     magazine_size="250" 
     can_shoot_standing="0" 

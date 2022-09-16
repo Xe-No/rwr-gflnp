@@ -1,0 +1,267 @@
+particle_system 3x_railgun_smoke
+{
+	quota 1000
+	material 3x_railgun_smoke
+	particle_width 3
+	particle_height 3
+	renderer billboard	
+	billboard_rotation_type vertex
+	billboard_type perpendicular_self  
+    common_up_vector 0 0 1             
+	emitter Point{
+		angle 0
+		colour 1 1 1 0.1
+		direction 0 1 0
+		emission_rate 50
+		position 0 0 0
+		velocity 0.5
+		time_to_live 1.5
+		duration 2.0
+		width 3
+		height 3
+	}
+	affector ColourFader2{
+		red1	0
+		green1  0
+		blue1	0
+		alpha1	0.1
+		red2	 -0
+		green2  -0
+		blue2	-0
+		alpha2	-0.6
+		state_change 0.5
+	}
+	affector Scaler{
+		rate 0.5
+	}
+}
+
+particle_system 3x_railgun_muzzle_blue
+{
+	quota	1000
+	material	3x_railgun_muzzle_flame_blue
+	particle_width	2.0
+	particle_height	2.0
+	cull_each	false
+	renderer	billboard
+	billboard_type	oriented_self
+	common_direction	0 -1 0
+
+	emitter Box
+	{
+		angle	1
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	0 1 0
+		emission_rate	150
+		position	0 0 0
+		velocity	0
+		velocity_min	1
+		velocity_max	8
+		time_to_live	0.08
+		time_to_live_min	0.08
+		time_to_live_max	0.08
+		duration	0.05
+		duration_min	0.05
+		duration_max	0.05
+		width	0.25
+		height	0.25
+		depth	0.2
+	}
+
+	affector ColourInterpolator
+	{
+		colour0	1 1 1 1
+		time0	0.1
+		colour1	0 1 1 1
+		time1	0.3
+		colour2	0 0 1 0
+		time2	0.7
+		colour3	0 0 0 0
+		time3	0.8
+		colour4	0 0 0 0
+		time4	1
+		colour5	0.5 0.5 0.5 0
+		time5	1
+	}
+}
+particle_system 3x_railgun_blast_smoke
+{
+	quota 1000
+	material 3x_railgun_blast
+	particle_width 0.1
+	particle_height 0.1
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	
+	emitter Point
+	{
+		angle 0
+		colour 0 1 1 1
+		direction 0 1 0
+		emission_rate 30
+		position 0 0 0
+		velocity 0
+		time_to_live 0.12
+		duration 0.05
+	}
+	
+	affector ColourFader2
+	{
+		red1	3
+		green1	3
+		blue1	3
+		alpha1	3
+		red2	0
+		green2	-1
+		blue2	-1
+		alpha2	-10
+		state_change 0.02
+	}
+	affector Scaler
+	{
+		rate 30
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -60
+		rotation_speed_range_end 60
+		rotation_range_start 0
+		rotation_range_end 360
+	}
+}
+
+particle_system 3x_railgun_blast_linear_shine
+{
+	quota 1000
+	material 3x_railgun_spread_line
+	particle_width 0.03
+	particle_height 2.5
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type point
+	billboard_type oriented_self
+	emitter Point
+	{
+		angle 180
+		colour 0.5 0.5 0.5 0.5
+		direction 0 1 0
+		emission_rate 60
+		position 0 0 0
+		velocity 10
+		time_to_live 0.12
+		duration 0.15
+	}
+	
+	affector ColourFader2
+	{
+		red1	10
+		green1	10
+		blue1	10
+		alpha1	10
+		red2	-10
+		green2	-10
+		blue2	-10
+		alpha2	-10
+		state_change 0.02
+	}
+	affector Scaler
+	{
+		rate 1
+	}
+}
+
+            material 3x_railgun_smoke
+            {     
+                receive_shadows off     
+                technique 
+                {
+                    pass 
+                    {
+                        lighting off
+                        fog_override true
+                        depth_write off
+                        scene_blend alpha_blend
+                        texture_unit 
+                        {
+                            texture 3x_railgun_smoke.png 	
+                        }
+                    }
+                }
+            }
+material 3x_railgun_trail
+{     
+	receive_shadows off     
+	technique 
+	{
+		pass 
+		{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+			texture_unit 
+			{
+				texture 3x_railgun_trail.png 	
+			}
+		}
+	}
+}
+
+material 3x_railgun_muzzle_flame_blue {
+        receive_shadows off
+	technique {
+		pass {
+			lighting off
+			depth_write off
+			scene_blend add
+			fog_override true
+
+			texture_unit {
+				texture muzzle_blue.png
+			}
+		}
+	}
+}
+
+material 3x_railgun_blast
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend add
+            depth_write off
+			fog_override true
+            texture_unit
+            {
+                texture 3x_railgun_blast.png
+            }
+        }
+    }
+}
+
+material 3x_railgun_spread_line
+{
+	receive_shadows off
+    technique
+    {
+        pass
+        {
+            lighting off
+			emissive 1 1 1 1
+            scene_blend alpha_blend
+            depth_write off
+			fog_override true
+			
+            texture_unit
+            {
+                texture 3x_railgun_point.png
+            }
+        }
+    }
+}

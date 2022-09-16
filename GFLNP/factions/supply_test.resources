@@ -30,15 +30,18 @@
 <weapon key="gw_hs50.weapon" />
 <weapon key="gw_ar15mod_300.weapon" />
 <weapon key="ew_megumin_wand_float.weapon" />
-
+<weapon key="ew_pm1.weapon" />
+<weapon key="gw_3x_railgun.weapon" />
+<weapon key="ew_leviathan_breath.weapon" />
 
 <carry_item key="iotv_vest.carry_item" />
 <carry_item key="hvy_vest.carry_item" />
 	
 <projectile key="gw_mg4_marker.projectile" />
 <projectile key="token_reisenu_card.projectile" />
-
+<projectile key="ecm.projectile" />
 <projectile key="r_vindicator_dive_bomb.projectile" />
+<projectile key="inscription_of_the_dead.projectile" />
 
 <projectile key="at_mine_mk3.projectile" />
 <projectile key="airdropped_stun_mine_mk3.projectile" />	

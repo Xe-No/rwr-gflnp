@@ -1008,6 +1008,7 @@ gw_zb26_4703.weapon
 	<model filename="gs_type64_104.xml"><requirement class="weapon" key="gw_type64_104_shotgun.weapon" slot="0" /></model>
 	<model filename="gs_hs50.xml"><requirement class="weapon" key="gw_hs50.weapon" slot="0" /></model>
 	<model filename="gs_hs50.xml"><requirement class="weapon" key="gw_hs50_cw.weapon" slot="0" /></model>
+	<model filename="es_pm1.xml"><requirement class="weapon" key="ew_pm1.weapon" slot="0" /></model>
 
 <!-- oath -->
 	<model filename="gs_m4a1mod.xml"><requirement class="weapon" slot="0" key="gw_m4a1mod3_oath.weapon"/></model>

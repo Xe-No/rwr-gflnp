@@ -109,7 +109,7 @@ class MyGameModeInvasion : GameModeInvasion {
 			CallMarkerConfig("artillery_105.call", "call_marker", 8, 0.5, 80.0),
 			CallMarkerConfig("artillery_155.call", "call_marker", 8, 0.5, 70.0),
 			CallMarkerConfig("ac130_gun_run.call", "call_marker_gunship", 3, 1.0, 90.0),
-			CallMarkerConfig("401_yamato.call", "call_marker", 17, 1.0, 130.0),
+			CallMarkerConfig("401_yamato.call", "call_marker_yamato", 17, 1.0, 130.0),
 			CallMarkerConfig("sniper_call.call", "call_marker_gunship", 18, 0.5, 50.0),
 			CallMarkerConfig("ah64_assasin.call", "call_marker_gunship", 9, 0.5, 75.0)
             //CallMarkerConfig("a10_gun_run.call", "call_marker", 4, 0.5) //handled in a10_gun_run.as
