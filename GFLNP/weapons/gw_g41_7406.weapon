@@ -5,7 +5,7 @@
 		accuracy_factor="1.0" 
 		sustained_fire_grow_step="0.48" 
         sustained_fire_diminish_rate="1.7" 
-		magazine_size="31" 
+		magazine_size="25" 
 		can_shoot_standing="1" 
 		suppressed="1" 
 		name="G41 [Universal Express]" 

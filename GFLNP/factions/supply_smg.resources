@@ -5,15 +5,26 @@
 	<weapon key="gw_type100.weapon" />
 	<weapon key="gw_mp5.weapon" />
 	<weapon key="gw_mp40.weapon" />
-	<weapon key="gw_mp7.weapon" />
+	<weapon key="aks74u.weapon" />
+	<weapon key="mx4_storm.weapon" />
 	<weapon key="p90.weapon" />
+	<weapon key="gw_kacpdw.weapon" />
+	<weapon key="bizon.weapon" />
+	<weapon key="qcw-05.weapon" />	
+	<weapon key="gw_cbjms.weapon" />	
+	<weapon key="gw_augpara.weapon" />
+	<weapon key="gw_mp7.weapon" />
 	<weapon key="gw_ppsh41.weapon" />
 	<weapon key="steyr_tmp.weapon" />
 	<weapon key="gw_idw.weapon" />
+	<weapon key="gw_uzi.weapon" />	
+	<weapon key="gw_kp31.weapon" />
+	<weapon key="kriss_vector.weapon" />		
+	<weapon key="gw_79type.weapon" />
+	<weapon key="gw_ppsh43.weapon" />	
 	<weapon key="ump40.weapon" />
-	<weapon key="mx4_storm.weapon" />
 	<weapon key="gw_ro635.weapon" />
-
-  	<carry_item key="base_smg_vest.carry_item" />
+	<weapon key="gw_m3_smg.weapon" />
+	<weapon key="gw_js09.weapon" />
 
 </resources>

@@ -29,7 +29,7 @@
   <animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
   <animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />	
 
-  <sound key="fire" fileref="mk18_shot.wav"  volume="0.3" />
+  <sound key="fire" fileref="mk18_shot.wav"  volume="0.2" />
   <sound key="magazine_out" fileref="rifle_clip_out.wav" />
   <sound key="magazine_in" fileref="rifle_clip_in.wav" />
   <sound key="cycle" fileref="rifle_chamber.wav" />

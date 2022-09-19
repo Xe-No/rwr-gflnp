@@ -10,6 +10,25 @@
 	<weapon key="uw_m249.weapon" />
 	<weapon key="m60e4.weapon" />
 	<weapon key="gw_qjy88.weapon" />
+	<weapon key="mg42.weapon" />
+	<weapon key="stoner_lmg.weapon" />
+	<weapon key="uw_mk46.weapon" />
+	<weapon key="rw_rpk16.weapon" />
+	<weapon key="gw_dp28.weapon" />
+	<weapon key="gw_m1918bar.weapon" />
+	<weapon key="gw_mk48.weapon" />
+	<weapon key="gw_fg42.weapon" />
+	<weapon key="mg338.weapon" />
+	<weapon key="gw_vp1915.weapon" />	
+	<weapon key="gw_kord.weapon" />
+	<weapon key="gw_type80.weapon" />		
+	<weapon key="gw_m1915_chauchat.weapon" />
+	<weapon key="rw_rpk74.weapon" />
+	<weapon key="chain_saw.weapon" />
+	<weapon key="gw_mg4.weapon" />
+	<weapon key="gw_m1919lmg.weapon" />
+	<weapon key="gw_mg34.weapon" />
+	<weapon key="gw_zb26.weapon" />
 
-	<carry_item key="base_mg_vest.carry_item" />
+
 </resources>

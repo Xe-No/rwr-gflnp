@@ -1256,7 +1256,6 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_mk48.weapon", "weapon", 1.0f),
 				ScoredResource("gw_fg42.weapon", "weapon", 1.0f),
 				ScoredResource("gw_qjy88.weapon", "weapon", 1.0f),
-				ScoredResource("tac50.weapon", "weapon", 1.0f),
 				ScoredResource("mg338.weapon", "weapon", 1.0f),
 				ScoredResource("gw_six12.weapon", "weapon", 1.0f),
 				ScoredResource("gw_m590a1.weapon", "weapon", 1.0f),	
@@ -1336,7 +1335,6 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("qcw-05.weapon", "weapon", 1.0f),
 				ScoredResource("sg552.weapon", "weapon", 1.0f),
 				ScoredResource("gw_mdr.weapon", "weapon", 1.0f),
-				ScoredResource("rw_rpk16.weapon", "weapon", 1.0f),
 				ScoredResource("rw_akm.weapon", "weapon", 1.0f),
 				ScoredResource("gw_cbjms.weapon", "weapon", 1.0f),
 				ScoredResource("gw_mcx.weapon", "weapon", 1.0f),	
@@ -1436,8 +1434,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_dsr50.weapon", "weapon", 1.0f), 
 				ScoredResource("gw_svd.weapon", "weapon", 1.0f), 
 				ScoredResource("gw_supersass.weapon", "weapon", 1.0f), 
-				ScoredResource("glock17.weapon", "weapon", 1.0f),
-				ScoredResource("fal_bayonet.weapon", "weapon", 1.0f),	
+				ScoredResource("glock17.weapon", "weapon", 1.0f),	
 				ScoredResource("gw_ssg69.weapon", "weapon", 1.0f),
 				ScoredResource("rw_cb98.weapon", "weapon", 1.0f),
 				ScoredResource("gw_m1.weapon", "weapon", 1.0f),
@@ -2047,12 +2044,12 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 	array<Resource@>@ getUnlockWeaponList2() const {
 		array<Resource@> list;
 
-		list.push_back(Resource("gk_supply_hg.weapon", "weapon"));
-		list.push_back(Resource("gk_supply_smg.weapon", "weapon"));
-		list.push_back(Resource("gk_supply_ar.weapon", "weapon"));
-		list.push_back(Resource("gk_supply_rf.weapon", "weapon"));
-		list.push_back(Resource("gk_supply_mg.weapon", "weapon"));
-		list.push_back(Resource("gk_supply_sg.weapon", "weapon"));
+//		list.push_back(Resource("gk_supply_hg.weapon", "weapon"));
+//		list.push_back(Resource("gk_supply_smg.weapon", "weapon"));
+//		list.push_back(Resource("gk_supply_ar.weapon", "weapon"));
+//		list.push_back(Resource("gk_supply_rf.weapon", "weapon"));
+//		list.push_back(Resource("gk_supply_mg.weapon", "weapon"));
+//		list.push_back(Resource("gk_supply_sg.weapon", "weapon"));
 
 //		list.push_back(Resource("mp5sd.weapon", "weapon"));
 //		list.push_back(Resource("beretta_m9.weapon", "weapon"));

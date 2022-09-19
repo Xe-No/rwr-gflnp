@@ -355,7 +355,7 @@
 			<carry_item key="hvy_vest.carry_item" enabled="1"/>
 		</resources>		
 	</soldier>
-	//addon-3
+	<!-- Electronic Recon -->
 	<soldier name="ERC" firstnames_file="42LAB-ERC.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_player.character">
 			<parameter class="detectability_prone" value="0.4" />
@@ -386,6 +386,7 @@
 			<call key="squad_404.call" enabled="1"/>
 		</resources>		
 	</soldier>
+	<!-- Panzer Corps -->
 	<soldier name="PZC" firstnames_file="42LAB-PZC.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_player.character">
 			<parameter class="detectability_prone" value="0.5" />
@@ -401,6 +402,7 @@
 		</character>
 		<resources filename="pzc.resources" />	
 	</soldier>	
+	<!-- Medic -->
 	<soldier name="MED" firstnames_file="42LAB-MED.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_player.character">
 			<parameter class="prone_moving_steer_amount" value="0.1" />
@@ -424,13 +426,14 @@
 			<call key="supply_quad.call" />
 		</resources>	
 	</soldier>
-	<!-- TEST -->
+	<!-- TEST 测试用改造-->
+	<!-- Pilot -->
 	<soldier name="Pilot" firstnames_file="Pilot.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_player.character">
 			<parameter class="detectability_prone" value="0.4" />
 			<parameter class="detectability_wounded" value="0.4" />
-			<parameter class="detectability_crouching" value="0.52" />
-			<parameter class="detectability_crouch_moving" value="0.6" />
+			<parameter class="detectability_crouching" value="0.54" />
+			<parameter class="detectability_crouch_moving" value="0.62" />
 			<parameter class="detectability_walking" value="0.85" />
 			<parameter class="detectability_still" value="0.78" />
 			<parameter class="detectability_running" value="0.9" />
@@ -478,6 +481,7 @@
 			<call key="401_yamato.call" enabled="1"/>
 		</resources>	
 	</soldier>
+	<!-- 幽灵 -->
 	<soldier name="pilot_ghost" spawn_score="0.01" copy_from="Pilot">
 		<ai filename="lonewolf.ai" />
 		<resources clear_weapons="1" >
@@ -489,6 +493,7 @@
 		<attribute_config class="rp"><attribute weight="1.0" min="20000.0" max="50000.0" /></attribute_config>
 		<attribute_config class="xp"><attribute weight="1.0" min="100.0" max="400.0" /></attribute_config>
 	</soldier>
+
 
 	<soldier name="SEN" firstnames_file="_X-LAB-SEN.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_player.character">
@@ -566,8 +571,6 @@
 		<character filename="gk.character" />
 		<ai filename="default.ai" />
 		<model file="gs_soldier.xml" />
-
-
 		<resources file="common.resources" clear_weapons="1" clear_carry_items="1">
 			<weapon key='gw_m4a1.weapon' />
 			<weapon key='gw_ak12.weapon' />
@@ -592,7 +595,62 @@
 			<attribute weight="1.0" min="0.0" max="0.6" />
 		</attribute_config>
 	</soldier>
+	
+	<!-- GM -->
+	<!-- Electronic Recon Technican -->
+	<soldier name="ERT" firstnames_file="42LAB-ERC.name" lastnames_file="gk_bbbyj.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player_b.character">
 
+			<sound key="death" fileref="mg4_death_1.wav" pitch_variety="0.0" volume="1.0" />
+			<sound key="death" fileref="mg4_death_1.wav" pitch_variety="0.0" volume="0.9" />
+			<sound key="death" fileref="mg4_death_1.wav" pitch_variety="0.0" volume="1.1" />
+			<sound key="death" fileref="mg4_death_2.wav" pitch_variety="0.0" volume="1.0" />
+			<sound key="death" fileref="mg4_death_3.wav" pitch_variety="0.0" volume="1.0" />
+		</character>
+		<resources clear_calls="1">
+			<weapon key='gk_supply_ss.weapon' />
+			<weapon key="gw_hk416c.weapon" enabled="1"/>
+			<weapon key="gw_emp_launcher.weapon" enabled="1"/>
+			<projectile key="ecm.projectile" enabled="1"/>
+			<projectile key="gw_mg4_marker.projectile" enabled="1"/>
+			<projectile key="gw_emp_grenade.projectile" enabled="1"/>
+			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
+			<carry_item key="iop_x4_exo.carry_item" enabled="1"/>
+			<call key="strike_air.call" />
+			<call key="strike_2b14.call" />
+			<call key="supply_quad.call" />
+			<call key="sniper_call.call" />
+			<call key="squad_404.call" enabled="1"/>
+		</resources>
+	</soldier>
+	<!-- Armor Recon -->
+	<soldier name="ARC" firstnames_file="42LAB-PZC.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player_no_sounds.character">
+			<parameter class="detectability_prone" value="0.4" />
+			<parameter class="detectability_wounded" value="0.4" />
+			<parameter class="detectability_crouching" value="0.54" />
+			<parameter class="detectability_crouch_moving" value="0.62" />
+			<parameter class="detectability_walking" value="0.85" />
+			<parameter class="detectability_still" value="0.78" />
+			<parameter class="detectability_running" value="0.9" />
+			<parameter class="speed" value="1.1" />
+			<parameter class="prone_moving_steer_amount" value="0.08" />
+			<parameter class="crouch_walking_steer_amount" value="0.28" />
+			<parameter class="speed_encumbered" low="0.85" high="0.3" />
+			<parameter class="encumbrance" low="19.9" high="50.0" />
+
+			<sound key="death" fileref="g41_death.wav" pitch_variety="0.0" volume="1.0" />
+			<sound key="death" fileref="g41_death_2.wav" pitch_variety="0.0" volume="1.0" />
+			<sound key="death" fileref="g41_death_3.wav" pitch_variety="0.0" volume="1.0" />
+		</character>
+		<resources filename="pzc.resources" clear_calls="1">
+			<call key="strike_air.call" />
+			<call key="strike_2b14.call" />
+			<call key="supply_quad.call" />
+			<call key="sniper_call.call" />
+			<call key="squad_404.call" enabled="1"/>
+		</resources>
+	</soldier>
 	<soldier name="ant_ro635" spawn_score="1.0" squad_size_xp_cap="0.0" >
 		<character filename="dog.character" />
 		<ai filename="dog.ai" />
@@ -1433,6 +1491,12 @@
 		<character filename="gk_player.character"/>
 		<ai filename="default.ai" />
 		<resources file="supply_bp.resources"/>
+	</soldier>
+
+	<soldier name="supply_fng" spawn_score="0" copy_from="default">
+		<character filename="gk_player.character"/>
+		<ai filename="default.ai" />
+		<resources file="supply_fng.resources"/>
 	</soldier>
 
 	<soldier name="supply_hg" spawn_score="0" copy_from="template_HG">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_MG_n.weapon" key="gw_type80_n.weapon">
+<weapon file="base_normal_MG_n.weapon" key="gw_type80_n.weapon">
     <tag name="machine gun" />
     <specification 
   retrigger_time="0.1" 

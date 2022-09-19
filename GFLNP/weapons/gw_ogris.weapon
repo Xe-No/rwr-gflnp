@@ -21,7 +21,7 @@
     <animation state_key="cycle" animation_key="bombard_bolt" />
     <animation state_key="reload" animation_key="bombard_reload" />
 	
-    <sound key="fire" fileref="gw_ogris_shoot.wav" volume="0.7" pitch_variety="0.0" />
+    <sound key="fire" fileref="gw_ogris_shoot.wav" volume="0.45" pitch_variety="0.0" />
 
     <sound key="magazine_out" fileref="gw_ogris_reload.wav" volume="0.7" pitch_variety="0.0" />
     <sound key="magazine_in" fileref="rifle_clip_in.wav" volume="0.0"/>

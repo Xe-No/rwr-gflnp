@@ -74,6 +74,7 @@ Armory
     <weapon key="claymore_resource.weapon" />
     <weapon key="handflag.weapon" />
     <weapon key="banner_qk.weapon" />
+    <weapon key="gk_supply_fng.weapon" />
 
 
 	<weapon key="gw_toz81.weapon" />

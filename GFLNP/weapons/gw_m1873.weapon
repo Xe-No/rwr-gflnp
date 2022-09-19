@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_HG_revolver.weapon" key="gw_m1873.weapon">     
+<weapon file="base_normal_HG_revolver.weapon" key="gw_m1873.weapon">     
     <specification
 	retrigger_time="0.125"
 	accuracy_factor="0.95"

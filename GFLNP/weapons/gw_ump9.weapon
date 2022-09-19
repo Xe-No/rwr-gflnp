@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_SMG.weapon" key="gw_ump9.weapon">
+<weapon file="base_normal_SMG.weapon" key="gw_ump9.weapon">
     <specification 
 	    retrigger_time="0.0923" 
 	    accuracy_factor="0.9" 

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_RF.weapon" key="m1903.weapon">
+<weapon file="base_normal_RF.weapon" key="m1903.weapon">
 	<tag name="has_bayonet" />
 
 	<specification 
