@@ -2,11 +2,11 @@
 <carry_items>
     <carry_item key="iop_t3_bp.carry_item" name="IOP TYPE III Bulletproof Plate" slot="1" transform_on_consume="iop_t3_bp_1" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0.0">
         <hud_icon filename="iop_t3_bp_3.png" />
-        <inventory encumbrance="5" buy_price="360" sell_price="180" />
+        <inventory encumbrance="5" buy_price="100" sell_price="100" />
  
         <model mesh_filename="it_sgvest.xml" />
                                                                                                                                                                           
-        <commonness value="0.00000001" in_stock="1" can_respawn_with="1" />
+        <commonness value="1.0" in_stock="1" can_respawn_with="1" />
  
         <!-- death or wound or stun -> no effect -->
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"  />

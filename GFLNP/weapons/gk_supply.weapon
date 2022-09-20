@@ -27,7 +27,7 @@
     <weapon file="gk_supply_base.weapon" key="gk_supply_ss.weapon" >
         <specification name="SS Supply Box Deploy" spawn_instance_key="gk_supply_ss.vehicle" />
         <hud_icon filename="gk_supply_sg.png" /> TODO
-        <!-- <inventory encumbrance="10.0" price="500.0" /> -->
+        <inventory encumbrance="4.0" price="50.0" /> 
     </weapon>
     <weapon file="gk_supply_base.weapon" key="gk_workbench_base.weapon" >
         <specification name="CBP Blueprint Workbench" spawn_instance_key="workbench.vehicle" />
@@ -36,11 +36,9 @@
     </weapon>
     <weapon file="gk_supply_base.weapon" key="gk_supply_fng.weapon" >
         <specification name="FNG Supply Box Deploy" spawn_instance_key="gk_supply_fng.vehicle" />
-        <hud_icon filename="gk_supply_ar.png" /> 
+        <hud_icon filename="gk_supply_fng.png" /> 
         <capacity value="1" source="rank" source_value="0.0" />
-        <capacity value="0" source="rank" source_value="50.0" />
-        <capacity value="1" source="rank" source_value="200.0" />
-        <inventory encumbrance="10.0" price="1.0" />
+        <inventory encumbrance="4.0" price="1.0" />
     </weapon>
 </weapons>
 

@@ -115,6 +115,12 @@
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key="gw_mp7a2.weapon" enabled="1"/>
 			<weapon key="ew_sticky_bomb.weapon" enabled="1"/>
+			<carry_item key="base_hg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_rf_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_ar_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_smg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_mg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_sg_vest.carry_item" enabled="0"/>
 			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_x4_exo.carry_item" enabled="0"/>
@@ -280,6 +286,12 @@
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key="gw_mp5sd.weapon" enabled="1"/>
 			<weapon key="gst_box.weapon" enabled="1"/>
+			<carry_item key="base_hg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_rf_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_ar_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_smg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_mg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_sg_vest.carry_item" enabled="0"/>
 			<carry_item key="optical_camo_cloak.carry_item" enabled="1"/>
 			<carry_item key="iop_optical_camo_cloak.carry_item" enabled="1"/>
 		</resources>
@@ -350,6 +362,12 @@
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key='hvy3_telescopic_shield.weapon' />
 			<weapon key='hvy_repair_armor.weapon' />
+			<carry_item key="base_hg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_rf_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_ar_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_smg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_mg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_sg_vest.carry_item" enabled="0"/>
 			<carry_item key="iop_t3_bp.carry_item" enabled="1"/>
 			<carry_item key="iop_t4_bp.carry_item" enabled="1"/>
 			<carry_item key="hvy_vest.carry_item" enabled="1"/>
@@ -377,6 +395,12 @@
 			<weapon key="gw_emp_launcher.weapon" enabled="1"/>
 			<projectile key="ecm.projectile" enabled="1"/>
 			<projectile key="gw_emp_grenade.projectile" enabled="1"/>
+			<carry_item key="base_hg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_rf_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_ar_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_smg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_mg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_sg_vest.carry_item" enabled="0"/>
 			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_x4_exo.carry_item" enabled="1"/>
 			<call key="strike_air.call" />
@@ -418,6 +442,12 @@
 			<weapon key='gw_mp9_med.weapon' />
 			<weapon key='gw_mp9_med_gl.weapon' />
 			<projectile key="medic_grenade.projectile" />
+			<carry_item key="base_hg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_rf_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_ar_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_smg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_mg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_sg_vest.carry_item" enabled="0"/>
 			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_t4_exo.carry_item" enabled="1"/>
 			<carry_item key="med_optical_camo_cloak.carry_item" enabled="1"/>
@@ -612,6 +642,12 @@
 			<weapon key="gw_hk416c.weapon" enabled="1"/>
 			<weapon key="gw_emp_launcher.weapon" enabled="1"/>
 			<projectile key="ecm.projectile" enabled="1"/>
+			<carry_item key="base_hg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_rf_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_ar_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_smg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_mg_vest.carry_item" enabled="0"/>
+  			<carry_item key="base_sg_vest.carry_item" enabled="0"/>
 			<projectile key="gw_mg4_marker.projectile" enabled="1"/>
 			<projectile key="gw_emp_grenade.projectile" enabled="1"/>
 			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>

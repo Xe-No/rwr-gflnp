@@ -146,5 +146,49 @@
 		<next_in_chain key="gw_ltlx7000_6101_b_oath.weapon" share_ammo="0" /><inventory price="10.0" />
 		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
 		<hud_icon filename="gw_ltlx7000_6101_r_oath.png" />
+	</weapon>
+
+<!-- 36 -->
+	<weapon file="gw_p90_2802.weapon" key="gw_p90_2802_oath.weapon" time_to_live_out_in_the_open="0">
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/><inventory price="10.0" />
+		<hud_icon filename="gw_p90_2802_oath.png" />
 	</weapon>	
+
+	<weapon file="gw_idwmod.weapon" key="gw_idwmod_oath.weapon" time_to_live_out_in_the_open="0">
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/><inventory price="10.0" />
+		<hud_icon filename="gw_idwmod_oath.png" />
+	</weapon>	
+
+	<weapon file="gw_kp31_310.weapon" key="gw_kp31_310_oath.weapon" time_to_live_out_in_the_open="0">
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/><inventory price="10.0" />
+		<hud_icon filename="gw_kp31_310_oath.png" />
+	</weapon>	
+
+	<weapon file="gw_mg5_309.weapon" key="gw_mg5_309_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_mg5_309_n_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_mg5_309_oath.png" />
+	</weapon>
+	<weapon file="gw_mg5_309_n.weapon" key="gw_mg5_309_n_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_mg5_309_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_mg5_309_n_oath.png" />
+	</weapon>
+
+	<weapon file="gw_an94mod.weapon" key="gw_an94mod_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_an94mod_s_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_an94mod_oath.png" />
+	</weapon>
+	<weapon file="gw_an94mod_s.weapon" key="gw_an94mod_s_oath.weapon" time_to_live_out_in_the_open="0">
+		<next_in_chain key="gw_an94mod_oath.weapon" share_ammo="1" /><inventory price="10.0" />
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>
+		<hud_icon filename="gw_an94mod_s_oath.png" />
+	</weapon>
+
+	<weapon file="gw_dsr50_1801.weapon" key="gw_dsr50_1801_oath.weapon" time_to_live_out_in_the_open="0">
+		<commonness value="0.00000001" can_respawn_with="1" in_stock="0"/><inventory price="10.0" />
+		<hud_icon filename="gw_dsr50_1801_oath.png" />
+	</weapon>
+	
 </weapons>	

@@ -178,7 +178,15 @@ class GFLEquipmentEvent : Tracker {
 				{"gw_ksvk_mod_f.weapon","gw_ksvk_mod_f_oath.weapon"},
 				{"gw_ppsh41_mod.weapon","gw_ppsh41_mod_oath.weapon"},
 				{"gw_ltlx7000_6101_b.weapon","gw_ltlx7000_6101_b_oath.weapon"},
-				{"gw_ltlx7000_6101_r.weapon","gw_ltlx7000_6101_r_oath.weapon"}
+				{"gw_ltlx7000_6101_r.weapon","gw_ltlx7000_6101_r_oath.weapon"},
+				{"gw_p90_2802.weapon","gw_p90_2802_oath.weapon"},
+				{"gw_idwmod.weapon","gw_idwmod_oath.weapon"},
+				{"gw_kp31_310.weapon","gw_kp31_310_oath.weapon"},
+				{"gw_mg5_309.weapon","gw_mg5_309_oath.weapon"},
+				{"gw_mg5_309_n.weapon","gw_mg5_309_n_oath.weapon"},
+				{"gw_dsr50_1801.weapon","gw_dsr50_1801_oath.weapon"},
+				{"gw_an94mod.weapon","gw_an94mod_oath.weapon"},
+				{"gw_an94mod_s.weapon","gw_an94mod_s_oath.weapon"}			
 
 		};
 

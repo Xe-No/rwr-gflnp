@@ -33,6 +33,12 @@
 <weapon key="ew_pm1.weapon" />
 <weapon key="gw_3x_railgun.weapon" />
 <weapon key="ew_leviathan_breath.weapon" />
+<weapon key="gw_p90_2802.weapon" />
+<weapon key="gw_idwmod.weapon" />
+<weapon key="gw_kp31_310.weapon" />
+<weapon key="gw_mg5_309.weapon" />
+<weapon key="gw_dsr50_1801.weapon" />
+<weapon key="gw_an94mod.weapon" />
 
 <carry_item key="iotv_vest.carry_item" />
 <carry_item key="hvy_vest.carry_item" />
