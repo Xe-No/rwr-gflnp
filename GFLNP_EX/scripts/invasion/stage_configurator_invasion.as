@@ -185,6 +185,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected void setupNormalStages() {
 	// addStage(setupViper());          
     // addStage(setupUntildeath2());
+	addStage(setupStage20()); 
 	addStage(setupStage7());          // map6
 	// addStage(setupStage18());         // map13_2
 	addStage(setupStage1());          // map2
@@ -207,7 +208,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	addStage(setupRoberto());          
 	addStage(setupClairemont());
 	addStage(setupUntildeath()); 
-	addStage(setupUprising());     
+	// addStage(setupUprising());     
 	addStage(setupUntildeath2());
 	addStage(setupIntrusion()); 
 	addStage(setupUntildeath3());
@@ -2079,7 +2080,72 @@ class StageConfiguratorInvasion : StageConfigurator {
 		return stage;
 	}  
  
+protected Stage@ setupStage20() {
+		Stage@ stage = createStage();
+		stage.m_mapInfo.m_name = "Swan River";
+		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map19";
+		stage.m_mapInfo.m_id = "map19";
+		
+		stage.m_includeLayers.insertLast("layer1.invasion");		
 
+    stage.m_fogOffset = 24.0;    
+    stage.m_fogRange = 50.0; 
+
+		stage.m_maxSoldiers = 19 * 15;
+		stage.m_playerAiCompensation = 4;                                       
+        stage.m_playerAiReduction = 2.0;                                            
+  
+		stage.m_soldierCapacityVariance = 0.6;   // was 0.55
+
+//		stage.addTracker(Spawner(m_metagame, 1, Vector3(309,15,524), 10));        // 1st tow slot filler
+//		stage.addTracker(Spawner(m_metagame, 1, Vector3(658,10,374), 10));        // vulcan slot filler
+
+		stage.addTracker(PeacefulLastBase(m_metagame, 0));    
+		stage.addTracker(CommsCapacityHandler(m_metagame));
+
+    stage.m_minRandomCrates = 1; 
+    stage.m_maxRandomCrates = 4;  
+
+		{ 				
+			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.5, 0.1));   // was   0.4, 0.1 (test2)
+			f.m_overCapacity = 0;
+			f.m_capacityOffset = 12;     // was 15                                        
+			f.m_capacityMultiplier = 1;                                               
+			f.m_bases = 1;
+			stage.m_factions.insertLast(f);
+		}
+		{
+			Faction f(getFactionConfigs()[1], createCommanderAiCommand(1, 0.62, 0.15));   // was 0.65 0.14
+			f.m_overCapacity = 120;                                          
+			f.m_capacityOffset = 0;      // was 30
+			stage.m_factions.insertLast(f);
+		}
+
+		// metadata
+		stage.m_primaryObjective = "capture";
+		stage.m_radioObjectivePresent = false;
+
+		{
+			XmlElement command("command");
+			command.setStringAttribute("class", "faction_resources");
+			command.setIntAttribute("faction_id", 1);
+			addFactionResourceElements(command, "vehicle", array<string> = {"aa_emplacement.vehicle"}, true);
+
+			stage.m_extraCommands.insertLast(command);
+		}
+		{
+			XmlElement command("command");
+			command.setStringAttribute("class", "faction_resources");
+			command.setIntAttribute("faction_id", 0);
+			addFactionResourceElements(command, "vehicle", array<string> = {"radio_jammer.vehicle", "radio_jammer2.vehicle", "radar_tower.vehicle", "legion.vehicle", "apc.vehicle", "apc_1.vehicles", "apc_2.vehicle", "flamer_tank.vehicle", "missile_launcher.vehicle"}, false);
+
+			stage.m_extraCommands.insertLast(command);
+		}
+
+
+		setDefaultAttackBreakTimes(stage);
+		return stage;
+	}   
 
 	// ------------------------------------------------------------------------------------------------
 	// ------------------------------------------------------------------------------------------------

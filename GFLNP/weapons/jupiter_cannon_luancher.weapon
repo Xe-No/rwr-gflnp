@@ -12,7 +12,7 @@
   suppressed="0" 
   name="UPA-TECH Jupiter Cannon Luancher" 
   class="3" 
-  sight_range_modifier="1.2"  
+  sight_range_modifier="1.35"  
   projectile_speed="40.0"
   projectiles_per_shot="1"  
   barrel_offset="0.3" 
@@ -40,16 +40,17 @@
     <model filename="uw_m320.xml" />
 
     <projectile file="jupiter_cannon.projectile" pulldown_in_air="8.0">
-        <result class="blast" radius="10" damage="10" push="0.75" decal="1" />
+        <result class="blast" radius="10" damage="14" push="0.75" decal="1" />
+	<effect class="activated" ref="alert_center_alerticon_hight_frequncy" lighting="0" />
     <trigger class="time" time_to_live="1.0"/>
     </projectile>
 
     <weak_hand_hold offset="0.005" />
 
     <hud_icon filename="upa_jupiter.png" />
-    <capacity value="2" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
     <commonness value="0.0002" in_stock="1" can_respawn_with="0" />
-    <inventory encumbrance="12.0" price="500.0" />
+    <inventory encumbrance="12.0" price="600.0" />
 
     <effect class="muzzle" ref="LawMuzzle" />
     <effect class="muzzle" ref="UpDust" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_SMG.weapon" key="gw_ump45.weapon">
+<weapon file="base_normal_SMG.weapon" key="gw_ump45.weapon">
     <specification 
 	    accuracy_factor="1.0" 
 	    barrel_offset="-0.15" 

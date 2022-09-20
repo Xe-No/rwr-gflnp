@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="MG-4 Mode Transducer" key="gw_mg4_marker.projectile" pulldown_in_air="58.5" slot="0" radius="0.15" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="90.0" can_be_detected_by_driver="0" can_be_detected_by_footmen="0">
+<projectile class="grenade" name="MG-4 Mode Transducer[A10 marker]" key="gw_mg4_marker.projectile" pulldown_in_air="58.5" slot="0" radius="0.15" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="90.0" can_be_detected_by_driver="0" can_be_detected_by_footmen="0">
     <tag name="grenade" />
 
     <result class="spawn" instance_class="call" instance_key="a10_gun_run_2.call"  min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0 0" direction_spread="0 0" />
@@ -12,6 +12,7 @@
 
     <throwable curve_height="14.4" near_far_distance="0.0" speed_estimation_near="60.0" speed_estimation_far="150.0" max_speed="150.0" randomness="0.0" tweak_factor="1.95"/>
 
+
     <!-- projectile slot 0 is used for hand grenade items currently -->
     <!-- bound to change -->
     <commonness value="0.0043" can_respawn_with="0" in_stock="1"/>
@@ -19,6 +20,16 @@
     <capacity value="2" source="rank" source_value="2.0" />
     <inventory encumbrance="1.0" price="1000.0" />
 
-     <effect class="activated" ref="ecm_flash" lighting="0" /> 
-	<trail probability="1.0" key="laser_green_tighten"/>
+    <sound class="result" key="other" fileref="" pitch_variety="0.0" volume="2.0"/>
+    <sound class="result" key="other" fileref="" pitch_variety="0.0" volume="2.0"/>
+    <sound class="result" key="other" fileref="" pitch_variety="0.0" volume="2.0"/>
+    <sound class="result" key="other" fileref="mg4_skill1.wav" pitch_variety="0.0" volume="2.0"/>
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+
+     <effect class="activated" ref="ben_mg4_activated_cross" lighting="0" /> 
+     <effect class="activated" ref="ben_mg4_activated_startrail" lighting="0" /> 
 </projectile>

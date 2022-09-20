@@ -34,5 +34,13 @@
         <hud_icon filename="hud_workbench.png" /> 
         <inventory encumbrance="10.0" price="321.0" />
     </weapon>
+    <weapon file="gk_supply_base.weapon" key="gk_supply_fng.weapon" >
+        <specification name="FNG Supply Box Deploy" spawn_instance_key="gk_supply_fng.vehicle" />
+        <hud_icon filename="gk_supply_ar.png" /> 
+        <capacity value="1" source="rank" source_value="0.0" />
+        <capacity value="0" source="rank" source_value="50.0" />
+        <capacity value="1" source="rank" source_value="200.0" />
+        <inventory encumbrance="10.0" price="1.0" />
+    </weapon>
 </weapons>
 

@@ -139,6 +139,13 @@ token_medic.projectile
 <projectile name="Raiden Mei[RE]" file="token0.projectile" key="token_raiden_mei.projectile"  >
 	<hud_icon filename="token_raiden.png" />
 </projectile>
+<projectile name="Skyfire[RE]" file="token0.projectile" key="token_skyfire.projectile"  >
+	<hud_icon filename="token_skyfire.png" />
+</projectile>
+<projectile name="MDR[Cocktail Observer][RE]" file="token0.projectile" key="token_mdr_3305.projectile"  >
+	<hud_icon filename="token_mdr_3305.png" />
+</projectile>
+
 <!-- flash -->
 <projectile name="Komeiji Koishi[RE]" file="token_stun.projectile" key="token_koishi.projectile"  >
 	<model mesh_file="token_koishi.xml" />
@@ -156,6 +163,12 @@ token_medic.projectile
 </projectile>
 <projectile name="A-Pi[RE]" file="token_stun.projectile" key="token_api.projectile"  >
 	<hud_icon filename="token_api.png" />
+</projectile>
+<projectile name="Sinon[RE]" file="token_stun.projectile" key="token_sinon.projectile"  >
+	<hud_icon filename="token_sinon.png" />
+</projectile>
+<projectile name="Kana[RE]" file="token_stun.projectile" key="token_kana.projectile"  >
+	<hud_icon filename="token_kana.png" />
 </projectile>
 
 <!-- Fisrt Aid -->
@@ -182,6 +195,9 @@ token_medic.projectile
 <projectile name="Tirpitz[RE]" file="token_c4.projectile" key="token_tirpitz.projectile"  >
 	<model mesh_file="token_tirpitz.xml" />
 	<hud_icon filename="token_tirpitz.png"/>
+</projectile>
+<projectile name="Ruby Rose[RE]" file="token_c4.projectile" key="token_rose.projectile"  >
+	<hud_icon filename="token_rose.png"/>
 </projectile>
 <projectile name="Dima[C4]" file="token_c4.projectile" key="token_dima.projectile" can_be_disarmed="1" time_to_live_out_in_the_open="90.0">
 	<hud_icon filename="token_dima.png"/>

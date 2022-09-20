@@ -13,7 +13,7 @@ radius="0.3"
 can_be_disarmed="1"
 can_be_detected_by_footmen="0"
 can_be_detected_by_driver="0"
-blast_damage_threshold="0.1"
+blast_damage_threshold="1.2"
 >
 
 	<collision class="sticky" />

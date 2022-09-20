@@ -1,0 +1,112 @@
+particle_system plasma_trace  //尾迹
+{
+	quota 1000
+	material plasma_light
+	particle_width 1.5
+	particle_height 1.5
+	renderer billboard
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+	common_direction 0 0 1
+	common_up_vector 1 0 0
+	
+	emitter Point
+	{
+		angle 45
+		colour 0.3 1 1 1
+		direction 0 1 0
+		emission_rate 300
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.12
+		duration 4
+	}
+	
+	affector Scaler
+	{
+		rate -9
+	}
+	
+}
+
+particle_system plasma_woosh  //对人范围光环
+{
+    quota 500
+    material plasma_woosh
+    particle_width 2.0
+    particle_height 2.0
+    renderer billboard
+	billboard_type perpendicular_common
+	billboard_origin center
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+
+    emitter Point 
+    {
+		angle 0
+		colour 0.3 1 1 1
+    	position 0 0.3 0
+		direction 0 1 0
+		emission_rate 20
+		velocity 0.0001
+		time_to_live 0.15
+		duration 0.05
+		duration_min 0.05
+		duration_max 0.05
+    }
+
+    affector Scaler 
+    {
+        rate 45
+    }
+
+	affector ColourFader
+	{
+		red -1.0
+		green -1.0
+		blue -1.0
+		alpha -1.0
+	}  
+
+}
+
+particle_system plasma_woosh_small  //对架设参考范围光环
+{
+    quota 500
+    material plasma_woosh
+    particle_width 1.5
+    particle_height 1.5
+    renderer billboard
+	billboard_type perpendicular_common
+	billboard_origin center
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+
+    emitter Point 
+    {
+		angle 0
+		colour 0.3 1 1 1
+    	position 0 0.3 0
+		direction 0 1 0
+		emission_rate 20
+		velocity 0.0001
+		time_to_live 0.15
+		duration 0.05
+		duration_min 0.05
+		duration_max 0.05
+    }
+
+    affector Scaler 
+    {
+        rate 22.5
+    }
+
+	affector ColourFader
+	{
+		red -1.0
+		green -1.0
+		blue -1.0
+		alpha -1.0
+	}  
+
+}

@@ -26,5 +26,21 @@
 
 	<comms_marker key="call_marker_gunship" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundCallGunship" size="9.0" />
 
+	<comms_marker key="call_marker_yamato" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundCallYamato" size="9.0" />
+
+
+	<comms_marker key="call_marker_a10_2_12" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_12" size="9.0" />
+	<comms_marker key="call_marker_a10_2_1" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_1" size="9.0" />
+	<comms_marker key="call_marker_a10_2_2" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_2" size="9.0" />
+	<comms_marker key="call_marker_a10_2_3" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_3" size="9.0" />
+	<comms_marker key="call_marker_a10_2_4" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_4" size="9.0" />
+	<comms_marker key="call_marker_a10_2_5" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_5" size="9.0" />
+	<comms_marker key="call_marker_a10_2_6" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_6" size="9.0" />
+	<comms_marker key="call_marker_a10_2_7" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_7" size="9.0" />
+	<comms_marker key="call_marker_a10_2_8" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_8" size="9.0" />
+	<comms_marker key="call_marker_a10_2_9" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_9" size="9.0" />
+	<comms_marker key="call_marker_a10_2_10" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_10" size="9.0" />
+	<comms_marker key="call_marker_a10_2_11" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2_11" size="9.0" />
+
 	<end_view play_victory_soundtrack="1" />
 </hud>

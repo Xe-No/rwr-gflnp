@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_secondary.weapon" key="medikit.weapon" on_ground_up="1 0 0" radius="0.45">
+<weapon file="base_secondary.weapon" key="medikit.weapon" on_ground_up="1 0 0" radius="0.45" drop_count_limit_in_range="2">
     <tag name="medikit" />
     <specification magazine_size="1" 
     can_shoot_standing="0" 

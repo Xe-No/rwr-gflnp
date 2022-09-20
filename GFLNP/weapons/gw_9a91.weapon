@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_AR.weapon" key="gw_9a91.weapon">
+<weapon file="base_normal_AR.weapon" key="gw_9a91.weapon">
     <specification 
 		accuracy_factor="0.91" 
 		barrel_offset="0.5"

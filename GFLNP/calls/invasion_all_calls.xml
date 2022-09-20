@@ -16,5 +16,6 @@
 	<call file="a10_gun_run_2.call" />
 	<call file="squad_somst.call" />
 	<call file="sniper_call_ai.call" />
+	<call file="architect_drop.call" />
 
 </calls>

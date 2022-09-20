@@ -842,6 +842,8 @@ gw_zb26_4703.weapon
 	<model filename="gs_six12.xml"><requirement class="weapon" slot="0" key="gw_six12sd_slug.weapon"/></model>
 	<model filename="gs_iws2000_banisher.xml"><requirement class="weapon" slot="0" key="gw_iws2000_banisher_he.weapon"/></model>
 	<model filename="gs_iws2000_banisher.xml"><requirement class="weapon" slot="0" key="gw_iws2000_banisher_fsds.weapon"/></model>
+	<model filename="gs_iws2000_sandcastle_terminator.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="gw_iws2000_banisher_he.weapon"/></model>
+	<model filename="gs_iws2000_sandcastle_terminator.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="gw_iws2000_banisher_fsds.weapon"/></model>
 	<model filename="gs_ak308.xml"><requirement class="weapon" slot="0" key="gw_ak308.weapon"/></model>
 
 <!-- 32 -->
@@ -990,6 +992,23 @@ gw_zb26_4703.weapon
 	<model filename="es_perseus.xml"><requirement class="weapon" key="gw_mp9_med_gl.weapon" slot="0" /></model>
 	<model filename="surtr_armed.xml"><requirement class="weapon" key="surtr_skill.weapon" slot="0" /></model>
 
+<!-- 37 -->
+	<model filename="es_reisenu.xml"><requirement class="weapon" key="ew_reisenu_b.weapon" slot="0" /></model>
+	<model filename="es_reisenu_u.xml"><requirement class="weapon" key="ew_reisenu_a.weapon" slot="0" /></model>
+	<model filename="gs_bombard.xml"><requirement class="weapon" key="gw_ogris.weapon" slot="0" /></model>
+	<model filename="gs_mk12.xml"><requirement class="weapon" key="gw_mk12.weapon" slot="0" /></model>
+	<model filename="gs_mk12.xml"><requirement class="weapon" key="gw_mk12_a.weapon" slot="0" /></model>
+	<model filename="gs_iws2000_sandcastle_terminator.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="gw_iws2000_fsds.weapon"/></model>
+	<model filename="gs_iws2000_sandcastle_terminator.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="gw_iws2000_he.weapon"/></model>
+	<model filename="gs_sat8_2601.xml"><requirement class="weapon" key="gw_sat8_2601.weapon" slot="0" /></model>
+	<model filename="es_xenophage.xml"><requirement class="weapon" key="ew_xenophage.weapon" slot="0" /></model>
+	<model filename="gs_g41_7406.xml"><requirement class="weapon" key="gw_g41_7406.weapon" slot="0" /></model>
+	<model filename="gs_km.xml"><requirement class="weapon" key="gw_km.weapon" slot="0" /></model>
+	<model filename="gs_type64_104.xml"><requirement class="weapon" key="gw_type64_104.weapon" slot="0" /></model>
+	<model filename="gs_type64_104.xml"><requirement class="weapon" key="gw_type64_104_shotgun.weapon" slot="0" /></model>
+	<model filename="gs_hs50.xml"><requirement class="weapon" key="gw_hs50.weapon" slot="0" /></model>
+	<model filename="gs_hs50.xml"><requirement class="weapon" key="gw_hs50_cw.weapon" slot="0" /></model>
+	<model filename="es_pm1.xml"><requirement class="weapon" key="ew_pm1.weapon" slot="0" /></model>
 
 <!-- oath -->
 	<model filename="gs_m4a1mod.xml"><requirement class="weapon" slot="0" key="gw_m4a1mod3_oath.weapon"/></model>
@@ -1020,6 +1039,11 @@ gw_zb26_4703.weapon
 	<model filename="gs_ltlx7000_6101.xml"><requirement class="weapon" slot="0" key="gw_ltlx7000_6101_b_oath.weapon"/></model>
 	<model filename="gs_ltlx7000_6101.xml"><requirement class="weapon" slot="0" key="gw_ltlx7000_6101_r_oath.weapon"/></model>
 
+<!-- CBP -->
+	<model filename="gs_m14mod.xml"><requirement class="weapon" slot="0" key="gw_m14_bipod.weapon"/></model>
+	<model filename="gs_m14mod.xml"><requirement class="weapon" slot="0" key="gw_m14_bipod_sl.weapon"/></model>
+	<model filename="gs_ar15_532.xml"><requirement class="weapon" slot="0" key="gw_ar15mod_300.weapon"/></model>
+	<model filename="gs_ar15_532.xml"><requirement class="weapon" slot="0" key="gw_ar15mod_300_sl.weapon"/></model>
 </models>
 
     

@@ -27,6 +27,10 @@
 	<vehicle file="gk_supply_base.vehicle" name="SS Supply Box" key="gk_supply_ss.vehicle" time_to_live="60.0">
 		<item_container class="armory" offset="0 0 0" soldier_group="default" />
 		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_sg.mesh.png" /> TODO
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="FNG Supply Box" key="gk_supply_fng.vehicle" time_to_live="60.0">
+		<item_container class="armory" offset="0 0 0" soldier_group="supply_fng" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_ar.mesh.png" />
 	</vehicle>		
 	<vehicle file="gk_supply_base.vehicle" name="New Supply Box" key="gk_supply_new.vehicle"  >
 		<item_container class="armory" offset="0 0 0" soldier_group="supply_new" />

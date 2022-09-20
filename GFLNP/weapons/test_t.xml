@@ -30,10 +30,24 @@
 <!-- CBP -->
 <projectile file="cb_part.projectile" />
 <projectile file="oath_core.projectile" />
+<projectile file="parts_m14_bipod.projectile" />
+<projectile file="ammo_ar15_300blk.projectile" />
 
 <!-- 37 -->
 <projectile file="strike_marker_somst.projectile" />
+<projectile file="architect_call.projectile" />
+<projectile file="architect_call_marker.projectile" />
+<projectile file="architect_gl.projectile" />
+<projectile file="missile_fervor.projectile" />
+<projectile file="ew_reisenu_b.projectile" />
+<projectile file="token_reisenu_card.projectile" />
+<projectile file="reisenu_card_damage.projectile" />
+<projectile file="ew_annihilator_grenade_launcher_damage.projectile" />
+<projectile file="xenophage_blast.projectile" />
+<projectile file="ew_pm1_sub.projectile" />
+<projectile file="inscription_of_the_dead.projectile" />
+<projectile file="inscription_of_the_dead_blast.projectile" />
+<projectile file="vabow_damage.projectile" />
 
-	
 
 </projectiles>

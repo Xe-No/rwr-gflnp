@@ -19,7 +19,7 @@
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
     <animation key="recoil" ref="14" />
-    <animation key="reload" ref="35" />
+    <animation state_key="reload" animation_key="reloading, pkm"/>
     <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
 
     <sound key="fire" fileref="ew_25a2_k.wav" pitch_variety="0.04" volume="0.1" />
@@ -40,13 +40,13 @@
     <stance state_key="running" accuracy="0.4" />
     <stance state_key="walking" accuracy="0.5" />
     <stance state_key="crouch_moving" accuracy="0.6" />
-    <stance state_key="standing" accuracy="0.75" />
-    <stance state_key="crouching" accuracy="0.8" />
-    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="standing" accuracy="0.8" />
+    <stance state_key="crouching" accuracy="0.85" />
+    <stance state_key="prone" accuracy="1.1" /> 
     <stance state_key="prone_moving" accuracy="0.75" />
     <stance state_key="over_wall" accuracy="1.2" />
     
-<shield offset="-0.5 0.05 0" extent="0.2 0.55 0.8" usable_for_cover="0"/>
+<shield offset="-0.7 -0.1 0" extent="0.5 0.8 1.4" usable_for_cover="0"/>
 
-    <modifier class="speed" value="-0.1" />
+    <modifier class="speed" value="-0.25" />
 </weapon>

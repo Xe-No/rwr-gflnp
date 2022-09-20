@@ -257,7 +257,8 @@ class BasicCommandHandler : Tracker {
 				'breakdance freeze 1',
 				'breakdance hip hop move',
 				'breakdance footwork 1',
-				'hip hop dancing'
+				'hip hop dancing',
+				'slavic kick dance'
 			};
 			if (pn == 2) {	
 				uint action_i = parseInt(paras[1]);

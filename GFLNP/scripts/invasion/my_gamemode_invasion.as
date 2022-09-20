@@ -9,6 +9,7 @@
 #include "heli_gun_run.as"
 #include "ah64_assasin.as"
 #include "a10_gun_run_2.as"
+#include "architect_gun_run.as"
 
 // costume trackers
 #include "redeem_tracker.as"
@@ -53,6 +54,7 @@ class MyGameModeInvasion : GameModeInvasion {
 		addTracker(RepairCrane(this));
 		addTracker(A10GunRun(this));
 		addTracker(A10_2GunRun(this));
+		addTracker(ArchitectGunRun(this));
 		addTracker(AC130XGunRun(this));
 		addTracker(SquadEquipmentKit(this)); 
 		addTracker(RangeFinder(this)); 
@@ -98,6 +100,7 @@ class MyGameModeInvasion : GameModeInvasion {
 			CallMarkerConfig("squad_AR.call", "call_marker_gunship", 11, 0.5, 1.0),
 			CallMarkerConfig("squad_defy.call", "call_marker_gunship", 11, 0.5, 60.0),
 			CallMarkerConfig("squad_somst.call", "call_marker_gunship", 11, 0.5, 60.0),
+			CallMarkerConfig("architect_drop.call", "call_marker_gunship", 11, 0.5, 60.0),
 			
 			CallMarkerConfig("strike_2b14.call", "call_marker", 6, 0.5, 40.0),
 			CallMarkerConfig("strike_air.call", "call_marker", 7, 0.5, 10.0),
@@ -106,7 +109,7 @@ class MyGameModeInvasion : GameModeInvasion {
 			CallMarkerConfig("artillery_105.call", "call_marker", 8, 0.5, 80.0),
 			CallMarkerConfig("artillery_155.call", "call_marker", 8, 0.5, 70.0),
 			CallMarkerConfig("ac130_gun_run.call", "call_marker_gunship", 3, 1.0, 90.0),
-			CallMarkerConfig("401_yamato.call", "call_marker", 17, 1.0, 130.0),
+			CallMarkerConfig("401_yamato.call", "call_marker_yamato", 17, 1.0, 130.0),
 			CallMarkerConfig("sniper_call.call", "call_marker_gunship", 18, 0.5, 50.0),
 			CallMarkerConfig("ah64_assasin.call", "call_marker_gunship", 9, 0.5, 75.0)
             //CallMarkerConfig("a10_gun_run.call", "call_marker", 4, 0.5) //handled in a10_gun_run.as

@@ -1,0 +1,333 @@
+----------------------------3
+
+particle_system ogris_blast
+{
+	quota 800
+	emit_emitter_quota 3
+	material wf_all/corinth_huan
+	particle_width 2.5
+	particle_height 1
+	cull_each false
+
+	renderer billboard
+                billboard_origin top_center
+	billboard_type oriented_self
+	billboard_rotation_type vertex
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+
+	emitter Point
+	{
+		angle 100
+		colour 0.23 0.2 0.15 0
+		colour_range_start 0.23 0.17 0.1 0
+		colour_range_end 0.23 0.17 0.1 0
+		direction 0 1 0
+		up 0 0 -1
+		emission_rate 600
+		position 0 0 0
+		velocity 30
+		velocity_min 30
+		velocity_max 30
+		time_to_live 0.2
+		time_to_live_min 0.2
+		time_to_live_max 0.2
+		duration 0.05
+
+
+	}
+
+	affector Scaler
+	{
+		rate 10
+	}
+
+	affector ColourFader2
+	{
+		red1 -0.94
+		green1 -0.78
+		blue1 -1
+		alpha1 -0.88
+		red2 -1
+		green2 -1
+		blue2 -1
+		alpha2 -1
+		state_change 0.2
+	}
+}
+----------------------------1
+
+particle_system ogris_spark_small
+{
+	quota 1000
+	emit_emitter_quota 3
+	material wf_all/flaretrail
+	particle_width 0.4
+	particle_height 1.5
+	cull_each true
+
+	renderer billboard
+                billboard_origin bottom_center
+	billboard_type oriented_self
+	billboard_rotation_type texcoord
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+
+	emitter Point
+	{
+		angle 90
+		colour 1 0.8 0.26 1
+		colour_range_start 1 0.8 0.26 1
+		colour_range_end 1 0.8 0.26 1
+		direction 0.019996 0.9998 0
+		up 0 0 -1
+		emission_rate 700
+		position 0 0 0
+		velocity 20
+		velocity_min 20
+		velocity_max 20
+		time_to_live 0.2
+		time_to_live_min 0.1
+		time_to_live_max 0.2
+		duration 0.1
+
+	}
+
+	affector LinearForce
+	{
+		force_vector 0 -30 0
+		force_application add
+	}
+
+	affector Scaler
+	{
+		rate -0.0
+	}
+}
+
+----------------------------2
+
+particle_system ogris_spark_smaller
+{
+	quota 1000
+	emit_emitter_quota 3
+	material wf_all/flaretrail
+	particle_width 0.4
+	particle_height 0.8
+	cull_each true
+
+	renderer billboard
+                billboard_origin bottom_center
+	billboard_type oriented_self
+	billboard_rotation_type texcoord
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+
+	emitter Point
+	{
+		angle 90
+		colour 1 0.8 0.26 1
+		colour_range_start 1 0.8 0.26 1
+		colour_range_end 1 0.8 0.26 1
+		direction 0.019996 0.9998 0
+		up 0 0 -1
+		emission_rate 700
+		position 0 0 0
+		velocity 11
+		velocity_min 10
+		velocity_max 11
+		time_to_live 0.3
+		time_to_live_min 0.1
+		time_to_live_max 0.3
+		duration 0.1
+
+	}
+
+	affector LinearForce
+	{
+		force_vector 0 -22 0
+		force_application add
+	}
+
+	affector Scaler
+	{
+		rate -0.0
+	}
+}
+----------------------------4
+
+particle_system ogris_debris
+{
+	quota 1000
+	emit_emitter_quota 3
+                material        Piece
+	particle_width 0.2
+	particle_height 0.2
+	cull_each false
+
+	renderer billboard
+                billboard_origin top_center
+	billboard_type point
+	billboard_rotation_type vertex
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+
+	emitter Box
+	{
+		angle 10
+		colour 1 1 1 1
+		colour_range_start 1 1 1 1
+		colour_range_end 1 1 1 1
+		direction 0.019996 0.9998 0
+		up 0 0 -1
+		emission_rate 70
+		position 0 0 0
+		velocity 12
+		velocity_min 10
+		velocity_max 12
+		time_to_live 0.8
+		time_to_live_min 0.5
+		time_to_live_max 0.8
+		duration 0.1
+		width 6
+		height 6
+		depth 1
+
+	}
+
+	affector LinearForce
+	{
+		force_vector 0 -32 0
+		force_application add
+	}
+
+	affector Scaler
+	{
+		rate -0.0
+	}
+}
+----------------------------4
+
+particle_system ogris_debris_2
+{
+	quota 1000
+	emit_emitter_quota 3
+	material   Piece
+	particle_width 0.15
+	particle_height 0.15
+	cull_each true
+
+	renderer billboard
+                billboard_origin bottom_center
+	billboard_type oriented_self
+	billboard_rotation_type texcoord
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+
+	emitter Point
+	{
+		angle 10
+		colour 1 0.8 0.26 1
+		colour_range_start 1 0.8 0.26 1
+		colour_range_end 1 0.8 0.26 1
+		direction 0.019996 0.9998 0
+		up 0 0 -1
+		emission_rate 150
+		position 0 0 0
+		velocity 15
+		velocity_min 10
+		velocity_max 20
+		duration 0.1
+		duration_min 0.1
+		duration_max 0.1
+		time_to_live 1.5
+		time_to_live_min 1.0
+		time_to_live_max 2.0
+
+	}
+
+	affector LinearForce
+	{
+		force_vector 0 -32 0
+		force_application add
+	}
+
+	affector Scaler
+	{
+		rate -0.0
+	}
+}
+----------------------------5
+
+
+particle_system ogris_flame {
+	quota	500
+	material FlameSmoke
+	particle_width	2.0
+	particle_height	2.0
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Point {
+		angle	90
+		//colour	1 1 1 0.4
+		colour_range_start	1 1 0 0.1
+		colour_range_end	1 1 0 1
+		direction	0 1 0
+		emission_rate	300
+		position	0 0 0
+		//velocity	14
+		velocity_min	14
+		velocity_max	14
+		time_to_live	0.3
+		time_to_live_min	0.3
+		time_to_live_max	0.3
+		duration 0.1
+		duration_min 0.1
+		duration_max 0.1
+	}
+
+	affector Scaler {
+		rate	4.0
+	}
+
+	affector Rotator {
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+	affector LinearForce {
+		force_vector 0 0 0
+		force_application add
+	}
+
+	affector ColourInterpolator {
+		colour0	0.8 0.7 0.3 0.8
+		time0	0.1
+		colour1	0.7 0.3 0 0.4
+		time1	0.3
+		colour2	0.3 0.3 0.3 0.2
+		time2	0.5
+		colour3	0.3 0.3 0.3 0.1
+		time3	0.8
+	}
+}
+

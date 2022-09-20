@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+<carry_item filename="tx_boss_gager_normal.carry_item" key="tx_boss_gager.carry_item" name="Gager" slot="1" transform_on_consume="boss_gager_95"><hud_icon filename="reverse_core.png" /></carry_item>
+<carry_item filename="doppelsoldner_shield.carry_item" key="boss_gager_95" name="Gager 95%" slot="1" transform_on_consume="boss_gager_90"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_shield.carry_item" key="boss_gager_90" name="Gager 90%" slot="1" transform_on_consume="boss_gager_85"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_shield.carry_item" key="boss_gager_85" name="Gager 85%" slot="1" transform_on_consume="boss_gager_80"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="tx_boss_gager_normal.carry_item" key="boss_gager_80" name="Gager 80%" slot="1" transform_on_consume="boss_gager_75"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_75" name="Gager 75%" slot="1" transform_on_consume="boss_gager_70"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_70" name="Gager 70%" slot="1" transform_on_consume="boss_gager_65"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="tx_boss_gager_normal.carry_item" key="boss_gager_65" name="Gager 65%" slot="1" transform_on_consume="boss_gager_60"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_60" name="Gager 60%" slot="1" transform_on_consume="boss_gager_55"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_55" name="Gager 55%" slot="1" transform_on_consume="boss_gager_50"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="tx_boss_gager_normal.carry_item" key="boss_gager_50" name="Gager 50%" slot="1" transform_on_consume="boss_gager_45"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_45" name="Gager 45%" slot="1" transform_on_consume="boss_gager_40"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_40" name="Gager 40%" slot="1" transform_on_consume="boss_gager_35"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="tx_boss_gager_normal.carry_item" key="boss_gager_35" name="Gager 35%" slot="1" transform_on_consume="boss_gager_30"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_30" name="Gager 30%" slot="1" transform_on_consume="boss_gager_25"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_25" name="Gager 25%" slot="1" transform_on_consume="boss_gager_20"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="tx_boss_gager_normal.carry_item" key="boss_gager_20" name="Gager 20%" slot="1" transform_on_consume="boss_gager_15"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_shield.carry_item" key="boss_gager_15" name="Gager 15%" slot="1" transform_on_consume="boss_gager_10"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_shield.carry_item" key="boss_gager_10" name="Gager 10%" slot="1" transform_on_consume="boss_gager_0"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item filename="doppelsoldner_down.carry_item" key="boss_gager_0" name="Gager destoryed" slot="1"><hud_icon filename="reverse_core.png" /></carry_item>   
+</carry_items>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_RF.weapon" key="uw_m14ebr.weapon">
+<weapon file="base_normal_RF.weapon" key="uw_m14ebr.weapon">
     <tag name="sniper" />
     <specification 
   retrigger_time="0.275" 

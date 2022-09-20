@@ -1,0 +1,160 @@
+author: RST
+2022.9.5
+未经授权不可复用、修改使用
+particle_system laser_sf_center
+{
+	quota 50
+	material laser_sf
+	particle_width 5
+	particle_height 50
+	renderer billboard
+	billboard_type oriented_common
+	billboard_origin bottom_center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	iteration_interval 0
+	
+	emitter Point
+	{
+		angle 0
+		colour 0.5 0.5 0.5 1
+		direction 0 1 0
+		emission_rate 10
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 1
+		duration 8
+	}
+	affector Scaler
+	{
+		rate 0
+	}
+		affector Rotator
+	{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	0
+		rotation_range_end	0
+	}
+	affector ColourFader2
+	{
+		red1 	0.1
+		green1 	0.1
+		blue1 	0.1
+		alpha1 	0
+		red2 	-1
+		green2	-1
+		blue2	-1
+		alpha2	-3
+		state_change 1
+	}
+	affector LinearForce{
+		force_vector 0 0 0
+		force_application add
+	}
+	affector DirectionRandomiser 
+	{
+		randomness 0
+		scope 0
+		keep_velocity false
+	}
+}
+
+particle_system laser_soft_edge_01
+{
+	quota 50
+	material laser_soft_edge_01
+	particle_width 10
+	particle_height 200
+	renderer billboard
+	billboard_type oriented_common
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	iteration_interval 0
+	
+	emitter Point
+	{
+		angle 0
+		colour 0.05 0.05 0.05 1
+		direction 0 1 0
+		emission_rate 10
+		position 0 -5 0
+		velocity 0.0001
+		time_to_live 1
+		duration 8
+	}
+	affector Scaler
+	{
+		rate 0
+	}
+		affector Rotator
+	{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	0
+		rotation_range_end	0
+	}
+	affector ColourFader2
+	{
+		red1 	0.0
+		green1 	0.0
+		blue1 	0.0
+		alpha1 	0
+		red2 	-3
+		green2	-3
+		blue2	-3
+		alpha2	-3
+		state_change 0.33
+	}
+	affector LinearForce{
+		force_vector 0 0 0
+		force_application add
+	}
+	affector DirectionRandomiser 
+	{
+		randomness 0
+		scope 0
+		keep_velocity false
+	}
+}
+--------------------------------------material-----------------------------------
+material alpha_blend_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend alpha_blend
+		}
+	}
+}
+
+material add_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+		}
+	}
+}
+material laser_sf : add_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture laser_sf.png 	
+}}}}
+material laser_soft_edge_01 : add_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture laser_soft_edge_01.png 	
+}}}}

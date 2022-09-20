@@ -2,13 +2,13 @@
 <weapon file="base_cb.weapon" key="naoto_rpl20.weapon">
     <tag name="machinegun" />
     <specification 
-  retrigger_time="0.1" 
+  retrigger_time="0.075" 
   last_burst_retrigger_time="0.4"
   accuracy_factor="0.95"
   spread_range="0.18" 
   sustained_fire_grow_step="0.42" 
   sustained_fire_diminish_rate="1.35" 
-  magazine_size="150" 
+  magazine_size="120" 
   can_shoot_standing="0"
   can_shoot_crouching="1"  
   suppressed="0" 

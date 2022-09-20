@@ -15,7 +15,7 @@
 	 projectile_speed="190.0"
 	 barrel_offset="0.4"
 	 projectiles_per_shot="1"
-	 sight_range_modifier="1.35"
+	 sight_range_modifier="1.55"
 	/>
 
                 <next_in_chain key="gw_lee_enfield_10_burstshots.weapon" share_ammo="1" />

@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1">
-	<weapon key="spas-12.weapon" />
-	<weapon key="aa-12.weapon" />
-	<weapon key="gw_usas12.weapon" />
-	<weapon key="gw_supershorty.weapon" />
 	<weapon key="ns2000.weapon" />
 	<weapon key="gw_m590.weapon" />
 	<weapon key="gw_m870.weapon" />
 	<weapon key="uw_m1014.weapon" />
+	<weapon key="gw_m37.weapon" />
+	<weapon key="gw_six12.weapon" />
+	<weapon key="gw_m590a1.weapon" />				
+	<weapon key="spas-12.weapon" /> 
+	<weapon key="aa-12.weapon" /> 
+	<weapon key="gw_usas12.weapon" />  
+	<weapon key="gw_dsr50.weapon" /> 
+	<weapon key="gw_supershorty.weapon" />
 	<weapon key="gw_sat8.weapon" />
 	<weapon key="gw_vpm5.weapon" />
-	<weapon key="gw_m590a1.weapon" />
-
-
-  	<carry_item key="base_sg_vest.carry_item" />
+	<weapon key="uts15.weapon" />
+	<weapon key="gw_ltlx7000_b.weapon" />
+	<weapon key="gw_mag7.weapon" />	
 </resources>

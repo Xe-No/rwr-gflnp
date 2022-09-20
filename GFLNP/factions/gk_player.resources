@@ -74,6 +74,7 @@ Armory
     <weapon key="claymore_resource.weapon" />
     <weapon key="handflag.weapon" />
     <weapon key="banner_qk.weapon" />
+    <weapon key="gk_supply_fng.weapon" />
 
 
 	<weapon key="gw_toz81.weapon" />
@@ -192,6 +193,13 @@ re token
 	<projectile key="token_api.projectile" />
 	<projectile key="token_angelia.projectile" />
 	<projectile key="token_tirpitz.projectile" />
+	<projectile key="token_reisenu_card.projectile" />
+	<projectile key="token_skyfire.projectile"  />
+	<projectile key="token_sinon.projectile"  />
+	<projectile key="token_rose.projectile"  />
+	<projectile key="token_kana.projectile"  />
+	<projectile key="token_mdr_3305.projectile"  />
+
 
 oath
   	<weapon key="gw_ar15mod_sl_oath.weapon" />

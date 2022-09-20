@@ -14,7 +14,9 @@
     carry_in_two_hands="0" 
     class="0" 
     barrel_offset="-0.15" 
-    projectile_speed="150.0"/>
+    projectile_speed="150.0"
+    projectiles_per_shot="1"/>
+    
 
     <next_in_chain key="bronia_gl.weapon" share_ammo="0" />
 
@@ -50,6 +52,9 @@
     <hud_icon filename="bronia_hg.png" />
     <!--<commonness value="1.0" can_respawn_with="1" />-->
     <inventory encumbrance="6.0" price="300.0" />
+
+    <effect class="muzzle" ref="ejection" />
+    <effect class="muzzle" ref="muzzle_blue" />
     <weak_hand_hold offset="0.1" />
 
     <projectile file="bullet.projectile">

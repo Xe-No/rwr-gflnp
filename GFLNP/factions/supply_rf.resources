@@ -12,7 +12,28 @@
 	<weapon key="gw_svd.weapon" />
 	<weapon key="uw_m200.weapon" />
 	<weapon key="gw_qbu88.weapon" />
+	<weapon key="gw_g28.weapon" />
+	<weapon key="tac50.weapon" />
+	<weapon key="gw_carcano1938.weapon" />
+	<weapon key="gw_k31.weapon" />
+	<weapon key="gw_mosin1891.weapon" />
+	<weapon key="gw_js127.weapon" />
+	<weapon key="gw_m1a1_carbine.weapon" />		
+	<weapon key="gw_s99.weapon" />
+	<weapon key="gw_dsr50.weapon" />
+	<weapon key="gw_supersass.weapon" />
+	<weapon key="psg90.weapon" />
+	<weapon key="lahti_l39.weapon" />
+	<weapon key="enforcer.weapon" />
+	<weapon key="gw_carcano1891.weapon" />
+	<weapon key="gw_g43.weapon" />
+	<weapon key="gw_type4.weapon" />
+	<weapon key="gw_m1.weapon" />
+	<weapon key="gw_delisle.weapon" />
+	<weapon key="apr.weapon" />
+	<weapon key="gw_sks.weapon" />
+	<weapon key="gw_81hr.weapon" />
 	
-  	<carry_item key="base_rf_vest.carry_item" />
+
 
 </resources>

@@ -116,6 +116,15 @@
 	<model filename="token_dima.xml"><requirement class="projectile" key="token_dima.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
 	<model filename="azl_tirpitz.xml"><requirement class="projectile" key="token_tirpitz.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
 
+<!-- 37 -->
+	<model filename="es_reisenu.xml"><requirement class="projectile" key="token_reisenu_card.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
+	<model filename="es_reisenu_u.xml"><requirement class="projectile" key="token_reisenu_card.projectile" slot="0" /><requirement class="rank" range="0 100000000" /></model>
+	<model filename="token_skyfire.xml"><requirement class="projectile" key="token_skyfire.projectile"  slot="0" /><requirement class="rank" range="0 100000000" /></model>
+	<model filename="token_sao_sinon_cat.xml"><requirement class="projectile" key="token_sinon.projectile"  slot="0" /><requirement class="rank" range="0 100000000" /></model>
+	<model filename="token_rose.xml"><requirement class="projectile" key="token_rose.projectile"  slot="0" /><requirement class="rank" range="0 100000000" /></model>
+	<model filename="token_kana.xml"><requirement class="projectile" key="token_kana.projectile"  slot="0" /><requirement class="rank" range="0 100000000" /></model>
+	<model filename="token_mdr_3305.xml"><requirement class="projectile" key="token_mdr_3305.projectile"  slot="0" /><requirement class="rank" range="0 100000000" /></model>
+
 
 	<model filename="ys_sllh.xml"><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
 	<model filename="marisa.xml"><requirement class="weapon" slot="0" key="gw_mk12mod0.weapon"/></model>

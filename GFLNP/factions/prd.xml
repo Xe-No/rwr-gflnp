@@ -79,8 +79,9 @@
 	</soldier>
 
 	<soldier name="nyto_black" spawn_score="0.01" copy_from="default">
-		<ai filename="mecha.ai" />
-		<resources clear_weapons="1" >
+		<ai filename="elite_hunter.ai" />
+		<resources clear_weapons="1" clear_grenades="1" >
+			<projectile key="inscription_of_the_dead.projectile" />
 			<weapon key="pw_nyto_black.weapon" />
 			<carry_item key='doppelsoldner.carry_item'  />
 		</resources>

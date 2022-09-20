@@ -167,7 +167,7 @@ class A10_2GunRun : Tracker {
 		command.setIntAttribute("enabled", 1);
 		command.setStringAttribute("position", targetPos.toString());
 		command.setStringAttribute("text", "");
-		command.setStringAttribute("type_key", "call_marker_a10_" + A10_2Request.m_direction);
+		command.setStringAttribute("type_key", "call_marker_a10_2_" + A10_2Request.m_direction);
 		command.setBoolAttribute("show_in_map_view", true);
 		command.setBoolAttribute("show_in_game_view", true);
 		command.setBoolAttribute("show_at_screen_edge", false);

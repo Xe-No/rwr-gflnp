@@ -16,21 +16,29 @@
 	<weapon key="gw_g3.weapon" />
 	<weapon key="gw_sr3mp.weapon" />
 	<weapon key="gw_g41.weapon" />
+	<weapon key="fal_bayonet.weapon" />
+	<weapon key="g36.weapon" />
+	<weapon key="sg552.weapon" />
+	<weapon key="gw_mdr.weapon" />
+	<weapon key="rw_akm.weapon" />
+	<weapon key="gw_aug.weapon" />
+	<weapon key="gw_art556.weapon" />
+	<weapon key="gw_arx160.weapon" />
+	<weapon key="gw_mcx.weapon" />
+	<weapon key="gw_fedorov.weapon" />
+	<weapon key="uw_rfb.weapon" />
+	<weapon key="ak47.weapon" />
+	<weapon key="f2000.weapon" />
+	<weapon key="gw_vhs.weapon" />
+	<weapon key="gw_ots12.weapon" />
+	<weapon key="gw_ots14.weapon" />
+	<weapon key="gw_stg44.weapon" />
+	<weapon key="gw_qbz191.weapon" />
+	<weapon key="gw_ak15.weapon" />
+	<weapon key="aek971.weapon" />
+	<weapon key="gw_ribeyrolles.weapon" />
+	<weapon key="uw_acr.weapon" />
+	<weapon key="xm8.weapon" />
 
-	<carry_item key="base_ar_vest.carry_item" />
-<!-- 	<carry_item key="9a91" />
-	<carry_item key="ak12" />
-	<carry_item key="an94" />
-	<carry_item key="ar15" />
-	<carry_item key="fnfnc" />
-	<carry_item key="g11" />
-	<carry_item key="g36c" />
-	<carry_item key="hk416" />
-	<carry_item key="m16a1" />
-	<carry_item key="m4 sopmod ii" />
-	<carry_item key="m4a1" />
-	<carry_item key="95type" />
-	<carry_item key="97type" />
-	<carry_item key="g3" />
-	<carry_item key="sr3mp" /> -->
+
 </resources>

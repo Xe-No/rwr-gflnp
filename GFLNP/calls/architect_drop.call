@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call name="Architect Airdrop" key="architect_drop.call"
+      initiation_comment1="Pick up the pace. Don't keep me waiting!"
+      acknowledge_comment="Confirmed,airdrop is in the air."
+      radio_view_text="Architect support"
+      launch_comment="Airdrop on the way."
+      	  notify_metagame="1">
+
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="ts_architect"
+        instance_spread="1 1 1" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="ts_architect_participate.wav" pitch_variety="0.0" volume="2.0" />
+    </round>
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="ts_dmj"
+        instance_spread="1 1 1" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="aegis"
+        instance_spread="1 1 1" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="ts_dgl"
+        instance_spread="1 1 1" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+
+    <round launch_time="8.0"
+       spawn_time="15.0">
+    </round>
+
+    <hud_icon filename="hud_juggernaut.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.5" />
+    <inventory encumbrance="0.0" price="500.0" />
+
+</call>

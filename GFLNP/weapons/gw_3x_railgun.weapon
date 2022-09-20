@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_card_rf.weapon" key="gw_3x_railgun.weapon">
+    <tag name="sniper" />
+    <specification 
+  slot="1" 
+  retrigger_time="1.0" 
+  accuracy_factor="1.5" 
+  sustained_fire_grow_step="0.3" 
+  sustained_fire_diminish_rate="1.0" 
+  sight_range_modifier="1.1" 
+  magazine_size="1" 
+  can_shoot_standing="0" 
+  can_shoot_crouching="1"
+  can_shoot_prone="0"
+  suppressed="0" 
+  name="3x Railgun" 
+  class="0" 
+  consume="0" 
+  projectile_speed="200.0" 
+  barrel_offset="0.4" 
+  projectiles_per_shot="6"/>
+
+    <animation key="recoil" ref="27" />
+    <animation key="cycle" ref="30" />
+    <animation state_key="reload" animation_key="reloading, lahti_l39" />
+    <sound key="fire" fileref="3x_railgun_fire.wav" pitch_variety="0.01"  volume="1.0" />
+    <!--<sound key="last_ammo" fileref="3x_railgun_destory.wav" />-->
+    <sound key="cycle" fileref="3x_railgun_cycle.wav" pitch_variety="0.01" volume="1.0" />
+    <sound key="magazine_out" fileref="3x_railgun_clip_out.wav" pitch_variety="0.01" volume="1.0" />
+    <sound key="magazine_in" fileref="3x_railgun_clip_in.wav" pitch_variety="0.01" volume="1.0" />
+    <sound key="cycle_out" fileref="3x_railgun_cycle_out.wav" pitch_variety="0.01" volume="1.0" />
+    <sound key="cycle_in" fileref="3x_railgun_cycle_in.wav" pitch_variety="0.01" volume="1.0" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="gw_3x_railgun.xml" />
+
+    <hud_icon filename="hud_3x_railgun.png" />
+    <commonness value="1.0" can_respawn_with="1" />
+    <inventory encumbrance="5.0" price="30.0" />
+
+    <weak_hand_hold offset="0.3" />
+    <projectile file="gw_3x_railgun.projectile">
+      <!-- <result class="blast" damage="0.9" /> -->
+		<trigger class="impact" />
+		<effect class="activated" ref="3x_railgun_smoke"/>
+		<trail probability="1" key="3x_railgun_trail"/>	
+		<effect class="result" key="other" copy="terrain"/>
+		<effect class="result" key="static_object" copy="terrain" />
+		<effect class="result" key="character" copy="terrain" />
+		<effect class="result" key="vehicle" copy="terrain" />
+    </projectile>
+	
+    <effect class="muzzle" ref="3x_railgun_muzzle_blue" />
+
+    <stance state_key="running" accuracy="1.0" />
+    <stance state_key="walking" accuracy="1.0" />
+    <stance state_key="crouch_moving" accuracy="1.0" />
+    <stance state_key="standing" accuracy="1.0" />
+    <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" />
+
+    <modifier class="speed" value="-0.02" />
+</weapon>

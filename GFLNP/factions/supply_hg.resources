@@ -9,15 +9,19 @@
 	<weapon key="gw_mp446.weapon" />
 	<weapon key="gw_p7.weapon" />
 	<weapon key="gw_p226.weapon" />
-	<weapon key="l30p.weapon" />
-	<!-- <weapon key="gw_m1895mod.weapon" /> -->
-	<!-- <weapon key="gw_mp446mod.weapon" /> -->
-	<!-- <weapon key="gw_m1911mod.weapon" /> -->
+	<weapon key="rw_pmm.weapon" />
+	<weapon key="gw_tokarev.weapon" />
+	<weapon key="gw_derringer.weapon" />
+	<weapon key="gw_kolibri.weapon" />
+	<weapon key="gw_thunder50.weapon" />
+	<weapon key="gw_brenten.weapon" />
+	<weapon key="gw_mk23.weapon" />
+	<weapon key="gw_gsh18.weapon" />
+	<weapon key="glock17.weapon" />
+	<weapon key="gw_hs2000.weapon" />
+	<weapon key="aek_919k.weapon" />
+	<weapon key="rw_skorpion.weapon" />
+	<weapon key="gw_qsb91.weapon" />
+	<weapon key="gw_cz75.weapon" />
 
-	<carry_item key="base_hg_vest.carry_item" />
-<!--   	<carry_item key="base_rf_vest.carry_item" />
-  	<carry_item key="base_ar_vest.carry_item" />
-  	<carry_item key="base_smg_vest.carry_item" />
-  	<carry_item key="base_mg_vest.carry_item" />
-  	<carry_item key="base_sg_vest.carry_item" />
- --></resources>
+</resources>
