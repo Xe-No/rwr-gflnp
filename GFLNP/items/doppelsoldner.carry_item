@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carry_items>
-<carry_item filename="doppelsoldner_shield.carry_item" key="doppelsoldner.carry_item" name="Doppelsoldner" slot="1" transform_on_consume="doppelsoldner_95"><hud_icon filename="reverse_core.png" /></carry_item>
-<carry_item filename="doppelsoldner_shield.carry_item" key="doppelsoldner_95" name="Doppelsoldner 95%" slot="1" transform_on_consume="doppelsoldner_90"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_shield.carry_item" key="doppelsoldner_90" name="Doppelsoldner 90%" slot="1" transform_on_consume="doppelsoldner_85"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_shield.carry_item" key="doppelsoldner_85" name="Doppelsoldner 85%" slot="1" transform_on_consume="doppelsoldner_80"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_80" name="Doppelsoldner 80%" slot="1" transform_on_consume="doppelsoldner_75"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_75" name="Doppelsoldner 75%" slot="1" transform_on_consume="doppelsoldner_70"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_70" name="Doppelsoldner 70%" slot="1" transform_on_consume="doppelsoldner_65"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_65" name="Doppelsoldner 65%" slot="1" transform_on_consume="doppelsoldner_60"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_60" name="Doppelsoldner 60%" slot="1" transform_on_consume="doppelsoldner_55"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_55" name="Doppelsoldner 55%" slot="1" transform_on_consume="doppelsoldner_50"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_50" name="Doppelsoldner 50%" slot="1" transform_on_consume="doppelsoldner_45"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_45" name="Doppelsoldner 45%" slot="1" transform_on_consume="doppelsoldner_40"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_40" name="Doppelsoldner 40%" slot="1" transform_on_consume="doppelsoldner_35"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_35" name="Doppelsoldner 35%" slot="1" transform_on_consume="doppelsoldner_30"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_30" name="Doppelsoldner 30%" slot="1" transform_on_consume="doppelsoldner_25"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_25" name="Doppelsoldner 25%" slot="1" transform_on_consume="doppelsoldner_20"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_20" name="Doppelsoldner 20%" slot="1" transform_on_consume="doppelsoldner_15"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_15" name="Doppelsoldner 15%" slot="1" transform_on_consume="doppelsoldner_10"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_normal.carry_item" key="doppelsoldner_10" name="Doppelsoldner 10%" slot="1" transform_on_consume="doppelsoldner_0"><hud_icon filename="reverse_core.png" /></carry_item>   
-<carry_item filename="doppelsoldner_down.carry_item" key="doppelsoldner_0" name="Doppelsoldner destoryed" slot="1"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_shield.carry_item" key="doppelsoldner.carry_item" name="Doppelsoldner" slot="1" transform_on_consume="doppelsoldner_95"><hud_icon filename="reverse_core.png" /></carry_item>
+<carry_item file="doppelsoldner_shield.carry_item" key="doppelsoldner_95" name="Doppelsoldner 95%" slot="1" transform_on_consume="doppelsoldner_90"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_shield.carry_item" key="doppelsoldner_90" name="Doppelsoldner 90%" slot="1" transform_on_consume="doppelsoldner_85"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_shield.carry_item" key="doppelsoldner_85" name="Doppelsoldner 85%" slot="1" transform_on_consume="doppelsoldner_80"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_80" name="Doppelsoldner 80%" slot="1" transform_on_consume="doppelsoldner_75"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_75" name="Doppelsoldner 75%" slot="1" transform_on_consume="doppelsoldner_70"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_70" name="Doppelsoldner 70%" slot="1" transform_on_consume="doppelsoldner_65"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_65" name="Doppelsoldner 65%" slot="1" transform_on_consume="doppelsoldner_60"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_60" name="Doppelsoldner 60%" slot="1" transform_on_consume="doppelsoldner_55"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_55" name="Doppelsoldner 55%" slot="1" transform_on_consume="doppelsoldner_50"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_50" name="Doppelsoldner 50%" slot="1" transform_on_consume="doppelsoldner_45"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_45" name="Doppelsoldner 45%" slot="1" transform_on_consume="doppelsoldner_40"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_40" name="Doppelsoldner 40%" slot="1" transform_on_consume="doppelsoldner_35"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_35" name="Doppelsoldner 35%" slot="1" transform_on_consume="doppelsoldner_30"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_30" name="Doppelsoldner 30%" slot="1" transform_on_consume="doppelsoldner_25"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_25" name="Doppelsoldner 25%" slot="1" transform_on_consume="doppelsoldner_20"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_20" name="Doppelsoldner 20%" slot="1" transform_on_consume="doppelsoldner_15"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_15" name="Doppelsoldner 15%" slot="1" transform_on_consume="doppelsoldner_10"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_normal.carry_item" key="doppelsoldner_10" name="Doppelsoldner 10%" slot="1" transform_on_consume="doppelsoldner_0"><hud_icon filename="reverse_core.png" /></carry_item>   
+<carry_item file="doppelsoldner_down.carry_item" key="doppelsoldner_0" name="Doppelsoldner destoryed" slot="1"><hud_icon filename="reverse_core.png" /></carry_item>   
 </carry_items>

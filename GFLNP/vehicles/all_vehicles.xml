@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicles>
     <vehicle file="gfl_v.xml" />
-    <vehicle file="test_v.xml" />
 </vehicles>
