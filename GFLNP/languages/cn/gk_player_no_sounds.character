@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character filename="default_common.character">
+  <comment key="We surrender!" text=""/>
+  <comment key="Medic!" text="需要救援！"/>
+  <comment key="Medic!" text="帮我起来！"/>
+  <comment key="Medic!" text=""/>
+  <comment key="I feel good!" text=""/>
+  <comment key="Reloading" text="装填！"/>
+  <comment key="Reloading" text="换弹！"/>
+  <comment key="Reloading" text="请求战术掩护！"/>
+  <comment key="Reloading" text=""/>
+  <comment key="Reloading" text=""/>
+  <comment key="Reloading" text=""/>
+  <comment key="Hmm, no signal" text="无应答。"/>
+  <comment key="Hmm, no signal" text="无信号。"/>
+  <comment key="squad chat, not in squad" text="不在玩家小队中。"/>
+  <comment key="Hey, wait up" text="等一下！"/>
+  <comment key="Quickly!" text="快走！"/>
+  <comment key="Quickly!" text="行动！"/>
+  <comment key="Quickly!" text="快一点！"/>
+  <comment key="Buzz off" text="停下！"/>
+  <comment key="Step out, kid" text="出去！"/>
+  <comment key="hostile vehicle takeover" text=""/>
+  <comment key="Can't respawn - the last base is under attack" text="无法重生——最后的据点被攻击。"/>
+  <comment key="Can't respawn - spawning is locked" text="无法重生——重生点被锁定"/>
+  <comment key="Hmm.. not enough room here" text="这里放不下。"/>
+  <comment key="I'm outta here" text="我们去执行巡逻任务。"/>
+  <comment key="Good job, dolls" text=""/>
+  <comment key="Open fire" text="开火！"/>
+  <comment key="Open fire" text="向目标开火！"/>
+  <comment key="Lone leader, open fire" text=""/>
+  <comment key="fire opened, weapon tag = sniper" text="狙击手！"/>
+  <comment key="fire opened, weapon tag = sniper" text="他们有狙击手！"/>
+  <comment key="fire opened, weapon tag = sniper" text="敌人狙击手！"/>
+  <comment key="grenade alert, grenade tag = grenade" text="手榴弹！"/>
+  <comment key="grenade alert, grenade tag = grenade" text="有手榴弹！"/>
+  <comment key="grenade alert, grenade tag = grenade" text="小心！"/>
+  <comment key="grenade alert, grenade tag = flashbang" text="闪光弹！"/>
+  <comment key="grenade alert, grenade tag = flashbang" text="有闪光弹！"/>
+  <comment key="grenade alert, grenade tag = flashbang" text="把目光移开！"/>
+  <comment key="grenade alert, grenade tag = rocket" text="敌人RPG！"/>
+  <comment key="grenade alert, grenade tag = rocket" text="火箭弹！"/>
+  <comment key="grenade alert, grenade tag = rocket" text="小心！！"/>
+  <comment key="enemy not seen, area alerted" text="搜索中..."/>
+  <comment key="enemy not seen, area alerted" text="寻找敌人生命体征中..."/>
+  <comment key="enemy not seen, area alerted" text="找到可疑目标了吗？"/>
+  <comment key="Lone leader, enemy not seen, area alerted" text=""/>
+  <comment key="leader, enemy not seen, taking suppressed fire" text="可恶！"/>
+  <comment key="leader, enemy not seen, taking suppressed fire" text="快找掩体！"/>
+  <comment key="leader, enemy not seen, taking suppressed fire" text="找掩体！"/>
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text=""/>
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="没有找到开火位置！"/>
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="受到压制！"/>
+  <comment key="enemy seen" text="Enemy spotted!"/>
+  <comment key="enemy seen" text="Enemy, there!"/>
+  <comment key="enemy seen" text="Spotted an enemy!"/>
+  <comment key="enemy seen, vehicle tag = tank" text="敌人坦克！"/>
+  <comment key="enemy seen, vehicle tag = tank" text="坦克！"/>
+  <comment key="enemy seen, vehicle tag = apc" text="APC!"/>
+  <comment key="enemy seen, vehicle tag = apc" text="敌人APC！"/>
+  <comment key="enemy seen, vehicle tag = truck" text="卡车！"/>
+  <comment key="enemy seen, vehicle tag = truck" text="敌人卡车！"/>
+  <comment key="enemy not seen, taking suppressed fire" text="受到压制！"/>
+  <comment key="enemy not seen, taking suppressed fire" text="敌人在使用消音武器！"/>
+  <comment key="enemy not seen, taking suppressed fire" text="消音武器！"/>
+  <dialogue key="wander dialogue 2 men">
+    <comment text=""/>
+    <comment text=""/>
+  </dialogue>
+  <dialogue key="defense dialogue 2 men">
+    <comment text=""/>
+    <comment text=""/>
+  </dialogue>
+  <dialogue key="vehicle dialogue 2 men">
+    <comment text=""/>
+    <comment text=""/>
+  </dialogue>
+  <dialogue key="vehicle dialogue 2 men tag=truck">
+    <comment text=""/>
+    <comment text=""/>
+  </dialogue>
+  <dialogue key="vehicle dialogue 2 men tag=campfire">
+    <comment text=""/>
+    <comment text=""/>
+  </dialogue>
+  <dialogue key="vehicle dialogue 2 men tag=tank">
+    <comment text=""/>
+    <comment text=""/>
+  </dialogue>
+  <!-- <comment key="map start, ending" text="" />-->
+  <comment key="map start, ending" text="祝好运，人形们。"/>
+  <comment key="map start with completed map" text="欢迎回来，人形们。"/>
+  <comment key="cancel radio call" text="取消"/>
+  <comment key="cancel radio call" text="结束"/>
+  <comment key="initiate radio call" text="HQ，听到请回答，完毕。"/>
+  <comment key="commander radio response" text="这里是HQ，需要什么支援，完毕。"/>
+  <comment key="no radio equipment" text="未接入通讯。"/>
+  <comment key="squad chat, not in squad" text="我不在玩家的小队中"/>
+  <!-- commander comments -->
+  <comment key="player promotion" text="恭喜，你刚刚晋升到了%rank_name！"/>
+  <comment key="we captured a base" text="%base_name现在被我们占领了。"/>
+  <comment key="enemy captured a base" text="%base_name现在已经被敌方控制了。"/>
+  <comment key="neutral captured a base" text=""/>
+  <!--<comment key="neutral captured a base" text="菜.JPG"/> -->
+  <comment key="new attack orders" text="攻击命令下达，从%direction向%base_name进攻。"/>
+  <comment key="we have lost our last base" text="失去了最后的据点--战役失败！"/>
+  <comment key="enemy has lost their last base" text="%faction_name已经被击败。"/>
+  <comment key="our assault ran out of time" text="我们没有时间攻击了--我们战败了！"/>
+  <comment key="enemy assault ran out of time" text="%faction_name已经投降。"/>
+  <comment key="we won by map conquer" text="战役胜利！"/>
+  <comment key="we won by defense timer" text="做得好，人形们！"/>
+  <comment key="our base is under attack" text="%base_name正在被攻击！"/>
+  <comment key="we are attacking a base" text="我们的部队正在向%base_name进攻。"/>
+  <comment key="fighting near a base" text="在%base_name附近发生冲突。"/>
+  <comment key="fighting near a base" text="在%base_name附近需要支援。"/>
+  <comment key="fighting near a base" text="在%base_name附近发生交火。"/>
+  <comment key="defense timer started" text="%faction_name离守住全部据点还剩%time_left秒！"/>
+  <comment key="defense timer to go" text="还剩%time_left秒！"/>
+  <!-- adventure mode -->
+  <!--
+  <comment key="map start with 1 base, part 1" text="状态报告：我们已经设法保护了一个据点" /><comment key="map start with 1 base, part 2" text="准备继续入侵" />-->
+  <comment key="map start with 1 base, part 1" text="指挥官来电："/>
+  <comment key="map start with 1 base, part 2" text="你们已到达%map_name。"/>
+  <comment key="map start with 1 base, part 3" text="前沿部队已在早些时候抵达战场并在%base_name附近设立了警戒。"/>
+  <comment key="map start with 1 base, capture" text="增援部队已抵达，必须完全控制%map_name。"/>
+  <comment key="map start with 1 base, koth" text="主要任务是控制%target_base_name并做好防御工作。"/>
+  <comment key="side objectives" text="各个小队长已被授权发起任务，以任何可能的方式破坏敌人的行动。"/>
+  <comment key="loot objective" text="战利品和货运卡车可以被送到军械库用于调查研究。"/>
+  <comment key="radio tower or truck objective" text="注意敌方战线后面的无线电塔或通讯车。"/>
+  <comment key="aa objective" text="已确认防空设施存在，定位并摧毁以获取空降支援。"/>
+  <comment key="map start with more bases, part 1" text="很高兴我们获得了增援。"/>
+  <comment key="map start with more bases, part 2" text="我们已经设法守住了我们的阵地，还在控制着%number_of_bases个据点。"/>
+  <comment key="map advance, held by enemy" text="情报部门报告%map_name正在被%faction_name控制。"/>
+  <comment key="map advance, another enemy present" text="与此同时%faction_name也被发现在这个地区有所活动。"/>
+  <comment key="map advance, new map" text="前沿部队正在获取立足点，但仍需支援。"/>
+  <comment key="map advance, been there before" text="我们仍然控制着%number_of_bases个据点。"/>
+  <comment key="map advance, friendly map" text="%map_name已被我们占领。"/>
+  <!-- boss maps -->
+  <!--
+  <comment key="final map advance, held by enemy, part 1" text="剩余的&#37;faction_name军队被阻挡在&#37;map_name" /><comment key="final map advance, held by enemy, part 2" text="预计会遭到强烈抵抗！" /><comment key="final map start with 1 base, part 1" text="立正，指挥官来电" /><comment key="final map start with 1 base, part 2" text="最后的敌军部队要终结于&#37;map_name，就这样" /><comment key="final map start with 1 base, part 3" text="了结他们！" />-->
+  <comment key="Final mission I advance, held by enemy, part 1" text="%faction_name已经被成功击退！"/>
+  <comment key="Final mission I advance, held by enemy, part 2" text="根据情报，幸存的敌军军官藏在一个离这里相当远的废弃村庄里。"/>
+  <comment key="Final mission I advance, held by enemy, part 3" text="我们这些最优秀的人形中将会有一组被派去执行摧毁位于那里的据点，并且就地消灭残余部队。"/>
+  <comment key="Final mission I advance, held by enemy, part 4" text="你将加入AR小队前去执行任务。"/>
+  <comment key="Final mission I advance, held by enemy, part 5" text="运输直升机将在半分钟后抵达。"/>
+  <comment key="Final mission I start with 1 base, part 1" text="天杀的！本以为空中是安全的，敌人的防空系统竟然还在运作！"/>
+  <comment key="Final mission I start with 1 base, part 2" text="看起来你的队员都牺牲了，就剩你了。"/>
+  <comment key="Final mission I start with 1 base, part 3" text="就看你的了！"/>
+  <comment key="Final mission I start with 1 base, part 4" text="注意：这里没有任何支援可以提供。"/>
+  <comment key="Final mission I start with 1 base, part 5" text="任务不变：找到并摧毁分散在这个地区的通讯装置，然后消灭敌人。"/>
+  <comment key="Final mission II advance, held by enemy, part 1" text="做得好！%faction_name已经成功被击退！"/>
+  <comment key="Final mission II advance, held by enemy, part 2" text="我们的一个团追踪到%faction_name剩余的兵力驻扎在冰冻峡谷。"/>
+  <comment key="Final mission II advance, held by enemy, part 3" text="然而我军驻扎位置已经暴露，陷入了苦战，寡不敌众。"/>
+  <comment key="Final mission II advance, held by enemy, part 4" text="增援部队立刻动身前往那里。"/>
+  <comment key="Final mission II advance, held by enemy, part 5" text="注意：会遭遇强烈抵抗和糟糕的天气条件。"/>
+  <comment key="Final mission II start with 1 base, part 1" text="增援部队已到达驻扎地，做好防御准备。"/>
+  <comment key="Final mission II start with 1 base, part 2" text="不惜一切代价坚守阵地！"/>
+  <comment key="Final mission II start with 1 base, part 3" text="做好准备！"/>
+  <comment key="Final mission II start with 1 base, part 4" text="消灭他们"/>
+  <comment key="Final mission II start with 1 base, part 5" text=""/>
+  <comment key="Final mission II, phase 2, part 1" text="做得好！"/>
+  <comment key="Final mission II, phase 2, part 2" text="他们在组织防御！"/>
+  <comment key="Final mission II, phase 2, part 3" text="趁现在！"/>
+  <comment key="Final mission II, phase 2, part 4" text="防空阵地阻止我们进一步增援，摧毁它。"/>
+  <comment key="Final mission II, phase 2, part 5" text="在堡垒废墟里发现了一个敌方的通讯设备，找到并摧毁它。"/>
+  <comment key="Final mission II, phase 3, part 1" text="做得好！"/>
+  <comment key="Final mission II, phase 3, part 2" text="入口被封锁了！"/>
+  <comment key="Final mission II, phase 3, part 3" text="看起来入口和南方的通讯塔好像有某种联系"/>
+  <comment key="Final mission II, phase 3, part 4" text="看到通讯塔了，炸了它！"/>
+  <comment key="Final mission II, phase 4, part 1" text="看起来，那个入口刚刚被打破了。"/>
+  <comment key="Final mission II, phase 4, part 2" text="就是这样，进去然后了结他们！"/>
+  <!-- vehicle delivery objective -->
+  <comment key="vehicle delivered" text="%vehicle_name送到，做得好！"/>
+  <comment key="vehicle objective cancelled, vehicle destroyed" text="次要任务取消，%vehicle_name已被摧毁。"/>
+  <comment key="vehicle objective instruction" text="在%location发现了%faction_name的%vehicle_name，寻找并送到附近的我方军械库。"/>
+  <comment key="resource out of stock" text="%resource_name已下架。"/>
+  <comment key="resource added in stock" text="%resource_name到货了。"/>
+  <comment key="overtime, we are winning" text="坚持下去——看起来敌人的攻势接不上来了。"/>
+  <comment key="overtime, we are losing" text="这可能是我们最后的机会，我们已经没有多少后备人形了。"/>
+  <!-- item delivery objective; briefcases -->
+  <comment key="item delivered" text="完成目标"/>
+  <comment key="item objective instruction" text=""/>
+  <comment key="item objective map text" text=""/>
+  <comment key="item objective thanks" text="让我们看看能用这个来整什么活。"/>
+  <!-- enemy item delivery objective; weapons -->
+  <comment key="enemy item objective instruction" text=""/>
+  <comment key="enemy item objective map text" text=""/>
+  <comment key="enemy item objective thanks incomplete" text="研发还需要%number_of_items_left件样本。"/>
+  <comment key="enemy item objective thanks" text="做得好，我们将开始量产。"/>
+  <comment key="extraction point available" text="到%map_name地图的传送点已激活。"/>
+  <comment key="several extraction points available" text="多个可用的传送点已激活。"/>
+  <comment key="standby for extraction" text="传送点待命"/>
+  <!-- teddy bear hunt session, for fun -->
+  <comment key="flag dropped in container 0" text="%player_name掉落了%item_name"/>
+  <comment key="flag dropped in container 1" text="%player_name刚刚把一个%item_name带到军械库，得分！"/>
+  <comment key="flag dropped in container 2" text="%player_name往背包里放了一个%item_name"/>
+  <comment key="flag dropped in container 3" text="%player_name存放了一个%item_name"/>
+  <comment key="tutorial end 1" text="做得好士兵，现在你准备好加入战斗了！"/>
+  <comment key="tutorial end 2" text="收拾行囊，出发吧！"/>
+  <comment key="gift box delivered" text="正在确认%delivered_item_name, %player_name"/>
+  <comment key="gift box delivery, reward" text="确认完毕，你的奖品是%item_name1和%item_name2！"/>
+  <!-- v1.7 -->
+  <comment key="cargo_truck.vehicle spotted, instructions" text="新目标，截获运货卡车并护送到军械库。"/>
+  <comment key="radar_tower.vehicle spotted, instructions" text="摧毁信号塔！"/>
+  <comment key="radar_truck.vehicle spotted, instructions" text="摧毁通讯车！"/>
+  <comment key="radio_jammer.vehicle spotted, instructions" text="摧毁无线电干扰发生器！"/>
+  <comment key="radio_jammer.vehicle destroyed" text="很好，敌方无线电干扰发生器已摧毁。"/>
+  <comment key="radio_jammer2.vehicle spotted, instructions" text="无线电干扰发生器！炸了它！"/>
+  <comment key="radio_jammer2.vehicle destroyed" text="敌方无线电干扰发生器已摧毁！"/>
+  <!-- radar truck/vehicle destroy also triggers "enemy comms have been destroyed, by us" -->
+  <comment key="prison_bus.vehicle spotted, instructions" text="摧毁运囚车！"/>
+  <comment key="prison_bus.vehicle destroyed" text="救出的囚犯会加入我们的队伍。"/>
+  <comment key="prison_door.vehicle spotted, instructions" text="炸掉监狱大门！"/>
+  <comment key="prison_door.vehicle destroyed" text="救出的囚犯会加入我们的队伍。"/>
+  <comment key="aa_emplacement.vehicle spotted, instructions" text="新的目标，摧毁防空设施。"/>
+  <comment key="aa_emplacement.vehicle destroyed" text="防空设施已摧毁，已经可以使用空降支援。"/>
+  <comment key="intel radio reminder" text="别忘了在需要的时候呼叫增援或者火力支援。"/>
+  <comment key="report very weak defense" text="情报显示，%base_name区域几乎没有设防。"/>
+  <comment key="respond very weak defense" text=""/>
+  <comment key="report weak defense" text="情报显示，%base_name区域防守力量薄弱，只有%enemy_range名敌军活动。"/>
+  <comment key="respond weak defense" text=""/>
+  <comment key="report medium defense" text="情报显示，%base_name区域防守力量较强, 有%enemy_range名敌军活动。"/>
+  <comment key="respond medium defense" text=""/>
+  <comment key="report heavy defense" text="情报显示，%base_name区域防守固若金汤。"/>
+  <comment key="respond heavy defense" text="WOW，看起来这里的部队相当的多。"/>
+  <comment key="base captured, clear victory, attack break" text="集结部队，在据点周边设防，等待进一步指示。"/>
+  <comment key="base captured, defend it" text="保护据点，建立防御！"/>
+  <comment key="sidebase captured, hold it" text="保护据点，防御一切可能的反攻。"/>
+  <comment key="sidebase captured, reinforcements" text="援军正在部署。"/>
+  <comment key="Occupy that vehicle!" text="使用%vehicle_name！"/>
+  <comment key="Leave the vehicle!" text="离开%vehicle_name！"/>
+  <comment key="intel objectives" text="需要侦查的敌方据点已经标注在地图上了，希望小队长可以执行任务。"/>
+  <comment key="AC-130 on the way.keep distance." text="做得好，让他们自食其果！"/>
+  <!-- 1.71 -->
+  <comment key="icecream truck exists" text="嘿，冰淇淋！"/>
+  <comment key="gps_laptop, targets ok" text="标记目标中。"/>
+  <comment key="gps_laptop, targets not ok" text="并未搜寻到任何目标。"/>
+  <!-- old
+  <comment key="resource out of stock" text="&#37;resource_name没货了" /><comment key="resource added in stock" text="&#37;resource_name到货了" />-->
+  <comment key="resource out of stock, default" text="%resource_name 已从军械库下架。"/>
+  <comment key="resource out of stock, supply" text="%resource_name 已不可在补给车内购买。"/>
+  <comment key="resource added in stock, default" text="%resource_name 现已上架军械库。"/>
+  <comment key="resource added in stock, supply" text="%resource_name 可以从补给车内购买了。"/>
+  <!-- note, happens after "awesome, let's see what what we can come up with this" -->
+  <comment key="no more resources to unlock" text="非常感谢，不过HQ不打算研发更多的东西了。"/>
+</character>

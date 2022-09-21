@@ -39,6 +39,8 @@
 <weapon key="gw_mg5_309.weapon" />
 <weapon key="gw_dsr50_1801.weapon" />
 <weapon key="gw_an94mod.weapon" />
+<weapon key="gw_m4_sopmod_iimod.weapon" />
+
 
 <carry_item key="iotv_vest.carry_item" />
 <carry_item key="hvy_vest.carry_item" />
