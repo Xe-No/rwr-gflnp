@@ -1,6 +1,7 @@
 <vehicle  name="M5 APC" key="m5apc.vehicle" respawn_time="80" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="0.25">
 	<tag name="metal_heavy" />
 	<tag name="apc" />
+	<tag name="any_tank" />
 
 	<tire_set offset="1.28 0.0 1.87" radius="0.65" />
 	<tire_set offset="1.28 0.0 0.0" radius="0.65" />

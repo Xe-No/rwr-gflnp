@@ -2,7 +2,8 @@
 <vehicle  name="Otomatic" key="otom.vehicle" respawn_time="120" map_view_atlas_index="1" minimum_fill_requirement="37" >
 
 	<tag name="metal_heavy" />
-  <tag name="heavy_combat" />   
+  <tag name="heavy_combat" />  
+	<tag name="any_tank" /> 
   
 	<tire_set offset="1.44 0.0 +2.4" radius="0.44" />
 	<tire_set offset="1.44 0.0 -2.4" radius="0.44" />

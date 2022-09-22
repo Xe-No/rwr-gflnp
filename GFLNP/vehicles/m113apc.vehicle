@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="M113 apc" key="m113apc.vehicle" respawn_time="120" time_to_live_unsteerable="115" existence="one_per_faction" map_view_atlas_index="23" minimum_fill_requirement="0.35" max_character_collision_speed_on_normal="8.0" character_leave_request_mode="friendly" reserves_spawn_point="1" >
 	<tag name="metal_heavy" />
-    <tag name="heavy_combat" />    
+    <tag name="heavy_combat" />  
+	<tag name="any_tank" />  
   
 	<tire_set offset="1.44 0.0 +2.4" radius="0.44" />
 	<tire_set offset="1.44 0.0 -2.4" radius="0.44" />

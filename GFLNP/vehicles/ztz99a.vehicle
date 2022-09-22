@@ -2,6 +2,7 @@
 	<tag name="metal_heavy" />
 	<tag name="heavy_combat" />
 	<tag name="tank" />
+	<tag name="any_tank" />
   
 	<tire_set offset="2 0 +2.5" radius="0.3" />
 	<tire_set offset="2 0 -2.5" radius="0.3" />

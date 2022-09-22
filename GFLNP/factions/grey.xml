@@ -115,6 +115,7 @@
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key="gw_mp7a2.weapon" enabled="1"/>
 			<weapon key="ew_sticky_bomb.weapon" enabled="1"/>
+			<projectile key="c2_breaching_charge.projectile" />
 			<carry_item key="base_hg_vest.carry_item" enabled="0"/>
   			<carry_item key="base_rf_vest.carry_item" enabled="0"/>
   			<carry_item key="base_ar_vest.carry_item" enabled="0"/>
@@ -652,6 +653,7 @@
 		<resources clear_calls="1">
 			<weapon key='gk_supply_ss.weapon' />
 			<weapon key="gw_hk416c.weapon" enabled="1"/>
+			<weapon key="gw_mg4.weapon" enabled="1"/>
 			<weapon key="gw_emp_launcher.weapon" enabled="1"/>
 			<projectile key="ecm.projectile" enabled="1"/>
 			<carry_item key="base_hg_vest.carry_item" enabled="0"/>

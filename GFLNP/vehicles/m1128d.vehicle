@@ -3,6 +3,7 @@
 	<author corresponding="G41." stats="Xe-No" model="冰是沉默的水" />
 	<tag name="metal_thin" />
 	<tag name="truck" />
+	<tag name="any_tank" />
 
   
 	<tire_set offset="1.2 0.0 +2.2" radius="0.7" />

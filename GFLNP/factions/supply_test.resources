@@ -50,6 +50,7 @@
 <projectile key="ecm.projectile" />
 <projectile key="r_vindicator_dive_bomb.projectile" />
 <projectile key="inscription_of_the_dead.projectile" />
+<projectile key="c2_breaching_charge.projectile" />
 
 <projectile key="at_mine_mk3.projectile" />
 <projectile key="airdropped_stun_mine_mk3.projectile" />	

@@ -11,7 +11,7 @@
 
 	<!-- death or wound or stun -> no effect -->
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
-        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/> 
         <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
         <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
@@ -34,7 +34,7 @@
 
     <!-- death or wound or stun -> no effect -->
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
-        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/> 
         <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
         <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
@@ -55,7 +55,7 @@
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
 	    <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
-        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/> 
         <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>  
         <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
@@ -66,7 +66,7 @@
         <modifier class="detectability" value="-0.15" />
     </carry_item>
 
-    <carry_item key="42lab_uc_exo_3" name="42LAB Universal Camouflage Exoskeleton, destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+    <carry_item key="42lab_uc_exo_3" name="42LAB Universal Camouflage Exoskeleton, destroyed" slot="1" transform_on_consume="42lab_uc_exo_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
         <hud_icon filename="42lab_uc_exo_0.png" />
         
         <inventory encumbrance="4" price="10" />
@@ -76,11 +76,35 @@
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
 	    <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
-        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" /> 
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="0"/>  
         <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" /> 
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
+
+
+        <modifier class="hit_success_probability" value="-1.2" />
+        <modifier class="detectability" value="-0.05" />
+        <modifier class="speed" value="-0.25" />  
+    </carry_item>
+
+        <carry_item key="42lab_uc_exo_4" name="42LAB Universal Camouflage Exoskeleton, completely destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+        <hud_icon filename="42lab_uc_exo_d.png" />
+        
+        <inventory encumbrance="4" price="10" />
+
+        <model mesh_filename="it_ucexo_2.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/> 
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
 
 
         <modifier class="hit_success_probability" value="-1.2" />
