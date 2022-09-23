@@ -37,7 +37,7 @@
 
     <hud_icon filename="hud_hesco_barrier.png" />
     <commonness value="0.025" can_respawn_with="0"/>
-    <inventory encumbrance="4.0" price="50.0" />
+    <inventory encumbrance="4.0" price="5.0" />
 
     <modifier class="speed" value="-0.4" />
 

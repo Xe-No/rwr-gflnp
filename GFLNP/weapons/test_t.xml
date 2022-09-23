@@ -12,6 +12,7 @@
 <projectile file="155mm.projectile" />
 <projectile file="mortar_shell_tel.projectile" />
 <projectile file="landing_impact.projectile" />
+<projectile file="c2_breaching_charge.projectile" />
 
 <!-- <projectile file="ew_sticky_bomb_blast.projectile" /> -->
 
@@ -23,6 +24,7 @@
 <projectile file="401_yamato_cannon_larger.projectile" />
 <projectile file="sniper_call_dsr50.projectile" />
 <projectile file="sniper_call_dsr50_blast.projectile" />
+
 
 
 
@@ -48,6 +50,7 @@
 <projectile file="inscription_of_the_dead.projectile" />
 <projectile file="inscription_of_the_dead_blast.projectile" />
 <projectile file="vabow_damage.projectile" />
+<projectile file="gw_m4_sopmod_iimod_gl_blast.projectile" />
 
 
 </projectiles>

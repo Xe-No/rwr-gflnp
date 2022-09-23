@@ -18,6 +18,7 @@
     <model filename="gw_qbz191.xml"/>
     <hud_icon filename="gw_qbz191.png"/>
     <inventory encumbrance="10.0" price="18.0"/>
+    <commonness value="1.2" can_respawn_with="1" />
 
     <projectile file="bullet.projectile">
 	    <result class="hit" kill_probability="1.41" kill_decay_start_time="0.35" kill_decay_end_time="0.65"/>

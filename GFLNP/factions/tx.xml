@@ -186,7 +186,7 @@
 		<attribute_config class="xp"><attribute weight="1.0" min="10.02" max="20.02" /></attribute_config>
 	</soldier>
 
-	<soldier name="ts_gager" spawn_score="0.03" firstnames_file="SF-SP21.name" lastnames_file="serial.name" copy_from="ts_elite">
+	<soldier name="ts_gager" spawn_score="0.02" firstnames_file="SF-SP21.name" lastnames_file="serial.name" copy_from="ts_elite">
 		<character>
 			<parameter class="being_stunned_steer_amount" value="-0.75" />
 			<animation key="stunned" target_key="stun_jump, gager" />

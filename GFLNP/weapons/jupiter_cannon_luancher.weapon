@@ -40,7 +40,7 @@
     <model filename="uw_m320.xml" />
 
     <projectile file="jupiter_cannon.projectile" pulldown_in_air="8.0">
-        <result class="blast" radius="10" damage="14" push="0.75" decal="1" />
+        <result class="blast" radius="10" damage="11" push="0.75" decal="1" />
 	<effect class="activated" ref="alert_center_alerticon_hight_frequncy" lighting="0" />
     <trigger class="time" time_to_live="1.0"/>
     </projectile>

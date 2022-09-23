@@ -570,7 +570,7 @@
 		</attribute_config>
 	</soldier> 
 
-	<soldier name="ksk_ops" spawn_score="0.08">
+	<soldier name="ksk_ops" spawn_score="0.1">
 		<character filename="ru_male.character" />
 		<ai filename="elite_scarecrow.ai" />
 		<model filename="ksk_ops.xml" />

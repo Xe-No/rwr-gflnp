@@ -1,6 +1,7 @@
 <vehicle file="vehicle_base.vehicle" name="ZBD-04A" key="zbd04a.vehicle" respawn_time="60" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="0.25" >
 	<tag name="metal_heavy" />
 	<tag name="apc" />
+	<tag name="any_tank" />
 
 	<tire_set offset="2 0.4 +2.5" radius="0.3" />
 	<tire_set offset="2 0.4 -2.5" radius="0.3" />

@@ -142,9 +142,7 @@ token_medic.projectile
 <projectile name="Skyfire[RE]" file="token0.projectile" key="token_skyfire.projectile"  >
 	<hud_icon filename="token_skyfire.png" />
 </projectile>
-<projectile name="MDR[Cocktail Observer][RE]" file="token0.projectile" key="token_mdr_3305.projectile"  >
-	<hud_icon filename="token_mdr_3305.png" />
-</projectile>
+
 
 <!-- flash -->
 <projectile name="Komeiji Koishi[RE]" file="token_stun.projectile" key="token_koishi.projectile"  >

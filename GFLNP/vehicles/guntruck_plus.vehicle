@@ -12,6 +12,7 @@ allow_ai_to_use="0"
 	<tag name="metal_thin" />
 	<tag name="guntruck" />
     <tag name="light_combat" />
+	<tag name="any_tank" />
   
 	<tire_set offset="1.12 0.0 2.835" radius="0.64" />
 	<tire_set offset="1.12 0.0 -1.302" radius="0.64" />

@@ -49,7 +49,7 @@
 
 	<weak_hand_hold offset="0.4" />
 	<projectile file="bullet.projectile">
-		<result class="hit" kill_probability="1.8" kill_decay_start_time="0.45" kill_decay_end_time="0.70" />
+		<result class="hit" kill_probability="1.6" kill_decay_start_time="0.45" kill_decay_end_time="0.70" />
 	<trail probability="1.0" key="laser_purple"/>
     </projectile>
 
