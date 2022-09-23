@@ -21,6 +21,7 @@
 #include "401_yamato.as"
 #include "sniper_support.as"
 #include "cbp.as"
+#include "loot_trigger.as"
 
 // #include "mixer.as"
 
@@ -71,6 +72,7 @@ class MyGameModeInvasion : GameModeInvasion {
 		addTracker(ServerTracker(this));
 		addTracker(FactorySpawner(this));
 		addTracker(GFLEquipmentEvent(this));
+		addTracker(LootTrigger(this));
 
 		// addTracker(Mixer(this));
 	}

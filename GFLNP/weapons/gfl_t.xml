@@ -241,14 +241,8 @@
 <projectile file="wand_waiting_03.projectile" />
 <projectile file="wand_damage_04.projectile" />
 
-
-
-
-	<!---->
-<!-- 	<projectile file="hp.projectile" />
-	<projectile file="hpd.projectile" />
-	<projectile file="dl.projectile" />
-	<projectile file="tkhprs.projectile" /> -->
+<!-- 37 -->
+<projectile file="loot.projectile" />
 
 
 

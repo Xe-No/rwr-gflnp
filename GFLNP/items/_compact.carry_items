@@ -1914,9 +1914,9 @@
 	</carry_item>
 	<carry_item key="iop_t3_exo.carry_item" name="IOP T3 Universal Exoskeleton" slot="1" transform_on_consume="iop_t3_exo_1" time_to_live_out_in_the_open="120.0">
 		<hud_icon filename="iop_t3_exo_3.png"/>
-		<inventory encumbrance="4" buy_price="300" sell_price="150"/>
+		<inventory encumbrance="4" buy_price="100" sell_price="100"/>
 		<model mesh_filename="it_smgvest.xml"/>
-		<commonness value="0.00000001" in_stock="1" can_respawn_with="1"/>
+		<commonness value="1.0" in_stock="1" can_respawn_with="1"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
@@ -2041,7 +2041,7 @@
 		<model mesh_filename="it_smgvest.xml"/>
 		<commonness value="1.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
@@ -2056,7 +2056,7 @@
 		<model mesh_filename="it_smgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
@@ -2071,7 +2071,7 @@
 		<model mesh_filename="it_smgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
@@ -2085,7 +2085,7 @@
 		<model mesh_filename="it_smgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
@@ -2093,21 +2093,40 @@
 		<modifier class="hit_success_probability" value="-0.8"/>
 		<modifier class="speed" value="+0.1"/>
 	</carry_item>
-	<carry_item key="16lab_t4_exo_4" name="16LAB T4 Universal Exoskeleton, destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+	<carry_item key="16lab_t4_exo_4" name="16LAB T4 Universal Exoskeleton, destroyed" slot="1" transform_on_consume="16lab_t4_exo_5" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
 		<hud_icon filename="16lab_t4_exo_0.png"/>
 		<inventory encumbrance="4" price="10"/>
 		<model mesh_filename="it_smgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound"/>
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="hit_success_probability" value="-0.8"/>
+		<modifier class="speed" value="+0.1"/>
+	</carry_item>
+	<carry_item key="16lab_t4_exo_5" name="16LAB T4 Universal Exoskeleton, completely destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+		<hud_icon filename="16lab_t4_exo_d.png"/>
+		<inventory encumbrance="4" price="10"/>
+		<model mesh_filename="it_smgvest.xml"/>
+		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="0"/>
 		<modifier class="hit_success_probability" value="-0.8"/>
 		<modifier class="speed" value="+0.1"/>
 	</carry_item>
 	<carry_item key="iop_x3_exo.carry_item" name="IOP X3 Universal Exoskeleton" slot="1" transform_on_consume="iop_x3_exo_1" time_to_live_out_in_the_open="120.0">
 		<hud_icon filename="iop_x3_exo_3.png"/>
-		<inventory encumbrance="4" buy_price="340" sell_price="40"/>
+		<inventory encumbrance="4" buy_price="100" sell_price="100"/>
 		<model mesh_filename="it_smgvest.xml"/>
-		<commonness value="0.00000001" in_stock="1" can_respawn_with="1"/>
+		<commonness value="1.0" in_stock="1" can_respawn_with="1"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
@@ -2243,9 +2262,9 @@
 	</carry_item>
 	<carry_item key="optical_camo_cloak.carry_item" name="Optical Camouflage Cloak" slot="1" transform_on_consume="optical_camo_cloak_1" time_to_live_out_in_the_open="90.0">
 		<hud_icon filename="optical_camo_cloak_1.png"/>
-		<inventory encumbrance="4" buy_price="250" sell_price="50"/>
+		<inventory encumbrance="4" buy_price="100" sell_price="100"/>
 		<model mesh_filename="it_camocloak.xml"/>
-		<commonness value="0.00000001" in_stock="1" can_respawn_with="1"/>
+		<commonness value="1.0" in_stock="1" can_respawn_with="1"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun"/>
 		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
@@ -2359,13 +2378,33 @@
 		<modifier class="speed" value="-0.1"/>
 		<modifier class="night_detectability" value="-0.2"/>
 	</carry_item>
-	<carry_item key="16lab_optical_camo_cloak_3" name="16LAB Optical Camouflage Cloak, destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+	<carry_item key="16lab_optical_camo_cloak_3" name="16LAB Optical Camouflage Cloak, destroyed" slot="1" transform_on_consume="16lab_optical_camo_cloak_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
 		<hud_icon filename="16lab_optical_camo_cloak_0.png"/>
 		<inventory encumbrance="4" price="10"/>
 		<model mesh_filename="it_camocloak.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound"/>
 		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound"/>
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
+		<modifier class="speed" value="-0.04"/>
+		<modifier class="detectability" value="-0.15"/>
+		<modifier class="night_detectability" value="-0.2"/>
+	</carry_item>
+	<carry_item key="16lab_optical_camo_cloak_4" name="16LAB Optical Camouflage Cloak, completely destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+		<hud_icon filename="16lab_optical_camo_cloak_d.png"/>
+		<inventory encumbrance="4" price="10"/>
+		<model mesh_filename="it_camocloak.xml"/>
+		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
 		<modifier class="speed" value="-0.04"/>
 		<modifier class="detectability" value="-0.15"/>
@@ -2465,9 +2504,9 @@
 	</carry_item>
 	<carry_item key="iop_t3_bp.carry_item" name="IOP TYPE III Bulletproof Plate" slot="1" transform_on_consume="iop_t3_bp_1" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0.0">
 		<hud_icon filename="iop_t3_bp_3.png"/>
-		<inventory encumbrance="5" buy_price="360" sell_price="180"/>
+		<inventory encumbrance="5" buy_price="100" sell_price="100"/>
 		<model mesh_filename="it_sgvest.xml"/>
-		<commonness value="0.00000001" in_stock="1" can_respawn_with="1"/>
+		<commonness value="1.0" in_stock="1" can_respawn_with="1"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
@@ -2637,7 +2676,7 @@
 		<modifier class="hit_success_probability" value="-0.6"/>
 		<modifier class="detectability" value="0.2"/>
 	</carry_item>
-	<carry_item key="16lab_t4_bp.carry_item" name="16LAB TYPE IV Bulletproof Plate" slot="1" transform_on_consume="16lab_t4_bp_2" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+	<carry_item key="16lab_t4_bp.carry_item" name="16LAB TYPE IV Bulletproof Plate" slot="1" transform_on_consume="16lab_t4_bp_1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
 		<hud_icon filename="16lab_t4_bp_9.png"/>
 		<inventory encumbrance="10" price="100"/>
 		<model mesh_filename="it_sgvest.xml"/>
@@ -2653,7 +2692,7 @@
 		<modifier class="detectability" value="0.15"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
-	<carry_item key="16lab_t4_bp_2" name="16LAB TYPE IV Bulletproof Plate,90%" slot="1" transform_on_consume="16lab_t4_bp_3" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+	<carry_item key="16lab_t4_bp_1" name="16LAB TYPE IV Bulletproof Plate,90%" slot="1" transform_on_consume="16lab_t4_bp_2" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
 		<hud_icon filename="16lab_t4_bp_8.png"/>
 		<inventory encumbrance="10" price="50"/>
 		<model mesh_filename="it_sgvest.xml"/>
@@ -2669,7 +2708,7 @@
 		<modifier class="detectability" value="0.15"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
-	<carry_item key="16lab_t4_bp_3" name="16LAB TYPE IV Bulletproof Plate,80%" slot="1" transform_on_consume="16lab_t4_bp_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+	<carry_item key="16lab_t4_bp_2" name="16LAB TYPE IV Bulletproof Plate,80%" slot="1" transform_on_consume="16lab_t4_bp_3" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
 		<hud_icon filename="16lab_t4_bp_7.png"/>
 		<inventory encumbrance="10" price="50"/>
 		<model mesh_filename="it_sgvest.xml"/>
@@ -2681,11 +2720,11 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
-		<modifier class="hit_success_probability" value="-0.4"/>
+		<modifier class="hit_success_probability" value="-0.9"/>
 		<modifier class="detectability" value="0.15"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
-	<carry_item key="16lab_t4_bp_4" name="16LAB TYPE IV Bulletproof Plate,70%" slot="1" transform_on_consume="16lab_t4_bp_5" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+	<carry_item key="16lab_t4_bp_3" name="16LAB TYPE IV Bulletproof Plate,70%" slot="1" transform_on_consume="16lab_t4_bp_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
 		<hud_icon filename="16lab_t4_bp_6.png"/>
 		<inventory encumbrance="10" price="50"/>
 		<model mesh_filename="it_sgvest.xml"/>
@@ -2701,8 +2740,24 @@
 		<modifier class="detectability" value="0.15"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
-	<carry_item key="16lab_t4_bp_5" name="16LAB TYPE IV Bulletproof Plate,60%" slot="1" transform_on_consume="16lab_t4_bp_6" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+	<carry_item key="16lab_t4_bp_4" name="16LAB TYPE IV Bulletproof Plate,60%" slot="1" transform_on_consume="16lab_t4_bp_5" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
 		<hud_icon filename="16lab_t4_bp_5.png"/>
+		<inventory encumbrance="10" price="50"/>
+		<model mesh_filename="it_sgvest.xml"/>
+		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.8"/>
+		<modifier class="detectability" value="0.15"/>
+		<modifier class="speed" value="-0.1"/>
+	</carry_item>
+	<carry_item key="16lab_t4_bp_5" name="16LAB TYPE IV Bulletproof Plate,50%" slot="1" transform_on_consume="16lab_t4_bp_6" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+		<hud_icon filename="16lab_t4_bp_4.png"/>
 		<inventory encumbrance="10" price="20"/>
 		<model mesh_filename="it_sgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
@@ -2717,8 +2772,8 @@
 		<modifier class="detectability" value="0.15"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
-	<carry_item key="16lab_t4_bp_6" name="16LAB TYPE IV Bulletproof Plate,50%" slot="1" transform_on_consume="16lab_t4_bp_7" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
-		<hud_icon filename="16lab_t4_bp_4.png"/>
+	<carry_item key="16lab_t4_bp_6" name="16LAB TYPE IV Bulletproof Plate,40%" slot="1" transform_on_consume="16lab_t4_bp_7" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+		<hud_icon filename="16lab_t4_bp_3.png"/>
 		<inventory encumbrance="10" price="20"/>
 		<model mesh_filename="it_sgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
@@ -2733,8 +2788,8 @@
 		<modifier class="detectability" value="0.15"/>
 		<modifier class="speed" value="-0.05"/>
 	</carry_item>
-	<carry_item key="16lab_t4_bp_7" name="16LAB TYPE IV Bulletproof Plate,40%" slot="1" transform_on_consume="16lab_t4_bp_8" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
-		<hud_icon filename="16lab_t4_bp_3.png"/>
+	<carry_item key="16lab_t4_bp_7" name="16LAB TYPE IV Bulletproof Plate,30%" slot="1" transform_on_consume="16lab_t4_bp_8" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+		<hud_icon filename="16lab_t4_bp_2.png"/>
 		<inventory encumbrance="10" price="20"/>
 		<model mesh_filename="it_sgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
@@ -2749,8 +2804,8 @@
 		<modifier class="detectability" value="0.15"/>
 		<modifier class="speed" value="-0.05"/>
 	</carry_item>
-	<carry_item key="16lab_t4_bp_8" name="16LAB TYPE IV Bulletproof Plate,30%" slot="1" transform_on_consume="16lab_t4_bp_9" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
-		<hud_icon filename="16lab_t4_bp_2.png"/>
+	<carry_item key="16lab_t4_bp_8" name="16LAB TYPE IV Bulletproof Plate,20%" slot="1" transform_on_consume="16lab_t4_bp_9" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+		<hud_icon filename="16lab_t4_bp_1.png"/>
 		<inventory encumbrance="10" price="20"/>
 		<model mesh_filename="it_sgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
@@ -2760,13 +2815,13 @@
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
-		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death"/>
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="stun"/>
 		<modifier class="hit_success_probability" value="-0.6"/>
 		<modifier class="detectability" value="0.15"/>
 		<modifier class="speed" value="-0.05"/>
 	</carry_item>
-	<carry_item key="16lab_t4_bp_9" name="16LAB TYPE IV Bulletproof Plate,20%" slot="1" transform_on_consume="16lab_t4_bp_10" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
-		<hud_icon filename="16lab_t4_bp_1.png"/>
+	<carry_item key="16lab_t4_bp_9" name="16LAB TYPE IV Bulletproof Plate,destroyed" slot="1" transform_on_consume="16lab_t4_bp_10" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+		<hud_icon filename="16lab_t4_bp_0.png"/>
 		<inventory encumbrance="10" price="2"/>
 		<model mesh_filename="it_sgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
@@ -2776,18 +2831,23 @@
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
-		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death"/>
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="0"/>
 		<modifier class="hit_success_probability" value="-0.6"/>
 		<modifier class="detectability" value="0.15"/>
 		<modifier class="speed" value="-0.05"/>
 	</carry_item>
-	<carry_item key="16lab_t4_bp_10" name="16LAB TYPE IV Bulletproof Plate,destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
-		<hud_icon filename="16lab_t4_bp_0.png"/>
+	<carry_item key="16lab_t4_bp_10" name="16LAB TYPE IV Bulletproof Plate,completely destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+		<hud_icon filename="16lab_t4_bp_d.png"/>
 		<inventory encumbrance="10" price="1"/>
 		<model mesh_filename="it_sgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
-		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" consumes_item="1"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="1"/>
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="0"/>
 		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.12"/>
 		<modifier class="speed" value="0.0"/>
@@ -2827,7 +2887,7 @@
 		<model mesh_filename="it_ucexo.xml"/>
 		<commonness value="1.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
@@ -2844,7 +2904,7 @@
 		<model mesh_filename="it_ucexo.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
@@ -2860,7 +2920,7 @@
 		<model mesh_filename="it_ucexo.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
@@ -2869,16 +2929,33 @@
 		<modifier class="hit_success_probability" value="-0.1"/>
 		<modifier class="detectability" value="-0.15"/>
 	</carry_item>
-	<carry_item key="42lab_uc_exo_3" name="42LAB Universal Camouflage Exoskeleton, destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+	<carry_item key="42lab_uc_exo_3" name="42LAB Universal Camouflage Exoskeleton, destroyed" slot="1" transform_on_consume="42lab_uc_exo_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
 		<hud_icon filename="42lab_uc_exo_0.png"/>
 		<inventory encumbrance="4" price="10"/>
 		<model mesh_filename="it_ucexo_2.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
+		<modifier class="hit_success_probability" value="-1.2"/>
+		<modifier class="detectability" value="-0.05"/>
+		<modifier class="speed" value="-0.25"/>
+	</carry_item>
+	<carry_item key="42lab_uc_exo_4" name="42LAB Universal Camouflage Exoskeleton, completely destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+		<hud_icon filename="42lab_uc_exo_d.png"/>
+		<inventory encumbrance="4" price="10"/>
+		<model mesh_filename="it_ucexo_2.xml"/>
+		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
 		<modifier class="hit_success_probability" value="-1.2"/>
 		<modifier class="detectability" value="-0.05"/>
@@ -2890,7 +2967,7 @@
 		<model mesh_filename="it_smgvest.xml"/>
 		<commonness value="1.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
@@ -2905,7 +2982,7 @@
 		<model mesh_filename="it_smgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
@@ -2920,7 +2997,7 @@
 		<model mesh_filename="it_smgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
@@ -2934,7 +3011,7 @@
 		<model mesh_filename="it_smgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
@@ -2948,7 +3025,7 @@
 		<model mesh_filename="it_smgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
@@ -2956,13 +3033,32 @@
 		<modifier class="hit_success_probability" value="-0.6"/>
 		<modifier class="speed" value="+0.02"/>
 	</carry_item>
-	<carry_item key="16lab_x4_exo_5" name="16LAB X4 Universal Exoskeleton, destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+	<carry_item key="16lab_x4_exo_5" name="16LAB X4 Universal Exoskeleton, destroyed" slot="1" transform_on_consume="16lab_x4_exo_6" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
 		<hud_icon filename="16lab_x4_exo_0.png"/>
 		<inventory encumbrance="4" price="10"/>
 		<model mesh_filename="it_smgvest.xml"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound"/>
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound"/>
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
+		<modifier class="speed" value="+0.0"/>
+	</carry_item>
+	<carry_item key="16lab_x4_exo_6" name="16LAB X4 Universal Exoskeleton, completely destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="120.0" player_death_drop_owner_lock_time="120.0">
+		<hud_icon filename="16lab_x4_exo_d.png"/>
+		<inventory encumbrance="4" price="10"/>
+		<model mesh_filename="it_smgvest.xml"/>
+		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death"/>
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="0"/>
 		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="speed" value="+0.0"/>
 	</carry_item>
@@ -4088,6 +4184,66 @@
 		<modifier class="speed" value="0"/>
 		<modifier class="hit_success_probability" value="-1.2"/>
 	</carry_item>
+	<carry_item filename="tx_boss_gager_normal.carry_item" key="tx_boss_gager.carry_item" name="Gager" slot="1" transform_on_consume="boss_gager_95">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_shield.carry_item" key="boss_gager_95" name="Gager 95%" slot="1" transform_on_consume="boss_gager_90">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_shield.carry_item" key="boss_gager_90" name="Gager 90%" slot="1" transform_on_consume="boss_gager_85">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_shield.carry_item" key="boss_gager_85" name="Gager 85%" slot="1" transform_on_consume="boss_gager_80">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="tx_boss_gager_normal.carry_item" key="boss_gager_80" name="Gager 80%" slot="1" transform_on_consume="boss_gager_75">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_75" name="Gager 75%" slot="1" transform_on_consume="boss_gager_70">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_70" name="Gager 70%" slot="1" transform_on_consume="boss_gager_65">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_65" name="Gager 65%" slot="1" transform_on_consume="boss_gager_60">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="tx_boss_gager_normal.carry_item" key="boss_gager_60" name="Gager 60%" slot="1" transform_on_consume="boss_gager_55">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_55" name="Gager 55%" slot="1" transform_on_consume="boss_gager_50">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_50" name="Gager 50%" slot="1" transform_on_consume="boss_gager_45">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_45" name="Gager 45%" slot="1" transform_on_consume="boss_gager_40">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_40" name="Gager 40%" slot="1" transform_on_consume="boss_gager_35">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="tx_boss_gager_normal.carry_item" key="boss_gager_35" name="Gager 35%" slot="1" transform_on_consume="boss_gager_30">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_30" name="Gager 30%" slot="1" transform_on_consume="boss_gager_25">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_25" name="Gager 25%" slot="1" transform_on_consume="boss_gager_20">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_normal.carry_item" key="boss_gager_20" name="Gager 20%" slot="1" transform_on_consume="boss_gager_15">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="tx_boss_gager_normal.carry_item" key="boss_gager_15" name="Gager 15%" slot="1" transform_on_consume="boss_gager_10">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_shield.carry_item" key="boss_gager_10" name="Gager 10%" slot="1" transform_on_consume="boss_gager_0">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
+	<carry_item filename="doppelsoldner_down.carry_item" key="boss_gager_0" name="Gager destoryed" slot="1">
+		<hud_icon filename="reverse_core.png"/>
+	</carry_item>
 	<carry_item key="pzc_vest.carry_item" name="PZC Armor 14/14" slot="1" transform_on_consume="pzc_vest_2" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="pzc_vest_13.png"/>
 		<inventory encumbrance="10" price="600"/>
@@ -4292,6 +4448,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.1"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
@@ -4307,6 +4464,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.1"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
@@ -4322,6 +4480,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.1"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
@@ -4337,6 +4496,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.1"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
@@ -4352,6 +4512,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.1"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
@@ -4367,6 +4528,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.1"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
@@ -4382,6 +4544,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.1"/>
 		<modifier class="speed" value="-0.1"/>
 	</carry_item>
@@ -4397,6 +4560,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.1"/>
 		<modifier class="speed" value="-0.15"/>
 	</carry_item>
@@ -4412,6 +4576,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.1"/>
 		<modifier class="speed" value="-0.15"/>
 	</carry_item>
@@ -4427,6 +4592,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.1"/>
 		<modifier class="speed" value="-0.15"/>
 	</carry_item>
@@ -4442,6 +4608,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.15"/>
 		<modifier class="speed" value="-0.2"/>
 	</carry_item>
@@ -4456,6 +4623,7 @@
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="hit_success_probability" value="-0.5"/>
 		<modifier class="detectability" value="0.15"/>
 		<modifier class="speed" value="-0.2"/>
 	</carry_item>
@@ -4910,6 +5078,27 @@
 		<inventory encumbrance="0.5" price="1.0"/>
 		<model mesh_filename="gi_contract.mesh" texture_filename="gi_cb_ur.png"/>
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+		<capacity value="100" source="rank" source_value="0.0"/>
+	</carry_item>
+	<carry_item name="loot1" key="loot1.carry_item" time_to_live_out_in_the_open="0" drop_count_factor_on_death="1.0" drop_count_factor_on_player_death="1.0" player_death_drop_owner_lock_time="150.0">
+		<hud_icon filename="hud_goldbar.png"/>
+		<inventory encumbrance="0.5" price="1000.0"/>
+		<model mesh_filename="loot1.xml"/>
+		<commonness value="0.3" in_stock="0" can_respawn_with="0"/>
+		<capacity value="100" source="rank" source_value="0.0"/>
+	</carry_item>
+	<carry_item name="loot2" key="loot2.carry_item" time_to_live_out_in_the_open="0" drop_count_factor_on_death="1.0" drop_count_factor_on_player_death="1.0" player_death_drop_owner_lock_time="150.0">
+		<hud_icon filename="hud_goldbar.png"/>
+		<inventory encumbrance="0.5" price="1000.0"/>
+		<model mesh_filename="loot1.xml"/>
+		<commonness value="0.3" in_stock="0" can_respawn_with="0"/>
+		<capacity value="100" source="rank" source_value="0.0"/>
+	</carry_item>
+	<carry_item name="loot3" key="loot3.carry_item" time_to_live_out_in_the_open="0" drop_count_factor_on_death="1.0" drop_count_factor_on_player_death="1.0" player_death_drop_owner_lock_time="150.0">
+		<hud_icon filename="hud_goldbar.png"/>
+		<inventory encumbrance="0.5" price="1000.0"/>
+		<model mesh_filename="loot1.xml"/>
+		<commonness value="0.3" in_stock="0" can_respawn_with="0"/>
 		<capacity value="100" source="rank" source_value="0.0"/>
 	</carry_item>
 </carry_items>

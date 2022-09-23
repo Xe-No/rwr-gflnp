@@ -46,3 +46,38 @@ string checkAttr1ForAttr2(const Metagame@ metagame, string filename, string tag,
 	}
 	return "Failed";
 }
+
+
+// void giveItem(int cid, string key, string type) {
+// 	string c = 
+// 		"<command class='update_inventory' character_id='" + cid + "' container_type_class='backpack'>" + 
+// 			"<item class='" + type + "' key='" + key + "' />" +
+// 		"</command>";
+// 	m_metagame.getComms().send(c);  
+// }
+
+array<int>@ getCommonElement(array<int>@ list1, array<int>@ list2){
+	int i=0; int j=0;
+	int l1 = list1.size();
+	int l2 = list2.size();
+	array<int> listc;
+
+	if (l1==0||l2==0) return listc;
+	list1.sortAsc();
+	list2.sortAsc();
+
+	while(i<list1.size()&&j<list2.size()){
+		if(list1[i]<list2[j]) {
+			i++;
+		}
+		else if (list1[i]>list2[j]) {
+			j++;
+		} 
+		else{
+			listc.insertLast(list1[i]); i++;j++;
+		}
+	}
+	return listc;
+
+}
+

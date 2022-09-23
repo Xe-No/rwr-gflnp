@@ -3,6 +3,7 @@
 		<tag name="metal_heavy"/>
 		<tag name="heavy_combat"/>
 		<tag name="tank"/>
+		<tag name="any_tank"/>
 		<tire_set offset="1.5 0.0 +3" radius="0.3"/>
 		<tire_set offset="1.5 0.0 -3" radius="0.3"/>
 		<control max_speed="10.2" acceleration="15.0" max_reverse_speed="10.0" min_health_to_steer="0.6" max_rotation="0.0" max_water_depth="1.4" steer_smoothening="0.98" tracked="1" gears="1" max_limiter_speed="6.0"/>
@@ -204,6 +205,7 @@ gunner
 		<tag name="heavy_combat"/>
 		<tag name="tank"/>
 		<tag name="tank_para"/>
+		<tag name="any_tank"/>
 		<tire_set offset="1.8 0.0 +3" radius="0.52"/>
 		<tire_set offset="1.8 0.0 -3" radius="0.52"/>
 		<control max_speed="10.0" acceleration="15.0" max_reverse_speed="10.0" min_health_to_steer="0.6" max_rotation="0.0" max_water_depth="1.4" steer_smoothening="0.98" tracked="1" gears="1" max_limiter_speed="6.0"/>
@@ -296,6 +298,7 @@ gunner
 	<vehicle name="T-14S Armata" key="t14s.vehicle" respawn_time="300" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0">
 		<tag name="metal_heavy"/>
 		<tag name="tank"/>
+		<tag name="any_tank"/>
 		<tire_set offset="1.8 0.0 +3" radius="0.52"/>
 		<tire_set offset="1.8 0.0 -3" radius="0.52"/>
 		<control max_speed="13.0" acceleration="15.0" max_reverse_speed="10.0" min_health_to_steer="0.6" max_rotation="0.0" max_water_depth="1.4" steer_smoothening="0.98" tracked="1" gears="1" max_limiter_speed="6.0"/>
@@ -545,6 +548,7 @@ gunner
 		<tag name="metal_heavy"/>
 		<tag name="heavy_combat"/>
 		<tag name="tank"/>
+		<tag name="any_tank"/>
 		<tire_set offset="2 0 +2.5" radius="0.3"/>
 		<tire_set offset="2 0 -2.5" radius="0.3"/>
 		<modifier class="blast_range" value="-3.0"/>
@@ -888,6 +892,7 @@ gunner
 	<vehicle name="ZBD-04A" key="zbd04a.vehicle" respawn_time="60" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="0.25">
 		<tag name="metal_heavy"/>
 		<tag name="apc"/>
+		<tag name="any_tank"/>
 		<tire_set offset="2 0.4 +2.5" radius="0.3"/>
 		<tire_set offset="2 0.4 -2.5" radius="0.3"/>
 		<modifier class="blast_range" value="-1.0"/>
@@ -8184,6 +8189,7 @@ gunner
 	<vehicle name="Legion" key="legion.vehicle" respawn_time="140" time_to_live_unsteerable="135" map_view_atlas_index="42" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0" existence="one_per_faction" character_leave_request_mode="friendly" reserves_spawn_point="1">
 		<tag name="metal_heavy"/>
 		<tag name="heavy_combat"/>
+		<tag name="any_tank"/>
 		<tire_set offset="1.57 0.0 2.45" radius="0.65"/>
 		<tire_set offset="1.57 0.0 0.0" radius="0.65"/>
 		<tire_set offset="1.57 0.0 -2.45" radius="0.65"/>
@@ -8709,6 +8715,27 @@ gunner
 		<item_container class="armory" offset="0 0 0" soldier_group="default"/>
 		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_sg.mesh.png"/> TODO
 	<tire_set offset="1.0 0.0 0.5" radius="0.65"/>
+		<tire_set offset="1.0 0.0 -0.5" radius="0.65"/>
+		<control max_speed="1" acceleration="1" max_reverse_speed="1.0" max_rotation="0.8" max_water_depth="1.9" max_limiter_speed="7.0"/>
+		<physics max_health="4.95" mass="1000.0" extent="2.0 0.0 1.5" offset="0 0.0 0" top_offset="0 2 0" collision_model_pos="0 0.2 0" collision_model_extent="2.0 2.0 1.5" visual_offset="0 -0.1 0" collision_response_factor="0.2" blast_push_threshold="1000.0" vehicle_collision_damage_factor="5.0" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6"/>
+		<sound key="hit" filename="barrier_impact1.wav"/>
+		<sound key="hit" filename="barrier_impact2.wav"/>
+		<event key="receive_damage_xp_reward">
+			<trigger class="receive_damage"/>
+			<result class="reward" xp="0.0010"/>
+		</event>
+		<effect event_key="destroy" key="other" ref="SmokeMinor" post_processing="1"/>
+		<effect event_key="destroy" key="other" ref="ShadowSmokeMinor" shadow="1"/>
+		<event>
+			<trigger class="destroy"/>
+			<result class="spawn" instance_class="visual_item" instance_key="burning_piece_barrier.visual_item" min_amount="20" max_amount="30" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.1"/>
+		</event>
+		<tag name="vehicle"/>
+	</vehicle>
+	<vehicle name="FNG Supply Box" key="gk_supply_fng.vehicle" time_to_live="60.0" map_view_atlas_index="15" respawn_time="0.0" time_to_live_unsteerable="40">
+		<item_container class="armory" offset="0 0 0" soldier_group="supply_fng"/>
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_ar.mesh.png"/>
+		<tire_set offset="1.0 0.0 0.5" radius="0.65"/>
 		<tire_set offset="1.0 0.0 -0.5" radius="0.65"/>
 		<control max_speed="1" acceleration="1" max_reverse_speed="1.0" max_rotation="0.8" max_water_depth="1.9" max_limiter_speed="7.0"/>
 		<physics max_health="4.95" mass="1000.0" extent="2.0 0.0 1.5" offset="0 0.0 0" top_offset="0 2 0" collision_model_pos="0 0.2 0" collision_model_extent="2.0 2.0 1.5" visual_offset="0 -0.1 0" collision_response_factor="0.2" blast_push_threshold="1000.0" vehicle_collision_damage_factor="5.0" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6"/>
@@ -9506,6 +9533,7 @@ gunner
 		<author corresponding="G41." stats="Xe-No" model="冰是沉默的水"/>
 		<tag name="metal_thin"/>
 		<tag name="truck"/>
+		<tag name="any_tank"/>
 		<tire_set offset="1.2 0.0 +2.2" radius="0.7"/>
 		<tire_set offset="1.2 0.0 -0.9" radius="0.7"/>
 		<tire_set offset="1.2 0.0 -2.4" radius="0.7"/>
@@ -9614,6 +9642,7 @@ gunner
 		<tag name="metal_heavy"/>
 		<tag name="tank"/>
 		<tag name="heavy_combat"/>
+		<tag name="any_tank"/>
 		<tire_set offset="1.8 0.0 +3" radius="0.52"/>
 		<tire_set offset="1.8 0.0 -3" radius="0.52"/>
 		<control max_speed="13.0" acceleration="15.0" max_reverse_speed="10.0" min_health_to_steer="0.6" max_rotation="0.0" max_water_depth="1.4" steer_smoothening="0.98" tracked="1" gears="1" max_limiter_speed="6.0"/>
@@ -9779,6 +9808,7 @@ gunner
 		<tag name="metal_thin"/>
 		<tag name="guntruck"/>
 		<tag name="light_combat"/>
+		<tag name="any_tank"/>
 		<tire_set offset="1.12 0.0 2.835" radius="0.64"/>
 		<tire_set offset="1.12 0.0 -1.302" radius="0.64"/>
 		<tire_set offset="1.12 0.0 -2.894" radius="0.64"/>
@@ -9923,6 +9953,7 @@ gunner
 		<tag name="heavy_combat"/>
 		<tag name="tank"/>
 		<tag name="tank_para"/>
+		<tag name="any_tank"/>
 		<tire_set offset="1.5 0.0 +3" radius="0.3"/>
 		<tire_set offset="1.5 0.0 -3" radius="0.3"/>
 		<control max_speed="12.0" acceleration="15.0" max_reverse_speed="10.0" min_health_to_steer="0.67" max_rotation="0.0" max_water_depth="1.4" steer_smoothening="0.98" tracked="1" gears="1" max_limiter_speed="6.0"/>
@@ -10024,6 +10055,7 @@ gunner
 		<tag name="heavy_combat"/>
 		<tag name="tank"/>
 		<tag name="tank_para"/>
+		<tag name="any_tank"/>
 		<tire_set offset="1.5 0.0 +3" radius="0.3"/>
 		<tire_set offset="1.5 0.0 -3" radius="0.3"/>
 		<control max_speed="12.0" acceleration="15.0" max_reverse_speed="10.0" min_health_to_steer="0.67" max_rotation="0.0" max_water_depth="1.4" steer_smoothening="0.98" tracked="1" gears="1" max_limiter_speed="6.0"/>

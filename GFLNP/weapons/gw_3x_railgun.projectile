@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="bullet" name="3x_railgun" slot="1" pulldown_in_air="4">
-    <result class="blast" radius="3" damage=1.21 push="0.5" decal="0" character_state="death" />
+    <result class="blast" radius="3" damage="1.21" push="0.5" decal="0" character_state="death" />
     <trigger class="impact" />
     <rotation class="motion" />
 

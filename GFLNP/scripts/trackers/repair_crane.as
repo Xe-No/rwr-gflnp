@@ -91,6 +91,8 @@ class RepairCrane : Tracker {
 			y_offset = 0.0;
 			rpReward = 0;
 			xpReward = 0.0;
+		} else{
+			return;
 		}
 		
 		if (repairValue > 0.0) {
