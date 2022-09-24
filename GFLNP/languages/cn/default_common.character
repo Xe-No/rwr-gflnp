@@ -47,11 +47,13 @@
 
 
 
-<comment key="rangefinder binoculars" text="距离目标: &#37;range m." />
+	<comment key="rangefinder binoculars" text="距离目标: %range m." />
 
-  <comment key="squad_equipment_kit, equip" text="我可以用这个来给附近的士兵装备护甲！" /> 
-  <comment key="squad_equipment_kit, done" text="护甲发放完毕！" />   
-
+	<comment key="squad_equipment_kit, equip" text="我可以用这个来给附近的士兵装备护甲！" /> 
+	<comment key="squad_equipment_kit, done" text="护甲发放完毕！" />   
+	<comment key="gift box delivered" text="让我们瞧瞧%delivered_item_name里面有什么好东西, %player_name" />
+	<comment key="gift box delivery, reward" text="%player_name，你的奖励是%item_name1和%item_name2！" />
+	<comment key="gift box delivery, reward1" text="%player_name，你的奖励是%item_name1！"/>
 
 
 </character>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<character filename="default_base.character">
+<character filename="default_common.character">
 	<comment key="Driver, abandon vehicle"/>
 	<comment key="Driver, abandon vehicle" text="Driver, bail out"/>
 	<comment key="Gunner, abandon vehicle"/>
@@ -216,8 +216,7 @@
 	<comment key="flag dropped in container 3" text="%player_name stashed a %item_name"/>
 	<comment key="tutorial end 1" text="good job doll, now you are ready for battle!"/>
 	<comment key="tutorial end 2" text="pack your stuff together and let's go!"/>
-	<comment key="gift box delivered" text="Let's have a look at this %delivered_item_name, %player_name"/>
-	<comment key="gift box delivery, reward" text="Here is what you get %player_name: %item_name1 and %item_name2!"/>
+
 	<comment key="cargo_truck.vehicle spotted, instructions" text="Capture the cargo truck and deliver it to the armory, don't let it get destroyed!"/>
 	<comment key="radar_tower.vehicle spotted, instructions" text="Destroy the radar tower!"/>
 	<comment key="radar_truck.vehicle spotted, instructions" text="Destroy the radar truck, don't let it get away!"/>

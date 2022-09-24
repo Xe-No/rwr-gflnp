@@ -43,13 +43,8 @@ class BasicCommandHandler : Tracker {
 
 		// sendPrivateMessage(m_metagame, senderId, squad);
 
-		if (matchString(paras[0], "refresh_vip")) {
-			array<string> code_list =  loadStringsFromFile(m_metagame, "vips.xml", "item", "value");
-			for (uint i = 0; i < code_list.size(); ++i) {
-				sendPrivateMessage(m_metagame, senderId, code_list[i]);
 
-			}
-		}
+
 
 
 		// normal player from here on
@@ -91,6 +86,8 @@ class BasicCommandHandler : Tracker {
 				handleSpecialBuy( m_metagame, senderId, "codes.xml", "item",  "code", item, "owner", "name", sender, receiverId);	
 			}
 		}
+
+
 
 
 		else if (matchString(paras[0], "bus")) {
@@ -136,7 +133,7 @@ class BasicCommandHandler : Tracker {
 					{"gw_ar15",		"gs_ar15"},
 					{"gw_m16a1",	"gs_m16a1"},
 					{"gw_m4a1",		"gs_m4a1"},
-                    {"gw_m4_sopmod_ii",    "gs_m4 sopmod ii"},
+					{"gw_m4_sopmod_ii",    "gs_m4 sopmod ii"},
 
 					{"gw_g11",		"gs_g11"},
 					{"gw_hk416",	"gs_hk416"},
@@ -196,6 +193,16 @@ class BasicCommandHandler : Tracker {
 			}	
 		}
 
+		else if (matchString(paras[0], "sw")) {
+			if (payRP(characterId, 300) ){
+				sendPrivateMessage(m_metagame, senderId, "Safe warfare service activated");
+				killCharacter(m_metagame, characterId, true );
+			}
+			else{
+				sendPrivateMessage(m_metagame, senderId, "Insufficient funds");
+			}
+		}
+
 		else if (matchString(paras[0], "pose")) {
 
 			array<string> actions = {
@@ -229,6 +236,9 @@ class BasicCommandHandler : Tracker {
 				animate(characterId, actions[action_i]);
 			}
 		}
+
+
+
 
 
 		else if (matchString(paras[0], "action")) {
@@ -276,13 +286,18 @@ class BasicCommandHandler : Tracker {
 			handleMutate(senderId, "infected_brute.carry_item", 20);
 		}
 
-		// admin and moderator and VIP only from here on
-		if (!m_metagame.getAdminManager().isAdmin(sender, senderId) && !m_metagame.getModeratorManager().isModerator(sender, senderId) && !m_metagame.getVIPManager().isVIP(sender, senderId)  ) {
+
+		// admin and moderator only from here on
+		if (!m_metagame.getAdminManager().isAdmin(sender, senderId) && !m_metagame.getModeratorManager().isModerator(sender, senderId)) {
 			return;
 		}
 
+		if (matchString(paras[0], "modtest")) {
+			dictionary dict = {{"TagName", "command"},{"class", "chat"},{"text", "mod or admin"}};
+			m_metagame.getComms().send(XmlElement(dict));
+		}
 			
-		if (matchString(paras[0], "buy")) {
+		else if (matchString(paras[0], "buy")) {
 			string item = message.substr(5);
 			// sendPrivateMessage(m_metagame, senderId, name);
 	
@@ -357,18 +372,6 @@ class BasicCommandHandler : Tracker {
 				c.setStringAttribute("color", item); // e.g. "#FF00FF"
 			m_metagame.getComms().send(c);
 		}
-
-
-		// admin and moderator only from here on
-		if (!m_metagame.getAdminManager().isAdmin(sender, senderId) && !m_metagame.getModeratorManager().isModerator(sender, senderId)) {
-			return;
-		}
-
-		if (matchString(paras[0], "modtest")) {
-			dictionary dict = {{"TagName", "command"},{"class", "chat"},{"text", "mod or admin"}};
-			m_metagame.getComms().send(XmlElement(dict));
-		}
-
 
 
 
@@ -488,10 +491,10 @@ class BasicCommandHandler : Tracker {
 
 			string com1 = """
 <command 
-  class='save_data' filename='ee.xml' location='app_data'>
-  <root>
-  <foo bar='0' />
-  </root>
+	class='save_data' filename='ee.xml' location='app_data'>
+	<root>
+	<foo bar='0' />
+	</root>
 </command>""";
 			//string com1 = "<command class='add_custom_stat' character_id="+ cid +" tag='bbq'></command>";
 
@@ -528,7 +531,7 @@ class BasicCommandHandler : Tracker {
 					destroyVehicle(m_metagame, id);
 				}
 			}
-		} else  if(matchString(paras[0], "promote")) {
+		} else  if(matchString(paras[0], "xp")) {
 			
 			if (info !is null) {
 				int id = info.getIntAttribute("character_id");
@@ -690,7 +693,7 @@ class BasicCommandHandler : Tracker {
 			string position = message.substr(string("detonate ").length() + 1);
 			const XmlElement@ playerInfo = getPlayerInfo(m_metagame, senderId);
 			m_metagame.getComms().send("<command class='create_instance' faction_id='" + playerInfo.getIntAttribute("faction_id") + 
-									   "' position='" + position + "' instance_class='projectile' instance_key='detonation.projectile' />");
+										 "' position='" + position + "' instance_class='projectile' instance_key='detonation.projectile' />");
 
 
 		} else if (matchString(paras[0], "tank_0")) {
@@ -738,11 +741,11 @@ class BasicCommandHandler : Tracker {
 			spawnInstanceNearPlayer(senderId, "gift_box_community_1.carry_item", "carry_item", 0); 
 		} else if (matchString(paras[0], "cb2")) {
 			spawnInstanceNearPlayer(senderId, "gift_box_community_2.carry_item", "carry_item", 0);                      
-        } else if (matchString(paras[0], "cb3")) {
+				} else if (matchString(paras[0], "cb3")) {
 			spawnInstanceNearPlayer(senderId, "gift_box_community_3.carry_item", "carry_item", 0);  
-        } else if (matchString(paras[0], "cb4")) {
+				} else if (matchString(paras[0], "cb4")) {
 			spawnInstanceNearPlayer(senderId, "gift_box_community_4.carry_item", "carry_item", 0);                                     
-        } else if (matchString(paras[0], "lottery")) {
+				} else if (matchString(paras[0], "lottery")) {
 			spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);                                     
 		} else if (matchString(paras[0], "quad")) {
 			spawnInstanceNearPlayer(senderId, "atv_armory.vehicle", "vehicle", 0);        
@@ -821,7 +824,7 @@ class BasicCommandHandler : Tracker {
 			if (playerInfo !is null) {
 				const XmlElement@ characterInfo = getCharacterInfo(m_metagame, playerInfo.getIntAttribute("character_id"));
 				if (characterInfo !is null) {
-					int characterId = characterInfo.getIntAttribute("character_id");
+					// int characterId = characterInfo.getIntAttribute("character_id");
 					int factionId = characterInfo.getIntAttribute("faction_id");
 					Vector3 w_pos = stringToVector3(characterInfo.getStringAttribute("position"));
 					w_pos.m_values[1] += 10.0;
@@ -1311,6 +1314,25 @@ class BasicCommandHandler : Tracker {
 	}
 
 
+	protected bool payRP(int cid,  int cost = 100) {
+		const XmlElement@ characterInfo = getGenericObjectInfo(m_metagame, "character", cid);
+		int rp = characterInfo.getIntAttribute("rp");
+
+		if (rp >= cost) {
+			string command =
+				"<command class='rp_reward'	character_id='" + cid + "'" +
+				"	reward='-"+ cost +"'>" + // multiplier affected..
+				"</command>";
+			m_metagame.getComms().send(command);
+			return true;
+			
+		}
+		else {
+			// sendPrivateMessage(m_metagame, senderId, "Insufficient funds!!");
+			return false;
+		}
+	}
+
 	protected void handleBuy(int senderId, string key, string type, int cost = 100) {
 
 		const XmlElement@ playerInfo = getPlayerInfo(m_metagame, senderId);
@@ -1404,12 +1426,7 @@ class BasicCommandHandler : Tracker {
 		}
 	}
 
-	// --------------------------------------------
-	array<string> parseParameters2(string message, string command, int preNumber) {
-		string s = message.trim().substr(command.length() + preNumber + 1);
-		array<string> a = s.split(" ");
-		return a;
-	}
+
 
 	// ----------------------------------------------------
 	void P2PAttack(Vector3 weaponPos, Vector3 targetPos, int number, string instanceKey, string soundFile, float spread, int factionId, int characterId) {
@@ -1449,7 +1466,7 @@ class BasicCommandHandler : Tracker {
 		}
 	}
 
- 	protected void giveItem(int senderId, string key, string type) {
+	protected void giveItem(int senderId, string key, string type) {
 		const XmlElement@ playerInfo = getPlayerInfo(m_metagame, senderId);
 		int id = playerInfo.getIntAttribute("character_id");
 		string c = 

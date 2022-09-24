@@ -57,9 +57,9 @@ string checkAttr1ForAttr2(const Metagame@ metagame, string filename, string tag,
 // }
 
 array<int>@ getCommonElement(array<int>@ list1, array<int>@ list2){
-	int i=0; int j=0;
-	int l1 = list1.size();
-	int l2 = list2.size();
+	uint i=0; uint j=0;
+	uint l1 = list1.size();
+	uint l2 = list2.size();
 	array<int> listc;
 
 	if (l1==0||l2==0) return listc;
@@ -81,3 +81,36 @@ array<int>@ getCommonElement(array<int>@ list1, array<int>@ list2){
 
 }
 
+
+void spawnInstance(const Metagame@ metagame, string type, string key, string position, int fid) {
+	string c = "<command class='create_instance' instance_class='" + type + "' instance_key='" + key + "' position='" + position + "' faction_id='" + fid + "' />";
+	metagame.getComms().send(c);
+}
+
+// public version
+void spawnInstanceNearPlayer(const Metagame@ metagame, int senderId, string key, string type, int factionId = 0) {
+	const XmlElement@ playerInfo = getPlayerInfo(metagame, senderId);
+	if (playerInfo !is null) {
+		const XmlElement@ characterInfo = getCharacterInfo(metagame, playerInfo.getIntAttribute("character_id"));
+		if (characterInfo !is null) {
+			Vector3 pos = stringToVector3(characterInfo.getStringAttribute("position"));
+			pos.m_values[0] += 5.0;
+			string c = "";
+			if (type == 'projectile'){
+				c = "<command class='create_instance' instance_class='" + type + "' instance_key='" + key + "' position='" + pos.toString() + "' faction_id='" + factionId + "' activated='0' />";
+			}
+			else{
+				c = "<command class='create_instance' instance_class='" + type + "' instance_key='" + key + "' position='" + pos.toString() + "' faction_id='" + factionId + "' />";
+			}
+			
+			metagame.getComms().send(c);
+		}
+	}
+}
+
+// --------------------------------------------
+array<string> parseParameters2(string message, string command, int preNumber) {
+	string s = message.trim().substr(command.length() + preNumber + 1);
+	array<string> a = s.split(" ");
+	return a;
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<character filename="default_base.character">
+<character filename="default_common.character">
 	<comment key="Driver, abandon vehicle"/>
 	<comment key="Driver, abandon vehicle" text="Driver, bail out"/>
 	<comment key="Gunner, abandon vehicle"/>

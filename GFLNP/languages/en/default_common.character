@@ -206,6 +206,10 @@
 	<comment key="flag dropped in container 2" text="%player_name got a %item_name in backpack" />
 	<comment key="flag dropped in container 3" text="%player_name stashed a %item_name" />
 	
+	<comment key="gift box delivered" text="Let's have a look at this %delivered_item_name, %player_name"/>
+	<comment key="gift box delivery, reward" text="Here is what you get %player_name: %item_name1 and %item_name2!"/>
+	<comment key="gift box delivery, reward1" text="Here is what you get %player_name: %item_name1!"/>
+	
 	<!-- character specific animation override table -->
 	<!-- <animation key="running" target_key="walking" /> -->	
 

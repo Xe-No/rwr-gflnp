@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectiles>
-<projectile class="grenade" name="hand grenade" key="loot1.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0">
+<projectile class="grenade" name="Loot Drop 1" key="loot1.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0" time_to_live="60">
 	<result class="notify_script" key="loot1" />
 	<trigger class="impact">
 		 <collider class="terrain" enabled="0" />     
@@ -10,8 +10,8 @@
 	</trigger> 
 	<rotation class="random" />
 
-	<model mesh_filename="loot1.xml" />
-	<hud_icon filename="hud_emp_grenade.png" />
+	<model mesh_filename="loot_box.xml" />
+	<hud_icon filename="loot.png" />
 
 	<throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1" />
 
@@ -20,7 +20,7 @@
 	<capacity value="1" source="rank" source_value="0.4" />
 
 </projectile>
-<projectile class="grenade" name="hand grenade" key="loot2.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0">
+<projectile class="grenade" name="Loot Drop 2" key="loot2.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0" time_to_live="60">
 	<result class="notify_script" key="loot2" />
 	<trigger class="impact">
 		 <collider class="terrain" enabled="0" />     
@@ -31,7 +31,7 @@
 	<rotation class="random" />
 
 	<model mesh_filename="loot2.xml" />
-	<hud_icon filename="hud_emp_grenade.png" />
+	<hud_icon filename="loot.png" />
 
 	<throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1" />
 
@@ -39,7 +39,7 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.4" />
 </projectile>
-<projectile class="grenade" name="hand grenade" key="loot3.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0">
+<projectile class="grenade" name="Loot Drop 3" key="loot3.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0" time_to_live="60">
 	<result class="notify_script" key="loot3" />
 	<trigger class="impact">
 		 <collider class="terrain" enabled="0" />     
@@ -50,7 +50,7 @@
 	<rotation class="random" />
 
 	<model mesh_filename="loot3.xml" />
-	<hud_icon filename="hud_emp_grenade.png" />
+	<hud_icon filename="loot.png" />
 
 	<throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1" />
 

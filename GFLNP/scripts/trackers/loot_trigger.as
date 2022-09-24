@@ -25,13 +25,15 @@ class LootTrigger : Tracker {
 	}
 
 	protected void handleResultEvent(const XmlElement@ event) {
-		//notify_script key
-
+		
+		//check key, return item
 		dictionary dict_loot = {
 			{'loot1', 'loot1.carry_item'},
 			{'loot2', 'loot2.carry_item'},
 			{'loot3', 'loot3.carry_item'}
 		};
+
+		//notify_script key, pass unwanted
 		string key = event.getStringAttribute("key");
 		if ( !dict_loot.exists(key) ) return;
 		string loot_item = string(dict_loot[key]);
@@ -43,8 +45,7 @@ class LootTrigger : Tracker {
 		array<int> player_cids;
 		array<int> near_cids;
 
-
-
+		//check players, nearby characters, get intersection, reward
 		for (uint i = 0; i < players.size(); ++i) {
 			player_cids.insertLast(players[i].getIntAttribute('character_id')) ;
 		}
@@ -59,12 +60,5 @@ class LootTrigger : Tracker {
 			addItemInBackpack(m_metagame, cid, Resource(loot_item, loot_type));
 		}
 	}
-	
-
-
-
-
-
-
 }
 

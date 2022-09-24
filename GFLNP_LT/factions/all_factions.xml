@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factions>
+	<!-- all_factions.xml is used by campaign menu - we only need to provide the names here -->
+	<faction name="GKPMC" />
+	<faction name="USFMC" />
+	<faction name="USSRA" />	
+	<faction name="SFIMC" />	  
+	<faction name="KCCO" />	  
+	<faction name="Paradeus" />	  
+</factions>

@@ -127,7 +127,14 @@ class GiftItemDeliveryRandomRewarder : ItemDeliveryRewarder {
 				}
 
 				//sendFactionMessageKey(m_metagame, 0, "gift box delivery, reward", a);
-				sendPrivateMessageKey(m_metagame, playerId, "gift box delivery, reward", a);
+				
+				if (m_rewardItemPasses.size()!=1){
+					sendPrivateMessageKey(m_metagame, playerId, "gift box delivery, reward", a);
+				}
+				else{//hack for 1 pass
+					sendPrivateMessageKey(m_metagame, playerId, "gift box delivery, reward1", a);
+				}
+
 			} else {
 				// no such player, break
 				return;
