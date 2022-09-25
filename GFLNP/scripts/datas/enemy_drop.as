@@ -41,7 +41,6 @@ dictionary enemy_drop = {
 	//elite_kcco
 	{'dactyl', ScoredResource("loot2.projectile", "projectile", 0.1)},						//指灵，布雷
 	{'pathfinder', ScoredResource("loot2.projectile", "projectile", 0.1)},					//尖兵，自爆
-	{'aegis', ScoredResource("loot2.projectile", "projectile", 0.1)},						//圣盾
 	{'mg2', ScoredResource("loot2.projectile", "projectile", 0.2)},							//牝鹿
 	{'mg3', ScoredResource("loot2.projectile", "projectile", 0.5)},							//九头蛇
 	{'orthrus', ScoredResource("loot2.projectile", "projectile", 0.05)},					//欧特鲁斯，狗，狗还是挺烦人的，算个精英？
@@ -61,6 +60,6 @@ dictionary enemy_drop = {
 	{'rodelero', ScoredResource("loot2.projectile", "projectile", 0.2)},					//剑盾士，白跳跳
 	{'streltsy', ScoredResource("loot2.projectile", "projectile", 0.1)},					//重炮士
 
-	{'', ScoredResource("loot1.projectile", "projectile", 0.15)}						//普通
+	{'', ScoredResource("loot1.projectile", "projectile", 0.12)}						//普通
 
 };

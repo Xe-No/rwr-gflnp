@@ -1894,7 +1894,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gold_bar.carry_item", "carry_item", 0.5f ),  
 				ScoredResource("digcoin.carry_item", "carry_item", 0.5f ),  
 				ScoredResource("energy_drink.carry_item", "carry_item", 2.0f ), 
-				ScoredResource("fancy_sunglasses.carry_item", "carry_item", 1.0f ), 
+				ScoredResource("fancy_sunglasses.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("radio.carry_item", "carry_item", 1.0f ), 
 				ScoredResource("razor.carry_item", "carry_item", 2.0f ),    
 				ScoredResource("sheaths.carry_item", "carry_item", 2.0f ), 
@@ -1908,20 +1908,21 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("ipoo_player_green.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("ipoo_player_pink.carry_item", "carry_item", 1.0f ),    
 				ScoredResource("playing_cards.carry_item", "carry_item", 2.0f ), 
-				ScoredResource("underpants.carry_item", "carry_item", 2.0f ),  
-				ScoredResource("kamasutra.carry_item", "carry_item", 2.0f ),  
+				ScoredResource("underpants.carry_item", "carry_item", 3.0f ),  
+				ScoredResource("kamasutra.carry_item", "carry_item", 3.0f ),  
 				ScoredResource("cd.carry_item", "carry_item", 0.5f ),  
 				ScoredResource("pickashoe.carry_item", "carry_item", 1.0f ),  
-				ScoredResource("it_p90.carry_item", "carry_item", 1.0f ), 
-				ScoredResource("it_p9.carry_item", "carry_item", 1.0f ), 
-				ScoredResource("it_0.carry_item", "carry_item", 1.0f ), 				//以上为基础垃圾
-				ScoredResource("redstar.carry_item", "carry_item", 2.0f ),				
+				ScoredResource("it_p90.carry_item", "carry_item", 2.0f ), 
+				ScoredResource("it_p9.carry_item", "carry_item", 2.0f ), 
+				ScoredResource("it_0.carry_item", "carry_item", 2.0f ), 				//以上为基础垃圾
+				ScoredResource("redstar.carry_item", "carry_item", 2.0f ),	
+				ScoredResource("it_qlz.carry_item", "carry_item", 2.0f ),	
 				ScoredResource("it_fire_control.carry_item", "carry_item", 1.0f ),	
 				ScoredResource("it_cpu.carry_item", "carry_item", 1.0f ),	
 				ScoredResource("it_broken_cpu.carry_item", "carry_item", 2.0f ),	
 				ScoredResource("it_broken_fire_control.carry_item", "carry_item", 2.0f ),	
 				ScoredResource("it_ecigar.carry_item", "carry_item", 2.0f ),	
-				ScoredResource("it_mtomato.carry_item", "carry_item", 2.0f ),			//以上为特殊垃圾
+				ScoredResource("it_mtomato.carry_item", "carry_item", 3.0f ),			//以上为特殊垃圾
 				ScoredResource("play_box.carry_item", "carry_item", 0.5f ),				//玩具
 				ScoredResource("newyear_box.carry_item", "carry_item", 0.5f ),			//新年
 				ScoredResource("token_box.carry_item", "carry_item", 0.5f ),			//信物
@@ -1954,25 +1955,25 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		//loot2
 		array<array<ScoredResource@>> rewardPasses = {
 			{
-				ScoredResource("gold_bar.carry_item", "carry_item", 5.0f, 2),  		//金条
-		        ScoredResource("gem.carry_item", "carry_item", 10.0f, 2),				//钻石
-				ScoredResource("it_gundam.carry_item", "carry_item", 5.0f ),			//1Wrp高达
-				ScoredResource("it_plashspeed.carry_item", "carry_item", 5.0f ),		//不认识，但是挺贵的
-				ScoredResource("it_2099.carry_item", "carry_item", 5.0f ),				//2099
-				ScoredResource("it_engine_oil.carry_item", "carry_item", 5.0f ),		//机油
-				ScoredResource("it_4080ti.carry_item", "carry_item", 5.0f ),			//显卡
+				ScoredResource("gold_bar.carry_item", "carry_item", 10.0f ),  		//金条
+		        ScoredResource("gem.carry_item", "carry_item", 10.0f ),				//钻石
+				ScoredResource("it_gundam.carry_item", "carry_item", 2.0f ),			//1Wrp高达
+				ScoredResource("it_plashspeed.carry_item", "carry_item", 2.0f ),		//不认识，但是挺贵的
+				ScoredResource("it_2099.carry_item", "carry_item", 4.0f ),				//2099
+				ScoredResource("it_engine_oil.carry_item", "carry_item", 4.0f ),		//机油
+				ScoredResource("it_4080ti.carry_item", "carry_item", 4.0f ),			//显卡
 				ScoredResource("it_fire_control.carry_item", "carry_item", 10.0f ),		//火控
 				ScoredResource("it_cpu.carry_item", "carry_item", 10.0f ),				//CPU
-				ScoredResource("gift_box_1.carry_item", "carry_item", 4.0f ),			//蓝
-				ScoredResource("gift_box_2.carry_item", "carry_item", 3.0f ),			//紫
+				ScoredResource("gift_box_1.carry_item", "carry_item", 5.0f ),			//蓝
+				ScoredResource("gift_box_2.carry_item", "carry_item", 5.0f ),			//紫
 				ScoredResource("gift_box_3.carry_item", "carry_item", 2.0f ),			//泰坦
 				ScoredResource("gift_box_community_1.carry_item", "carry_item", 1.0f ),	//CB1
 		        ScoredResource("gi_black_card.carry_item", "carry_item", 5.0f ),  		//黑卡
-				ScoredResource("newyear_box.carry_item", "carry_item", 5.0f ),			//新年
-				ScoredResource("token_box.carry_item", "carry_item", 5.0f ),			//信物
+				ScoredResource("newyear_box.carry_item", "carry_item", 6.0f ),			//新年
+				ScoredResource("token_box.carry_item", "carry_item", 6.0f ),			//信物
 				ScoredResource("vb1.carry_item", "carry_item", 5.0f ),					//载具
 				ScoredResource("halloween_box_1.carry_item", "carry_item", 5.0f ),		//南瓜
-				ScoredResource("xmas_box.carry_item", "carry_item", 3.0f ),				//圣诞
+				ScoredResource("xmas_box.carry_item", "carry_item", 2.0f ),				//圣诞
 				ScoredResource("cb_part.projectile", "projectile", 1.8f ),				//CBP
 				ScoredResource("gift_box_community_2.carry_item", "carry_item", 0.2f )	//CB2
 			}
@@ -1993,30 +1994,28 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		//loot2
 		array<array<ScoredResource@>> rewardPasses = {
 			{
-				ScoredResource("it_gundam.carry_item", "carry_item", 5.0f ),			//1Wrp高达
+				ScoredResource("it_gundam.carry_item", "carry_item", 3.0f ),			//1Wrp高达
 				ScoredResource("it_plashspeed.carry_item", "carry_item", 5.0f ),		//不认识，但是挺贵的
-				ScoredResource("it_2099.carry_item", "carry_item", 5.0f ),				//2099
-				ScoredResource("it_engine_oil.carry_item", "carry_item", 5.0f ),		//机油
-				ScoredResource("it_4080ti.carry_item", "carry_item", 5.0f ),			//显卡
-				ScoredResource("it_fire_control.carry_item", "carry_item", 5.0f ),		//火控
-				ScoredResource("it_cpu.carry_item", "carry_item", 5.0f ),				//CPU
-				ScoredResource("gi_battle_report.carry_item", "carry_item", 5.0f),		//作战报告书
-				ScoredResource("gift_box_1.carry_item", "carry_item", 8.2f ),			//蓝
-				ScoredResource("gift_box_2.carry_item", "carry_item", 6.2f ),			//紫
-				ScoredResource("gift_box_3.carry_item", "carry_item", 4.1f ),			//泰坦
+				ScoredResource("it_2099.carry_item", "carry_item", 7.5f ),				//2099
+				ScoredResource("it_engine_oil.carry_item", "carry_item", 7.5f ),		//机油
+				ScoredResource("it_4080ti.carry_item", "carry_item", 7.5f ),			//显卡
+				ScoredResource("it_fire_control.carry_item", "carry_item", 10.0f ),		//火控
+				ScoredResource("it_cpu.carry_item", "carry_item", 10.0f ),				//CPU
+				ScoredResource("gi_battle_report.carry_item", "carry_item", 1.0f),		//作战报告书
+				ScoredResource("gift_box_1.carry_item", "carry_item", 10.0f ),			//蓝
+				ScoredResource("gift_box_2.carry_item", "carry_item", 10.0f ),			//紫
+				ScoredResource("gift_box_3.carry_item", "carry_item", 4.0f ),			//泰坦
 				ScoredResource("gift_box_community_1.carry_item", "carry_item", 1.5f ),	//CB1
-		        ScoredResource("gi_black_card.carry_item", "carry_item", 5.0f, 3),  	//3张黑卡
-				ScoredResource("newyear_box.carry_item", "carry_item", 5.0f ),			//新年
-				ScoredResource("token_box.carry_item", "carry_item", 5.0f ),			//信物
-				ScoredResource("vb1.carry_item", "carry_item", 5.0f ),					//载具
-				ScoredResource("halloween_box_1.carry_item", "carry_item", 5.0f ),		//南瓜
-				ScoredResource("xmas_box.carry_item", "carry_item", 5.0f ),				//圣诞
-				ScoredResource("xmas_box.carry_item", "carry_item", 5.0f ),				//圣诞
-				ScoredResource("gi_ssr_weapon_card.carry_item", "carry_item", 0.7f),	//SSR刮刮卡
-				ScoredResource("lottery.carry_item", "carry_item", 3.3f, 10),			//10张彩票
-				ScoredResource("gi_sr_weapon_card.carry_item", "carry_item", 3.0f),		//SR刮刮卡
-				ScoredResource("cb_part.projectile", "projectile", 2.7f ),				//CBP
-				ScoredResource("gift_box_community_2.carry_item", "carry_item", 0.3f )	//CB2 
+		        ScoredResource("gi_black_card.carry_item", "carry_item", 3.0f, 3),  	//3张黑卡
+				ScoredResource("newyear_box.carry_item", "carry_item", 3.0f ),			//新年
+				ScoredResource("token_box.carry_item", "carry_item", 3.0f ),			//信物
+				ScoredResource("vb1.carry_item", "carry_item", 3.0f ),					//载具
+				ScoredResource("halloween_box_1.carry_item", "carry_item", 3.0f ),		//南瓜
+				ScoredResource("xmas_box.carry_item", "carry_item", 3.0f ),				//圣诞
+				ScoredResource("gi_ssr_weapon_card.carry_item", "carry_item", 0.8f),	//SSR刮刮卡
+				ScoredResource("gi_sr_weapon_card.carry_item", "carry_item", 2.0f),		//SR刮刮卡
+				ScoredResource("cb_part.projectile", "projectile", 2.0f ),				//CBP
+				ScoredResource("gift_box_community_2.carry_item", "carry_item", 0.2f )	//CB2 
 			}
 		};   
 			

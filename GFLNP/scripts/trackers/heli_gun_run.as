@@ -69,14 +69,18 @@ class HeliGunRun : Tracker {
 				int callId = event.getIntAttribute("id");
 				int factionId = event.getIntAttribute("faction_id");
 
-
-
-				Vector3 senderPos = stringToVector3(getCharacterInfo(m_metagame, characterId).getStringAttribute("position"));
 				Vector3 targetPos = stringToVector3(event.getStringAttribute("target_position"));
+				Vector3 senderPos = stringToVector3(event.getStringAttribute("target_position"));
 
 				//determining on which direction out of the 12 the current call fits the most
 				// int direction = gunRunDirection(senderPos, targetPos); // forced to be 9
 				int direction = 9;
+
+				if(call_key != "squad_somst.call" ){
+					senderPos = stringToVector3(getCharacterInfo(m_metagame, characterId).getStringAttribute("position"));
+
+				}
+				
 				Vector3 heliPos = senderPos.add(Vector3(0.0,30.0,0.0));
 
 				HeliRequest@ thisCall = HeliRequest(characterId, targetPos, heliPos, direction, callId, factionId);
