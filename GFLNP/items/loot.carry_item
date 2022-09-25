@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carry_items>
-<carry_item file="base_valuable.carry_item" name="Loot Box 1" key="loot1.carry_item" time_to_live_out_in_the_open="0">
+<carry_item file="base_valuable.carry_item" name="Loot Box 1" key="loot1.carry_item" time_to_live_out_in_the_open="120" player_death_drop_owner_lock_time="90.0">
     <hud_icon filename="loot_box_1.png" />
-    <inventory encumbrance="0.5" price="1.0" />
+    <inventory encumbrance="0.0" price="1.0" />
 
     <model mesh_filename="loot_box_1.xml" />
 
     <commonness value="0.3" in_stock="0" />
 </carry_item>
-<carry_item file="base_valuable.carry_item" name="Loot Box 2" key="loot2.carry_item" time_to_live_out_in_the_open="0">
+<carry_item file="base_valuable.carry_item" name="Loot Box 2" key="loot2.carry_item" time_to_live_out_in_the_open="120" player_death_drop_owner_lock_time="90.0">
     <hud_icon filename="loot_box_2.png" />
-    <inventory encumbrance="0.5" price="1.0" />
+    <inventory encumbrance="0.0" price="1.0" />
 
     <model mesh_filename="loot_box_2.xml" />
 
     <commonness value="0.3" in_stock="0" />
 </carry_item>
-<carry_item file="base_valuable.carry_item" name="Loot Box 3" key="loot3.carry_item" time_to_live_out_in_the_open="0">
+<carry_item file="base_valuable.carry_item" name="Loot Box 3" key="loot3.carry_item" time_to_live_out_in_the_open="120" player_death_drop_owner_lock_time="90.0">
     <hud_icon filename="loot_box_3.png" />
-    <inventory encumbrance="0.5" price="1.0" />
+    <inventory encumbrance="0.0" price="1.0" />
 
     <model mesh_filename="loot_box_3.xml" />
 

@@ -9,7 +9,11 @@
 		 <collider class="character" enabled="1" />
 	</trigger> 
 	<rotation class="random" />
-	<sound class="impact" fileref="bling.wav" />
+	<sound class="result" key="other" fileref="bling.wav" />
+    	<sound class="result" key="terrain" copy="other" />
+   	 <sound class="result" key="static_object" copy="other" />
+    	<sound class="result" key="vehicle" copy="other" />
+    	<sound class="result" key="character" copy="other" />
 
 	<model mesh_filename="loot_box_1.xml" />
 	<hud_icon filename="loot_box_1.png" />
@@ -31,7 +35,11 @@
 		 <collider class="character" enabled="1" />
 	</trigger> 
 	<rotation class="random" />
-	<sound class="impact" fileref="bling.wav" />
+	<sound class="result" key="other" fileref="bling.wav" />
+    	<sound class="result" key="terrain" copy="other" />
+   	 <sound class="result" key="static_object" copy="other" />
+    	<sound class="result" key="vehicle" copy="other" />
+    	<sound class="result" key="character" copy="other" />
 
 	<model mesh_filename="loot_box_2.xml" />
 	<hud_icon filename="loot_box_2.png" />
@@ -51,10 +59,14 @@
 		 <collider class="character" enabled="1" />
 	</trigger> 
 	<rotation class="random" />
-	<sound class="impact" fileref="bling.wav" />
+	<sound class="result" key="other" fileref="bling.wav" />
+    	<sound class="result" key="terrain" copy="other" />
+   	 <sound class="result" key="static_object" copy="other" />
+    	<sound class="result" key="vehicle" copy="other" />
+    	<sound class="result" key="character" copy="other" />
 
 	<model mesh_filename="loot_box_3.xml" />
-	<hud_icon filename="loot_box_.png" />
+	<hud_icon filename="loot_box_3.png" />
 
 	<throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1" />
 
