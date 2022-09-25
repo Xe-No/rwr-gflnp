@@ -7222,7 +7222,7 @@
 		<effect class="result" key="vehicle" copy="terrain"/>
 		<model mesh_filename=""/>
 	</projectile>
-	<projectile class="grenade" name="Loot Drop 1" key="loot1.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0" time_to_live="60">
+	<projectile class="grenade" name="Loot Drop 1" key="loot1.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0" use_time_to_live="1" time_to_live="90">
 		<result class="notify_script" key="loot1"/>
 		<trigger class="impact">
 			<collider class="terrain" enabled="0"/>
@@ -7243,7 +7243,7 @@
 		<capacity value="0" source="rank" source_value="0.0"/>
 		<capacity value="1" source="rank" source_value="0.4"/>
 	</projectile>
-	<projectile class="grenade" name="Loot Drop 2" key="loot2.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0" time_to_live="60">
+	<projectile class="grenade" name="Loot Drop 2" key="loot2.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0" use_time_to_live="1" time_to_live="90">
 		<result class="notify_script" key="loot2"/>
 		<trigger class="impact">
 			<collider class="terrain" enabled="0"/>
@@ -7264,7 +7264,7 @@
 		<capacity value="0" source="rank" source_value="0.0"/>
 		<capacity value="1" source="rank" source_value="0.4"/>
 	</projectile>
-	<projectile class="grenade" name="Loot Drop 3" key="loot3.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0" time_to_live="60">
+	<projectile class="grenade" name="Loot Drop 3" key="loot3.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0" use_time_to_live="1" time_to_live="90">
 		<result class="notify_script" key="loot3"/>
 		<trigger class="impact">
 			<collider class="terrain" enabled="0"/>
@@ -7543,7 +7543,7 @@
 		<effect class="result" key="vehicle" copy="terrain"/>
 		<effect class="result" key="character" copy="terrain"/>
 	</projectile>
-	<projectile class="grenade" name="C-2 Obstacle-Destory Charge" key="c2_breaching_charge.projectile" slot="0" on_ground_up="0 1 0" time_to_live="60" can_be_disarmed="1" can_be_detected_by_driver="0" time_to_live_out_in_the_open="90.0" player_death_drop_owner_lock_time="90.0" drop_count_factor_on_death="1.0">
+	<projectile class="grenade" name="C-2 Obstacle-Destory Charge" key="c2_breaching_charge.projectile" slot="0" on_ground_up="0 1 0" use_time_to_live="1" time_to_live="60" can_be_disarmed="1" can_be_detected_by_driver="0" time_to_live_out_in_the_open="90.0" player_death_drop_owner_lock_time="90.0" drop_count_factor_on_death="1.0">
 		<result class="blast" radius="6.5" damage="9.0" push="1.5" decal="1" character_state="wound"/>
 		<collision class="sticky"/>
 		<trigger class="remote_detonate"/>
