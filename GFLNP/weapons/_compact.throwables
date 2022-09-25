@@ -7231,8 +7231,9 @@
 			<collider class="character" enabled="1"/>
 		</trigger>
 		<rotation class="random"/>
-		<model mesh_filename="loot_box.xml"/>
-		<hud_icon filename="loot.png"/>
+		<sound class="impact" fileref="bling.wav"/>
+		<model mesh_filename="loot_box_1.xml"/>
+		<hud_icon filename="loot_box_1.png"/>
 		<throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1"/>
 		<commonness value="0.0" can_respawn_with="0" in_stock="0"/>
 		<capacity value="0" source="rank" source_value="0.0"/>
@@ -7247,8 +7248,9 @@
 			<collider class="character" enabled="1"/>
 		</trigger>
 		<rotation class="random"/>
-		<model mesh_filename="loot2.xml"/>
-		<hud_icon filename="loot.png"/>
+		<sound class="impact" fileref="bling.wav"/>
+		<model mesh_filename="loot_box_2.xml"/>
+		<hud_icon filename="loot_box_2.png"/>
 		<throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1"/>
 		<commonness value="0.0" can_respawn_with="0" in_stock="0"/>
 		<capacity value="0" source="rank" source_value="0.0"/>
@@ -7263,8 +7265,9 @@
 			<collider class="character" enabled="1"/>
 		</trigger>
 		<rotation class="random"/>
-		<model mesh_filename="loot3.xml"/>
-		<hud_icon filename="loot.png"/>
+		<sound class="impact" fileref="bling.wav"/>
+		<model mesh_filename="loot_box_3.xml"/>
+		<hud_icon filename="loot_box_.png"/>
 		<throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1"/>
 		<commonness value="0.0" can_respawn_with="0" in_stock="0"/>
 		<capacity value="0" source="rank" source_value="0.0"/>

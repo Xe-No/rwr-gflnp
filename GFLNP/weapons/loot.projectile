@@ -9,9 +9,11 @@
 		 <collider class="character" enabled="1" />
 	</trigger> 
 	<rotation class="random" />
+	<sound class="impact" fileref="bling.wav" />
 
-	<model mesh_filename="loot_box.xml" />
-	<hud_icon filename="loot.png" />
+	<model mesh_filename="loot_box_1.xml" />
+	<hud_icon filename="loot_box_1.png" />
+
 
 	<throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1" />
 
@@ -29,9 +31,10 @@
 		 <collider class="character" enabled="1" />
 	</trigger> 
 	<rotation class="random" />
+	<sound class="impact" fileref="bling.wav" />
 
-	<model mesh_filename="loot2.xml" />
-	<hud_icon filename="loot.png" />
+	<model mesh_filename="loot_box_2.xml" />
+	<hud_icon filename="loot_box_2.png" />
 
 	<throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1" />
 
@@ -48,9 +51,10 @@
 		 <collider class="character" enabled="1" />
 	</trigger> 
 	<rotation class="random" />
+	<sound class="impact" fileref="bling.wav" />
 
-	<model mesh_filename="loot3.xml" />
-	<hud_icon filename="loot.png" />
+	<model mesh_filename="loot_box_3.xml" />
+	<hud_icon filename="loot_box_.png" />
 
 	<throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1" />
 

@@ -32,13 +32,14 @@ class DropOnKill : Tracker {
 		string t_pos = target.getStringAttribute("position");
 		// drop from 0 killing none-0
 		if (k_fid !=0 || t_fid ==0) return;		
-		if (!enemy_drop.exists(t_sgn)) return;
 
+
+		if (!enemy_drop.exists(t_sgn)) t_sgn = '';
 		ScoredResource@ r = cast<ScoredResource> (enemy_drop[t_sgn]);
+
 		if ( rand(0.0,1.0) < r.m_score ){
 			spawnInstance(m_metagame, r.m_type, r.m_key, t_pos, 0);
 		}
-		return;
 	}
 
 
@@ -66,6 +67,7 @@ class DropOnKill : Tracker {
 			string group = paras[1];
 			int num = parseInt(paras[2]);
 			// _log(type(enemy_drop['aa02s']));
+			if (!enemy_drop.exists(group)) group = '';
 			ScoredResource@ r = cast<ScoredResource> (enemy_drop[group]);
 			for (uint i=0; i<num; ++i){
 				if ( rand(0.0,1.0) < r.m_score ){

@@ -16,7 +16,7 @@ dictionary enemy_drop = {
 	{'nyto_black', ScoredResource("loot3.projectile", "projectile", 0.5)},					//黑涅托	
 
 
-	//elite_ussra
+	//elite_ussra和elite_usfmc还有部分elite_kcco	
 	{'sharp shooter', ScoredResource("loot2.projectile", "projectile", 0.1)},				//基础射手
 	{'sharp shooter elite', ScoredResource("loot2.projectile", "projectile", 0.2)},			//反器材
 	{'lone wolf', ScoredResource("loot2.projectile", "projectile", 0.2)},					//草皮
@@ -27,19 +27,10 @@ dictionary enemy_drop = {
 	{'ops', ScoredResource("loot2.projectile", "projectile", 0.2)},							//迷彩人
 	{'ksk_ops', ScoredResource("loot2.projectile", "projectile", 1.0)},						//新精英KSK
 	{'ksk_somst', ScoredResource("loot2.projectile", "projectile", 0.2)},					//KSK小弟
+	{'upa_pmc', ScoredResource("loot2.projectile", "projectile", 0.5)},						//白迷彩人能叫AH64那个
+	{'upa_terrorist', ScoredResource("loot2.projectile", "projectile", 0.5)},				//自爆哥	
 	
 
-	//elite_usfmc	
-	{'sharp shooter', ScoredResource("loot2.projectile", "projectile", 0.1)},				//基础射手，同USSRA
-	{'sharp shooter elite', ScoredResource("loot2.projectile", "projectile", 0.2)},			//反器材，同USSRA
-	{'lone wolf', ScoredResource("loot2.projectile", "projectile", 0.2)},					//草皮，同USSRA
-	{'eod', ScoredResource("loot2.projectile", "projectile", 0.1)},							//EOD喷子人，同USSRA
-	{'jugger', ScoredResource("loot2.projectile", "projectile", 0.5)},						//无畏，同USSRA
-	{'grenadier', ScoredResource("loot2.projectile", "projectile", 0.1)},					//榴弹，同USSRA
-	{'gas squar', ScoredResource("loot2.projectile", "projectile", 0.1)},					//小黄人工程兵，写了0.1，因为不稀有也不强，与USSRA不同
-	{'ops', ScoredResource("loot2.projectile", "projectile", 0.2)},							//迷彩人，同USSRA
-	{'upa_pmc', ScoredResource("loot2.projectile", "projectile", 0.5)},						//白迷彩人能叫AH64那个
-	{'upa_terrorist', ScoredResource("loot2.projectile", "projectile", 0.5)},				//自爆哥
 
 	//共用
 	{'miniboss', ScoredResource("loot2.projectile", "projectile", 0.1)},					//
@@ -54,10 +45,7 @@ dictionary enemy_drop = {
 	{'mg2', ScoredResource("loot2.projectile", "projectile", 0.2)},							//牝鹿
 	{'mg3', ScoredResource("loot2.projectile", "projectile", 0.5)},							//九头蛇
 	{'orthrus', ScoredResource("loot2.projectile", "projectile", 0.05)},					//欧特鲁斯，狗，狗还是挺烦人的，算个精英？
-	{'sharp shooter', ScoredResource("loot2.projectile", "projectile", 0.1)},				//基础射手，同USSRA
-	{'sharp shooter elite', ScoredResource("loot2.projectile", "projectile", 0.2)},			//反器材，同USSRA
-	{'lone wolf', ScoredResource("loot2.projectile", "projectile", 0.2)},					//草皮，同USSRA
-	{'eod', ScoredResource("loot2.projectile", "projectile", 0.1)},							//EOD喷子人，同USSRA
+
 
 	//elite_tx
 	
@@ -73,6 +61,6 @@ dictionary enemy_drop = {
 	{'rodelero', ScoredResource("loot2.projectile", "projectile", 0.2)},					//剑盾士，白跳跳
 	{'streltsy', ScoredResource("loot2.projectile", "projectile", 0.1)},					//重炮士
 
-	{'default_ai', ScoredResource("loot1.projectile", "projectile", 0.05)}						//普通
+	{'', ScoredResource("loot1.projectile", "projectile", 0.15)}						//普通
 
 };
