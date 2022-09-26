@@ -65,7 +65,7 @@ class ArchitectGunRun : Tracker {
 
 
 
-				Vector3 senderPos = stringToVector3(getCharacterInfo(m_metagame, characterId).getStringAttribute("position"));
+				Vector3 senderPos = stringToVector3(event.getStringAttribute("target_position"));
 				Vector3 targetPos = stringToVector3(event.getStringAttribute("target_position"));
 
 				//determining on which direction out of the 12 the current call fits the most
