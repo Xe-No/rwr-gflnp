@@ -17,6 +17,8 @@
                              projectiles_per_shot="1"
                             sight_range_modifier="1.2" 
                             carry_in_two_hands="1"
+		stab_range="0.01"
+		stab_enabled="1"
 		slot="0"
 		barrel_offset_3d="0 0 0"/>
 
@@ -30,6 +32,7 @@
     <animation state_key="recoil" stance_key="over_wall" animation_key="scarecrow_fire3" />
     <animation state_key="recoil" stance_key="crouching" animation_key="scarecrow_fire1" />
     <animation state_key="recoil" stance_key="prone" animation_key="scarecrow_fire1" />
+  <animation state_key="stabbing" animation_key="pistol whip"/>
 
     <animation state_key="reload" animation_key="scarecrow_fire1" />
     <animation state_key="hold" animation_key="scarecrow_fire1" />
@@ -51,6 +54,8 @@
     <sound class="impact" fileref="rifle_drop.wav" />
     <sound key="effect" fileref="sl_in.wav" />
     <control key="effect" value="1" />
+    <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.03" volume="1.0"/>
+    <sound key="stab_hit" fileref="impact_whip.wav" pitch_variety="0.05" volume="1.0"/>
     <model />
     <hud_icon filename="tw_scarecrow.png" />
     <commonness value="0.00000001" can_respawn_with="1" in_stock="0"/>

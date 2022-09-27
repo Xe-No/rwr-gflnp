@@ -7799,6 +7799,7 @@
 		<capacity value="1" source="rank" source_value="1"/>
 		<effect class="activated" ref="laser_soft_edge_01" lighint="0"/>
 		<effect class="activated" ref="laser_sf_center" lighint="0"/>
+		<effect class="activated" ref="alert_expand_ring" lighting="0"/>
 		<effect class="result" key="terrain" tag="ice" ref="IceCrackSmall" post_processing="0"/>
 		<effect class="result" key="terrain" tag="ice" ref="IceBurstSmall" post_processing="1"/>
 		<effect class="result" key="terrain" tag="ice" ref="BigBurst" use_surface_color="1"/>

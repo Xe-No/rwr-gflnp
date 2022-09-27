@@ -4750,13 +4750,13 @@
 		<commonness value="0.00000001" in_stock="1" can_respawn_with="1"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
-		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="hit_success_probability" value="-0.7"/>
-		<modifier class="speed" value="+0.25"/>
+		<modifier class="speed" value="+0.2"/>
 	</carry_item>
 	<carry_item key="sct_exo_2" name="SCT Tactical Conversion Exoskeleton 7/8" slot="1" transform_on_consume="sct_exo_3" drop_count_factor_on_death="0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="sct_exo_6.png"/>
@@ -4765,13 +4765,13 @@
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
-		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="hit_success_probability" value="-0.8"/>
-		<modifier class="speed" value="+0.2"/>
+		<modifier class="speed" value="+0.15"/>
 	</carry_item>
 	<carry_item key="sct_exo_3" name="SCT Tactical Conversion Exoskeleton 6/8" slot="1" transform_on_consume="sct_exo_4" drop_count_factor_on_death="0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="sct_exo_5.png"/>
@@ -4780,13 +4780,13 @@
 		<commonness value="0.0" in_stock="0" can_respawn_with="0"/>
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
-		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="hit_success_probability" value="-0.8"/>
-		<modifier class="speed" value="+0.2"/>
+		<modifier class="speed" value="+0.15"/>
 	</carry_item>
 	<carry_item key="sct_exo_4" name="SCT Tactical Conversion Exoskeleton 5/8" slot="1" transform_on_consume="sct_exo_5" drop_count_factor_on_death="0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="sct_exo_4.png"/>
@@ -4801,7 +4801,7 @@
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="hit_success_probability" value="-0.9"/>
-		<modifier class="speed" value="+0.15"/>
+		<modifier class="speed" value="+0.10"/>
 	</carry_item>
 	<carry_item key="sct_exo_5" name="SCT Tactical Conversion Exoskeleton 4/8" slot="1" transform_on_consume="sct_exo_6" drop_count_factor_on_death="0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="sct_exo_3.png"/>
@@ -4816,7 +4816,7 @@
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="hit_success_probability" value="-0.9"/>
-		<modifier class="speed" value="+0.15"/>
+		<modifier class="speed" value="+0.10"/>
 	</carry_item>
 	<carry_item key="sct_exo_6" name="SCT Tactical Conversion Exoskeleton 3/8" slot="1" transform_on_consume="sct_exo_7" drop_count_factor_on_death="0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="sct_exo_2.png"/>
@@ -4831,7 +4831,7 @@
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="hit_success_probability" value="-1.0"/>
-		<modifier class="speed" value="+0.1"/>
+		<modifier class="speed" value="+0.05"/>
 	</carry_item>
 	<carry_item key="sct_exo_7" name="SCT Tactical Conversion Exoskeleton 2/8" slot="1" transform_on_consume="sct_exo_8" drop_count_factor_on_death="0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="sct_exo_1.png"/>
@@ -4846,7 +4846,7 @@
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
 		<modifier class="hit_success_probability" value="-1.0"/>
-		<modifier class="speed" value="+0.1"/>
+		<modifier class="speed" value="+0.05"/>
 	</carry_item>
 	<carry_item key="sct_exo_8" name="SCT Tactical Conversion Exoskeleton destroyed" slot="1" drop_count_factor_on_death="0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
 		<hud_icon filename="sct_exo_0.png"/>
@@ -4860,7 +4860,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
 		<modifier class="hit_success_probability" value="-1.2"/>
-		<modifier class="speed" value="+0.05"/>
+		<modifier class="speed" value="+0.01"/>
 	</carry_item>
 	<carry_item name="Vehicle Box" key="vb1.carry_item" time_to_live_out_in_the_open="150.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="1.0" player_death_drop_owner_lock_time="150.0">
 		<hud_icon filename="hud_vehicle_box.png"/>

@@ -18,5 +18,6 @@
 
     <effect class="activated" ref="laser_soft_edge_01" lighint="0"/>
     <effect class="activated" ref="laser_sf_center" lighint="0"/>
+ <effect class="activated" ref="alert_expand_ring" lighting="0" />
 
 </projectile>
