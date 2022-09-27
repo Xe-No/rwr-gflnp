@@ -47,7 +47,7 @@
 	<model filename="gw_mg34_n.xml" />
 	<hud_icon filename="gw_mg34_n.png" />
 	
-	<commonness value="1.0" can_respawn_with="0" />
+	<commonness value="1.0" can_respawn_with="1" />
 	<inventory encumbrance="11.0" price="175.0" />
 	
 	<projectile file="bullet.projectile">

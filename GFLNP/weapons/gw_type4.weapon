@@ -38,7 +38,7 @@
 	<model filename="gw_type4.xml" />
 	<hud_icon filename="gw_type4.png" />
 	
-	<commonness value="0.15" can_respawn_with="0"/>
+	<commonness value="0.15" can_respawn_with="1"/>
 	<inventory encumbrance="10.0" price="100.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

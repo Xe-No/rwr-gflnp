@@ -51,7 +51,7 @@
     <model filename="gw_cbjms.xml" />
     <hud_icon filename="gw_cbjms.png" />
     <inventory encumbrance="3.0" price="5.0" />
-    <commonness value="1.0" can_respawn_with="1" in_stock="0"/>
+    <commonness value="1.0" can_respawn_with="1" in_stock="1"/>
 
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="1.24" kill_decay_start_time="0.35" kill_decay_end_time="0.4" />

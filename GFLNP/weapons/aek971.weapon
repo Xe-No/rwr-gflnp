@@ -34,7 +34,7 @@
 
     <model filename="aek971.xml" />
     <hud_icon filename="aek971.png" />
-    <commonness value="1" can_respawn_with="1" in_stock="0"/>
+    <commonness value="1" can_respawn_with="1" in_stock="1"/>
     <inventory encumbrance="0" price="1.0" />
 
     <projectile file="bullet.projectile">

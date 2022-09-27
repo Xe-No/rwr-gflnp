@@ -32,7 +32,7 @@
     <model filename="gw_mosin1891.xml" />
 
     <hud_icon filename="gw_mosin1891.png" />
-    <commonness value="1.0" can_respawn_with="0" in_stock="1"/>
+    <commonness value="1.0" can_respawn_with="1" in_stock="1"/>
     <inventory encumbrance="10.0" price="4.0" />
 
     <weak_hand_hold offset="0.2" />

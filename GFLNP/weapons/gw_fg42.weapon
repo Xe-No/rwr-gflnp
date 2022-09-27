@@ -33,7 +33,7 @@
 	<model filename="gw_fg42.xml" />
 	<hud_icon filename="gw_fg42.png" />
 	
-	<commonness value="1.0" can_respawn_with="0"/>
+	<commonness value="1.0" can_respawn_with="1"/>
 	<inventory encumbrance="9.0" price="700.0" />
 	
 	<projectile file="bullet.projectile">

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<weapon file="base_card_smg.weapon" key="gw_kp31.weapon" quality="card">
+<weapon file="base_SMG.weapon" key="gw_kp31.weapon" quality="card">
     <tag name="cqb"/>
     <specification retrigger_time="0.08" accuracy_factor="0.9" sustained_fire_grow_step="0.36" sustained_fire_diminish_rate="2.0" magazine_size="71" can_shoot_standing="1" suppressed="0" name="KP-31 Suomi" class="0" projectile_speed="140.0" barrel_offset="0.2"/>
     <animation key="recoil" ref="12"/>

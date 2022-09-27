@@ -29,7 +29,7 @@
     <model filename="gw_vhs.xml" />
     
     <hud_icon filename="gw_vhs.png" />
-    <commonness value="1.0" can_respawn_with="0" />
+    <commonness value="1.0" can_respawn_with="1" />
     <inventory encumbrance="10.0" price="8.0" />
     <projectile file="bullet.projectile">
         <result class="hit"  kill_probability="1.42" kill_decay_start_time="0.38" kill_decay_end_time="0.79" />
