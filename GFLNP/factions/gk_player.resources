@@ -229,6 +229,15 @@ oath
 	<weapon key="gw_ppsh41_mod_oath.weapon" />
 	<weapon key="gw_ltlx7000_6101_b_oath.weapon" />
 	<weapon key="gw_ltlx7000_6101_r_oath.weapon" />
+	<weapon key="gw_p90_2802_oath.weapon" />
+	<weapon key="gw_idwmod_oath.weapon" />
+	<weapon key="gw_kp31_310_oath.weapon" />
+	<weapon key="gw_mg5_309_oath.weapon" />
+	<weapon key="gw_mg5_309_n_oath.weapon" />
+	<weapon key="gw_dsr50_1801_oath.weapon" />
+	<weapon key="gw_an94mod_oath.weapon" />
+	<weapon key="gw_an94mod_s_oath.weapon" />
+	
 
 
 	<weapon key="gk_workbench_base.weapon" />

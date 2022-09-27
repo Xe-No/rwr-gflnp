@@ -8022,7 +8022,7 @@
 		<capacity value="20" source="rank" source_value="1"/>
 		<inventory encumbrance="3.0" price="4.0"/>
 	</projectile>
-	<projectile class="grenade" name="Inscription of the Dead" key="inscription_of_the_dead_blast.projectile" slot="0" time_to_live_out_in_the_open="0.0" pulldown_in_air="0.00001">
+	<projectile class="grenade" name="Inscription of the Dead" key="inscription_of_the_dead_blast.projectile" slot="0" time_to_live_out_in_the_open="0.0" pulldown_in_air="10">
 		<tag name="grenade"/>
 		<collision class="sticky"/>
 		<trigger class="time" time_to_live="4.0"/>

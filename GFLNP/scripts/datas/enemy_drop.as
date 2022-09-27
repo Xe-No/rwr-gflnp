@@ -6,8 +6,8 @@ dictionary enemy_drop = {
 	{'aa02', ScoredResource("loot3.projectile", "projectile", 0.1)},						//AA02
 
 	//boss_tx
-	{'ts_scarecrow', ScoredResource("loot3.projectile", "projectile", 0.5)},				//稻草人
-	{'ts_hunter', ScoredResource("loot3.projectile", "projectile", 0.5)},					//猎手	
+	{'ts_scarecrow', ScoredResource("loot3.projectile", "projectile", 0.3)},				//稻草人
+	{'ts_hunter', ScoredResource("loot3.projectile", "projectile", 0.3)},					//猎手	
 	{'ts_gager', ScoredResource("loot3.projectile", "projectile", 0.5)},					//计量官
 	{'ts_architect', ScoredResource("loot3.projectile", "projectile", 1.0)},				//建筑师
 

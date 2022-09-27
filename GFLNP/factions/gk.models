@@ -1039,6 +1039,15 @@ gw_zb26_4703.weapon
 	<model filename="gs_ltlx7000_6101.xml"><requirement class="weapon" slot="0" key="gw_ltlx7000_6101_b_oath.weapon"/></model>
 	<model filename="gs_ltlx7000_6101.xml"><requirement class="weapon" slot="0" key="gw_ltlx7000_6101_r_oath.weapon"/></model>
 
+	<model filename="gs_p90_2802.xml"><requirement class="weapon" slot="0" key="gw_p90_2802_oath.weapon"/></model>
+	<model filename="gs_kp31_310.xml"><requirement class="weapon" slot="0" key="gw_kp31_310_oath.weapon"/></model>
+	<model filename="gs_mg5_309.xml"><requirement class="weapon" slot="0" key="gw_mg5_309_oath.weapon"/></model>
+    <model filename="gs_mg5_309.xml"><requirement class="weapon" slot="0" key="gw_mg5_309_n_oath.weapon"/></model>
+	<model filename="gs_an94mod_s.xml"><requirement class="weapon" slot="0" key="gw_an94mod_s_oath.weapon"/></model>
+	<model filename="gs_an94mod.xml"><requirement class="weapon" slot="0" key="gw_an94mod_oath.weapon"/></model>
+	<model filename="gs_idwmod.xml"><requirement class="weapon" slot="0" key="gw_idwmod_oath.weapon"/></model>
+	<model filename="gc_dsr50.xml"><requirement class="weapon" slot="0" key="gw_dsr50_1801_oath.weapon"/></model>
+
 <!-- CBP -->
 	<model filename="gs_m14mod.xml"><requirement class="weapon" slot="0" key="gw_m14_bipod.weapon"/></model>
 	<model filename="gs_m14mod.xml"><requirement class="weapon" slot="0" key="gw_m14_bipod_sl.weapon"/></model>
