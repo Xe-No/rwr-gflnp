@@ -12,6 +12,6 @@
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="200.0" />
     <commonness value="0.5" in_stock="1" can_respawn_with="0" />
-    <inventory encumbrance="0.1" buy_price="15000.0" sell_price="5000" />
+    <inventory encumbrance="0.1" buy_price="35000.0" sell_price="5000" />
 
 </projectile>
