@@ -20,11 +20,14 @@
 	<call key="drop_pod_crew.call" /> -->
 
 	<!-- vehicle -->
-    <vehicle key="tank_2.vehicle" />
-    <vehicle key="apc_2.vehicle" />
+    <!-- <vehicle key="tank_2.vehicle" />
+    <vehicle key="apc_2.vehicle" /> -->
+    <vehicle key="ztz99a.vehicle" />
+    <vehicle key="zbd04a.vehicle" />
     <vehicle key="cv9040c.vehicle" />
  	<vehicle key="btr80a.vehicle" />   
- 	<vehicle key="matv.vehicle" />
+ 	<!-- <vehicle key="matv.vehicle" /> -->
+ 	<vehicle key="lynx_atv.vehicle" />
  	<vehicle key="m113.vehicle" />
 
 Armory	
@@ -88,6 +91,10 @@ Armory
     <projectile key="summon_antro.projectile" /> 
     <projectile key="summon_antro5.projectile" /> 
     <projectile key="summon_targetdrone.projectile" /> 
+
+    <projectile key="wheelchair_flare.projectile" /> 
+    <projectile key="wheelchair2_flare.projectile" /> 
+    <projectile key="lynx_atv_flare.projectile" /> 
 
 	<weapon key='binoculars.weapon' />    
 	<weapon key='cover_resource.weapon' />

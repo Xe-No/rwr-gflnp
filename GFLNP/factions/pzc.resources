@@ -27,6 +27,10 @@
     <projectile key="strv122a_flare.projectile" />
     <projectile key="cetus_flare.projectile" />
     <projectile key="jupiter_buggy_flare.projectile" />
+    <projectile key="wheelchair_flare.projectile" /> 
+    <projectile key="wheelchair2_flare.projectile" /> 
+    <projectile key="lynx_atv_flare.projectile" /> 
+    
     <call key="tank_crew.call" enabled="1"/>
     <call key="drop_pod_crew.call" enabled="1"/>
     <call key="buggy.call" enabled="1"/>

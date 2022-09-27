@@ -213,6 +213,9 @@
 	<vehicle file="strv122a.vehicle" />	
 	<vehicle file="cetus.vehicle" />	
 	<vehicle file="cha2tes.vehicle" />	
+	<vehicle file="wheelchair.vehicle" />	
+	<vehicle file="wheelchair2.vehicle" />	
+	<vehicle file="lynx_atv.vehicle" />	
 
 
 </vehicles>

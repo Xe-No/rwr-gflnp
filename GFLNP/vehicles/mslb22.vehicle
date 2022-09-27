@@ -1,4 +1,4 @@
-<vehicle name="Type 22 missile boat [Minimization]" key="mslb22.vehicle" map_view_atlas_index="11" respawn_time="300" minimum_fill_requirement="0.5" existence="one_per_faction" reserves_spawn_point="1" time_to_live="7200">
+<vehicle name="Type 22 missile boat [Minimization]" key="mslb22.vehicle" map_view_atlas_index="11" respawn_time="300" minimum_fill_requirement="0.5" existence="one_per_faction" reserves_spawn_point="0" time_to_live="7200">
 	<info credits="模型:Intrepid Team 特效:RST/Xe-No 音效:DAWEIWEI 数据:Xe-No" />
 	<tag name="metal_heavy" />
 	<tag name="vehicle" />

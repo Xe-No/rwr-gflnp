@@ -100,7 +100,7 @@
 	<projectile class="grenade" file="vflare_0.projectile" name="Type 22 missile boat drop" key="mslb22_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
 		<result class="spawn" instance_class="vehicle" instance_key="mslb22.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
 		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
-		<inventory encumbrance="2.0" buy_price="36000.0" sell_price="18000" />
+		<inventory encumbrance="2.0" buy_price="24000.0" sell_price="18000" />
 		<throwable curve_height="6.0" near_far_distance="0.0" speed_estimation_near="20.0" speed_estimation_far="20.0" max_speed="20.0" randomness="0.07" />
 	</projectile>
 
@@ -128,6 +128,21 @@
 		<result class="spawn" instance_class="vehicle" instance_key="strv122a.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
 		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
 		<inventory encumbrance="2.0" price="2500.0" sell_price="2000"/>
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="Wheelchair(Hyper) drop" key="wheelchair_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="wheelchair.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="300.0" sell_price="300"/>
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="Wheelchair drop" key="wheelchair2_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="wheelchair2.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="100.0" sell_price="100"/>
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="CS-VP16 lynx atv drop" key="lynx_atv_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="lynx_atv.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="300.0" sell_price="300"/>
 	</projectile>
 
 </projectiles>

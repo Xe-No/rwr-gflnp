@@ -298,6 +298,9 @@
 			<carry_item key="iop_optical_camo_cloak.carry_item" enabled="1"/>
 		</resources>
 	</soldier>
+	
+
+
 	heavy
 	<soldier name="HVY" firstnames_file="42LAB-HVY.name" lastnames_file="gk_serial.name" spawn_score="1" copy_from="default">
 		<character filename="gk_player.character">
@@ -701,6 +704,60 @@
 			<call key="sniper_call.call" />
 			<call key="squad_404.call" enabled="1"/>
 		</resources>
+	</soldier>
+
+	<soldier name="GT" firstnames_file="42LAB-GST3.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player.character">
+			<parameter class="encumbrance" low="14.9" high="50.0" />
+			<parameter class="detectability_prone" value="0.35" />
+			<parameter class="detectability_wounded" value="0.35" />
+			<parameter class="detectability_crouching" value="0.495" />
+			<parameter class="detectability_crouch_moving" value="0.575" />
+			<parameter class="detectability_walking" value="0.82" />
+			<parameter class="detectability_still" value="0.7" />
+			<parameter class="detectability_running" value="0.87" />
+			<parameter class="speed" value="1" />
+			<parameter class="speed_encumbered" low="0.8" high="0.35" />
+		</character>
+		<resources >
+			<weapon key='gk_supply_ss.weapon' />
+			<weapon key='med_pistol_revive.weapon' />
+			<weapon key='med_pistol_armor.weapon' />
+			<weapon key="gw_hk416c.weapon" enabled="1"/>
+			<weapon key="gw_emp_launcher.weapon" enabled="1"/>
+			<weapon key='gw_mortar_binoculars.weapon' />
+			<projectile key="ecm.projectile" enabled="1"/>
+			<projectile key="gw_emp_grenade.projectile" enabled="1"/>
+			<projectile key="tank_flare.projectile" />
+			<projectile key="lav6g_flare.projectile" />
+			<projectile key="mslb22_flare.projectile" />
+			<projectile key="cha2tes_flare.projectile" />
+			<projectile key="t90_flare.projectile" />
+			<projectile key="strv122a_flare.projectile" />
+			<projectile key="cetus_flare.projectile" />
+			<projectile key="jupiter_buggy_flare.projectile" />
+			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
+			<carry_item key="iop_x4_exo.carry_item" enabled="1"/>		
+			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
+			<carry_item key="iop_t4_exo.carry_item" enabled="1"/>
+			<carry_item key="med_optical_camo_cloak.carry_item" enabled="1"/>
+			<call key="a10_gun_run.call" />
+			<call key="ac130_gun_run.call" />
+			<call key="buggy.call" enabled="0"/>
+			<call key="humvee.call" enabled="0"/>
+			<call key="tank.call" enabled="0"/>
+			<call key="apc_1.call" enabled="0"/>
+			<call key="paratroopers1.call" enabled="1"/>
+			<call key="paratroopers2.call" enabled="0"/>
+			<call key="paratroopers_medic.call" enabled="0"/>
+			<call key="squad_404.call" enabled="1"/>
+			<call key="squad_AR.call" enabled="0"/>
+			<call key="squad_defy.call" enabled="0"/>
+			<call key="ah64_assasin.call" enabled="1"/>
+			<call key="drop_pod.call" enabled="1"/>
+			<call key="artillery_155.call" enabled="1"/>
+			<call key="401_yamato.call" enabled="1"/>
+		</resources>	
 	</soldier>
 
 	<soldier name="ant_ro635" spawn_score="1.0" squad_size_xp_cap="0.0" >
