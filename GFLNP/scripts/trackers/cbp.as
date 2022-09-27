@@ -499,13 +499,13 @@ class GFLEquipmentEvent : Tracker {
 					}else{
 						receiveCB(m_metagame, characterId, "weapon", key);
 						string command = "";
-						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' />";
 						m_metagame.getComms().send(command);
 					}
 				}else{
 					receiveCB(m_metagame, characterId, "weapon", key);
 					string command = "";
-					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' />";
 					m_metagame.getComms().send(command);
 				}
 				
@@ -529,13 +529,13 @@ class GFLEquipmentEvent : Tracker {
 					}else{
 						receiveCB(m_metagame, characterId, "weapon", key);
 						string command = "";
-						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' />";
 						m_metagame.getComms().send(command);
 					}
 				}else{
 					receiveCB(m_metagame, characterId, "weapon", key);
 					string command = "";
-					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' />";
 					m_metagame.getComms().send(command);
 				}
 				
