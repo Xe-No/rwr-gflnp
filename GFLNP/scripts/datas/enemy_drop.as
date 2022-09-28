@@ -6,29 +6,29 @@ dictionary enemy_drop = {
 	{'aa02', ScoredResource("loot3.projectile", "projectile", 0.1)},						//AA02
 
 	//boss_tx
-	{'ts_scarecrow', ScoredResource("loot3.projectile", "projectile", 0.25)},				//稻草人
-	{'ts_hunter', ScoredResource("loot3.projectile", "projectile", 0.25)},					//猎手	
-	{'ts_gager', ScoredResource("loot3.projectile", "projectile", 0.5)},					//计量官
-	{'ts_architect', ScoredResource("loot3.projectile", "projectile", 1.0)},				//建筑师
+	{'ts_scarecrow', ScoredResource("loot3.projectile", "projectile", 0.2)},				//稻草人
+	{'ts_hunter', ScoredResource("loot3.projectile", "projectile", 0.2)},					//猎手	
+	{'ts_gager', ScoredResource("loot3.projectile", "projectile", 0.4)},					//计量官
+	{'ts_architect', ScoredResource("loot3.projectile", "projectile", 0.75)},				//建筑师
 
 	//boss_prd
-	{'dop', ScoredResource("loot3.projectile", "projectile", 1.0)},							//巨剑士，白高达
-	{'nyto_black', ScoredResource("loot3.projectile", "projectile", 0.3)},					//黑涅托	
+	{'dop', ScoredResource("loot3.projectile", "projectile", 0.75)},						//巨剑士，白高达
+	{'nyto_black', ScoredResource("loot3.projectile", "projectile", 0.2)},					//黑涅托	
 
 
 	//elite_ussra和elite_usfmc还有部分elite_kcco	
-	{'sharp shooter', ScoredResource("loot2.projectile", "projectile", 0.1)},				//基础射手
+	{'sharp shooter', ScoredResource("loot2.projectile", "projectile", 0.05)},				//基础射手
 	{'sharp shooter elite', ScoredResource("loot2.projectile", "projectile", 0.1)},			//反器材
-	{'lone wolf', ScoredResource("loot2.projectile", "projectile", 0.1)},					//草皮
-	{'eod', ScoredResource("loot2.projectile", "projectile", 0.1)},							//EOD喷子人
-	{'jugger', ScoredResource("loot2.projectile", "projectile", 0.5)},						//无畏
-	{'grenadier', ScoredResource("loot2.projectile", "projectile", 0.1)},					//榴弹
-	{'gas squar', ScoredResource("loot2.projectile", "projectile", 0.3)},					//ASH哥
-	{'ops', ScoredResource("loot2.projectile", "projectile", 0.2)},							//迷彩人
+	{'lone wolf', ScoredResource("loot2.projectile", "projectile", 0.05)},					//草皮
+	{'eod', ScoredResource("loot2.projectile", "projectile", 0.05)},						//EOD喷子人
+	{'jugger', ScoredResource("loot2.projectile", "projectile", 0.4)},						//无畏
+	{'grenadier', ScoredResource("loot2.projectile", "projectile", 0.05)},					//榴弹
+	{'gas squar', ScoredResource("loot2.projectile", "projectile", 0.2)},					//ASH哥
+	{'ops', ScoredResource("loot2.projectile", "projectile", 0.1)},						//迷彩人
 	{'ksk_ops', ScoredResource("loot2.projectile", "projectile", 1.0)},						//新精英KSK
-	{'ksk_somst', ScoredResource("loot2.projectile", "projectile", 0.2)},					//KSK小弟
-	{'upa_pmc', ScoredResource("loot2.projectile", "projectile", 0.5)},						//白迷彩人能叫AH64那个
-	{'upa_terrorist', ScoredResource("loot2.projectile", "projectile", 0.5)},				//自爆哥	
+	{'ksk_somst', ScoredResource("loot2.projectile", "projectile", 0.1)},					//KSK小弟
+	{'upa_pmc', ScoredResource("loot2.projectile", "projectile", 0.4)},						//白迷彩人能叫AH64那个
+	{'upa_terrorist', ScoredResource("loot2.projectile", "projectile", 0.4)},				//自爆哥	
 	
 
 
@@ -41,25 +41,25 @@ dictionary enemy_drop = {
 	//elite_kcco
 	{'dactyl', ScoredResource("loot2.projectile", "projectile", 0.05)},						//指灵，布雷
 	{'pathfinder', ScoredResource("loot2.projectile", "projectile", 0.05)},					//尖兵，自爆
-	{'mg2', ScoredResource("loot2.projectile", "projectile", 0.2)},							//牝鹿
-	{'mg3', ScoredResource("loot2.projectile", "projectile", 0.3)},							//九头蛇
-	{'orthrus', ScoredResource("loot2.projectile", "projectile", 0.05)},					//欧特鲁斯，狗，狗还是挺烦人的，算个精英？
+	{'mg2', ScoredResource("loot2.projectile", "projectile", 0.1)},							//牝鹿
+	{'mg3', ScoredResource("loot2.projectile", "projectile", 0.2)},							//九头蛇
+	{'orthrus', ScoredResource("loot2.projectile", "projectile", 0.02)},					//欧特鲁斯，狗，狗还是挺烦人的，算个精英？
 
 
 	//elite_tx
 	
-	{'ts_smg_swap', ScoredResource("loot2.projectile", "projectile", 0.1)},					//高阶杂兵，切割者
-	{'ts_ar_swap', ScoredResource("loot2.projectile", "projectile", 0.1)},					//高阶杂兵，胡蜂
-	{'ts_rf_swap', ScoredResource("loot2.projectile", "projectile", 0.1)},					//高阶杂兵，猎鸥
-	{'ts_mg_swap', ScoredResource("loot2.projectile", "projectile", 0.1)},					//高阶杂兵，痛击者
-	{'dragoon', ScoredResource("loot2.projectile", "projectile", 0.1)},						//高阶杂兵，龙骑兵
-	{'ts_dmj', ScoredResource("loot2.projectile", "projectile", 0.1)},						//劫豹
-	{'ts_dgl', ScoredResource("loot2.projectile", "projectile", 0.1)},						//歌莉娅
+	{'ts_smg_swap', ScoredResource("loot2.projectile", "projectile", 0.05)},				//高阶杂兵，切割者
+	{'ts_ar_swap', ScoredResource("loot2.projectile", "projectile", 0.05)},					//高阶杂兵，胡蜂
+	{'ts_rf_swap', ScoredResource("loot2.projectile", "projectile", 0.05)},					//高阶杂兵，猎鸥
+	{'ts_mg_swap', ScoredResource("loot2.projectile", "projectile", 0.05)},					//高阶杂兵，痛击者
+	{'dragoon', ScoredResource("loot2.projectile", "projectile", 0.05)},					//高阶杂兵，龙骑兵
+	{'ts_dmj', ScoredResource("loot2.projectile", "projectile", 0.05)},						//劫豹
+	{'ts_dgl', ScoredResource("loot2.projectile", "projectile", 0.05)},						//歌莉娅
 
 	//elite_prd
-	{'rodelero', ScoredResource("loot2.projectile", "projectile", 0.2)},					//剑盾士，白跳跳
-	{'streltsy', ScoredResource("loot2.projectile", "projectile", 0.1)},					//重炮士
+	{'rodelero', ScoredResource("loot2.projectile", "projectile", 0.1)},					//剑盾士，白跳跳
+	{'streltsy', ScoredResource("loot2.projectile", "projectile", 0.05)},					//重炮士
 
-	{'', ScoredResource("loot1.projectile", "projectile", 0.12)}						//普通
+	{'', ScoredResource("loot1.projectile", "projectile", 0.06)}							//普通
 
 };

@@ -56,7 +56,8 @@ string checkAttr1ForAttr2(const Metagame@ metagame, string filename, string tag,
 // 	m_metagame.getComms().send(c);  
 // }
 
-array<int>@ getCommonElement(array<int>@ list1, array<int>@ list2){
+array<int>@ intersection(array<int>@ list1, array<int>@ list2){
+	// fast implement O(M+N)
 	uint i=0; uint j=0;
 	uint l1 = list1.size();
 	uint l2 = list2.size();

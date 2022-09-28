@@ -35,9 +35,14 @@ class DropOnKill : Tracker {
 
 
 		if (!enemy_drop.exists(t_sgn)) t_sgn = '';
+
+		array<const XmlElement@>@ players = getPlayers(m_metagame);
+		int player_count = players.size();
+		float dynamic_factor = (1.0 + 4.0 ) / (float(player_count) + 4.0);
 		ScoredResource@ r = cast<ScoredResource> (enemy_drop[t_sgn]);
 
-		if ( rand(0.0,1.0) < r.m_score ){
+
+		if ( rand(0.0,1.0) < r.m_score * dynamic_factor ){
 			spawnInstance(m_metagame, r.m_type, r.m_key, t_pos, 0);
 		}
 	}

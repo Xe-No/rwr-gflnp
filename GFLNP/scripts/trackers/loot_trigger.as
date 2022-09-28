@@ -41,7 +41,7 @@ class LootTrigger : Tracker {
 
 		Vector3 position = stringToVector3(event.getStringAttribute("position"));
 		array<const XmlElement@>@ players = getPlayers(m_metagame);
-		array<const XmlElement@>@ characters = getCharactersNearPosition(m_metagame, position, 0, 40.0);
+		array<const XmlElement@>@ characters = getCharactersNearPosition(m_metagame, position, 0, 50.0);
 		array<int> player_cids;
 		array<int> near_cids;
 
@@ -52,7 +52,7 @@ class LootTrigger : Tracker {
 		for (uint i = 0; i < characters.size(); ++i) {
 			near_cids.insertLast(characters[i].getIntAttribute('id')) ;
 		}
-		array<int> cids = getCommonElement(player_cids, near_cids);
+		array<int> cids = intersection(player_cids, near_cids);
 		_log('P|N|C:'+ player_cids.size()+' ' + near_cids.size() + ' ' + cids.size());
 
 		for (uint i = 0; i < cids.size(); ++i) {

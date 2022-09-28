@@ -1930,11 +1930,12 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("halloween_box_1.carry_item", "carry_item", 0.5f ),		//南瓜
 				ScoredResource("xmas_box.carry_item", "carry_item", 0.1f ),				//圣诞
 				ScoredResource("gift_box_1.carry_item", "carry_item", 0.3f ),			//蓝
-				ScoredResource("gift_box_2.carry_item", "carry_item", 0.2f ),			//紫
-				ScoredResource("gift_box_3.carry_item", "carry_item", 0.1f ),			//泰坦
+				ScoredResource("gift_box_2.carry_item", "carry_item", 0.3f ),			//紫
+				ScoredResource("gift_box_3.carry_item", "carry_item", 0.2f ),			//泰坦
 				ScoredResource("gi_black_card.carry_item", "carry_item", 0.5f ),		//黑卡
-				ScoredResource("gi_contract_equip.carry_item", "carry_item", 1.5f ),	//装备
-				ScoredResource("gi_contract_tdoll.carry_item", "carry_item", 1.5f )		//白卡
+				ScoredResource("gi_contract_equip.carry_item", "carry_item", 1.3f ),	//装备
+				ScoredResource("gi_contract_tdoll.carry_item", "carry_item", 1.3f ),	//白卡
+				ScoredResource("gift_box_community_1.carry_item", "carry_item", 0.2f )	//CB1
 
 			}
 		};   
@@ -2000,6 +2001,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("it_engine_oil.carry_item", "carry_item", 3.0f ),		//机油
 				ScoredResource("it_4080ti.carry_item", "carry_item", 5.0f ),			//显卡
 				ScoredResource("it_fire_control.carry_item", "carry_item", 15.0f ),		//火控
+				// ScoredResource("drop_pod_maxops_flare.projectile", "projectile", 5.0f， 2),		//CB全装AI舱降信标
 				ScoredResource("it_cpu.carry_item", "carry_item", 15.0f ),				//CPU
 				ScoredResource("gi_battle_report.carry_item", "carry_item", 0.5f),		//作战报告书
 				ScoredResource("gift_box_1.carry_item", "carry_item", 10.0f ),			//蓝

@@ -62,9 +62,15 @@ class AH64GunRun : Tracker {
 				int callId = event.getIntAttribute("id");
 				int factionId = event.getIntAttribute("faction_id");
 
-				Vector3 senderPos = stringToVector3(getCharacterInfo(m_metagame, characterId).getStringAttribute("position"));
+				Vector3 senderPos = stringToVector3(event.getStringAttribute("target_position"));
 				Vector3 targetPos = stringToVector3(event.getStringAttribute("target_position"));
 
+				const XmlElement@ character = getCharacterInfo(m_metagame, characterId);
+				int playerId = character.getIntAttribute("player_id");
+				const XmlElement@ player = getPlayerInfo(m_metagame, playerId);
+				if(player !is null){
+				senderPos = stringToVector3(getCharacterInfo(m_metagame, characterId).getStringAttribute("position"));
+				};
 				//determining on which direction out of the 12 the current call fits the most
 				int direction = gunRunDirection(senderPos, targetPos);
 				Vector3 AH64Pos = senderPos.add(Vector3(0, 50, 0));
