@@ -60,6 +60,6 @@ dictionary enemy_drop = {
 	{'rodelero', ScoredResource("loot2.projectile", "projectile", 0.1)},					//剑盾士，白跳跳
 	{'streltsy', ScoredResource("loot2.projectile", "projectile", 0.05)},					//重炮士
 
-	{'', ScoredResource("loot1.projectile", "projectile", 0.06)}							//普通
+	{'', ScoredResource("loot1.projectile", "projectile", 0.08)}							//普通
 
 };

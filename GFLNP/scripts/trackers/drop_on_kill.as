@@ -39,6 +39,7 @@ class DropOnKill : Tracker {
 		array<const XmlElement@>@ players = getPlayers(m_metagame);
 		int player_count = players.size();
 		float dynamic_factor = (1.0 + 4.0 ) / (float(player_count) + 4.0);
+		if (t_sgn == '') dynamic_factor = 1.0;
 		ScoredResource@ r = cast<ScoredResource> (enemy_drop[t_sgn]);
 
 
@@ -74,7 +75,7 @@ class DropOnKill : Tracker {
 			// _log(type(enemy_drop['aa02s']));
 			if (!enemy_drop.exists(group)) group = '';
 			ScoredResource@ r = cast<ScoredResource> (enemy_drop[group]);
-			for (uint i=0; i<num; ++i){
+			for (int i=0; i<num; ++i){
 				if ( rand(0.0,1.0) < r.m_score ){
 					// spawnInstanceNearPlayer(m_metagame, sender_pid, r.m_key, r.m_type);
 					addItemInBackpack(m_metagame, cid, Resource(r.m_key, r.m_type));
