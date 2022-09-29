@@ -18,17 +18,18 @@ dictionary enemy_drop = {
 
 	//elite_ussra和elite_usfmc还有部分elite_kcco	
 	{'sharp shooter', ScoredResource("loot2.projectile", "projectile", 0.05)},				//基础射手
-	{'sharp shooter elite', ScoredResource("loot2.projectile", "projectile", 0.1)},			//反器材
+	{'sharp shooter elite', ScoredResource("loot2.projectile", "projectile", 0.07)},			//反器材
 	{'lone wolf', ScoredResource("loot2.projectile", "projectile", 0.05)},					//草皮
 	{'eod', ScoredResource("loot2.projectile", "projectile", 0.05)},						//EOD喷子人
 	{'jugger', ScoredResource("loot2.projectile", "projectile", 0.4)},						//无畏
 	{'grenadier', ScoredResource("loot2.projectile", "projectile", 0.05)},					//榴弹
-	{'gas squar', ScoredResource("loot2.projectile", "projectile", 0.2)},					//ASH哥
-	{'ops', ScoredResource("loot2.projectile", "projectile", 0.1)},						//迷彩人
+	{'gas squar', ScoredResource("loot2.projectile", "projectile", 0.25)},					//ASH哥
+	{'ops', ScoredResource("loot2.projectile", "projectile", 0.2)},							//迷彩人
 	{'ksk_ops', ScoredResource("loot2.projectile", "projectile", 1.0)},						//新精英KSK
 	{'ksk_somst', ScoredResource("loot2.projectile", "projectile", 0.1)},					//KSK小弟
-	{'upa_pmc', ScoredResource("loot2.projectile", "projectile", 0.4)},						//白迷彩人能叫AH64那个
-	{'upa_terrorist', ScoredResource("loot2.projectile", "projectile", 0.4)},				//自爆哥	
+	{'upa_pmc', ScoredResource("loot2.projectile", "projectile", 0.5)},						//白迷彩人能叫AH64那个
+	{'upa_terrorist', ScoredResource("loot2.projectile", "projectile", 0.5)},				//自爆哥	
+	
 	
 
 
@@ -60,6 +61,6 @@ dictionary enemy_drop = {
 	{'rodelero', ScoredResource("loot2.projectile", "projectile", 0.1)},					//剑盾士，白跳跳
 	{'streltsy', ScoredResource("loot2.projectile", "projectile", 0.05)},					//重炮士
 
-	{'', ScoredResource("loot1.projectile", "projectile", 0.08)}							//普通
+	{'', ScoredResource("loot1.projectile", "projectile", 0.05)}							//普通
 
 };

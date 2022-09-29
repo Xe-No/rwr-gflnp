@@ -102,7 +102,7 @@ class GiftItemDeliveryRandomRewarder : ItemDeliveryRewarder {
 		}
 
 		TaskSequencer@ tasker = m_metagame.getTaskManager().newTaskSequencer(); 
-		tasker.add(DelayedCallTask(CallIntInt(CALL_INT_INT(this.doDelayedReward), playerId, characterId), 0.0));
+		tasker.add(DelayedCallTask(CallIntInt(CALL_INT_INT(this.doDelayedReward), playerId, characterId), 2.0));
 	}
 
 	// ------------------------------------------------------------------------------------------------

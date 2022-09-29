@@ -1874,8 +1874,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("cigarettes.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("dollars.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("gamingdevice.carry_item", "carry_item", 2.0f ), 
-				ScoredResource("gem.carry_item", "carry_item", 1.0f ), 
-				ScoredResource("painting.carry_item", "carry_item", 1.0f ), 
+				ScoredResource("gem.carry_item", "carry_item", 2.0f ), 
+				ScoredResource("painting.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("horny_magazine.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("comic_book.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("rwr_handbook.carry_item", "carry_item", 2.0f ), 
@@ -1884,18 +1884,18 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("beer_can.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("lighter.carry_item", "carry_item", 2.0f ),    
 				ScoredResource("steroids.carry_item", "carry_item", 2.0f ),   
-				ScoredResource("teddy.carry_item", "carry_item", 1.0f ),       
-				ScoredResource("bible.carry_item", "carry_item", 1.0f ),  
-				ScoredResource("koran.carry_item", "carry_item", 1.0f ),  
+				ScoredResource("teddy.carry_item", "carry_item", 2.0f ),       
+				ScoredResource("bible.carry_item", "carry_item", 2.0f ),  
+				ScoredResource("koran.carry_item", "carry_item", 2.0f ),  
 				ScoredResource("chewing_gum.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("bizarre_rubber_bullet.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("chocolate.carry_item", "carry_item", 2.0f ), 
-				ScoredResource("dollars_300.carry_item", "carry_item", 1.0f ),  
+				ScoredResource("dollars_300.carry_item", "carry_item", 2.0f ),  
 				ScoredResource("gold_bar.carry_item", "carry_item", 0.5f ),  
 				ScoredResource("digcoin.carry_item", "carry_item", 0.5f ),  
 				ScoredResource("energy_drink.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("fancy_sunglasses.carry_item", "carry_item", 2.0f ), 
-				ScoredResource("radio.carry_item", "carry_item", 1.0f ), 
+				ScoredResource("radio.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("razor.carry_item", "carry_item", 2.0f ),    
 				ScoredResource("sheaths.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("sheaths_xxl.carry_item", "carry_item", 2.0f ),   
@@ -1908,21 +1908,21 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("ipoo_player_green.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("ipoo_player_pink.carry_item", "carry_item", 1.0f ),    
 				ScoredResource("playing_cards.carry_item", "carry_item", 2.0f ), 
-				ScoredResource("underpants.carry_item", "carry_item", 3.0f ),  
-				ScoredResource("kamasutra.carry_item", "carry_item", 3.0f ),  
+				ScoredResource("underpants.carry_item", "carry_item", 1.0f ),  
+				ScoredResource("kamasutra.carry_item", "carry_item", 1.0f ),  
 				ScoredResource("cd.carry_item", "carry_item", 0.5f ),  
-				ScoredResource("pickashoe.carry_item", "carry_item", 1.0f ),  
+				ScoredResource("pickashoe.carry_item", "carry_item", 2.0f ),  
 				ScoredResource("it_p90.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("it_p9.carry_item", "carry_item", 2.0f ), 
 				ScoredResource("it_0.carry_item", "carry_item", 2.0f ), 				//以上为基础垃圾
-				ScoredResource("redstar.carry_item", "carry_item", 2.0f ),	
+				ScoredResource("redstar.carry_item", "carry_item", 0.5f ),	
 				ScoredResource("it_qlz.carry_item", "carry_item", 2.0f ),	
 				ScoredResource("it_fire_control.carry_item", "carry_item", 1.0f ),	
 				ScoredResource("it_cpu.carry_item", "carry_item", 1.0f ),	
 				ScoredResource("it_broken_cpu.carry_item", "carry_item", 2.0f ),	
 				ScoredResource("it_broken_fire_control.carry_item", "carry_item", 2.0f ),	
 				ScoredResource("it_ecigar.carry_item", "carry_item", 2.0f ),	
-				ScoredResource("it_mtomato.carry_item", "carry_item", 3.0f ),			//以上为特殊垃圾
+				ScoredResource("it_gundam.carry_item", "carry_item", 0.5f ),			//以上为特殊垃圾
 				ScoredResource("play_box.carry_item", "carry_item", 0.5f ),				//玩具
 				ScoredResource("newyear_box.carry_item", "carry_item", 0.5f ),			//新年
 				ScoredResource("token_box.carry_item", "carry_item", 0.5f ),			//信物
@@ -1956,8 +1956,8 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		//loot2
 		array<array<ScoredResource@>> rewardPasses = {
 			{
-				ScoredResource("gold_bar.carry_item", "carry_item", 10.0f ),  		//金条
-		        ScoredResource("gem.carry_item", "carry_item", 10.0f ),				//钻石
+				ScoredResource("gold_bar.carry_item", "carry_item", 10.0f ),  			//金条
+		        ScoredResource("gem.carry_item", "carry_item", 10.0f ),					//钻石
 				ScoredResource("it_gundam.carry_item", "carry_item", 1.0f ),			//1Wrp高达
 				ScoredResource("it_plashspeed.carry_item", "carry_item", 2.0f ),		//不认识，但是挺贵的
 				ScoredResource("it_2099.carry_item", "carry_item", 3.0f ),				//2099
@@ -1992,7 +1992,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 		array<Resource@> deliveryList = {
 			 Resource("loot3.carry_item", "carry_item")
 		};
-		//loot2
+		//loot3
 		array<array<ScoredResource@>> rewardPasses = {
 			{
 				ScoredResource("it_gundam.carry_item", "carry_item", 1.5f ),			//1Wrp高达
@@ -2008,7 +2008,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gift_box_2.carry_item", "carry_item", 10.0f ),			//紫
 				ScoredResource("gift_box_3.carry_item", "carry_item", 3.0f ),			//泰坦
 				ScoredResource("gift_box_community_1.carry_item", "carry_item", 1.0f ),	//CB1
-		        ScoredResource("gi_black_card.carry_item", "carry_item", 5.0f),  	//3张黑卡
+		        ScoredResource("gi_black_card.carry_item", "carry_item", 5.0f),  		//黑卡
 				ScoredResource("newyear_box.carry_item", "carry_item", 5.0f ),			//新年
 				ScoredResource("token_box.carry_item", "carry_item", 5.0f ),			//信物
 				ScoredResource("vb1.carry_item", "carry_item", 3.0f ),					//载具

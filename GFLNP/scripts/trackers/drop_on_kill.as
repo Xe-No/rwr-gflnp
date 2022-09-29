@@ -38,7 +38,10 @@ class DropOnKill : Tracker {
 
 		array<const XmlElement@>@ players = getPlayers(m_metagame);
 		int player_count = players.size();
-		float dynamic_factor = (1.0 + 4.0 ) / (float(player_count) + 4.0);
+		float dynamic_factor = (1.0 + 7.0 ) / (float(player_count) + 7.0);
+		if(player_count > 8){
+			dynamic_factor = 9.0 / ((float(player_count) - 9)/2 + 18.0);
+		}
 		if (t_sgn == '') dynamic_factor = 1.0;
 		ScoredResource@ r = cast<ScoredResource> (enemy_drop[t_sgn]);
 
