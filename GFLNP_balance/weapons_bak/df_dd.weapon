@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="df_dd.weapon">
+    <specification retrigger_time="5"   
+    accuracy_factor="1" 
+    sustained_fire_grow_step="1.2" 
+    sustained_fire_diminish_rate="0.6" 
+    sight_range_modifier="25.65"
+    ai_sight_range_modifier="5.75" 
+    magazine_size="40" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0" 
+    suppressed="0" 
+    name="DF-11" 
+    class="0" 
+    projectile_speed="100.0" 
+    slot="2" 
+    barrel_offset_3d="0 0 0"
+    projectiles_per_shot="1"
+    sight_height_offset="2.0" />
+    
+    <model mesh_filename="" texture_filename="" />      <!-- 模型文件 对应贴图 -->
+    <hud_icon filename="hud_hornet.png" />              <!-- 武器装备图标 --> 
+    <commonness value="0.0" />                          <!-- 出现概率 0.0 不会以自然方式生成 -->
+
+
+<ballistics curve_height="100.0" near_far_distance="1.0"  speed_estimation_near="10.0" speed_estimation_far="100.0" max_speed="300.0" randomness="0.05" />
+    <!-- <ballistics  near_far_distance="0" speed_estimation_near="80.0" speed_estimation_far="80.0" max_speed="50.0" tweak_factor="1.8" randomness="0.0" /> -->
+ <!-- 
+    curve_height 弹道高度   near_far_distance 武器近/远模式，目标距离武器的距离 超过0时为远射 小于为近射   speed_estimation_near近射模式速度预估 speed_estimation_far远射模式速度预估
+                 max_speed 武器最大速度 最大就是50  米/秒  tweak_factor  调整射程  randomness  随机性 散步 -->
+
+    <projectile file="df_dd.projectile" />   <!-- 子弹模型和参数 -->
+
+    <effect class="muzzle" ref="LawMuzzle" />    <!-- 枪口火焰 -->
+    <effect class="muzzle" ref="UpDust" />         <!--  枪口烟雾 -->
+
+    <sound key="fire" fileref="df_shot.wav" volume="15.5" pitch_variety="0.0" />  <!-- 音效文件 -->
+
+
+</weapon>
+    <!-- retrigger_time="5.5" 发射间隔
+    accuracy_factor="1"  准确度
+    sustained_fire_grow_step="1.2"  后坐力
+    sustained_fire_diminish_rate="0.6"  后坐力回复
+    sight_range_modifier="1.65"   视野
+    ai_sight_range_modifier="0.75"  AI视野
+    magazine_size="-1"    弹夹数量 -1 无限
+    can_shoot_standing="0"   可以站立
+    can_shoot_crouching="0"   可以蹲着
+    suppressed="0"           是否消音
+    name="HJ-9 ATGM"   武器名称     
+    class="0"      自动开火
+    projectile_speed="100.0"    子弹最大速度 米/秒
+    slot="2"      槽位 2 代表载具 1副武器 0主武器 
+    barrel_offset_3d="0 0 0"   枪口到扳机位置 载具是到武器原点的位置  调整的是武器和子弹的位置
+    projectiles_per_shot="1"    每一发射出几发
+    sight_height_offset="2.0"     -->

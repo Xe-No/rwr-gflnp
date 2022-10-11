@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Tank cannon" slot="1" pulldown_in_air="2.0" radius="0.4" key="401_yamato_cannon_larger.projectile">
+    <tag name="rocket"/>
+    <result class="blast" radius="30" damage="30.0" push="3.0" decal="1" />
+    <trigger class="impact" />
+    <rotation class="motion" />
+    <model mesh_filename="" />
+
+    <commonness value="0.0" />
+
+
+    <sound class="result" key="other" fileref="380mm_impact.wav" />
+
+    <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
+
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+	<effect class="activated" ref="401_yamato_cannon_trail_center_larger"/>
+    <effect class="activated" ref="401_yamato_cannon_trail_ambient_larger"/>	
+    <effect class="activated" ref="401_yamato_cannon_activated_trace_01"/>	
+    <effect class="activated" ref="401_yamato_cannon_activated_trace_03"/>	
+    <effect class="result" key="terrain" ref="401_yamato_cannon_result_01"/>	
+    <effect class="result" key="terrain" ref="401_yamato_cannon_result_02"/>	
+    <effect class="result" key="terrain" ref="401_yamato_cannon_result_03_larger"/>	
+	<trail probability="1" key="401_yamoato_trail_larger"/>
+	
+	<effect class="result" key="other" copy="terrain"/>
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+
+</projectile>

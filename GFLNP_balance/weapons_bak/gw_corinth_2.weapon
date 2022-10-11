@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="gw_corinth_2.weapon">
+    <tag name="gl" />
+    <specification 
+  retrigger_time="1.2"   
+  accuracy_factor="0.8" 
+  sustained_fire_grow_step="4.0" 
+  sustained_fire_diminish_rate="0.6" 
+  magazine_size="4" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="Corinth buckshot" 
+  class="4"
+  burst_shots="1"   
+  sight_range_modifier="1.2"  
+  projectile_speed="80.0" 
+  barrel_offset="0.2" />
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+
+<animation state_key="walking_backwards"        animation_key="titania_walkback" />
+<animation state_key="hold_casual"            animation_key="titania_casual" />
+<animation state_key="running"              animation_key="titania_running" />
+<animation state_key="hold"               animation_key="titania_aim" />
+<animation state_key="walking"              animation_key="titania_walking" />
+
+    <animation state_key="reload" animation_key="reloading, paw20" />
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode"/>
+
+    <next_in_chain key="gw_corinth.weapon" share_ammo="0" />
+
+    <sound key="fire" fileref="gw_corinth_shoot_2.wav" pitch_variety="0.1" volume="0.3"/>
+    <sound key="magazine_out" fileref="gw_corinth_out_2.wav" volume="0.6"/>
+    <sound key="magazine_in" fileref="gw_corinth_in_2.wav" volume="0.6"/>
+    <sound key="cycle" fileref="gw_corinth_pull.wav" volume="0.6"/>
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="gw_corinth.xml" />
+
+    <hud_icon filename="gw_corinth_2.png" />
+    <commonness value="1.0" can_respawn_with="0" />
+    <inventory encumbrance="10.0" price="200.0" />
+   
+                                       
+    <weak_hand_hold offset="0.0" />
+    
+    
+    <projectile file="gw_corinth_bullet.projectile">
+    </projectile>
+    
+    <stance state_key="running" accuracy="0.1" />
+    <stance state_key="walking" accuracy="0.4" />
+    <stance state_key="crouch_moving" accuracy="0.15" />
+    <stance state_key="prone_moving" accuracy="0.02" />
+
+    <stance state_key="standing" accuracy="0.8" />
+    <stance state_key="crouching" accuracy="0.95" />
+    <stance state_key="prone" accuracy="1.0" />
+    <modifier class="speed" value="-0.05" />    
+</weapon>

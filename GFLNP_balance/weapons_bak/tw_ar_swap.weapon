@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_AR.weapon" key="tw_ar_swap.weapon" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0">
+    <tag name="assault" />
+    <specification 
+  retrigger_time="0.123" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.25" 
+  sustained_fire_diminish_rate="1.5" 
+  magazine_size="50" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="S.F.SWAP Assault Rifle" 
+  class="0" 
+  projectile_speed="140.0" />
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, l85a2" />
+
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+
+    <sound key="fire" fileref="tw_ar_shot.wav" pitch_variety="0.06" />
+    <sound key="magazine_out" fileref="tw_ar_clip_out.wav" />
+    <sound key="magazine_in" fileref="tw_ar_clip_in.wav" />
+    <sound key="cycle" fileref="tw_ar_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="tw_ar_swap.xml" />
+
+    <hud_icon filename="tw_ar.png" />
+    <commonness value="0.1" can_respawn_with="1" in_stock="0"/>
+    <inventory encumbrance="10.0" price="2.0" />
+
+    <projectile file="bullet.projectile">
+	    <result class="hit" kill_probability="1.77" kill_decay_start_time="0.4" kill_decay_end_time="0.78" />
+      <trail probability="1.0" key="laser_red"/>
+    </projectile>
+
+    <effect class="muzzle" ref="ejection" />
+    <effect class="muzzle" ref="muzzle_gf" />
+</weapon>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="targetdrone summoner" key="summon_targetdrone.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0.0">
+    <tag name="grenade" />
+
+
+
+    <trigger class="time" time_to_live="3"/>
+    <result class="spawn" instance_class="soldier" instance_key="targetdrone" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 8" direction_spread="0.0 0.0" />   
+
+    <rotation class="random" />
+
+    <model mesh_filename="summon_grenade.xml" />
+    <hud_icon filename="hud_unknown.png" />
+
+    <throwable curve_height="6.0" near_far_distance="9.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="13.0" randomness="0.07" />
+
+    <!-- projectile slot 0 is used for hand grenade items currently -->
+    <!-- bound to change -->
+    <commonness value="0.05" />
+    <capacity value="1" source="rank" source_value="1" />
+    <inventory encumbrance="3.0" price="4.0" />
+
+    <sound class="result" key="other" fileref="ding.wav" />  
+
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+
+</projectile>

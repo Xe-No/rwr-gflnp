@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="EMP grenade" key="gw_emp_grenade.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0">
+    <tag name="grenade" />
+
+    <result class="notify_script" key="emp_g" />
+    <trigger class="time" time_to_live="2.7"/>
+    <rotation class="random" />
+
+    <model mesh_filename="gw_emp_grenade.xml" />
+    <hud_icon filename="gw_emp_grenade.png" />
+
+    <throwable curve_height="7.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="20.0" max_speed="17.0" randomness="0.07" />
+
+    <!-- projectile slot 0 is used for hand grenade items currently -->
+    <!-- bound to change -->
+    <commonness value="0.0" can_respawn_with="0" in_stock="1" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="4" source="rank" source_value="10.0" />
+    <inventory encumbrance="2.0" price="500.0" />
+
+
+    <sound class="result" key="other" fileref="gw_emp_blast.wav" />
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+    <effect class="result" key="other" ref="thunder_ball_thunderball_blast" />
+    <effect class="result" key="terrain" copy="other" />
+    <effect class="result" key="static_object" copy="other" />
+    <effect class="result" key="vehicle" copy="other" />
+    <effect class="result" key="character" copy="other" />
+	
+</projectile>

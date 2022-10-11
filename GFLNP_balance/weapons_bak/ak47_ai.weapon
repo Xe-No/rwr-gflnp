@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_AR.weapon" key="ak47_ai.weapon" time_to_live_out_in_the_open="5.0" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0">
+    <tag name="assault" />
+    <specification 
+  retrigger_time="0.123" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.47" 
+  sustained_fire_diminish_rate="1.23" 
+  magazine_size="30" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="AK47" 
+  class="0" 
+  sight_range_modifier="1.2"
+  projectile_speed="160.0" />
+
+  <next_in_chain key="ak47_ai_gl.weapon" share_ammo="0" />
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, ak47" />
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" />
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+
+    <sound key="fire" fileref="ak47_shot.wav" pitch_variety="0.06" volume="1.0"/>
+    <sound key="magazine_out" fileref="ak762_clip_out.wav" />
+    <sound key="magazine_in" fileref="ak762_clip_in.wav" />
+    <sound key="cycle" fileref="ak762_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="ak47_ai.xml" />
+
+    <hud_icon filename="gw_ak47.png" />
+    <commonness value="1.0" can_respawn_with="1" in_stock="0"/>
+    <inventory encumbrance="10.0" price="2.0" />
+
+    <projectile file="bullet.projectile">
+	    <result class="hit" kill_probability="1.62" kill_decay_start_time="0.6" kill_decay_end_time="0.75" />
+    </projectile>
+    
+    <stance state_key="running" accuracy="0.4" />
+    <stance state_key="walking" accuracy="0.675" />
+    <stance state_key="crouch_moving" accuracy="0.75" />
+    <stance state_key="prone_moving" accuracy="0.3" />
+
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.95" />
+    <stance state_key="prone" accuracy="1.0" />
+    
+    <modifier class="speed" value="-0.025" />
+</weapon>

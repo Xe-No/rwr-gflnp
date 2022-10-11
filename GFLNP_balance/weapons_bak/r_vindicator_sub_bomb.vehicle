@@ -1,0 +1,30 @@
+<vehicle name="Vindicator Bomb" key="r_vindicator_sub_bomb.vehicle" time_to_live="1.05" >
+	<tire_set offset="0.0 0.0 0.01" radius="0.01" />
+	<tire_set offset="0.0 0.0 -0.01" radius="0.01" />
+	
+	<physics max_health="0.9" mass="80" extent="0 0 0" offset="0 0.0 0" top_offset="0 0 0" collision_model_pos="0 0 0" 
+	collision_model_extent="0 0 0" visual_offset="0 0 0" /> 
+	<control max_speed="0.0" acceleration="0" max_reverse_speed="0.0" max_rotation="0.8" max_water_depth="1.9" />
+		
+	<visual class="chassis" mesh_filename="flare_stick.mesh" texture_filename="flare_stick.png" />
+
+	<!--
+	<effect event_key="destroy"  key="other" ref="spread_line"/>
+	<effect event_key="destroy" key="other" ref="blast_smoke_cross_short"/>
+	-->
+	<effect event_key="cleanup" key="other" ref="spread_line"/>
+	<effect event_key="cleanup" key="other" ref="blast_smoke_cross_short"/>
+	
+	<event>
+		<trigger class="destroy" />
+    <result class="spawn" instance_class="projectile" instance_key="r_vindicator_sub_sub_shrapnel.projectile" 
+	min_amount="18" max_amount="18" offset="0 0 0" position_spread="0 0" direction_spread="0.125 0.05" />
+	</event>
+	
+	<event>
+		<trigger class="destroy" />
+    <result class="spawn" instance_class="projectile" instance_key="r_vindicator_sub_sub_missile.projectile" 
+	min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0.0 0.1" />
+	</event>
+    
+</vehicle>

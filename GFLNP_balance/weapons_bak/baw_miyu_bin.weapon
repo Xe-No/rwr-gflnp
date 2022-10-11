@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_cb.weapon" key="baw_miyu_bin.weapon">
+    <info credits="模型:0v0Blackhawk 绑骨/数据/特效:Xe-No" />
+    <tag name="sniper"/>
+    <specification 
+        name="Recycle Bin"
+        retrigger_time="100" 
+        accuracy_factor="1.0" 
+        sustained_fire_grow_step="0.40" 
+        sustained_fire_diminish_rate="1.2" 
+        magazine_size="-1" 
+        can_shoot_standing="1" 
+        suppressed="0" 
+        class="0" 
+        projectile_speed="100.0" />
+    <next_in_chain key="baw_miyu.weapon" share_ammo="0"/>
+
+    <projectile file="none.projectile" />
+
+    <animation state_key="recoil"                           animation_key="0 pose" />
+    <animation state_key="hold"                             animation_key="0 pose" />
+    <animation state_key="hold_on_wall"                     animation_key="0 pose" />
+    <animation state_key="still_against_wall"               animation_key="0 pose" />
+    <animation state_key="hold_casual"                      animation_key="0 pose" />
+    <animation state_key="crouching"                        animation_key="0 pose" />
+    <animation state_key="prone_still"                      animation_key="0 pose" />
+    <animation state_key="running"                          animation_key="0 pose" />
+    <animation state_key="walking"                          animation_key="0 pose" />
+    <animation state_key="walking_backwards"                animation_key="0 pose" />
+    <animation state_key="crouch_moving"                    animation_key="0 pose" />
+    <animation state_key="crouch_moving_backwards"          animation_key="0 pose" />
+    <animation state_key="prone_moving"                     animation_key="0 pose" />
+
+    <sound key="fire" fileref="gw_mosin1891.wav" volume="1.0"/>
+    <sound key="cycle" fileref="mosin_cycle.wav"/>
+    <sound key="magazine_out" fileref="sniper_clip_out.wav"/>
+    <sound key="magazine_in" fileref="sniper_clip_in.wav"/>
+    <sound key="cycle_out" fileref="mosin_cycle_out.wav"/>
+    <sound key="cycle_in" fileref="mosin_cycle_in.wav"/>
+    <sound class="impact" fileref="rifle_drop.wav"/>
+    <model filename=""/>
+	    <commonness value="0" can_respawn_with="0" in_stock="1" /> 
+    <addon_model filename="baw_miyu_bin.xml"/>
+    <hud_icon filename="baw_miyu.png"/>
+    <inventory encumbrance="10.0" price="1220.0"/>
+    <modifier class="detectability" value="-0.2" />
+    <modifier class="speed" value="-0.7" /> 
+
+
+</weapon>

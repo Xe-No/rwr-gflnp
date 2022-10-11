@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Capturer's Aim" key="capturers_aim.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0.0" pulldown_in_air="10">
+    <tag name="grenade" />
+
+
+        <collision class="sticky"/>  
+    <trigger class="time" time_to_live="0.4"/>
+    <result class="spawn" instance_class="projectile" instance_key="capturers_aim_blast.projectile" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+
+    <rotation class="random" />
+    <animation key="throw" animation_key="recoil, capturers_aim" />
+
+    <model mesh_filename="ammo.xml" />
+    <hud_icon filename="hud_capturers_aim.png" />
+
+    <throwable curve_height="1.0" near_far_distance="0.0" speed_estimation_near="150.0" speed_estimation_far="150.0" max_speed="150.0" randomness="0.0" tweak_factor="4.8"/>
+
+    <!-- projectile slot 0 is used for hand grenade items currently -->
+    <!-- bound to change -->
+    <commonness value="0.05" />
+    <capacity value="10" source="rank" source_value="1" />
+    <inventory encumbrance="3.0" price="4.0" />
+
+
+
+
+</projectile>

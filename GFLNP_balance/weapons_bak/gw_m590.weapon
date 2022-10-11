@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_SG.weapon" key="gw_m590.weapon">
+    <tag name="cqb" />
+    <specification 
+  retrigger_time="-1.0" 
+  accuracy_factor="0.55" 
+  sustained_fire_grow_step="2.5" 
+  sustained_fire_diminish_rate="0.9" 
+  magazine_size="8" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="Mossberg 590" 
+  class="1" 
+  reload_one_at_a_time="1" 
+  sight_range_modifier="1.0" 
+  projectile_speed="120.0" 
+  projectiles_per_shot="6" />
+
+    <animation state_key="recoil" ref="27" />
+    <animation state_key="cycle" ref="28" />
+    <animation state_key="reload" ref="29" />
+    <sound key="fire" fileref="mossberg500_fire.wav" pitch_variety="0.08" volume="1.0" />
+    <sound key="cycle" fileref="sg_cycle.wav" />
+    <sound key="reload_one" fileref="sg_reload1.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="gw_m590.xml" />
+
+    <hud_icon filename="gw_m590.png" />
+    <commonness value="1.0" can_respawn_with="1" />
+    <inventory encumbrance="10.0" price="3.0" />
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.9" kill_decay_start_time="0.1" kill_decay_end_time="0.3" />
+    </projectile>
+
+     <effect class="muzzle" ref="ejection_sg" />
+    <effect class="muzzle" ref="muzzle_gf" />
+
+    <stance state_key="running" accuracy="0.6" />
+    <stance state_key="walking" accuracy="0.85" />
+    <stance state_key="crouch_moving" accuracy="0.6" />
+    <stance state_key="standing" accuracy="0.85" />
+    <stance state_key="crouching" accuracy="0.85" />
+    <stance state_key="prone" accuracy="0.85" /> 
+    <stance state_key="prone_moving" accuracy="0.3" />
+    <stance state_key="over_wall" accuracy="0.85" /> 
+    <modifier class="speed" value="-0.02" />
+</weapon>

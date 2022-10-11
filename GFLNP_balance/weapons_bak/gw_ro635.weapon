@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_SMG.weapon" key="gw_ro635.weapon">
+    <specification 
+		accuracy_factor="0.98" 
+		barrel_offset="0.1" 
+		can_shoot_standing="1" 
+		class="0"
+        solt="0" 
+		magazine_size="32" 
+		name="RO635" 
+		projectile_speed="145.0" 
+		retrigger_time="0.075" 
+		suppressed="0" 
+		sustained_fire_diminish_rate="2.5" 
+		sustained_fire_grow_step="0.275"
+
+		/>
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, m16a4" />
+
+
+    <sound key="fire" fileref="gw_ro635.wav" volume="1.0" pitch_variety="0.08" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="gw_ro635.xml" />
+    <hud_icon filename="gw_ro635.png" />
+    <commonness value="1.0" can_respawn_with="1" />
+    <inventory encumbrance="7.0" price="5.0" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit"  kill_probability="1.34" kill_decay_start_time="0.25" kill_decay_end_time="0.45" />
+    </projectile>
+
+
+</weapon>

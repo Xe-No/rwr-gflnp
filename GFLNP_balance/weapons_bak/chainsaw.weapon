@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weapon key="chainsaw.weapon" on_ground_up="0 0 1" quality="cb" file="base_cb.weapon">
+    <tag name="cqb"/>
+	
+    <specification retrigger_time="0.07" magazine_size="-1" accuracy_factor="0.95" sustained_fire_grow_step="0.0" sustained_fire_diminish_rate="2.0" can_shoot_standing="1" can_shoot_crouching="1" can_shoot_prone="0" carry_in_two_hands="1" name="Chain Saw" class="0" suppressed="0" barrel_offset_3d="1 -0.4 0" projectile_speed="8.0" projectiles_per_shot="2" stab_enabled="1" stab_range="2.5" use_basic_muzzle_smoke_effect="0"/>
+
+    <animation state_key="recoil" animation_key="chainsaw cut"/>
+	<animation state_key="hold" animation_key="hold, hip fire"/>
+    <animation state_key="crouching" animation_key="crouch still calm"/>
+	<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire"/>
+    <animation state_key="reload" animation_key="reloading, microgun" volume="0.7"/>
+	<animation state_key="hold_on_wall" animation_key="hold, line infantry"/>
+    <animation state_key="still_against_wall" animation_key="hold, hip fire"/>
+	<animation state_key="hold_casual" animation_key="casual, groundsword"/>  
+	<animation state_key="walking" animation_key="walking, hip fire"/>
+    <animation state_key="walking_backwards" animation_key="walking backwards, hip fire"/>
+    <animation state_key="crouch_moving_backwards" animation_key="crouching backwards, hip fire"/>
+	<animation state_key="running" animation_key="running, chainsaw"/>
+    <animation state_key="prone_still" animation_key="prone, without weapon, 63"/>
+
+    <animation state_key="stabbing" animation_key="stabbing, bat"/>
+
+    <model filename="chainsaw.xml"/>
+
+
+<sound key="stab" fileref="chainsaw_wave.wav" pitch_variety="0.05" volume="0.3"/>   
+<sound key="stab_hit" fileref="flesh1.wav" pitch_variety="0.3" volume="2.0"/>
+
+
+    <sound key="fire" fileref="chainsaw.wav" pitch_variety="0.03" volume="0.3"/>
+    <sound class="impact" fileref="rifle_drop.wav"/>
+	
+    <projectile file="chainsaw.projectile"/>
+
+	<capacity value="0" source="rank" source_value="0.0"/>
+	<capacity value="1" source="rank" source_value="0.3"/> 
+  
+    <stance state_key="running" accuracy="1"/>
+    <stance state_key="walking" accuracy="1"/>
+    <stance state_key="crouch_moving" accuracy="1"/>
+    <stance state_key="standing" accuracy="1"/>
+    <stance state_key="crouching" accuracy="1"/>
+    <stance state_key="prone" accuracy="1"/> 
+    <stance state_key="prone_moving" accuracy="1"/>
+    <stance state_key="over_wall" accuracy="1"/> 
+
+    <hud_icon filename="hud_chainsaw.png"/>
+	
+    <effect class="muzzle" ref="sawsnone"/>
+	
+	<inventory encumbrance="15.0" price="120.0"/>
+  
+ 	<modifier class="speed" value="-0.2"/>
+	
+</weapon>

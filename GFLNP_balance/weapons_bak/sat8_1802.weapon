@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weapon file="base_card_sg.weapon" key="sat8_1802.weapon" quality="card">
+    <specification retrigger_time="0.35" accuracy_factor="0.9" sustained_fire_grow_step="1.0" sustained_fire_diminish_rate="1.6" magazine_size="8" can_shoot_standing="1" suppressed="1" name="SAT-8[Plum Blossom Seal]" class="0" reload_one_at_a_time="1" sight_range_modifier="1.0" projectile_speed="110.0" projectiles_per_shot="5"/>
+    <animation state_key="recoil" ref="27"/>
+    <animation state_key="cycle" ref="28"/>
+    <animation state_key="reload" ref="29"/>
+
+    <sound key="fire" fileref="benelli_m4_supp_shot.wav" pitch_variety="0.05" volume="1.0"/>
+    <sound key="cycle" fileref="sg2_cycle.wav"/>
+    <sound key="reload_one" fileref="sg2_reload2.wav"/>
+    <sound class="impact" fileref="rifle_drop.wav"/>
+    <model filename="sat8_1802.xml"/>
+
+    <hud_icon filename="sat8_1802.png"/>
+    <inventory encumbrance="10.0" price="5.0"/>
+	
+
+    <weak_hand_hold offset="0.2"/>
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="2.2" kill_decay_start_time="0.2" kill_decay_end_time="0.7"/>
+    </projectile>  
+
+    <effect class="muzzle" ref="ejection_sg"/>
+    <effect class="muzzle" ref="muzzle_gf"/>
+    
+    <stance state_key="running" accuracy="0.6"/>
+    <stance state_key="walking" accuracy="0.7"/>
+    <stance state_key="crouch_moving" accuracy="0.6"/>
+    <stance state_key="standing" accuracy="0.8"/>
+    <stance state_key="crouching" accuracy="0.8"/>
+    <stance state_key="prone" accuracy="0.8"/> 
+    <stance state_key="prone_moving" accuracy="0.7"/>
+    <stance state_key="over_wall" accuracy="0.85"/>     
+     
+    <modifier class="speed" value="-0.03"/>       
+</weapon>

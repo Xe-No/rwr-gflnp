@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weapon file="base_card_smg.weapon" key="gw_mp7a2.weapon" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0" time_to_live_out_in_the_open="0.0" >
+    <tag name="assault"/>
+    <specification retrigger_time="0.066" accuracy_factor="0.95" sustained_fire_grow_step="0.3" sustained_fire_diminish_rate="2.0" magazine_size="40" can_shoot_standing="1" carry_in_two_hands="0" suppressed="1" name="MP7[SCT3 only]" class="0" slot="1" projectile_speed="140.0" stab_enabled="1"/>
+
+	<animation state_key="recoil" animation_key="recoil, pistol 2"/>
+  <animation state_key="reload" animation_key="reloading, pistol 2"/>
+	<animation state_key="hold" animation_key="still, pistol 2"/>
+	<animation state_key="hold_casual" animation_key="hold_casual, pistol 2"/>
+	<animation state_key="hold_on_wall" animation_key="hold, overwall pistol"/>
+  <animation state_key="recoil" stance_key="over_wall" animation_key="recoil, overwall pistol"/>
+  <animation state_key="stabbing" animation_key="pistol whip 3"/>
+    <animation state_key="still_against_wall" animation_key="hold_casual, pistol 4"/>
+	<animation state_key="crouching" animation_key="crouch, pistol"/>
+  <animation state_key="crouch_moving" animation_key="crouching, pistol 2"/>
+	<animation state_key="running" animation_key="running, pistol"/>
+	<animation state_key="walking" animation_key="walking, pistol"/>
+  <animation state_key="changing_weapon_in" animation_key="change weapon in, single hand carry"/>
+  <animation state_key="prone_still" animation_key="prone_still, pistol"/>
+  <animation state_key="walking_backwards" animation_key="walking backwards, pistol"/>
+
+
+    <sound key="fire" fileref="GFL_MP7.wav" volume="1.0"/>
+    <sound key="magazine_out" fileref="pistol_clip_out.wav"/>
+    <sound key="magazine_in" fileref="pistol_clip_in.wav" volume="1.0"/>    
+    <sound key="cycle" fileref="pistol_chamber.wav" volume="1.0"/>
+    <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.03" volume="1.0"/>
+    <sound key="stab_hit" fileref="impact_whip.wav" pitch_variety="0.05" volume="1.0"/>
+    <sound key="stab_hit_any" fileref="whip_hit.wav" pitch_variety="0.05" volume="1.0"/>
+    <sound class="impact" fileref="rifle_drop.wav"/>
+
+    <commonness value="0.0" in_stock="1" can_respawn_with="1" />
+    <model filename="gw_mp7a2.xml"/>
+    <hud_icon filename="hud_mp7a2.png"/>
+    <inventory encumbrance="8.0" price="20.0"/>
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.45" kill_decay_start_time="0.35" kill_decay_end_time="0.5"/> 
+
+    </projectile>
+    
+    <modifier class="speed" value="+0.001" />
+ 
+    
+</weapon>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_cb.weapon" key="ew_pm1.weapon" quality="cb">
+    <!--出处：https://steamcommunity.com/sharedfiles/filedetails/?id=1198876831-->
+    <tag name="gl" />
+    <specification 
+        retrigger_time="2.0" 
+        accuracy_factor="1.0" 
+        sustained_fire_grow_step="3.0" 
+        sustained_fire_diminish_rate="1.5" 
+        magazine_size="-1" 
+        can_shoot_standing="1" 
+        can_shoot_crouching="1" 
+        can_shoot_prone="0"
+        suppressed="0" 
+        name="PM-1 Plasma Launcher" 
+        class="0" 
+        sight_range_modifier="1.0" 
+        projectile_speed="40.0" 
+        slot="0" 
+        barrel_offset_3d="0.0 0.1 0.6"
+        burst_shots="1" 
+        projectiles_per_shot="1" />
+
+    <animation key="recoil" ref="27" />
+    <animation state_key="reload" animation_key="reloading, pf98" />
+    <animation key="hold" ref="39" />
+    <animation key="hold_on_wall" ref="39" />
+    <animation state_key="walking" animation_key="walking, hip fire" />
+    <animation state_key="running" animation_key="walking, hip fire" />
+    <animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, hip fire" />
+
+    <sound key="fire" fileref="ew_pm1_fire.wav" volume="1.0"/>
+    <sound key="magazine_out" fileref="pf98_cycle_out.wav" volume="0.0" />
+    <sound key="magazine_in" fileref="pf98_cycle_in.wav" volume="0.0"/>
+    <sound key="effect" fileref="pf98_effect.wav" volume="0.0"/>
+    <sound key="cycle" fileref="m79_cycle.wav" volume="0.0"/>
+
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <hud_icon filename="ew_pm1.png" />
+    <model filename="ew_pm1.xml" />
+
+    <ballistics curve_height="8.0" near_far_distance="0.0" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="40.0" randomness="0.0" tweak_factor="2.0"/>
+    <projectile file="ew_pm1.projectile" />
+    <weak_hand_hold offset="0.3" />
+
+    <commonness value="0" can_respawn_with="0" in_stock="0"/>
+    <inventory encumbrance="15.0" price="582.0" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.4" />
+
+    <stance state_key="running" accuracy="0.3" />
+    <stance state_key="walking" accuracy="0.6" />
+    <stance state_key="crouch_moving" accuracy="0.5" />
+    <stance state_key="prone_moving" accuracy="0.1" />
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.95" />
+    <stance state_key="prone" accuracy="1.0" />
+
+    <modifier class="speed" value="-0.25" />
+
+</weapon>

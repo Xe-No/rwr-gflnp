@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_normal_AR.weapon" key="aks74u.weapon">
+    <tag name="assault" />
+    <specification 
+    retrigger_time="0.098" 
+    accuracy_factor="1.0" 
+    sustained_fire_grow_step="0.44" 
+    sustained_fire_diminish_rate="1.45" 
+    magazine_size="30" 
+    can_shoot_standing="1" 
+    suppressed="0" 
+    name="AKS-74U" 
+    class="0" 
+    projectile_speed="160.0" />
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, aks74u" />
+
+    <sound key="fire" fileref="aks74u_shot.wav" volume="1.0"/>
+    <sound key="magazine_out" fileref="ak545_clip_out.wav" />
+    <sound key="magazine_in" fileref="ak545_clip_in.wav" />
+    <sound key="cycle" fileref="ak545_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="aks74u.xml" />
+
+    <hud_icon filename="hud_aks74u.png" />
+    <commonness value="1.0" can_respawn_with="1" />
+    <inventory encumbrance="7.0" price="3.0" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.6" kill_decay_start_time="0.3" kill_decay_end_time="0.4" />
+    </projectile>
+
+    <stance state_key="running" accuracy="0.67" />
+    <stance state_key="walking" accuracy="0.875" />
+    <stance state_key="crouch_moving" accuracy="0.75" />
+    <stance state_key="prone_moving" accuracy="0.3" />
+
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.95" />
+    <stance state_key="prone" accuracy="1.0" />
+    
+    <modifier class="speed" value="-0.02" />
+
+</weapon>

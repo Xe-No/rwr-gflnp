@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_card_ar.weapon" key="ew_hmtech401.weapon">
+    <tag name="assault" />
+    <specification 
+		retrigger_time="0.083" 
+		accuracy_factor="1.01" 
+		sustained_fire_grow_step="0.26" 
+        sustained_fire_diminish_rate="1.5" 
+		magazine_size="40" 
+		can_shoot_standing="1" 
+		suppressed="0"
+		sight_range_modifier="1.2" 
+		name="HMTech-401" 
+		class="0" 
+		projectile_speed="150.0" 
+		barrel_offset="0.4"/>
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, m16a4" />
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+
+    <next_in_chain key="ew_hmtech401_med.weapon" share_ammo="0"/>
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode"/>
+
+
+    <sound key="fire" fileref="hmtech401_shot.wav" pitch_variety="0.05" volume="0.35" />
+    <sound key="magazine_out" fileref="hmtech401_out.wav" />
+    <sound key="magazine_in" fileref="hmtech401_in.wav" />
+    <sound key="cycle" fileref="hmtech401_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" /> 
+    <model filename="ew_hmtech401.xml" />
+    
+    <hud_icon filename="hmtech401.png" />
+    <commonness value="1.0" can_respawn_with="0" />
+    <inventory encumbrance="10.0" price="20.0" />
+    <projectile file="bullet.projectile">
+        <result class="hit"  kill_probability="1.5" kill_decay_start_time="0.28" kill_decay_end_time="0.39" />
+    </projectile>
+
+    <stance state_key="running" accuracy="0.3" />
+    <stance state_key="walking" accuracy="0.675" />
+    <stance state_key="crouch_moving" accuracy="0.75" />
+    <stance state_key="prone_moving" accuracy="0.3" />
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.01" />
+    
+    <modifier class="speed" value="-0.01" />
+
+</weapon>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon on_ground_up="0 0 1" drop_count_factor_on_death="1.0" time_to_live_out_in_the_open="90.0" player_death_drop_owner_lock_time="60.0">
+    <tag name="HG" />
+    
+	
+    <effect class="muzzle" ref="ejection" />
+    <effect class="muzzle" ref="muzzle_gf" />
+
+    <sound key="magazine_out" fileref="pistol_clip_out.wav" />
+    <sound key="magazine_in" fileref="pistol_clip_in.wav" volume="1.0" />    
+    <sound key="cycle" fileref="pistol_chamber.wav" volume="1.0" />
+    <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.03" volume="1.0" />
+    <sound key="stab_hit" fileref="impact_whip.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="stab_hit_any" fileref="whip_hit.wav" pitch_variety="0.05" volume="1.0" />
+
+    
+    <stance state_key="running" accuracy="0.85" />
+    <stance state_key="walking" accuracy="0.95" />
+    <stance state_key="crouch_moving" accuracy="0.9" />
+    <stance state_key="prone_moving" accuracy="0.88" />
+    <stance state_key="standing" accuracy="1.0" />
+    <stance state_key="crouching" accuracy="1.2" />
+    <stance state_key="prone" accuracy="1.2" />
+    <modifier class="speed" value="+0.2" />
+
+</weapon>

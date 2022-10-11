@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_SG.weapon" key="gw_vpm5.weapon">
+    <tag name="cqb" />
+    <specification 
+  retrigger_time="-1.0" 
+  accuracy_factor="0.63" 
+  sustained_fire_grow_step="2.0" 
+  sustained_fire_diminish_rate="0.67" 
+  magazine_size="10" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="V-PM5" 
+  class="1" 
+  sight_range_modifier="1.0" 
+  projectile_speed="120.0" 
+  projectiles_per_shot="7" />
+
+    <animation state_key="recoil" ref="27" />
+    <animation state_key="cycle" ref="28" />
+    <animation key="reload" animation_key="reloading, aa-12" />
+
+    <sound key="fire" fileref="gw_vpm5.wav" volume="1.0" />
+    <sound key="magazine_out" fileref="ak545_clip_out.wav" />
+    <sound key="magazine_in" fileref="ak545_clip_in.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="gw_vpm5.xml" />
+
+    <hud_icon filename="gw_vpm5.png" />
+    <commonness value="1.0" can_respawn_with="1" in_stock="1"/>
+    <inventory encumbrance="10.0" price="260.0" />
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.9" kill_decay_start_time="0.1" kill_decay_end_time="0.45" />
+    </projectile>
+
+    <modifier class="speed" value="-0.04" />
+</weapon>

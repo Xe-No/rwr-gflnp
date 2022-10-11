@@ -39,7 +39,7 @@
 	<sound class="impact" fileref="shield_drop.wav"/>
 	<model filename="gw_ksvk_mod.xml"/>
 	
-	<hud_icon filename="gw_ksvk_mod.png"/>
+	<hud_icon filename="gw_ksvk_mod_f.png"/>
 	<inventory encumbrance="10.0" price="500"/>
 	
 	

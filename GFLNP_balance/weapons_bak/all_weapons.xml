@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+    <weapon file="gfl_vw.xml"/>
+    <weapon file="gfl_w.xml" />
+    <weapon file="test_w.xml" />
+</weapons>

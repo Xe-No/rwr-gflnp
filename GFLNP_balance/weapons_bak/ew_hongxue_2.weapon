@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_cb.weapon" key="ew_hongxue_2.weapon" quality="cb">
+    <tag name="sniper" />
+    <specification 
+  retrigger_time="1.8" 
+  accuracy_factor="0.95" 
+  sustained_fire_grow_step="2.3" 
+  sustained_fire_diminish_rate="0.9" 
+  magazine_size="-1" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="HongXue Point" 
+  class="2" 
+  sight_range_modifier="1.3"  
+  projectile_speed="60.0"
+  projectiles_per_shot="3"  
+  barrel_offset="0.3" 
+/>
+
+  <next_in_chain key="ew_hongxue_1.weapon" share_ammo="0" />
+
+    <ballistics curve_height="3.0" near_far_distance="0.0" speed_estimation_near="150.0" speed_estimation_far="150.0" max_speed="150.0" randomness="0.0" tweak_factor="1.92"/> 
+
+    <animation key="recoil" ref="27" />
+    <animation key="cycle" ref="30" />
+    <animation state_key="cycle" animation_key="reload, bow" />
+    <animation state_key="next_in_chain_in" animation_key="reload, bow" />
+
+    <sound key="fire" fileref="hongxue_shot_2.wav" pitch_variety="0.05" volume="1.5" /> 
+    <sound key="cycle" fileref="sniper_cycle_2.wav" />
+    <sound key="magazine_out" fileref="sniper_clip_out_1.wav" />
+    <sound key="magazine_in" fileref="sniper_clip_in_1.wav" />
+    <sound key="cycle_out" fileref="sniper_cycle_out_2.wav" />
+    <sound key="cycle_in" fileref="ak545_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <sound key="effect" fileref="m82a1_switch.wav" />
+    <control key="effect" value="1" />
+    <model filename="ew_hongxue.xml" />
+
+    <hud_icon filename="ew_hongxue_2.png" />
+    <inventory encumbrance="10.0" price="141.0" />
+
+    <weak_hand_hold offset="0.3" />
+    <projectile file="hongxue_pb.projectile" />
+	
+
+
+	
+    <stance state_key="running" accuracy="0.8" />
+    <stance state_key="walking" accuracy="0.9" />
+    <stance state_key="crouch_moving" accuracy="0.9" />
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.95" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" />
+
+    <modifier class="speed" value="-0.1" />
+</weapon>

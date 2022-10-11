@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_cb.weapon" key="kf2_seekersix_ap.weapon">
+    <specification 
+    retrigger_time="0.5" 
+    accuracy_factor="1" 
+    sustained_fire_grow_step="0.85" 
+    sustained_fire_diminish_rate="1.2" 
+    magazine_size="6" 
+    can_shoot_standing="1" 
+    suppressed="0" 
+    name="Seeker Six AP" 
+    class="4" 
+    reload_one_at_a_time="0" 
+    sight_range_modifier="1.5" 
+    projectile_speed="50.0" 
+    barrel_offset="0.65" 
+    projectiles_per_shot="1" 
+    burst_shots="1"
+    />
+
+    <next_in_chain key="kf2_seekersix_he.weapon" share_ammo="1" />
+
+    <animation state_key="hold" animation_key="still, mgl" />
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="cycle" animation_key="cycle, mgl" />
+    <animation state_key="reload" animation_key="reloading, m79" />
+    
+    <sound key="fire" fileref="kf2_seekersix_shot.wav" pitch_variety="0.05" volume="1.5" /> 
+    <sound key="magazine_out" fileref="kf2_seekersix_out.wav" volume="0.8" />
+    <sound key="magazine_in" fileref="kf2_seekersix_in.wav" volume="0.8"/>
+    <sound key="reload_one" fileref="kf2_seekersix_change.wav" />
+
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <sound key="effect" fileref="m82a1_switch.wav" />
+    <control key="effect" value="1" />
+    <model filename="kf2_seekersix.xml" />
+
+    <hud_icon filename="kf2_seekersix_ap.png" />
+<!--     <commonness value="1.0" can_respawn_with="1" /> -->
+    <inventory encumbrance="20.0" price="6666.0" />
+
+    <weak_hand_hold offset="0.3" />
+
+    <ballistics curve_height="10.0" near_far_distance="0.0" speed_estimation_near="0.0" speed_estimation_far="58.0" max_speed="42.0" randomness="0.0" tweak_factor="1.2" />
+    <projectile file="seeker_ap.projectile" />
+
+	
+	<effect class="muzzle" ref="muzzle_gf" />
+	
+    <stance state_key="running" accuracy="0.6" />
+    <stance state_key="walking" accuracy="0.7" />
+    <stance state_key="crouch_moving" accuracy="0.9" />
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="0.9" /> 
+    <stance state_key="prone_moving" accuracy="0.8" />
+    <stance state_key="over_wall" accuracy="1.0" />
+
+    <modifier class="speed" value="-0.15" />
+</weapon>

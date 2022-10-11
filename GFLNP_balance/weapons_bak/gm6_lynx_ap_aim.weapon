@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_card_rf.weapon" key="gm6_lynx_ap_aim.weapon" quality="card">
+    <tag name="sniper" />
+    <specification 
+  retrigger_time="1.5" 
+  accuracy_factor="1.0"  
+  sustained_fire_grow_step="3.0" 
+  sustained_fire_diminish_rate="0.7" 
+  magazine_size="5" 
+  can_shoot_standing="0" 
+  can_shoot_crouching="1" 
+  suppressed="1" 
+  name="GM6 Lynx (AP)" 
+  class="4" 
+  reload_one_at_a_time="0" 
+  sight_range_modifier="2.25"
+  ai_sight_range_modifier="1.1" 
+  projectile_speed="190.0" 
+  barrel_offset="0.65" 
+  projectiles_per_shot="6" 
+  burst_shots="1"	/>
+
+    <next_in_chain key="gm6_lynx_ap.weapon" share_ammo="1"/>
+
+    <animation key="recoil" ref="27" />
+    <animation key="cycle" ref="30" />
+    <animation state_key="reload" animation_key="reloading, l85a2" />
+    <sound key="fire" fileref="gepard_m6_lynx_ap_shot.wav" pitch_variety="0.05"  volume="1.0" />
+    <sound key="cycle" fileref="sniper_cycle.wav" />
+    <sound key="magazine_out" fileref="sniper_clip_out.wav" />
+    <sound key="magazine_in" fileref="sniper_clip_in.wav" />
+    <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+    <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="gm6_lynx_ap.xml" />
+
+    <hud_icon filename="gm6_lynx_ap_aim.png" />
+    <!-- <commonness value="1.0" can_respawn_with="0" in_stock="0"/> -->
+    <inventory encumbrance="11.0" price="120.0" />
+
+    <weak_hand_hold offset="0.3" />
+    <projectile file="gm6_lynx_ap.projectile">
+    </projectile>
+
+    <effect class="muzzle" ref="muzzle_gf" />
+	
+    <stance state_key="running" accuracy="1.0" />
+    <stance state_key="walking" accuracy="1.0" />
+    <stance state_key="crouch_moving" accuracy="1.0" />
+    <stance state_key="standing" accuracy="1.0" />
+    <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" />
+
+    <modifier class="speed" value="-0.13" />
+</weapon>

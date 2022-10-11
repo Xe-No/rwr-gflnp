@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_cb.weapon" key="gw_red_knife.weapon">
+    <tag name="cqb" />
+
+    <specification  
+	magazine_size="-1" 
+	can_shoot_standing="1" 
+	can_shoot_prone="1" 
+	can_shoot_crouching="0" 
+	carry_in_two_hands="0" 
+	character_state="death" 
+	consume="0" 
+	name="Red[DoubleKnives]" 
+	class="5" 
+	affect_characters="1" 
+	affect_vehicles="0" 
+	sight_range_modifier="1" 
+	success_probability="4.0" 
+    stab_enabled="1" 
+	stab_range="3" 
+	range="3" 
+    slot="0" />
+
+	<next_in_chain key="gw_red_knife_s.weapon" share_ammo="0" />
+
+    <animation state_key="recoil"  animation_key="still, pistol dual" />
+	<animation state_key="hold" animation_key="still, pistol dual" />
+    <animation state_key="hold_casual"  animation_key="hold_casual, pistol dual" />
+    <animation state_key="hold_on_wall" animation_key="hold, overwall dual" />
+    <animation state_key="still_against_wall"   animation_key="hold_casual, pistol dual" />
+    <animation state_key="crouching"    animation_key="crouch, pistol dual" />
+    <animation state_key="crouch_moving"    animation_key="crouching, pistol 2" />
+    <animation state_key="crouch_moving_backwards"  animation_key="crouching backwards, pistol 2" />
+    <animation state_key="running" animation_key="running, no weapon, 60" />
+    <animation state_key="walking"  animation_key="walking, pistol dual" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, pistol dual" />
+    <animation state_key="changing_weapon_in"   animation_key="change weapon in, single hand carry" />
+    <animation state_key="prone_still" animation_key="prone_still, pistol dual" />
+    <animation state_key="stabbing" animation_key="pistol whip" />
+    <animation state_key="stabbing" animation_key="pistol whip 2" />
+    <animation state_key="stabbing" animation_key="pistol whip 3" />
+    <animation state_key="crouch_moving" animation_key="crouching forwards, large wrench"/>
+
+	<animation state_key="next_in_chain_in" animation_key="change weapon in" />
+    <animation state_key="next_in_chain_out" animation_key="change weapon out" />
+
+    <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.03" volume="1.0" />
+	<sound key="stab_hit" fileref="impact_whip.wav" pitch_variety="0.03" volume="1.0" />
+	<sound key="stab_hit" fileref="red_combat2.wav" pitch_variety="0.0" volume="0.75" />
+	<sound key="stab_hit" fileref="red_combat3.wav" pitch_variety="0.0" volume="0.75" />
+    <sound key="stab_hit_any" fileref="whip_hit.wav" pitch_variety="0.05" volume="1.0" />
+	<sound key="stab_hit_any" fileref="red_select2.wav" pitch_variety="0.05" volume="0.5" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+	<sound key="fire" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.5"/>
+
+    <model filename="gw_red_knife.xml" />
+    <hud_icon filename="red_k01.png" />
+    <inventory encumbrance="15.0" price="800.0" />
+
+    <effect class="stab" key="character" ref="BloodSplat50Cal" lighting="1"/>
+    <effect class="stab" key="character" ref="BurstShine50Cal" lighting="1" post_processing="0"/>
+    <effect class="stab" key="static_object" ref="Burst" use_surface_color="1"/>
+    <effect class="stab" key="shield" ref="ShieldBurst"/>
+    <effect class="stab" key="vehicle" ref="Burst" use_surface_color="1"/>
+
+    <modifier class="speed" value="+0.06" />
+
+	<shield offset="-0.4 0.0 0.1" extent="0.2 1.5 1.0"/>
+</weapon>

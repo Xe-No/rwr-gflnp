@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <weapon file="base_cb.weapon" key="mg4td_ke.weapon" on_ground_up="0 0 1" quality="cb">
     <tag name="machine gun"/>
-    <specification retrigger_time="0.07" spread_range="0.17" accuracy_factor="0.94" sustained_fire_grow_step="0.43" sustained_fire_diminish_rate="1.43" magazine_size="200" can_shoot_standing="0" can_shoot_crouching="1" suppressed="1" name="MG-4[Tactical Defender]" class="0" barrel_offset="0.5" sight_range_modifier="1.2" projectile_speed="160.0"/>
+    <specification retrigger_time="0.07" spread_range="0.17" accuracy_factor="0.94" sustained_fire_grow_step="0.43" sustained_fire_diminish_rate="1.43" magazine_size="200" can_shoot_standing="0" can_shoot_crouching="1" suppressed="1" name="MG-4[Tactical Defender]" class="0" barrel_offset="0.6" sight_range_modifier="1.2" projectile_speed="160.0"/>
 
     <next_in_chain key="mg4td_ap.weapon" share_ammo="1"/>
-    <animation state_key="next_in_chain_in" animation_key="switch, vss_vintorez"/>
+<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2"/>
+<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1"/>
 
     <animation state_key="recoil" animation_key="recoil1"/>
     <animation state_key="recoil" animation_key="recoil2"/>
@@ -30,11 +31,10 @@
     <sound key="magazine_in" fileref="mg_clip_in_1.wav"/>
     <sound key="cycle" fileref="mg_chamber_1.wav"/>
     <sound class="impact" fileref="rifle_drop.wav"/>
-    <sound key="effect" fileref="mg4_switch_r.wav" pitch_variety="0.0" volume="0.3"/>
-    <sound key="effect" fileref="mg4_switch_r.wav" pitch_variety="0.0" volume="0.3"/>
-    <sound key="effect" fileref="mg4_switch_r.wav" pitch_variety="0.0" volume="0.3"/>
-    <sound key="effect" fileref="mg4_switch0.wav" pitch_variety="0.0" volume="0.3"/>
-    <sound key="effect" fileref="mg4_switch4.wav" pitch_variety="0.0" volume="0.3"/>
+    <sound key="effect" fileref="sl_out.wav" />
+    <sound key="effect" fileref="sl_out.wav" />
+    <sound key="effect" fileref="sl_out.wav" />
+    <sound key="effect" fileref="mg4_switch_ke.wav" pitch_variety="0.0" volume="0.8" />
     <control key="effect" value="1"/>
     <model filename="mg4td_ke.xml"/>
 

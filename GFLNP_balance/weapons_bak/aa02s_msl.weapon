@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_resupply.weapon" key="aa02s_msl.weapon" >
+    <tag name="machine gun" />
+    <specification 
+    retrigger_time="-1" 
+    last_burst_retrigger_time="1"
+    accuracy_factor="1.1" 
+    sustained_fire_grow_step="0.5" 
+    sustained_fire_diminish_rate="1.15" 
+    magazine_size="32" 
+    can_shoot_standing="1" 
+    can_shoot_crouching="0" 
+    suppressed="0" 
+    name="AA02S-MSL" 
+    carry_in_two_hands="0" 
+    class="4"
+    burst_shots="4"
+    consume="0"
+    reload_one_at_a_time="0" 
+    sight_range_modifier="1.5" 
+    projectile_speed="160.0" 
+    slot="0" 
+  barrel_offset_3d="0 0 -1"
+    projectiles_per_shot="1" />
+    <next_in_chain key="aa02s_mg.weapon" share_ammo="0" />
+
+  	<animation state_key="recoil"  animation_key="aa02msl_recoil" />
+    <animation state_key="recoil" stance_key="over_wall" animation_key="aa02msl_recoil" />
+    <animation state_key="recoil" stance_key="over_wall" animation_key="aa02msl_recoil" />
+    <animation state_key="reload" animation_key="aa02_reload" />
+    <animation state_key="hold" animation_key="aa02msl_recoil" />
+    <animation state_key="hold_casual"  animation_key="aa02msl_recoil" />
+    <animation state_key="hold_on_wall" animation_key="aa02msl_recoil" />
+    <animation state_key="still_against_wall" animation_key="aa02msl_recoil" />
+    <animation state_key="crouching"  animation_key="aa02msl_recoil" />
+    <animation state_key="crouch_moving"  animation_key="aa02_running" />
+    <animation state_key="crouch_moving_backwards"  animation_key="aa02_running" />
+    <animation state_key="running" animation_key="aa02_still" />
+    <animation state_key="walking"  animation_key="aa02_running" />
+    <animation state_key="walking_backwards" animation_key="aa02_running" />
+    <animation state_key="changing_weapon_in"   animation_key="aa02_reload" />
+    <animation state_key="prone_still" animation_key="aa02_still" />
+    <animation state_key="stabbing" animation_key="aa02_still" />
+    <animation state_key="stabbing" animation_key="aa02_still" />
+    <animation state_key="stabbing" animation_key="aa02_still" />
+
+
+
+    <sound key="fire" fileref="m202_flash_shot.wav" />
+    <sound key="cycle" fileref="sniper_cycle.wav" />
+    <sound key="magazine_out" fileref="sniper_clip_out.wav" />
+    <sound key="magazine_in" fileref="sniper_clip_in.wav" />
+    <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+    <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="" />
+
+    <!-- <ballistics near_far_distance="1000.0" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="100.0" randomness="0.0" /> -->
+	<ballistics curve_height="12.0" near_far_distance="0.0" speed_estimation_near="20.0" speed_estimation_far="40.0" max_speed="70.0" randomness="0.0" tweak_factor="1.1" /> 
+
+    <projectile file="noxe.projectile" />
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.6" /> 
+    
+
+    <hud_icon filename="hud_m202.png" />
+<!--     <commonness value="1.0" can_respawn_with="1" /> -->
+    <inventory encumbrance="10.0" price="200000.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+    <modifier class="speed" value="-0.20" />
+
+    <stance state_key="running" accuracy="1.0" />
+    <stance state_key="walking" accuracy="1.1" />
+    <stance state_key="crouch_moving" accuracy="1.0" />
+    <stance state_key="prone_moving" accuracy="1.1" />
+
+    <stance state_key="standing" accuracy="1.1" />
+    <stance state_key="crouching" accuracy="1.1" />
+    <stance state_key="prone" accuracy="1.1" />
+
+    <modifier class="speed" value="+0.3" />
+</weapon>

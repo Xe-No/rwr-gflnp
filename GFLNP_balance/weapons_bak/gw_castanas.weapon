@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_cb.weapon" key="gw_castanas.weapon">
+    <tag name="cqb"/>
+
+    <specification 
+                retrigger_time="0.22"
+	accuracy_factor="0.96" 
+	sustained_fire_grow_step="0.0" 
+	sustained_fire_diminish_rate="1.0" 
+	magazine_size="2" 
+	can_shoot_standing="1" 
+	suppressed="1" 
+	carry_in_two_hands="0" 
+	name="S-Castanas" 
+	class="4" 
+	reload_one_at_a_time="0" 
+	sight_range_modifier="1.0" 
+	projectile_speed="150.0" 
+	projectiles_per_shot="1" 
+	burst_shots="1" 
+	slot="1" 
+	stab_enabled="1" 
+	stab_range="3.0" 
+	barrel_offset="0.1"/>
+
+
+    <ballistics near_far_distance="80.0" speed_estimation_near="70.0" speed_estimation_far="70.0" max_speed="100.0" randomness="0.0"/> 
+
+	<animation state_key="stabbing" animation_key="melee, ninjato whip"/>
+	<animation state_key="stabbing" animation_key="melee, ninjato slap"/>
+	<animation state_key="stabbing" animation_key="melee, ninjato slash"/>
+	<animation state_key="recoil" animation_key="recoil, ninjato"/>
+	<animation state_key="recoil" stance_key="over_wall" animation_key="recoil overwall, ninjato"/>
+	<animation state_key="recoil" stance_key="crouching" animation_key="recoil crouching, ninjato"/>
+	<animation state_key="recoil" stance_key="prone" animation_key="recoil prone, ninjato"/>
+    <animation state_key="reload" animation_key="reloading, castanas"/>
+	<animation state_key="hold" animation_key="still, ninjato"/>
+	<animation state_key="hold_on_wall" animation_key="still overwall, ninjato"/>
+	<animation state_key="still_against_wall" animation_key="still against wall, ninjato"/>
+	<animation state_key="hold_casual" animation_key="relaxed, ninjato"/>
+	<animation state_key="running" animation_key="running, ninjato"/>
+	<animation state_key="walking" animation_key="walking, ninjato"/>
+	<animation state_key="crouching" animation_key="crouch, ninjato"/>
+	<animation state_key="crouch_moving" animation_key="crouching forwards, ninjato"/>
+	<animation state_key="crouch_moving_backwards" animation_key="crouching backwards, ninjato"/>
+	<animation state_key="changing_weapon_in" animation_key="change weapon in, ninjato"/>
+	<animation state_key="changing_weapon_out" animation_key="change weapon out, ninjato"/>
+    <animation state_key="prone_still" animation_key="prone still, ninjato"/>
+    <animation state_key="prone_moving" animation_key="prone moving, ninjato"/>
+	<animation state_key="walking_backwards" animation_key="walking backwards, ninjato"/>
+
+
+	<sound key="fire" fileref="gw_castanas_shot.wav" pitch_variety="0.05" volume="0.5"/>
+    <sound key="cycle" fileref="gw_castanas_reload.wav"/>
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05"/>
+	<sound key="stab_hit" fileref="gw_castanas_on.wav" pitch_variety="0.05" volume="0.8"/>
+	<sound key="stab_hit_any" fileref="gw_castanas_on.wav" pitch_variety="0.05" volume="0.8"/>
+    <sound key="dry_fire" fileref="static.wav"/>
+
+    <projectile file="gw_castanas_blt.projectile"/>
+    <weak_hand_hold offset="0.0"/>
+
+	<model filename="gw_castanas.xml"/>
+	<hud_icon filename="gw_castanas.png"/>
+	<inventory encumbrance="15.0" price="400.0" />
+
+	<stance state_key="running" accuracy="1.0"/>
+	<stance state_key="walking" accuracy="1.0"/>
+	<stance state_key="crouch_moving" accuracy="1.0"/>
+	<stance state_key="prone_moving" accuracy="1.0"/>
+
+	<stance state_key="standing" accuracy="1.0"/>
+	<stance state_key="crouching" accuracy="1.0"/>
+	<stance state_key="prone" accuracy="1.0"/>
+
+	<modifier class="speed" value="+0.05"/>
+</weapon>

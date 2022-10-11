@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_resupply.weapon" key="dactyl.weapon" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0">
+    <tag name="cqb" />
+    <specification
+    retrigger_time="0.15"
+    spread_range="0.025"
+    accuracy_factor="1.1"
+    sustained_fire_grow_step="0.1"
+    sustained_fire_diminish_rate="1.0"
+    magazine_size="5"
+    suppressed="1"
+    carry_in_two_hands="0"
+    can_shoot_standing="0"
+    can_shoot_crouching="1" 
+    can_shoot_prone="0" 
+    name="Dactyl"
+    class="4"
+    burst_shots="1"
+    barrel_offset_3d="0 -0.4 -0.3"
+    sight_range_modifier="1" 
+    projectile_speed="0.0"
+    stab_enabled="0"
+    slot="0"
+    />
+    <drop_on_death_result class="spawn" instance_class="projectile" instance_key="ugv_blast.projectile" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+
+    <animation state_key="recoil"  animation_key="still, dactyl" />
+    <animation state_key="recoil" stance_key="over_wall" animation_key="still, dactyl" />
+    <animation state_key="reload" animation_key="recoil, pistol dual 2" />
+    <animation state_key="hold" animation_key="still, dactyl" />
+    <animation state_key="hold_casual"  animation_key="still, dactyl" />
+    <animation state_key="hold_on_wall" animation_key="still, dactyl" />
+    <animation state_key="still_against_wall" animation_key="still, dactyl" />
+    <animation state_key="crouching"  animation_key="still, dactyl" />
+    <animation state_key="crouch_moving"  animation_key="walking, dactyl" />
+    <animation state_key="crouch_moving_backwards"  animation_key="walking backwards, dactyl" />
+    <animation state_key="running" animation_key="walking, dactyl" />
+    <animation state_key="walking"  animation_key="walking, dactyl" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, dactyl" />
+    <animation state_key="changing_weapon_in"   animation_key="still, dactyl" />
+    <animation state_key="prone_still" animation_key="still, dactyl" />
+    <sound class="impact" fileref="sandbag_drop.wav" />    
+    
+
+        <!-- <animation state_key="stabbing" animation_key="ugv pose" /> -->
+
+    <model  />
+
+    <projectile file="dactyl.projectile">
+
+    </projectile>
+    <hud_icon filename="at_mine.png" />
+    <commonness value="0.01" can_respawn_with="1" in_stock="1"/>
+    <inventory encumbrance="11.0" price="0.0" />
+
+      <stance state_key="running" accuracy="0.9" />
+    <stance state_key="walking" accuracy="0.9" />
+    <stance state_key="crouch_moving" accuracy="0.9" />
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="0.95" /> 
+    <stance state_key="prone_moving" accuracy="0.9" />
+    <stance state_key="over_wall" accuracy="0.95" />  
+  
+
+</weapon>

@@ -29,8 +29,8 @@ player_death_drop_owner_lock_time="120"
 	<commonness value="0.0" can_respawn_with="1" in_stock="1"/>
 	
 	<capacity value="0" source="rank" source_value="0" />
-    <capacity value="2" source="rank" source_value="250" />
-    <capacity value="4" source="rank" source_value="300" />
+    <capacity value="2" source="rank" source_value="50" />
+    <capacity value="4" source="rank" source_value="200" />
 	<capacity value="5" source="rank" source_value="400" />
     <inventory encumbrance="0.5" price="500.0" />
 

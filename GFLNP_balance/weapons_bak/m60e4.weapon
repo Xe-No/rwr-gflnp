@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_MG.weapon" key="m60e4.weapon">
+    <tag name="machine gun" />
+    <specification 
+  retrigger_time="0.1" 
+  accuracy_factor="0.95" 
+  spread_range="0.25"
+  sustained_fire_grow_step="0.65" 
+  sustained_fire_diminish_rate="1.5" 
+  magazine_size="100" 
+  can_shoot_standing="0" 
+  can_shoot_crouching="0" 
+  sight_range_modifier="1.2"
+  suppressed="0" 
+  name="M60" 
+  class="0" 
+  projectile_speed="180.0" />
+
+  <next_in_chain key="m60e4_n.weapon" share_ammo="1" />
+
+	<!-- Balanced in several ways:-->
+	<!-- Accuracy is low, recoil moderate -->
+	<!-- Movement speed is slow -->
+	<!-- Rate of Fire is moderately slow -->
+	<!-- Velocity is low -->
+	<!-- Despite all this, magazine capacity is large and damage is very high. -->
+
+
+ 	  <animation state_key="recoil" animation_key="recoil, hip fire" />
+ 	  <animation state_key="recoil" animation_key="recoil2, hip fire" />
+ 	  <animation state_key="recoil" animation_key="recoil3, hip fire" />
+	  <animation key="recoil" stance_key="over_wall" ref="12" />
+	  <animation key="recoil" stance_key="over_wall" ref="13" />
+	  <animation key="recoil" stance_key="over_wall" ref="14" />
+    <animation state_key="hold" animation_key="hold, lmg" />
+    <animation key="reload" ref="33" />
+    <animation key="hold_on_wall" ref="1" />
+	  <animation state_key="walking" animation_key="walking, hip fire" />
+	  <animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+	  <animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    <animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+    <animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+    
+    <sound key="fire" fileref="m60_shot.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="magazine_out" fileref="mg_clip_out_1.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in_1.wav" />
+    <sound key="cycle" fileref="mg_chamber_1.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <sound key="effect" fileref="sl_out.wav" />
+    <control key="effect" value="1" />
+    <model filename="m60e4.xml" />
+
+    <hud_icon filename="hud_m60e4.png" />
+    <commonness value="1.0" can_respawn_with="1" />
+    <inventory encumbrance="10.0" price="7.0" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.67" kill_decay_start_time="0.35" kill_decay_end_time="0.65" />
+    </projectile>
+    
+    <modifier class="speed" value="-0.15" />
+</weapon>

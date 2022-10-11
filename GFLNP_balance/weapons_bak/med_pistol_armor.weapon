@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weapon file="base_HG.weapon" key="med_pistol_armor.weapon"  drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0" time_to_live_out_in_the_open="0.0">
+    <tag name="sniper"/>       
+	
+    <specification retrigger_time="-1.0"
+     accuracy_factor="1.0"
+      sustained_fire_grow_step="3.0"
+       sustained_fire_diminish_rate="1.0"
+        magazine_size="1"
+         can_shoot_standing="1"
+           suppressed="1"
+            name="Medical Pistol" 
+            class="0"
+             reload_one_at_a_time="0" 
+             sight_range_modifier="1.1"
+               projectile_speed="180.0"
+                barrel_offset="0.2"
+                carry_in_two_hands="0"
+                 projectiles_per_shot="1" 
+                 burst_shots="1"
+                 stab_enabled="1"
+	slot= "1" />
+
+	<next_in_chain key="med_pistol_revive.weapon" share_ammo="1" />
+
+	<animation state_key="recoil" animation_key="recoil, pistol 2"/>
+  <animation state_key="reload" animation_key="reloading, pistol 2" />
+	<animation state_key="hold" animation_key="still, pistol 2"/>
+	<animation state_key="hold_casual" animation_key="hold_casual, pistol 2"/>
+	<animation state_key="hold_on_wall" animation_key="hold, overwall pistol"/>
+  <animation state_key="recoil" stance_key="over_wall" animation_key="recoil, overwall pistol"/>
+  <animation state_key="stabbing" animation_key="pistol whip 3"/>
+  <animation state_key="stabbing" animation_key="pistol whip 2"/>
+  <animation state_key="stabbing" animation_key="pistol whip"/>
+    <animation state_key="still_against_wall" animation_key="hold_casual, pistol 4"/>
+	<animation state_key="crouching" animation_key="crouch, pistol"/>
+  <animation state_key="crouch_moving" animation_key="crouching, pistol 2"/>
+	<animation state_key="running" animation_key="running, pistol"/>
+	<animation state_key="walking" animation_key="walking, pistol"/>
+  <animation state_key="changing_weapon_in" animation_key="change weapon in, single hand carry"/>
+  <animation state_key="prone_still" animation_key="prone_still, pistol"/>
+  <animation state_key="walking_backwards" animation_key="walking backwards, pistol"/>
+	
+    <sound key="fire" fileref="dart_shot2.wav" volume="1.0"/>
+    <sound key="magazine_out" fileref="thunder50_clipout.wav" volume="2.0" />
+    <sound key="reload_one" fileref="thunder50_reload.wav" />
+    <sound key="cycle" fileref="thunder50_cycle.wav" volume="2.0"/>
+    <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.03" volume="1.0"/>
+    <sound key="stab_hit" fileref="impact_whip.wav" pitch_variety="0.05" volume="1.0"/>
+    <sound key="stab_hit_any" fileref="whip_hit.wav" pitch_variety="0.05" volume="1.0"/>
+    <sound class="impact" fileref="rifle_drop.wav"/>
+    
+    <model filename="medic_pistol.xml"/>
+    <hud_icon filename="gw_medp_armor.png"/>
+
+    <inventory encumbrance="5.0" price="800.0"/>
+
+	<ballistics curve_height="0.001" near_far_distance="0.0" 
+    speed_estimation_near="0" speed_estimation_far="180"
+     max_speed="180.0" randomness="0.0" tweak_factor="5.0" />
+
+    <projectile file="medp_armor.projectile" pull_down_in_air="-1" >
+    </projectile>
+    
+    <stance state_key="running" accuracy="1"/>
+    <stance state_key="walking" accuracy="1"/>
+    <stance state_key="crouch_moving" accuracy="1"/>
+    <stance state_key="prone_moving" accuracy="1"/>
+    <stance state_key="standing" accuracy="1"/>
+    <stance state_key="walking" accuracy="1"/>
+    <stance state_key="crouching" accuracy="1"/>
+    <stance state_key="prone" accuracy="1"/>
+    <modifier class="speed" value="+0.1"/>       
+
+</weapon>

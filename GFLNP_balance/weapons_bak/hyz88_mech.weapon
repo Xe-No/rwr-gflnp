@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weapon file="base_card_rf.weapon" key="hyz88_mech.weapon" drop_count_factor_on_death="0" drop_count_factor_on_player_death="1" quality="card">
+	<tag name="has_bayonet"/>
+
+	<specification retrigger_time="-1.0" accuracy_factor="0.99" sustained_fire_grow_step="3.5" sustained_fire_diminish_rate="2.0" magazine_size="5" can_shoot_standing="1" can_shoot_crouching="0" can_shoot_prone="0" suppressed="0" name="Hanyang Type88[White Comet Bearing Your Wishes]" class="2" reload_one_at_a_time="0" projectile_speed="180.0" barrel_offset_3d="0 0.5 1.9" projectiles_per_shot="1" sight_range_modifier="1.6" stab_range="3.5" stab_enabled="1"/>
+	<next_in_chain key="hyz88_pilot.weapon" share_ammo="0"/>
+	<stance state_key="standing" accuracy="0.89"/>
+	<stance state_key="crouching" accuracy="0.97"/>
+
+    <animation key="recoil" animation_key="2x recoil1, big"/>
+	<animation state_key="recoil" stance_key="over_wall" animation_key="2x recoil1, big"/>
+	<animation state_key="recoil" stance_key="crouching" animation_key="2x recoil1, big"/>
+	<animation state_key="recoil" stance_key="prone" animation_key="2x recoil1, big"/>    
+    <animation key="cycle" animation_key="2x cycle, bolt action"/>
+	<animation key="reload" animation_key="2x reloading, m24"/>	
+
+	<animation state_key="hold" animation_key="2x hold, line infantry"/>
+	<animation state_key="hold_on_wall" animation_key="2x hold, line infantry"/>
+	<animation state_key="still_against_wall" animation_key="2x hold, line infantry"/>
+	<animation state_key="hold_casual" animation_key="2x hold, line infantry"/>
+	<animation state_key="crouching" animation_key="2x hold, line infantry"/>
+	<animation state_key="prone_still" animation_key="2x hold, line infantry"/>
+
+	<animation state_key="running" animation_key="2x walking, line infantry"/>
+	<animation state_key="walking" animation_key="2x walking, line infantry"/>
+	<animation state_key="walking_backwards" animation_key="2x walking, line infantry"/>
+	<animation state_key="crouch_moving" animation_key="2x walking, line infantry"/>
+	<animation state_key="crouch_moving_backwards" animation_key="2x walking, line infantry"/>
+	<animation state_key="prone_moving" animation_key="2x walking, line infantry"/>
+	
+	<animation state_key="stabbing" animation_key="2x melee, bayonet"/>
+
+
+	<effect class="muzzle" ref="RailMuzzle"/>
+
+	<sound key="fire" fileref="hyz88_mech_rifle_shot.wav" pitch_variety="0.05" volume="2.46"/>
+	<sound key="magazine_in" fileref="sniper_clip_in.wav"/>
+	<sound key="cycle" fileref="m1903_cycle.wav" pitch_variety="0.01"/>
+	<sound key="cycle_out" fileref="m1903_cycle_out.wav"/>
+	<sound key="cycle_in" fileref="m1903_cycle_in.wav"/>
+	
+	<model filename="hyz88_mech_rifle.xml"/>
+	<hud_icon filename="hyz88_mech.png"/>
+	
+	<inventory encumbrance="10.0" price="100.0"/>
+	
+	<projectile file="bullet.projectile">
+		<result class="blast" radius="2.35" damage="2.1" push="0.03" decal="0" character_state="death" faction_compare="not_equal"/>
+		<trail key="rail_blue"/>
+	</projectile>
+	
+</weapon>

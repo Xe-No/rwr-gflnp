@@ -13,10 +13,10 @@
   name="HS.50 Cometary Wildfire" 
   class="4" 
   reload_one_at_a_time="0" 
-  sight_range_modifier="2.2" 
+  sight_range_modifier="2.5" 
   projectile_speed="200.0" 
   barrel_offset="0.6" 
-  projectiles_per_shot="4" 
+  projectiles_per_shot="5" 
   burst_shots="1"
 last_burst_retrigger_time="1"
   />

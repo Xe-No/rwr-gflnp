@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_RF.weapon" key="gw_carcano1938.weapon">
+    <tag name="sniper" />
+	<specification 
+	 retrigger_time="-1.0" 
+	 accuracy_factor="0.99" 
+	 sustained_fire_grow_step="1.5" 
+	 sustained_fire_diminish_rate="2.0"
+	 magazine_size="6" 
+	 can_shoot_standing="1" 
+	 suppressed="0" 
+	 name="Carcano M1938" 
+	 class="2" 
+	 reload_one_at_a_time="1" 
+	 projectile_speed="180.0" 
+	 barrel_offset="0.4" 
+	 projectiles_per_shot="1"
+	 sight_range_modifier="1.0"
+	/>
+
+	<animation state_key="recoil" ref="27" />
+    <animation state_key="cycle" animation_key="cycle, enforcer" />
+    <animation state_key="reload" ref="29" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="gw_carcano1938.wav" pitch_variety="0.05" volume="1.0"/>
+    <sound key="reload_one" fileref="mossberg500_reload.wav" />
+	<sound key="cycle" fileref="sniper_cycle.wav" />
+    <sound key="magazine_out" fileref="sniper_clip_out.wav" />
+    <sound key="magazine_in" fileref="sniper_clip_in.wav" />
+    <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+    <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+	
+	<model filename="gw_carcano1938.xml" />
+	<hud_icon filename="gw_carcano1938.png" />
+	
+	<commonness value="1.0" can_respawn_with="1" in_stock="1" />
+	<inventory encumbrance="10.0" price="12.0" />
+	
+	<projectile file="bullet.projectile">
+		<result class="hit" kill_probability="4.5" kill_decay_start_time="1.0" kill_decay_end_time="1.5"/>
+	</projectile>
+
+	<modifier class="speed" value="-0.11" />
+</weapon>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="xm8.weapon" key="xm8_z.weapon" time_to_live_out_in_the_open="0.0" >
+    <specification name="XM8 [Limited]" />
+    <commonness value="0.00000001" in_stock="0" can_respawn_with="1" />
+</weapon>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_cb.weapon" key="ew_fiammetta_s.weapon"  >
+    <tag name="gl" />
+
+    <specification 
+  retrigger_time="0.6" 
+  accuracy_factor="0.9" 
+  sustained_fire_grow_step="3.0" 
+  sustained_fire_diminish_rate="1.5" 
+  magazine_size="6" 
+  can_shoot_standing="1" 
+  suppressed="1" 
+  name="Fiametta_s" 
+  carry_in_two_hands="0"
+  class="0"     
+  projectile_speed="110.0" 
+  barrel_offset="1" 
+  projectiles_per_shot="1"
+  sight_range_modifier="1.0"
+  burst_shots="1"
+  slot="0" 
+  spread_range="0.1"/>
+
+    <next_in_chain key="ew_fiammetta_m.weapon" share_ammo="1"/>
+    <animation state_key="next_in_chain_in" animation_key="change weapon in" />
+	<animation state_key="next_in_chain_out" animation_key="change weapon out" />
+
+    <!--     <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="30.0" randomness="0.0" />    -->
+    <ballistics curve_height="3.0" near_far_distance="10.0" speed_estimation_near="55.0" speed_estimation_far="35.0" max_speed="37.0" randomness="0.0" tweak_factor="2.2" />  
+    <!-- <ballistics curve_height="4.0" near_far_distance="10.0" speed_estimation_near="20.0" max_speed="160.0" randomness="0.0" />   -->
+    <!-- <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="100.0" randomness="0.0" /> -->
+
+
+    <animation state_key="recoil"   animation_key="recoil, pistol 2" />
+    <animation state_key="hold" animation_key="still, pistol 2" />
+    <animation state_key="hold_casual"  animation_key="hold_casual, pistol 2" />
+    <animation state_key="hold_on_wall" animation_key="hold, overwall pistol" />
+    <animation state_key="still_against_wall"   animation_key="hold, pistol" />
+    <animation state_key="recoil" stance_key="over_wall" animation_key="recoil, overwall pistol 4" />
+    <animation state_key="running"  animation_key="running, pistol" />
+    <animation state_key="walking"  animation_key="walking, pistol" />
+    <animation state_key="changing_weapon_in"   animation_key="change weapon in, single hand carry" />
+    <animation state_key="prone_still" animation_key="prone_still, pistol" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
+    <animation state_key="crouching"    animation_key="crouch, pistol" />
+    <animation state_key="stabbing" animation_key="pistol whip 3" />
+    <animation state_key="reload" animation_key="reloading, mgl" />
+    <sound key="fire" fileref="mgl_shot.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="magazine_out" fileref="ew_fiammetta_reload1.wav" pitch_variety="0.0"/>
+    <sound key="magazine_out" fileref="ew_fiammetta_reload2.wav" pitch_variety="0.0"/>
+    <sound key="magazine_out" fileref="ew_fiammetta_reload3.wav" pitch_variety="0.0"/>
+    <sound key="magazine_out" fileref="" />
+    <sound key="magazine_out" fileref="" />
+    <sound key="magazine_out" fileref="" />
+    <sound key="magazine_out" fileref="" />
+    <sound key="magazine_out" fileref="" />
+    <sound key="magazine_out" fileref="" />
+    <sound key="magazine_in" fileref="mossberg500_reload.wav" volume="1.0"/>
+    <sound key="cycle" fileref="m79_cycle.wav" volume="1.0"/>
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="ew_fiammetta_s.xml" />
+
+    <projectile file="ew_fiammetta_s.projectile" />
+    <weak_hand_hold offset="0.005" />
+
+    <hud_icon filename="ew_fiammetta_s.png" />
+    <commonness value="0.0001" can_respawn_with="0" />
+    <inventory encumbrance="10.0" price="131.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <stance state_key="running" accuracy="0.05" />
+    <stance state_key="walking" accuracy="0.2" />
+    <stance state_key="crouch_moving" accuracy="0.05" />
+    <stance state_key="prone_moving" accuracy="0.01" />
+
+    <stance state_key="standing" accuracy="0.6" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.0" />
+       
+    
+    <modifier class="speed" value="-0.15" />    
+
+</weapon>

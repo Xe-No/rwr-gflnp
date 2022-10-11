@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectiles>
+	<projectile class="grenade" name="AAV-G17/A1 Drop" key="aav7_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="aav7.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<trigger class="time" time_to_live="10.0"/>  
+		<effect class="activated" ref="FlareSparkle" post_processing="0" offset="0 0.1 0.3"/>
+		<effect class="activated" ref="FlareSmokeGrey" post_processing="0" offset="0 0.4 0.3"/>
+		<effect class="activated" ref="FlareFlashGrey" post_processing="0" offset="0 0.1 0.3"/> 
+		<rotation class="random" />
+		<model mesh_filename="flare_stick.mesh" texture_filename="flare_stick_cyan.png" />
+		<hud_icon filename="hud_flare_cyan.png" />
+		<throwable curve_height="3.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="9.0" randomness="0.07" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" />
+		<capacity value="0" source="rank" source_value="0.0" />
+		<capacity value="1" source="rank" source_value="0.8" />    
+		<inventory encumbrance="2.0" price="700.0" />
+
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="dice true m drop" key="dicetm_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="dicetm.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="750.0" />
+	</projectile>	
+	<projectile class="grenade" file="vflare_0.projectile" name="Strf 9040C drop" key="cv9040c_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="cv9040c.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="1200.0" />
+	</projectile>	
+	<projectile class="grenade" file="vflare_0.projectile" name="BTR-82A drop" key="btr82a_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="btr82a.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="500.0" />
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="BTR-80A drop" key="btr80a_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="btr80a.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="500.0" />
+	</projectile>			
+	<projectile class="grenade" file="vflare_0.projectile" name="M1126 drop" key="m1126_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="m1126.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="500.0" />
+	</projectile>		
+	<projectile class="grenade" file="vflare_0.projectile" name="XMAS jeep drop" key="jeep_xmas_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="jeep_xmas.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="200.0" />
+	</projectile>	
+
+	<projectile class="grenade" file="vflare_0.projectile" name="M1128[Desert] drop" key="m1128d_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="m1128d.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="1500.0" />
+	</projectile>	
+		<projectile class="grenade" file="vflare_0.projectile" name="Otomatic drop" key="otom_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="otom.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="1600.0" />
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="Jupiter[lite] Combat Vehicle drop" key="jupiter_buggy_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="jupiter_buggy.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" buy_price="1200" sell_price="800.0" />
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="BMD-K17 drop" key="bmdk17_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="bmdk17.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" buy_price="1800" sell_price="1500.0" />
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="Humvee-A1 drop" key="humve1_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="humve1.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" buy_price="1200.0" sell_price="800.0" />
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="M113 apc drop" key="m113apc_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="m113apc.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="700.0" />
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="Siegetower drop" key="siegetower_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="siegetower.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="700.0" />
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="Panzer IV (H) drop" key="pz4h_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="pz4h.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="1500.0" />
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="L3/33 drop" key="l333_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="l333.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="1000.0" />
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="LAV 6.0 drop" key="lav6g_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="lav6g.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="2500.0" />
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="Type 22 missile boat drop" key="mslb22_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="mslb22.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" buy_price="24000.0" sell_price="18000" />
+		<throwable curve_height="6.0" near_far_distance="0.0" speed_estimation_near="20.0" speed_estimation_far="20.0" max_speed="20.0" randomness="0.07" />
+	</projectile>
+
+	<projectile class="grenade" file="vflare_0.projectile" name="M5APC drop" key="m5apc_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="m5apc.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="1500.0" sell_price="1000"/>
+	</projectile>	
+	<projectile class="grenade" file="vflare_0.projectile" name="Challenger 2TES drop" key="cha2tes_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="cha2tes.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="4000.0" sell_price="3000"/>
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="Cetus drop" key="cetus_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="cetus.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="10000.0" sell_price="5000"/>
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="T-90 drop" key="t90_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="t90.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="2000.0" sell_price="1500"/>
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="Strv122A drop" key="strv122a_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="strv122a.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="2500.0" sell_price="2000"/>
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="Wheelchair(Hyper) drop" key="wheelchair_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="wheelchair.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="300.0" sell_price="300"/>
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="Wheelchair drop" key="wheelchair2_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="wheelchair2.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="100.0" sell_price="100"/>
+	</projectile>
+	<projectile class="grenade" file="vflare_0.projectile" name="CS-VP16 lynx atv drop" key="lynx_atv_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
+		<result class="spawn" instance_class="vehicle" instance_key="lynx_atv.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0" />
+		<commonness value="0.0" can_respawn_with="0" in_stock="1" /> 
+		<inventory encumbrance="2.0" price="300.0" sell_price="300"/>
+	</projectile>
+
+</projectiles>

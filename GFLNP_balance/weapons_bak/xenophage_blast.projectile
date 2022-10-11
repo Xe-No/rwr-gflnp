@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="xenophage" key="xenophage_blast.projectile" slot="2" >
+     <result class="blast" 
+    radius="4.5" 
+    damage="0.91" 
+    push="0.2" 
+    decal="1" 
+    character_state="death"
+    damage_origin_vehicle="0"
+    faction_compare="not_equal"
+    />
+        
+    <trigger class="time" time_to_live="0"/>
+    <rotation class="motion" />
+
+    <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
+	
+    <sound class="result" key="other" fileref="ew_xenophage_explode.wav" volume="3" />
+
+
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+    <effect class="result" type="splat_map" surface_tag="" size="3.5" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="4.5" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="5.5" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+
+    <effect class="result" key="other" ref="flame_smoke01" post_processing="1" />       
+    <effect class="result" key="other" ref="explosion_glow01" lighting="0" /> 
+	<effect class="result" key="other" ref="line_feedback01" lighting="0" /> 
+
+    <effect class="result" key="terrain" copy="other" />
+    <effect class="result" key="static_object" copy="other" />
+    <effect class="result" key="vehicle" copy="other" />
+    <effect class="result" key="character" copy="other" />
+
+
+</projectile>
+
