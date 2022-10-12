@@ -16,11 +16,11 @@ factions
 	<text key="4 Moon T-Doll" text="4月人形" />
 	<text key="5 Moon T-Doll" text="5月人形" />
 	<text key="1 Sun T-Doll" text="1日人形" />
-	<text key="R0 Combat-Doll" text="R0战斗人形" />
-	<text key="R1 Combat-Doll" text="R1战斗人形" />
-	<text key="R2 Combat-Doll" text="R2战斗人形" />
-	<text key="R3 Combat-Doll" text="R3战斗人形" />
-	<text key="R4 Combat-Doll" text="R4战斗人形" />
+	<text key="R0 Combat-Doll" text="R0作战人形" />
+	<text key="R1 Combat-Doll" text="R1作战人形" />
+	<text key="R2 Combat-Doll" text="R2作战人形" />
+	<text key="R3 Combat-Doll" text="R3作战人形" />
+	<text key="R4 Combat-Doll" text="R4作战人形" />
 	<text key="Lance Corporal" text="准下士" />
 	<text key="Staff Sergeant" text="高级中士" />
 	<text key="Gunnery Sergeant" text="一级中士" />
@@ -132,9 +132,9 @@ calls
 	<text key="Air strike in bound." text="已标记区域" /> F16-2
 	<text key="Juggernaut Airdrop" text="重型装甲空投箱" />
 	<text key="I need heavy armour support" text="请求重型装甲空投支援" />
-	<text key="Confirmed,airdrop is in the air." text="确认，正在运输空投补给箱" />
+	<text key="Confirmed,airdrop is in the air." text="已确认，正在执行空投运输" />
 	<text key="Heavy armour support" text="重型装甲空投箱" />
-	<text key="Airdrop on the way." text="直升机正在前往" />
+	<text key="Airdrop on the way." text="空投机正在前往" />
 	<text key="Predator missile ready for launch." text="AGM导弹已准备就绪" />
 	<text key="UAV on line." text="无人机已上线" />
 	<text key="Missile on the way." text="导弹已发射" />
@@ -151,6 +151,12 @@ calls
 	<text key="Requesting 380mm naval strike." text="请求380mm舰炮支援" />
 	<text key="380mm naval strike." text="380mm舰炮支援" />
 	<text key="reconhub request" text="空投侦查中枢" />
+	<text key="SOMST Reinforcements" text="SOMST空降支援" />
+	<text key="requesting 5" text="请求5人小队支援" />
+	<text key="5 airborne" text="SOMST 5人小队空降" />
+	<text key="Architect Airdrop" text="“建筑师”支援小队空降" />
+	<text key="Architect support" text="“建筑师”小队支援" />
+	<text key="Pick up the pace. Don't keep me waiting!" text="快一点，可别让我久等！" />
 
 	<text key="AH-64 Helo support" text="AH-64武装直升机支援" />
 	<text key="AH-64 helo support" text="AH-64武装直升机支援" />
@@ -172,9 +178,11 @@ calls
 	<text key="Acknowledged, Course laid in" text="收到指令，航道已输入" /> yamato-1
 	<text key="Weapons charged and ready! Commencing bombardment" text="武器已经充能完毕，准备开始轰炸" /> yamato-2
 	<text key="GK Sniper Support" text="格里芬狙击支援" />
+	<text key="Sniper Support" text="狙击支援" />
 	<text key="We need some support, but don't make too much noise." text="请求微声支援，要求隐秘进行" />
 	<text key="Roger, sniper in position." text="了解，狙击手就位" /> sniper-1
 	<text key="I'm not responsible for any accidents okay?" text="“发生什么意外的话我可不管哦？”" /> sniper-2
+	<text key="Roger, we're 'ready to rock'. Just give us the word. Standing by." text="了解，我们“准备就绪”，听候指令。做好准备" /> sniper-2_ai
 
 	<text key="cover drop" text="空投沙袋" />
 	<text key="I need sandbags" text="请求沙袋支援" />
@@ -288,6 +296,9 @@ vehicle
 	<text key="Challenger 2 TES" text="挑战者2 TES"/>
 	<text key="Cetus Mech Tank" text="Cetus机械坦克"/>
 	<text key="M5 APC" text="M5轻型装甲运兵车"/>
+	<text key="CS/VP16 lynx atv" text="CS/VP16“山猫”全地形车"/>
+	<text key="wheelchair(hyper)" text="高性能双人型轮椅"/>
+	<text key="wheelchair" text="双人型轮椅"/>
 
 -vanilla-
 	<text key="Jeep" text="吉普车" />
@@ -354,6 +365,8 @@ vehicle
 	<text key="MG Supply Box" text="机枪补给箱" />
 	<text key="SG Supply Box" text="霰弹枪补给箱" />
 	<text key="SS Supply Box" text="军械库补给箱" />
+	<text key="FNG Supply Box" text="白卡武器补给箱" />
+	<text key="Common Supply Box" text="通用补给箱" />
 
 drop flare
 	<!-- <text key="Leopard 2A5 Drop" text="Leopard 2A5主战坦克空投信标" /> -->
@@ -412,6 +425,9 @@ drop flare
 	<text key="Cetus drop" text="Cetus机械坦克空投信标" />
 	<text key="T-90 drop" text="T-90主战坦克空投信标" />
 	<text key="Strv122A drop" text="Strv122A主战坦克空投信标" />
+	<text key="CS-VP16 lynx atv drop" text="CS-VP16“山猫”ATV空投信标" />
+	<text key="Wheelchair drop" text="双人型轮椅空投信标" />
+	<text key="Wheelchair(Hyper) drop" text="高性能双人型轮椅空投信标" />
 
 drop item
 -rp-
@@ -484,7 +500,7 @@ drop item
 
 -lottery-
 	<text key="community box" text="社群箱子Ⅰ" />
-	<text key="community box 2" text="社群箱子 Ⅱ" />
+	<text key="community box 2" text="社群箱子Ⅱ" />
 	<text key="T-Doll Contract" text="人形建造许可" />
 	<text key="T-Doll Contract(MG+SG)" text="人形建造许可（机枪|霰弹枪）" />
 	<text key="T-Doll Contract(AR+SMG)" text="人形建造许可（突击步枪|冲锋枪）" />
@@ -504,6 +520,9 @@ drop item
 	<text key="GFL SSR Random Weapon Card" text="GFL随机SSR武器兑换卡" />
 	<text key="GFL UR Random Weapon Card" text="GFL随机UR武器兑换卡" />
 	<text key="Lottery ticket" text="彩票" />
+	<text key="Loot Box 1" text="战利品箱子Ⅰ" />
+	<text key="Loot Box 2" text="战利品箱子Ⅱ" />
+	<text key="Loot Box 3" text="战利品箱子Ⅲ" />
 
 zombies
 -item-
@@ -606,6 +625,7 @@ armor
 	<text key="16LAB T4 Universal Exoskeleton, 40&#37;" text="16LAB T4型外骨骼 3/5" />
 	<text key="16LAB T4 Universal Exoskeleton, 20&#37;" text="16LAB T4型外骨骼 2/5" />
 	<text key="16LAB T4 Universal Exoskeleton, destroyed" text="16LAB T4型外骨骼（损坏） 1/5" />
+	<text key="16LAB T4 Universal Exoskeleton, completely destroyed" text="16LAB T4型外骨骼（完全损坏） 0/5" />
 
 	<text key="16LAB X4 Universal Exoskeleton" text="16LAB X4型外骨骼 6/6" />
 	<text key="16LAB X4 Universal Exoskeleton, 70%" text="16LAB X4型外骨骼 5/6" />
@@ -613,11 +633,13 @@ armor
 	<text key="16LAB X4 Universal Exoskeleton, 40%" text="16LAB X4型外骨骼 3/6" />
 	<text key="16LAB X4 Universal Exoskeleton, 20%" text="16LAB X4型外骨骼 2/6" />
 	<text key="16LAB X4 Universal Exoskeleton, destroyed" text="16LAB X4型外骨骼（损坏） 1/6" />
+	<text key="16LAB X4 Universal Exoskeleton, completely destroyed" text="16LAB X4型外骨骼（完全损坏） 0/6" />
 
 	<text key="42LAB Universal Camouflage Exoskeleton" text="42LAB 通用迷彩外骨骼 4/4" />
 	<text key="42LAB Universal Camouflage Exoskeleton, 60%" text="42LAB 通用迷彩外骨骼 3/4" />
 	<text key="42LAB Universal Camouflage Exoskeleton, 40%" text="42LAB 通用迷彩外骨骼 2/4" />
 	<text key="42LAB Universal Camouflage Exoskeleton, destroyed" text="42LAB 通用迷彩外骨骼（损坏） 1/4" />
+	<text key="42LAB Universal Camouflage Exoskeleton, completely destroyed" text="42LAB 通用迷彩外骨骼（完全损坏） 0/4" />
 
 	<text key="Ragged Cloak" text="破烂的披风 1/1" />
 
@@ -635,6 +657,7 @@ armor
 	<text key="16LAB Optical Camouflage Cloak, 60&#37;" text="16LAB光学迷彩披风 3/4" />
 	<text key="16LAB Optical Camouflage Cloak, 40&#37;" text="16LAB光学迷彩披风 2/4" />
 	<text key="16LAB Optical Camouflage Cloak, destroyed" text="16LAB光学迷彩披风（损坏） 1/4" />
+	<text key="16LAB Optical Camouflage Cloak, completely destroyed" text="16LAB光学迷彩披风（完全损坏） 0/4" />
 
 	<text key="IOP TYPE I Bulletproof Plate" text="IOP I型防弹护板 6/6" />
 	<text key="IOP TYPE I Bulletproof Plate, 80&#37;" text="IOP I型防弹护板 5/6" />
@@ -673,6 +696,7 @@ armor
 	<text key="16LAB TYPE IV Bulletproof Plate,30&#37;" text="16LAB IV型防弹护板 3/10" />
 	<text key="16LAB TYPE IV Bulletproof Plate,20&#37;" text="16LAB IV型防弹护板 2/10" />
 	<text key="16LAB TYPE IV Bulletproof Plate,destroyed" text="16LAB IV型防弹护板（损坏） 1/10" />
+	<text key="16LAB TYPE IV Bulletproof Plate,completely destroyed" text="16LAB IV型防弹护板（完全损坏） 0/10" />
 
 	<text key="Vest,Juggernaut" text="无畏战士 10/10" />
 	<text key="Vest,Juggernaut,90&#37;" text="无畏战士 9/10" />
@@ -820,6 +844,15 @@ armor
 	<text key="MED Optical Camouflage Cloak, 40%" text="MED光学迷彩披风 2/4" />
 	<text key="MED Optical Camouflage Cloak, destroyed" text="MED光学迷彩披风（损坏） 1/4" />
 
+	<text key="SCT Tactical Conversion Exoskeleton 8/8" text="SCT战术转换外骨骼 8/8" />
+	<text key="SCT Tactical Conversion Exoskeleton 7/8" text="SCT战术转换外骨骼 7/8" />
+	<text key="SCT Tactical Conversion Exoskeleton 6/8" text="SCT战术转换外骨骼 6/8" />
+	<text key="SCT Tactical Conversion Exoskeleton 5/8" text="SCT战术转换外骨骼 5/8" />
+	<text key="SCT Tactical Conversion Exoskeleton 4/8" text="SCT战术转换外骨骼 4/8" />
+	<text key="SCT Tactical Conversion Exoskeleton 3/8" text="SCT战术转换外骨骼 3/8" />
+	<text key="SCT Tactical Conversion Exoskeleton 2/8" text="SCT战术转换外骨骼 2/8" />
+	<text key="SCT Tactical Conversion Exoskeleton destroyed" text="SCT战术转换外骨骼（损坏） 1/8" />
+
 -ai only-
 	<text key="Ghost Optical Camouflage Cloak" text="GHOST光学迷彩披风 4/4" />
 	<text key="Ghost Optical Camouflage Cloak, 60%" text="GHOST光学迷彩披风 3/4" />
@@ -829,26 +862,8 @@ armor
 	<text key="Doppelsoldner_Shield" text="精英力场盾" />
 	<text key="Doppelsoldner_Normal" text="精英装甲" />
 	<text key="Doppelsoldner_Down" text="损坏精英装甲" />
-	<text key="Doppelsoldner" text="精英力场盾 20/20" />
-	<text key="Doppelsoldner 95%" text="精英力场盾 19/20" />
-	<text key="Doppelsoldner 90%" text="精英力场盾 18/20" />
-	<text key="Doppelsoldner 85%" text="精英力场盾 17/20" />
-	<text key="Doppelsoldner 80%" text="精英装甲 16/20" />
-	<text key="Doppelsoldner 75%" text="精英装甲 15/20" />
-	<text key="Doppelsoldner 70%" text="精英装甲 14/20" />
-	<text key="Doppelsoldner 65%" text="精英装甲 13/20" />
-	<text key="Doppelsoldner 60%" text="精英装甲 12/20" />
-	<text key="Doppelsoldner 55%" text="精英装甲 11/20" />
-	<text key="Doppelsoldner 50%" text="精英装甲 10/20" />
-	<text key="Doppelsoldner 45%" text="精英装甲 9/20" />
-	<text key="Doppelsoldner 40%" text="精英装甲 8/20" />
-	<text key="Doppelsoldner 35%" text="精英装甲 7/20" />
-	<text key="Doppelsoldner 30%" text="精英装甲 6/20" />
-	<text key="Doppelsoldner 25%" text="精英装甲 5/20" />
-	<text key="Doppelsoldner 20%" text="精英装甲 4/20" />
-	<text key="Doppelsoldner 15%" text="精英装甲 3/20" />
-	<text key="Doppelsoldner 10%" text="精英装甲 2/20" />
-	<text key="Doppelsoldner destoryed" text="精英装甲（损坏） 1/20" />
+	<text key="Gager_Normal" text="SF精英装甲" />
+	<!-- 反正不可获取，我的评价是白写不如不写 -->
 
 UI
 	<text key="throw some grenades at me!" text="朝这里扔手榴弹！" />
