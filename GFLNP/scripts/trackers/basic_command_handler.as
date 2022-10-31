@@ -194,7 +194,7 @@ class BasicCommandHandler : Tracker {
 		}
 
 		else if (matchString(paras[0], "sw")) {
-			if (payRP(characterId, 1000) ){
+			if (payRP(characterId, 5000) ){
 				sendPrivateMessage(m_metagame, senderId, "Safe warfare service activated");
 				killCharacter(m_metagame, characterId, true );
 			}
