@@ -46,7 +46,7 @@
      <model  />
 
     <hud_icon filename="hud_antro.png" />
-    <commonness value="0.01" can_respawn_with="0" />
+    <!-- <commonness value="0.01" can_respawn_with="0" /> -->
     <inventory encumbrance="11.0" price="0.0" />
 	
     <modifier class="speed" value="+0.05" />	
