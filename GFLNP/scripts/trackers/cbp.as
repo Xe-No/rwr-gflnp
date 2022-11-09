@@ -136,7 +136,11 @@ class GFLEquipmentEvent : Tracker {
 				{"ew_leviathan_breath.weapon","ur"},
 				{"ew_trinity_ghoul.weapon","ur"},
 				{"ew_pm1.weapon","ur"},
-				{"gw_g41_7406.weapon","ur"}
+				{"gw_g41_7406.weapon","ur"},
+				{"ew_kokomi_portia.weapon","ur"},
+				{"ew_kokomi_water_thrower.weapon","ur"}
+				
+				
 		};
 
 		//转化字典

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weapon file="base_cb.weapon" key="ew_kokomi_water_thrower.weapon" quality="cb">
+    <tag name="gl"/>
+    <specification
+    retrigger_time="0.5"
+    accuracy_factor="0.8"
+    sustained_fire_grow_step="0.95"
+    sustained_fire_diminish_rate="2.5"
+    magazine_size="8"
+    can_shoot_standing="1" 
+    can_shoot_crouching="1" 
+    can_shoot_prone="0"
+    suppressed="0" 
+    name="Everlasting Moonglow" 
+    class="0" 
+    sight_range_modifier="1.45" 
+    sight_height_offset="1.0" 
+    projectile_speed="120.0"
+    barrel_offset="0.4"
+    projectiles_per_shot="1"  
+    spread_range="0.04"
+	carry_in_two_hands="0" 
+	use_basic_muzzle_smoke_effect="0"
+	/>
+
+    <next_in_chain key="ew_kokomi_portia.weapon" share_ammo="0" />
+
+    <animation state_key="recoil" animation_key="kokomi_float_still" />
+    <animation state_key="hold" animation_key="kokomi_float_still" />
+    <animation state_key="reload" animation_key="kokomi_ex" />
+    <animation state_key="running" animation_key="kokomi_float_runing" />
+    <animation state_key="walking" animation_key="kokomi_float_runing" />
+    <animation state_key="walking_backwards" animation_key="kokomi_float_back" />
+    <animation state_key="hold_casual" animation_key="kokomi_float_still" /> 
+	<animation state_key="crouching" animation_key="crouch, pistol" />
+    <control key="effect" value="1" />
+
+    <sound key="fire" fileref="kokomi_shoot.wav" pitch_variety="0.1" volume="3.0"/>
+    <sound key="magazine_out" fileref="m320_clip_out.wav" volume="0.7"/>
+    <sound key="magazine_in" fileref="kokomi_reloading.wav" volume="1.0"/>
+    <sound key="cycle" fileref="m79_cycle.wav" volume="0.7"/>
+    <sound class="impact" fileref="rifle_drop.wav"/>
+
+    <weak_hand_hold offset="0.005"/>
+    <commonness value="0" can_respawn_with="0" in_stock="1" /> 
+    <model filename="ew_kokomi_2.xml"/>
+    <hud_icon filename="ew_kokomi_2.png"/>
+    <inventory encumbrance="10.0" price="300.0"/>
+
+    <ballistics curve_height="14.4" near_far_distance="0.0" speed_estimation_near="60.0" speed_estimation_far="150.0" max_speed="150.0" randomness="0.0" tweak_factor="1.95"/>
+
+    <projectile file="ew_kokomi_water.projectile">
+		<effect class="activated" ref="kokomi_activated_bobble" />
+		<effect class="activated" ref="kokomi_activated_dropping_water" />
+		<effect class="activated" ref="kokomi_activated_light" />
+		<effect class="activated" ref="kokomi_activated_light_2" />
+		<effect class="result" key="terrain" ref="kokomi_result_ring" lighting="0"/>
+		<effect class="result" key="terrain" ref="kokomi_result_bobble" lighting="0"/>
+		<effect class="result" key="terrain" ref="kokomi_result_light" lighting="0"/>
+		<effect class="result" key="terrain" ref="kokomi_result_splash_01" lighting="0"/>
+		<effect class="result" key="terrain" ref="kokomi_result_splash_02" lighting="0"/>
+		<effect class="result" key="terrain" ref="kokomi_result_splash_03" lighting="0"/>
+		
+		<effect class="result" key="other" copy="terrain"/>
+		<effect class="result" key="static_object" copy="terrain" />
+		<effect class="result" key="character" copy="terrain" />
+		<effect class="result" key="vehicle" copy="terrain" />
+	</projectile>
+	
+		<effect class="muzzle" ref="kokomi_muzzle_concentrate_waterwave_01"/>
+		<effect class="muzzle" ref="kokomi_muzzle_concentrate_waterwave_02"/>
+		<effect class="muzzle" ref="kokomi_muzzle_concentrate_waterwave_03"/>
+		<effect class="muzzle" ref="kokomi_muzzle_concentrate_waterwave_04"/>
+		<effect class="muzzle" ref="kokomi_muzzle_shrink_star_01"/>
+		<effect class="muzzle" ref="kokomi_muzzle_shrink_star_02"/>
+		<effect class="muzzle" ref="kokomi_muzzle_exposion_ambient"/>
+		<effect class="muzzle" ref="kokomi_muzzle_exposion_splash"/>
+		<effect class="muzzle" ref="kokomi_muzzle_exposion_splash_dropping"/>
+		<effect class="muzzle" ref="kokomi_muzzle_expand_waterwave_01"/>
+		<effect class="muzzle" ref="kokomi_muzzle_expand_waterwave_02"/>
+		<effect class="muzzle" ref="kokomi_muzzle_expand_particle_01"/>
+		<effect class="muzzle" ref="kokomi_muzzle_expand_star_01"/>
+		<effect class="muzzle" ref="kokomi_muzzle_bobble"/>
+		<effect class="muzzle" ref="kokomi_muzzle_light"/>
+		<effect class="muzzle" ref="kokomi_muzzle_ring"/>
+		
+		
+
+    <stance state_key="running" accuracy="0.1"/>
+    <stance state_key="walking" accuracy="0.25"/>
+    <stance state_key="crouch_moving" accuracy="0.1"/>
+    <stance state_key="prone_moving" accuracy="0.1"/>
+
+    <stance state_key="standing" accuracy="0.8"/>
+    <stance state_key="crouching" accuracy="0.9"/>
+    <stance state_key="prone" accuracy="1.0"/>
+    <stance state_key="over_wall" accuracy="1.0"/> 
+    
+    <modifier class="speed" value="-0.12"/>    
+
+
+</weapon>
