@@ -3,6 +3,7 @@
 	<model filename="gs_soldier.xml"></model>
 
 	<model filename="gs_ant_ro635.xml"><requirement class="weapon" slot="0" key="ant_alt.weapon"/></model>
+	<model filename="ts_ant.xml"><requirement class="weapon" slot="0" key="ant.weapon"/></model>
 
 	<model filename="gs_95type.xml"><requirement class="weapon" slot="0" key="gw_95type.weapon"/></model>
 	<model filename="gs_95type.xml"><requirement class="weapon" slot="0" key="gw_95type_b.weapon"/></model>

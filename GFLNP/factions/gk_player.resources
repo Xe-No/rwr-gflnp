@@ -66,6 +66,10 @@ Armory
 	<weapon key="gw_ak15.weapon" />
 	<weapon key="gw_type80.weapon" />
 	<weapon key="gw_type80_n.weapon" />
+
+	<weapon key="ant.weapon" />
+	<weapon key="ant_alt.weapon" />
+	<weapon key="targetdrone.weapon" />
 	
 <!-- ST -->
 	<weapon key='st_mg0.weapon' />

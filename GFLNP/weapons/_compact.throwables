@@ -310,7 +310,7 @@
 	</projectile>
 	<projectile class="grenade" name="impact grenade" key="impact_grenade.projectile" slot="0" radius="0.15">
 		<tag name="grenade"/>
-		<result class="blast" radius="3.0" damage="3.4" push="0.8" decal="1" character_state="death"/>
+		<result class="blast" radius="3.0" damage="3.4" push="0.8" decal="1" character_state="death" faction_compare="not_equal"/>
 		<trigger class="impact"/>
 		<rotation class="random"/>
 		<model mesh_filename="impact_grenade.xml"/>
@@ -417,7 +417,7 @@
 		<capacity value="10" source="rank" source_value="0.0"/>
 		<sound class="result" key="character" fileref="slip.wav" volume="0.5"/>
 	</projectile>
-	<projectile class="grenade" name="Claymore" key="claymore.projectile" slot="0" on_ground_up="0 1 0" radius="1.2" can_be_disarmed="1" disarm_instance_class="weapon" disarm_instance_key="claymore_resource.weapon" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0" time_to_live_out_in_the_open="0.0" visible_height="-0.6" blast_damage_threshold="0.25" use_time_to_live="1" time_to_live="240">
+	<projectile class="grenade" name="Claymore" key="claymore.projectile" slot="0" on_ground_up="0 1 0" radius="1.2" can_be_disarmed="1" disarm_instance_class="weapon" disarm_instance_key="claymore_resource.weapon" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0" time_to_live_out_in_the_open="0.0" visible_height="-1.2" blast_damage_threshold="0.25" use_time_to_live="1" time_to_live="240">
 		<collision class="sticky"/>
 		<trigger class="impact">
 			<collider class="terrain" enabled="0"/>
@@ -7329,6 +7329,21 @@
 		<commonness value="0.0" can_respawn_with="0" in_stock="0"/>
 		<capacity value="0" source="rank" source_value="0.0"/>
 		<capacity value="1" source="rank" source_value="0.4"/>
+	</projectile>
+	<projectile class="grenade" name="drop pod maxops flare" key="drop_pod_maxops_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="1.0">
+		<tag name="grenade"/>
+		<result class="spawn" instance_class="call" instance_key="drop_pod_maxops.call" min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0 0" direction_spread="0 0"/>
+		<trigger class="time" time_to_live="4.0"/>
+		<rotation class="random"/>
+		<model mesh_filename="smoke_grenade.xml"/>
+		<hud_icon filename="hud_smoke_grenade.png"/>
+		<throwable curve_height="6.0" near_far_distance="6.5" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="13.0" randomness="0.07"/>
+		<commonness value="0.00001" can_respawn_with="1" in_stock="0"/>
+		<capacity value="1" source="rank" source_value="1000"/>
+		<inventory encumbrance="2.0" price="20000.0"/>
+		<effect class="activated" ref="FlareSparkle" post_processing="0" offset="0 0.1 0.3"/>
+		<effect class="activated" ref="FlareSmoke" post_processing="0" offset="0 0.4 0.3"/>
+		<effect class="activated" ref="FlareFlash" post_processing="0" offset="0 0.1 0.3"/>
 	</projectile>
 	<projectile class="grenade" name="Electronic counter measure support marker" key="ecm.projectile" slot="0" radius="1.0" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0">
 		<result class="spawn" instance_class="vehicle" instance_key="ecm.vehicle" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0"/>
