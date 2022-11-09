@@ -214,6 +214,9 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("summon_targetdrone.projectile", "projectile", 1.0f, 5),
 				ScoredResource("gw_red_knife.weapon", "weapon", 1.0f),	
 				ScoredResource("gw_castanas.weapon", "weapon", 1.0f),
+				ScoredResource("targetdrone.weapon", "weapon", 1.0f),
+				ScoredResource("ant.weapon", "weapon", 1.0f),
+				ScoredResource("ant_alt.weapon", "weapon", 1.0f),
 				ScoredResource("gw_corinth.weapon", "weapon", 1.0f),	
 				ScoredResource("ew_martini_henry.weapon", "weapon", 2.0f),	//2X up 0.36
 				ScoredResource("gw_3x_railgun.weapon", "weapon", 2.0f),	//2X up 0.37

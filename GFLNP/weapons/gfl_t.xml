@@ -245,6 +245,9 @@
 <projectile file="loot.projectile" />
 
 
+<projectile file="drop_pod_maxops_flare.projectile" />
+
+
 
 
 </projectiles>

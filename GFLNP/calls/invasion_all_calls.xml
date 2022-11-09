@@ -11,6 +11,7 @@
 	<call file="drop_pod.call" />
 	<call file="drop_pod_med.call" />
 	<call file="drop_pod_crew.call" />
+	<call file="drop_pod_maxops.call" />
 	<call file="401_yamato.call" />
 	<call file="sniper_call.call" />
 	<call file="a10_gun_run_2.call" />

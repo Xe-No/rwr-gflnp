@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call name="1 drop pod + 5 maxops" key="drop_pod_maxops.call"
+	   initiation_comment1="Requesting 5 maxops"
+	   acknowledge_comment="Roger"
+	   launch_comment="1 drop pod ejected">
+
+    <round instances="1"
+           instance_class="vehicle"
+           instance_key="drop_pod.vehicle" 
+           instance_spread="0 0 0" 
+           common_spread="0 0 0" 
+           launch_time="2.0"
+           spawn_time="3.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="20.0"
+           initial_speed_to_target="100.0">
+        <sound class="spawn" fileref="drop_pod_pre_impact.wav" />
+    </round>
+
+    <round instances="5"
+           instance_class="grenade"
+           instance_key="landing_impact.projectile" 
+           instance_spread="2 0 2" 
+           common_spread="0 0 0" 
+           launch_time="3.0"
+           spawn_time="3.5"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="1.0"
+           initial_speed_to_target="100.0">
+       
+    </round>
+
+    <round instances="5"
+           instance_class="soldier"
+	    instance_key="maxops"
+           instance_spread="3 0 3" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="6.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="0.0">
+    </round>
+
+
+    <hud_icon filename="hud_paratroopers1.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.2" />
+    <inventory encumbrance="0.0" price="10000" />
+
+</call>
