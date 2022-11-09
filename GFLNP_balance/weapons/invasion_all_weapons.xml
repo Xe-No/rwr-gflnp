@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<weapons>
-	<!-- 保持_compact.weapons单独引用 -->
-	<weapon file="all_weapons.xml" />
-</weapons>

@@ -209,7 +209,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	addStage(setupClairemont());
 	addStage(setupUntildeath()); 
 	// addStage(setupUprising());     //0.37反馈移除
-	addStage(setupUntildeath2());
+	// addStage(setupUntildeath2());	//0.37.1反馈移除
 	// addStage(setupIntrusion()); 		//0.37反馈移除
 	addStage(setupUntildeath3());
 	addStage(setupRedDawn2());

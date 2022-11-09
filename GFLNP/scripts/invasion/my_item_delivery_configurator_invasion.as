@@ -708,6 +708,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gw_g41_7406.weapon", "weapon", 2.0f),		//2X UP 0.37
 				ScoredResource("ew_pm1.weapon", "weapon", 2.0f),		//2X UP 0.37
 				ScoredResource("ew_leviathan_breath.weapon", "weapon", 2.0f),		//2X UP 0.37
+				ScoredResource("ew_kokomi_portia.weapon", "weapon", 2.0f),		//2X UP 0.37.1
 				ScoredResource("kf2_seekersix_ap.weapon", "weapon", 1.0f),	 
         		ScoredResource("ace_of_spades.weapon", "weapon", 1.0f),
 				ScoredResource("ew_rpl20.weapon", "weapon", 0.5f),		//共享出率RPL

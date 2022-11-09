@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<weapon file="gw_aug_s.weapon" key="gw_aug_s_z.weapon" time_to_live_out_in_the_open="0.0" >
-    <specification name="AUG [Limited]" />
-    <next_in_chain key="gw_aug_z.weapon" share_ammo="1" />
-    <commonness value="0.00000001" in_stock="0" can_respawn_with="1" />
-</weapon>

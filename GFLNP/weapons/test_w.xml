@@ -53,5 +53,7 @@
 <weapon file="ew_pm1.weapon" />
 <weapon file="ew_leviathan_breath.weapon" />
 <weapon file="ew_trinity_ghoul.weapon" />
+<weapon file="ew_kokomi_portia.weapon" />
+<weapon file="ew_kokomi_water_thrower.weapon" />
 
 </weapons>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weapon file="base_cb.weapon" key="ew_kokomi_portia.weapon" quality="cb">
+    <tag name="stealth"/>
+    <specification 
+     retrigger_time="0.04" 
+     accuracy_factor="1.0" 
+     sustained_fire_grow_step="0.22" 
+     sustained_fire_diminish_rate="3.0" 
+     magazine_size="60" 
+     can_shoot_standing="1" 
+     suppressed="0" 
+     name="Everlasting Moonglow" 
+     class="0" 
+     sight_range_modifier="1.2" 
+     projectile_speed="150.0"/>
+
+    <next_in_chain key="ew_kokomi_water_thrower.weapon" share_ammo="0" />
+
+    <animation key="recoil" ref="12"/>
+    <animation key="recoil" ref="13"/>
+    <animation key="recoil" ref="14"/>
+    <animation state_key="reload" animation_key="reloading, xxvidw"/>
+
+    <sound key="fire" fileref="kriss_vector_shot.wav" volume="1.0" pitch_variety="0.03"/>
+    <sound key="magazine_out" fileref="rifle_clip_out.wav"/>
+    <sound key="magazine_in" fileref="rifle_clip_in.wav"/>
+    <sound key="cycle" fileref="rifle_chamber.wav"/>
+    <sound class="impact" fileref="rifle_drop.wav"/>
+
+    <commonness value="0" can_respawn_with="0" in_stock="1" /> 
+    <model filename="ew_kokomi_1.xml"/>
+    <hud_icon filename="ew_kokomi_1.png"/>
+    <inventory encumbrance="8.0" price="300.0"/>
+
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.55" kill_decay_start_time="0.3" kill_decay_end_time="0.5"/>
+		<trail probability="1" key="kokomi_trail"/>	
+    </projectile>
+
+    <stance state_key="running" accuracy="0.67"/>
+	<stance state_key="walking" accuracy="0.875"/>
+	<stance state_key="crouch_moving" accuracy="0.5"/>
+	<stance state_key="prone_moving" accuracy="0.4"/>	
+	<stance state_key="standing" accuracy="0.7"/>
+	<stance state_key="crouching" accuracy="0.85"/>
+	<stance state_key="prone" accuracy="1.0"/>
+
+    <modifier class="speed" value="+0.2"/>
+</weapon>
