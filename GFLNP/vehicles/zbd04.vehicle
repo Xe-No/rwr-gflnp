@@ -1,4 +1,4 @@
-<vehicle file="vehicle_base.vehicle" name="ZBD-04A" key="zbd04a.vehicle" respawn_time="60" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="0.25" >
+<vehicle file="vehicle_base.vehicle" name="ZBD-04" key="zbd04.vehicle" respawn_time="60" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="0.25" >
 	<tag name="metal_heavy" />
 	<tag name="apc" />
 	<tag name="any_tank" />
@@ -9,20 +9,21 @@
     <modifier class="blast_range" value="-1.0" />
 
 	<control 
-	max_speed="14.0" 
+	max_speed="12.0" 
 	acceleration="13.0" 
 	max_reverse_speed="10.0" 
 	min_health_to_steer="1.5" 
 	max_rotation="0.0" 
-	max_water_depth="1.4" 
+	max_water_depth="3.0" 
 	steer_smoothening="0.98" 
 	tracked="1" 
 	gears="1" 
 	max_limiter_speed="6.0"/>
 
 	<physics 
-	max_health="11.0" 
-	blast_damage_threshold="0.3"  
+	max_health="8.0" 
+	blast_damage_threshold="0.17" 
+	TODO_blast_damage_threshold="1.02" 
 	mass="200.0" 
 	broken_mass="5"
     remove_collision_threshold="0.2"	

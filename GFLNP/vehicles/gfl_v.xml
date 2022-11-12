@@ -14,6 +14,7 @@
 	<vehicle file="apc_1.vehicle" />  
 	<vehicle file="apc_2.vehicle" />       
 	<vehicle file="zbd04a.vehicle" />       
+	<vehicle file="zbd04.vehicle" />       
 	
 	APC dummy TS
 	<vehicle file="m1126.vehicle" />    

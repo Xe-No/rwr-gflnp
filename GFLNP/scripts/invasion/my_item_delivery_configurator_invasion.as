@@ -130,6 +130,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("flamer_tank_flare.projectile", "projectile", 1.0f, 2), 
 				ScoredResource("sev90_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("zbd04a_flare.projectile", "projectile", 1.0f, 2),
+				ScoredResource("zbd04_flare.projectile", "projectile", 1.0f, 2),
 				ScoredResource("dicem_flare.projectile", "projectile", 1.0f, 5),
 				ScoredResource("dicetm_flare.projectile", "projectile", 1.0f, 5),
 				ScoredResource("cv9040c_flare.projectile", "projectile", 1.0f, 2),
