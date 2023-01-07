@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_cb.weapon" key="gw_mg3.weapon" on_ground_up="0 0 1" quality="cb">
+    <tag name="machine gun" />
+    <specification 
+    retrigger_time="0.05" 
+    accuracy_factor="1.0"
+    spread_range="0.18" 
+    sustained_fire_grow_step="0.7" 
+    sustained_fire_diminish_rate="1.45" 
+    magazine_size="200" 
+    can_shoot_standing="1" 
+    can_shoot_crouching="1" 
+    suppressed="1" 
+    sight_range_modifier="1.55"
+    name="MG3" 
+    class="0" 
+	barrel_offset="0.4" 
+    projectile_speed="180.0" />
+
+    <next_in_chain key="gw_mg3_ap.weapon" share_ammo="1" />
+
+
+    <animation state_key="recoil" animation_key="recoil, hip fire" />
+    <animation state_key="recoil" animation_key="recoil2, hip fire" />
+    <animation state_key="recoil" animation_key="recoil3, hip fire" />
+    <animation key="recoil" stance_key="over_wall" ref="12" />
+    <animation key="recoil" stance_key="over_wall" ref="13" />
+    <animation key="recoil" stance_key="over_wall" ref="14" />
+    <animation state_key="hold" animation_key="hold, lmg" />
+    <animation key="reload" ref="33" />
+    <animation key="hold_on_wall" ref="1" />
+    <animation state_key="walking" animation_key="walking, hip fire" />
+    <animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+    <animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    <animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+    <animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+
+    <sound key="fire" fileref="mg3_shot.wav" volume="0.12" />
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <sound key="effect" fileref="sl_out.wav" />
+    <control key="effect" value="1" />
+    <model filename="mg3.xml" />
+
+    <hud_icon filename="hud_mg3.png" />
+    <inventory encumbrance="9.0" price="170.0" />
+
+    <weak_hand_hold offset="0.8" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.75" kill_decay_start_time="0.35" kill_decay_end_time="0.75" />
+    </projectile>
+    
+
+    <stance state_key="running" accuracy="0.1" />
+    <stance state_key="walking" accuracy="0.1" />
+    <stance state_key="crouch_moving" accuracy="0.1" />
+    <stance state_key="standing" accuracy="0.1" />
+    <stance state_key="crouching" accuracy="0.1" />
+    <stance state_key="prone" accuracy="1.1" /> 
+    <stance state_key="prone_moving" accuracy="0.1" />
+    <stance state_key="over_wall" accuracy="1.1" />
+
+    <modifier class="speed" value="-0.15" />    
+</weapon>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weapon file="base_cb.weapon" key="ew_hmtech301detection.weapon">
+    <specification 
+        retrigger_time="0.2" 
+        accuracy_factor="0.85" 
+        sustained_fire_grow_step="1.0" 
+        sustained_fire_diminish_rate="1.35" 
+        magazine_size="1" 
+        can_shoot_standing="1" 
+        suppressed="0" 
+        name="HMTech-301detection" 
+        class="0" 
+        burst_shots="1" 
+        reload_one_at_a_time="0" 
+        sight_range_modifier="2.5" 
+        projectile_speed="130.0" 
+        projectiles_per_shot="6"/>
+
+    <next_in_chain key="ew_hmtech301.weapon" share_ammo="0" />
+
+    <animation state_key="recoil" ref="27"/>
+    <animation state_key="cycle" ref="28"/>
+    <animation key="reload" animation_key="reloading, aa-12"/>
+    <animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+    <animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+
+    <sound key="fire" fileref="ew_hmtech301shot.wav" pitch_variety="0.05" volume="3.0"/>
+    <sound key="magazine_out" fileref="revolver_magazine_out.wav" volume="1.0" />
+    <sound key="magazine_in" fileref="revolver_magazine_in.wav" volume="1.0" />
+    <sound key="cycle" fileref="revolver_cycle_in.wav"/>
+    <sound class="impact" fileref="rifle_drop.wav"/>
+    <model filename="ew_hmtech301.xml"/>
+
+    <hud_icon filename="ew_hmtech301detection.png"/>
+    <inventory encumbrance="10.0" price="12.0"/>
+	
+
+    <weak_hand_hold offset="0.2"/>
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.1" kill_decay_start_time="0.23" kill_decay_end_time="0.47"/>
+    </projectile>  
+
+    <effect class="muzzle" ref="ejection_sg"/>
+    <effect class="muzzle" ref="muzzle_gf"/>
+    
+    <stance state_key="running" accuracy="0.4" />
+    <stance state_key="walking" accuracy="0.7" />
+    <stance state_key="crouch_moving" accuracy="0.75" />
+    <stance state_key="standing" accuracy="0.85" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="0.95" /> 
+    <stance state_key="prone_moving" accuracy="0.4" />
+    <stance state_key="over_wall" accuracy="0.9" />     
+     
+    <modifier class="speed" value="-0.08"/>       
+</weapon>

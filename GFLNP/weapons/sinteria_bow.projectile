@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="SEV-90 40mm" slot="1" key="sinteria_bow.projectile" pulldown_in_air="1">
+
+		<result class="blast" radius="5.1" damage="1.21" push="1.0" decal="1" faction_compare="not_equal"/>
+        <collision class="sticky"/>    
+        <trigger class="time" time_to_live="0.01"/>
+        <rotation class="motion"/>
+        
+    
+    <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
+
+    <sound class="result" key="other" fileref="explosion5.wav" />
+
+
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+	 <trail probability="1.0" />
+
+</projectile>

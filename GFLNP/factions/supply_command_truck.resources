@@ -34,6 +34,7 @@ weapon
     <projectile key="flamer_tank_flare.projectile" />
     <projectile key="sev90_flare.projectile" />
     <projectile key="zbd04a_flare.projectile" />
+    <projectile key="zbd04_flare.projectile" />
     <projectile key="ztz99a_flare.projectile" />
     <projectile key="dicem_flare.projectile" />
     <projectile key="dicetm_flare.projectile" />

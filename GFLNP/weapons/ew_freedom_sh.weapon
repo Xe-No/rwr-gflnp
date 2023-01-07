@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_cb.weapon" key="ew_freedom_sh.weapon">
+    <tag name="cqb" />
+    <specification 
+    retrigger_time="0.24" 
+    accuracy_factor="0.9" 
+    sustained_fire_grow_step="0.75" 
+    sustained_fire_diminish_rate="0.25" 
+    spread_range="0.2"
+    magazine_size="20" 
+    can_shoot_standing="1" 
+    suppressed="1" 
+    name="Freedom-S" 
+    class="0" 
+    reload_one_at_a_time="0" 
+    sight_range_modifier="1.0" 
+    projectile_speed="140.0" 
+    projectiles_per_shot="7" />
+    <next_in_chain key="ew_freedom.weapon" share_ammo="1" />
+    <!-- <animation state_key="next_in_chain_out" animation_key="switch, aa-12" /> -->
+    <!-- <sound key="effect" fileref="ew_freedom_switch.wav" /> -->
+    <control key="effect" value="1" />
+
+
+    <animation key="recoil" ref="27" />
+    <!-- <animation key="cycle" ref="28" /> -->
+    <animation key="cycle" ref="30" />
+    <animation state_key="reload" animation_key="reloading, dragunov_svd" />
+
+
+
+
+    <sound key="fire" fileref="ew_freedom_sh_shot.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="cycle_out" fileref="ew_freedom_reload.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    
+    <model filename="ew_freedom_sh.xml" />
+    <hud_icon filename="ew_freedom_sh.png" />
+    <!-- <commonness value="1.0" can_respawn_with="1" /> -->
+    <inventory encumbrance="10.0" price="7.0" />
+	
+    <effect class="muzzle" ref="ejection_sg" />
+    <effect class="muzzle" ref="muzzle_gf" />
+
+    <!-- <weak_hand_hold offset="0.2" /> -->
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.8" kill_decay_start_time="0.2" kill_decay_end_time="0.6" />
+        <trail probability="1.0" key="laser_blue"/>
+    </projectile>  
+    
+<!--     <stance state_key="running" accuracy="0.2" />
+    <stance state_key="walking" accuracy="0.45" />
+    <stance state_key="crouch_moving" accuracy="0.35" />
+    <stance state_key="standing" accuracy="0.5" />
+    <stance state_key="crouching" accuracy="0.72" />
+    <stance state_key="prone" accuracy="0.86" /> 
+    <stance state_key="prone_moving" accuracy="0.3" />
+    <stance state_key="over_wall" accuracy="0.76" />    -->  
+     
+    <modifier class="speed" value="0.02" />       
+</weapon>
+

@@ -1061,6 +1061,17 @@ gw_zb26_4703.weapon
 
 <!-- change in 0.37.1-->
 	<model filename="arkn_amiya.xml"><requirement class="weapon" slot="0" key="ew_shoki.weapon"/></model>	
+
+    <model filename="es_sinteria.xml"><requirement class="weapon" slot="0" key="ew_sinteria_bow.weapon"/></model>
+    <model filename="es_sinteria.xml"><requirement class="weapon" slot="0" key="ew_sinteria_at.weapon"/></model>
+    <model filename="es_steve.xml"><requirement class="weapon" slot="0" key="ew_diamondsword.weapon"/></model>
+    <model filename="gs_mg3.xml"><requirement class="weapon" slot="0" key="gw_mg3.weapon"/></model>
+    <model filename="gs_mg3.xml"><requirement class="weapon" slot="0" key="gw_mg3_ap.weapon"/></model>	
+    <model filename="es_hmtech301.xml"><requirement class="weapon" slot="0" key="ew_hmtech301.weapon"/></model>
+    <model filename="es_hmtech301.xml"><requirement class="weapon" slot="0" key="ew_hmtech301detection.weapon"/></model>
+    <model filename="es_senna.xml"><requirement class="weapon" slot="0" key="gw_blood_pact.weapon"/></model>	
+
+
 </models>
 
     

@@ -46,7 +46,7 @@ token_medic.projectile
 <projectile name="Luna[RE]" file="token0.projectile" key="token_luna2.projectile"  >
 	<hud_icon filename="token_luna2.png" />
 </projectile>
-<projectile name="Naoto[RE]" file="token0.projectile" key="token_naoto.projectile"  >
+<projectile name="Naoto[Black][RE]" file="token0.projectile" key="token_naoto.projectile"  >
 	<hud_icon filename="token_naoto.png" />
 </projectile>
 
@@ -141,6 +141,9 @@ token_medic.projectile
 </projectile>
 <projectile name="Skyfire[RE]" file="token0.projectile" key="token_skyfire.projectile"  >
 	<hud_icon filename="token_skyfire.png" />
+</projectile>
+<projectile name="Bronya[White Dress][RE]" file="token0.projectile" key="token_bronya_white.projectile"  >
+	<hud_icon filename="token_bronya_white.png" />
 </projectile>
 
 

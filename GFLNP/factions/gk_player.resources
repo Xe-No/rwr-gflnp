@@ -20,12 +20,12 @@
 	<call key="drop_pod_crew.call" /> -->
 
 	<!-- vehicle -->
-    <!-- <vehicle key="tank_2.vehicle" />
-    <vehicle key="apc_2.vehicle" /> -->
-    <vehicle key="ztz99a.vehicle" />
-    <vehicle key="zbd04a.vehicle" />
+    <vehicle key="tank_2.vehicle" />
+    <vehicle key="apc_2.vehicle" />
+<!--     <vehicle key="ztz99a.vehicle" />
+    <vehicle key="zbd04a.vehicle" /> -->
     <vehicle key="cv9040c.vehicle" />
- 	<vehicle key="btr80a.vehicle" />   
+ 	<vehicle key="btr82a.vehicle" />   
  	<!-- <vehicle key="matv.vehicle" /> -->
  	<vehicle key="lynx_atv.vehicle" />
  	<vehicle key="m113.vehicle" />
@@ -157,6 +157,9 @@ extra
     <weapon key="gw_supersass_mod_re.weapon" />
     <weapon key="gw_supersass_mod_re_2.weapon" />
 
+re
+    <weapon key="fishsword.weapon" />
+
 re token
 	<projectile key="token_inori.projectile" />
 	<projectile key="token_luna2.projectile" />
@@ -210,6 +213,8 @@ re token
 	<projectile key="token_rose.projectile"  />
 	<projectile key="token_kana.projectile"  />
 	<projectile key="token_mdr_3305.projectile"  />
+	<projectile key="token_bronia_white.projectile"  />
+	<projectile key="token_naoto_red.projectile"  />
 
 
 oath
