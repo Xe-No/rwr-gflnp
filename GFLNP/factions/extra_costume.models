@@ -141,4 +141,8 @@
 
 	<model filename="gs_m14_p.xml" score="5000"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="m14_maid.carry_item"/></model>
 
+<!-- 38 -->
+	<model filename="es_bronya_white.xml" score="5000"><requirement class="projectile" key="token_bronya_white.projectile"  slot="0" /><requirement class="rank" range="0 100000000" /></model>
+
+
 </models>

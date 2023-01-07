@@ -44,7 +44,7 @@
 		<item_container class="armory" offset="0 0 0" soldier_group="default" />
 		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_all.mesh.png" />
 	</vehicle>
-	<vehicle file="gk_supply_base.vehicle" name="28 Supply Box" key="test.vehicle"  >
+	<vehicle file="gk_supply_base.vehicle" name="test Box" key="test.vehicle"  >
 		<item_container class="armory" offset="0 0 0" soldier_group="supply_test" />
 		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_all.mesh.png" />
 	</vehicle>	

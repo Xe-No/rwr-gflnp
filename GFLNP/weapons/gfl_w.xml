@@ -736,4 +736,7 @@ RE
   <weapon file="xmas_bamboo_resource.weapon">
     <capacity source="rank" source_value="0.0" value="1" />
   </weapon>   
+
+
+
 </weapons>

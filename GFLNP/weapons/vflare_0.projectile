@@ -19,8 +19,8 @@
     <!-- bound to change -->
 
     <commonness value="0.0" can_respawn_with="0" in_stock="1" />
-    <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="1" source="rank" source_value="1.0" />    
+<!--     <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="1.0" />     -->
     <inventory encumbrance="2.0" price="900.0" />
 
 </projectile>
