@@ -12,6 +12,9 @@
     <projectile key="centurion_avre_flare.projectile" />
     <projectile key="btr82a_flare.projectile" />
     <projectile key="btr80a_flare.projectile" />
+    <projectile key="wcsp_flare.projectile" />
+    <projectile key="zbd04_flare.projectile" />
+    <projectile key="zbd04a_flare.projectile" />
     <projectile key="m1126_flare.projectile" />
     <projectile key="tiger_flare.projectile" />
     <projectile key="sturmtiger_flare.projectile" />
