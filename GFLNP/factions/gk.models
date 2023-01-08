@@ -1070,6 +1070,9 @@ gw_zb26_4703.weapon
     <model filename="es_hmtech301.xml"><requirement class="weapon" slot="0" key="ew_hmtech301.weapon"/></model>
     <model filename="es_hmtech301.xml"><requirement class="weapon" slot="0" key="ew_hmtech301detection.weapon"/></model>
     <model filename="es_senna.xml"><requirement class="weapon" slot="0" key="gw_blood_pact.weapon"/></model>	
+    <model filename="es_sentinel.xml"><requirement class="weapon" slot="0" key="ew_sentinel.weapon"/></model>	
+    <model filename="azl_zhenhai_china.xml"><requirement class="weapon" slot="0" key="ew_freedom.weapon"/></model>	
+    <model filename="azl_zhenhai_china.xml"><requirement class="weapon" slot="0" key="ew_freedom_sh.weapon"/></model>	
 
 
 </models>
