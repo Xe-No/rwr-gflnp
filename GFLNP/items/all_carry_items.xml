@@ -1,3 +1,7 @@
 <carry_items>
     <carry_item file="gfl_c.xml" />
+
+	<carry_item file="eng_heavy_vest.carry_item" />
+	<carry_item file="eng_light_vest.carry_item" />
+	<carry_item file="eng_medium_vest.carry_item" />    
 </carry_items>

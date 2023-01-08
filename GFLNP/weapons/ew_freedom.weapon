@@ -2,7 +2,7 @@
 <weapon file="base_cb.weapon" key="ew_freedom.weapon">
 	<tag name="sniper" />
 	<specification 
-	retrigger_time="0.95" 
+	retrigger_time="0.7" 
 	spread_range="0.1"
 	accuracy_factor="0.98" 
 	sustained_fire_grow_step="0.7" 

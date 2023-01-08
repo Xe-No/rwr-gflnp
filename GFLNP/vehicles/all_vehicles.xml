@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicles>
     <vehicle file="gfl_v.xml" />
+
+	<vehicle file="gtr.vehicle" />
+	<vehicle file="zbd04.vehicle" />
+	<vehicle file="wcsp.vehicle" />    
 </vehicles>

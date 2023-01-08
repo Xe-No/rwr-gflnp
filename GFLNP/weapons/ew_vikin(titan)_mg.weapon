@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon 
+	drop_count_factor_on_death="1.0" 
+	time_to_live_out_in_the_open="0" 
+	player_death_drop_owner_lock_time="0" 
+	key="ew_vikin(titan)_mg.weapon" 
+	on_ground_up="0 0 1" >
+
+   <tag name="bazooka"/>
+   <model filename="ew_1vox.xml" />
+
+   <specification 
+   slot="0"
+	retrigger_time="0.033"
+	accuracy_factor="0.7" 
+	Sustained_fire_grow_step="3.0" 
+	sustained_fire_diminish_rate="0.5" 
+	magazine_size="-1"
+	can_shoot_standing="1"
+	can_shoot_crouching="1" 
+	can_shoot_prone="0"
+	suppressed="0"
+	name="Vikin(titan)[MG]" 
+	class="0"
+	sight_range_modifier="1.2" 
+	projectile_speed="180"
+	projectiles_per_shot="1" 
+	stab_enabled="1" 
+	stab_range="4" 
+    barrel_offset_3d="0 0.1818 1.0"
+    use_basic_muzzle_smoke_effect="0"
+    spread_range="0.25"
+	carry_in_two_hands=""/>
+
+
+  
+	<next_in_chain key="ew_vikin(titan)_missile.weapon" share_ammo="0" />
+  
+	<animation state_key="recoil"   animation_key="Vikin(titan)recoill" />
+    <animation state_key="recoil"   animation_key="Vikin(titan)recoil2" />
+    <animation state_key="recoil"   animation_key="Vikin(titan)recoil3" />
+    <animation state_key="recoil"   animation_key="Vikin(titan)recoil4" />
+    <animation state_key="recoil"   animation_key="Vikin(titan)recoil5" />
+	<animation state_key="recoil"   animation_key="Vikin(titan)recoil6" />
+   <animation state_key="reload"   animation_key="Vikin(titan)aim" />
+   <animation state_key="hold" animation_key="Vikin(titan)aim" />
+	<animation state_key="hold_on_wall"  animation_key="Vikin(titan)aim" />
+   <animation state_key="still_against_wall" animation_key="Vikin(titan)aim" />
+   <animation state_key="hold_casual" animation_key="Vikin(titan)chill" />
+	<animation state_key="running" animation_key="Vikin(titan)running" />
+   <animation state_key="walking"  animation_key="Vikin(titan)running" />
+   <animation state_key="walking_backwards" animation_key="Vikin(titan)runningback" />
+   <animation state_key="crouching" animation_key="Vikin(titan)aim" />
+	<animation state_key="crouch_moving" animation_key="Vikin(titan)running" />
+	<animation state_key="crouch_moving_backwards" animation_key="Vikin(titan)runningback" />
+   <animation state_key="prone_still" animation_key="Vikin(titan)aim" />
+	<animation state_key="prone_moving" animation_key="Vikin(titan)running" />
+	<animation state_key="stabbing" animation_key="Vikin(titan)melee" />
+	<animation state_key="next_in_chain_in" animation_key="" />
+	<animation state_key="next_in_chain_out" animation_key="" />
+   <animation state_key="changing_weapon_in" animation_key="Vikin(titan)aim" />
+	<animation state_key="changing_weapon_out" animation_key="Vikin(titan)aim"/>
+	<animation state_key="still_against_wall" animation_key="Vikin(titan)aim" />
+
+     
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch0.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch1.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch2.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch3.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch4.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch5.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="stab" fileref="HellionTankMorph_StandMorphEnd_Stage04.wav" pitch_variety="0.00"  volume="0.6" />
+    <sound key="stab" fileref="HellionTankMorph_StandMorphStart_Stage01.wav" pitch_variety="0.00"  volume="0.6" />
+    <sound key="stab" fileref="HellionTankMorph_StandMorphStart_Stage03.wav" pitch_variety="0.00"  volume="0.6" />
+    <sound key="stab_hit" fileref="Tyrannozor_Q_Blade_Missile_Impact_01.wav" pitch_variety="0.00"  volume="0.6" />
+    <sound key="stab_hit" fileref="Tyrannozor_Q_Blade_Missile_Impact_02.wav" pitch_variety="0.00"  volume="0.6" />
+    <sound key="stab_hit" fileref="Tyrannozor_Q_Blade_Missile_Impact_01.wav" pitch_variety="0.00"  volume="0.6" />
+
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <sound key="effect" fileref="Viking_MorphToAssault0.wav" volume="0.7"/>
+    <control key="effect" value="1" />
+
+
+    <hud_icon filename="ew_Vikin(titan).png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
+    <inventory encumbrance="60.0" price="2000.0" /> 
+
+    
+    <weak_hand_hold offset="0.1" />
+    <projectile file="ew_vikin(titan)_mg.projectile">
+    <result class="blast" radius="1.0" damage="0.4" decal="1" push="0.4" character_state="death" faction_compare="not_equal" damage_origin_vehicle="0"/>
+    </projectile>
+
+    <effect class="muzzle" ref="tt_muzzle_fire_vikin" /> 
+
+    <stance state_key="running" accuracy="1.0" />
+    <stance state_key="walking" accuracy="1.0" />
+    <stance state_key="crouch_moving" accuracy="1.0" />
+    <stance state_key="standing" accuracy="1.0" />
+    <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" />
+
+    <modifier class="speed" value="-0.25" />    
+    <modifier class="hit_success_probability" value="-0.45" />
+    <shield offset="-1 0 1.09" extent="0.1 4 1.5" />
+    <modifier class="detectability" value="0.50" />
+    <modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" consumes_item="0"/>
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+    <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" consumes_item="0"/>
+    <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+    <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+    <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
+</weapon>

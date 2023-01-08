@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="Napalm_Spray" slot="1" pulldown_in_air="4.0" time_to_live="0.2" key="ew_hellbat_ops_napalm_spray.projectile">
+	<tag name="flamethrower_flame"/>
+	
+	<trigger class="impact" />
+	<result
+	class="blast"
+	radius="3.0"
+	damage="0.01"
+	push="0"  
+	character_state="death"
+  make_vehicle_hit_sound="0"
+  faction_compare="not_equal"
+  damage_origin_vehicle="0"
+	/>
+
+	<rotation class="motion" />
+	
+	<commonness value="0.0" />
+
+    <sound class="result" key="other" fileref="Hellion_AttackImpact0.wav" volume="0.5" />
+    <sound class="result" key="other" fileref="Hellion_AttackImpact1.wav" volume="0.5" />
+    <sound class="result" key="other" fileref="Hellion_AttackImpact2.wav" volume="0.5" />
+    <sound class="result" key="other" fileref="Hellion_AttackImpact3.wav" volume="0.5" />
+    <sound class="result" key="other" fileref="Hellion_AttackImpact4.wav" volume="0.5" />
+    <sound class="result" key="vehicle" copy="other" />
+ 
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+	<effect class="activated" ref="SmokePropulsion" />
+	<effect class="activated" ref="FlamePropulsion" lighting="0" />
+	<effect class="activated" ref="FlameSparkle" lighting="0" />
+
+	<effect class="result" ref="SmokePropulsionEnd" />
+	<effect class="result" ref="FlamePropulsionEnd" lighting="0" />
+	<effect class="result" ref="FlameSparkleEnd" lighting="0" />
+	
+	<effect class="result" key="terrain" ref="BurnOut_short" post_processing="1" /> 
+
+	<trail probability="1.0" key="FlamethrowerTrail" />
+
+</projectile>

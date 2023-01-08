@@ -2,6 +2,8 @@
 <carry_items>
 	<!-- 保持_compact.carry_items 单独引用-->
 	<carry_item file="_compact.carry_items" />
+
+                 
 </carry_items>
 
 

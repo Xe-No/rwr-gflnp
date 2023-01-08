@@ -13,8 +13,35 @@
 	<weapon key="gw_blood_pact.weapon" />
 	<weapon key="ew_sword_ki1.weapon" />
 	<weapon key="ew_freedom.weapon" />
+	<weapon key="ew_awp_dragon_lore.weapon" />
+	<weapon key="ew_awp_lightning_strike.weapon" />
+
+
+	<weapon key="ew_thor_hammer.weapon" />
+    <weapon key="ew_thor_250mm_punisher_cannons.weapon" />
+    <weapon key="ew_vikin(titan)_mg.weapon" />
+    <weapon key="ew_vikin(titan)_missile.weapon" />
+    <weapon key="ew_hellbat_ops_napalm_spray.weapon" />
+    <weapon key="ew_hellbat_ops_infernal_flamethrower.weapon" />
+    <weapon key="ew_immortal(taldarin)shield.weapon" />
+    
+    <weapon file="eng_repair_armor.weapon" />
+    <weapon file="eng_repair_armor_hellbat_ops.weapon" />
+    <weapon file="eng_repair_armor_immortal(taldarin).weapon" />
+    <weapon file="eng_repair_armor_knightpaladin.weapon" />
+    <weapon file="eng_repair_armor_thor.weapon" />
+    <weapon file="eng_repair_armor_vikin(titan).weapon" />
+    <weapon file="eng_repair_vehicle.weapon" />	
+
+
 	<projectile  key="gtr_flare.projectile" />
 	<projectile  key="zbd04_flare.projectile" />
 	<projectile  key="zbd04a_flare.projectile" />
 	<projectile  key="wcsp_flare.projectile" />
+
+	<carry_item key="eng_heavy_vest.carry_item" />
+	<carry_item key="eng_light_vest.carry_item" />
+	<carry_item key="eng_medium_vest.carry_item" />   
+
+
 </resources>

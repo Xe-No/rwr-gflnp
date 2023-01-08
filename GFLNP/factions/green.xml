@@ -77,6 +77,8 @@
 			<weapon key="gw_mp7.weapon" />  
 			<!-- <weapon key="gw_m1911.weapon" />   -->
 			<weapon key="uw_m17.weapon" />
+			<weapon key="uw_xm5.weapon" />
+			<weapon key="uw_xm250.weapon" />
 			<weapon key="uw_m320.weapon" />  
 			<weapon key="uw_m14ebr.weapon" />
 			<weapon key="uw_m14ebr_sl.weapon" />

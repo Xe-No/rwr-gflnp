@@ -2,4 +2,6 @@
 <weapons>
 	<!-- 保持_compact.weapons单独引用 -->
 	<weapon file="_compact.weapons" />
+
+
 </weapons>

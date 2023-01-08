@@ -2,55 +2,6 @@
 
 
 
-<!-- MOD3 -->
-<projectile file="ecm.projectile" />
-<projectile file="gw_emp_grenade.projectile" />
-<projectile file="gw_emp_blast.projectile" />
-<projectile file="repair_c4.projectile" />
-<projectile file="mortar_flare.projectile" />
-<projectile file="medic_grenade.projectile" />
-<projectile file="155mm.projectile" />
-<projectile file="mortar_shell_tel.projectile" />
-<projectile file="landing_impact.projectile" />
-<projectile file="c2_breaching_charge.projectile" />
 
-<!-- <projectile file="ew_sticky_bomb_blast.projectile" /> -->
-
-<projectile file="ew_sticky_bomb_blast.projectile" />
-<projectile file="gw_emp_rocket_main.projectile" />
-<projectile file="gw_emp_rocket_blast.projectile" />
-
-<projectile file="401_yamato_cannon.projectile" />
-<projectile file="401_yamato_cannon_larger.projectile" />
-<projectile file="sniper_call_dsr50.projectile" />
-<projectile file="sniper_call_dsr50_blast.projectile" />
-
-
-
-
-
-<!-- CBP -->
-<projectile file="cb_part.projectile" />
-<projectile file="oath_core.projectile" />
-<projectile file="parts_m14_bipod.projectile" />
-<projectile file="ammo_ar15_300blk.projectile" />
-
-<!-- 37 -->
-<projectile file="strike_marker_somst.projectile" />
-<projectile file="architect_call.projectile" />
-<projectile file="architect_call_marker.projectile" />
-<projectile file="architect_gl.projectile" />
-<projectile file="missile_fervor.projectile" />
-<projectile file="ew_reisenu_b.projectile" />
-<projectile file="token_reisenu_card.projectile" />
-<projectile file="reisenu_card_damage.projectile" />
-<projectile file="ew_annihilator_grenade_launcher_damage.projectile" />
-<projectile file="xenophage_blast.projectile" />
-<projectile file="ew_pm1_sub.projectile" />
-<projectile file="inscription_of_the_dead.projectile" />
-<projectile file="inscription_of_the_dead_blast.projectile" />
-<projectile file="vabow_damage.projectile" />
-<projectile file="gw_m4_sopmod_iimod_gl_blast.projectile" />
-<projectile file="ew_kokomi_water_sub.projectile" />
 
 </projectiles>

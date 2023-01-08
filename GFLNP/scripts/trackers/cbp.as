@@ -19,126 +19,144 @@ class GFLEquipmentEvent : Tracker {
 
 		//CB合成分解字典
 		dictionary dict = {
-				{"ags30.weapon","ur"},
-				{"ags30_n.weapon","ur"},
-				{"zero_ninjato.weapon","ur"},
-				{"tac50hs_35.weapon","ur"},
-				{"tac50hs_12.7.weapon","ur"},
-				{"aek971_camo.weapon","ur"},
-				{"aek971_camo_sl.weapon","ur"},
-				{"mg4td_ap.weapon","ur"},
-				{"mg4td_ke.weapon","ur"},
-				{"m200sk.weapon","ur"},
-				{"m200sk_drone.weapon","ur"},
-				{"gw_g41_bp2077.weapon","ur"},
-				{"gw_g41_bp2077_gl.weapon","ur"},
-				{"vex.weapon","ur"},
-				{"vex_positron.weapon","ur"},
-				{"ew_baiz.weapon","ur"},
-				{"ew_baiz_r.weapon","ur"},
-				{"ew_m16a5.weapon","ur"},
-				{"ew_m16a5_gl.weapon","ur"},
-				{"ew_m16a5.308.weapon","ur"},
-				{"bronia_hg.weapon","ur"},
-				{"bronia_gl.weapon","ur"},
-				{"gw_iws2000_banisher_he.weapon","ur"},
-				{"gw_iws2000_banisher_fsds.weapon","ur"},
-				{"ace_of_spades.weapon","ur"},
-				{"ew_rpl20.weapon","ur"},
-				{"ew_heir_apparent.weapon","ur"},
-				{"kf2_seekersix_ap.weapon","ur"},
-				{"kf2_seekersix_he.weapon","ur"},
-				{"gw_g41_lasercanno_diffusion.weapon","ur"},
-				{"gw_g41_lasercanno_at.weapon","ur"},
-				{"emmmm_f.weapon","ur"},
-				{"emmmm_t.weapon","ur"},
-				{"ew_fiammetta_m.weapon","ur"},
-				{"ew_fiammetta_s.weapon","ur"},
-				{"ew_mcxtang.weapon","ur"},
-				{"ew_mcxtang_sg.weapon","ur"},
-				{"ew_shoki.weapon","ur"},
-				{"gw_ltlx7000_6702.weapon","ur"},
-				{"gw_ltlx7000_6702_d.weapon","ur"},
-				{"gw_ak308.weapon","ssr"},
-				{"williams.22.weapon","ssr"},
-				{"ew_n_mp5k.weapon","ssr"},
-				{"gw_scarc.weapon","ssr"},
-				{"gw_scarc_300.weapon","ssr"},
-				{"m200sm.weapon","ssr"},
-				{"gw_svdm.weapon","ssr"},
-				{"gw_svdm_sl.weapon","ssr"},
-				{"gw_mk22.weapon","ssr"},
-				{"gw_mk22_50.weapon","ssr"},
-				{"gw_vector.weapon","ssr"},
-				{"gw_vector_b.weapon","ssr"},
-				{"portable_mortar.weapon","ssr"},
-				{"javelin_ap.weapon","ssr"},
-				{"gw_qlu11.weapon","ssr"},
-				{"akalfa_defy.weapon","ssr"},
-				{"akalfa_defy_sl.weapon","ssr"},
-				{"ew_microgun_univ.weapon","ssr"},
-				{"pf98.weapon","sr"},
-				{"gw_mk153.weapon","sr"},
-				{"gw_an94_mod4_s.weapon","sr"},
-				{"gw_an94_mod4.weapon","sr"},
-				{"ew_dragunov_ince.weapon","sr"},
-				{"ew_dragunov_ince_pnt.weapon","sr"},
-				{"aa12_frag.weapon","sr"},
-				{"aa12_frag_b.weapon","sr"},
-				{"ew_athena.weapon","sr"},
-				{"ew_athena_s.weapon","sr"},
-				{"baw_miyu.weapon","ssr"},
-				{"baw_miyu_bin.weapon","ssr"},
-				{"chain_sawr.weapon","ssr"},
-				{"ew_amamiya_kokoro.weapon","ur"},
-				{"xm177e1.weapon","ur"},
-				{"xm177e2.weapon","ur"},
-				{"tkb059.weapon","ur"},
-				{"gw_kaluo.weapon","ur"},
-				{"gw_kaluo_gl.weapon","ur"},
-				{"ew_caa.weapon","ssr"},
-				{"gw_six12sd_slug.weapon","ssr"},
-				{"gw_six12sd.weapon","ssr"},
-				{"gw_kn57.weapon","sr"},
-				{"gw_aa12_2403_he.weapon","sr"},
-				{"gw_aa12_2403_s.weapon","sr"},
-				{"ew_amb17.weapon","ur"},
-				{"gw_hk416_starry_cocoon.weapon","ur"},
-				{"gw_hk416_starry_cocoon_gl.weapon","ur"},
-				{"mg4a3td.weapon","ur"},
-				{"mg4a3td_sl.weapon","ur"},
-				{"ew_disaster_railgun.weapon","ur"},
-				{"gw_m16_astatoz.weapon","ur"},
-				{"ar_14b_1.weapon","ur"},
-				{"ar_14b_2.weapon","ur"},
-				{"m27_ar.weapon","ssr"},
-				{"m27_mg.weapon","ssr"},
-				{"ew_25a2_k.weapon","ssr"},
-				{"ew_sig516.weapon","ssr"},
-				{"ew_sig516_300blk.weapon","ssr"},
-				{"ew_hmtech501.weapon","sr"},
-				{"ew_hmtech501_hesh.weapon","sr"},
-				{"gw_m37_1706.weapon","ssr"},
-				{"gw_m37_1706_run.weapon","ssr"},
-				{"ew_megumin_wand_float.weapon","ur"},
-				{"ew_megumin_wand_summon.weapon","ur"},
-				{"gw_hrg_bastion.weapon","ur"},
-				{"gw_hrg_bastionshell.weapon","ur"},
-				{"ew_hongxue_1.weapon","ur"},
-				{"ew_hongxue_2.weapon","ur"},
-				{"naoto_rpl20.weapon","ur"},
-				{"naoto_rpl20_d.weapon","ur"},
-				{"ew_mk18cqb_hkykn.weapon","ssr"},
-				{"ew_mk18cqb_hkykn_slug.weapon","ssr"},
-				{"ew_chameleon.weapon","ssr"},
-				{"gw_sat8_2601.weapon","ur"},
-				{"ew_xenophage.weapon","ur"},
-				{"ew_leviathan_breath.weapon","ur"},
-				{"ew_trinity_ghoul.weapon","ur"},
-				{"ew_pm1.weapon","ur"},
-				{"gw_g41_7406.weapon","ur"},
-				{"ew_kokomi_portia.weapon","ur"},
-				{"ew_kokomi_water_thrower.weapon","ur"}
+			// 0.38
+			{"ew_sinteria_bow.weapon", "ur" },
+			{"ew_sinteria_at.weapon", "ur" }, 			
+			{"ew_awp_lightning_strike.weapon", "ur" },
+			{"ew_awp_dragon_lore.weapon", "ur" }, 
+			{"gw_mg3.weapon", "ur" }, 
+			{"gw_mg3_ap.weapon", "ur" }, 
+			{"ew_sword_ki1.weapon", "ur" }, 
+			{"ew_sword_ki2.weapon", "ur" }, 
+			{"ew_sword_ki3.weapon", "ur" }, 
+			{"ew_freedom.weapon", "ur" }, 
+			{"ew_freedom_sh.weapon", "ur" }, 
+			{"ew_sentinel.weapon", "ssr"},
+			{"gw_xm5.weapon", "sr"},
+			{"gw_xm250.weapon", "sr"},
+			{"gw_blood_pact.weapon", "sr"}, 
+
+
+			{"ags30.weapon","ur"},
+			{"ags30_n.weapon","ur"},
+			{"zero_ninjato.weapon","ur"},
+			{"tac50hs_35.weapon","ur"},
+			{"tac50hs_12.7.weapon","ur"},
+			{"aek971_camo.weapon","ur"},
+			{"aek971_camo_sl.weapon","ur"},
+			{"mg4td_ap.weapon","ur"},
+			{"mg4td_ke.weapon","ur"},
+			{"m200sk.weapon","ur"},
+			{"m200sk_drone.weapon","ur"},
+			{"gw_g41_bp2077.weapon","ur"},
+			{"gw_g41_bp2077_gl.weapon","ur"},
+			{"vex.weapon","ur"},
+			{"vex_positron.weapon","ur"},
+			{"ew_baiz.weapon","ur"},
+			{"ew_baiz_r.weapon","ur"},
+			{"ew_m16a5.weapon","ur"},
+			{"ew_m16a5_gl.weapon","ur"},
+			{"ew_m16a5.308.weapon","ur"},
+			{"bronia_hg.weapon","ur"},
+			{"bronia_gl.weapon","ur"},
+			{"gw_iws2000_banisher_he.weapon","ur"},
+			{"gw_iws2000_banisher_fsds.weapon","ur"},
+			{"ace_of_spades.weapon","ur"},
+			{"ew_rpl20.weapon","ur"},
+			{"ew_heir_apparent.weapon","ur"},
+			{"kf2_seekersix_ap.weapon","ur"},
+			{"kf2_seekersix_he.weapon","ur"},
+			{"gw_g41_lasercanno_diffusion.weapon","ur"},
+			{"gw_g41_lasercanno_at.weapon","ur"},
+			{"emmmm_f.weapon","ur"},
+			{"emmmm_t.weapon","ur"},
+			{"ew_fiammetta_m.weapon","ur"},
+			{"ew_fiammetta_s.weapon","ur"},
+			{"ew_mcxtang.weapon","ur"},
+			{"ew_mcxtang_sg.weapon","ur"},
+			{"ew_shoki.weapon","ur"},
+			{"gw_ltlx7000_6702.weapon","ur"},
+			{"gw_ltlx7000_6702_d.weapon","ur"},
+			{"gw_ak308.weapon","ssr"},
+			{"williams.22.weapon","ssr"},
+			{"ew_n_mp5k.weapon","ssr"},
+			{"gw_scarc.weapon","ssr"},
+			{"gw_scarc_300.weapon","ssr"},
+			{"m200sm.weapon","ssr"},
+			{"gw_svdm.weapon","ssr"},
+			{"gw_svdm_sl.weapon","ssr"},
+			{"gw_mk22.weapon","ssr"},
+			{"gw_mk22_50.weapon","ssr"},
+			{"gw_vector.weapon","ssr"},
+			{"gw_vector_b.weapon","ssr"},
+			{"portable_mortar.weapon","ssr"},
+			{"javelin_ap.weapon","ssr"},
+			{"gw_qlu11.weapon","ssr"},
+			{"akalfa_defy.weapon","ssr"},
+			{"akalfa_defy_sl.weapon","ssr"},
+			{"ew_microgun_univ.weapon","ssr"},
+			{"pf98.weapon","sr"},
+			{"gw_mk153.weapon","sr"},
+			{"gw_an94_mod4_s.weapon","sr"},
+			{"gw_an94_mod4.weapon","sr"},
+			{"ew_dragunov_ince.weapon","sr"},
+			{"ew_dragunov_ince_pnt.weapon","sr"},
+			{"aa12_frag.weapon","sr"},
+			{"aa12_frag_b.weapon","sr"},
+			{"ew_athena.weapon","sr"},
+			{"ew_athena_s.weapon","sr"},
+			{"baw_miyu.weapon","ssr"},
+			{"baw_miyu_bin.weapon","ssr"},
+			{"chain_sawr.weapon","ssr"},
+			{"ew_amamiya_kokoro.weapon","ur"},
+			{"xm177e1.weapon","ur"},
+			{"xm177e2.weapon","ur"},
+			{"tkb059.weapon","ur"},
+			{"gw_kaluo.weapon","ur"},
+			{"gw_kaluo_gl.weapon","ur"},
+			{"ew_caa.weapon","ssr"},
+			{"gw_six12sd_slug.weapon","ssr"},
+			{"gw_six12sd.weapon","ssr"},
+			{"gw_kn57.weapon","sr"},
+			{"gw_aa12_2403_he.weapon","sr"},
+			{"gw_aa12_2403_s.weapon","sr"},
+			{"ew_amb17.weapon","ur"},
+			{"gw_hk416_starry_cocoon.weapon","ur"},
+			{"gw_hk416_starry_cocoon_gl.weapon","ur"},
+			{"mg4a3td.weapon","ur"},
+			{"mg4a3td_sl.weapon","ur"},
+			{"ew_disaster_railgun.weapon","ur"},
+			{"gw_m16_astatoz.weapon","ur"},
+			{"ar_14b_1.weapon","ur"},
+			{"ar_14b_2.weapon","ur"},
+			{"m27_ar.weapon","ssr"},
+			{"m27_mg.weapon","ssr"},
+			{"ew_25a2_k.weapon","ssr"},
+			{"ew_sig516.weapon","ssr"},
+			{"ew_sig516_300blk.weapon","ssr"},
+			{"ew_hmtech501.weapon","sr"},
+			{"ew_hmtech501_hesh.weapon","sr"},
+			{"gw_m37_1706.weapon","ssr"},
+			{"gw_m37_1706_run.weapon","ssr"},
+			{"ew_megumin_wand_float.weapon","ur"},
+			{"ew_megumin_wand_summon.weapon","ur"},
+			{"gw_hrg_bastion.weapon","ur"},
+			{"gw_hrg_bastionshell.weapon","ur"},
+			{"ew_hongxue_1.weapon","ur"},
+			{"ew_hongxue_2.weapon","ur"},
+			{"naoto_rpl20.weapon","ur"},
+			{"naoto_rpl20_d.weapon","ur"},
+			{"ew_mk18cqb_hkykn.weapon","ssr"},
+			{"ew_mk18cqb_hkykn_slug.weapon","ssr"},
+			{"ew_chameleon.weapon","ssr"},
+			{"gw_sat8_2601.weapon","ur"},
+			{"ew_xenophage.weapon","ur"},
+			{"ew_leviathan_breath.weapon","ur"},
+			{"ew_trinity_ghoul.weapon","ur"},
+			{"ew_pm1.weapon","ur"},
+			{"gw_g41_7406.weapon","ur"},
+			{"ew_kokomi_portia.weapon","ur"},
+			{"ew_kokomi_water_thrower.weapon","ur"}
 				
 				
 		};
@@ -266,7 +284,7 @@ class GFLEquipmentEvent : Tracker {
 							//合成失败返还武器，扣除少量RP，防止靠返还武器故意刷钱
 							receiveCB(m_metagame, characterId, "weapon", key);
 							string command = "";
-							command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+							command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' ";
 							m_metagame.getComms().send(command);
 							sendPrivateMessageKey(m_metagame, characterId, "CBpart not enough");
 						}		
@@ -322,7 +340,7 @@ class GFLEquipmentEvent : Tracker {
 							//合成失败返还武器，扣除少量RP，防止靠返还武器故意刷钱
 							receiveCB(m_metagame, characterId, "weapon", key);
 							string command = "";
-							command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+							command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' ";
 							m_metagame.getComms().send(command);
 							sendPrivateMessageKey(m_metagame, characterId, "CBpart not enough");
 						}		
@@ -378,7 +396,7 @@ class GFLEquipmentEvent : Tracker {
 							//合成失败返还武器，扣除少量RP，防止靠返还武器故意刷钱
 							receiveCB(m_metagame, characterId, "weapon", key);
 							string command = "";
-							command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+							command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' ";
 							m_metagame.getComms().send(command);
 							sendPrivateMessageKey(m_metagame, characterId, "CBpart not enough");
 						}		
@@ -403,13 +421,13 @@ class GFLEquipmentEvent : Tracker {
 					}else{
 						receiveCB(m_metagame, characterId, "weapon", key);
 						string command = "";
-						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' ";
 						m_metagame.getComms().send(command);
 					}
 				}else{
 					receiveCB(m_metagame, characterId, "weapon", key);
 					string command = "";
-					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' />";
+					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + copyfail + "' ";
 					m_metagame.getComms().send(command);
 				}
 				
@@ -451,7 +469,7 @@ class GFLEquipmentEvent : Tracker {
 						//合成失败返还武器，扣除少量RP，防止靠返还武器故意刷钱
 						receiveCB(m_metagame, characterId, "weapon", key);
 						string command = "";
-						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' />";
+						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' ";
 						m_metagame.getComms().send(command);
 						sendPrivateMessageKey(m_metagame, characterId, "CBpart not enough");
 						sendPrivateMessageKey(m_metagame, characterId, "oath_core not enough");
@@ -503,13 +521,13 @@ class GFLEquipmentEvent : Tracker {
 					}else{
 						receiveCB(m_metagame, characterId, "weapon", key);
 						string command = "";
-						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' />";
+						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' ";
 						m_metagame.getComms().send(command);
 					}
 				}else{
 					receiveCB(m_metagame, characterId, "weapon", key);
 					string command = "";
-					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' />";
+					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' ";
 					m_metagame.getComms().send(command);
 				}
 				
@@ -533,13 +551,13 @@ class GFLEquipmentEvent : Tracker {
 					}else{
 						receiveCB(m_metagame, characterId, "weapon", key);
 						string command = "";
-						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' />";
+						command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' ";
 						m_metagame.getComms().send(command);
 					}
 				}else{
 					receiveCB(m_metagame, characterId, "weapon", key);
 					string command = "";
-					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' />";
+					command = "<command class='rp_reward' character_id='" + characterId + "' reward='" + oathfail + "' ";
 					m_metagame.getComms().send(command);
 				}
 				

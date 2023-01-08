@@ -1072,8 +1072,19 @@ gw_zb26_4703.weapon
     <model filename="es_senna.xml"><requirement class="weapon" slot="0" key="gw_blood_pact.weapon"/></model>	
     <model filename="es_sentinel.xml"><requirement class="weapon" slot="0" key="ew_sentinel.weapon"/></model>	
     <model filename="azl_zhenhai_china.xml"><requirement class="weapon" slot="0" key="ew_freedom.weapon"/></model>	
-    <model filename="azl_zhenhai_china.xml"><requirement class="weapon" slot="0" key="ew_freedom_sh.weapon"/></model>	
+    <model filename="azl_zhenhai_china.xml"><requirement class="weapon" slot="0" key="ew_freedom_sh.weapon"/></model>	    
+    <model filename="arkn_nian_china.xml"><requirement class="weapon" slot="0" key="ew_awp_dragon_lore.weapon"/></model>	
+    <model filename="arkn_nian_china.xml"><requirement class="weapon" slot="0" key="ew_awp_lightning_strike.weapon"/></model>	
 
+
+    <model filename="ew_Thor.xml"><requirement class="weapon" slot="0" key="ew_thor_250mm_punisher_cannons.weapon"/></model>	
+    <model filename="ew_Thor.xml"><requirement class="weapon" slot="0" key="ew_thor_hammer.weapon"/></model>
+    <model filename="ew_Vikin(titan).xml"><requirement class="weapon" slot="0" key="ew_vikin(titan)_missile.weapon"/></model>	
+    <model filename="ew_Vikin(titan).xml"><requirement class="weapon" slot="0" key="ew_vikin(titan)_mg.weapon"/></model>	
+    <model filename="ew_Hellbat_Ops.xml"><requirement class="weapon" slot="0" key="ew_hellbat_ops_infernal_flamethrower.weapon"/></model>	
+    <model filename="ew_Hellbat_Ops.xml"><requirement class="weapon" slot="0" key="ew_hellbat_ops_napalm_spray.weapon"/></model>	
+    <model filename="ew_Immortal(Taldarin).xml"><requirement class="weapon" slot="0" key="ew_immortal(taldarin)shield.weapon"/></model>	
+    <model filename="ew_Immortal(Taldarin).xml"><requirement class="weapon" slot="0" key="ew_immortal(taldarin)shield_on"/></model>		
 
 </models>
 

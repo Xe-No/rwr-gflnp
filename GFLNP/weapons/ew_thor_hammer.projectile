@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="gw_thor_hammer" slot="1" pulldown_in_air="133" radius="0.4" key="ew_thor_hammer.projectile">
+    <tag name="rocket"/>
+    <result class="blast" 
+    radius="4" 
+    damage="3.01" 
+    push="0.5" 
+    decal="1"
+    faction_compare="not_equal"
+    time_to_live="1"
+    damage_origin_vehicle="0"
+    />
+        
+    <trigger class="impact" />
+    <rotation class="motion" />
+    <commonness value="0.0" />
+    <model mesh_filename="javmissile_ap.xml" />  
+
+    <sound class="result" key="other" fileref="Terran_ExplosionSmall0.wav" volume="1.2" />
+    <sound class="result" key="other" fileref="Terran_ExplosionSmall1.wav" volume="1.2" />
+    <sound class="result" key="other" fileref="Terran_ExplosionSmall2.wav" volume="1.2" />
+    <sound class="result" key="other" fileref="Terran_ExplosionSmall3.wav" volume="1.2" />
+    <sound class="result" key="other" fileref="Terran_ExplosionSmall4.wav" volume="1.2" />
+    <sound class="result" key="other" fileref="Terran_ExplosionSmall5.wav" volume="1.2" />
+    <sound class="result" key="other" fileref="Terran_ExplosionSmall6.wav" volume="1.2" />
+    <sound class="result" key="other" fileref="Terran_ExplosionSmall7.wav" volume="1.2" />
+    <sound class="result" key="other" fileref="Terran_ExplosionSmall8.wav" volume="1.2" />
+    <sound class="result" key="other" fileref="Terran_ExplosionSmall9.wav" volume="1.2" />
+
+    <sound class="result" key="vehicle" copy="other" />    
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave0.wav" pitch_variety="" volume="0.8" />
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave1.wav" pitch_variety="" volume="0.8" />
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave2.wav" pitch_variety="" volume="0.8" />
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave3.wav" pitch_variety="" volume="0.8" />
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave4.wav" pitch_variety="" volume="0.8" />
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave5.wav" pitch_variety="" volume="0.8" />               
+
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+
+    <sound class="result" key="character" copy="other" />
+
+        <trail probability="1" key="thor.trail"/>   
+         <effect class="result" key="terrain" ref="impact_explosion_blast_decal_2" lighting="0" post_processing="1"/>                
+        <effect class="result" key="terrain" ref="tt_result_blast_smoke_small" lighting="0" post_processing="1"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_smoke_expanding_small" lighting="0" post_processing="1"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_ring_small" lighting="0"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_ring_2_small" lighting="0"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_spray_1_small" lighting="0"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_spray_2_small" lighting="0"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_fire_small" lighting="0"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_fire_wave_small" lighting="0"/> 
+
+    
+        <effect class="activated" ref="tt_missile_trail_center" lighting="0"/> 
+        
+        <effect class="result" key="other" copy="terrain"/>
+        <effect class="result" key="static_object" copy="terrain" />
+        <effect class="result" key="character" copy="terrain" />
+        <effect class="result" key="vehicle" copy="terrain" />
+
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.5" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="7.5" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+
+
+</projectile>

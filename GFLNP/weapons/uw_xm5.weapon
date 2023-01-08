@@ -34,7 +34,7 @@
     <model filename="gw_xm5.xml" />
     
 
-    <hud_icon filename="XM5.png" />
+    <hud_icon filename="xm5.png" />
     <commonness value="1.0" can_respawn_with="0" />
     <inventory encumbrance="10.0" price="600.0" />
 

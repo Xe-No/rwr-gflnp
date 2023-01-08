@@ -2,5 +2,51 @@
 <weapons>
     <weapon file="gfl_vw.xml"/>
     <weapon file="gfl_w.xml" />
-    <!-- <weapon file="test_w.xml" /> -->
+
+    
+	<weapon file="ew_sinteria_bow.weapon" />
+	<weapon file="ew_sinteria_at.weapon" />
+	<weapon file="ew_awp_dragon_lore.weapon" />
+	<weapon file="ew_awp_lightning_strike.weapon" />
+
+	<weapon file="gw_xm5.weapon" />
+	<weapon file="gw_xm250.weapon" />
+	<weapon file="uw_xm5.weapon" />
+	<weapon file="uw_xm250.weapon" />
+
+	<weapon file="gw_mg3.weapon" />
+	<weapon file="gw_mg3_ap.weapon" />
+
+	<weapon file="ew_hmtech201.weapon" />
+	<weapon file="ew_hmtech301.weapon" />
+	<weapon file="ew_hmtech301detection.weapon" />
+	<weapon file="ew_sentinel.weapon" />
+
+	<weapon file="ew_diamondsword.weapon" />
+	<weapon file="gw_blood_pact.weapon" />
+	<weapon file="ew_sword_ki1.weapon" />
+	<weapon file="ew_sword_ki2.weapon" />
+	<weapon file="ew_sword_ki3.weapon" />
+	<weapon file="ew_freedom.weapon" />
+	<weapon file="ew_freedom_sh.weapon" />
+
+	<weapon file="wcsp_30mm.weapon" />
+
+
+	<weapon file="ew_thor_hammer.weapon" />
+    <weapon file="ew_thor_250mm_punisher_cannons.weapon" />
+    <weapon file="ew_vikin(titan)_mg.weapon" />
+    <weapon file="ew_vikin(titan)_missile.weapon" />
+    <weapon file="ew_hellbat_ops_napalm_spray.weapon" />
+    <weapon file="ew_hellbat_ops_infernal_flamethrower.weapon" />
+    <weapon file="ew_immortal(taldarin)shield.weapon" />
+    
+    <weapon file="eng_repair_armor.weapon" />
+    <weapon file="eng_repair_armor_hellbat_ops.weapon" />
+    <weapon file="eng_repair_armor_immortal(taldarin).weapon" />
+    <weapon file="eng_repair_armor_knightpaladin.weapon" />
+    <weapon file="eng_repair_armor_thor.weapon" />
+    <weapon file="eng_repair_armor_vikin(titan).weapon" />
+    <weapon file="eng_repair_vehicle.weapon" />
+    
 </weapons>

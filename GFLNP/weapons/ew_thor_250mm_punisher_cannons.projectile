@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="250mm_Punisher_Cannons" slot="2" key="ew_thor_250mm_punisher_cannons.projectile" pulldown_in_air="40">
+    <result class="blast" radius="6.0" damage="3.01" push="0.66" decal="1"  time_to_live="1" />
+    <trigger class="impact" />
+    <rotation class="motion" />
+    <model mesh_filename="javmissile_ap.xml" />  
+    <commonness value="0.0" />
+
+    <sound class="result" key="other" fileref="Thor_AttackImpact0.wav" volume="1.2" />
+    <sound class="result" key="other" fileref="Thor_AttackImpact1.wav" volume="1.2" />
+    <sound class="result" key="other" fileref="Thor_AttackImpact2.wav" volume="1.2" />
+
+
+    <sound class="result" key="vehicle" copy="other" />    
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave0.wav" pitch_variety="" volume="0.8" />
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave1.wav" pitch_variety="" volume="0.8" />
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave2.wav" pitch_variety="" volume="0.8" />
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave3.wav" pitch_variety="" volume="0.8" />
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave4.wav" pitch_variety="" volume="0.8" />
+    <sound class="result" key="vehicle" tag="metal_heavy" fileref="Projectiles_Impacts_Vehicle_Interior_Medium_Wave5.wav" pitch_variety="" volume="0.8" />             
+
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="character" copy="other" />
+    
+    <effect class="result" key="terrain" tag="ice" ref="IceCrackBig" post_processing="0" />
+    <effect class="result" key="terrain" tag="ice" ref="IceCrackRing" post_processing="0" />     
+    <effect class="result" key="terrain" tag="ice" ref="IceBurstBig" use_surface_color="1" />       
+    <effect class="result" key="terrain" tag="ice" ref="SmokeTop" post_processing="1" />
+    <effect class="result" key="terrain" tag="ice" ref="Smoke" post_processing="1" />
+    <effect class="result" key="terrain" tag="ice" ref="Shine" lighting="0" />
+    <effect class="result" key="terrain" tag="ice" ref="Godray" lighting="0" />
+    <effect class="result" key="terrain" tag="ice" ref="ShadowSmoke" shadow="1" />
+    <effect class="result" key="terrain" tag="ice" ref="woosh" post_processing="0" shadow="0" />      
+<!--    <effect class="result" type="splat_map" surface_tag="ice" size="3.0" atlas_index="0" layer="1" />   -->
+    <effect class="result" type="splat_map" surface_tag="ice" size="5.5" atlas_index="4" layer="0" />
+<!--    <effect class="result" type="splat_map" surface_tag="ice" size="7.0" atlas_index="0" layer="2" additive="0" /> --> <!-- remove top snow everywhere -->       
+
+        <trail probability="0" key="thor.trail"/>   
+        <effect class="result" key="terrain" ref="impact_explosion_blast_decal_3" lighting="0" post_processing="1"/>                 
+        <effect class="result" key="terrain" ref="tt_result_blast_smoke" lighting="0" post_processing="1"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_smoke_expanding" lighting="0" post_processing="1"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_ring" lighting="0"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_ring_2" lighting="0"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_spray_1" lighting="0"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_spray_2" lighting="0"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_fire" lighting="0"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_fire_wave" lighting="0"/> 
+        <effect class="result" key="terrain" ref="tt_result_blast_fallen_p1" /> 
+        <effect class="result" key="terrain" ref="tt_result_blast_fallen_p2" /> 
+        <effect class="result" key="terrain" ref="tt_result_blast_fallen_p3" /> 
+        <effect class="result" key="terrain" ref="tt_result_blast_fallen_p4" /> 
+        
+        <effect class="activated" ref="tt_missile_trail_long" lighting="0"/> 
+        <effect class="activated" ref="tt_missile_trail_short" lighting="0"/> 
+        <effect class="activated" ref="tt_missile_trail_center" lighting="0"/> 
+        
+        <effect class="result" key="other" copy="terrain"/>
+        <effect class="result" key="static_object" copy="terrain" />
+        <effect class="result" key="character" copy="terrain" />
+        <effect class="result" key="vehicle" copy="terrain" />
+   
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.5" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="8.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+     
+
+</projectile>

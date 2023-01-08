@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="eng_repair_armor_Hellbat_Ops.weapon" on_ground_up="1 0 0" radius="0.45" time_to_live_out_in_the_open="0.0">
+    <tag name="bandage" />
+    <specification magazine_size="1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="1" 
+    carry_in_two_hands="0" 
+    name="eng_repair_armor_Hellbat_Ops" 
+    class="5" 
+    untransform_equipment_class="vest"
+    untransform_count="2"  
+    consume="0" 
+    sight_range_modifier="1" 
+    slot="1"  />
+  <animation state_key="recoil"   animation_key="Hellbat_Ops_repair" />
+   <animation state_key="reload"   animation_key="Hellbat_Ops_aim" />
+   <animation state_key="hold" animation_key="Hellbat_Ops_aim" />
+  <animation state_key="hold_on_wall"  animation_key="Hellbat_Ops_aim" />
+   <animation state_key="still_against_wall" animation_key="Hellbat_Ops_aim" />
+   <animation state_key="hold_casual" animation_key="Hellbat_Ops_chill" />
+  <animation state_key="running" animation_key="Hellbat_Ops_running" />
+   <animation state_key="walking"  animation_key="Hellbat_Ops_running" />
+   <animation state_key="walking_backwards" animation_key="Hellbat_Ops_runningback" />
+   <animation state_key="crouching" animation_key="Hellbat_Ops_aim" />
+  <animation state_key="crouch_moving" animation_key="Hellbat_Ops_running" />
+  <animation state_key="crouch_moving_backwards" animation_key="Hellbat_Ops_runningback" />
+   <animation state_key="prone_still" animation_key="Hellbat_Ops_aim" />
+  <animation state_key="prone_moving" animation_key="Hellbat_Ops_running" />
+    <animation state_key="stabbing" animation_key="Hellbat_Ops_melee1" />
+    <animation state_key="stabbing" animation_key="Hellbat_Ops_melee2" />
+  <animation state_key="next_in_chain_in" animation_key="" />
+  <animation state_key="next_in_chain_out" animation_key="" />
+   <animation state_key="changing_weapon_in" animation_key="Hellbat_Ops_aim" />
+  <animation state_key="changing_weapon_out" animation_key="Hellbat_Ops_aim"/>
+  <animation state_key="still_against_wall" animation_key="Hellbat_Ops_aim" />
+     
+    
+    <sound class="impact" fileref="medikit_drop.wav" />
+	<sound key="effect" fileref="ShieldBattery_ReCharge_Loop.wav" pitch_variety="0" />
+
+
+    <model filename="hvy_repair_armor.xml" />
+
+    <capacity value="1" source="rank" source_value="0.0" />
+
+    <hud_icon filename="eng_repair_armor_Hellbat_Ops.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
+    <inventory encumbrance="4.0" price="300.0" />
+
+    <modifier class="speed" value="+0.10" />  
+
+</weapon>

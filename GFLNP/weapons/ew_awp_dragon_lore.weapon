@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weapon file="base_primary.weapon" key="ew_awp_dragon_lore.weapon" >
+    <tag name="sniper" />
+    <specification 
+  retrigger_time="1.7" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="4.0" 
+  sustained_fire_diminish_rate="0.5" 
+  magazine_size="10" 
+  can_shoot_standing="1" 
+  can_shoot_crouching="1" 
+  can_shoot_prone="1" 
+  suppressed="0" 
+  name="AWP[Dragon Lore]" 
+  class="4" 
+  reload_one_at_a_time="0" 
+  sight_range_modifier="2.5" 
+  projectile_speed="1145141919810.0" 
+  barrel_offset="1.5" 
+  projectiles_per_shot="5" 
+  burst_shots="1"
+  use_basic_muzzle_smoke_effect="0"
+  />
+
+  <next_in_chain key="ew_awp_lightning_strike.weapon" share_ammo="1" />
+    <animation key="recoil" ref="27" />
+    <animation key="cycle" ref="30" />
+    <animation state_key="reload" animation_key="reloading, m24" />
+    <animation state_key="next_in_chain_in" animation_key="AWP_changing_weapon_in" />
+    <animation state_key="next_in_chain_out" animation_key="" />
+    <animation state_key="changing_weapon_in" animation_key="AWP_changing_weapon_in" />
+    <animation state_key="changing_weapon_out" animation_key=""/>
+
+
+
+    <sound key="fire" fileref="AWP_fire1.wav" pitch_variety="0.05" volume="0.65" /> 
+    <sound key="cycle" fileref="" />
+    <sound key="reload_one" fileref="" volume="1.5" />
+    <sound key="magazine_out" fileref="AWP_reloading.wav" volume="1.5"/>
+    <sound key="magazine_in" fileref="" />
+    <sound key="cycle_out" fileref="" />
+    <sound key="cycle_in" fileref="" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <sound key="effect" fileref="AWP_changing_weapon_in.wav" volume="1.5"/>
+    <control key="effect" value="1" />
+
+
+    <model filename="ew_awp_dragon_lore.xml" />
+    <hud_icon filename="ew_awp_dragon_lore.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
+    <inventory encumbrance="10.0" price="4750.0" />
+
+    <weak_hand_hold offset="0.3" />
+
+   <projectile file="ew_awp_dragon_lore.projectile">
+  </projectile>
+
+  <effect class="muzzle" ref="muuzle_fire_awp_dragon_lore_0" />
+  <effect class="muzzle" ref="muuzle_fire_awp_dragon_lore_0_1" />
+  <effect class="muzzle" ref="muuzle_fire_awp_dragon_lore_1" />
+  <effect class="muzzle" ref="muuzle_fire_awp_dragon_lore_2" />
+  <effect class="muzzle" ref="muuzle_fire_awp_dragon_lore_3" />
+  <effect class="muzzle" ref="muuzle_fire_awp_dragon_lore_4" />
+	<effect class="muzzle" ref="muuzle_fire_awp_dragon_lore_5" />
+  <effect class="muzzle" ref="muuzle_fire_awp_dragon_lore_6" />
+  <effect class="muzzle" ref="muuzle_fire_awp_dragon_lore_6_2" />
+
+    <stance state_key="running" accuracy="1.0" />
+    <stance state_key="walking" accuracy="1.0" />
+    <stance state_key="crouch_moving" accuracy="1.0" />
+    <stance state_key="standing" accuracy="1.0" />
+    <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="prone" accuracy="1.1" /> 
+    <stance state_key="prone_moving" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" />
+
+    <modifier class="speed" value="-0.10" />
+</weapon>
