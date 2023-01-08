@@ -431,6 +431,19 @@
 		</character>
 		<resources filename="pzc.resources" />	
 	</soldier>	
+	<!-- Mecha -->
+	<soldier name="MCH" firstnames_file="42LAB-MCH.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
+		<character filename="gk_player.character">
+			<parameter class="run_footstep_interval" value="0.66667"/>
+			<parameter class="walk_footstep_interval" value="0.66667"/>
+			<sound key="footstep" fileref="Thor_Movement1.wav" volume="0.6" pitch_variety="0.0"/>
+			<sound key="footstep" fileref="Thor_Movement2.wav" volume="0.6" pitch_variety="0.0"/>
+			<sound key="footstep" fileref="Thor_Movement3.wav" volume="0.6" pitch_variety="0.0"/>
+			<sound key="footstep" fileref="Thor_Movement4.wav" volume="0.6" pitch_variety="0.0"/>
+		</character>
+		<resources filename="mch.resources" />	
+	</soldier>	
+
 	<!-- Medic -->
 	<soldier name="MED" firstnames_file="42LAB-MED.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="default">
 		<character filename="gk_player.character">

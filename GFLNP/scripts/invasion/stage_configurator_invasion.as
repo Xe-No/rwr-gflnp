@@ -181,7 +181,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 	// ------------------------------------------------------------------------------------------------
 	protected void setupNormalStages() {
-	addStage(setupFortBelgrade());     
+	// addStage(setupFortBelgrade());     
 	// addStage(setupViper());          
       
 	addStage(setupStage7());          // map6
@@ -272,6 +272,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		return returnIndexes;
 	}
 	
+	// stage setup start
 	// ------------------------------------------------------------------------------------------------
 	protected Stage@ setupStage1() {
 		Stage@ stage = createStage();
@@ -738,13 +739,13 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 	protected Stage@ setupFortBelgrade() {
 		Stage@ stage = createStage();
-		stage.m_mapInfo.m_name = "fort_belgrade";
+		stage.m_mapInfo.m_name = "Fort Belgrade";
         stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/fort_belgrade";
 		stage.m_mapInfo.m_id = "fort_belgrade";
 
-		stage.m_maxSoldiers = 15 * 9;                                             // was 17*7 in 1.65
-		stage.m_playerAiCompensation = 5;                                         // was 7 (test4)
-        stage.m_playerAiReduction = 2;                                            // was 3 (test2)
+		stage.m_maxSoldiers = 11 * 9;                                             // was 17*7 in 1.65
+		stage.m_playerAiCompensation = 2.5;                                         // was 7 (test4)
+        stage.m_playerAiReduction = 1.5;                                            // was 3 (test2)
     
 
 		stage.addTracker(PeacefulLastBase(m_metagame, 0));

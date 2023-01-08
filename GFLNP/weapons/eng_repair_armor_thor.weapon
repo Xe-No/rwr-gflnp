@@ -9,7 +9,7 @@
     class="5" 
     untransform_equipment_class="vest"
     untransform_count="2"  
-    consume="0" 
+    consume="1" 
     sight_range_modifier="1" 
     slot="1"  />
   <animation state_key="recoil"   animation_key="Thor_repair" />
@@ -40,6 +40,9 @@
     <model filename="hvy_repair_armor.xml" />
 
     <capacity value="1" source="rank" source_value="0.0" />
+    <capacity value="2" source="rank" source_value="1.0" />
+    <capacity value="3" source="rank" source_value="2.0" />
+    <capacity value="4" source="rank" source_value="3.0" />
 
     <hud_icon filename="eng_repair_armor_Thor.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="1"/>

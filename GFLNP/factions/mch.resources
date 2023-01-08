@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
+	<weapon key="ew_thor_hammer.weapon" />
+    <weapon key="ew_thor_250mm_punisher_cannons.weapon" />
+    <weapon key="ew_vikin(titan)_mg.weapon" />
+    <weapon key="ew_vikin(titan)_missile.weapon" />
+    <weapon key="ew_hellbat_ops_napalm_spray.weapon" />
+    <weapon key="ew_hellbat_ops_infernal_flamethrower.weapon" />
+    <weapon key="ew_immortal(taldarin)shield.weapon" />
+    
+    <weapon key="eng_repair_armor.weapon" />
+    <weapon key="eng_repair_armor_hellbat_ops.weapon" />
+    <weapon key="eng_repair_armor_immortal(taldarin).weapon" />
+    <weapon key="eng_repair_armor_knightpaladin.weapon" />
+    <weapon key="eng_repair_armor_thor.weapon" />
+    <weapon key="eng_repair_armor_vikin(titan).weapon" />
+    <weapon key="eng_repair_vehicle.weapon" />	
+
+
+	<carry_item key="eng_heavy_vest.carry_item" />
+	<carry_item key="eng_light_vest.carry_item" />
+	<carry_item key="eng_medium_vest.carry_item" />   
+
+
+</resources>

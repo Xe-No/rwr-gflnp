@@ -25,13 +25,13 @@
     <weapon key="ew_hellbat_ops_infernal_flamethrower.weapon" />
     <weapon key="ew_immortal(taldarin)shield.weapon" />
     
-    <weapon file="eng_repair_armor.weapon" />
-    <weapon file="eng_repair_armor_hellbat_ops.weapon" />
-    <weapon file="eng_repair_armor_immortal(taldarin).weapon" />
-    <weapon file="eng_repair_armor_knightpaladin.weapon" />
-    <weapon file="eng_repair_armor_thor.weapon" />
-    <weapon file="eng_repair_armor_vikin(titan).weapon" />
-    <weapon file="eng_repair_vehicle.weapon" />	
+    <weapon key="eng_repair_armor.weapon" />
+    <weapon key="eng_repair_armor_hellbat_ops.weapon" />
+    <weapon key="eng_repair_armor_immortal(taldarin).weapon" />
+    <weapon key="eng_repair_armor_knightpaladin.weapon" />
+    <weapon key="eng_repair_armor_thor.weapon" />
+    <weapon key="eng_repair_armor_vikin(titan).weapon" />
+    <weapon key="eng_repair_vehicle.weapon" />	
 
 
 	<projectile  key="gtr_flare.projectile" />

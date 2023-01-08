@@ -28,7 +28,7 @@
     <sound key="effect" fileref="ew_sword_ki_switch.wav" pitch_variety="0.0" />
 	<control key="effect" value="1" />
 	
-    <ballistics near_far_distance="100.0" speed_estimation_near="20.0" speed_estimation_far="20.0" max_speed="20.0" randomness="0.0" /> 
+    <ballistics near_far_distance="100.0" speed_estimation_near="100.0" speed_estimation_far="100.0" max_speed="100.0" randomness="0.0" /> 
 
 	<animation state_key="stabbing"	animation_key="melee, ninjato whip" />
 	<animation state_key="stabbing"	animation_key="melee, ninjato slap" />
@@ -53,7 +53,7 @@
     <animation state_key="prone_moving" animation_key="prone moving, ninjato" />
 	<animation state_key="walking_backwards" animation_key="walking backwards, ninjato" />
 	
-	<sound key="fire" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.3" />
+	<sound key="fire" fileref="ew_sword_ki1_act.wav" pitch_variety="0.05" volume="0.3" />
     <sound key="cycle" fileref="shuriken_grab.wav" />
 	<sound key="stab" fileref="ninjato_swoosh.wav" pitch_variety="0.05" />
 	<sound key="stab_hit" fileref="ninjato_hit_fatal.wav" pitch_variety="0.05" volume="0.6" />
