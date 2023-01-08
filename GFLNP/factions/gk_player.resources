@@ -159,6 +159,7 @@ extra
 
 re
     <weapon key="fishsword.weapon" />
+    <weapon key="ew_diamondsword.weapon" />
 
 re token
 	<projectile key="token_inori.projectile" />
