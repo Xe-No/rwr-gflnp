@@ -8225,4 +8225,59 @@
     <sound class="result" key="static_object" copy="other"/>
     <sound class="result" key="character" copy="other"/>
   </projectile>
+  <projectile class="bullet" name="General Spawn projectile" key="general_spawn.projectile" slot="0" pulldown_in_air="6.0" use_time_to_live="1" time_to_live="60" can_be_disarmed="0" can_be_detected_by_footmen="1" can_be_detected_by_driver="1" blast_damage_threshold="10" time_to_live_out_in_the_open="900" player_death_drop_owner_lock_time="900">
+    <collision class="sticky"/>
+    <trigger class="impact"/>
+    <rotation class="random"/>
+    <commonness value="0" can_respawn_with="0" in_stock="0"/>
+    <inventory encumbrance="0" price="0.0"/>
+  </projectile>
+  <projectile class="grenade" name="FSDS" key="sinteria_at.projectile" slot="2" pulldown_in_air="4">
+    <result class="blast" radius="2" damage="1.31" push="0.99" decal="1" character_state="death" damage_origin_vehicle="0" faction_compare="not_equal"/>
+    <trigger class="impact"/>
+    <rotation class="motion"/>
+    <model mesh_filename="40mm.mesh" texture_filename="40mm.png"/>
+    <sound class="result" key="character" fileref="iws2000_ap_hit.wav" volume="1.0"/>
+    <sound class="result" key="vehicle" fileref="iws2000_ap_hit.wav" volume="1.0"/>
+    <sound class="result" key="static_object" fileref="iws2000_ap_hit.wav" volume="1.0"/>
+    <sound class="result" key="terrain" fileref="iws2000_ap_hit.wav" volume="1.0"/>
+    <sound class="result" key="other" fileref="iws2000_ap_hit.wav" volume="1.0"/>
+    <sound class="result" key="vehicle" copy="terrain"/>
+    <sound class="result" key="vehicle" tag="metal_thin" file="metal_thin_01.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="metal_thin" file="metal_thin_02.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="metal_thin" file="metal_thin_03.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="metal_thin" file="metal_thin_04.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="metal_thin" file="metal_thin_05.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_06.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_07.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_06.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_07.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_06.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_07.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_08.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_08.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="metal_heavy" file="metal_heavy_01.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="metal_heavy" file="metal_heavy_02.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="metal_heavy" file="metal_heavy_03.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="sandbag" file="barrier_bullet_01.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="sandbag" file="barrier_bullet_02.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="sandbag" file="barrier_bullet_03.wav" pitch_variety="0.3" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_01.wav" pitch_variety="0.4" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_01.wav" pitch_variety="0.4" volume="1.0"/>
+    <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_02.wav" pitch_variety="0.4" volume="1.0"/>
+    <sound class="result" key="static_object" copy="terrain"/>
+  </projectile>
+  <projectile class="grenade" name="SEV-90 40mm" slot="1" key="sinteria_bow.projectile" pulldown_in_air="1">
+    <result class="blast" radius="5.1" damage="1.21" push="1.0" decal="1" faction_compare="not_equal"/>
+    <collision class="sticky"/>
+    <trigger class="time" time_to_live="0.01"/>
+    <rotation class="motion"/>
+    <model mesh_filename="40mm.mesh" texture_filename="40mm.png"/>
+    <sound class="result" key="other" fileref="explosion5.wav"/>
+    <sound class="result" key="terrain" copy="other"/>
+    <sound class="result" key="static_object" copy="other"/>
+    <sound class="result" key="vehicle" copy="other"/>
+    <sound class="result" key="character" copy="other"/>
+    <trail probability="1.0"/>
+  </projectile>
 </throwables>

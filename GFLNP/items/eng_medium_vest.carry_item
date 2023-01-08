@@ -39,7 +39,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.15" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -61,7 +61,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.15" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -83,7 +83,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.15" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -105,7 +105,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.15" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -127,7 +127,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.15" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -149,7 +149,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.2" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -171,7 +171,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.2" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -193,7 +193,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.2" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -215,7 +215,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.2" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -237,7 +237,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.2" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -259,7 +259,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.21" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -281,7 +281,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.22" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -303,7 +303,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.23" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -325,7 +325,7 @@
         <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
         <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.24" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
     </carry_item>
@@ -347,7 +347,7 @@
 		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="death" consumes_item="0" />
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
         <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-        <modifier class="speed" value="-0.1" />
+        <modifier class="speed" value="-0.25" />
         <modifier class="hit_success_probability" value="-1.0" />  
         <modifier class="detectability" value="0.50" />
 	</carry_item>

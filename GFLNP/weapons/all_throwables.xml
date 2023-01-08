@@ -2,6 +2,9 @@
 <projectiles>
 	<projectile file="gfl_t.xml" />
 	<projectile file="test_t.xml" />
-
+	
+	<projectile file="general_spawn.projectile" />
+	<projectile file="sinteria_at.projectile" />
+	<projectile file="sinteria_bow.projectile" />
 
 </projectiles>

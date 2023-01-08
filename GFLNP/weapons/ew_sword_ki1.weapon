@@ -15,7 +15,7 @@
 	class="4"
 	reload_one_at_a_time="0"
 	sight_range_modifier="1.0"
-	projectile_speed="20.0"
+	projectile_speed="100.0"
 	projectiles_per_shot="1"
 	burst_shots="1"
     slot="1"
@@ -37,7 +37,7 @@
 	<animation state_key="recoil" stance_key="over_wall" animation_key="recoil overwall, ninjato" />
 	<animation state_key="recoil" stance_key="crouching" animation_key="recoil crouching, ninjato" />
 	<animation state_key="recoil" stance_key="prone" animation_key="recoil prone, ninjato" />
-    <animation state_key="reload"	animation_key="reloading, ninjato" />
+    <animation state_key="reload"	animation_key="reloading, mgl" />
 	<animation state_key="hold"	animation_key="still, ninjato" />
 	<animation state_key="hold_on_wall"	animation_key="still overwall, ninjato" />
 	<animation state_key="still_against_wall"	animation_key="still against wall, ninjato" />
@@ -61,7 +61,7 @@
     <sound key="dry_fire" fileref="static.wav" />
   
     <projectile file="ew_sword_ki1.projectile" />
-	
+	<effect class="muzzle" ref="DaoGuang" />
 
 	
     <weak_hand_hold offset="0.0" />
