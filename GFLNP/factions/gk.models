@@ -845,6 +845,7 @@ gw_zb26_4703.weapon
 	<model filename="gs_ltlx7000_6101.xml"><requirement class="weapon" slot="0" key="gw_ltlx7000_6101_r.weapon"/></model>
 	<model filename="naoto_1.xml"><requirement class="projectile" slot="0" key="c4_timer.projectile"/><requirement class="weapon" slot="0" key="ew_rpl20.weapon"/></model>
 	<model filename="naoto_1.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="ew_rpl20.weapon"/></model>
+	<model filename="es_sss4x_sakamata.xml"><requirement class="projectile" slot="0" key="impact_grenade.projectile"/><requirement class="weapon" slot="0" key="ew_rpl20.weapon"/></model>
 	<model filename="gs_mcx.xml"><requirement class="weapon" slot="0" key="gw_mcx.weapon"/></model>
 	<model filename="gs_sks.xml"><requirement class="weapon" slot="0" key="gw_sks.weapon"/></model>
 	<model filename="gs_sks.xml"><requirement class="weapon" slot="0" key="gw_sks_b.weapon"/></model>

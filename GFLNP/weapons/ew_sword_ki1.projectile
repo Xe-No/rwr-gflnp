@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="Storm" key="ew_sword_ki1.projectile" slot="0" radius="0.15">
     <tag name="rocket"/>
-    <result class="blast" radius="3.0" damage="5.1" push="1.0" decal="1" />
+    <result class="blast" radius="3.0" damage="5.1" push="1.0" decal="1" faction_compare="not_equal" />
     <trigger class="impact" />
     <rotation class="none" />
     <model mesh_filename="ew_sword_ki1_curl.xml" />

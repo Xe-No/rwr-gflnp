@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Heal Area" slot="1" pulldown_in_air="100.0" >
+    <tag name="grenade"/>
+    <result class="notify_script" key="heal_grenade" />
+    <trigger class="time" time_to_live="0.1"/>
+    <rotation class="motion" />
+    <model mesh_filename="mgl_flasher_projectile.xml" />
+
+    <commonness value="0.0" />
+
+    <sound class="result" key="other" fileref="explosion5.wav" />
+
+    <effect class="result" key="other"          ref="heal_cross" />  
+    <effect class="result" key="other"          ref="heal_aura" /> 
+    <effect class="result" key="terrain"        copy="other" />
+    <effect class="result" key="static_object"  copy="other" />
+    <effect class="result" key="vehicle"        copy="other" />
+    <effect class="result" key="character"      copy="other" />
+
+
+
+</projectile>
