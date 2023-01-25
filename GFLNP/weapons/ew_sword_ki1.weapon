@@ -53,7 +53,7 @@
     <animation state_key="prone_moving" animation_key="prone moving, ninjato" />
 	<animation state_key="walking_backwards" animation_key="walking backwards, ninjato" />
 	
-	<sound key="fire" fileref="ew_sword_ki1_act.wav" pitch_variety="0.05" volume="0.3" />
+	<sound key="fire" fileref="ew_sword_ki1_act.wav" pitch_variety="0.00" volume="0.9" />
     <sound key="cycle" fileref="shuriken_grab.wav" />
 	<sound key="stab" fileref="ninjato_swoosh.wav" pitch_variety="0.05" />
 	<sound key="stab_hit" fileref="ninjato_hit_fatal.wav" pitch_variety="0.05" volume="0.6" />
