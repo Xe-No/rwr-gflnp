@@ -27,7 +27,7 @@
 	<visual class="turret"  key="broken" 					mesh_filename="t14_turret.mesh" 		texture_filename="t14_turret_broken.png" />
 	<visual class="turret" turret_index="0" 				mesh_filename="t14_turret.mesh" 		texture_filename="t14_turret.png" />
 	<visual class="turret" turret_index="1" 				mesh_filename="t14_remote_mg.mesh" 		texture_filename="t14_turret.png" />
-	<visual class="turret" turret_index="2" 				mesh_filename="40mm.mesh" 				texture_filename="40mm.mesh" />
+	<visual class="turret" turret_index="2" 				mesh_filename="40mm.mesh" 				texture_filename="" />
 
 
 	<character_slot type="driver" position="1.5 0.5 2" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
