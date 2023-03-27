@@ -166,6 +166,8 @@ AR
 	<weapon file="gw_ash12.weapon" />
 	<weapon file="gw_m1918bar.weapon" />
 	<weapon file="gw_fg42.weapon" />
+                <weapon file="gw_fg42_s.weapon" />
+                <weapon file="gw_fg42_ai.weapon" />
 	<weapon file="gw_ribeyrolles.weapon" />
 
 RF
@@ -792,6 +794,73 @@ RE
 <weapon file="ew_kokomi_portia.weapon" />
 <weapon file="ew_kokomi_water_thrower.weapon" />
 
+<!-- 38 -->
+<weapon file="ew_sinteria_bow.weapon" />
+<weapon file="ew_sinteria_at.weapon" />
+<weapon file="ew_awp_dragon_lore.weapon" />
+<weapon file="ew_awp_lightning_strike.weapon" />
+
+<weapon file="gw_xm5.weapon" />
+<weapon file="gw_xm250.weapon" />
+<weapon file="uw_xm5.weapon" />
+<weapon file="uw_xm250.weapon" />
+
+<weapon file="gw_mg3.weapon" />
+<weapon file="gw_mg3_ap.weapon" />
+
+<weapon file="ew_hmtech201.weapon" />
+<weapon file="ew_hmtech301.weapon" />
+<weapon file="ew_hmtech301detection.weapon" />
+<weapon file="ew_sentinel.weapon" />
+
+<weapon file="ew_diamondsword.weapon" />
+<weapon file="gw_blood_pact.weapon" />
+<weapon file="ew_sword_ki1.weapon" />
+<weapon file="ew_sword_ki2.weapon" />
+<weapon file="ew_sword_ki3.weapon" />
+<weapon file="ew_freedom.weapon" />
+<weapon file="ew_freedom_sh.weapon" />
+
+<weapon file="ew_thor_hammer.weapon" />
+<weapon file="ew_thor_250mm_punisher_cannons.weapon" />
+<weapon file="ew_vikin(titan)_mg.weapon" />
+<weapon file="ew_vikin(titan)_missile.weapon" />
+<weapon file="ew_hellbat_ops_napalm_spray.weapon" />
+<weapon file="ew_hellbat_ops_infernal_flamethrower.weapon" />
+<weapon file="ew_immortal(taldarin)shield.weapon" />
+
+<weapon file="eng_repair_armor.weapon" />
+<weapon file="eng_repair_armor_hellbat_ops.weapon" />
+<weapon file="eng_repair_armor_immortal(taldarin).weapon" />
+<weapon file="eng_repair_armor_knightpaladin.weapon" />
+<weapon file="eng_repair_armor_thor.weapon" />
+<weapon file="eng_repair_armor_vikin(titan).weapon" />
+<weapon file="eng_repair_vehicle.weapon" />
+
+<!-- 39 -->
+<weapon file="ew_ripple.weapon" />
+<weapon file="ew_ripple_ince.weapon" />
+<weapon file="ew_akayo_1145.weapon" />
+<weapon file="gw_g36_905.weapon" />
+<weapon file="gw_g36_2407.weapon" />
+<weapon file="gw_g36_2407_p.weapon" />
+<weapon file="gw_g36_mod.weapon" />
+<weapon file="gw_g36_mod_b.weapon" />
+<weapon file="gw_m950mod3.weapon" />
+<weapon file="gw_m1928a_5703.weapon" />
+<weapon file="gw_magic_gun_bebock.weapon" />
+<weapon file="gw_sp9_china.weapon" />
+<weapon file="gw_stg44mod3.weapon" />
+<weapon file="gw_tmp_meow_prism_power.weapon" />
+<weapon file="gw_tmp_meow_prism_power_s.weapon" />
+<weapon file="gw_tommy_gun.weapon" />
+
+<weapon file="rule_book1.weapon" />
+<weapon file="rule_book2.weapon" />
+<weapon file="rule_book3.weapon" />
+<weapon file="rule_book4.weapon" />
+<weapon file="rule_book5.weapon" />
+<weapon file="rule_book6.weapon" />
 
 
 </weapons>

@@ -45,9 +45,9 @@
   <animation state_key="next_in_chain_out" animation_key="change weapon out" />
 
 
-    <sound key="fire" fileref="blood_pact.wav" volume="0.5" />
-    <sound key="magazine_out" fileref="blood_pact_out.wav" pitch_variety="0.0" volume="0.5" />
-    <sound key="magazine_in" fileref="blood_pact_clip_in.wav" volume="0.5" />    
+    <sound key="fire" fileref="blood_pact.wav" volume="0.2" />
+    <sound key="magazine_out" fileref="blood_pact_out.wav" pitch_variety="0.0" volume="0.3" />
+    <sound key="magazine_in" fileref="blood_pact_clip_in.wav" volume="0.3" />    
     <sound key="cycle" fileref="pistol_chamber.wav" volume="0.5" />
     <sound class="impact" fileref="rifle_drop.wav" />
 

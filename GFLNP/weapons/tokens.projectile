@@ -33,6 +33,7 @@ token_g41_maid.projectile
 token_rst.projectile
 token_pa15_3701.projectile
 token_medic.projectile
+token_ononoki.projectile
 
 <projectile name="RST[RE]" file="token0.projectile" key="token_rst.projectile"  >
 	<hud_icon filename="es_rst.png" />
@@ -46,8 +47,11 @@ token_medic.projectile
 <projectile name="Luna[RE]" file="token0.projectile" key="token_luna2.projectile"  >
 	<hud_icon filename="token_luna2.png" />
 </projectile>
-<projectile name="Naoto[Black][RE]" file="token0.projectile" key="token_naoto.projectile"  >
+<projectile name="Naoto[Black][RE]" file="token_c4.projectile" key="token_naoto.projectile"  >
 	<hud_icon filename="token_naoto.png" />
+</projectile>
+<projectile name="Monogatari ononoki[RE]" file="token_c4.projectile" key="token_ononoki.projectile"  >
+	<hud_icon filename="token_ononoki.png" />
 </projectile>
 
 <projectile name="Hakuryu[RE]" file="token0.projectile" key="token_hakuryu.projectile"  >

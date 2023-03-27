@@ -53,7 +53,7 @@
      <projectile file="general_spawn.projectile">
 	 
 		<result class="spawn" instance_class="projectile" instance_key="sinteria_at.projectile" 
-		min_amount="7" max_amount="7" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />	
+		min_amount="3" max_amount="3" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />	
 		
 		<trail probability="1" key="platinum_trail"/>	
 		<effect class="result" key="terrain" ref="plat_result_center" lighting="0" /> 

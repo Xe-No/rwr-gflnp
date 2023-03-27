@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_card_smg.weapon" key="gw_sp9_china.weapon">
+    <specification 
+	    accuracy_factor="1.0" 
+	    barrel_offset="-0.15" 
+	    can_shoot_standing="1" 
+	    class="0" 
+	    magazine_size="20" 
+	    name="SP9_china" 
+	    projectile_speed="135.0" 
+	    retrigger_time="0.09" 
+	    suppressed="1" 
+	    sustained_fire_diminish_rate="2.4" 
+	    sustained_fire_grow_step="0.4" 
+		/>
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, mp5sd" />
+
+    <sound key="fire" fileref="sp9.wav" pitch_variety="0.05" volume="0.3" />
+    <sound key="magazine_out" fileref="sp9_clip_out.wav" volume="0.2"/>
+    <sound key="magazine_in" fileref="sp9_clip_in.wav" volume="0.2"/>
+    <sound key="cycle" fileref="sp9_rifle_chamber.wav" volume="0.2"/>
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="gw_sp9_china.xml" />
+
+    <hud_icon filename="gw_sp9_china.png" />
+    <commonness value="1" can_respawn_with="0" />
+    <inventory encumbrance="10.0" price="400.0" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit"  kill_probability="1.4" kill_decay_start_time="0.35" kill_decay_end_time="0.5" />
+    </projectile>
+    
+</weapon>

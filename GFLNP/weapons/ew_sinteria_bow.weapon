@@ -27,12 +27,13 @@
     <animation state_key="crouch_moving" animation_key="crouching forwards, bow" />
     <animation state_key="crouch_moving_backwards" animation_key="crouching backwards, bow" />
     <animation state_key="walking_backwards" animation_key="walking backwards, bow" />  
-    <animation state_key="reload" animation_key="reload, bow" volume="0.7" />
+    <animation state_key="reload" animation_key="reload sinteria_bow" volume="0.7" />
     <animation state_key="hold_on_wall" animation_key="still, bow" />
     <animation state_key="still_against_wall" animation_key="still, bow" />
     <animation state_key="walking" animation_key="walking, bow" />
     <animation state_key="running" animation_key="running, bow" />
     <animation state_key="hold_casual" animation_key="casual, bow" />
+     <animation key="reload" stance_key="prone" animation_key="reload sinteria_bow" />
 	<animation state_key="next_in_chain_in" animation_key="exchange_bow" />
 	<animation state_key="next_in_chain_out" animation_key="" />
     <sound key="fire" fileref="sinteria_shoot.wav" pitch_variety="0.05" volume="1.5" />
@@ -52,7 +53,7 @@
 	<projectile file="general_spawn.projectile" name="35x32mm SR" pulldown_in_air="10">
 	
 		<result class="spawn" instance_class="projectile" instance_key="sinteria_bow.projectile" 
-		min_amount="3" max_amount="3" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />	
+		min_amount="5" max_amount="5" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />	
 		
         <result class="blast" radius="5.1" damage="1.21" push="1.0" decal="1" faction_compare="not_equal"/>
         <collision class="sticky"/>    

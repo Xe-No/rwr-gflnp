@@ -37,7 +37,7 @@
 	<animation state_key="recoil" stance_key="over_wall" animation_key="recoil overwall, ninjato" />
 	<animation state_key="recoil" stance_key="crouching" animation_key="recoil crouching, ninjato" />
 	<animation state_key="recoil" stance_key="prone" animation_key="recoil prone, ninjato" />
-    <animation state_key="reload" animation_key="reloading, m79" />
+    <animation state_key="reload" animation_key="reloading sword_ki" />
 	<animation state_key="hold"	animation_key="still, ninjato" />
 	<animation state_key="hold_on_wall"	animation_key="still overwall, ninjato" />
 	<animation state_key="still_against_wall"	animation_key="still against wall, ninjato" />
@@ -53,7 +53,7 @@
     <animation state_key="prone_moving" animation_key="prone moving, ninjato" />
 	<animation state_key="walking_backwards" animation_key="walking backwards, ninjato" />
 	
-	<sound key="fire" fileref="ew_sword_ki1_act.wav" pitch_variety="0.00" volume="0.9" />
+	<sound key="fire" fileref="ew_sword_ki1_act.wav" pitch_variety="0.05" volume="0.3" />
     <sound key="cycle" fileref="shuriken_grab.wav" />
 	<sound key="stab" fileref="ninjato_swoosh.wav" pitch_variety="0.05" />
 	<sound key="stab_hit" fileref="ninjato_hit_fatal.wav" pitch_variety="0.05" volume="0.6" />

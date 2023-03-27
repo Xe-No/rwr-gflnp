@@ -28,8 +28,8 @@
 
 
     <sound key="fire" fileref="xm5.wav" pitch_variety="0.05" volume="0.3" />
-    <sound key="magazine_out" fileref="xm5_out.wav" volume="0.5" />
-    <sound key="magazine_in" fileref="xm5_clip_in.wav" volume="0.5" />
+    <sound key="magazine_out" fileref="xm5_out.wav" volume="0.3" />
+    <sound key="magazine_in" fileref="xm5_clip_in.wav" volume="0.3" />
     <sound key="cycle" fileref="rifle_chamber.wav" volume="0.5"/>
     <sound class="impact" fileref="rifle_drop.wav" volume="0.5"/>    
     <model filename="gw_xm5.xml" />

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Blue Stun" key="blue_stun.projectile" slot="1" pulldown_in_air="30" can_be_detected_by_footmen="0">
+    <tag name="flashbang" />
+
+    <result class="blast" radius="10.0" damage="0" decal="0" character_state="stun" faction_compare="not_equal" />
+    <trigger class="time" time_to_live="1.0" />
+    <rotation class="motion" />
+
+    <model mesh_filename="blue_cylinder_grenade.xml" />
+
+    <commonness value="0.0" />
+
+    <sound class="result" key="other" fileref="stun_grenade1.wav" volume="0.6" />
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+
+    <effect class="result" key="terrain" ref="BigBurst" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="BlueFlashShine" lighting="0" />
+    <effect class="result" key="terrain" ref="BlueFlashBeam" lighting="0" />
+    <effect class="result" key="other" ref="BlueFlashShine" lighting="0" />
+    <effect class="result" key="other" ref="BlueFlashBeam" lighting="0" />
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />
+
+
+</projectile>

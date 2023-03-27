@@ -227,6 +227,10 @@ AR
     <text key="G36C[Digi-Mind]" text="G36C[心智升级MOD3]"/>
     <text key="G41r(auto)" text="G41R全自动步枪" />
     <text key="G41r(semi)" text="G41R半自动步枪" />
+    <text key="Stg44mod3" text="Stg44[心智升级MOD3]（吸血鬼）"/>
+    <text key="G36[Digi-Mind]" text="G36[心智升级MOD3]"/>
+    <text key="G36[Fifty Days with G36]" text="G36[和G36的五十天]"/>
+    <text key="G36[Petit Waitress]" text="G36[每个孩子的圣诞梦]"/>
 -cb-
 --SR--
     <text key="HMTech 501" text="HMTech-501突击步枪"/>
@@ -408,7 +412,8 @@ HG
     <text key="Orga Pistol" text="奥尔加团长的手枪"/>
     <text key="Mallorian Armscompany 3516" text="马洛里安武器公司3516" />
     <text key="M1873 SAA[Digi-Mind] / Duel Survivor" text="柯尔特左轮[心智升级MOD3]（决斗幸存者）"/>
-    <text key="M1873 SAA[Digi-Mind] / Fire Command" text="柯尔特左轮[心智升级MOD3]（火力号令）"/>
+    <text key="M1873 SAA[Digi-Mind] / Fire Command" text="柯尔特左轮[心智升级MOD3]（火力号令）"/> 
+    <text key="magic_gun_bebock" text="魔枪 贝伯克"/>
 
 SG
 -normal-
@@ -504,6 +509,12 @@ SMG
     <text key="Turcotte Rapid Smg" text="Turcotte高速冲锋枪" />
     <text key="TYPE64[WATERGOWN]" text="64式[水襦群]" />
     <text key="TYPE64[WATER GOWN]-SHOTGUN" text="64式[水襦群]（镇暴霰弹）" />
+    <text key="M950mod3" text="M950A[心智升级MOD3]"/>
+    <text key="tmp_meow_prism_power" text="TMP[喵棱镜威力]"/>
+    <text key="tmp_meow_prism_power_s" text="TMP[喵棱镜威力]单持"/>
+    <text key="tommy_gun" text="汤姆森[无间般若]"/>
+    <text key="m1928a_5703" text="汤姆森"/>
+    <text key="SP9_china" text="SP9[寒兰傲]"/>
 -cb-
 --SSR--
     <text key="Exusiai" text="维克托[能天使]"/>
@@ -813,6 +824,7 @@ Projectile
     <text key="Kana[RE]" text="Kana[RE]" />
     <text key="Ruby Rose[RE]" text="Ruby Rose[RE]" />
     <text key="Dima[C4]" text="蒂玛（C4）" />
+    <text key="Monogatari ononoki[RE]" text="斧乃木余接[C4]"/>
 -other-
 	<text key="ballistic knife" text="弹道战术刀" />
 	<text key="Stim pack" text="兴奋剂" />

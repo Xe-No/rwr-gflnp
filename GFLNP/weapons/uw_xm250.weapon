@@ -25,10 +25,10 @@
     <animation state_key="next_in_chain_in" animation_key="switch fire mode" />
 
 
-    <sound key="fire" fileref="xm250.wav" pitch_variety="0.05" volume="0.3" />
-    <sound key="magazine_out" fileref="xm250_out.wav" volume="0.5" />
-    <sound key="magazine_in" fileref="xm250_clip_in.wav" volume="0.5" />
-    <sound key="cycle" fileref="xm250_out.wav" volume="0.5"/>
+    <sound key="fire" fileref="xm5.wav" pitch_variety="0.05" volume="0.3" />
+    <sound key="magazine_out" fileref="xm250_out.wav" volume="0.3" />
+    <sound key="magazine_in" fileref="xm250_clip_in.wav" volume="0.3" />
+    <sound key="cycle" fileref="xm250_out.wav" volume="0.3"/>
     <sound class="impact" fileref="rifle_drop.wav" volume="0.5"/>    
     <model filename="gw_xm250.xml" />
     

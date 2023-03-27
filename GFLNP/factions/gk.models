@@ -1085,7 +1085,33 @@ gw_zb26_4703.weapon
     <model filename="ew_Hellbat_Ops.xml" score="10000"><requirement class="weapon" slot="0" key="ew_hellbat_ops_infernal_flamethrower.weapon"/></model>	
     <model filename="ew_Hellbat_Ops.xml" score="10000"><requirement class="weapon" slot="0" key="ew_hellbat_ops_napalm_spray.weapon"/></model>	
     <model filename="ew_Immortal(Taldarin).xml" score="10000"><requirement class="weapon" slot="0" key="ew_immortal(taldarin)shield.weapon"/></model>	
-    <model filename="ew_Immortal(Taldarin).xml" score="10000"><requirement class="weapon" slot="0" key="ew_immortal(taldarin)shield_on"/></model>		
+    <model filename="ew_Immortal(Taldarin).xml" score="10000"><requirement class="weapon" slot="0" key="ew_immortal(taldarin)shield_on"/></model>	
+    
+	<model filename="gs_m950mod3.xml"><requirement class="weapon" slot="0" key="gw_m950mod3.weapon"/></model>
+	<model filename="gs_m1928a_5703.xml"><requirement class="weapon" slot="0" key="gw_m1928a_5703.weapon"/></model>
+	<model filename="gs_sp9_china.xml"><requirement class="weapon" slot="0" key="gw_sp9_china.weapon"/></model>
+	<model filename="gs_tmp_meow_prism_power.xml"><requirement class="weapon" slot="0" key="gw_tmp_meow_prism_power.weapon"/></model>
+	<model filename="gs_tmp_meow_prism_power_s.xml"><requirement class="weapon" slot="0" key="gw_tmp_meow_prism_power_s.weapon"/></model>
+	<model filename="gs_tommy_gun.xml"><requirement class="weapon" slot="0" key="gw_tommy_gun.weapon"/></model>
+	<model filename="gs_noelle.xml"><requirement class="weapon" slot="0" key="gw_magic_gun_bebock.weapon"/></model>
+	<model filename="gs_stg44mod3.xml"><requirement class="weapon" slot="0" key="gw_stg44mod3.weapon"/></model>
+	<model filename="gs_g36_905.xml"><requirement class="weapon" slot="0" key="gw_g36_905.weapon"/></model>
+	<model filename="gs_g36_2407.xml"><requirement class="weapon" slot="0" key="gw_g36_2407.weapon"/></model>
+	<model filename="gs_g36_2407.xml"><requirement class="weapon" slot="0" key="gw_g36_2407_p.weapon"/></model>
+	<model filename="gs_g36_mod.xml"><requirement class="weapon" slot="0" key="gw_g36_mod.weapon"/></model>
+	<model filename="gs_g36_mod.xml"><requirement class="weapon" slot="0" key="gw_g36_mod_b.weapon"/></model>
+	<model filename="es_monogatari_sanjougahara_school.xml"><requirement class="weapon" slot="0" key="ew_ripple.weapon"/></model>
+	<model filename="es_monogatari_sanjougahara_toure.xml"><requirement class="weapon" slot="0" key="ew_ripple_ince.weapon"/></model>
+	<model filename="es_akayo_1145.xml"><requirement class="weapon" slot="0" key="ew_akayo_1145.weapon"/></model>
+	<model filename="gs_scar-h.xml"><requirement class="weapon" slot="0" key="scarssr.weapon"/></model>
+	<model filename="gs_scar-h.xml"><requirement class="weapon" slot="0" key="scarssr_f.weapon"/></model>
+	<model filename="es_obersoldaten.xml"><requirement class="projectile" slot="0" key="impact_grenade.projectile"/><requirement class="weapon" slot="0" key="gw_stg44mod3.weapon"/></model>
+	<model filename="naoto_blackred_n.xml"><requirement class="projectile" slot="0" key="token_naoto.projectile"/><requirement class="weapon" slot="0" key="ew_n_mp5k.weapon"/></model>
+
+
+
+
+	
 
 </models>
 

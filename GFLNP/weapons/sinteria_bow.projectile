@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="SEV-90 40mm" slot="1" key="sinteria_bow.projectile" pulldown_in_air="1">
 
-		<result class="blast" radius="5.1" damage="1.21" push="1.0" decal="1" faction_compare="not_equal"/>
+		<result class="blast" radius="3.0" damage="0.01" push="1.0" decal="1" faction_compare="not_equal"/>
         <collision class="sticky"/>    
         <trigger class="time" time_to_live="0.01"/>
         <rotation class="motion"/>

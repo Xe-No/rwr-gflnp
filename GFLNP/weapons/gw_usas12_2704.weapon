@@ -15,7 +15,7 @@
     <model filename="gw_usas12_2704.xml"/>
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.74" kill_decay_start_time="0.35" kill_decay_end_time="0.5"/>
+        <result class="hit" kill_probability="1.65" kill_decay_start_time="0.03" kill_decay_end_time="0.34"/>
     </projectile>
 
 
@@ -31,7 +31,7 @@
     <stance state_key="prone_moving" accuracy="0.3"/>
     <stance state_key="over_wall" accuracy="0.86"/>     
      
-    <modifier class="speed" value="-0.03"/>
+    <modifier class="speed" value="-0.06"/>
 
     
 </weapon>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_AR.weapon" key="gw_fg42.weapon">
 	<specification 
-	 retrigger_time="0.1" 
+	 retrigger_time="0.08" 
 	 accuracy_factor="0.96"
   	 spread_range="0.1"
 	 sustained_fire_grow_step="1.0"
@@ -16,11 +16,14 @@
 	 projectile_speed="140.0"
 	 sight_range_modifier="1.15"
 	/>
-		
+
+    <next_in_chain key="gw_fg42_s.weapon" share_ammo="1" />	
+
  	<animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
     <animation key="recoil" ref="14" />
     <animation state_key="reload" animation_key="reloading, famasg1" />  
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" />
 	
 	<weak_hand_hold offset="0.4" />
 	
