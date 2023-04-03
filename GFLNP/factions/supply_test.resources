@@ -1,47 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
-	<weapon key="ew_sinteria_bow.weapon" />
-	<weapon key="gw_xm5.weapon" />
-	<weapon key="gw_xm250.weapon" />
-	<weapon key="uw_xm5.weapon" />
-	<weapon key="uw_xm250.weapon" />
-	<weapon key="gw_mg3.weapon" />
-	<weapon key="ew_hmtech201.weapon" />
-	<weapon key="ew_hmtech301.weapon" />
-	<weapon key="ew_sentinel.weapon" />
-	<weapon key="ew_diamondsword.weapon" />
-	<weapon key="gw_blood_pact.weapon" />
-	<weapon key="ew_sword_ki1.weapon" />
-	<weapon key="ew_freedom.weapon" />
-	<weapon key="ew_awp_dragon_lore.weapon" />
-	<weapon key="ew_awp_lightning_strike.weapon" />
 
+<!-- add  -->
+<weapon key="ew_ripple.weapon" />
+<weapon key="ew_ripple_ince.weapon" />
+<weapon key="ew_akayo_1145.weapon" />
+<weapon key="gw_g36_905.weapon" />
+<weapon key="gw_g36_2407.weapon" />
+<weapon key="gw_g36_2407_p.weapon" />
+<weapon key="gw_g36_mod.weapon" />
+<weapon key="gw_g36_mod_b.weapon" />
+<weapon key="gw_m950mod3.weapon" />
 
-	<weapon key="ew_thor_hammer.weapon" />
-    <weapon key="ew_thor_250mm_punisher_cannons.weapon" />
-    <weapon key="ew_vikin(titan)_mg.weapon" />
-    <weapon key="ew_vikin(titan)_missile.weapon" />
-    <weapon key="ew_hellbat_ops_napalm_spray.weapon" />
-    <weapon key="ew_hellbat_ops_infernal_flamethrower.weapon" />
-    <weapon key="ew_immortal(taldarin)shield.weapon" />
-    
-    <weapon key="eng_repair_armor.weapon" />
-    <weapon key="eng_repair_armor_hellbat_ops.weapon" />
-    <weapon key="eng_repair_armor_immortal(taldarin).weapon" />
-    <weapon key="eng_repair_armor_knightpaladin.weapon" />
-    <weapon key="eng_repair_armor_thor.weapon" />
-    <weapon key="eng_repair_armor_vikin(titan).weapon" />
-    <weapon key="eng_repair_vehicle.weapon" />	
+<weapon key="gw_magic_gun_bebock.weapon" />
+<weapon key="gw_sp9_china.weapon" />
+<weapon key="gw_stg44mod3.weapon" />
+<weapon key="gw_tmp_meow_prism_power.weapon" />
+<weapon key="gw_tmp_meow_prism_power_s.weapon" />
+<weapon key="gw_m1928a_5703.weapon" />
+<weapon key="gw_m1928a.weapon" />
 
+<weapon key="rule_book1.weapon" />
+<weapon key="rule_book2.weapon" />
+<weapon key="rule_book3.weapon" />
+<weapon key="rule_book4.weapon" />
+<weapon key="rule_book5.weapon" />
+<weapon key="rule_book6.weapon" />
 
-	<projectile  key="gtr_flare.projectile" />
-	<projectile  key="zbd04_flare.projectile" />
-	<projectile  key="zbd04a_flare.projectile" />
-	<projectile  key="wcsp_flare.projectile" />
-
-	<carry_item key="eng_heavy_vest.carry_item" />
-	<carry_item key="eng_light_vest.carry_item" />
-	<carry_item key="eng_medium_vest.carry_item" />   
+<projectile key="token_misaka_10032.projectile" />
+<projectile key="token_misaka_mikoto.projectile" />
+<projectile key="token_rem.projectile" />
+<projectile key="token_tachibana_kanade.projectile" />
+<projectile key="token_yukikaze.projectile" />
 
 
 </resources>

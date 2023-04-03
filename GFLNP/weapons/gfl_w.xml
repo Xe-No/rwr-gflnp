@@ -847,13 +847,13 @@ RE
 <weapon file="gw_g36_mod.weapon" />
 <weapon file="gw_g36_mod_b.weapon" />
 <weapon file="gw_m950mod3.weapon" />
-<weapon file="gw_m1928a_5703.weapon" />
 <weapon file="gw_magic_gun_bebock.weapon" />
-<weapon file="gw_sp9_china.weapon" />
 <weapon file="gw_stg44mod3.weapon" />
 <weapon file="gw_tmp_meow_prism_power.weapon" />
 <weapon file="gw_tmp_meow_prism_power_s.weapon" />
-<weapon file="gw_tommy_gun.weapon" />
+<weapon file="gw_sp9_china.weapon" />
+<weapon file="gw_m1928a_5703.weapon" />
+<weapon file="gw_m1928a.weapon" />
 
 <weapon file="rule_book1.weapon" />
 <weapon file="rule_book2.weapon" />

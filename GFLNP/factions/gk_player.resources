@@ -216,6 +216,13 @@ re token
 	<projectile key="token_mdr_3305.projectile"  />
 	<projectile key="token_bronya_white.projectile"  />
 
+	<projectile key="token_ononoki.projectile" />
+	<projectile key="token_misaka_10032.projectile" />
+	<projectile key="token_misaka_mikoto.projectile" />
+	<projectile key="token_rem.projectile" />
+	<projectile key="token_tachibana_kanade.projectile" />
+	<projectile key="token_yukikaze.projectile" />
+
 
 oath
   	<weapon key="gw_ar15mod_sl_oath.weapon" />

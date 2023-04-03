@@ -418,7 +418,6 @@
     <sound class="result" key="character" fileref="slip.wav" volume="0.5"/>
   </projectile>
   <projectile class="grenade" name="Claymore" key="claymore.projectile" slot="0" on_ground_up="0 1 0" radius="1.2" can_be_disarmed="1" disarm_instance_class="weapon" disarm_instance_key="claymore_resource.weapon" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0" time_to_live_out_in_the_open="0.0" visible_height="-0.6" blast_damage_threshold="0.25" use_time_to_live="1" time_to_live="240">
-    <collision class="sticky"/>
     <trigger class="impact">
       <collider class="terrain" enabled="0"/>
       <collider class="static_object" enabled="0"/>
@@ -2731,7 +2730,7 @@
     <capacity value="1" source="rank" source_value="1.0"/>
   </projectile>
   <projectile class="grenade" name="GTR drop" key="gtr_flare.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
-    <result class="spawn" instance_class="vehicle" instance_key="wcsp.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0"/>
+    <result class="spawn" instance_class="vehicle" instance_key="gtr.vehicle" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0"/>
     <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
     <inventory encumbrance="2.0" price="1000.0" sell_price="1000"/>
     <trigger class="time" time_to_live="10.0"/>
@@ -2878,7 +2877,7 @@
     <effect class="activated" ref="Propulsion"/>
   </projectile>
   <projectile class="grenade" name="tracer dart" key="tracer_dart_blast.projectile" slot="2" pulldown_in_air="80">
-    <result class="spawn" instance_class="projectile" instance_key="tracer_missile.projectile" min_amount="1" max_amount="1" offset="0 50 0" position_spread="0 0" direction_spread="0 0"/>
+    <result class="spawn" instance_class="projectile" instance_key="tracer_missile.projectile" min_amount="1" max_amount="1" offset="0 30 0" position_spread="0 0" direction_spread="0 0"/>
     <trigger class="impact"/>
     <rotation class="motion"/>
     <sound class="impact" fileref="woosh1.wav" volume="3.0"/>
@@ -4198,43 +4197,44 @@
     <effect class="result" key="vehicle" copy="terrain"/>
     <effect class="result" key="character" copy="terrain"/>
   </projectile>
-  <projectile name="Naoto[Black][RE]" key="token_naoto.projectile" class="grenade" slot="0" pulldown_in_air="10" time_to_live_out_in_the_open="0.0">
+  <projectile name="Naoto[Black][RE]" key="token_naoto.projectile" class="grenade" slot="0" pulldown_in_air="10" on_ground_up="0 1 0" time_to_live_out_in_the_open="0" can_be_detected_by_driver="0" can_be_disarmed="0">
     <hud_icon filename="token_naoto.png"/>
-    <throwable curve_height="6.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="13.0" randomness="0.07"/>
-    <result class="blast" radius="6.5" damage="1.01" push="0.3" decal="1" character_state="death" faction_compare="not_equal"/>
-    <trigger class="time" time_to_live="3.5"/>
+    <throwable curve_height="2.0" near_far_distance="2.0" speed_estimation_near="5.0" speed_estimation_far="5.0" max_speed="5.0" randomness="0.01"/>
+    <result class="blast" radius="6.5" damage="25.0" push="4.0" decal="1" character_state="death"/>
+    <collision class="sticky"/>
+    <trigger class="remote_detonate"/>
     <rotation class="random"/>
     <commonness can_respawn_with="1" value="0.00000001" in_stock="0"/>
+    <inventory encumbrance="4.0" price="50.0"/>
     <capacity value="0" source="rank" source_value="0.0"/>
-    <capacity value="3" source="rank" source_value="0.1"/>
-    <capacity value="4" source="rank" source_value="0.2"/>
-    <capacity value="6" source="rank" source_value="0.4"/>
-    <inventory encumbrance="3.0" price="2.0"/>
-    <model mesh_filename="grenade.xml"/>
-    <sound class="result" key="other" fileref="explosion1.wav"/>
-    <sound class="result" key="other" fileref="explosion2.wav"/>
-    <sound class="result" key="other" fileref="explosion2_1.wav"/>
-    <sound class="result" key="terrain" copy="other"/>
-    <sound class="result" key="static_object" copy="other"/>
-    <sound class="result" key="vehicle" copy="other"/>
-    <sound class="result" key="character" copy="other"/>
+    <capacity value="1" source="rank" source_value="0.1"/>
+    <capacity value="2" source="rank" source_value="0.2"/>
+    <capacity value="3" source="rank" source_value="0.3"/>
+    <capacity value="4" source="rank" source_value="10.0"/>
+    <model mesh_filename="c4.mesh" texture_filename="c4.png"/>
+    <sound class="result" fileref="explosion1.wav" key="other"/>
+    <sound class="result" fileref="explosion2.wav" key="other"/>
+    <sound class="result" copy="other" key="terrain"/>
+    <sound class="result" copy="other" key="static_object"/>
+    <sound class="result" copy="other" key="vehicle"/>
+    <sound class="result" copy="other" key="character"/>
     <effect class="result" key="terrain" ref="BigBurst" use_surface_color="1"/>
-    <effect class="result" key="terrain" ref="SmokeTop" post_processing="1"/>
-    <effect class="result" key="terrain" ref="Smoke" post_processing="1"/>
-    <effect class="result" key="terrain" ref="Shine" lighting="0"/>
-    <effect class="result" key="terrain" ref="Godray" lighting="0"/>
+    <effect class="result" key="terrain" post_processing="1" ref="SmokeTop"/>
+    <effect class="result" key="terrain" post_processing="1" ref="Smoke"/>
+    <effect class="result" key="terrain" lighting="0" ref="Shine"/>
+    <effect class="result" key="terrain" lighting="0" ref="Godray"/>
     <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1"/>
-    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1"/>
-    <effect class="result" type="splat_map" surface_tag="" size="4.0" atlas_index="4" layer="0"/>
-    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="2" additive="0"/>
-    <effect class="result" key="other" ref="SmokeTop" post_processing="1"/>
-    <effect class="result" key="other" ref="Smoke" post_processing="1"/>
-    <effect class="result" key="other" ref="Shine" lighting="0"/>
-    <effect class="result" key="other" ref="Godray" lighting="0"/>
+    <effect atlas_index="0" class="result" layer="1" size="3.0" surface_tag="" type="splat_map"/>
+    <effect atlas_index="4" class="result" layer="0" size="4.5" surface_tag="" type="splat_map"/>
+    <effect additive="0" atlas_index="0" class="result" layer="2" size="6.0" surface_tag="" type="splat_map"/>
+    <effect class="result" key="other" post_processing="1" ref="SmokeTop"/>
+    <effect class="result" key="other" post_processing="1" ref="Smoke"/>
+    <effect class="result" key="other" lighting="0" ref="Shine"/>
+    <effect class="result" key="other" lighting="0" ref="Godray"/>
     <effect class="result" key="other" ref="ShadowSmoke" shadow="1"/>
-    <effect class="result" key="static_object" copy="terrain"/>
-    <effect class="result" key="vehicle" copy="terrain"/>
-    <effect class="result" key="character" copy="terrain"/>
+    <effect class="result" copy="terrain" key="static_object"/>
+    <effect class="result" copy="terrain" key="vehicle"/>
+    <effect class="result" copy="terrain" key="character"/>
   </projectile>
   <projectile name="Hakuryu[RE]" key="token_hakuryu.projectile" class="grenade" slot="0" pulldown_in_air="10" time_to_live_out_in_the_open="0.0">
     <hud_icon filename="hud_unknown.png"/>
@@ -5860,6 +5860,213 @@
     <effect class="result" copy="terrain" key="static_object"/>
     <effect class="result" copy="terrain" key="vehicle"/>
     <effect class="result" copy="terrain" key="character"/>
+  </projectile>
+  <projectile name="Monogatari ononoki[RE]" key="token_ononoki.projectile" class="grenade" slot="0" pulldown_in_air="10" on_ground_up="0 1 0" time_to_live_out_in_the_open="0" can_be_detected_by_driver="0" can_be_disarmed="0">
+    <hud_icon filename="token_ononoki.png"/>
+    <throwable curve_height="2.0" near_far_distance="2.0" speed_estimation_near="5.0" speed_estimation_far="5.0" max_speed="5.0" randomness="0.01"/>
+    <result class="blast" radius="6.5" damage="25.0" push="4.0" decal="1" character_state="death"/>
+    <collision class="sticky"/>
+    <trigger class="remote_detonate"/>
+    <rotation class="random"/>
+    <commonness can_respawn_with="1" value="0.00000001" in_stock="0"/>
+    <inventory encumbrance="4.0" price="50.0"/>
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="1" source="rank" source_value="0.1"/>
+    <capacity value="2" source="rank" source_value="0.2"/>
+    <capacity value="3" source="rank" source_value="0.3"/>
+    <capacity value="4" source="rank" source_value="10.0"/>
+    <model mesh_filename="c4.mesh" texture_filename="c4.png"/>
+    <sound class="result" fileref="explosion1.wav" key="other"/>
+    <sound class="result" fileref="explosion2.wav" key="other"/>
+    <sound class="result" copy="other" key="terrain"/>
+    <sound class="result" copy="other" key="static_object"/>
+    <sound class="result" copy="other" key="vehicle"/>
+    <sound class="result" copy="other" key="character"/>
+    <effect class="result" key="terrain" ref="BigBurst" use_surface_color="1"/>
+    <effect class="result" key="terrain" post_processing="1" ref="SmokeTop"/>
+    <effect class="result" key="terrain" post_processing="1" ref="Smoke"/>
+    <effect class="result" key="terrain" lighting="0" ref="Shine"/>
+    <effect class="result" key="terrain" lighting="0" ref="Godray"/>
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1"/>
+    <effect atlas_index="0" class="result" layer="1" size="3.0" surface_tag="" type="splat_map"/>
+    <effect atlas_index="4" class="result" layer="0" size="4.5" surface_tag="" type="splat_map"/>
+    <effect additive="0" atlas_index="0" class="result" layer="2" size="6.0" surface_tag="" type="splat_map"/>
+    <effect class="result" key="other" post_processing="1" ref="SmokeTop"/>
+    <effect class="result" key="other" post_processing="1" ref="Smoke"/>
+    <effect class="result" key="other" lighting="0" ref="Shine"/>
+    <effect class="result" key="other" lighting="0" ref="Godray"/>
+    <effect class="result" key="other" ref="ShadowSmoke" shadow="1"/>
+    <effect class="result" copy="terrain" key="static_object"/>
+    <effect class="result" copy="terrain" key="vehicle"/>
+    <effect class="result" copy="terrain" key="character"/>
+  </projectile>
+  <projectile name="Misaka 10032[RE]" key="token_misaka_10032.projectile" class="grenade" slot="0" pulldown_in_air="10" time_to_live_out_in_the_open="0.0">
+    <hud_icon filename="token_misaka_10032.png"/>
+    <result class="blast" radius="10.0" damage="0.0" decal="0" character_state="stun"/>
+    <trigger class="time" time_to_live="3.0"/>
+    <rotation class="random"/>
+    <model mesh_filename="stun_grenade.xml"/>
+    <commonness can_respawn_with="1" value="0.00000001" in_stock="0"/>
+    <capacity value="2" source="rank" source_value="0.0"/>
+    <capacity value="3" source="rank" source_value="0.2"/>
+    <capacity value="4" source="rank" source_value="0.4"/>
+    <capacity value="5" source="rank" source_value="0.5"/>
+    <inventory encumbrance="3.0" price="5.0"/>
+    <throwable curve_height="7.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="20.0" max_speed="18.0" randomness="0.07"/>
+    <sound class="result" key="other" fileref="stun_grenade1.wav"/>
+    <sound class="result" key="terrain" copy="other"/>
+    <sound class="result" key="static_object" copy="other"/>
+    <sound class="result" key="vehicle" copy="other"/>
+    <sound class="result" key="character" copy="other"/>
+    <effect class="result" key="terrain" ref="BigBurst" use_surface_color="1"/>
+    <effect class="result" key="terrain" ref="FlashShine" lighting="0"/>
+    <effect class="result" key="terrain" ref="FlashBeam" lighting="0"/>
+    <effect class="result" key="other" ref="FlashShine" lighting="0"/>
+    <effect class="result" key="other" ref="FlashBeam" lighting="0"/>
+    <effect class="result" key="static_object" copy="terrain"/>
+    <effect class="result" key="vehicle" copy="terrain"/>
+    <effect class="result" key="character" copy="terrain"/>
+  </projectile>
+  <projectile name="Misaka Mikoto[RE]" key="token_misaka_mikoto.projectile" class="grenade" slot="0" pulldown_in_air="10" time_to_live_out_in_the_open="0.0">
+    <hud_icon filename="token_misaka_mikoto.png"/>
+    <result class="blast" radius="10.0" damage="0.0" decal="0" character_state="stun"/>
+    <trigger class="time" time_to_live="3.0"/>
+    <rotation class="random"/>
+    <model mesh_filename="stun_grenade.xml"/>
+    <commonness can_respawn_with="1" value="0.00000001" in_stock="0"/>
+    <capacity value="2" source="rank" source_value="0.0"/>
+    <capacity value="3" source="rank" source_value="0.2"/>
+    <capacity value="4" source="rank" source_value="0.4"/>
+    <capacity value="5" source="rank" source_value="0.5"/>
+    <inventory encumbrance="3.0" price="5.0"/>
+    <throwable curve_height="7.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="20.0" max_speed="18.0" randomness="0.07"/>
+    <sound class="result" key="other" fileref="stun_grenade1.wav"/>
+    <sound class="result" key="terrain" copy="other"/>
+    <sound class="result" key="static_object" copy="other"/>
+    <sound class="result" key="vehicle" copy="other"/>
+    <sound class="result" key="character" copy="other"/>
+    <effect class="result" key="terrain" ref="BigBurst" use_surface_color="1"/>
+    <effect class="result" key="terrain" ref="FlashShine" lighting="0"/>
+    <effect class="result" key="terrain" ref="FlashBeam" lighting="0"/>
+    <effect class="result" key="other" ref="FlashShine" lighting="0"/>
+    <effect class="result" key="other" ref="FlashBeam" lighting="0"/>
+    <effect class="result" key="static_object" copy="terrain"/>
+    <effect class="result" key="vehicle" copy="terrain"/>
+    <effect class="result" key="character" copy="terrain"/>
+  </projectile>
+  <projectile name="Rem[RE]" key="token_rem.projectile" class="grenade" slot="0" pulldown_in_air="10" time_to_live_out_in_the_open="0.0">
+    <hud_icon filename="token_rem.png"/>
+    <throwable curve_height="6.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="13.0" randomness="0.07"/>
+    <result class="blast" radius="6.5" damage="1.01" push="0.3" decal="1" character_state="death" faction_compare="not_equal"/>
+    <trigger class="time" time_to_live="3.5"/>
+    <rotation class="random"/>
+    <commonness can_respawn_with="1" value="0.00000001" in_stock="0"/>
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="3" source="rank" source_value="0.1"/>
+    <capacity value="4" source="rank" source_value="0.2"/>
+    <capacity value="6" source="rank" source_value="0.4"/>
+    <inventory encumbrance="3.0" price="2.0"/>
+    <model mesh_filename="grenade.xml"/>
+    <sound class="result" key="other" fileref="explosion1.wav"/>
+    <sound class="result" key="other" fileref="explosion2.wav"/>
+    <sound class="result" key="other" fileref="explosion2_1.wav"/>
+    <sound class="result" key="terrain" copy="other"/>
+    <sound class="result" key="static_object" copy="other"/>
+    <sound class="result" key="vehicle" copy="other"/>
+    <sound class="result" key="character" copy="other"/>
+    <effect class="result" key="terrain" ref="BigBurst" use_surface_color="1"/>
+    <effect class="result" key="terrain" ref="SmokeTop" post_processing="1"/>
+    <effect class="result" key="terrain" ref="Smoke" post_processing="1"/>
+    <effect class="result" key="terrain" ref="Shine" lighting="0"/>
+    <effect class="result" key="terrain" ref="Godray" lighting="0"/>
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1"/>
+    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1"/>
+    <effect class="result" type="splat_map" surface_tag="" size="4.0" atlas_index="4" layer="0"/>
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="2" additive="0"/>
+    <effect class="result" key="other" ref="SmokeTop" post_processing="1"/>
+    <effect class="result" key="other" ref="Smoke" post_processing="1"/>
+    <effect class="result" key="other" ref="Shine" lighting="0"/>
+    <effect class="result" key="other" ref="Godray" lighting="0"/>
+    <effect class="result" key="other" ref="ShadowSmoke" shadow="1"/>
+    <effect class="result" key="static_object" copy="terrain"/>
+    <effect class="result" key="vehicle" copy="terrain"/>
+    <effect class="result" key="character" copy="terrain"/>
+  </projectile>
+  <projectile name="Tachibana Kanade[RE]" key="token_tachibana_kanade.projectile" class="grenade" slot="0" pulldown_in_air="10" time_to_live_out_in_the_open="0.0">
+    <hud_icon filename="token_tachibana_kanade.png"/>
+    <throwable curve_height="6.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="13.0" randomness="0.07"/>
+    <result class="blast" radius="6.5" damage="1.01" push="0.3" decal="1" character_state="death" faction_compare="not_equal"/>
+    <trigger class="time" time_to_live="3.5"/>
+    <rotation class="random"/>
+    <commonness can_respawn_with="1" value="0.00000001" in_stock="0"/>
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="3" source="rank" source_value="0.1"/>
+    <capacity value="4" source="rank" source_value="0.2"/>
+    <capacity value="6" source="rank" source_value="0.4"/>
+    <inventory encumbrance="3.0" price="2.0"/>
+    <model mesh_filename="grenade.xml"/>
+    <sound class="result" key="other" fileref="explosion1.wav"/>
+    <sound class="result" key="other" fileref="explosion2.wav"/>
+    <sound class="result" key="other" fileref="explosion2_1.wav"/>
+    <sound class="result" key="terrain" copy="other"/>
+    <sound class="result" key="static_object" copy="other"/>
+    <sound class="result" key="vehicle" copy="other"/>
+    <sound class="result" key="character" copy="other"/>
+    <effect class="result" key="terrain" ref="BigBurst" use_surface_color="1"/>
+    <effect class="result" key="terrain" ref="SmokeTop" post_processing="1"/>
+    <effect class="result" key="terrain" ref="Smoke" post_processing="1"/>
+    <effect class="result" key="terrain" ref="Shine" lighting="0"/>
+    <effect class="result" key="terrain" ref="Godray" lighting="0"/>
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1"/>
+    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1"/>
+    <effect class="result" type="splat_map" surface_tag="" size="4.0" atlas_index="4" layer="0"/>
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="2" additive="0"/>
+    <effect class="result" key="other" ref="SmokeTop" post_processing="1"/>
+    <effect class="result" key="other" ref="Smoke" post_processing="1"/>
+    <effect class="result" key="other" ref="Shine" lighting="0"/>
+    <effect class="result" key="other" ref="Godray" lighting="0"/>
+    <effect class="result" key="other" ref="ShadowSmoke" shadow="1"/>
+    <effect class="result" key="static_object" copy="terrain"/>
+    <effect class="result" key="vehicle" copy="terrain"/>
+    <effect class="result" key="character" copy="terrain"/>
+  </projectile>
+  <projectile name="Yukikaze[RE]" key="token_yukikaze.projectile" class="grenade" slot="0" pulldown_in_air="10" time_to_live_out_in_the_open="0.0">
+    <hud_icon filename="token_yukikaze.png"/>
+    <throwable curve_height="6.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="13.0" randomness="0.07"/>
+    <result class="blast" radius="6.5" damage="1.01" push="0.3" decal="1" character_state="death" faction_compare="not_equal"/>
+    <trigger class="time" time_to_live="3.5"/>
+    <rotation class="random"/>
+    <commonness can_respawn_with="1" value="0.00000001" in_stock="0"/>
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="3" source="rank" source_value="0.1"/>
+    <capacity value="4" source="rank" source_value="0.2"/>
+    <capacity value="6" source="rank" source_value="0.4"/>
+    <inventory encumbrance="3.0" price="2.0"/>
+    <model mesh_filename="grenade.xml"/>
+    <sound class="result" key="other" fileref="explosion1.wav"/>
+    <sound class="result" key="other" fileref="explosion2.wav"/>
+    <sound class="result" key="other" fileref="explosion2_1.wav"/>
+    <sound class="result" key="terrain" copy="other"/>
+    <sound class="result" key="static_object" copy="other"/>
+    <sound class="result" key="vehicle" copy="other"/>
+    <sound class="result" key="character" copy="other"/>
+    <effect class="result" key="terrain" ref="BigBurst" use_surface_color="1"/>
+    <effect class="result" key="terrain" ref="SmokeTop" post_processing="1"/>
+    <effect class="result" key="terrain" ref="Smoke" post_processing="1"/>
+    <effect class="result" key="terrain" ref="Shine" lighting="0"/>
+    <effect class="result" key="terrain" ref="Godray" lighting="0"/>
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1"/>
+    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1"/>
+    <effect class="result" type="splat_map" surface_tag="" size="4.0" atlas_index="4" layer="0"/>
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="2" additive="0"/>
+    <effect class="result" key="other" ref="SmokeTop" post_processing="1"/>
+    <effect class="result" key="other" ref="Smoke" post_processing="1"/>
+    <effect class="result" key="other" ref="Shine" lighting="0"/>
+    <effect class="result" key="other" ref="Godray" lighting="0"/>
+    <effect class="result" key="other" ref="ShadowSmoke" shadow="1"/>
+    <effect class="result" key="static_object" copy="terrain"/>
+    <effect class="result" key="vehicle" copy="terrain"/>
+    <effect class="result" key="character" copy="terrain"/>
   </projectile>
   <projectile class="grenade" name="Dactyl" key="dactyl.projectile" slot="0" radius="1.2" can_be_disarmed="1" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0" time_to_live_out_in_the_open="0.0" visible_height="-1.2" blast_damage_threshold="0.25" use_time_to_live="1" time_to_live="180">
     <collision class="sticky"/>
@@ -8211,7 +8418,7 @@
   </projectile>
   <projectile class="grenade" name="water" slot="2" pulldown_in_air="4" key="ew_kokomi_water_sub.projectile">
     <tag name="grenade"/>
-    <result class="blast" radius="6" damage="1.0" push="0.5" decal="1" character_state="wound" faction_compare="not_equal" damage_origin_vehicle="0"/>
+    <result class="blast" radius="3.5" damage="1.0" push="0.5" decal="1" character_state="wound" faction_compare="not_equal" damage_origin_vehicle="0"/>
     <trigger class="time" time_to_live="0"/>
     <rotation class="motion"/>
     <model mesh_filename=""/>
@@ -8233,7 +8440,7 @@
     <inventory encumbrance="0" price="0.0"/>
   </projectile>
   <projectile class="grenade" name="FSDS" key="sinteria_at.projectile" slot="2" pulldown_in_air="4">
-    <result class="blast" radius="2" damage="1.31" push="0.99" decal="1" character_state="death" damage_origin_vehicle="0" faction_compare="not_equal"/>
+    <result class="blast" radius="0.1" damage="1.0" push="0.99" decal="1" character_state="death" damage_origin_vehicle="0" faction_compare="not_equal"/>
     <trigger class="impact"/>
     <rotation class="motion"/>
     <model mesh_filename="40mm.mesh" texture_filename="40mm.png"/>
@@ -8268,7 +8475,7 @@
     <sound class="result" key="static_object" copy="terrain"/>
   </projectile>
   <projectile class="grenade" name="SEV-90 40mm" slot="1" key="sinteria_bow.projectile" pulldown_in_air="1">
-    <result class="blast" radius="5.1" damage="1.21" push="1.0" decal="1" faction_compare="not_equal"/>
+    <result class="blast" radius="3.0" damage="0.01" push="1.0" decal="1" faction_compare="not_equal"/>
     <collision class="sticky"/>
     <trigger class="time" time_to_live="0.01"/>
     <rotation class="motion"/>

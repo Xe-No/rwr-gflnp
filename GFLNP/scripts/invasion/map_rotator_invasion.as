@@ -130,9 +130,16 @@ class MapRotatorInvasion : MapRotator {
 		dictionary play_list = {
 			{"Final mission I", "wait_to_final1.wav"},
 			{"", "wait_to_map_default.wav"}
-		} 
+		};
 
-		string wait_to_sound = ( !dict_loot.exists(mapName) ) ? play_list[""] : play_list[mapName];
+		// if ( !play_list.exists(mapName) ){
+		// 	playSound(m_metagame, "wait_to_map_default.wav", 0);
+		// }
+		// else{
+		// 	playSound(m_metagame, play_list[mapName], 0);
+		// }
+
+		string wait_to_sound = ( !play_list.exists(mapName) ) ? string(play_list[""]) : string(play_list[mapName]);
 		playSound(m_metagame, wait_to_sound, 0);
 		
 

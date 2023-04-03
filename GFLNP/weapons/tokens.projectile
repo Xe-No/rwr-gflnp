@@ -50,9 +50,7 @@ token_ononoki.projectile
 <projectile name="Naoto[Black][RE]" file="token_c4.projectile" key="token_naoto.projectile"  >
 	<hud_icon filename="token_naoto.png" />
 </projectile>
-<projectile name="Monogatari ononoki[RE]" file="token_c4.projectile" key="token_ononoki.projectile"  >
-	<hud_icon filename="token_ononoki.png" />
-</projectile>
+
 
 <projectile name="Hakuryu[RE]" file="token0.projectile" key="token_hakuryu.projectile"  >
 	<hud_icon filename="hud_unknown.png" />
@@ -121,6 +119,10 @@ token_ononoki.projectile
 </projectile>
 
 
+
+
+
+
 <projectile name="Luka Chinadress[RE]" file="token0.projectile" key="token_luka_china.projectile"  >
 	<!-- <hud_icon filename="token_rumia.png" /> -->
 </projectile>
@@ -149,6 +151,7 @@ token_ononoki.projectile
 <projectile name="Bronya[White Dress][RE]" file="token0.projectile" key="token_bronya_white.projectile"  >
 	<hud_icon filename="token_bronya_white.png" />
 </projectile>
+
 
 
 <!-- flash -->
@@ -210,5 +213,24 @@ token_ononoki.projectile
    	<inventory encumbrance="2.0" price="25.0" />
 </projectile>
 
+<!-- 39 -->
+<projectile name="Monogatari ononoki[RE]" file="token_c4.projectile" key="token_ononoki.projectile"  >
+	<hud_icon filename="token_ononoki.png" />
+</projectile>
+<projectile name="Misaka 10032[RE]" file="token_stun.projectile" key="token_misaka_10032.projectile"  >
+	<hud_icon filename="token_misaka_10032.png" />
+</projectile>
+<projectile name="Misaka Mikoto[RE]" file="token_stun.projectile" key="token_misaka_mikoto.projectile"  >
+	<hud_icon filename="token_misaka_mikoto.png" />
+</projectile>
+<projectile name="Rem[RE]" file="token0.projectile" key="token_rem.projectile"  >
+	<hud_icon filename="token_rem.png" />
+</projectile>
+<projectile name="Tachibana Kanade[RE]" file="token0.projectile" key="token_tachibana_kanade.projectile"  >
+	<hud_icon filename="token_tachibana_kanade.png" />
+</projectile>
+<projectile name="Yukikaze[RE]" file="token0.projectile" key="token_yukikaze.projectile"  >
+	<hud_icon filename="token_yukikaze.png" />
+</projectile>
 
 </projectiles>

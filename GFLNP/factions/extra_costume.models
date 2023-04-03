@@ -144,5 +144,12 @@
 <!-- 38 -->
 	<model filename="es_bronya_white.xml" score="5000"><requirement class="projectile" key="token_bronya_white.projectile"  slot="0" /><requirement class="rank" range="0 100000000" /></model>
 
+<!-- 39 -->
+	<model filename="es_monogatari_ononoki.xml" score="5000"><requirement class="projectile" slot="0" key="token_ononoki.projectile"/></model>
+	<model filename="es_misaka_10032.xml" score="5000"><requirement class="projectile" slot="0" key="token_misaka_10032.projectile"/></model>
+	<model filename="es_misaka_mikoto.xml" score="5000"><requirement class="projectile" slot="0" key="token_misaka_mikoto.projectile"/></model>
+	<model filename="es_rem.xml" score="5000"><requirement class="projectile" slot="0" key="token_rem.projectile"/></model>
+	<model filename="es_tachibana_kanade.xml" score="5000"><requirement class="projectile" slot="0" key="token_tachibana_kanade.projectile"/></model>
+	<model filename="es_yukikaze.xml" score="5000"><requirement class="projectile" slot="0" key="token_yukikaze.projectile"/></model>
 
 </models>
