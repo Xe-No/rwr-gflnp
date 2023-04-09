@@ -19,6 +19,10 @@ class GFLEquipmentEvent : Tracker {
 
 		//CB合成分解字典
 		dictionary dict = {
+			// 0.39
+			{"ew_akayo_1145.weapon", "sr" },
+			{"ew_ripple.weapon", "ssr" },
+
 			// 0.38
 			{"ew_sinteria_bow.weapon", "ur" },
 			{"ew_sinteria_at.weapon", "ur" }, 			

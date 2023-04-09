@@ -95,6 +95,9 @@
 	<weapon file="t90_125mm.weapon" />
 	<weapon file="vmg_6p49.weapon" />
 	<weapon file="wcsp_30mm.weapon" />
+
+	<weapon file="kv2_cannon.weapon" />
+	<weapon file="m2hb_ap.weapon" />
     <!-- <weapon file="templax_gl.weapon"/> -->
     <!-- <weapon file="templax_minig.weapon"/> -->
 </weapons>

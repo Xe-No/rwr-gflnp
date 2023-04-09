@@ -6,7 +6,7 @@
     accuracy_factor="0.85" 
     sustained_fire_grow_step="0.75" 
     sustained_fire_diminish_rate="0.25" 
-    magazine_size="15" 
+    magazine_size="25" 
     can_shoot_standing="1" 
     suppressed="1" 
     name="Freedom-S" 
@@ -16,7 +16,7 @@
     projectile_speed="140.0" 
     projectiles_per_shot="7" />
     <next_in_chain key="ew_freedom.weapon" share_ammo="1" />
-    <!-- <animation state_key="next_in_chain_out" animation_key="switch, aa-12" /> -->
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" /> 
     <!-- <sound key="effect" fileref="ew_freedom_switch.wav" /> -->
     <control key="effect" value="1" />
 

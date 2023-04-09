@@ -242,5 +242,8 @@
 	<vehicle file="cetus.vehicle" />	
 	<vehicle file="cha2tes.vehicle" />	
 
+	<vehicle file="sherman.vehicle" />	
+	<vehicle file="kv2_gup.vehicle" />	
+
 
 </vehicles>
