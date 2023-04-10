@@ -2,10 +2,10 @@
 <weapon file="base_cb.weapon" key="ew_hmtech501.weapon">
     <tag name="assault" />
     <specification 
-  retrigger_time="0.1"
+  retrigger_time="0.085"
   accuracy_factor="1.0"
   spread_range="0.25"
-  sustained_fire_grow_step="0.35" 
+  sustained_fire_grow_step="0.31" 
   sustained_fire_diminish_rate="1.85" 
   magazine_size="30" 
   can_shoot_standing="1" 
@@ -42,7 +42,7 @@
 
     <weak_hand_hold offset="0.2" />
     <projectile file="bullet.projectile">
-        <result class="hit"  kill_probability="1.7" kill_decay_start_time="0.3" kill_decay_end_time="0.4" />
+        <result class="hit"  kill_probability="1.5" kill_decay_start_time="0.3" kill_decay_end_time="0.4" />
     </projectile>
 
     <stance state_key="running" accuracy="0.5" />
