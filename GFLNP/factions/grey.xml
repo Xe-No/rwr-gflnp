@@ -172,6 +172,7 @@
 			<projectile key="m1126_flare.projectile" />
 			<projectile key="l333_flare.projectile" />
 			<projectile key="pz4h_flare.projectile" />
+			<projectile key="sherman_flare.projectile" /> 
 			<call key="a10_gun_run.call" />
 			<!-- <call key="f16_missle_run.call" /> -->
 			<call key="ac130_gun_run.call" />

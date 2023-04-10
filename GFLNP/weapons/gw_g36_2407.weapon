@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<weapon file="base_cb.weapon" key="gw_g36_2407.weapon" quality="cb">
+<weapon file="base_card.weapon" key="gw_g36_2407.weapon" quality="cb">
     <tag name="assault"/>
     <specification 
         retrigger_time="0.075" 

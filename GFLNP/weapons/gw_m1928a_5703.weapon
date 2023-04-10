@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_normal_SMG.weapon" key="gw_m1928a_5703.weapon">
+<weapon file="base_card.weapon" key="gw_m1928a_5703.weapon">
     <specification 
 	    accuracy_factor="1.0"  
 	    can_shoot_standing="1" 
@@ -25,7 +25,7 @@
     <model filename="gw_m1928a_5703.xml" />
 
     <hud_icon filename="gw_m1928a_5703.png" />
-    <commonness value="0.1" can_respawn_with="0" />
+    <!-- <commonness value="0.1" can_respawn_with="0" /> -->
     <inventory encumbrance="10.0" price="600.0" />
 
     <projectile file="bullet.projectile">

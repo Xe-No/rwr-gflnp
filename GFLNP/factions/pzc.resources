@@ -33,6 +33,8 @@
     <projectile key="wheelchair_flare.projectile" /> 
     <projectile key="wheelchair2_flare.projectile" /> 
     <projectile key="lynx_atv_flare.projectile" /> 
+    <projectile key="sherman_flare.projectile" /> 
+    <projectile key="kv2_gup_flare.projectile" /> 
     
     <call key="tank_crew.call" enabled="1"/>
     <call key="drop_pod_crew.call" enabled="1"/>
