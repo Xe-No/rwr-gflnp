@@ -4747,7 +4747,7 @@
     <hud_icon filename="sct_exo_6.png"/>
     <inventory encumbrance="4" price="660"/>
     <model mesh_filename="it_smgvest.xml"/>
-    <commonness value="0.00000001" in_stock="1" can_respawn_with="1"/>
+    <commonness value="00000000.1" in_stock="1" can_respawn_with="1"/>
     <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none"/>
     <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
     <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
@@ -4758,7 +4758,7 @@
     <modifier class="hit_success_probability" value="-0.4"/>
     <modifier class="speed" value="+0.12"/>
   </carry_item>
-  <carry_item key="sct_exo_2" name="SCT Tactical Conversion Exoskeleton 5/6" slot="1" transform_on_consume="sct_exo_2" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
+  <carry_item key="sct_exo_1" name="SCT Tactical Conversion Exoskeleton 5/6" slot="1" transform_on_consume="sct_exo_2" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
     <hud_icon filename="sct_exo_5.png"/>
     <inventory encumbrance="4" price="500"/>
     <model mesh_filename="it_smgvest.xml"/>
@@ -4773,7 +4773,7 @@
     <modifier class="hit_success_probability" value="-0.5"/>
     <modifier class="speed" value="+0.10"/>
   </carry_item>
-  <carry_item key="sct_exo_3" name="SCT Tactical Conversion Exoskeleton 4/6" slot="1" transform_on_consume="sct_exo_3" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
+  <carry_item key="sct_exo_2" name="SCT Tactical Conversion Exoskeleton 4/6" slot="1" transform_on_consume="sct_exo_3" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
     <hud_icon filename="sct_exo_4.png"/>
     <inventory encumbrance="4" price="400"/>
     <model mesh_filename="it_smgvest.xml"/>
@@ -4788,7 +4788,7 @@
     <modifier class="hit_success_probability" value="-0.6"/>
     <modifier class="speed" value="+0.8"/>
   </carry_item>
-  <carry_item key="sct_exo_4" name="SCT Tactical Conversion Exoskeleton 3/6" slot="1" transform_on_consume="sct_exo_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
+  <carry_item key="sct_exo_3" name="SCT Tactical Conversion Exoskeleton 3/6" slot="1" transform_on_consume="sct_exo_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
     <hud_icon filename="sct_exo_3.png"/>
     <inventory encumbrance="4" price="200"/>
     <model mesh_filename="it_smgvest.xml"/>
@@ -4803,7 +4803,7 @@
     <modifier class="hit_success_probability" value="-0.7"/>
     <modifier class="speed" value="+0.8"/>
   </carry_item>
-  <carry_item key="sct_exo_5" name="SCT Tactical Conversion Exoskeleton 2/6" slot="1" transform_on_consume="sct_exo_5" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
+  <carry_item key="sct_exo_4" name="SCT Tactical Conversion Exoskeleton 2/6" slot="1" transform_on_consume="sct_exo_5" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
     <hud_icon filename="sct_exo_2.png"/>
     <inventory encumbrance="4" price="100"/>
     <model mesh_filename="it_smgvest.xml"/>
@@ -4818,7 +4818,7 @@
     <modifier class="hit_success_probability" value="-0.8"/>
     <modifier class="speed" value="+0.5"/>
   </carry_item>
-  <carry_item key="sct_exo_6" name="SCT Tactical Conversion Exoskeleton 1/6" slot="1" transform_on_consume="sct_exo_6" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
+  <carry_item key="sct_exo_5" name="SCT Tactical Conversion Exoskeleton 1/6" slot="1" transform_on_consume="sct_exo_6" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
     <hud_icon filename="sct_exo_1.png"/>
     <inventory encumbrance="4" price="50"/>
     <model mesh_filename="it_smgvest.xml"/>
@@ -4833,7 +4833,7 @@
     <modifier class="hit_success_probability" value="-0.9"/>
     <modifier class="speed" value="+0.05"/>
   </carry_item>
-  <carry_item key="sct_exo_8" name="SCT Tactical Conversion Exoskeleton destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
+  <carry_item key="sct_exo_6" name="SCT Tactical Conversion Exoskeleton destroyed" slot="1" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
     <hud_icon filename="sct_exo_0.png"/>
     <inventory encumbrance="4" price="10"/>
     <model mesh_filename="it_smgvest.xml"/>

@@ -1092,7 +1092,7 @@ gw_zb26_4703.weapon
 	<model filename="gs_sp9_china.xml"><requirement class="weapon" slot="0" key="gw_sp9_china.weapon"/></model>
 	<model filename="gs_tmp_meow_prism_power.xml"><requirement class="weapon" slot="0" key="gw_tmp_meow_prism_power.weapon"/></model>
 	<model filename="gs_tmp_meow_prism_power_s.xml"><requirement class="weapon" slot="0" key="gw_tmp_meow_prism_power_s.weapon"/></model>
-	<model filename="gs_tommy_gun.xml"><requirement class="weapon" slot="0" key="gw_tommy_gun.weapon"/></model>
+	<model filename="gs_tommy_gun.xml"><requirement class="weapon" slot="0" key="gw_m1928a.weapon"/></model>
 	<model filename="gs_noelle.xml"><requirement class="weapon" slot="0" key="gw_magic_gun_bebock.weapon"/></model>
 	<model filename="gs_stg44mod3.xml"><requirement class="weapon" slot="0" key="gw_stg44mod3.weapon"/></model>
 	<model filename="gs_g36_905.xml"><requirement class="weapon" slot="0" key="gw_g36_905.weapon"/></model>

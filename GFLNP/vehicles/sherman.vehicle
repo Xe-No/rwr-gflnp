@@ -26,16 +26,16 @@
 		extent="2.8 0.0 7" 
 		offset="0 0.0 0" 
 		top_offset="0 6.0 0" 
-		collision_model_pos="0 0.1 0" 
-		collision_model_extent="4.0 1 8.0" 
-		visual_offset="0 0.3 0.0" /> 
+		collision_model_pos="0 0 0" 
+		collision_model_extent="4.0 2 8.0" 
+		visual_offset="0 0.2 0.0" /> 
 	 
 	<modifier class="blast_damage" value="-0.8" />
 
 	0<turret offset="0 0 0" weapon_key="tank_cannon_2.weapon" weapon_offset="0.0 3.1 2.7" weapon_recoil="0.042" physics_recoil="0.042" max_rotation_step="0.00004" />
-	1<turret offset="-2.5 3.3 1.3" weapon_key="none.weapon"  parent_turret_index="0" />
+	1<turret offset="0 0 0" weapon_key="none.weapon"  parent_turret_index="0" />
 	2<turret offset="-0.65 1.92 2.4" weapon_key="flamer_tank_cannon.weapon" weapon_offset="0 -0.2 -1" weapon_recoil="0.0" physics_recoil="0.0" rotation="0" rotation_range="0.6" max_rotation_step="0.0003" />
-    3<turret offset="-0.2 3.9 -2"  weapon_key="m2hb_ap.weapon" weapon_offset="-0.2 0.38 1.6" weapon_recoil="0"  physics_recoil="0" max_rotation_step="0.0001" rotation_range="2.5" parent_turret_index="0"/>	
+    3<turret offset="-0.2 3.5 -2"  weapon_key="m2hb.weapon" weapon_offset="-0.2 0.38 1.6" weapon_recoil="0"  physics_recoil="0" max_rotation_step="0.0001" rotation_range="2.5" parent_turret_index="0"/>	
 	4<turret offset="-0.2 3.9 -2" weapon_key="bmp3_atc_ejector.weapon" weapon_offset="-0.4 0.5 0" weapon_recoil="0.05" max_rotation_step="0.0001" rotation_range="2.5" parent_turret_index="0"/>
     5<turret offset="0 0 0" weapon_key="wiesel_mg3.weapon" weapon_offset="0.27 3.25 0.53" weapon_recoil="0.0" physics_recoil="0.0" parent_turret_index="0" rotation_range="0.6" max_rotation_step="0.00004" />
 
@@ -43,7 +43,7 @@
 	<visual class="turret" turret_index="0" mesh_filename="sherman_turret.mesh" texture_filename="sherman.png"/>
 	<visual class="turret" turret_index="1" mesh_filename="sherman_gun.mesh" texture_filename="sherman_gun.png"/>
 	<visual class="turret" turret_index="2" mesh_filename="tiger_mg.mesh" texture_filename="sherman.png"/>
-	<visual class="turret" turret_index="3" mesh_filename="m2hb_ap.mesh" texture_filename="m2hb.png" />
+	<visual class="turret" turret_index="3" mesh_filename="m2hb.mesh" texture_filename="m2hb.png" />
 	<visual class="turret" turret_index="5" mesh_filename="tiger_mg.mesh" texture_filename="sherman.png"/>
 	
 	<visual class="chassis" key="broken" mesh_filename="sherman_body.mesh" texture_filename="sherman_broken.png" />
@@ -56,16 +56,10 @@
 	</visual>
 
 	<visual class="track" mesh_filename="sherman_wheel_left.mesh" offset="0 0 0" >
-		<part texture_filename="sherman.png" />
-		<part texture_filename="sherman_wheel_3.png" texture_animation="rotate" tire_binding="0" />
-		<part texture_filename="sherman_wheel_4.png" texture_animation="rotate" tire_binding="0" />
-		<part texture_filename="sherman_wheel_7.png" texture_animation="rotate" tire_binding="0" />
+		<part texture_filename="wheels.png" />
 	</visual>	
 	<visual class="track" mesh_filename="sherman_wheel_right.mesh" offset="0 0 0" >
-		<part texture_filename="sherman.png" />
-		<part texture_filename="sherman_wheel_3.png" texture_animation="rotate" tire_binding="1" />
-		<part texture_filename="sherman_wheel_4.png" texture_animation="rotate" tire_binding="1" />
-		<part texture_filename="sherman_wheel_7.png" texture_animation="rotate" tire_binding="1" />
+		<part texture_filename="wheels.png" />
 	</visual>
 
 	<character_slot type="driver" position="1.4 0.6 1.5" rotation="0" exit_rotation="1.5" hiding="1" animation_id="36" />
@@ -74,7 +68,7 @@
 		<turret index="0" /><turret index="5" />
 	</character_slot>
 	<!-- MG -->
-	<character_slot type="gunner" enter_position="0 0.6 3.5"  position="-1.4 0.6 1.4" rotation="0" exit_rotation="-1.5" hiding="1" animation_key="tank mg still">
+	<character_slot type="gunner" enter_position="0 0.6 3.5"  position="-1.4 0.2 1.4" rotation="0" exit_rotation="-1.5" hiding="1" animation_key="37">
 		<turret index="2" />
 	</character_slot>
 	<!-- HMG -->
