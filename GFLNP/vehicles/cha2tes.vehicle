@@ -27,9 +27,9 @@
 cannon
 	0 <turret offset="0 1.88 0.29" 	weapon_key="tank_cannon.weapon" 	weapon_offset="0.0 0.6 4.8" 	weapon_recoil="0.2" physics_recoil="0.2"	max_rotation_step="0.00006" />
 coax	
-	1 <turret offset="0 0 0" 	weapon_key="vmg.30.weapon" 		weapon_offset="0.268 0.32 1.59" 		weapon_recoil="0.0" physics_recoil="0.0" 	max_rotation_step="0.00000" parent_turret_index="0"/>
+	1 <turret offset="0 0 0" 	weapon_key="cha2tes_m2hb.weapon" 		weapon_offset="0.268 0.32 1.59" 		weapon_recoil="0.0" physics_recoil="0.0" 	max_rotation_step="0.00000" parent_turret_index="0"/>
 left
-	2 <turret offset="+0.69 0.82 0.47" 	weapon_key="vmg.50.weapon" 		weapon_offset="0 +0.536 0.44" 		weapon_recoil="0.0" physics_recoil="0.0" 	max_rotation_step="0.0001" parent_turret_index="0"/>
+	2 <turret offset="+0.69 0.82 0.47" 	weapon_key="cha2tes_m2hb.weapon" 		weapon_offset="0 +0.536 0.44" 		weapon_recoil="0.0" physics_recoil="0.0" 	max_rotation_step="0.0001" parent_turret_index="0"/>
 
 	
 	<visual class="chassis" 								mesh_filename="cha2tes_b0.mesh" 	 	texture_filename="cha2tes.png" max_tilt="0.06" />

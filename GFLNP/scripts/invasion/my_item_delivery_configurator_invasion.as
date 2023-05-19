@@ -1718,6 +1718,18 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 
 		array<array<ScoredResource@>> rewardPasses = {
 			{
+			// 0.39
+
+				ScoredResource("gw_g36_905.weapon", "weapon", 3.0f),
+				ScoredResource("gw_g36_2407.weapon", "weapon", 3.0f),
+				ScoredResource("gw_g36_mod.weapon", "weapon", 3.0f),
+				ScoredResource("gw_m950mod3.weapon", "weapon", 3.0f),
+				ScoredResource("gw_magic_gun_bebock.weapon", "weapon", 3.0f),
+				ScoredResource("gw_stg44mod3.weapon", "weapon", 3.0f),
+				ScoredResource("gw_tmp_meow_prism_power.weapon", "weapon", 3.0f),
+				ScoredResource("gw_sp9_china.weapon", "weapon", 3.0f),
+				ScoredResource("gw_m1928a_5703.weapon", "weapon", 3.0f),
+				
 				ScoredResource("hk416_eva.weapon", "weapon", 1.0f),
 				ScoredResource("gw_9a91_1302.weapon", "weapon", 1.0f),
 				ScoredResource("gw_m4a1mod3.weapon", "weapon", 1.0f),

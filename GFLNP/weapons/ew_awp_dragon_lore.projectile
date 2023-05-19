@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="bullet" name="AWP[Dragon Lore]" slot="1" time_to_live="1.0" pulldown_in_air="4" key="ew_awp_dragon_lore.projectile">
-    <result class="hit" kill_probability="1.9" kill_decay_start_time="1.0" kill_decay_end_time="1.0" />
+    <result class="hit" kill_probability="3.5" kill_decay_start_time="1.0" kill_decay_end_time="1.0" />
     <trigger class="impact" />
     <rotation class="motion" />
 

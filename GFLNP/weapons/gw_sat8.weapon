@@ -33,9 +33,9 @@
     <weak_hand_hold offset="0.2" />
     <projectile file="bullet.projectile">
         <result class="hit" 
-        kill_probability="1.7" 
-        kill_decay_start_time="0.03" 
-        kill_decay_end_time="0.34"  />
+        kill_probability="2.5" 
+        kill_decay_start_time="0.1" 
+        kill_decay_end_time="0.4"  />
     </projectile>  
 
     <effect class="muzzle" ref="ejection_sg" />
