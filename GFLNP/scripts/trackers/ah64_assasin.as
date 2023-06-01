@@ -56,9 +56,11 @@ class AH64GunRun : Tracker {
 		// Check call key
 		if (event.getStringAttribute("call_key") == "ah64_assasin.call") {
 			string phase = event.getStringAttribute("phase");
+			int characterId = event.getIntAttribute("character_id");
+			if (characterId < 0 ) return;
 			//during the request all necessary information gets stored about the call, except for the marker the vehicle, it's done later
 			if (phase == "queue") {
-				int characterId = event.getIntAttribute("character_id");
+				
 				int callId = event.getIntAttribute("id");
 				int factionId = event.getIntAttribute("faction_id");
 

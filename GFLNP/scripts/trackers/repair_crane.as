@@ -195,6 +195,7 @@ class RepairCrane : Tracker {
 		if (count > 0) {
 			//extracting the healer's id,faction
 			int healerId = event.getIntAttribute("character_id");
+			if (healerId < 0) return;
 			const XmlElement@ healer = getCharacterInfo(m_metagame, healerId);
 			int factionId = healer.getIntAttribute("faction_id");
 			//extracting the heal position

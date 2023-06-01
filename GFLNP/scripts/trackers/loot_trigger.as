@@ -35,7 +35,9 @@ class LootTrigger : Tracker {
 
 		//notify_script key, pass unwanted
 		string key = event.getStringAttribute("key");
+		int trigger_cid = event.getIntAttribute("character_id");
 		if ( !dict_loot.exists(key) ) return;
+		// if (trigger_cid < 0) return;
 		string loot_item = string(dict_loot[key]);
 		string loot_type = "carry_item";
 

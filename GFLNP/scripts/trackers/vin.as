@@ -30,6 +30,7 @@ class Vindicator : Tracker {
 		//emp notify_script key
 		string v_Key = "vindicator";
 		int vcId = event.getIntAttribute("character_id");
+		if (vcId <0) return;
 		const XmlElement@ character = getCharacterInfo(m_metagame, vcId);
 		int factionId = character.getIntAttribute("faction_id");
 		string key = event.getStringAttribute("key");
