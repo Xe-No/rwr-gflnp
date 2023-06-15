@@ -116,6 +116,7 @@ class SnipGunRun : Tracker {
 
 
 				if (m_timer_shot <= 0.0){
+					if (SnipQueue.length() == 0) return;
 					antiPerson(SnipQueue[0], 1, "sniper_call_dsr50.projectile", "gw_ax50.wav");
 					m_timer_shot = 1.2;
 				}

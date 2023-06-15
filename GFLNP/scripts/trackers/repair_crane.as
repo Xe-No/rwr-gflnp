@@ -197,6 +197,7 @@ class RepairCrane : Tracker {
 			int healerId = event.getIntAttribute("character_id");
 			if (healerId < 0) return;
 			const XmlElement@ healer = getCharacterInfo(m_metagame, healerId);
+			if (healer is null) return;
 			int factionId = healer.getIntAttribute("faction_id");
 			//extracting the heal position
 			Vector3 healPos = stringToVector3(event.getStringAttribute("position"));
