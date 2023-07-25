@@ -32,6 +32,7 @@ class Vindicator : Tracker {
 		int vcId = event.getIntAttribute("character_id");
 		if (vcId <0) return;
 		const XmlElement@ character = getCharacterInfo(m_metagame, vcId);
+		if ( character is null) return;
 		int factionId = character.getIntAttribute("faction_id");
 		string key = event.getStringAttribute("key");
 		if (key == v_Key) {
