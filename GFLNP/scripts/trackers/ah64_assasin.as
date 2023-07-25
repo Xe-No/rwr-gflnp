@@ -68,6 +68,7 @@ class AH64GunRun : Tracker {
 				Vector3 targetPos = stringToVector3(event.getStringAttribute("target_position"));
 
 				const XmlElement@ character = getCharacterInfo(m_metagame, characterId);
+				if (character is null) return;
 				int playerId = character.getIntAttribute("player_id");
 				const XmlElement@ player = getPlayerInfo(m_metagame, playerId);
 				if(player !is null){
@@ -87,6 +88,7 @@ class AH64GunRun : Tracker {
 			//this timer ensures that the sound lines up with the arrival of the projectiles
 			if (phase == "launch") {
 				//announcing the aircraft's arrival and direction
+				if (AH64Queue.length() == 0) return;
 				dictionary dict = {{"TagName", "command"},{"class", "chat"},{"text", "Aircraft on its way, coming at " + AH64Queue[0].m_direction + " o'clock!"},{"faction_id", 0}};
 				m_metagame.getComms().send(XmlElement(dict));
 
