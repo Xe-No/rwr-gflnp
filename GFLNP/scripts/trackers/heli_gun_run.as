@@ -77,7 +77,9 @@ class HeliGunRun : Tracker {
 				int direction = 9;
 
 				if(call_key != "squad_somst.call" ){
-					senderPos = stringToVector3(getCharacterInfo(m_metagame, characterId).getStringAttribute("position"));
+					const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
+					if(characterInfo is null) return;
+					senderPos = stringToVector3(characterInfo.getStringAttribute("position"));
 
 				}
 				
@@ -244,7 +246,10 @@ class HeliGunRun : Tracker {
 
 
 				if (soldier_id >= 0){
-					Vector3 soldier_pos = stringToVector3(getCharacterInfo(m_metagame, soldier_id).getStringAttribute("position"));
+					const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
+					if(characterInfo is null) continue;
+					Vector3 soldier_pos = stringToVector3(characterInfo.getStringAttribute("position"));
+					// Vector3 soldier_pos = stringToVector3(getCharacterInfo(m_metagame, soldier_id).getStringAttribute("position"));
 					P2PAttack(heliPos, soldier_pos, number, instanceKey, soundFile, spread, factionId, characterId);
 				}
 			}
