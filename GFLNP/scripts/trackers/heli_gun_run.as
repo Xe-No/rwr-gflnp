@@ -246,10 +246,9 @@ class HeliGunRun : Tracker {
 
 
 				if (soldier_id >= 0){
-					const XmlElement@ characterInfo = getCharacterInfo(m_metagame, characterId);
+					const XmlElement@ characterInfo = getCharacterInfo(m_metagame, soldier_id);
 					if(characterInfo is null) continue;
 					Vector3 soldier_pos = stringToVector3(characterInfo.getStringAttribute("position"));
-					// Vector3 soldier_pos = stringToVector3(getCharacterInfo(m_metagame, soldier_id).getStringAttribute("position"));
 					P2PAttack(heliPos, soldier_pos, number, instanceKey, soundFile, spread, factionId, characterId);
 				}
 			}
