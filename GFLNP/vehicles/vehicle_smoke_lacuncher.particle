@@ -1,0 +1,111 @@
+// ---------------------------------------------------------------------------------------
+abstract emitter VehicleSmokeLacuncherEmitter {
+	angle	30
+	colour_range_start	0.3 0.3	0.3 0.0
+	colour_range_end	0.3 0.3 0.3 0.1
+	direction	0 1 0
+	emission_rate	65
+	position	0 0 0
+	width 15.0
+	height 8.0
+	// note that depth is actually height
+	depth 8.0
+	velocity	0.5
+	time_to_live	2.5
+	duration	20.0
+}
+
+// ---------------------------------------------------------------------------------------
+abstract affector VehicleSmokeLacuncherScaler {
+	rate	0.6
+}
+
+// ---------------------------------------------------------------------------------------
+abstract affector VehicleSmokeLacuncherRotator
+{
+	rotation_speed_range_start	-90
+	rotation_speed_range_end	90
+	rotation_range_start	0
+	rotation_range_end	360
+}
+
+// ---------------------------------------------------------------------------------------
+abstract affector VehicleSmokeLacuncherFader
+{
+	red1	1
+	green1	1
+	blue1	1
+	// increase during first 0.5s
+	alpha1	0.6
+	
+	// change state at 0.5s, when 2.0s is left
+	state_change 2.0
+
+	// then darken/brighten a little
+	red2	1
+	green2	1
+	blue2	1
+	// go back to 0 during 2.0s
+	alpha2	-0.15
+}
+
+// ---------------------------------------------------------------------------------------
+abstract affector VehicleSmokeLacuncherLinearForce
+{
+	force_vector 0 1 0
+	force_application add
+}
+
+// ---------------------------------------------------------------------------------------
+particle_system VehicleSmokeLacuncher
+{
+	quota	500
+	material	22missile_smoke_1
+	particle_width	2.2
+	particle_height	2.2
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Box : VehicleSmokeLacuncherEmitter {}
+	affector Scaler : VehicleSmokeLacuncherScaler {}
+	affector Rotator : VehicleSmokeLacuncherRotator {}
+	affector ColourFader2 : VehicleSmokeLacuncherFader {}
+	affector LinearForce : VehicleSmokeLacuncherLinearForce {}
+}
+
+
+// ---------------------------------------------------------------------------------------
+particle_system ShadowVehicleSmokeLacuncher
+{
+	quota	500
+	material	22missile_smoke_2
+	particle_width	2.0
+	particle_height	2.0
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Box : VehicleSmokeLacuncherEmitter {
+		emission_rate	30
+	}
+	affector Scaler : VehicleSmokeLacuncherScaler {}
+	affector Rotator : VehicleSmokeLacuncherRotator {}
+	affector ColourFader2 : VehicleSmokeLacuncherFader {}
+	affector LinearForce : VehicleSmokeLacuncherLinearForce {}
+}
+--------------------------------material-----------------------------
+material 22missile_smoke_1 : alpha_blend_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture 22missile_smoke_1.png 	
+}}}}
+material 22missile_smoke_1 : alpha_blend_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture 22missile_smoke_2.png 	
+}}}}

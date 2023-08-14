@@ -5,4 +5,30 @@
 	<vehicle file="gtr.vehicle" />
 	<vehicle file="zbd04.vehicle" />
 	<vehicle file="wcsp.vehicle" />    
+
+	<vehicle file="kingspire_mk1.vehicle" />
+	<vehicle file="rawr.vehicle" />
+	<vehicle file="smoke.vehicle" />
+	<vehicle file="type87.vehicle" />
+	<vehicle file="m18.vehicle" />
+	<vehicle file="matv_m2hb.vehicle" />
+	<vehicle file="pickup.vehicle" />
+	<vehicle file="hatchet.vehicle" />
+	<vehicle file="saint_chamond.vehicle" />
+	<vehicle file="ba_crusader.vehicle" />
+	<vehicle file="tiger.vehicle" />
+	<!-- <vehicle file="bmpt_2017.vehicle" /> -->
+	<vehicle file="mbt_m61a5.vehicle" />
+	<vehicle file="t35.vehicle" />
+	<vehicle file="2s7.vehicle" />
+	<vehicle file="bmp1.vehicle" />
+	<vehicle file="himars.vehicle" />
+	<vehicle file="m109a6.vehicle" />
+	<vehicle file="mtlb_2b9.vehicle" />
+	<vehicle file="bmd3.vehicle" />
+	<vehicle file="sdkfz2.vehicle" />
+
+<!-- brdm -->
+<!-- lynx -->
+
 </vehicles>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="bf1_spanner.weapon">
+    <specification 
+	slot="2" 
+    retrigger_time="2" 
+    accuracy_factor="1.0" 
+    sight_range_modifier="1.0"
+    ai_sight_range_modifier="0"
+    magazine_size="-1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0" 
+    suppressed="0" 
+    name="Repair crane" 
+    class="5" 
+	affect_characters="0"
+    affect_vehicles="1"
+    damage="-1.5"
+    range="2"
+    stab_enabled="1" 
+	damage_origin_vehicle="1"/>
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation key="reload" ref="33" />
+    <animation key="hold" ref="32" />
+    <animation key="hold_on_wall" ref="1" />
+    <animation key="walking" ref="31" />
+    <sound key="fire" fileref="wrench_shot.wav" pitch_variety="0.03" volume="1.0" />
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <model filename="wrench.mesh"  texture_filename="concrete.png" />
+
+    <hud_icon filename="hud_wrench.png" />
+    <commonness value="0.0" />
+    <inventory encumbrance="10.0" price="2.0" />
+	
+	<weak_hand_hold offset="0.4" />
+    <projectile file="repair_tank.projectile" />
+
+    <effect class="muzzle" ref="RepairCrane" />
+    
+</weapon>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="direction.weapon">
+    <specification
+    accuracy_factor="1.0" 
+    sustained_fire_grow_step="0.0" 
+    sustained_fire_diminish_rate="1.0" 
+    sight_range_modifier="8"            
+    sight_height_offset="18.0"               
+    ai_sight_range_modifier="8"
+    magazine_size="-1" 
+    class="0"
+    slot="2" 
+    projectiles_per_shot="0" 
+  />
+
+    <model />
+    <hud_icon filename="hud_laptop_gps.png" />    
+
+</weapon>

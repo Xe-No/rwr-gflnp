@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Air Strike Marker" key="saint_chamond_pegion.projectile" slot="0" radius="0.15" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0">
+    <tag name="grenade" />
+
+    <result class="spawn" instance_class="call" instance_key="strike_2b14.call"  min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0 0" direction_spread="0 0" />
+    <trigger class="time" time_to_live="5.0"/>
+
+    <rotation class="random" />
+
+    <model mesh_filename="smoke_grenade.xml" />
+    <hud_icon filename="hud_smoke_grenade.png" />
+
+    <!-- <throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="15.0" max_speed="13.0" randomness="0.07" /> -->
+    <!-- <throwable curve_height="6.0" near_far_distance="5.0" speed_estimation_near="20.0" speed_estimation_far="17.0" max_speed="11.0" randomness="0.07" /> -->
+    <throwable curve_height="10" near_far_distance="1000" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="40.0" randomness="0.0" />
+
+    <!-- projectile slot 0 is used for hand grenade items currently -->
+    <!-- bound to change -->
+    <commonness value="0.00001" can_respawn_with="1" in_stock="0"/>
+    <capacity value="1" source="rank" source_value="2.0" />
+    <inventory encumbrance="2.0" price="500.0" />
+
+	<effect class="activated" ref="FlareSparkle" post_processing="0" offset="0 0.1 0.3"/>
+	<effect class="activated" ref="FlareSmoke" post_processing="0" offset="0 0.4 0.3"/>
+	<effect class="activated" ref="FlareFlash" post_processing="0" offset="0 0.1 0.3"/> 
+
+
+</projectile>

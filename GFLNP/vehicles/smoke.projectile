@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="smoke grenade" key="smoke.projectile" slot="1" pulldown_in_air="26.0" >
+    <tag name="grenade" />
+	   <!-- 烟雾弹一号投射物，无需注册-->
+
+    <trigger class="impact" />
+    <result class="spawn" instance_class="grenade" instance_key="smoke_grenade_lacuncher.projectile" min_amount="30" max_amount="30" offset="0 8.0 0" position_spread="2.5 -8" direction_spread="0.0 0.0" />   
+
+    <rotation class="motion" />
+
+    <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
+
+    <commonness value="0.0" />
+
+    <sound class="result" key="other" fileref="ince_boom.wav" />  
+
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+
+</projectile>
+

@@ -1,0 +1,57 @@
+particle_system WhiteEngineSmoke
+{
+	quota	500
+	material	22missile_smoke_1
+	particle_width	0.1
+	particle_height	0.1
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Point
+	{
+		angle	10
+		colour_range_start	1 1 1 0.2
+		colour_range_end	1 1 1 1.0
+		direction	0 0 1
+		emission_rate	500
+		position	0 0 0
+		velocity	12
+		velocity_min	5.0
+		velocity_max	12.0
+		time_to_live	1.5
+		time_to_live_min	0.8
+		time_to_live_max	1.5
+		duration	0.0
+	}
+
+	affector Scaler
+	{
+		rate	3.0
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+
+	affector ColourFader
+	{
+		red	0.4
+		green	0.5
+		blue	0.8
+		alpha	-1
+	}
+}
+--------------------------------material-----------------------------
+material 22missile_smoke_1 : alpha_blend_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture 22missile_smoke_1.png 	
+}}}}
