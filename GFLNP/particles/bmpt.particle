@@ -1,0 +1,335 @@
+author: RST
+2022.12.18
+经ZERO401授权
+可复用、修改使用
+
+particle_system 2A42_muzzle_fireball_side
+{
+	quota 50
+	material firestreak1_pass
+	particle_width 0.2
+	particle_height 5
+	renderer billboard
+	billboard_type oriented_self
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	iteration_interval 0
+	accurate_facing on
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 0 0
+		emission_rate 10
+		position 0 0 0
+		velocity 0.01
+		time_to_live 0.1
+		duration 0.1
+
+	}
+	affector Scaler
+	{
+		rate 20
+	}
+		affector Rotator
+	{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	90
+		rotation_range_end	90
+	}
+	affector ColourInterpolator
+	{
+		time0 0
+		colour0 1 1 1 1
+		time1 0.6
+		colour1 1 1 1 1
+		time2 0.8
+		colour2 0 0 0 0		
+		time3 1
+		colour3 0 0 0 0
+	}
+	affector LinearForce{
+		force_vector 0 0 0
+		force_application add
+	}
+	affector DirectionRandomiser 
+	{
+		randomness 0
+		scope 0
+		keep_velocity false
+	}
+}
+particle_system 2A42_muzzle_fireball_side_2 : 2A42_muzzle_fireball_side //枪口侧分离火焰
+{
+	material muzzle_side_flame
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 0 0
+		emission_rate 10
+		position 0 0 0
+		velocity 0.01
+		time_to_live 0.1
+		duration 0.1
+
+	}
+	affector Scaler
+	{
+		rate 20
+	}
+		affector Rotator
+	{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	0
+		rotation_range_end	0
+	}
+	affector ColourInterpolator
+	{
+		time0 0
+		colour0 1 1 1 1
+		time1 0.6
+		colour1 1 1 1 1
+		time2 0.8
+		colour2 0 0 0 0		
+		time3 1
+		colour3 0 0 0 0
+	}
+	affector LinearForce{
+		force_vector 0 0 0
+		force_application add
+	}
+	affector DirectionRandomiser 
+	{
+		randomness 0
+		scope 0
+		keep_velocity false
+	}
+}
+particle_system 2A42_muzzle_fireball_side_3 : 2A42_muzzle_fireball_side // 枪口侧分离烟雾
+{
+	particle_width 8
+	particle_height 3
+	material muzzle_side_smoke_pass
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 0 0
+		emission_rate 30
+		position 0 0 0
+		velocity 0.01
+		time_to_live 0.13
+		duration 0.1
+
+	}
+	affector Scaler
+	{
+		rate 2
+	}
+		affector Rotator
+	{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	0
+		rotation_range_end	0
+	}
+		affector ColourInterpolator
+	{
+		time0 0
+		colour0 0.8 0.8 0.72 0.75
+		time1 0.2
+		colour1 0.8 0.8 0.72 0.75
+		time2 0.7
+		colour2 0.65 0.65 0.65 0.2
+		time3 1
+		colour3 0 0 0 0
+
+	}
+	affector LinearForce{
+		force_vector 0 0 0
+		force_application add
+	}
+	affector DirectionRandomiser 
+	{
+		randomness 0
+		scope 0
+		keep_velocity false
+	}
+}
+--------------------------------------material-----------------------------------
+material alpha_blend_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend alpha_blend
+		}
+	}
+}
+
+material add_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+		}
+	}
+}
+
+material point_soft_edge_100 : add_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture point_soft_edge_100.png 	
+}}}}
+material firestreak1_pass : add_base
+{   
+    technique{
+    pass{
+		depth_func always_pass
+        texture_unit{
+            texture firestreak1.png 	
+}}}}
+material impact_flame_1_pass : add_base
+{   
+    technique{
+    pass{
+		depth_func always_pass
+        texture_unit{
+            texture impact_flame_1.png 	
+}}}}
+material impact_flame_2_pass : add_base
+{   
+    technique{
+    pass{
+	depth_func always_pass
+        texture_unit{
+            texture impact_flame_2.png 	
+}}}}
+material impact_flame_3_pass : add_base
+{   
+    technique{
+    pass{
+	depth_func always_pass
+        texture_unit{
+            texture impact_flame_3.png 	
+}}}}
+material impact_flame_4_pass : add_base
+{   
+    technique{
+    pass{
+	depth_func always_pass
+        texture_unit{
+            texture impact_flame_4.png 	
+}}}}
+
+material point_soft_edge_100_pass : add_base
+{   
+    technique{
+    pass{
+		depth_func always_pass
+        texture_unit{
+            texture point_soft_edge_100.png 	
+}}}}
+
+material firesmoke_anim_2 : add_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            anim_texture firesmoke_9.png firesmoke_13.png firesmoke_15.png firesmoke_18.png firesmoke_22.png firesmoke_15.png 0.2
+}}}}
+material thick_smoke_pass : alpha_blend_base
+{   
+    technique{
+    pass{
+		depth_func always_pass
+        texture_unit{
+            texture thick_smoke.png 	
+}}}}
+material ground_smoke_pass : alpha_blend_base
+{   
+    technique{
+    pass{
+		depth_func always_pass
+        texture_unit{
+            texture ground_smoke.png 	
+}}}}
+material muzzle_side_flame : add_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture muzzle_side_flame.png 	
+}}}}
+material muzzle_side_smoke_pass : alpha_blend_base
+{   
+    technique{
+    pass{
+		depth_func always_pass
+        texture_unit{
+            texture muzzle_side_smoke.png 	
+}}}}
+material APFS_half_l : alpha_blend_base
+{   
+    technique{
+    pass{
+		depth_func always_pass
+        texture_unit{
+            texture APFS_half_l.png 	
+}}}}
+material APFS_half_r : alpha_blend_base
+{   
+    technique{
+    pass{
+		depth_func always_pass
+        texture_unit{
+            texture APFS_half_r.png 	
+}}}}
+material 22missile_smoke_1 : alpha_blend_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture 22missile_smoke_1.png 	
+}}}}
+material 22missile_smoke_2 : alpha_blend_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture 22missile_smoke_2.png 	
+}}}}
+material fireball_10 : add_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture fireball_10.png 	
+}}}}
+material wand_smoke : alpha_blend_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture wand_smoke.png 	
+}}}}
+material lens_circle_07 : add_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture lens_circle_07.png 	
+}}}}

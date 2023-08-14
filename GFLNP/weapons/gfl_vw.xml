@@ -99,6 +99,46 @@
 	<weapon file="kv2_cannon.weapon" />
 	<weapon file="m2hb.weapon" />
 	<weapon file="m2hb_ap.weapon" />
+	<weapon file="cha2tes_m2hb.weapon" />
+	<!-- 0.40 -->
+	<weapon file="rawr_gl_01.weapon" />
+	<weapon file="rawr_gl_02.weapon" />
+	<weapon file="25mm_oerlikon_cannon.weapon" />
+	<weapon file="smoke_shield.weapon" />
+	<weapon file="type87_smoke_launcher.weapon" />
+	<weapon file="m18_cannon.weapon" />
+	<weapon file="matv_shield_m2hb.weapon" />
+	<weapon file="matv_shield_m2hb_green.weapon" />
+	<weapon file="dshk_13.4.weapon" />
+	<weapon file="40mm_he_cannon.weapon" />
+	<weapon file="bf1_spanner.weapon" />
+	<weapon file="hotchkiss_m1914.weapon" />
+	<weapon file="saint_chamond_cannon.weapon" />
+	<weapon file="saint_chamond_pegion.weapon" />
+	<weapon file="ba_crusader_cannon.weapon" />
+	<weapon file="30mm_2A42.weapon" />
+	<weapon file="30mm_2A42_green.weapon" />
+	<weapon file="atgm_9m133.weapon" />
+	<weapon file="atgm_9m133_1.weapon" />
+	<weapon file="atgm_9m133_2.weapon" />
+	<weapon file="atgm_9m133_3.weapon" />
+	<weapon file="bmpt_cannon_muzzle_ejector.weapon" />
+	<weapon file="m61a5_cannon.weapon" />
+	<weapon file="t35_cannon_01.weapon" />
+	<weapon file="t35_cannon_02.weapon" />
+	<weapon file="2a44_3of43_203mm.weapon" />
+	<weapon file="bmp1_cannon.weapon" />
+	<weapon file="himars_cannon.weapon" />
+	<weapon file="m284_155mm.weapon" />
+	<weapon file="m2hb.weapon" />
+	<weapon file="2b9.weapon" />
+	<weapon file="9m133.weapon" />
+	<weapon file="bmd3_cannon.weapon" />
+	<weapon file="ag_17d.weapon" />
+	<weapon file="pktm.weapon" />
+	<weapon file="m299.weapon" />
+	<weapon file="direction.weapon" />
+
     <!-- <weapon file="templax_gl.weapon"/> -->
     <!-- <weapon file="templax_minig.weapon"/> -->
 </weapons>
