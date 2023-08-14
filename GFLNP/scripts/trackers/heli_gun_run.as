@@ -118,6 +118,7 @@ class HeliGunRun : Tracker {
 				m_timer_105 -= time;
 
 				if (m_timer_25 <= 0.0){
+					if (HeliQueue.length() == 0) return;
 					antiPerson(HeliQueue[0], rand(4,8), "ac130_25mm.projectile", "ac130_25mm.wav");
 					m_timer_25 = 1.0;
 				}
