@@ -19,6 +19,8 @@ class GFLEquipmentEvent : Tracker {
 
 		//CB合成分解字典
 		dictionary dict = {
+			// 0.40
+
 			// 0.39
 			{"ew_akayo_1145.weapon", "sr" },
 			{"ew_ripple.weapon", "ssr" },
@@ -167,6 +169,10 @@ class GFLEquipmentEvent : Tracker {
 
 		//转化字典
 		dictionary dict2 = {
+				{"ew_baiz.weapon","ew_ballista.weapon"},
+				{"ew_baiz_r.weapon","ew_ballista.weapon"},
+				{"ew_ballista.weapon","ew_baiz.weapon"},
+				{"ew_ballista_r.weapon","ew_baiz.weapon"},
 				{"mg4td_ap.weapon","mg4a3td.weapon"},
 				{"mg4td_ke.weapon","mg4a3td_sl.weapon"},
 				{"mg4a3td.weapon","mg4td_ap.weapon"},
@@ -293,10 +299,7 @@ class GFLEquipmentEvent : Tracker {
 							sendPrivateMessageKey(m_metagame, characterId, "CBpart not enough");
 						}		
 					}
-
-
 				}
-
 			}
 			//SSR武器相关
 			//确认是否是SSR物品被出售
@@ -717,6 +720,15 @@ class GFLEquipmentEvent : Tracker {
 				"naoto_rpl20_d.weapon"
 			};
 			return result;
+		}else if(key == "baiz_marker.projectile"){
+			array<string> result = {
+				"ew_baiz.weapon",
+				"ew_baiz_r.weapon",
+				"ew_ballista_r.weapon",
+				"ew_ballista.weapon"
+			};
+			return result;
+
 		}else if(key == "parts_m14_bipod.projectile"){
 			array<string> result = {
 				"uw_m14ebr.weapon",
