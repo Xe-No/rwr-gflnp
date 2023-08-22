@@ -34,6 +34,12 @@ token_rst.projectile
 token_pa15_3701.projectile
 token_medic.projectile
 token_ononoki.projectile
+token_acg_graf_spee.projectile
+token_acg_gawr_gura.projectile
+token_keqin.projectile
+token_kiriko.projectile
+token_yuuki_ggo.projectile
+
 
 <projectile name="RST[RE]" file="token0.projectile" key="token_rst.projectile"  >
 	<hud_icon filename="es_rst.png" />
@@ -47,7 +53,7 @@ token_ononoki.projectile
 <projectile name="Luna[RE]" file="token0.projectile" key="token_luna2.projectile"  >
 	<hud_icon filename="token_luna2.png" />
 </projectile>
-<projectile name="Naoto[Black][RE]" file="token_c4.projectile" key="token_naoto.projectile"  >
+<projectile name="Naoto[Black][RE]" file="token_naoto_c4.projectile" key="token_naoto.projectile"  >
 	<hud_icon filename="token_naoto.png" />
 </projectile>
 
@@ -231,6 +237,24 @@ token_ononoki.projectile
 </projectile>
 <projectile name="Yukikaze[RE]" file="token0.projectile" key="token_yukikaze.projectile"  >
 	<hud_icon filename="token_yukikaze.png" />
+</projectile>
+
+<!-- 40 -->
+
+<projectile name="Ke qin[RE]" file="token_keqin_c4.projectile" key="token_keqin.projectile"  >
+	<hud_icon filename="token_keqin.png"/>
+</projectile>
+<projectile name="Acg graf Spee[RE]" file="token0.projectile" key="token_acg_graf_spee.projectile"  >
+	<hud_icon filename="token_acg_graf_spee.png" />
+</projectile>
+<projectile name="Acg gawr Gura[RE]" file="token0.projectile" key="token_acg_gawr_gura.projectile"  >
+	<hud_icon filename="token_acg_gawr_gura.png" />
+</projectile>
+<projectile name="Kiriko[RE]" file="token0.projectile" key="token_kiriko.projectile"  >
+	<hud_icon filename="token_kiriko.png" />
+</projectile>
+<projectile name="Yuuki_GGO[RE]" file="token_ince_grenade.projectile" key="token_yuuki_ggo.projectile"  >
+	<hud_icon filename="token_yuuki_ggo.png" />
 </projectile>
 
 </projectiles>

@@ -748,6 +748,30 @@ armor
 	<text key="Improved Outer Tactical Vest, 20%" text="改进型外穿式战术背心 2/6" />
 	<text key="Improved Outer Tactical Vest, destroyed" text="改进型外穿式战术背心（损坏） 1/6" />
 
+                 <text key="AST" text="AST动力装甲 20/20" />
+                 <text key="AST,190%" text="AST动力装甲 19/20" />
+                 <text key="AST,180%" text="AST动力装甲 18/20" />
+                 <text key="AST,170%" text="AST动力装甲 17/20" />
+                 <text key="AST,160%" text="AST动力装甲 16/20" />
+                 <text key="AST,150%" text="AST动力装甲 15/20" />
+                 <text key="AST,140%" text="AST动力装甲 14/20" />
+                 <text key="AST,130%" text="AST动力装甲 13/20" />
+                 <text key="AST,120%" text="AST动力装甲 12/20" />
+                 <text key="AST,110%" text="AST动力装甲 11/20" />
+                 <text key="AST,100%" text="AST动力装甲 10/20" />
+                 <text key="AST,90%" text="AST动力装甲 9/20" />
+                 <text key="AST,80%" text="AST动力装甲 8/20" />
+                 <text key="AST,70%" text="AST动力装甲 7/20" />
+                 <text key="AST,60%" text="AST动力装甲 6/20" />
+                 <text key="AST,50%" text="AST动力装甲 5/20" />
+                 <text key="AST,40%" text="AST动力装甲 4/20" />
+                 <text key="AST,30%" text="AST动力装甲 3/20" />
+                 <text key="AST,20%" text="AST动力装甲 2/20" />
+                 <text key="AST,10%" text="AST动力装甲（损坏）1/20" />
+                 
+
+                   
+
 -suit-
 	<text key="costume, clown" text="小丑服 2/2" />
 	<text key="costume, clown, destroyed" text="小丑服（损坏） 1/2"/>

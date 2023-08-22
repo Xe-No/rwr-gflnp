@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="40mm strike" key="gunship40.call"
+  notify_metagame="1"
+      initiation_comment1="Close support"
+      acknowledge_comment="Request CAS Received.."
+      acknowledge_time="1.0"
+      radio_view_text="CAS-40" 
+      launch_comment="Rounds coming hot.">
+     
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="40mmb.projectile" 
+           instance_spread="5 10 5" 
+           common_spread="2 0 2" 
+           launch_time="3.0"
+           spawn_time="5.0">
+              <sound class="launch" fileref="rocket_artillery_barrage_distant.wav" volume="1.15" />
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.5" />
+        </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="40mmb.projectile" 
+           instance_spread="5 10 5" 
+           common_spread="2 0 2" 
+           launch_time="3.3"
+           spawn_time="5.3">
+             <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.25" /> 
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="40mmb.projectile" 
+           instance_spread="5 10 5" 
+           common_spread="2 0 2" 
+           launch_time="3.6"
+           spawn_time="5.6">
+           <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.25" />
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="40mmb.projectile" 
+           instance_spread="5 10 5" 
+           common_spread="2 0 2" 
+           launch_time="3.9"
+           spawn_time="5.9">
+           <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.25" />
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="40mmb.projectile" 
+           instance_spread="5 10 5" 
+           common_spread="2 0 2" 
+           launch_time="4.2"
+           spawn_time="6.2"> 
+           <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.25" />
+    </round>
+
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="40mmb.projectile" 
+           instance_spread="5 10 5" 
+           common_spread="2 0 2" 
+           launch_time="4.5"
+           spawn_time="6.5">
+           <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.25" />
+       </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="40mmb.projectile" 
+           instance_spread="5 10 5" 
+           common_spread="2 0 2" 
+           launch_time="4.8"
+           spawn_time="6.8">
+           <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.25" />
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="40mmb.projectile" 
+           instance_spread="5 10 5" 
+           common_spread="2 0 2" 
+           launch_time="5.1"
+           spawn_time="7.1">
+           <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.25" />
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="40mmb.projectile" 
+           instance_spread="5 10 5" 
+           common_spread="2 0 2" 
+           launch_time="5.4"
+           spawn_time="7.4">
+           <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.25" />
+    </round>
+
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="40mmb.projectile" 
+           instance_spread="5 10 5" 
+           common_spread="2 0 2" 
+           launch_time="5.7"
+           spawn_time="7.7"> 
+           <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.25" />
+    </round>
+
+
+    <hud_icon filename="strike_air.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.1" />
+    <inventory encumbrance="0.0" price="25.0" />
+
+</call>

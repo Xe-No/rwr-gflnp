@@ -4786,7 +4786,7 @@
     <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
     <modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
     <modifier class="hit_success_probability" value="-0.6"/>
-    <modifier class="speed" value="+0.8"/>
+    <modifier class="speed" value="+0.08"/>
   </carry_item>
   <carry_item key="sct_exo_3" name="SCT Tactical Conversion Exoskeleton 3/6" slot="1" transform_on_consume="sct_exo_4" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
     <hud_icon filename="sct_exo_3.png"/>
@@ -4801,7 +4801,7 @@
     <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
     <modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
     <modifier class="hit_success_probability" value="-0.7"/>
-    <modifier class="speed" value="+0.8"/>
+    <modifier class="speed" value="+0.08"/>
   </carry_item>
   <carry_item key="sct_exo_4" name="SCT Tactical Conversion Exoskeleton 2/6" slot="1" transform_on_consume="sct_exo_5" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
     <hud_icon filename="sct_exo_2.png"/>
@@ -4816,7 +4816,7 @@
     <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
     <modifier class="melee_hit_result" input_character_state="death" output_character_state="none"/>
     <modifier class="hit_success_probability" value="-0.8"/>
-    <modifier class="speed" value="+0.5"/>
+    <modifier class="speed" value="+0.05"/>
   </carry_item>
   <carry_item key="sct_exo_5" name="SCT Tactical Conversion Exoskeleton 1/6" slot="1" transform_on_consume="sct_exo_6" drop_count_factor_on_death="0.0" time_to_live_out_in_the_open="0.0" player_death_drop_owner_lock_time="0.0">
     <hud_icon filename="sct_exo_1.png"/>
@@ -4845,7 +4845,7 @@
     <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
     <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
     <modifier class="hit_success_probability" value="-1.2"/>
-    <modifier class="speed" value="+0.01"/>
+    <modifier class="speed" value="+0.02"/>
   </carry_item>
   <carry_item name="Vehicle Box" key="vb1.carry_item" time_to_live_out_in_the_open="150.0" drop_count_factor_on_death="1.0" drop_count_factor_on_player_death="1.0" player_death_drop_owner_lock_time="150.0">
     <hud_icon filename="hud_vehicle_box.png"/>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_AR.weapon" key="gw_k2_s.weapon">
+	<specification 
+	 retrigger_time="0.27" 
+	 accuracy_factor="0.96"
+  	 spread_range="0.1"
+	 sustained_fire_grow_step="0.6"
+	 sustained_fire_diminish_rate="1.6"	
+	 magazine_size="30" 
+	 suppressed="0" 
+	 name="K2_s" 
+	 class="4" 
+	 barrel_offset="0.7" 
+	 projectile_speed="140.0"
+	 sight_range_modifier="1.1"
+	/>
+
+    <next_in_chain key="gw_k2.weapon" share_ammo="1" />	
+
+ 	<animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, famasg1" />  
+    <animation state_key="next_in_chain_in" animation_key="switch" />
+	
+	<weak_hand_hold offset="0.4" />
+	
+	<sound key="fire" fileref="k2.wav" pitch_variety="0.05" volume="0.2"/>
+	<sound key="magazine_out" fileref="k2_out.wav" volume="0.2"/>
+	<sound key="magazine_in" fileref="k2_clip_in.wav" volume="0.2"/>
+	<sound key="cycle" fileref="k2_rifle_chamber.wav" volume="0.2"/>
+	<sound class="impact" fileref="rifle_drop.wav" />
+                <sound key="effect" fileref="k2_1.wav" pitch_variety="0.05"/>
+	
+	<model filename="gw_k2.xml" />
+	<hud_icon filename="k2.png" />
+	
+	<commonness value="0.0" can_respawn_with="1"/>
+	<inventory encumbrance="14.0" price="30.0" />
+	
+	<projectile file="bullet.projectile">
+	    <result class="hit" kill_probability="1.45" kill_decay_start_time="0.56" kill_decay_end_time="0.71"/>
+	</projectile>
+
+	<modifier class="speed" value="-0.1" /> 
+</weapon>

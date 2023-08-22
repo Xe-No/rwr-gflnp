@@ -27,6 +27,7 @@
 	<model file="ts_ar_swap.xml"><requirement class="weapon" slot="0" key="tw_ar_swap.weapon"/></model>
 	<model file="ts_rf_swap.xml"><requirement class="weapon" slot="0" key="tw_rf_swap.weapon"/></model>
 	<model file="ts_mg_swap.xml"><requirement class="weapon" slot="0" key="tw_mg_swap.weapon"/></model>
+                <model file="ts_mg_swap.xml"><requirement class="weapon" slot="0" key="tw_mg_swap_s.weapon"/></model>
 
 
 	<model filename="ts_scarecrow.xml" ><requirement class="weapon" slot="0" key="tw_scarecrow.weapon"/></model>

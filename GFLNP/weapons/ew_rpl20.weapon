@@ -19,6 +19,8 @@
   projectile_speed="160.0" 
   barrel_offset="0.6" />
 
+ <addon_model filename="radio backpack.xml" />
+
 
     <effect class="muzzle" ref="muzzle_blue" />
 

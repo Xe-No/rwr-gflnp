@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <weapon key="gw_mondragon_m1908.weapon" file="base_RF.weapon">
+    <tag name="sniper"/>
+	<specification 
+	retrigger_time="0.15" 
+	accuracy_factor="1.0" 
+	sustained_fire_grow_step="1.5" 
+	sustained_fire_diminish_rate="2.1" 
+	magazine_size="8" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Mondragon M1908" 
+	class="4" 
+	reload_one_at_a_time="0" 
+	ai_sight_range_modifier="1.1"
+	sight_range_modifier="1.2" 
+	projectile_speed="180.0" 
+	barrel_offset="0.3" 
+	spread_range="0.4" 
+	burst_shots="1" 
+	projectiles_per_shot="1" 
+	/>
+    <effect class="muzzle" ref="muzzle_gf"/>
+    <animation key="recoil" ref="27"/>
+    <animation key="cycle" ref="30"/>
+    <animation state_key="reload" animation_key="reloading, psg90"/>
+    <sound key="fire" fileref="GFL_M14.wav" volume="1.0"/>
+    <sound key="cycle" fileref="sniper_cycle.wav"/>
+    <sound key="magazine_out" fileref="sniper_clip_out.wav"/>
+    <sound key="magazine_in" fileref="sniper_clip_in.wav"/>
+    <sound key="cycle_out" fileref="sniper_cycle_out.wav"/>
+    <sound key="cycle_in" fileref="sniper_cycle_in.wav"/>
+    <sound class="impact" fileref="rifle_drop.wav"/>
+    <model filename="gw_mondragon_m1908.xml"/>
+    <hud_icon filename="hud_mondragon_m1908.png"/>
+    <commonness value="1.0" can_respawn_with="1"/>
+    <inventory encumbrance="10.0" price="7.0"/>
+    <weak_hand_hold offset="0.3" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="2.6" kill_decay_start_time="1.35" kill_decay_end_time="2.0" />
+    </projectile>
+    <animation key="recoil" stance_key="prone" animation_key="recoil1, prone"/>
+    <animation key="recoil" stance_key="prone" animation_key="recoil2, prone"/>
+    <animation key="recoil" stance_key="prone" animation_key="recoil3, prone"/>
+    <modifier class="speed" value="-0.025"/>
+  </weapon>

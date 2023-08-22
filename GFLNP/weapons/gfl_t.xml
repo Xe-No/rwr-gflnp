@@ -293,7 +293,20 @@
 <projectile file="inscription_of_the_dead_blast.projectile" />
 <projectile file="vabow_damage.projectile" />
 <projectile file="gw_m4_sopmod_iimod_gl_blast.projectile" />
-<projectile file="ew_kokomi_water_sub.projectile" />
+
+<!-- 40 -->
+
+<projectile file="med_beijixing_armor.projectile" />
+<projectile file="nuclear_6.projectile" />
+<projectile file="40marker.projectile" />
+<projectile file="40mmb.projectile" />
+<projectile file="qlu119_sub.projectile" />
+<projectile file="qlu119.projectile" />
+<projectile file="mk1_part.projectile" />
+<projectile file="mk2_part.projectile" />
+<projectile file="baizi_marker.projectile" />
+
+
 
 
 

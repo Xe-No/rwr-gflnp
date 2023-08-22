@@ -35,7 +35,7 @@
     <sound class="impact" fileref="rifle_drop.wav" />
     <model filename="rw_rpk74.xml" />
 
-    <hud_icon filename="rw_rpk74.png" />
+    <hud_icon filename="rpd.png" />
     <commonness value="1.0" can_respawn_with="1" />
     <inventory encumbrance="10.0" price="8.0" />
 

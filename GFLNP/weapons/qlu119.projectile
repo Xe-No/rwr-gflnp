@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Flash 9" slot="0" radius="0.15" key="qlu119.projectile">
+    <tag name="grenade"/>
+
+    <result class="spawn" instance_class="grenade" instance_key="qlu119_sub.projectile" min_amount="9" max_amount="9" offset="0 0.1.0 0" position_spread="1.8 0.0" direction_spread="0.0 1.0" />   
+        <collision class="sticky"/>    
+        <trigger class="time" time_to_live="0.4"/>
+        <rotation class="motion"/>
+
+    <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
+
+    <trail probability="1.0" key="laser_light_yellow"/>
+</projectile>

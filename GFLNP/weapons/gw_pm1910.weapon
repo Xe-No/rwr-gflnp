@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_MG.weapon" key="gw_pm1910.weapon">
+    <tag name="machine gun" />
+   <specification 
+    retrigger_time="0.1" 
+    accuracy_factor="0.92"
+    spread_range="0.22" 
+    sustained_fire_grow_step="0.7" 
+    sustained_fire_diminish_rate="1.45" 
+    magazine_size="125" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="1" 
+    suppressed="0" 
+    name="PM1910" 
+    class="0" 
+	barrel_offset="0.4" 
+    projectile_speed="180.0" />
+    <animation key="recoil" stance_key="prone" animation_key="recoil1, prone" />
+    <animation key="recoil" stance_key="prone" animation_key="recoil2, prone" />
+    <animation key="recoil" stance_key="prone" animation_key="recoil3, prone" />
+    <animation state_key="recoil" animation_key="recoil, hip fire" />
+    <animation state_key="recoil" animation_key="recoil2, hip fire" />
+    <animation state_key="recoil" animation_key="recoil3, hip fire" />
+    <animation key="recoil" stance_key="over_wall" ref="12" />
+    <animation key="recoil" stance_key="over_wall" ref="13" />
+    <animation key="recoil" stance_key="over_wall" ref="14" />
+    <animation state_key="hold" animation_key="hold, lmg" />
+    <animation key="reload" ref="33" />
+    <animation key="hold_on_wall" ref="1" />
+    <animation state_key="walking" animation_key="walking, hip fire" />
+    <animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+    <animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    <sound key="fire" fileref="gw_pkm.wav" volume="0.8" />
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="gw_pm1910.xml" />
+    <hud_icon filename="gw_pm1910.png" />
+    <commonness value="1.0" can_respawn_with="1" />
+    <inventory encumbrance="12.0" price="85.0" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.56" kill_decay_start_time="0.45" kill_decay_end_time="0.95" />
+    </projectile>
+    <effect class="muzzle" ref="ejection" />
+    <effect class="muzzle" ref="muzzle_gf" />
+    <stance state_key="running" accuracy="0.4" />
+    <stance state_key="walking" accuracy="0.5" />
+    <stance state_key="crouch_moving" accuracy="0.6" />
+    <stance state_key="standing" accuracy="0.75" />
+    <stance state_key="crouching" accuracy="0.8" />
+    <stance state_key="prone" accuracy="1.1" /> 
+    <stance state_key="prone_moving" accuracy="0.75" />
+    <stance state_key="over_wall" accuracy="1.2" />
+    <modifier class="speed" value="-0.2" />
+</weapon>

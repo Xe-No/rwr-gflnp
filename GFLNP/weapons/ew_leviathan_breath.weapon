@@ -15,7 +15,7 @@ on_ground_up="0 0 1"
 	stance_accuracy_rate="1.0"
     sustained_fire_grow_step="10" 
     sustained_fire_diminish_rate="0.4" 
-    magazine_size="1" 
+    magazine_size="-1" 
     can_shoot_standing="1" 
     can_shoot_crouching="1" 
 	can_shoot_prone="1"	
@@ -43,7 +43,7 @@ on_ground_up="0 0 1"
     <animation state_key="crouch_moving" animation_key="crouching forwards, bow" />
     <animation state_key="crouch_moving_backwards" animation_key="crouching backwards, bow" />
     <animation state_key="walking_backwards" animation_key="walking backwards, bow" />  
-    <animation state_key="reload" animation_key="reload sinteria_bow" volume="0.7" />
+    <animation state_key="reload" animation_key="reload, bow" volume="0.7" />
     <animation state_key="hold_on_wall" animation_key="still, bow" />
     <animation state_key="still_against_wall" animation_key="still, bow" />
     <animation state_key="walking" animation_key="walking, bow" />

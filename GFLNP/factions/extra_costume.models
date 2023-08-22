@@ -152,4 +152,12 @@
 	<model filename="es_tachibana_kanade.xml" score="5000"><requirement class="projectile" slot="0" key="token_tachibana_kanade.projectile"/></model>
 	<model filename="es_yukikaze.xml" score="5000"><requirement class="projectile" slot="0" key="token_yukikaze.projectile"/></model>
 
+<!-- 40 -->
+              <model filename="kq.xml" score="5000"><requirement class="projectile" slot="0" key="token_keqing.projectile"/></model>
+              <model filename="acg_graf_spee.xml" score="5000"><requirement class="projectile" slot="0" key="token_acg_graf_spee.projectile"/></model>
+              <model filename="acg_gawr_gura.xml" score="5000"><requirement class="projectile" slot="0" key="token_acg_gawr_gura.projectile"/></model>
+              <model filename="sinon_black.xml" score="5000"><requirement class="projectile" slot="0" key="token_sinon.projectile"/></model>
+              <model filename="sinon_white.xml" score="5000"><requirement class="projectile" slot="0" key="token_sinon.projectile"/></model>
+              <model filename="kiriko.xml" score="5000"><requirement class="projectile" slot="0" key="token_kiriko.projectile"/></model>
+              <model filename="yuuki_ggo.xml" score="5000"><requirement class="projectile" slot="0" key="token_yuuki_ggo.projectile"/></model>
 </models>

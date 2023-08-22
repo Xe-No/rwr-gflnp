@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="Nuclear salvo 6-2" key="nuclear_6.call"
+	initiation_comment1="Upload C-Key : NEW-WORLD-BLADE"
+	initiation_comment2="Send the baby to the bed."
+	acknowledge_comment="Permission Granted."
+	acknowledge_time="1.0"
+	launch_comment="Delivery sent,out."
+    notify_metagame="1">
+
+	<round 
+	instances="2"
+	instance_class="grenade"
+	instance_key="nuclear_6.projectile" 
+	instance_spread="25 40 25"  
+	common_spread="0 0 0" 
+	launch_time="4.0"
+	spawn_time="7.0">
+	<sound class="launch" fileref="naval_barrage_distant.wav" volume="7.0" />   
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+
+
+	<round 
+	instances="2"
+	instance_class="grenade"
+	instance_key="nuclear_6.projectile" 
+	instance_spread="25 40 25"  
+	common_spread="0 0 0" 
+	launch_time="5.0"
+	spawn_time="8.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+
+	<round 
+	instances="2"
+	instance_class="grenade"
+	instance_key="nuclear_6.projectile" 
+	instance_spread="25 40 25"  
+	common_spread="0 0 0" 
+	launch_time="6.0"
+	spawn_time="11.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+
+
+	<round 
+	instances="2"
+	instance_class="grenade"
+	instance_key="nuclear_6.projectile" 
+	instance_spread="25 40 25"  
+	common_spread="0 0 0" 
+	launch_time="7.0"
+	spawn_time="12.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+
+
+	<round 
+	instances="2"
+	instance_class="grenade"
+	instance_key="nuclear_6.projectile" 
+	instance_spread="25 40 25"  
+	common_spread="0 0 0" 
+	launch_time="8.0"
+	spawn_time="12.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+
+	<round 
+	instances="2"
+	instance_class="grenade"
+	instance_key="nuclear_6.projectile" 
+	instance_spread="25 40 25"  
+	common_spread="0 0 0" 
+	launch_time="9.0"
+	spawn_time="12.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>	
+
+
+	<hud_icon filename="gw_nuclear.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="600.0" />
+	<inventory encumbrance="0.0" price="6000.0" />
+	
+</call>

@@ -27,7 +27,7 @@
     <animation state_key="crouch_moving" animation_key="crouching forwards, bow" />
     <animation state_key="crouch_moving_backwards" animation_key="crouching backwards, bow" />
     <animation state_key="walking_backwards" animation_key="walking backwards, bow" />  
-    <animation state_key="reload" animation_key="reload, bow" volume="0.7" />
+    <animation state_key="reload" animation_key="reload sinteria_bow" volume="0.7" />
     <animation state_key="hold_on_wall" animation_key="still, bow" />
     <animation state_key="still_against_wall" animation_key="still, bow" />
     <animation state_key="walking" animation_key="walking, bow" />
@@ -53,7 +53,7 @@
      <projectile file="general_spawn.projectile">
 	 
 		<result class="spawn" instance_class="projectile" instance_key="sinteria_at.projectile" 
-		min_amount="3" max_amount="3" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />	
+		min_amount="7" max_amount="7" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />	
 		
 		<trail probability="1" key="platinum_trail"/>	
 		<effect class="result" key="terrain" ref="plat_result_center" lighting="0" /> 

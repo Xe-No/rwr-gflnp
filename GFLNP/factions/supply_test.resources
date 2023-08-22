@@ -1,37 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_calls="1" clear_grenades="1">
 
-<!-- add  -->
-<weapon key="ew_ripple.weapon" />
-<weapon key="ew_ripple_ince.weapon" />
-<weapon key="ew_akayo_1145.weapon" />
-<weapon key="gw_g36_905.weapon" />
-<weapon key="gw_g36_2407.weapon" />
-<weapon key="gw_g36_2407_p.weapon" />
-<weapon key="gw_g36_mod.weapon" />
-<weapon key="gw_g36_mod_b.weapon" />
-<weapon key="gw_m950mod3.weapon" />
 
-<weapon key="gw_magic_gun_bebock.weapon" />
-<weapon key="gw_sp9_china.weapon" />
-<weapon key="gw_stg44mod3.weapon" />
-<weapon key="gw_tmp_meow_prism_power.weapon" />
-<weapon key="gw_tmp_meow_prism_power_s.weapon" />
-<weapon key="gw_m1928a_5703.weapon" />
-<weapon key="gw_m1928a.weapon" />
+<!-- <weapon key="xxxx.weapon" /> -->
+<weapon key="gw_xm8mod3_r.weapon" />
+<weapon key="gw_xm8mod3.weapon" />
+<weapon key="ew_momoi_g3.weapon" />
+<weapon key="ew_midori_g3.weapon" />
+<weapon key="ew_ballista_r.weapon" />
+<weapon key="ew_ballista.weapon" />
+<weapon key="gw_fo-12.weapon" />
+<weapon key="gw_svch.weapon" />
+<weapon key="gw_scar-l.weapon" />
+<weapon key="gw_scar-l_sl.weapon" />
+<weapon key="gw_scr_f.weapon" />
+<weapon key="gw_scr_l.weapon" />
+<weapon key="gw_scr_s.weapon" />
+<weapon key="gw_ar57.weapon" />
+<weapon key="gw_98kmod3.weapon" />
+<weapon key="gw_98kmod3_k.weapon" />
+<weapon key="gw_m1918barmod3.weapon" />
+<weapon key="gw_m1918barmod3_s.weapon" />
+<weapon key="gw_pm1910.weapon" />
+<weapon key="gw_qbu191.weapon" />
+<weapon key="gw_qbu191_f.weapon" />
+<weapon key="gw_saf.weapon" />
+<weapon key="gw_hk433.weapon" />
+<weapon key="gw_hk433_ac.weapon" />
+<weapon key="gw_mondragon_m1908.weapon" />
+<weapon key="gw_microgun.weapon" />
+<weapon key="gw_beijixing.weapon" />
+<weapon key="gw_beijixing_armor.weapon" />
+<weapon key="gw_k2.weapon" />
+<weapon key="gw_k2_s.weapon" />
+<weapon key="gw_pkm_n.weapon" />
 
-<weapon key="rule_book1.weapon" />
-<weapon key="rule_book2.weapon" />
-<weapon key="rule_book3.weapon" />
-<weapon key="rule_book4.weapon" />
-<weapon key="rule_book5.weapon" />
-<weapon key="rule_book6.weapon" />
+<weapon file="xm177k4.weapon" />
+<weapon file="xm177k44.weapon" />
+<weapon file="xm177k1.weapon" />
+<weapon file="xm177k11.weapon" />
+<weapon file="xm177k2.weapon" />
+<weapon file="xm177e1.weapon" />
+<weapon file="xm177e2.weapon" />
+<weapon file="xm177k4.weapon" />
+<weapon file="xm177k44.weapon" />
+<weapon file="gw_qlu11_k1.weapon" />
+<weapon file="gw_qlu11_k2.weapon" />
 
-<projectile key="token_misaka_10032.projectile" />
-<projectile key="token_misaka_mikoto.projectile" />
-<projectile key="token_rem.projectile" />
-<projectile key="token_tachibana_kanade.projectile" />
-<projectile key="token_yukikaze.projectile" />
+<!-- <weapon key="xxxx.weapon" /> -->
+<projectile key="token_acg_graf_spee.projectile" />
+<projectile key="token_acg_gawr_gura.projectile" />
+<projectile key="token_keqin.projectile" />
+<projectile key="token_kiriko.projectile" />
+<projectile key="token_yuuki_ggo.projectile" />
 
 
 </resources>

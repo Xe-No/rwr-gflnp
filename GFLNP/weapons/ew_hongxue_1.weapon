@@ -24,8 +24,8 @@
 
     <animation key="recoil" ref="27" />
     <animation key="cycle" ref="30" />
-    <animation state_key="reload" animation_key="reload, hongxue1" volume="1.8" />
-    <animation state_key="next_in_chain_in" animation_key="reload, hongxue1" />
+    <animation state_key="reload" animation_key="reload, bow" volume="1.8" />
+    <animation state_key="next_in_chain_in" animation_key="reload, bow" />
     
     <sound key="fire" fileref="hongxue_shot_1.wav" pitch_variety="0.05" volume="0.7" /> 
     <sound key="cycle" fileref="sniper_cycle_2.wav" />

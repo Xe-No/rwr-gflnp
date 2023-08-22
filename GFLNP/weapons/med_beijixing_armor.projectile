@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="medical dart" slot="1" time_to_live="1.0" pulldown_in_air="4">
+    <trigger class="time" time_to_live="0.17"/>
+    <result class="notify_script" key="heal_shot" />
+    <rotation class="motion" />
+
+    <model mesh_filename="dart.xml" />
+
+
+</projectile>

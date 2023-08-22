@@ -115,6 +115,7 @@ projectile, vehicle and other
     <text key="3x_railgun" text="3x轨道炮" />
     <text key="Architect's Rocket" text="“建筑师”炮弹" />
     <text key="Bullet" text="子弹" />
+    <text key="WB-II Microgun" text="WB-II 加特林机枪" />
 
 AR
 -normal-
@@ -174,6 +175,13 @@ AR
     <text key="AK-15" text="AK-15突击步枪" />
     <text key="SIG MCX automatic rife" text="SIG MCX突击步枪"/>
     <text key="Fedorov Avtomat" text="菲德洛夫自动步枪" />
+    <text key="K2" text="K2突击步枪" />
+    <text key="K2_s" text="K2突击步枪" />
+    <text key="HK433" text="HK433突击步枪" />
+    <text key="HK433 T-doll_firecontrol" text="HK433突击步枪【精准射击】" />
+    <text key="SCR(echo trigger)" text="SCR运动步枪.223" />
+    <text key="SCR LB" text="SCR运动步枪7.62" />
+    <text key="SCR" text="SCR运动步枪5.56" />
 -rare-
     <text key="9A-91[Bullets Café]" text="9A-91[子弹咖啡馆]"/>
     <text key="9A-91[Bullets Cafe]" text="9A-91[子弹咖啡馆]"/>
@@ -231,12 +239,18 @@ AR
     <text key="G36[Digi-Mind]" text="G36[心智升级MOD3]"/>
     <text key="G36[Fifty Days with G36]" text="G36[和G36的五十天]"/>
     <text key="G36[Petit Waitress]" text="G36[每个孩子的圣诞梦]"/>
+    <text key="xm8mod3 r" text="XM8[心智升级MOD3]"/>
+    <text key="xm8mod3" text="XM8[心智升级MOD3]"/>
+    <text key="M1918A2 BAR[Digi-Mind][Support Mode]" text="勃朗宁自动步枪【脚架】" />
+    <text key="M1918A2 BAR[Digi-Mind][Siege Mode]" text="勃朗宁自动步枪" />
 -cb-
 --SR--
     <text key="HMTech 501" text="HMTech-501突击步枪"/>
     <text key="HMTech 501[HESH]" text="HMTech-501突击步枪（碎甲榴弹）"/>
     <text key="AN-94[MOD4]" text="AN-94[升级改造MOD4]"/>
     <text key="KN-57[Jack of all Trades]" text="KN-57[万事通]"/>
+    <text key="Momoi_g3" text="G3A3突击步枪"/>
+    <text key="Midori_g3" text="G3SGI突击步枪"/>
 --SSR--
     <text key="SCAR-SC" text="SCAR短版突击步枪"/>
     <text key="AK-Alfa Defy" text="AK-α Defy突击步枪"/>
@@ -253,7 +267,7 @@ AR
     <text key="KURO[KEYBOARD]" text="MDR[KURO]"/>
     <text key="G41[Beach Punk 2077]" text="G41[沙滩朋克2077]"/>
     <text key="M16A5" text="M16A5多用途步枪"/>
-    <text key="M16A5.308" text="M16A5多用途步枪（.308模式）"/>
+    <text key="M16A5 S" text="M16A5多用途步枪（.308）"/>
     <text key="M16A5_GL" text="M16A5多用途步枪（榴弹模式）"/>
     <text key="XM177" text="XM177短突击步枪" />
     <text key="XM177[Stopping Power Semiauto]" text="XM177[停止作用]" />
@@ -269,6 +283,8 @@ AR
     <text key="AR-14B(silencer)" text="AR-14B消音突击步枪"/>
     <text key="M16-Astatoz" text="M16-Astatoz突击步枪"/>
     <text key="G41 [Universal Express]" text="G41[寰宇特急]" />
+    <text key="ballista" text="TPG-3 A4[砂狼白子]" />
+
 
 RF
 -normal-
@@ -312,7 +328,11 @@ RF
     <text key="SKS" text="SKS半自动步枪"/>
     <text key="81-HR" text="八一式马步枪"/>
     <text key="De Lisle" text="德利尔消音卡宾枪"/>
-    <text key="Savage 99[.303 Savage]" text="萨维奇99型杠杆步枪（.303萨维奇弹）" />
+    <text key="Kar98k[Digi-Mind]" text="Kar98k[心智升级MOD3]" />
+    <text key="Kar98k[Digi-Mind][MK 247 Bullet]" text="Kar98k[心智升级MOD3]mk 247弹" />
+    <text key="Mondragon M1908" text="蒙德拉贡M1908步枪" />
+    <text key="QBU 191" text="QBU 191精确射手步枪" />
+    <text key="SVCh" text="SVCh半自动狙击步枪" />
 -rare-
     <text key="M14[Christmas Parade Dress]" text="M14[圣诞巡游礼服]"/>
     <text key="M99[Rabbit Squad]" text="M99[兔子班]"/>
@@ -368,6 +388,8 @@ RF
     <text key="TAC-50[HeavyScouter]" text="TAC-50[重装斥候]"/>
     <text key="IWS2000[The Seventh Banisher]" text="IWS2000[第七封印者]"/>
     <text key="S.H.O.K.I" text="S.H.O.K.I"/>
+    <text key="ballista" text="ballista白子"/>
+    <text key="ballista_r" text="ballista白子[火箭]"/>
 
 HG
 -normal-
@@ -435,6 +457,7 @@ SG
     <text key="SIX12" text="SIX12霰弹枪" />
     <text key="Mossberg M590A1" text="莫斯伯格M590A1霰弹枪"/>
     <text key="MAG-7" text="MAG-7霰弹枪"/>
+    <text key="FO-12" text="FO-12霰弹枪"/>
 -rare-
     <text key="USAS-12[VRAIN Power]" text="USAS-12[VRAIN Power]"/>
     <text key="SAT-8[Plum Blossom Seal]" text="SAT-8[梅花印]"/>
@@ -483,6 +506,8 @@ SMG
     <text key="KP-31 Suomi" text="KP-31索米冲锋枪"/>
     <text key="JS-09" text="JS-09冲锋枪"/>
     <text key="Villar Perosa 1915" text="VP1915冲锋枪" />
+    <text key="AR57" text="AR57冲锋枪" />
+    <text key="SAF" text="SAF冲锋枪" />
 -rare-
     <text key="IDW[Cat In Box]" text="IDW[箱中之猫]"/>
     <text key="IDW[Digi-Mind]" text="IDW[心智升级MOD3]"/>
@@ -558,6 +583,11 @@ MG
     <text key="ST MG0" text="ST MG0样板机枪" />
     <text key="Kord" text="KORD重机枪" />
     <text key="type80" text="80式轻机枪" />
+    <text key="PKM-s" text="PKM战术型" />
+    <text key="PM1910" text="马克沁机枪" />
+    <text key="Microgun" text="加特林重机枪【RE】" />
+    
+     
 -rare-
     <text key="AMELI[Christmas Tree]" text="阿梅利[卖礼物的圣诞树]"/>
     <text key="AMELI[Ameli's Catch]" text="阿梅利[阿梅利的接球]"/>
@@ -572,6 +602,12 @@ MG
     <text key="ZB-26[Cape of Fluttering Dreams]" text="ZB-26[旖梦之隅]"/>
     <text key="Lewis[Warmth of the Wintersweet]" text="刘易斯[迎寒客]"/>
     <text key="BianchiFA-6LMG" text="Bianchi FA-6轻机枪" />
+    <text key="80mod3" text="80式轻机枪[心智升级MOD3]" />
+    <text key="80mod3_n" text="80式轻机枪[心智升级MOD3]" />
+    <text key="AST Microgun" text="AST动力外骨骼装甲[加特林机枪]" />
+    <text key="AST Rockets" text="AST动力外骨骼装甲[火箭炮]" />
+
+
 -cb-
 --SSR--
     <text key="Chain SAW" text="“链锯”消音机枪" />
@@ -825,6 +861,12 @@ Projectile
     <text key="Ruby Rose[RE]" text="Ruby Rose[RE]" />
     <text key="Dima[C4]" text="蒂玛（C4）" />
     <text key="Monogatari ononoki[RE]" text="斧乃木余接[C4]"/>
+    <text key="Ke qing[RE]" text="刻晴[C4]"/>
+    <text key="Acg graf Spee[RE]" text="Acg graf Spee[RE]"/>
+    <text key="Acg gawr Gura[RE]" text="Acg gawr Gura[RE]"/>
+    <text key="Yuuki_GGO[RE]" text="优纪[RE]"/>
+    <text key="Kiriko[RE]" text="桐子[RE]"/>
+    <text key="Yuuki_GGO[RE]" text="优纪[RE]"/>
 -other-
 	<text key="ballistic knife" text="弹道战术刀" />
 	<text key="Stim pack" text="兴奋剂" />
@@ -928,6 +970,8 @@ Paradeus
     <text key="Mortar Binoculars" text="迫击炮标记望远镜[TEL2限定]"/>
     <text key="etile large wrench" text="精英大扳手[PZC限定]"/>
     <text key="Vehicle Upgrade Fix[PZC only]" text="载具升级包[PZC限定]"/>
+    <text key="BEIJIXING" text="北极星突击步枪[MED限定]"/>
+    <text key="BEIJIXING ARMOR" text="北极星突击步枪恢复护盾模式[MED限定]"/>
 
 Blueprint
     <text key="blueprint_decomposition" text="分解蓝图"/>

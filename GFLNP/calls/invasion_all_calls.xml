@@ -18,5 +18,7 @@
 	<call file="squad_somst.call" />
 	<call file="sniper_call_ai.call" />
 	<call file="architect_drop.call" />
+                <call file="nuclear_6.call" />
+                <call file="gunship40.call" />
 
 </calls>

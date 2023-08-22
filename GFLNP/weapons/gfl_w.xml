@@ -344,7 +344,8 @@ RE
     <weapon file="tw_executioner_pistol.weapon" />
     <weapon file="tw_executioner_sword.weapon" />
     <weapon file="tw_scarecrow.weapon" />
-
+    <weapon file="tw_mg_swap_s.weapon" />
+ 
 
 <!-- Others -->
 	<weapon file="medikit.weapon" />    
@@ -861,6 +862,55 @@ RE
 <weapon file="rule_book4.weapon" />
 <weapon file="rule_book5.weapon" />
 <weapon file="rule_book6.weapon" />
+
+<!-- 40 -->
+<weapon file="gw_xm8mod3_r.weapon" />
+<weapon file="gw_xm8mod3.weapon" />
+<weapon file="ew_momoi_g3.weapon" />
+<weapon file="ew_midori_g3.weapon" />
+<weapon file="ew_ballista_r.weapon" />
+<weapon file="ew_ballista.weapon" />
+<weapon file="gw_fo-12.weapon" />
+<weapon file="gw_svch.weapon" />
+<weapon file="gw_scar-l.weapon" />
+<weapon file="gw_scar-l_sl.weapon" />
+<weapon file="gw_scr_f.weapon" />
+<weapon file="gw_scr_l.weapon" />
+<weapon file="gw_scr_s.weapon" />
+<weapon file="gw_ar57.weapon" />
+<weapon file="gw_98kmod3.weapon" />
+<weapon file="gw_98kmod3_k.weapon" />
+<weapon file="gw_m1918barmod3.weapon" />
+<weapon file="gw_m1918barmod3_s.weapon" />
+<weapon file="gw_pm1910.weapon" />
+<weapon file="gw_qbu191.weapon" />
+<weapon file="gw_qbu191_f.weapon" />
+<weapon file="gw_saf.weapon" />
+<weapon file="gw_hk433.weapon" />
+<weapon file="gw_hk433_ac.weapon" />
+<weapon file="gw_mondragon_m1908.weapon" />
+<weapon file="gw_microgun.weapon" />
+<weapon file="gw_beijixing.weapon" />
+<weapon file="gw_beijixing_armor.weapon" />
+<weapon file="gw_k2.weapon" />
+<weapon file="gw_k2_s.weapon" />
+<weapon file="gw_pkm_n.weapon" />
+
+<weapon file="xm177k4.weapon" />
+<weapon file="xm177k44.weapon" />
+<weapon file="xm177k1.weapon" />
+<weapon file="xm177k11.weapon" />
+<weapon file="xm177k2.weapon" />
+<weapon file="xm177e1.weapon" />
+<weapon file="xm177e2.weapon" />
+<weapon file="xm177k4.weapon" />
+<weapon file="xm177k44.weapon" />
+<weapon file="gw_qlu11_k1.weapon" />
+<weapon file="gw_qlu11_k2.weapon" />
+
+
+
+
 
 
 </weapons>

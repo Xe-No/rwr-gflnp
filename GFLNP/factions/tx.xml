@@ -120,6 +120,7 @@
 	<soldier name="ts_smg_swap" spawn_score="0.2" firstnames_file="SF-SMG.name" lastnames_file="serial.name" copy_from="ts_elite">
 		<resources clear_weapons="1">
 			<weapon key="tw_smg_swap.weapon" />
+                                                <weapon key="tw_smg_swap_s.weapon" />
 			<carry_item key='base_ar_vest.carry_item'  />
 		</resources>
 	</soldier>
@@ -149,6 +150,7 @@
 	<soldier name="ts_mg_swap" spawn_score="0.05" firstnames_file="SF-MG.name" lastnames_file="serial.name" copy_from="ts_elite">
 		<resources clear_weapons="1" >
 			<weapon key="tw_mg_swap.weapon" />
+                                                <weapon key="tw_mg_swap_s.weapon" />
 			<carry_item key='base_ar_vest.carry_item'  />
 		</resources>
 	</soldier>

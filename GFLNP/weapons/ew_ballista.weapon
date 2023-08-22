@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weapon file="base_card_rf.weapon" key="ew_ballista.weapon" quality="card">
+    <tag name="sniper"/>
+    <specification retrigger_time="-1.0"
+      accuracy_factor="1.2" 
+      sustained_fire_grow_step="1.7" 
+      sustained_fire_diminish_rate="3.0" 
+      magazine_size="8" 
+      suppressed="1" 
+      name="ballista" 
+      class="2" 
+      reload_one_at_a_time="0"
+      sight_range_modifier="2.1" 
+      projectile_speed="210.0"
+      barrel_offset="0.4" 
+      projectiles_per_shot="1" 
+      burst_shots="1"/>
+
+     <next_in_chain key="ew_ballista_r.weapon" share_ammo="0"/>
+
+    <animation key="recoil" ref="27"/>
+    <animation key="cycle" ref="30"/>
+    <animation state_key="reload" animation_key="reloading, psg90"/>
+    <sound key="fire" fileref="ballista.wav" volume="1.0"/>
+    <sound key="cycle" fileref="ballista_cycle_2.wav" volume="0.7"/>
+    <sound key="magazine_out" fileref="ballista_out.wav" pitch_variety="0.0" volume="0.5"/>
+    <sound key="magazine_in" fileref="ballista_clip_in.wav"/>
+    <sound key="cycle_out" fileref="ballista_cycle_out_2.wav" />
+    <sound key="cycle_in" fileref="ballista_cycle_in_2.wav"/>
+    <sound class="impact" fileref="ballista_rifle_chamber.wav"/>
+    <model filename="ew_ballista.xml"/>
+
+    <effect class="muzzle" ref="ejection" />
+    <effect class="muzzle" ref="muzzle_blue" />
+
+    <hud_icon filename="ew_ballista.png"/>
+    <inventory encumbrance="10.0" price="150.0"/>
+      
+    
+    <weak_hand_hold offset="0.3"/>
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="4.0" kill_decay_start_time="1.67" kill_decay_end_time="2.8"/>
+       <trail probability="1.0" key="laser_blue"/>
+    </projectile>
+
+    <modifier class="speed" value="-0.06"/>
+</weapon>
