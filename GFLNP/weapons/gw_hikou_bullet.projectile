@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="gw_hikou_bullet" key="gw_hikou_bullet.projectile" drop_count_factor_on_death="1.0" can_be_disarmed="1" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" slot="0" radius="0.2">
+
+	<result class="hit" kill_probability="3.01" kill_decay_start_time="6.0" kill_decay_end_time="6.01" />
+    <trigger class="impact">
+     <collider class="terrain" enabled="1" />     
+     <collider class="static_object" enabled="1" /> 
+     <collider class="vehicle" enabled="1" /> 
+     <collider class="character" enabled="1" faction_compare="not_equal"/>
+    </trigger>
+    <rotation class="motion" />
+
+    <model filename="gw_hikou.xml" />
+    <hud_icon filename="hud_stars.png" />
+
+    <commonness value="0.0" can_respawn_with="0" in_stock="0" />
+
+    <capacity value="10" source="rank" source_value="0.0" />
+
+    <inventory encumbrance="0.2" price="1.0" />
+
+    <sound class="result" key="terrain" fileref="ricochet1.wav" />
+
+    <sound class="result" key="shield" fileref="ricochet5.wav" />
+    
+    <sound class="result" key="character" fileref="gw_hikou_hit_man_1.wav" pitch_variety="0.02" volume="1.0" />
+    <sound class="result" key="character" fileref="gw_hikou_hit_man_2.wav" pitch_variety="0.02" volume="1.0" />
+    <sound class="result" key="character" fileref="gw_hikou_hit_man_3.wav" pitch_variety="0.02" volume="1.0" />
+
+    <sound class="result" key="vehicle" copy="terrain" />
+
+    <sound class="result" key="vehicle" tag="metal_thin" file="metal_thin_01.wav" pitch_variety="0.3" volume="0.5" />
+    
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_06.wav" pitch_variety="0.3" volume="0.6" />    
+
+    <sound class="result" key="vehicle" tag="metal_heavy" file="metal_heavy_01.wav" pitch_variety="0.3" volume="0.5" />    
+    
+    <sound class="result" key="vehicle" tag="sandbag" file="barrier_bullet_01.wav" pitch_variety="0.3" volume="0.8" />  
+    
+    <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_01.wav" pitch_variety="0.4" volume="0.6" />           
+
+    <sound class="result" key="static_object" copy="terrain" />
+    
+    <effect class="result" key="terrain" ref="Burst" use_surface_color="1" />
+    <effect class="result" key="vehicle" ref="Burst" use_surface_color="1" />
+    <effect class="result" key="static_object" ref="Burst" use_surface_color="1" />
+    <effect class="result" key="shield" ref="ShieldBurst" />
+
+    <trail probability="1.0" />
+   
+
+</projectile>

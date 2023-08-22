@@ -864,22 +864,22 @@ RE
 <weapon file="rule_book6.weapon" />
 
 <!-- 40 -->
-<weapon file="gw_xm8mod3_r.weapon" />
-<weapon file="gw_xm8mod3.weapon" />
+<weapon file="gw_xm8mod3_r.weapon" class="AR" tier="white" />
+<weapon file="gw_xm8mod3.weapon" class="AR" tier="white" />
 <weapon file="ew_momoi_g3.weapon" />
 <weapon file="ew_midori_g3.weapon" />
-<weapon file="ew_ballista_r.weapon" />
-<weapon file="ew_ballista.weapon" />
-<weapon file="gw_fo-12.weapon" />
+<weapon file="ew_ballista_r.weapon" class="AR" tier="ur" />
+<weapon file="ew_ballista.weapon" class="AR" tier="ur" />
+<weapon file="gw_fo-12.weapon" class="SG" tier="white" />
 <weapon file="gw_svch.weapon" />
 <weapon file="gw_scar-l.weapon" />
 <weapon file="gw_scar-l_sl.weapon" />
 <weapon file="gw_scr_f.weapon" />
 <weapon file="gw_scr_l.weapon" />
 <weapon file="gw_scr_s.weapon" />
-<weapon file="gw_ar57.weapon" />
-<weapon file="gw_98kmod3.weapon" />
-<weapon file="gw_98kmod3_k.weapon" />
+<weapon file="gw_ar57.weapon" class="SMG" tier="white" />
+<weapon file="gw_98kmod3.weapon" class="RF" tier="black" />
+<weapon file="gw_98kmod3_k.weapon" class="RF" tier="black" />
 <weapon file="gw_m1918barmod3.weapon" />
 <weapon file="gw_m1918barmod3_s.weapon" />
 <weapon file="gw_pm1910.weapon" />
@@ -907,6 +907,8 @@ RE
 <weapon file="xm177k44.weapon" />
 <weapon file="gw_qlu11_k1.weapon" />
 <weapon file="gw_qlu11_k2.weapon" />
+
+<weapon file="gw_hikou.weapon" />
 
 
 

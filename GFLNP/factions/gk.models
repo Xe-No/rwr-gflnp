@@ -1111,51 +1111,53 @@ gw_zb26_4703.weapon
 	<model filename="naoto_blackred_n.xml"><requirement class="projectile" slot="0" key="token_naoto_c4.projectile"/><requirement class="weapon" slot="0" key="ew_n_mp5k.weapon"/></model>
                  
  <!-- 40 --> 
-                 <model filename="es_baiz_r.xml"><requirement class="weapon" slot="0" key="ew_ballista_r.weapon"/></model>
-                 <model filename="es_baiz.xml"><requirement class="weapon" slot="0" key="ew_ballista.weapon"/></model>
-                 <model filename="Midori.xml"><requirement class="weapon" slot="0" key="ew_midori_g3.weapon"/></model>
-                 <model filename="Momoi.xml"><requirement class="weapon" slot="0" key="ew_momoi_g3.weapon"/></model>
-                 <model filename="gs_fo-12.xml"><requirement class="weapon" slot="0" key="gw_fo-12.weapon"/></model>
-                 <model filename="gs_xm8mod3.xml"><requirement class="weapon" slot="0" key="gw_xm8mod3.weapon"/></model>
-                 <model filename="gs_xm8mod3.xml"><requirement class="weapon" slot="0" key="gw_xm8mod3_r.weapon"/></model>
-                 <model filename="gs_ar57.xml"><requirement class="weapon" slot="0" key="gw_ar57.weapon"/></model>
-                 <model filename="gs_mondragon_m1908.xml"><requirement class="weapon" slot="0" key="mondragon_m1908.weapon"/></model>
-                 <model filename="gs_scar-l.xml"><requirement class="weapon" slot="0" key="gw_scar-l_sl.weapon"/></model>
-                 <model filename="gs_scar-l.xml"><requirement class="weapon" slot="0" key="gw_scar-l_sl.weapon"/></model>
-                 <model filename="gs_scr.xml"><requirement class="weapon" slot="0" key="gw_scr_f.weapon"/></model>
-                 <model filename="gs_scr.xml"><requirement class="weapon" slot="0" key="gw_scr_l.weapon"/></model>
-                 <model filename="gs_scr.xml"><requirement class="weapon" slot="0" key="gw_scr_s.weapon"/></model>
-                 <model filename="gs_svch.xml"><requirement class="weapon" slot="0" key="gw_svch.weapon"/></model>
-                 <model filename="gs_80 mod3.xml"><requirement class="weapon" slot="0" key="gw_80mod3.weapon"/></model>
-                 <model filename="gs_80 mod3.xml"><requirement class="weapon" slot="0" key="gw_80mod3_n.weapon"/></model>
-                 <model filename="gs_k2.xml"><requirement class="weapon" slot="0" key="gw_k2.weapon"/></model>
-                 <model filename="gs_k2.xml"><requirement class="weapon" slot="0" key="gw_k2_s.weapon"/></model>
-                 <model filename="gs_hk433.xml"><requirement class="weapon" slot="0" key="gw_hk433.weapon"/></model>
-                 <model filename="gs_hk433.xml"><requirement class="weapon" slot="0" key="gw_hk433_ac.weapon"/></model>
-                 <model filename="gs_m240.xml"><requirement class="weapon" slot="0" key="m240.weapon"/></model>
-                 <model filename="gs_m240.xml"><requirement class="weapon" slot="0" key="m240_n.weapon"/></model>
-                  <model filename="gs_98kmod3.xml"><requirement class="weapon" slot="0" key="gw_98kmod3.weapon"/></model>
-                  <model filename="gs_98kmod3.xml"><requirement class="weapon" slot="0" key="gw_98kmod3_k.weapon"/></model>
-                  <model filename="gs_m1918 mod3.xml"><requirement class="weapon" slot="0" key="gw_m1918barmod3.weapon"/></model>
-                  <model filename="gs_m1918 mod3.xml"><requirement class="weapon" slot="0" key="gw_m1918barmod3_s.weapon"/></model> 
-                  <model filename="gs_mondragon_m1908.xml"><requirement class="weapon" slot="0" key="gw_mondragon_m1908.weapon"/></model>
-                  <model filename="gs_98kmod3.xml"><requirement class="weapon" slot="0" key="gw_98kmod3_k.weapon"/></model>
-                  <model filename="gs_pm1910.xml"><requirement class="weapon" slot="0" key="gw_pm1910.weapon"/></model>
-                  <model filename="gs_qbu191.xml"><requirement class="weapon" slot="0" key="gw_qbu191.weapon"/></model>
-                  <model filename="gs_qbu191.xml"><requirement class="weapon" slot="0" key="gw_qbu191_f.weapon"/></model>
-                  <model filename="gs_saf.xml"><requirement class="weapon" slot="0" key="gw_saf.weapon"/></model>
-                  <model filename="es_xinghui.xml"><requirement class="weapon" slot="0" key="gw_beijixing.weapon"/></model>
-                  <model filename="es_xinghui.xml"><requirement class="weapon" slot="0" key="gw_beijixing_armor.weapon"/></model>
-                  <model filename="es_fallschirmjager.xml"><requirement class="projectile" slot="0" key="impact_grenade.projectile"/><requirement class="weapon" slot="0" key="gw_fg42.weapon"/></model>
-                  <model filename="es_fallschirmjager.xml"><requirement class="projectile" slot="0" key="impact_grenade.projectile"/><requirement class="weapon" slot="0" key="gw_fg42_s.weapon"/></model>    
-                  <model filename="gs_naoto_luca.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
-                  <model filename="owo_xm177_radio.xml"><requirement class="weapon" slot="0" key="xm177k4.weapon"/></model>
+	<model filename="es_baiz_r.xml"><requirement class="weapon" slot="0" key="ew_ballista_r.weapon"/></model>
+	<model filename="es_baiz.xml"><requirement class="weapon" slot="0" key="ew_ballista.weapon"/></model>
+	<model filename="Midori.xml"><requirement class="weapon" slot="0" key="ew_midori_g3.weapon"/></model>
+	<model filename="Momoi.xml"><requirement class="weapon" slot="0" key="ew_momoi_g3.weapon"/></model>
+	<model filename="gs_fo-12.xml"><requirement class="weapon" slot="0" key="gw_fo-12.weapon"/></model>
+	<model filename="gs_xm8mod3.xml"><requirement class="weapon" slot="0" key="gw_xm8mod3.weapon"/></model>
+	<model filename="gs_xm8mod3.xml"><requirement class="weapon" slot="0" key="gw_xm8mod3_r.weapon"/></model>
+	<model filename="gs_ar57.xml"><requirement class="weapon" slot="0" key="gw_ar57.weapon"/></model>
+	<model filename="gs_mondragon_m1908.xml"><requirement class="weapon" slot="0" key="mondragon_m1908.weapon"/></model>
+	<model filename="gs_scar-l.xml"><requirement class="weapon" slot="0" key="gw_scar-l_sl.weapon"/></model>
+	<model filename="gs_scar-l.xml"><requirement class="weapon" slot="0" key="gw_scar-l_sl.weapon"/></model>
+	<model filename="gs_scr.xml"><requirement class="weapon" slot="0" key="gw_scr_f.weapon"/></model>
+	<model filename="gs_scr.xml"><requirement class="weapon" slot="0" key="gw_scr_l.weapon"/></model>
+	<model filename="gs_scr.xml"><requirement class="weapon" slot="0" key="gw_scr_s.weapon"/></model>
+	<model filename="gs_svch.xml"><requirement class="weapon" slot="0" key="gw_svch.weapon"/></model>
+	<model filename="gs_80 mod3.xml"><requirement class="weapon" slot="0" key="gw_80mod3.weapon"/></model>
+	<model filename="gs_80 mod3.xml"><requirement class="weapon" slot="0" key="gw_80mod3_n.weapon"/></model>
+	<model filename="gs_k2.xml"><requirement class="weapon" slot="0" key="gw_k2.weapon"/></model>
+	<model filename="gs_k2.xml"><requirement class="weapon" slot="0" key="gw_k2_s.weapon"/></model>
+	<model filename="gs_hk433.xml"><requirement class="weapon" slot="0" key="gw_hk433.weapon"/></model>
+	<model filename="gs_hk433.xml"><requirement class="weapon" slot="0" key="gw_hk433_ac.weapon"/></model>
+	<model filename="gs_m240.xml"><requirement class="weapon" slot="0" key="m240.weapon"/></model>
+	<model filename="gs_m240.xml"><requirement class="weapon" slot="0" key="m240_n.weapon"/></model>
+	<model filename="gs_98kmod3.xml"><requirement class="weapon" slot="0" key="gw_98kmod3.weapon"/></model>
+	<model filename="gs_98kmod3.xml"><requirement class="weapon" slot="0" key="gw_98kmod3_k.weapon"/></model>
+	<model filename="gs_m1918 mod3.xml"><requirement class="weapon" slot="0" key="gw_m1918barmod3.weapon"/></model>
+	<model filename="gs_m1918 mod3.xml"><requirement class="weapon" slot="0" key="gw_m1918barmod3_s.weapon"/></model> 
+	<model filename="gs_mondragon_m1908.xml"><requirement class="weapon" slot="0" key="gw_mondragon_m1908.weapon"/></model>
+	<model filename="gs_98kmod3.xml"><requirement class="weapon" slot="0" key="gw_98kmod3_k.weapon"/></model>
+	<model filename="gs_pm1910.xml"><requirement class="weapon" slot="0" key="gw_pm1910.weapon"/></model>
+	<model filename="gs_qbu191.xml"><requirement class="weapon" slot="0" key="gw_qbu191.weapon"/></model>
+	<model filename="gs_qbu191.xml"><requirement class="weapon" slot="0" key="gw_qbu191_f.weapon"/></model>
+	<model filename="gs_saf.xml"><requirement class="weapon" slot="0" key="gw_saf.weapon"/></model>
+	<model filename="es_xinghui.xml"><requirement class="weapon" slot="0" key="gw_beijixing.weapon"/></model>
+	<model filename="es_xinghui.xml"><requirement class="weapon" slot="0" key="gw_beijixing_armor.weapon"/></model>
+	<model filename="es_fallschirmjager.xml"><requirement class="projectile" slot="0" key="impact_grenade.projectile"/><requirement class="weapon" slot="0" key="gw_fg42.weapon"/></model>
+	<model filename="es_fallschirmjager.xml"><requirement class="projectile" slot="0" key="impact_grenade.projectile"/><requirement class="weapon" slot="0" key="gw_fg42_s.weapon"/></model>    
+	<model filename="gs_naoto_luca.xml"><requirement class="projectile" slot="0" key="c4.projectile"/><requirement class="weapon" slot="0" key="zero_ninjato.weapon"/></model>
+	<model filename="owo_xm177_radio.xml"><requirement class="weapon" slot="0" key="xm177k4.weapon"/></model>
 	<model filename="owo_xm177_radio.xml"><requirement class="weapon" slot="0" key="xm177k44.weapon"/></model>
 	<model filename="owo_xm1770.xml"><requirement class="weapon" slot="0" key="xm177k1.weapon"/></model>
 	<model filename="owo_xm1770.xml"><requirement class="weapon" slot="0" key="xm177k11.weapon"/></model>
 	<model filename="owo_xm1770.xml"><requirement class="weapon" slot="0" key="xm177k2.weapon"/></model>
-                <model filename="gs_qlu11.xml"><requirement class="weapon" slot="0" key="gw_qlu11_k1.weapon"/></model>
-                <model filename="gs_qlu11.xml"><requirement class="weapon" slot="0" key="gw_qlu11_k2.weapon"/></model>
+	<model filename="gs_qlu11.xml"><requirement class="weapon" slot="0" key="gw_qlu11_k1.weapon"/></model>
+	<model filename="gs_qlu11.xml"><requirement class="weapon" slot="0" key="gw_qlu11_k2.weapon"/></model>
+	
+	<model filename="gs_hikou.xml"><requirement class="weapon" slot="0" key="gw_hikou.weapon"/></model>
 
 
 	
