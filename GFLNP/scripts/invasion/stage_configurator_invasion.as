@@ -185,6 +185,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		// addStage(setupViper());    
 		// addStage(setupStage18());         // map13_2
 		// addStage(setupStage16());         // map8_2
+		
 		addStage(setupIslandLaboratory());     
 		addStage(setupSevanBeach());     
 		addStage(setupStage7());          // map6
@@ -988,7 +989,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage8() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Vigil Island";
-		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map8";
+		stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/map8";
 		stage.m_mapInfo.m_id = "map8";
 
 		stage.m_includeLayers.insertLast("layer1.invasion"); 

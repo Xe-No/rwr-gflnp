@@ -2,8 +2,9 @@
 <vehicle file="vehicle_base.vehicle" name="M109A6-圣骑士" key="m109a6.vehicle" respawn_time="180" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0">
 	<tag name="metal_heavy" />
 	<tag name="heavy_combat" />
-	<tag name="tank" />
-	<tag name="tank_para" />
+	<!-- <tag name="tank" /> -->
+	<!-- <tag name="tank_para" /> -->
+	<tag name="ART" />
 	<!-- 英文名：M109A6-Paladin -->
 	
 	<tire_set offset="1.5 0.0 +3" radius="0.3" />

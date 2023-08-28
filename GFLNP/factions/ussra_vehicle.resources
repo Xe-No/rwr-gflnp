@@ -2,7 +2,11 @@
 <resources >
 MBT <vehicle key="t14s.vehicle" />
 IFV <vehicle key="apc_2.vehicle" />
-APC <vehicle key="btr82a.vehicle" />   
+APC <vehicle key="bmp1.vehicle" />   
+ART <vehicle key="2s7.vehicle" />   
+RKT <vehicle key="bm27.vehicle" />   
+<!-- APC <vehicle key="btr82a.vehicle" />    -->
+    <vehicle key="noxe.vehicle" />
     <vehicle key="gaz.vehicle" />
     <vehicle key="m113.vehicle" />
     <vehicle key="buggy.vehicle" />

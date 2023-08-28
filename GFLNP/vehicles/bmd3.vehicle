@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="BMD-3" key="bmd3.vehicle" respawn_time="300"  map_view_atlas_index="1" minimum_fill_requirement="0.25">
 	<tag name="metal_heavy" />
-	<tag name="apc" />
+	<tag name="AFV" />
 	<tag name="any_tank" />
 
 	<tire_set offset="1.28 0.0 2.22" radius="0.80" />

@@ -21,5 +21,6 @@
     <call file="nuclear_6.call" />
     <call file="gunship40.call" />
     <call file="supply_sdkfz2.call" />
+    <call file="afv_drop.call" />
 
 </calls>

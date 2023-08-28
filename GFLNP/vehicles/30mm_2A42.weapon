@@ -16,7 +16,7 @@
     slot="2" barrel_offset="1.2" 
     projectiles_per_shot="1" />
     <projectile file="apc_hmg_base.projectile" >
-        <result class="blast" radius="3.2" damage="0.5" push="0.15" decal="0" damage_origin_vehicle="0" faction_compare="not_equal"/>
+        <result class="blast" radius="3.2" damage="0.27" push="0.15" decal="0" damage_origin_vehicle="0" faction_compare="not_equal"/>
 		<trail probability="1.0" key="laser_pink"/>
     </projectile>
     

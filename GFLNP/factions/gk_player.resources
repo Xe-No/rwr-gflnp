@@ -4,7 +4,8 @@
 	<call key="paratroopers2.call" />
 	<call key="paratroopers_medic.call" />
 
-	<call key="apc_1.call" />
+	<!-- <call key="apc_1.call" /> -->
+	<call key="afv_drop.call" />
 	<call key="tank.call" />
 	<!-- <call key="supply_quad.call" /> -->
 	<call key="supply_sdkfz2.call" />
@@ -21,17 +22,19 @@
 	<call key="drop_pod_crew.call" /> -->
 
 	<!-- vehicle -->
-    <vehicle key="tank_2.vehicle" />
+MBT <vehicle key="tank_2.vehicle" />
     <!-- <vehicle key="t90m3.vehicle" /> -->
-    <!-- <vehicle key="apc_2.vehicle" /> -->
-    <vehicle key="bmd3.vehicle" />
-<!--     <vehicle key="ztz99a.vehicle" />
-    <vehicle key="zbd04a.vehicle" /> -->
-    <vehicle key="cv9040c.vehicle" />
- 	<vehicle key="btr82a.vehicle" />   
+    <!-- <vehicle key="ztz99a.vehicle" /> -->
+IFV <vehicle key="apc_2.vehicle" />
+	<!-- <vehicle key="zbd04a.vehicle" /> -->
+    <!-- <vehicle key="cv9040c.vehicle" /> -->
+AFV <vehicle key="bmd3.vehicle" />
+
+    
+APC <vehicle key="btr82a.vehicle" />   
  	<!-- <vehicle key="matv.vehicle" /> -->
- 	<vehicle key="lynx_atv.vehicle" />
- 	<vehicle key="m113.vehicle" />
+ATV <vehicle key="lynx_atv.vehicle" />
+ART <vehicle key="m113.vehicle" />
 
 Armory	
 	<weapon key="gw_98k.weapon" />

@@ -143,6 +143,7 @@
 	<weapon file="t90m3_2a46_125mm.weapon" />
 	<weapon file="t90m3_shell_eject.weapon" />
 	<weapon file="nsvt_127.weapon" />
+	<weapon file="uragan_cannon.weapon" />
 	
 
     <!-- <weapon file="templax_gl.weapon"/> -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_AR.weapon" key="gw_xm8mod3_r.weapon">
+<weapon file="base_card_ar.weapon" key="gw_xm8mod3_r.weapon">
     <tag name="assault" />
     <specification 
     retrigger_time="0.24" 

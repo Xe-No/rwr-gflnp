@@ -742,6 +742,7 @@ array<array<ScoredResource@>> reward_pb = {
         ScoredResource("gold_bar.carry_item", "carry_item", 1.0f)
     },
     {
+        ScoredResource("gw_hikou.weapon", "weapon", 2.0f),
         ScoredResource("flash_shield.weapon", "weapon", 1.0f),
         ScoredResource("gw_m1915_chauchat.weapon", "weapon", 1.0f),
         ScoredResource("shield_45steel.weapon", "weapon", 1.0f),
@@ -775,6 +776,13 @@ array<array<ScoredResource@>> reward_pb = {
 // VB1
 array<array<ScoredResource@>> reward_vb1 = {
     {
+        // 40
+        ScoredResource("bmp1_flare.projectile", "projectile", 3.0f),
+        ScoredResource("bmd3_flare.projectile", "projectile", 3.0f),
+        ScoredResource("mtlb_2b9_flare.projectile", "projectile", 3.0f),
+        ScoredResource("sdkfz2_flare.projectile", "projectile", 2.0f),
+        ScoredResource("zbd09_flare.projectile", "projectile", 1.0f),
+
         ScoredResource("flamer_tank_flare.projectile", "projectile", 1.0f, 2), 
         ScoredResource("sev90_flare.projectile", "projectile", 1.0f, 2),
         ScoredResource("zbd04a_flare.projectile", "projectile", 1.0f, 2),
@@ -806,8 +814,23 @@ array<array<ScoredResource@>> reward_vb1 = {
         ScoredResource("m5apc_flare.projectile", "projectile", 0.5f, 2)
     },
     {
-        ScoredResource("sherman_flare.projectile", "projectile", 3.0f),
-        ScoredResource("kv2_gup_flare.projectile", "projectile", 3.0f),
+        // 40
+        ScoredResource("ba_crusader_flare.projectile", "projectile", 2.0f),
+        ScoredResource("ba_torumaru_flare.projectile", "projectile", 2.0f),
+        ScoredResource("t90m3_flare.projectile", "projectile", 2.0f),
+        ScoredResource("mbt_m61a5_flare.projectile", "projectile", 2.0f),
+        ScoredResource("t35_flare.projectile", "projectile", 0.1f),
+
+        ScoredResource("bmpt_2017_flare.projectile", "projectile", 0.1f),
+        ScoredResource("2s7_flare.projectile", "projectile", 0.05f),
+        ScoredResource("himars_flare.projectile", "projectile", 0.05f),
+        ScoredResource("m109a6_flare.projectile", "projectile", 0.05f),
+        ScoredResource("uragan_flare.projectile", "projectile", 0.05f),
+
+        
+    
+        ScoredResource("sherman_flare.projectile", "projectile", 1.0f),
+        ScoredResource("kv2_gup_flare.projectile", "projectile", 1.0f),
         ScoredResource("ztz99a_flare.projectile", "projectile", 1.0f),
         ScoredResource("centurion_avre_flare.projectile", "projectile", 1.0f),
         ScoredResource("leopard2a5_flare.projectile", "projectile", 1.0f),

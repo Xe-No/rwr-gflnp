@@ -36,7 +36,7 @@
     <model filename="gw_98kmod3.xml" />
 
     <hud_icon filename="98kmod3.png" />
-    <commonness value="1" can_respawn_with="1" />
+    <!-- <commonness value="1" can_respawn_with="1" /> -->
     <inventory encumbrance="10.0" price="600.0" />
     <trail probability="1.0" key="laser_green"/>
 
