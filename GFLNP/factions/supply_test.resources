@@ -50,9 +50,32 @@
 <!-- <weapon key="xxxx.weapon" /> -->
 <projectile key="token_acg_graf_spee.projectile" />
 <projectile key="token_acg_gawr_gura.projectile" />
-<projectile key="token_keqin.projectile" />
+<projectile key="token_keqing.projectile" />
 <projectile key="token_kiriko.projectile" />
 <projectile key="token_yuuki_ggo.projectile" />
 
+
+<projectile key="kingspire_mk1_flare.projectile" />
+<projectile key="rawr_flare.projectile" />
+<projectile key="type87_flare.projectile" />
+<projectile key="m18_flare.projectile" />
+<projectile key="matv_m2hb_flare.projectile" />
+<projectile key="pickup_flare.projectile" />
+<projectile key="hatchet_flare.projectile" />
+<projectile key="saint_chamond_flare.projectile" />
+<projectile key="ba_crusader_flare.projectile" />
+<projectile key="ba_torumaru_flare.projectile" />
+<projectile key="bmpt_2017_flare.projectile" />
+<projectile key="mbt_m61a5_flare.projectile" />
+<projectile key="t35_flare.projectile" />
+<projectile key="2s7_flare.projectile" />
+<projectile key="bmp1_flare.projectile" />
+<projectile key="himars_flare.projectile" />
+<projectile key="m109a6_flare.projectile" />
+<projectile key="mtlb_2b9_flare.projectile" />
+<projectile key="bmd3_flare.projectile" />
+<projectile key="t90m3_flare.projectile" />
+<projectile key="sdkfz2_flare.projectile" />
+<projectile key="zbd09_flare.projectile" />
 
 </resources>

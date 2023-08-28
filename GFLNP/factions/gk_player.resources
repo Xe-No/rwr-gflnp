@@ -223,6 +223,11 @@ re token
 	<projectile key="token_tachibana_kanade.projectile" />
 	<projectile key="token_yukikaze.projectile" />
 
+	<projectile key="token_acg_graf_spee.projectile" />
+	<projectile key="token_acg_gawr_gura.projectile" />
+	<projectile key="token_keqing.projectile" />
+	<projectile key="token_kiriko.projectile" />
+	<projectile key="token_yuuki_ggo.projectile" />
 
 oath
   	<weapon key="gw_ar15mod_sl_oath.weapon" />

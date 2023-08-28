@@ -943,7 +943,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 	}
 
 	protected void setupContract3() {
-		_log("adding equipment contract config", 1);
+		_log("adding black card config", 1);
 		array<Resource@> deliveryList = {
 			 Resource("gi_black_card.carry_item", "carry_item")
 		};
@@ -958,7 +958,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 	}
 
 	protected void setupContract3_1() {
-		_log("adding equipment contract config", 1);
+		_log("adding black_arsmghg config", 1);
 		array<Resource@> deliveryList = {
 			 Resource("gi_black_card_1.carry_item", "carry_item")
 		};
@@ -972,7 +972,7 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 
 
 		protected void setupContract3_2() {
-		_log("adding equipment contract config", 1);
+		_log("adding reward_black_rfsgmg config", 1);
 		array<Resource@> deliveryList = {
 			 Resource("gi_black_card_2.carry_item", "carry_item")
 		};

@@ -236,7 +236,7 @@
 	<vehicle file="hatchet.vehicle" />
 	<vehicle file="saint_chamond.vehicle" />
 	<vehicle file="ba_crusader.vehicle" />
-	<vehicle file="tiger.vehicle" />
+	<vehicle file="ba_torumaru.vehicle" />
 	<vehicle file="bmpt_2017.vehicle" />
 	<vehicle file="mbt_m61a5.vehicle" />
 	<vehicle file="t35.vehicle" />
@@ -246,7 +246,9 @@
 	<vehicle file="m109a6.vehicle" />
 	<vehicle file="mtlb_2b9.vehicle" />
 	<vehicle file="bmd3.vehicle" />
+	<vehicle file="t90m3.vehicle" />
 	<vehicle file="sdkfz2.vehicle" />
+	<vehicle file="zbd09.vehicle" />
 
 <!-- brdm -->
 <!-- lynx -->

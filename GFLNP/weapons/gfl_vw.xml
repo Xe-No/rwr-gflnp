@@ -116,6 +116,8 @@
 	<weapon file="saint_chamond_cannon.weapon" />
 	<weapon file="saint_chamond_pegion.weapon" />
 	<weapon file="ba_crusader_cannon.weapon" />
+	<weapon file="ba_torumaru_cannon.weapon" />
+
 	<weapon file="30mm_2A42.weapon" />
 	<weapon file="30mm_2A42_green.weapon" />
 	<weapon file="atgm_9m133.weapon" />
@@ -138,6 +140,10 @@
 	<weapon file="pktm.weapon" />
 	<weapon file="m299.weapon" />
 	<weapon file="direction.weapon" />
+	<weapon file="t90m3_2a46_125mm.weapon" />
+	<weapon file="t90m3_shell_eject.weapon" />
+	<weapon file="nsvt_127.weapon" />
+	
 
     <!-- <weapon file="templax_gl.weapon"/> -->
     <!-- <weapon file="templax_minig.weapon"/> -->

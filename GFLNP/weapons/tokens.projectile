@@ -36,7 +36,7 @@ token_medic.projectile
 token_ononoki.projectile
 token_acg_graf_spee.projectile
 token_acg_gawr_gura.projectile
-token_keqin.projectile
+token_keqing.projectile
 token_kiriko.projectile
 token_yuuki_ggo.projectile
 
@@ -241,8 +241,8 @@ token_yuuki_ggo.projectile
 
 <!-- 40 -->
 
-<projectile name="Ke qin[RE]" file="token_keqin_c4.projectile" key="token_keqin.projectile"  >
-	<hud_icon filename="token_keqin.png"/>
+<projectile name="Keqing[RE]" file="token_keqing_c4.projectile" key="token_keqing.projectile"  >
+	<hud_icon filename="token_keqing.png"/>
 </projectile>
 <projectile name="Acg graf Spee[RE]" file="token0.projectile" key="token_acg_graf_spee.projectile"  >
 	<hud_icon filename="token_acg_graf_spee.png" />

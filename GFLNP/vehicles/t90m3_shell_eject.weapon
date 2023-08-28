@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="t90m3_shell_eject.weapon">
+    <specification
+	retrigger_time="9" 
+    accuracy_factor="1.0" 
+    sustained_fire_grow_step="0.0" 
+    sustained_fire_diminish_rate="1.0" 
+    sight_range_modifier="1.0"
+    ai_sight_range_modifier="1" 
+    magazine_size="-1.0" 
+    class="0"
+    slot="2" 
+	projectile_speed="-8" 
+    projectiles_per_shot="1" 
+    sight_height_offset="1.0" />
+    <ballistics curve_height="10" near_far_distance="0" speed_estimation_near="-5.0" speed_estimation_far="-8.0" max_speed="-8.0" tweak_factor="1.8" randomness="0.0" />
+    <projectile file="shell_125mm.projectile" />
+    
+
+
+    <model />
+    <hud_icon />     
+	
+
+
+</weapon>
