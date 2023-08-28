@@ -249,9 +249,10 @@
 	<vehicle file="t90m3.vehicle" />
 	<vehicle file="sdkfz2.vehicle" />
 	<vehicle file="zbd09.vehicle" />
+	<vehicle file="lynx.vehicle" />
 
 <!-- brdm -->
-<!-- lynx -->
+
 
 
 </vehicles>
