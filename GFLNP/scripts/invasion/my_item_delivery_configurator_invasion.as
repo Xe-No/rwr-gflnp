@@ -487,9 +487,10 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gi_ssr_weapon_card.carry_item", "carry_item", 50.0f),
 				ScoredResource("gi_ur_weapon_card.carry_item", "carry_item", 45.0f),
 
+        		ScoredResource("le_fantasque.carry_item", "carry_item", 2.0f, 3),		//共用概率
         		ScoredResource("suit_hutao.carry_item", "carry_item", 1.0f, 3),		//共用概率
 				ScoredResource("suit_dsr50_dress.carry_item", "carry_item", 1.0f, 3),	//共用概率
-				ScoredResource("suit_asuna.carry_item", "carry_item", 2.0f, 3),	//共用概率
+				ScoredResource("suit_asuna.carry_item", "carry_item", 1.0f, 3),	//共用概率
 				ScoredResource("suit_momiji.carry_item", "carry_item", 1.0f, 3)		//共用概率
 			}
 		};   

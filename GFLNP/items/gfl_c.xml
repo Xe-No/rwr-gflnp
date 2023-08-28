@@ -170,7 +170,10 @@
     <carry_item file="gi_ur_weapon_card.carry_item" />       
 
 <!-- 37   -->
-    <carry_item file="loot.carry_item" />         
+    <carry_item file="loot.carry_item" />     
+
+<!-- 40     -->
+    <carry_item file="le_fantasque.carry_item" />         
 
 
 </carry_items>
