@@ -28,9 +28,9 @@
 turret
 	0<turret offset="0 0 -1.08" weapon_key="none.weapon" weapon_offset="0 0 0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00005" />
 cannon
-	1<turret offset="0.0 0 -1.08" 	weapon_key="m61a5_cannon.weapon" 			weapon_offset="-.55 2.3 5.0" 	weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00005" />
+	1<turret offset="0 0 0" 	weapon_key="m61a5_cannon.weapon" 			weapon_offset="-.55 2.3 5.0" 	weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00005" parent_turret_index="0" rotation_range="0" />
 cannon2
-	2<turret offset="0.0 0 -1.08" 	weapon_key="m61a5_cannon.weapon" 			weapon_offset="0.55 2.3 5.0" 	weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00005" />
+	2<turret offset="0 0 0" 	weapon_key="m61a5_cannon.weapon" 			weapon_offset="0.55 2.3 5.0" 	weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00005" parent_turret_index="0" rotation_range="0" />
 command
 	3<turret offset="0.0 0 -0.2" 	weapon_key="m2hb.weapon" 			weapon_offset="0.0 4.5.0 0.5" 	weapon_recoil="0"  physics_recoil="0" max_rotation_step="0.0001" rotation_range="2.5" parent_turret_index="0"/>
 LMG	

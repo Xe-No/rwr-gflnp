@@ -77,5 +77,6 @@
 <projectile key="t90m3_flare.projectile" />
 <projectile key="sdkfz2_flare.projectile" />
 <projectile key="zbd09_flare.projectile" />
+<projectile key="lynx_aa_flare.projectile" />
 
 </resources>

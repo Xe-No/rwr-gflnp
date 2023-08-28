@@ -249,7 +249,7 @@
 	<vehicle file="t90m3.vehicle" />
 	<vehicle file="sdkfz2.vehicle" />
 	<vehicle file="zbd09.vehicle" />
-	<vehicle file="lynx.vehicle" />
+	<vehicle file="lynx_aa.vehicle" />
 
 <!-- brdm -->
 

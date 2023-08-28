@@ -173,6 +173,7 @@
 			<projectile key="l333_flare.projectile" />
 			<projectile key="pz4h_flare.projectile" />
 			<projectile key="sherman_flare.projectile" /> 
+			<projectile key="saint_chamond.projectile" />
 			<call key="a10_gun_run.call" />
 			<!-- <call key="f16_missle_run.call" /> -->
 			<call key="ac130_gun_run.call" />
@@ -208,6 +209,8 @@
 			<projectile key="sturmtiger_flare.projectile" />
 			<projectile key="l333_flare.projectile" />
 			<projectile key="pz4h_flare.projectile" />
+			<projectile key="saint_chamond.projectile" />
+			<projectile key="lynx_aa.projectile" />
 			<call key="a10_gun_run.call" />
 			<!-- <call key="f16_missle_run.call" /> -->
 			<call key="ac130_gun_run.call" />
@@ -225,7 +228,8 @@
 			<call key="drop_pod.call" enabled="1"/>
 			<call key="artillery_155.call" enabled="1"/>
 			<call key="401_yamato.call" enabled="1"/>
-                                                <call key="nuclear_6.call" enabled="1"/>
+            <call key="nuclear_6.call" enabled="1"/>
+
 			
 
 		</resources>
@@ -412,6 +416,8 @@
   			<carry_item key="base_sg_vest.carry_item" enabled="0"/>
 			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_x4_exo.carry_item" enabled="1"/>
+
+			<projectile key="kingspire_mk1_flare.projectile" />
 			<call key="strike_air.call" />
 			<call key="strike_2b14.call" />
 			<call key="supply_quad.call" />

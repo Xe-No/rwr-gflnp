@@ -6,7 +6,8 @@
 
 	<call key="apc_1.call" />
 	<call key="tank.call" />
-	<call key="supply_quad.call" />
+	<!-- <call key="supply_quad.call" /> -->
+	<call key="supply_sdkfz2.call" />
 	<call key="cover_drop.call" />
 	<call key="rubber_boat.call" />
 	<!-- <call key="squad_404.call" /> -->
@@ -21,7 +22,9 @@
 
 	<!-- vehicle -->
     <vehicle key="tank_2.vehicle" />
-    <vehicle key="apc_2.vehicle" />
+    <!-- <vehicle key="t90m3.vehicle" /> -->
+    <!-- <vehicle key="apc_2.vehicle" /> -->
+    <vehicle key="bmd3.vehicle" />
 <!--     <vehicle key="ztz99a.vehicle" />
     <vehicle key="zbd04a.vehicle" /> -->
     <vehicle key="cv9040c.vehicle" />
@@ -70,6 +73,7 @@ Armory
 	<weapon key="ant.weapon" />
 	<weapon key="ant_alt.weapon" />
 	<weapon key="targetdrone.weapon" />
+    <weapon key="gw_scr_l.weapon" />
 	
 <!-- ST -->
 	<weapon key='st_mg0.weapon' />
