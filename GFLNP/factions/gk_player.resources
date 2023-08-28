@@ -154,6 +154,7 @@ Armory
 	<carry_item key="suit_dsr50_dress.carry_item" />
 	<carry_item key="suit_momiji.carry_item" />
 	<carry_item key="suit_asuna.carry_item" />
+	<carry_item key="le_fantasque.carry_item" />
 
 extra
     <weapon key="gw_m4a1_mod_re.weapon" />

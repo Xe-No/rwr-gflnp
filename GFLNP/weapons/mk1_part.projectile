@@ -9,8 +9,8 @@
 	<hud_icon filename="cb_part.png" />
     <sound class="impact" fileref="bling.wav" />
 
-    <capacity value="100" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
     <commonness value="0.05" in_stock="0" can_respawn_with="0" />
-    <inventory encumbrance="0.1" price="1.0" />
+    <inventory encumbrance="0.1" price="400000.0" sell_price="0"/>
 
 </projectile>

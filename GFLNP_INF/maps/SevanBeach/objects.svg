@@ -29,11 +29,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142137"
-     inkscape:cx="586.40139"
-     inkscape:cy="1327.9623"
+     inkscape:zoom="0.50000005"
+     inkscape:cx="1139.0226"
+     inkscape:cy="1363.6434"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer4"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -51,14 +51,14 @@
      inkscape:object-paths="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-nodes="true"
-     inkscape:snap-grids="false"
+     inkscape:snap-grids="true"
      inkscape:snap-to-guides="false"
      inkscape:object-nodes="true"
      inkscape:snap-intersection-paths="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-midpoints="false"
      inkscape:snap-others="true"
-     inkscape:snap-page="true">
+     inkscape:snap-page="false">
     <inkscape:grid
        type="xygrid"
        id="grid59047" />
@@ -38792,6 +38792,125 @@
          stdDeviation="3.5108574"
          id="feGaussianBlur15544" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter48787"
+       x="-0.0099204892"
+       width="1.019841"
+       y="-0.015182528"
+       height="1.0303651">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.36391338"
+         id="feGaussianBlur48789" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter48799"
+       x="-0.013032622"
+       width="1.0260652"
+       y="-0.011119001"
+       height="1.022238">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.36162871"
+         id="feGaussianBlur48801" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter48803"
+       x="-0.01167344"
+       width="1.0233469"
+       y="-0.012345357"
+       height="1.0246907">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.36639076"
+         id="feGaussianBlur48805" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always"
+       id="filter11084-38-9-2-4">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend11086-8-8-0-49" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10435-4"
+       id="linearGradient49253"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01086902,-0.99992352,0.99994221,0.0124715,-1.2081499,-0.7246593)"
+       x1="2700.2405"
+       y1="2199.1719"
+       x2="2709.1338"
+       y2="2199.1719" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always"
+       id="filter11084-38-9-2-6">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend11086-8-8-0-2" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10435-4"
+       id="linearGradient49273"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01086902,-0.99992352,0.99994221,0.0124715,-1.2081499,-0.7246593)"
+       x1="2700.2405"
+       y1="2199.1719"
+       x2="2709.1338"
+       y2="2199.1719" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always"
+       id="filter11084-38-9-2-3">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend11086-8-8-0-43" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10435-4"
+       id="linearGradient49293"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01086902,-0.99992352,0.99994221,0.0124715,-1.2081499,-0.7246593)"
+       x1="2700.2405"
+       y1="2199.1719"
+       x2="2709.1338"
+       y2="2199.1719" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always"
+       id="filter11084-38-9-2-51">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend11086-8-8-0-8" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10435-4"
+       id="linearGradient49313"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01086902,-0.99992352,0.99994221,0.0124715,-1.2081499,-0.7246593)"
+       x1="2700.2405"
+       y1="2199.1719"
+       x2="2709.1338"
+       y2="2199.1719" />
   </defs>
   <metadata
      id="metadata7">
@@ -38801,7 +38920,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -49098,15 +49217,15 @@ visual_hitbox_size = 3.5 10 3.5;
          style="font-size:8px;line-height:1.25;font-family:sans-serif">Fir tree</tspan></text>
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="dirt"
      id="layer4"
      inkscape:groupmode="layer">
     <rect
        y="0"
        x="0"
-       height="1418"
-       width="2050"
+       height="2028"
+       width="2060"
        id="rect10078"
        style="display:inline;opacity:0.98999999;fill:#a05a2c;fill-opacity:1;stroke:none;enable-background:new">
       <desc
@@ -49156,7 +49275,7 @@ visual_hitbox_size = 3.5 10 3.5;
        rx="98.565872"
        ry="97.66481" />
     <path
-       style="opacity:1;fill:#cccccc;fill-opacity:0.39215686;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter48799)"
        d="m 845.67661,1025.9022 -0.1247,-22.9498 c -5.044,-7.3933 -7.6282,-4.1544 -9.9924,-0.1751 l 0.7226,30.7128 22.1554,14.3789 18.2113,28.7129 23.5882,-0.094 c 1.4116,-2.849 3.6023,-5.5033 -0.2192,-9.6606 l -16.5973,-0.3579 -15.0075,-26.5397 z"
        id="path48757"
        inkscape:connector-curvature="0"
@@ -49175,20 +49294,20 @@ visual_hitbox_size = 3.5 10 3.5;
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc" />
     <path
-       style="display:inline;opacity:1;fill:#cccccc;fill-opacity:0.39215686;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       style="display:inline;opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter48787);enable-background:new"
        d="m 902.05851,921.64392 22.552,4.25657 c 8.2199,-3.54058 5.5336,-6.69533 2.0785,-9.77539 l -30.2864,-5.15089 -18.3422,19.00471 -31.6602,12.39802 -4.4086,23.17265 c 2.5273,1.92939 4.7149,4.58629 9.5251,1.62769 l 3.5182,-16.22401 28.9157,-9.66781 z"
        id="path48757-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccc" />
     <path
-       style="display:inline;opacity:1;fill:#cccccc;fill-opacity:0.39215686;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       style="display:inline;opacity:1;fill:#cccccc;fill-opacity:0.39215686;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter48803);enable-background:new"
        d="m 954.09081,1066.7398 -22.8853,1.7252 c -7.0233,5.5474 -3.6121,7.8996 0.5225,9.9805 l 30.5875,-2.8634 12.7984,-23.1046 27.37269,-20.1698 -1.7392,-23.524 c -2.9406,-1.2098 -5.7412,-3.2097 -9.62179,0.893 l 0.8009,16.5817 -25.4283,16.8224 z"
        id="path48757-7-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccc" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="alpha_sand"
      id="layer6"
      inkscape:groupmode="layer">
@@ -49207,16 +49326,16 @@ visual_hitbox_size = 3.5 10 3.5;
      inkscape:groupmode="layer">
     <path
        style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -16.4883,-1023.3645 -15,399 l 570,0 0,-105 -125,0 -25,-5 -0.005,-319.02276 L 555,-31 l -0.10063,-149.94203 15.88003,-25.78508 -9.48949,-12.53382 -9.03502,0.14767 L 535,-246 l -45.10471,0 0,-285.76318 L 680,-531 l 0,246.4314 0,38.5686 -10,0 7.06598,18.32217 385.49092,0.79853 232.1148,-26.8996 1.4354,-52.39848 c -0.5799,-8.09239 2.5119,-13.5375 4.2966,-13.93895 18.4782,-4.15651 107.5589,0.23582 148.446,-1.02815 24.3394,-0.75242 21.4455,2.37291 26.0461,12.01722 1.3578,28.09203 -1.2909,67.04161 2.4998,83.98617 2.9551,13.20919 20.7463,16.23845 25.2699,34.33723 l 9.1119,435.01021 c -8.6474,27.11108 -4.3648,37.27093 -47.099,46.01515 L 1260,289 l 0,110 775,0 -3.4883,-1422.3645 z"
+       d="m 285,-596 5,990 265,0 0,-100 -125,0 -25,-5 L 404.995,-30.02276 555,-31 l -0.10063,-149.94203 15.88003,-25.78508 -9.48949,-12.53382 -9.03502,0.14767 L 535,-246 l -45.10471,0 0,-285.76318 L 680,-531 l 0,246.4314 0,38.5686 -10,0 7.06598,18.32217 385.49092,0.79853 232.1148,-26.8996 1.4354,-52.39848 c -0.5799,-8.09239 2.5119,-13.5375 4.2966,-13.93895 18.4782,-4.15651 107.5589,0.23582 148.446,-1.02815 24.3394,-0.75242 21.4455,2.37291 26.0461,12.01722 1.3578,28.09203 -1.2909,67.04161 2.4998,83.98617 2.9551,13.20919 20.7463,16.23845 25.2699,34.33723 l 9.1119,435.01021 c -8.6474,27.11108 -4.3648,37.27093 -47.099,46.01515 L 1260,289 l 0,105 410,0 -5,-990 z"
        id="path11775"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccccccccccsscscccccccc" />
     <path
        style="fill:#00ff00;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 595.77743,36.804094 595,-166 c 0.21222,-9.60005 -2.97846,-26.32997 25,-25 l 105,0 c 25,0 36.41421,10.85786 35.75009,50.61219 l -8.28916,77.90853 c 0.9812,16.528889 -4.98692,40.791423 -7.63576,47.251165 -9.33203,22.758021 2.55617,26.228475 17.15479,38.735457 24.53849,24.203471 16.06277,24.922989 26.76758,41.056302 20.28758,12.10277 51.25937,18.398992 51.25937,18.398992 8.2927,7.52859 42.3224,2.212696 47.77772,11.660126 26.56198,16.755368 24.44071,-0.659264 80.33744,-0.5409 4.83348,-1.700818 34.16163,-2.729371 59.22673,-24.554722 6.339,-5.519663 10.9016,-30.065575 16.1916,-39.209394 6.8273,-11.801119 19.5817,-26.4511999 23.4232,-37.0342208 5.9832,-16.4835662 12.7367,-35.5088662 15.3813,-53.1009072 1.4036,-9.336801 9.1381,-23.731922 10.8802,-32.701149 9.442,-48.612749 -12.2937,-104.188279 2.7958,-104.243509 l 197.0165,-22.91336 6.9111,1.42217 0.332,59.87799 169.2814,0 5.6708,392.00618 c -1.5766,20.60299 -5.8742,16.71786 -9.1509,22.01967 l -205.3191,0.26553 -1.5843,-127.83239 -224.418,1.18016 L 1035,399 595,399 595.35355,99.457925"
+       d="M 595.77743,68.623896 594.29289,42.59648 c 0.21222,-9.60005 -2.97846,-41.88631752 25,-40.5563475 4.76698,3.267044 -12.12467,-0.9089087 9.39337,5.7083469 4.688,-4.9316174 13.72113,-6.85238904 26.94658,-8.36902266 13.89183,-1.40374724 27.98644,-3.11166684 34.53675,6.49685036 17.78431,-0.2655108 23.60211,-4.2297564 27.05223,-8.0788149 25,0 13.7868,-3.2842742 32.21456,-3.1279201 7.84355,-0.1174939 7.20181,-7.2616981 15.04536,5.07653874 0.9812,16.52888816 3.77804,23.59784816 5.79927,30.28060416 4.103,13.565633 -5.222,-2.762901 9.37662,9.744081 24.53849,24.203471 11.82013,5.124001 22.52494,21.257314 20.28758,12.10277 37.82434,21.934526 37.82434,21.934526 8.2927,7.52859 42.3224,2.212696 47.77772,11.660126 26.56198,16.755368 24.44071,-0.659264 80.33744,-0.5409 4.83348,-1.700818 34.16163,-2.729371 59.22673,-24.554722 6.339,-5.519663 10.9016,-30.065575 16.1916,-39.209394 6.8273,-11.801119 19.5817,-26.4511999 23.4232,-37.0342208 5.9832,-16.4835662 12.7367,-35.5088662 15.3813,-53.1009072 1.4036,-9.336801 9.1381,-23.731922 10.8802,-32.701149 9.442,-48.612749 -12.2937,-104.188279 2.7958,-104.243509 l 197.0165,-22.91336 6.9111,1.42217 0.332,59.87799 169.2814,0 5.6708,392.00618 c -1.5766,20.60299 -5.8742,16.71786 -9.1509,22.01967 l -205.3191,0.26553 -1.5843,-127.83239 -224.418,1.18016 L 1035,399 595,399 595.35355,99.457925"
        id="path39182"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccsccsccsssssccccccccccccc" />
+       sodipodi:nodetypes="cccccccccsccsccsssssccccccccccccc" />
     <path
        style="fill:#00ff00;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 545,-2 -2,5 0,36 2,5 5,0 2,-5 0,-36 -2,-5 z"
@@ -49248,6 +49367,18 @@ visual_hitbox_size = 3.5 10 3.5;
        id="path14668"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccsscc" />
+    <path
+       style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 614.47573,-196.46619 c -11.78763,1.51343 -18.36873,14.52398 -16.97055,25.45584 l -3.53554,129.400534 c 10.30841,6.703252 10.26271,-9.556587 19.00998,0.800472 1.317,1.559369 7.12937,3.277196 15.5732,-0.743091 8.73191,-4.157448 47.22586,-0.109905 58.01653,-1.187084 25.64167,-2.55968 45.24328,7.942002 63.67467,4.326287 11.29677,-2.216104 22.6432,-15.817717 20.50229,-17.338713 l 1.03102,-29.587543 c -6.36713,-1.211344 -11.12019,-8.748038 -8.93015,-14.560455 2.4013,-6.373107 -1.75363,-12.648767 3.30459,-20.835967 5.99268,-9.6997 1.45497,-19.83702 -4.10363,-32.68733 -2.01528,-4.6589 1.47652,-13.26455 2.96162,-17.61432 2.44136,-7.15061 2.86073,-17.09387 1.49391,-25.42862 z"
+       id="path48918"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccssssccsssscc" />
+    <path
+       style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 823.53553,-1.050253 C 813.0959,1.7402519 809.0553,1.1750539 808.58579,9.4038064 c 4.97179,6.5941226 10.89286,7.5989056 16.02408,14.3291866 1.49853,1.965522 5.98242,9.535782 9.98632,9.2566 l 10.70711,9.292893 c 5.22383,4.816873 10.97939,5.191708 14.06721,10.76539 6.27637,-1.06426 16.79538,6.672703 23.07176,11.23042 5.72468,5.394851 7.54645,4.052822 13.97194,6.18617 14.13012,-10.813653 2.6849,-7.312043 5.75736,-12.171573 -4.76622,-2.146515 -8.66979,-2.3131 -22.13597,-1.862637 L 875,54 856.86827,34.050253 c -8.46085,-2.809722 -7.98833,-5.705062 -11.9153,-9.524785 -2.96843,-2.887365 -10.67323,-3.626026 -12.3674,-7.222598 -2.57431,-5.465034 -3.11818,-12.4212703 -9.05004,-18.353123 z"
+       id="path49031"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscccccccccssc" />
   </g>
   <g
      transform="translate(0,1024)"
@@ -49386,6 +49517,16 @@ visual_hitbox_size = 3.5 10 3.5;
        id="path12236-6-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 0,1423 1035,0"
+       id="path49101"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1260,1423 785,0"
+       id="path49103"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      style="display:inline"
@@ -49424,10 +49565,10 @@ visual_hitbox_size = 3.5 10 3.5;
     <rect
        transform="matrix(0.00402787,-0.99999189,0.99999189,0.00402787,0,0)"
        inkscape:label="#rect11324_base"
-       y="511.84476"
-       x="-750.58813"
-       height="140.97641"
-       width="207.03378"
+       y="573.06866"
+       x="-760.69794"
+       height="79.752365"
+       width="217.14412"
        id="rect91901-1-2-5"
        style="display:inline;opacity:0.5;fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:4.99999999, 4.99999999;stroke-dashoffset:0;stroke-opacity:1;enable-background:new">
       <desc
@@ -49617,20 +49758,16 @@ visual_hitbox_size = 3.5 10 3.5;
          y="1576.1594" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.00002193px;line-height:0%;font-family:Sans;-inkscape-font-specification:'Sans, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:0.7;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter4081-1-5-4-8-5-6-4-9-4-8-5-34-4-1-8-3-8-7-0-61-71-6-5-4);enable-background:new"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.00002227px;line-height:0%;font-family:Sans;-inkscape-font-specification:'Sans, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;display:inline;opacity:0.7;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter4081-1-5-4-8-5-6-4-9-4-8-5-34-4-1-8-3-8-7-0-61-71-6-5-4);enable-background:new;"
        x="592.01526"
        y="1576.1594"
        id="text8384-23-6-9-0-8-5-4-3-3-0-1-3-4-8-8-90-8"
        sodipodi:linespacing="0%"
        transform="matrix(2.7108309,0.03412091,0,2.7918385,-261.04101,-3045.8827)"><tspan
-         y="1576.1594"
-         x="592.01526"
          sodipodi:role="line"
-         id="tspan64191-8">Alpha 4</tspan><tspan
-         y="1576.1594"
-         x="592.01526"
+         id="tspan15504">Alpha 5</tspan><tspan
          sodipodi:role="line"
-         id="tspan64193-7" /></text>
+         id="tspan15506" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:223.80357361px;line-height:0%;font-family:Sans;-inkscape-font-specification:'Sans, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:0.98000004;fill:#ff0000;fill-opacity:1;stroke:none;enable-background:new"
@@ -49829,11 +49966,11 @@ visual_hitbox_size = 3.5 10 3.5;
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-       d="m 540,1168 30,0 5,-5 0,-325 25,-30 15,0"
+       d="m 540,1168 30,0 5,-5 0,-150"
        id="path612756navigation-2-2-2-6-6-1-2-0-8-8"
        inkscape:connector-curvature="0"
        inkscape:label="#path61276"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="cccc" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
        d="m 615,548 0,55"
@@ -49871,14 +50008,14 @@ visual_hitbox_size = 3.5 10 3.5;
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-       d="M 792.33705,973.13603 888.50001,984.5"
+       d="m 790,973 98.50001,11.5"
        id="path612756navigation-2-2-2-6-6-1-2-0-8-8-7"
        inkscape:connector-curvature="0"
        inkscape:label="#path61276"
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-       d="m 888.50001,984.5 39.2555,-37.75431 55.7664,-0.41045"
+       d="M 888.50001,984.5 927.75551,946.74569 985,948"
        id="path612756navigation-2-2-2-6-6-1-2-0-8-8-7-8"
        inkscape:connector-curvature="0"
        inkscape:label="#path61276"
@@ -49955,18 +50092,18 @@ visual_hitbox_size = 3.5 10 3.5;
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-       d="m 786.98451,811.44107 5.35254,161.69496"
+       d="M 786.98451,811.44107 790,973"
        id="path612756navigation-2-2-2-6-6-1-2-0-8-8-17-3-22"
        inkscape:connector-curvature="0"
        inkscape:label="#path61276"
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-       d="m 983.52191,946.33524 66.45639,-3.32731 18.0071,-128.46667"
+       d="m 1049.9783,943.00793 18.0071,-128.46667"
        id="path612756navigation-2-2-2-6-6-1-2-0-8-8-17-3-1"
        inkscape:connector-curvature="0"
        inkscape:label="#path61276"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
        d="m 1182.5,1371 27.75,-0.25"
@@ -49985,6 +50122,55 @@ visual_hitbox_size = 3.5 10 3.5;
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
        d="m 890.46605,983.47387 46.7567,-3.91818"
        id="path612756navigation-2-2-2-6-6-1-2-0-8-8-17-3-22-8"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path61276"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       d="m 575,1013 190,-10"
+       id="path612756navigation-2-2-2-6-6-1-2-0-8-8-7-1"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path61276"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       d="m 765,1003 25,-30"
+       id="path612756navigation-2-2-2-6-6-1-2-0-8-8-7-1-6"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path61276"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       d="m 575,1013 0,-170 10,-20 30,-15"
+       id="path612756navigation-2-2-2-6-6-1-2-0-8-8-7-1-60"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path61276"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       d="m 765,1003 55,75 55,25 35,5"
+       id="path612756navigation-2-2-2-6-6-1-2-0-8-8-7-1-6-9"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path61276"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       d="m 910,1108 15,-70"
+       id="path612756navigation-2-2-2-6-6-1-2-0-8-8-7-1-6-8"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path61276"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       d="M 910,1108 984.47665,1090.4761 1030,1033 l 20,-90"
+       id="path612756navigation-2-2-2-6-6-1-2-0-8-8-7-1-6-82"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path61276"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#956011;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       d="m 985,948 65,-5"
+       id="path612756navigation-2-2-2-6-6-1-2-0-8-8-7-1-6-828"
        inkscape:connector-curvature="0"
        inkscape:label="#path61276"
        sodipodi:nodetypes="cc" />
@@ -50026,10 +50212,10 @@ faction_index=1;
        transform="matrix(0.99998624,0.00524553,-0.00524553,0.99998624,0,0)"
        style="display:inline;opacity:0.72566373;fill:#ffff00;fill-opacity:1;stroke:none;enable-background:new"
        id="rect4874-8-3-0-6-1-8"
-       width="140.7242"
-       height="207.20531"
-       x="512.75836"
-       y="542.75903"
+       width="76.126762"
+       height="214.60365"
+       x="577.86664"
+       y="544.97626"
        inkscape:label="#rect11324_base">
       <desc
          id="desc4876-3-4-66-0-3-4">name=Alpha 2;
@@ -50114,8 +50300,8 @@ faction_index=0;
          id="boundary_rect4"
          width="2301.8032"
          height="321.25955"
-         x="-66.588531"
-         y="-321.34357"
+         x="-62.751045"
+         y="-279.25671"
          inkscape:label="#rect4003">
         <desc
            id="desc6099-8">height=3;</desc>
@@ -50126,8 +50312,8 @@ faction_index=0;
          id="boundary_rect2"
          width="2264.8262"
          height="370.95486"
-         x="9.1075277"
-         y="-2051.7329"
+         x="1.9836558"
+         y="-2041.583"
          inkscape:label="#rect4003">
         <desc
            id="desc6099-8-7">height=3;</desc>
@@ -60785,51 +60971,6 @@ base_wall_template = BrickWall1;</desc>
       <rect
          transform="matrix(0.99813696,0.06101316,-0.06101316,0.99813696,0,0)"
          style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;enable-background:new"
-         id="rect4878-8-6-42-7-1-8-6-62-7-4-9-2-9-89-7-0-62-2-9"
-         width="2.7892287"
-         height="2.5102499"
-         x="607.64594"
-         y="573.74377"
-         inkscape:label="#spawnrect10748" />
-      <rect
-         transform="matrix(0.99813696,0.06101316,-0.06101316,0.99813696,0,0)"
-         style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;enable-background:new"
-         id="rect4878-8-6-42-7-1-8-6-62-7-4-9-2-9-89-7-0-62-2-2"
-         width="2.7892287"
-         height="2.5102499"
-         x="564.37494"
-         y="600.50873"
-         inkscape:label="#spawnrect10748" />
-      <rect
-         transform="matrix(0.99813696,0.06101316,-0.06101316,0.99813696,0,0)"
-         style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;enable-background:new"
-         id="rect4878-8-6-42-7-1-8-6-62-7-4-9-2-9-89-7-0-62-2-3"
-         width="2.7892287"
-         height="2.5102499"
-         x="617.64514"
-         y="479.87167"
-         inkscape:label="#spawnrect10748" />
-      <rect
-         transform="matrix(0.99813696,0.06101316,-0.06101316,0.99813696,0,0)"
-         style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;enable-background:new"
-         id="rect4878-8-6-42-7-1-8-6-62-7-4-9-2-9-89-7-0-62-2-28"
-         width="2.7892287"
-         height="2.5102499"
-         x="621.41388"
-         y="681.35498"
-         inkscape:label="#spawnrect10748" />
-      <rect
-         transform="matrix(0.99813696,0.06101316,-0.06101316,0.99813696,0,0)"
-         style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;enable-background:new"
-         id="rect4878-8-6-42-7-1-8-6-62-7-4-9-2-9-89-7-0-62-2-99"
-         width="2.7892287"
-         height="2.5102499"
-         x="586.89795"
-         y="711.70184"
-         inkscape:label="#spawnrect10748" />
-      <rect
-         transform="matrix(0.99813696,0.06101316,-0.06101316,0.99813696,0,0)"
-         style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;enable-background:new"
          id="rect4878-8-6-42-7-1-8-6-62-7-4-9-2-9-89-7-0-62-2-6"
          width="2.7892287"
          height="2.5102499"
@@ -60844,15 +60985,6 @@ base_wall_template = BrickWall1;</desc>
          height="2.5102499"
          x="681.49921"
          y="541.08978"
-         inkscape:label="#spawnrect10748" />
-      <rect
-         transform="matrix(0.99813696,0.06101316,-0.06101316,0.99813696,0,0)"
-         style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;enable-background:new"
-         id="rect4878-8-6-42-7-1-8-6-62-7-4-9-2-9-89-7-0-62-2-28-5"
-         width="2.7892287"
-         height="2.5102499"
-         x="543.04803"
-         y="681.10571"
          inkscape:label="#spawnrect10748" />
       <rect
          transform="matrix(0.99813696,0.06101316,-0.06101316,0.99813696,0,0)"
@@ -62444,6 +62576,88 @@ key = gas_tank.vehicle;</desc>
          x="909.83997"
          y="940.72772"
          inkscape:label="#spawnrect10748" />
+      <rect
+         transform="matrix(0.99813696,0.06101316,-0.06101316,0.99813696,0,0)"
+         style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;enable-background:new"
+         id="rect4878-8-6-42-7-1-8-6-62-7-4-9-2-9-89-7-0-62-2-28-4-2"
+         width="2.7892287"
+         height="2.5102499"
+         x="593.62372"
+         y="734.81219"
+         inkscape:label="#spawnrect10748" />
+      <rect
+         transform="matrix(0.99813696,0.06101316,-0.06101316,0.99813696,0,0)"
+         style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;enable-background:new"
+         id="rect4878-8-6-42-7-1-8-6-62-7-4-9-2-9-89-7-0-62-2-28-4-8"
+         width="2.7892287"
+         height="2.5102499"
+         x="712.17987"
+         y="707.52789"
+         inkscape:label="#spawnrect10748" />
+      <rect
+         inkscape:label="#spawn5"
+         y="-345.75433"
+         x="763.65198"
+         height="9.8173637"
+         width="4.2863145"
+         id="rect10498-1-7-9-8-7"
+         style="display:inline;fill:url(#linearGradient49253);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.95491266;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter11084-38-9-2-4);enable-background:new"
+         transform="matrix(-0.99990387,-0.01384974,0.01384974,-0.99990387,1278.2218,275.17285)"
+         ry="0">
+        <title
+           id="title10504-38-0-6-3-58">gas_tank</title>
+        <desc
+           id="desc10500-7-7-5-8-7">type = vehicle; 
+key = gas_tank.vehicle;</desc>
+      </rect>
+      <rect
+         inkscape:label="#spawn5"
+         y="-345.75433"
+         x="763.65198"
+         height="9.8173637"
+         width="4.2863145"
+         id="rect10498-1-7-9-8-77"
+         style="display:inline;fill:url(#linearGradient49273);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.95491266;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter11084-38-9-2-6);enable-background:new"
+         transform="matrix(-0.99990387,-0.01384974,0.01384974,-0.99990387,1278.2218,260.17285)"
+         ry="0">
+        <title
+           id="title10504-38-0-6-3-51">gas_tank</title>
+        <desc
+           id="desc10500-7-7-5-8-6">type = vehicle; 
+key = gas_tank.vehicle;</desc>
+      </rect>
+      <rect
+         inkscape:label="#spawn5"
+         y="-345.75433"
+         x="763.65198"
+         height="9.8173637"
+         width="4.2863145"
+         id="rect10498-1-7-9-8-0"
+         style="display:inline;fill:url(#linearGradient49293);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.95491266;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter11084-38-9-2-3);enable-background:new"
+         transform="matrix(-0.99990387,-0.01384974,0.01384974,-0.99990387,1278.2218,245.17285)"
+         ry="0">
+        <title
+           id="title10504-38-0-6-3-4">gas_tank</title>
+        <desc
+           id="desc10500-7-7-5-8-3">type = vehicle; 
+key = gas_tank.vehicle;</desc>
+      </rect>
+      <rect
+         inkscape:label="#spawn5"
+         y="-345.75433"
+         x="763.65198"
+         height="9.8173637"
+         width="4.2863145"
+         id="rect10498-1-7-9-8-5"
+         style="display:inline;fill:url(#linearGradient49313);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.95491266;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter11084-38-9-2-51);enable-background:new"
+         transform="matrix(-0.99990387,-0.01384974,0.01384974,-0.99990387,1278.2312,232.67171)"
+         ry="0">
+        <title
+           id="title10504-38-0-6-3-8">gas_tank</title>
+        <desc
+           id="desc10500-7-7-5-8-0">type = vehicle; 
+key = gas_tank.vehicle;</desc>
+      </rect>
     </g>
     <g
        style="display:inline"
@@ -63146,8 +63360,8 @@ key = gas_tank.vehicle;</desc>
          rx="10"
          transform="scale(-1,-1)"
          inkscape:label="#rock4477"
-         y="-1126.0548"
-         x="-941.34241"
+         y="-1136.6614"
+         x="-939.92822"
          height="8.5977106"
          width="10.030663"
          id="rect5366-12-4-9-6"
@@ -63322,8 +63536,8 @@ key = gas_tank.vehicle;</desc>
          rx="10"
          transform="scale(-1,-1)"
          inkscape:label="#rock4477"
-         y="-984.83405"
-         x="-688.72424"
+         y="-953.72137"
+         x="-670.33948"
          height="8.5977106"
          width="10.030663"
          id="rect5366-12-4-9-80-45"
@@ -64026,7 +64240,7 @@ key = gas_tank.vehicle;</desc>
          rx="10"
          transform="scale(-1,-1)"
          inkscape:label="#rock4477"
-         y="-1123.799"
+         y="-1129.4558"
          x="-885.01526"
          height="8.5977106"
          width="10.030663"
@@ -64212,6 +64426,294 @@ key = gas_tank.vehicle;</desc>
            id="desc5368-08-5-79-60-1-7-8-2">rock</desc>
         <title
            id="title5370-776-9-4-49-8-7-5-4">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-657.17731"
+         x="-1089.717"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-80-14-8"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-49-52-1">rock</desc>
+        <title
+           id="title5370-776-9-4-44-82-8">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-676.97632"
+         x="-1142.75"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-80-14-84"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-49-52-3">rock</desc>
+        <title
+           id="title5370-776-9-4-44-82-5">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-685.46161"
+         x="-1106.6876"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-80-14-5"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-49-52-34">rock</desc>
+        <title
+           id="title5370-776-9-4-44-82-3">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-668.49103"
+         x="-1086.1815"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-80-14-7"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-49-52-7">rock</desc>
+        <title
+           id="title5370-776-9-4-44-82-0">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-566.66766"
+         x="-1071.3323"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-80-14-1"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-49-52-5">rock</desc>
+        <title
+           id="title5370-776-9-4-44-82-4">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-606.97272"
+         x="-1079.1105"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-80-14-10"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-49-52-8">rock</desc>
+        <title
+           id="title5370-776-9-4-44-82-6">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-544.74731"
+         x="-1109.516"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-80-14-70"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-49-52-77">rock</desc>
+        <title
+           id="title5370-776-9-4-44-82-7">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-556.76819"
+         x="-1206.3896"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-80-14-3"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-49-52-11">rock</desc>
+        <title
+           id="title5370-776-9-4-44-82-45">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-626.77173"
+         x="-1219.8247"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-80-14-0"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-49-52-4">rock</desc>
+        <title
+           id="title5370-776-9-4-44-82-1">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-634.54993"
+         x="-1010.5211"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-80-14-39"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-49-52-46">rock</desc>
+        <title
+           id="title5370-776-9-4-44-82-32">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-1112.5541"
+         x="-822.43066"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-80-5-3-2"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-49-7-8-3">rock</desc>
+        <title
+           id="title5370-776-9-4-44-3-6-3">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-1222.3162"
+         x="-797.57477"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-1-7"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-47-0">rock</desc>
+        <title
+           id="title5370-776-9-4-4-1">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-1232.3162"
+         x="-747.57477"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-1-8"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-47-7">rock</desc>
+        <title
+           id="title5370-776-9-4-4-0">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-1262.3162"
+         x="-787.57477"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-1-1"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-47-9">rock</desc>
+        <title
+           id="title5370-776-9-4-4-6">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-1282.3162"
+         x="-757.57477"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-1-5"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-47-4">rock</desc>
+        <title
+           id="title5370-776-9-4-4-7">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-1272.3162"
+         x="-837.57477"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-1-6"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-47-5">rock</desc>
+        <title
+           id="title5370-776-9-4-4-9">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-1172.3162"
+         x="-747.57477"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-1-2"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-47-6">rock</desc>
+        <title
+           id="title5370-776-9-4-4-78">rock</title>
+      </rect>
+      <rect
+         ry="10"
+         rx="10"
+         transform="scale(-1,-1)"
+         inkscape:label="#rock4477"
+         y="-1102.3162"
+         x="-767.57477"
+         height="8.5977106"
+         width="10.030663"
+         id="rect5366-12-4-9-1-10"
+         style="display:inline;opacity:1;fill:#999999;fill-opacity:1;enable-background:new">
+        <desc
+           id="desc5368-08-5-79-47-52">rock</desc>
+        <title
+           id="title5370-776-9-4-4-8">rock</title>
       </rect>
     </g>
     <g
@@ -65059,53 +65561,11 @@ key = gas_tank.vehicle;</desc>
          ry="4"
          rx="4"
          style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-320"
-         width="8"
-         height="8"
-         x="1006.6594"
-         y="-717.87091"
-         inkscape:label=""
-         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
-        <desc
-           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-09">template = fir;</desc>
-      </rect>
-      <rect
-         ry="4"
-         rx="4"
-         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-02"
-         width="8"
-         height="8"
-         x="1006.5452"
-         y="-688.98987"
-         inkscape:label=""
-         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
-        <desc
-           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-81">template = fir;</desc>
-      </rect>
-      <rect
-         ry="4"
-         rx="4"
-         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-474"
-         width="8"
-         height="8"
-         x="998.24982"
-         y="-648.93481"
-         inkscape:label=""
-         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
-        <desc
-           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-226">template = fir;</desc>
-      </rect>
-      <rect
-         ry="4"
-         rx="4"
-         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
          id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-44"
          width="8"
          height="8"
-         x="970.64478"
-         y="-683.06763"
+         x="939.95526"
+         y="-663.98486"
          inkscape:label=""
          transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
         <desc
@@ -65118,8 +65578,8 @@ key = gas_tank.vehicle;</desc>
          id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-047"
          width="8"
          height="8"
-         x="962.96295"
-         y="-672.41602"
+         x="932.27344"
+         y="-653.33325"
          inkscape:label=""
          transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
         <desc
@@ -65132,8 +65592,8 @@ key = gas_tank.vehicle;</desc>
          id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-87"
          width="8"
          height="8"
-         x="981.71826"
-         y="-747.20825"
+         x="951.02875"
+         y="-728.12549"
          inkscape:label=""
          transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
         <desc
@@ -65146,8 +65606,8 @@ key = gas_tank.vehicle;</desc>
          id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-777"
          width="8"
          height="8"
-         x="973.94995"
-         y="-740.38812"
+         x="943.26044"
+         y="-721.30536"
          inkscape:label=""
          transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
         <desc
@@ -65664,8 +66124,8 @@ key = gas_tank.vehicle;</desc>
          id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-60-66"
          width="8"
          height="8"
-         x="956.43457"
-         y="-1001.8942"
+         x="980.76385"
+         y="-1036.3937"
          inkscape:label=""
          transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
         <desc
@@ -65804,8 +66264,8 @@ key = gas_tank.vehicle;</desc>
          id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-60-8"
          width="8"
          height="8"
-         x="955.92035"
-         y="-1028.2617"
+         x="940.62561"
+         y="-1032.1599"
          inkscape:label=""
          transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
         <desc
@@ -70487,6 +70947,188 @@ key = gas_tank.vehicle;</desc>
         <desc
            id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-30-751-53-210-9">template = fir;</desc>
       </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-60-305-0"
+         width="8"
+         height="8"
+         x="815.96857"
+         y="-880.46326"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-30-75-6">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-60-305-9"
+         width="8"
+         height="8"
+         x="820.15686"
+         y="-961.1886"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-30-75-2">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-60-305-1"
+         width="8"
+         height="8"
+         x="850.2475"
+         y="-1006.7811"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-30-75-0">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-68-20-1"
+         width="8"
+         height="8"
+         x="443.40479"
+         y="-559.60437"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-25-907-5">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-68-20-0"
+         width="8"
+         height="8"
+         x="451.48248"
+         y="-644.80853"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-25-907-7">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-68-20-09"
+         width="8"
+         height="8"
+         x="435.10742"
+         y="-624.07556"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-25-907-6">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-68-20-8"
+         width="8"
+         height="8"
+         x="432.50391"
+         y="-599.36829"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-25-907-9">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-68-20-3"
+         width="8"
+         height="8"
+         x="441.14624"
+         y="-659.57886"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-25-907-99">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-68-20-03"
+         width="8"
+         height="8"
+         x="461.45615"
+         y="-564.65546"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-25-907-2">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-68-20-9"
+         width="8"
+         height="8"
+         x="430.35831"
+         y="-694.34406"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-25-907-3">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-68-20-99"
+         width="8"
+         height="8"
+         x="480.20267"
+         y="-480.41525"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-25-907-92">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-68-20-02"
+         width="8"
+         height="8"
+         x="514.32031"
+         y="-741.25232"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-25-907-21">template = fir;</desc>
+      </rect>
+      <rect
+         ry="4"
+         rx="4"
+         style="display:inline;opacity:1;fill:#1eff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.33485734;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         id="mesh_set1-7-1-245-69-65-02-9-59-4-24-7-4-72-28-03-38-68-20-6"
+         width="8"
+         height="8"
+         x="485.00549"
+         y="-710.58246"
+         inkscape:label=""
+         transform="matrix(-0.0225853,0.99974492,-0.99974492,-0.0225853,0,0)">
+        <desc
+           id="desc8113-22-2-9-4-6-7-7-97-12-98-439-01-8-59-3-1-9-4-6-55-06-84-25-907-69">template = fir;</desc>
+      </rect>
     </g>
     <g
        style="display:inline"
@@ -71106,22 +71748,11 @@ key = gas_tank.vehicle;</desc>
          inkscape:transform-center-y="381.72584" />
       <rect
          style="display:inline;fill:#ff9955;fill-opacity:1;stroke:none;enable-background:new"
-         id="craterect10748-4-65-5-2-11-39"
-         width="4.9588485"
-         height="4.4664636"
-         x="-63.611439"
-         y="-899.90527"
-         inkscape:label="#rect10748"
-         transform="matrix(-0.80348099,0.59533041,-0.59533041,-0.80348099,0,0)"
-         inkscape:transform-center-x="-91.667445"
-         inkscape:transform-center-y="381.72584" />
-      <rect
-         style="display:inline;fill:#ff9955;fill-opacity:1;stroke:none;enable-background:new"
          id="craterect10748-4-65-5-2-11-77"
          width="4.9588485"
          height="4.4664636"
-         x="-26.844908"
-         y="-871.41888"
+         x="-72.025551"
+         y="-748.24084"
          inkscape:label="#rect10748"
          transform="matrix(-0.80348099,0.59533041,-0.59533041,-0.80348099,0,0)"
          inkscape:transform-center-x="-91.667445"
@@ -71903,6 +72534,28 @@ key = gas_tank.vehicle;</desc>
         <desc
            id="desc5002-4-7-1-48">tag = fixed_crate;</desc>
       </rect>
+      <rect
+         style="display:inline;fill:#ff9955;fill-opacity:1;stroke:none;enable-background:new"
+         id="craterect10748-4-65-5-2-11-69-3-2"
+         width="4.9588485"
+         height="4.4664636"
+         x="-3.2211993"
+         y="-1820.8097"
+         inkscape:label="#rect10748"
+         transform="matrix(-0.80348099,0.59533041,-0.59533041,-0.80348099,0,0)"
+         inkscape:transform-center-x="-91.667445"
+         inkscape:transform-center-y="381.72584" />
+      <rect
+         style="display:inline;fill:#ff9955;fill-opacity:1;stroke:none;enable-background:new"
+         id="craterect10748-4-65-5-2-11-69-3-9"
+         width="4.9588485"
+         height="4.4664636"
+         x="-85.650803"
+         y="-1894.3308"
+         inkscape:label="#rect10748"
+         transform="matrix(-0.80348099,0.59533041,-0.59533041,-0.80348099,0,0)"
+         inkscape:transform-center-x="-91.667445"
+         inkscape:transform-center-y="381.72584" />
     </g>
     <g
        style="display:inline"
@@ -72003,19 +72656,6 @@ tag = jeep;</desc>
         <desc
            id="desc7082-5-2-3-9-0">type = vehicle; 
 tag = jeep;</desc>
-      </rect>
-      <rect
-         transform="matrix(-0.9986382,0.05217026,-0.05217026,-0.9986382,0,0)"
-         inkscape:label=""
-         y="-1636.7882"
-         x="-385.5347"
-         height="6.6684999"
-         width="5.7888808"
-         id="spawn1-70-3-1-1"
-         style="display:inline;fill:#6c5353;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.99999995, 4.00000036;stroke-dashoffset:6.99999952;stroke-opacity:1;enable-background:new">
-        <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-7-5">type = vehicle;
-key = patrol_ship.vehicle;</desc>
       </rect>
       <rect
          transform="matrix(0.00911406,0.99995847,-0.99995847,0.00911406,0,0)"
@@ -73115,6 +73755,30 @@ collision_model_size = 3 3.5 5.4;</desc>
         <desc
            id="desc7569-9-3-1-4-4-6-9-3-2-9-7-62-7-8-2-5-8-9-4-6-6-3-5-3">template = container_blue;</desc>
       </rect>
+      <rect
+         transform="matrix(0.99999985,5.4715256e-4,-5.4715256e-4,0.99999985,0,0)"
+         inkscape:label="#rect6406"
+         y="1208.2511"
+         x="455.66116"
+         height="99.989105"
+         width="20.054716"
+         id="buildingrect6406-7-4-1-3-8-0-0-7-5-10-5-2-1-8-5-8-7-7-9-15-6-8-9-7-9-0-3-2-6-96-3-9-4-1-4"
+         style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.99999958;stroke-opacity:1;enable-background:new">
+        <desc
+           id="desc6462-7-9-9-15-3-2-33-7-8-4-24-5-5-6-9-5-42-8-0-4-1-6-3-8-2-7-3-2-9-9-7-2">height=1; material = BuildingWhite1; roof_type = flat; offset = 0 0.5 0;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.99999985,5.4715256e-4,-5.4715256e-4,0.99999985,0,0)"
+         inkscape:label="#rect6406"
+         y="1207.7317"
+         x="490.66089"
+         height="99.989105"
+         width="20.054716"
+         id="buildingrect6406-7-4-1-3-8-0-0-7-5-10-5-2-1-8-5-8-7-7-9-15-6-8-9-7-9-0-3-2-6-96-3-9-4-1-4-8"
+         style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.99999958;stroke-opacity:1;enable-background:new">
+        <desc
+           id="desc6462-7-9-9-15-3-2-33-7-8-4-24-5-5-6-9-5-42-8-0-4-1-6-3-8-2-7-3-2-9-9-7-2-6">height=1; material = BuildingWhite1; roof_type = flat; offset = 0 0.5 0;</desc>
+      </rect>
     </g>
     <g
        style="display:inline"
@@ -73582,6 +74246,202 @@ height = 5.5; </desc>
          transform="matrix(-0.99996157,-0.00876737,0.00876737,-0.99996157,0,0)">
         <desc
            id="desc7569-9-3-1-4-4-3-6-9-8-0-3-2-7-3-3-6-5-8">template = container_red;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1296.7745"
+         x="-188.97615"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-9"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-4">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1309.6849"
+         x="-196.61299"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-6"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-9">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1322.5953"
+         x="-204.24983"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-5"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-0">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1335.5057"
+         x="-211.88669"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-0"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-7">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1348.4161"
+         x="-219.52353"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-06"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-5">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1361.3265"
+         x="-227.16037"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-3"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-6">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1374.2369"
+         x="-234.79721"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-55"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-67">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1356.4176"
+         x="-264.92151"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-36"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-1">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1343.5072"
+         x="-257.28467"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-98"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-13">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1330.5968"
+         x="-249.64781"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-00"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-54">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1317.6864"
+         x="-242.01097"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-7"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-66">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1304.776"
+         x="-234.37411"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-04"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-65">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1291.8656"
+         x="-226.73727"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-72"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-46">template = pipe;</desc>
+      </rect>
+      <rect
+         transform="matrix(0.86069379,-0.50912297,0.50912297,0.86069379,0,0)"
+         inkscape:label="#mesh"
+         y="1278.9552"
+         x="-219.10043"
+         height="3.6170266"
+         width="3.5137532"
+         id="rect1000000-61-6-06-5-8-1-1-4-04-13-6-44-8-049"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1;enable-background:new"
+         rx="3"
+         ry="3">
+        <desc
+           id="desc7569-86-7-2-8-1-4-1-1-21-37-2-6-5-98">template = pipe;</desc>
       </rect>
     </g>
     <g

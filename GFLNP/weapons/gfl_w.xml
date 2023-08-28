@@ -896,17 +896,15 @@ RE
 <weapon file="gw_k2_s.weapon" />
 <weapon file="gw_pkm_n.weapon" />
 
-<weapon file="xm177k4.weapon" />
+<!-- <weapon file="xm177k4.weapon" />
 <weapon file="xm177k44.weapon" />
 <weapon file="xm177k1.weapon" />
 <weapon file="xm177k11.weapon" />
 <weapon file="xm177k2.weapon" />
 <weapon file="xm177e1.weapon" />
 <weapon file="xm177e2.weapon" />
-<weapon file="xm177k4.weapon" />
-<weapon file="xm177k44.weapon" />
 <weapon file="gw_qlu11_k1.weapon" />
-<weapon file="gw_qlu11_k2.weapon" />
+<weapon file="gw_qlu11_k2.weapon" /> -->
 
 <weapon file="gw_hikou.weapon" />
 

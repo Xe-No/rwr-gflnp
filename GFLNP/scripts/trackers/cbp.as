@@ -20,6 +20,10 @@ class GFLEquipmentEvent : Tracker {
 		//CB合成分解字典
 		dictionary dict = {
 			// 0.40
+			{"ew_momoi_g3.weapon", "sr" },
+			{"ew_midori_g3.weapon", "sr" },
+			{"ew_ballista.weapon", "sr" },
+			{"ew_ballista_r.weapon", "sr" },
 
 			// 0.39
 			{"ew_akayo_1145.weapon", "sr" },
@@ -219,7 +223,6 @@ class GFLEquipmentEvent : Tracker {
 				{"gw_dsr50_1801.weapon","gw_dsr50_1801_oath.weapon"},
 				{"gw_an94mod.weapon","gw_an94mod_oath.weapon"},
 				{"gw_an94mod_s.weapon","gw_an94mod_s_oath.weapon"}			
-
 		};
 
 		//配件安装字典
@@ -508,7 +511,6 @@ class GFLEquipmentEvent : Tracker {
 					}
 				}
 			}
-
 		}
 
 		//配件安装功能，根据手雷栏道具进行转化
@@ -720,7 +722,7 @@ class GFLEquipmentEvent : Tracker {
 				"naoto_rpl20_d.weapon"
 			};
 			return result;
-		}else if(key == "baiz_marker.projectile"){
+		}else if(key == "baizi_marker.projectile"){
 			array<string> result = {
 				"ew_baiz.weapon",
 				"ew_baiz_r.weapon",

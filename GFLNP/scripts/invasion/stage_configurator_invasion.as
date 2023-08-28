@@ -186,8 +186,8 @@ class StageConfiguratorInvasion : StageConfigurator {
 		// addStage(setupStage18());         // map13_2
 		// addStage(setupStage16());         // map8_2
 		
-		addStage(setupIslandLaboratory());     
-		addStage(setupSevanBeach());     
+		 
+		    
 		addStage(setupStage7());          // map6
 		addStage(setupStage1());          // map2
 	    addStage(setupStage9());          // map9
@@ -197,11 +197,13 @@ class StageConfiguratorInvasion : StageConfigurator {
 	    addStage(setupStage10());         // map10
 	    addStage(setupStage17());         // map17    
 	    addStage(setupStage3());          // map3
+	    addStage(setupSevanBeach()); 
 	    addStage(setupStage13());         // map16    
 		addStage(setupFinalStage1());     // map11
 	    addStage(setupStage8());          // map8
 	 	addStage(setupStage14());         // map6_2
 	    addStage(setupStage2());          // map4
+	    addStage(setupIslandLaboratory());    
 	    addStage(setupStage5());          // map1
 	    addStage(setupStage6());          // map5
 		addStage(setupRoberto());          

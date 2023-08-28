@@ -9,6 +9,9 @@
 	<weapon key="blueprint_refit_parts.weapon" />
     <projectile key="gw_mg4_marker.projectile" />
     <projectile key="naoto_marker.projectile" />
+    <projectile key="baizi_marker.projectile" />
+    <!-- <projectile key="mk1_part.projectile" /> -->
+    <!-- <projectile key="mk2_part.projectile" /> -->
     <projectile key="parts_m14_bipod.projectile" />
 	<projectile key="ammo_ar15_300blk.projectile" />
 	<projectile key="token_dima.projectile" />

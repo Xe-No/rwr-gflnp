@@ -41,6 +41,6 @@
         <effect class="muzzle" ref="ba_tiger_muzzle_spark" lighting="0"/> 
 
 
-    <sound class="operation" key="fire" fileref="centurion_avre_cannon_shot.wav" />
+    <sound class="operation" key="fire" fileref="ba_torumaru_cannon_shot.wav" />
 
 </weapon>

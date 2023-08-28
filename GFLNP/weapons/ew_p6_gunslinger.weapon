@@ -32,7 +32,7 @@ on_ground_up="0 0 1"
 	/> 
 	<!--0全自动 4半自动 2栓动 3特殊（需要额外动作）5近程特殊（如部署沙包）-->
 	
-    <next_in_chain key="ew_p6_gunslinger_burst.weapon" share_ammo="0" /> 
+    <next_in_chain key="ew_p6_gunslinger_burst.weapon" share_ammo="1" /> 
 
     <animation key="cycle" ref="28" /> 
     <animation state_key="recoil"   animation_key="recoil, pistol 2" />

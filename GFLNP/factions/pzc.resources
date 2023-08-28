@@ -36,11 +36,11 @@
     <projectile key="sherman_flare.projectile" /> 
     <projectile key="kv2_gup_flare.projectile" /> 
 
-    <projectile key="type87.vehicle" />
-    <projectile key="m18.vehicle" />
-    <projectile key="matv_m2hb.vehicle" />
-    <projectile key="pickup.vehicle" />
-    <projectile key="hatchet.vehicle" />
+    <projectile key="type87_flare.projectile" />
+    <projectile key="m18_flare.projectile" />
+    <projectile key="matv_m2hb_flare.projectile" />
+    <projectile key="pickup_flare.projectile" />
+    <projectile key="hatchet_flare.projectile" />
 
     <call key="tank_crew.call" enabled="1"/>
     <call key="drop_pod_crew.call" enabled="1"/>

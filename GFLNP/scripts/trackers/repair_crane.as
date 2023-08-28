@@ -99,6 +99,7 @@ class RepairCrane : Tracker {
 			//extracting the repairer's id
 			int repairerId = event.getIntAttribute("character_id");
 			const XmlElement@ repairer = getCharacterInfo(m_metagame, repairerId);
+			if (repairer is null) return;
 			int factionId = repairer.getIntAttribute("faction_id");
 		
 			//extracting the repair position
