@@ -147,9 +147,9 @@ class StageConfiguratorInvasion : StageConfigurator {
 			ScoredResource("special_crate28.vehicle", "vehicle", 5.0f),          // cb1
 			ScoredResource("special_crate29.vehicle", "vehicle", 100.0f),          // resmini
 			ScoredResource("special_crate30.vehicle", "vehicle", 100.0f),           // resgl
-      ScoredResource("special_crate35.vehicle", "vehicle", 100.0f),          // banana peel
-      ScoredResource("special_crate19.vehicle", "vehicle", 5.0f),          // l39
-      ScoredResource("special_crate32.vehicle", "vehicle", 5.0f)          // stoner62
+			ScoredResource("special_crate35.vehicle", "vehicle", 100.0f),          // banana peel
+			ScoredResource("special_crate19.vehicle", "vehicle", 5.0f),          // l39
+			ScoredResource("special_crate32.vehicle", "vehicle", 5.0f)          // stoner62
 		};
 		stage.addTracker(SpawnAtNode(m_metagame, resources, "fixed_crate", 0, 1000));
 	}
@@ -181,33 +181,32 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 	// ------------------------------------------------------------------------------------------------
 	protected void setupNormalStages() {
-	addStage(setupFortBelgradeSuburb());     
-	// addStage(setupViper());          
-      
-	addStage(setupStage7());          // map6
-	// addStage(setupStage18());         // map13_2
-	addStage(setupStage1());          // map2
-    addStage(setupStage9());          // map9
-    // addStage(setupStage16());         // map8_2
-    addStage(setupStage4());          // map7
-	addStage(setupStage15());         // map1_2
-    addStage(setupStage12());         // map14
-    addStage(setupStage10());         // map10
-    addStage(setupStage17());         // map17    
-    addStage(setupStage3());          // map3
-    addStage(setupStage13());         // map16    
-	addStage(setupFinalStage1());     // map11
-    addStage(setupStage8());          // map8
- 	addStage(setupStage14());         // map6_2
-    addStage(setupStage2());          // map4
-    addStage(setupStage5());          // map1
-    addStage(setupStage6());          // map5
-	     
-	addStage(setupRoberto());          
-	addStage(setupClairemont());   
-	// addStage(setupFinalStage2());     // map12
-	addStage(setupStage19());
-    addStage(setupStage11());         // map13
+		// addStage(setupFortBelgradeSuburb());     
+		// addStage(setupViper());    
+		// addStage(setupStage18());         // map13_2
+		// addStage(setupStage16());         // map8_2
+		addStage(setupIslandLaboratory());     
+		addStage(setupSevanBeach());     
+		addStage(setupStage7());          // map6
+		addStage(setupStage1());          // map2
+	    addStage(setupStage9());          // map9
+	    addStage(setupStage4());          // map7
+		addStage(setupStage15());         // map1_2
+	    addStage(setupStage12());         // map14
+	    addStage(setupStage10());         // map10
+	    addStage(setupStage17());         // map17    
+	    addStage(setupStage3());          // map3
+	    addStage(setupStage13());         // map16    
+		addStage(setupFinalStage1());     // map11
+	    addStage(setupStage8());          // map8
+	 	addStage(setupStage14());         // map6_2
+	    addStage(setupStage2());          // map4
+	    addStage(setupStage5());          // map1
+	    addStage(setupStage6());          // map5
+		addStage(setupRoberto());          
+		addStage(setupClairemont());   
+		addStage(setupStage19());
+	    addStage(setupStage11());         // map13
 	}
 
 	// --------------------------------------------
@@ -274,6 +273,91 @@ class StageConfiguratorInvasion : StageConfigurator {
 	
 	// stage setup start
 	// ------------------------------------------------------------------------------------------------
+	protected Stage@ setupIslandLaboratory() {
+		Stage@ stage = createStage();
+		stage.m_mapInfo.m_name = "Island Laboratory";
+		stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/IslandLaboratory";
+		stage.m_mapInfo.m_id = "map5";
+
+		stage.m_maxSoldiers = 11 * 10;
+		stage.m_playerAiCompensation = 4;                                       // was 5 (test4)
+    	stage.m_playerAiReduction = 2.5;                                        // was 2 (test3)
+
+		stage.addTracker(PeacefulLastBase(m_metagame, 0));
+		stage.addTracker(CommsCapacityHandler(m_metagame));
+
+    	stage.m_minRandomCrates = 2; 
+    	stage.m_maxRandomCrates = 4;
+
+		{
+			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0));
+			f.m_overCapacity = 0;                                                  // was 20 in 1.65
+			f.m_bases = 1;
+			// seems to be quite hard at times, try to favor greens a bit
+			f.m_capacityMultiplier = 1.0;                                          // was 1.1 in 1.65
+      		f.m_capacityOffset = 0;                                                // was 0 in 1.65
+			stage.m_factions.insertLast(f);
+		}
+		for (uint rfi = 1; rfi < getFactionConfigs().size() - 1; ++rfi){
+			{
+				Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(rfi));
+				f.m_overCapacity = 30;                                              // was 0 (test2)            
+				f.m_capacityOffset = 5;                                             // was 0 in 1.65
+				stage.m_factions.insertLast(f);
+			}
+		}
+
+		// metadata
+		stage.m_primaryObjective = "capture";
+
+		setDefaultAttackBreakTimes(stage);
+		return stage;
+	} 
+
+	// ------------------------------------------------------------------------------------------------
+	protected Stage@ setupSevanBeach() {
+		Stage@ stage = createStage();
+		stage.m_mapInfo.m_name = "Sevan Beach";
+		stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/SevanBeach";
+		stage.m_mapInfo.m_id = "map5";
+
+		stage.m_maxSoldiers = 11 * 10;
+		stage.m_playerAiCompensation = 4;                                       // was 5 (test4)
+    	stage.m_playerAiReduction = 2.5;                                        // was 2 (test3)
+
+		stage.addTracker(PeacefulLastBase(m_metagame, 0));
+		stage.addTracker(CommsCapacityHandler(m_metagame));
+
+    	stage.m_minRandomCrates = 2; 
+    	stage.m_maxRandomCrates = 4;
+
+		{
+			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0));
+			f.m_overCapacity = 0;                                                  // was 20 in 1.65
+			f.m_bases = 1;
+			// seems to be quite hard at times, try to favor greens a bit
+			f.m_capacityMultiplier = 1.0;                                          // was 1.1 in 1.65
+      		f.m_capacityOffset = 0;                                                // was 0 in 1.65
+			stage.m_factions.insertLast(f);
+		}
+		for (uint rfi = 1; rfi < getFactionConfigs().size() - 1; ++rfi){
+			{
+				Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(rfi));
+				f.m_overCapacity = 30;                                              // was 0 (test2)            
+				f.m_capacityOffset = 5;                                             // was 0 in 1.65
+				stage.m_factions.insertLast(f);
+			}
+		}
+
+		// metadata
+		stage.m_primaryObjective = "capture";
+
+		setDefaultAttackBreakTimes(stage);
+		return stage;
+	} 
+
+
+	// ------------------------------------------------------------------------------------------------
 	protected Stage@ setupStage1() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Keepsake Bay";
@@ -323,17 +407,17 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.m_mapInfo.m_path = "media/packages/vanilla.winter/maps/map4";
 		stage.m_mapInfo.m_id = "map4";
 
-    stage.m_fogOffset = 20.0;    
-    stage.m_fogRange = 50.0;     
+    	stage.m_fogOffset = 20.0;    
+    	stage.m_fogRange = 50.0;     
 
 		stage.addTracker(PeacefulLastBase(m_metagame, 0));
 		stage.addTracker(CommsCapacityHandler(m_metagame));
 		stage.m_maxSoldiers = 17 * 6;
 		stage.m_playerAiCompensation = 4;                                         // was 5 (test4)
-    stage.m_playerAiReduction = 2.5;                                            // was 2 (test3)
+    	stage.m_playerAiReduction = 2.5;                                            // was 2 (test3)
 
-    stage.m_minRandomCrates = 2; 
-    stage.m_maxRandomCrates = 3;    
+    	stage.m_minRandomCrates = 2; 
+    	stage.m_maxRandomCrates = 3;    
 	
 		// random faction index
 		int rfi = rand(1, getFactionConfigs().size() - 2);
