@@ -20,7 +20,7 @@
     <model mesh_filename="" texture_filename="" />
     <hud_icon filename="hud_tank_cannon.png" />
     <commonness value="0.0" />
-    <projectile file="tank_cannon.projectile" />
+    <projectile file="m61a5_cannon.projectile" />
 
     <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
     <target_factors tag="heavy_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="10.0" />
