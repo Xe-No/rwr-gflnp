@@ -173,7 +173,7 @@
 			<projectile key="l333_flare.projectile" />
 			<projectile key="pz4h_flare.projectile" />
 			<projectile key="sherman_flare.projectile" /> 
-			<projectile key="saint_chamond.projectile" />
+			<projectile key="saint_chamond_flare.projectile" />
 			<call key="a10_gun_run.call" />
 			<!-- <call key="f16_missle_run.call" /> -->
 			<call key="ac130_gun_run.call" />
@@ -209,8 +209,8 @@
 			<projectile key="sturmtiger_flare.projectile" />
 			<projectile key="l333_flare.projectile" />
 			<projectile key="pz4h_flare.projectile" />
-			<projectile key="saint_chamond.projectile" />
-			<projectile key="lynx_aa.projectile" />
+			<projectile key="saint_chamond_flare.projectile" />
+			<projectile key="lynx_aa_flare.projectile" />
 			<call key="a10_gun_run.call" />
 			<!-- <call key="f16_missle_run.call" /> -->
 			<call key="ac130_gun_run.call" />
