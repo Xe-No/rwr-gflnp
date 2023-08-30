@@ -290,10 +290,8 @@ array<array<ScoredResource@>> reward_white_arsmg = {
         ScoredResource("gw_cbjms.weapon", "weapon", 1.0f),
         ScoredResource("gw_mcx.weapon", "weapon", 1.0f),    
         ScoredResource("gw_fedorov.weapon", "weapon", 1.0f),    //0.36
-        ScoredResource("gw_augpara.weapon", "weapon", 1.0f)
-        ScoredResource("gw_m1928a_5703.weapon", "weapon", 1.0f),
-
-        
+        ScoredResource("gw_augpara.weapon", "weapon", 1.0f),
+        ScoredResource("gw_m1928a_5703.weapon", "weapon", 1.0f)
     },
     {   
         // 0.40
@@ -330,7 +328,6 @@ array<array<ScoredResource@>> reward_white_arsmg = {
         ScoredResource("gw_js09.weapon", "weapon", 1.0f),
         ScoredResource("gw_qbz191.weapon", "weapon", 1.0f),
         ScoredResource("gw_ak15.weapon", "weapon", 1.0f)
-
     }
 };  
 

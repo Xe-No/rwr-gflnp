@@ -199,13 +199,21 @@ class MyItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 				ScoredResource("gold_bar.carry_item", "carry_item", 1.0f)
 			},
 			{	
+				// 0.40
+				ScoredResource("token_acg_graf_spee.projectile", "projectile", 2.0f, 2),
+				ScoredResource("token_acg_gawr_gura.projectile", "projectile", 2.0f, 2),
+				ScoredResource("token_keqing.projectile", "projectile", 2.0f, 2),
+				ScoredResource("token_kiriko.projectile", "projectile", 2.0f, 2),
+				ScoredResource("token_yuuki_ggo.projectile", "projectile", 2.0f, 2),
+
+
 				// 0.39
-				ScoredResource("token_ononoki.projectile", "projectile", 2.0f, 2),
-				ScoredResource("token_misaka_10032.projectile", "projectile", 2.0f, 2),
-				ScoredResource("token_misaka_mikoto.projectile", "projectile", 2.0f, 2),
-				ScoredResource("token_rem.projectile", "projectile", 2.0f, 2),
-				ScoredResource("token_tachibana_kanade.projectile", "projectile", 2.0f, 2),
-				ScoredResource("token_yukikaze.projectile", "projectile", 2.0f, 2),
+				ScoredResource("token_ononoki.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_misaka_10032.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_misaka_mikoto.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_rem.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_tachibana_kanade.projectile", "projectile", 1.0f, 2),
+				ScoredResource("token_yukikaze.projectile", "projectile", 1.0f, 2),
 
 
 				ScoredResource("token_inori.projectile", "projectile", 1.0f, 2),
