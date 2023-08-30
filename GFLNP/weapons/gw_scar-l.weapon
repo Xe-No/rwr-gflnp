@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-	<weapon key="scar-l.weapon" file="base_AR.weapon">
+	<weapon key="gw_scar-l.weapon" file="base_AR.weapon">
     <tag name="assault" />
     <specification 	
         retrigger_time="0.100" 
@@ -12,7 +12,7 @@
         class="0" 
         ai_sight_range_modifier="1.1" 
         sight_range_modifier="1.2" projectile_speed="160.0" barrel_offset="0.55" 	projectiles_per_shot="1" />
-    <next_in_chain key="scar-l_sl.weapon" share_ammo="1" />
+    <next_in_chain key="gw_scar-l_sl.weapon" share_ammo="1" />
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
     <animation key="recoil" ref="14" />

@@ -44,8 +44,26 @@
 		<item_container class="armory" offset="0 0 0" soldier_group="default" />
 		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_all.mesh.png" />
 	</vehicle>
+
+<!-- test -->
 	<vehicle file="gk_supply_base.vehicle" name="test Box" key="test.vehicle"  >
 		<item_container class="armory" offset="0 0 0" soldier_group="supply_test" />
 		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_all.mesh.png" />
 	</vehicle>	
+	<vehicle file="gk_supply_base.vehicle" name="HVY3 Box" key="test_hvy3.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="HVY3" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_all.mesh.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="MED Box" key="test_med.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="MED" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_all.mesh.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="TEL2 Box" key="test_tel2.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="TEL2" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_all.mesh.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="TEL2 Box" key="test_pzc.vehicle"  >
+		<item_container class="armory" offset="0 0 0" soldier_group="PZC" />
+		<visual class="chassis" mesh_filename="gk_supply.mesh" texture_filename="gk_supply_all.mesh.png" />
+	</vehicle>
 </vehicles>

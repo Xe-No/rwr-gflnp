@@ -895,6 +895,8 @@ RE
 <weapon file="gw_k2.weapon" />
 <weapon file="gw_k2_s.weapon" />
 <weapon file="gw_pkm_n.weapon" />
+<weapon file="gw_80mod3.weapon" />
+<weapon file="gw_80mod3_n.weapon" />
 
 <!-- <weapon file="xm177k4.weapon" />
 <weapon file="xm177k44.weapon" />

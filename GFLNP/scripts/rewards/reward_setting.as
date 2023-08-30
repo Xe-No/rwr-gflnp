@@ -13,9 +13,11 @@ array<array<ScoredResource@>> reward_white = {
         ScoredResource("gw_saf.weapon", "weapon", 3.0f),
         ScoredResource("gw_ar57.weapon", "weapon", 3.0f),       //0.4
         ScoredResource("gw_fo-12.weapon", "weapon", 3.0f),
-        ScoredResource("gw_hk433.weapon", "weapon", 3.0f),           
+        ScoredResource("gw_hk433.weapon", "weapon", 3.0f), 
+        ScoredResource("gw_saf.weapon", "weapon", 3.0f),        
+        ScoredResource("gw_scar-l.weapon", "weapon", 3.0f),
         // 0.39
-        ScoredResource("gw_m1928a.weapon", "weapon", 1.0f), 
+        ScoredResource("gw_m1928a_5703.weapon", "weapon", 1.0f), 
         ScoredResource("gw_m1873.weapon", "weapon", 1.0f), 
         ScoredResource("gw_m9.weapon", "weapon", 1.0f), 
         ScoredResource("gw_c96.weapon", "weapon", 1.0f), 
@@ -102,6 +104,7 @@ array<array<ScoredResource@>> reward_white = {
         ScoredResource("gw_s99.weapon", "weapon", 1.0f),        //0.36
         ScoredResource("gw_vp1915.weapon", "weapon", 1.0f),     //0.36
         ScoredResource("gw_ak15.weapon", "weapon", 1.0f)
+        
     },
     {   
         ScoredResource("gw_m14.weapon", "weapon", 1.0f), 
@@ -254,6 +257,7 @@ array<array<ScoredResource@>> reward_white_arsmg = {
         ScoredResource("gw_qbu191.weapon", "weapon", 3.0f),
         ScoredResource("gw_scr_f.weapon", "weapon", 3.0f),
         ScoredResource("gw_scar-l.weapon", "weapon", 3.0f),
+        ScoredResource("gw_saf.weapon", "weapon", 3.0f), 
 
         ScoredResource("gw_ump45.weapon", "weapon", 1.0f), 
         ScoredResource("gw_ump9.weapon", "weapon", 1.0f), 
@@ -287,6 +291,7 @@ array<array<ScoredResource@>> reward_white_arsmg = {
         ScoredResource("gw_mcx.weapon", "weapon", 1.0f),    
         ScoredResource("gw_fedorov.weapon", "weapon", 1.0f),    //0.36
         ScoredResource("gw_augpara.weapon", "weapon", 1.0f)
+        ScoredResource("gw_m1928a_5703.weapon", "weapon", 1.0f),
 
         
     },
@@ -449,7 +454,7 @@ array<array<ScoredResource@>> reward_black = {
         ScoredResource("gw_stg44mod3.weapon", "weapon", 3.0f),
         ScoredResource("gw_tmp_meow_prism_power.weapon", "weapon", 3.0f),
         ScoredResource("gw_sp9_china.weapon", "weapon", 3.0f),
-        ScoredResource("gw_m1928a_5703.weapon", "weapon", 3.0f),
+        ScoredResource("gw_m1928a.weapon", "weapon", 3.0f),
 
         ScoredResource("hk416_eva.weapon", "weapon", 1.0f),
         ScoredResource("hyz88_mech.weapon", "weapon", 1.0f),
@@ -593,7 +598,7 @@ array<array<ScoredResource@>> reward_black_arsmghg = {
         ScoredResource("gw_stg44mod3.weapon", "weapon", 3.0f),
         ScoredResource("gw_tmp_meow_prism_power.weapon", "weapon", 3.0f),
         ScoredResource("gw_sp9_china.weapon", "weapon", 3.0f),
-        ScoredResource("gw_m1928a_5703.weapon", "weapon", 3.0f),
+        ScoredResource("gw_m1928a.weapon", "weapon", 3.0f),
         
         ScoredResource("hk416_eva.weapon", "weapon", 1.0f),
         ScoredResource("gw_9a91_1302.weapon", "weapon", 1.0f),

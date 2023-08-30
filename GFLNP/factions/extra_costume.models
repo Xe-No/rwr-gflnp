@@ -33,6 +33,9 @@
     <model filename="le_fantasque.xml" score="3000"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="le_fantasque.carry_item"/></model>
     <model filename="le_fantasque.xml" score="3000"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="le_fantasque_1"/></model>
     <model filename="le_fantasque.xml" score="3000"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="le_fantasque_2"/></model>
+    <model filename="le_fantasque.xml" score="3000"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="le_fantasque_3"/></model>
+    <model filename="le_fantasque.xml" score="3000"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="le_fantasque_4"/></model>
+     
 
     <model filename="gs_dsr50_dress.xml" score="3000"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_dsr50_dress.carry_item"/></model>
     <model filename="gs_dsr50_dress.xml" score="3000"><requirement class="rank" range="0 100000000" /><requirement class="carry_item" slot="1" key="suit_dsr50_dress_1"/></model>
