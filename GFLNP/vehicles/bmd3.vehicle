@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="BMD-3" key="bmd3.vehicle" respawn_time="300"  map_view_atlas_index="1" minimum_fill_requirement="0.25">
 	<tag name="metal_heavy" />
-	<tag name="AFV" />
+	<tag name="apc" />
 	<tag name="any_tank" />
 
 	<tire_set offset="1.28 0.0 2.22" radius="0.80" />
@@ -24,9 +24,9 @@
 
 	<sky_diving chute_offset="0 3.0 0" trigger_height="20.0" gravity="-10" mesh_filename="chute_large.mesh" texture_filename="chute.png"  />
 	
-	<turret offset="0 0 0" weapon_key="bmp3_atc.weapon" weapon_offset="0 2.55 1.72" weapon_recoil="0.05" max_rotation_step="0.0001" />
+	<turret offset="0 0 0" weapon_key="btr82a_atc.weapon" weapon_offset="0 2.55 1.72" weapon_recoil="0.05" max_rotation_step="0.0001" />
 	<turret offset="0 0 0 " weapon_key="bmp3_atc_ejector.weapon" weapon_offset="-0.6 2.62 0.8" weapon_recoil="0.05" max_rotation_step="0.0000" parent_turret_index="0" />
-	<turret offset="0 0 0 " weapon_key="m3dm50_car.weapon" weapon_offset="0.25 2.52 0.3" weapon_recoil="0.05" max_rotation_step="0.0000" parent_turret_index="0" />
+	<!-- <turret offset="0 0 0 " weapon_key="m3dm50_car.weapon" weapon_offset="0.25 2.52 0.3" weapon_recoil="0.05" max_rotation_step="0.0000" parent_turret_index="0" />-->
 	<turret offset="0 0 0" weapon_key="9m133.weapon" weapon_offset="0 +2.89 -1" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0000" parent_turret_index="0" />
 
 	<visual class="chassis" 				mesh_filename="bmd3_body.mesh" 				texture_filename="bmd3.jpg" />
@@ -60,7 +60,7 @@
 
 	<character_slot type="driver" position="0.7 0.3 1.0" rotation="0" exit_rotation="1.57" hiding="1" />
 	<character_slot type="gunner" position="-0.7 0.3 1.0" rotation="0" exit_rotation="-1.57" hiding="1" >
-     	<turret index="0" /> <turret index="1" /><turret index="2" /><turret index="3" />
+     	<turret index="0" /> <turret index="1" /><turret index="2" />
 	</character_slot> 
 
 	<character_slot type="passenger" position="-0.5 0.3 -3.0" rotation="0" exit_rotation="3.14" hiding="1" />

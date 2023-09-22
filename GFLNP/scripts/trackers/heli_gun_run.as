@@ -110,6 +110,7 @@ class HeliGunRun : Tracker {
 		m_timer -= time;
 		//once the timer ran out, the spawning process is started
 		if (m_timer < 0.0) {
+			if (HeliQueue.length() == 0) return;
 			if (m_timer_attack < 10.0) {
 				m_timer_attack += time;
 				m_timer_scan -= time;
@@ -118,7 +119,7 @@ class HeliGunRun : Tracker {
 				m_timer_105 -= time;
 
 				if (m_timer_25 <= 0.0){
-					if (HeliQueue.length() == 0) return;
+					
 					antiPerson(HeliQueue[0], rand(4,8), "ac130_25mm.projectile", "ac130_25mm.wav");
 					m_timer_25 = 1.0;
 				}

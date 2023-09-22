@@ -39,7 +39,7 @@
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
 	<turret offset="0 0 -0.5" weapon_key="bmp3_atc.weapon" weapon_offset="0.0 2.65 3.8" weapon_recoil="0.2" max_rotation_step="0.00005" />
-	<turret offset="1.1 3.1 0.1" weapon_key="vmg.30.weapon" weapon_offset="-0.4 0.0 1.0" weapon_recoil="0.0" rotation_range="0.1" physics_recoil="0.0" parent_turret_index="0" max_rotation_step="0.00005"/>	
+	<turret offset="1.1 3.1 0.1" weapon_key="strv122_122ksp94.weapon" weapon_offset="-0.4 0.0 1.0" weapon_recoil="0.0" rotation_range="0.1" physics_recoil="0.0" parent_turret_index="0" max_rotation_step="0.00005"/>	
 	<turret offset="+0.4 2.5 -2" 	weapon_key="noxe.weapon" 		weapon_offset="0 +0.4 0.6" 		weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0.1" parent_turret_index="0" max_rotation_step="0.00005"/>
 	<turret offset="+1.2 2.5 -2" 	weapon_key="noxe.weapon" 		weapon_offset="0 +0.4 0.6" 		weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0.1" parent_turret_index="0" max_rotation_step="0.00005"/>
 

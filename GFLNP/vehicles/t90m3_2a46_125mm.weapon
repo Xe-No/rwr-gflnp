@@ -15,7 +15,7 @@
     slot="2" 
     barrel_offset="2" 
     projectiles_per_shot="1" 
-	sight_range_modifier="2" 
+	sight_range_modifier="1.4" 
 	ai_sight_range_modifier="1.25" 
     sight_height_offset="2.0" />
     
