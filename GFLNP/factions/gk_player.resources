@@ -72,6 +72,7 @@ Armory
 	<weapon key="gw_ak15.weapon" />
 	<weapon key="gw_type80.weapon" />
 	<weapon key="gw_type80_n.weapon" />
+	<weapon key="gw_m4a1_newbie.weapon" />
 
 	<weapon key="ant.weapon" />
 	<weapon key="ant_alt.weapon" />

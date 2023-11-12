@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapons>
-	<!-- 保持_compact.weapons单独引用 -->
+	<!-- _compact.weapons为打包后的武器文件 -->
 	<weapon file="_compact.weapons" />
+
+	<!-- _test.weapons为未打包的武器 -->
+	<weapon file="_test.weapons" />
 
 
 </weapons>
