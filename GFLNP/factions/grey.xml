@@ -518,6 +518,26 @@
 			<projectile key="strv122a_flare.projectile" />
 			<projectile key="cetus_flare.projectile" />
 			<projectile key="jupiter_buggy_flare.projectile" />
+			<projectile key="ba_torumaru_flare.projectile" />
+			<projectile key="bmpt_2017_flare.projectile" />
+			<projectile key="mbt_m61a5_flare.projectile" />
+			<projectile key="t35_flare.projectile" />
+			<projectile key="t35_flare.projectile" />
+			<projectile key="2s7_flare.projectile" />
+			<projectile key="bmp1_flare.projectile" />
+			<projectile key="himars_flare.projectile" />
+			<projectile key="m109a6_flare.projectile" />
+			<projectile key="mtlb_2b9_flare.projectile" />
+			<projectile key="bmd3_flare.projectile" />
+			<projectile key="t90m3_flare.projectile" />
+			<projectile key="sdkfz2_flare.projectile" />
+			<projectile key="zbd09_flare.projectile" />
+			<projectile key="lynx_aa_flare.projectile" />
+			<projectile key="uragan_flare.projectile" />
+		    <projectile key="type87_flare.projectile" />
+		    <projectile key="m18_flare.projectile" />
+		    <projectile key="matv_m2hb_flare.projectile" />
+		    <projectile key="pickup_flare.projectile" />
 			<carry_item key="iop_x3_exo.carry_item" enabled="1"/>
 			<carry_item key="iop_x4_exo.carry_item" enabled="1"/>		
 			<carry_item key="iop_t3_exo.carry_item" enabled="1"/>
@@ -539,6 +559,7 @@
 			<call key="drop_pod.call" enabled="1"/>
 			<call key="artillery_155.call" enabled="1"/>
 			<call key="401_yamato.call" enabled="1"/>
+			<call key="nuclear_6.call" enabled="1"/>
 		</resources>	
 	</soldier>
 	<!-- 幽灵 -->

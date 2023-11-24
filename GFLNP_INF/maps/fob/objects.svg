@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.9999998"
-     inkscape:cx="929.14992"
-     inkscape:cy="1034.9029"
+     inkscape:cx="881.16021"
+     inkscape:cy="997.86034"
      inkscape:document-units="px"
      inkscape:current-layer="layer16"
      showgrid="true"
@@ -15717,12 +15717,12 @@ penetrability = 0.4;</desc>
        inkscape:groupmode="layer" />
     <g
        transform="translate(0,1024)"
-       style="display:none"
+       style="display:inline"
        id="layer1"
        inkscape:groupmode="layer"
        inkscape:label="objects">
       <rect
-         style="fill:#4e7fd9;fill-opacity:1;stroke:none;display:inline;enable-background:new"
+         style="display:inline;fill:#4e7fd9;fill-opacity:1;stroke:none;enable-background:new"
          id="mesh14-07-8"
          width="11.923013"
          height="5.8959785"
@@ -15743,7 +15743,7 @@ penetrability = 0.4;</desc>
          height="8.7430058"
          width="8.753686"
          id="rect16633-4-8-2-6-1-8-6"
-         style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.00000131;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:7;display:inline;enable-background:new">
+         style="display:inline;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.00000131;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:7;stroke-opacity:1;enable-background:new">
         <desc
            id="desc16653-2-1-1-4-9-2">template = woodtower; 
 </desc>
@@ -15756,13 +15756,13 @@ penetrability = 0.4;</desc>
          height="8.7430058"
          width="8.753686"
          id="rect16633-4-8-2-6-1-8"
-         style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.00000131;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:7;display:inline;enable-background:new">
+         style="display:inline;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.00000131;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:7;stroke-opacity:1;enable-background:new">
         <desc
            id="desc16653-2-1-1-4-9">template = woodtower; 
 </desc>
       </rect>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-9-1-3-8-7-7"
          width="4"
          height="12"
@@ -15779,12 +15779,12 @@ penetrability = 0.4;</desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-6-6-9-9-7-2"
          d="m 827.8564,85.8523 -8.49254,-8.542"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new">
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-9-2-8-1-7-8">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-9-6-3-7-2"
          width="4"
          height="12"
@@ -15801,12 +15801,12 @@ penetrability = 0.4;</desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-5-0-9-3-9"
          d="m 819.37339,77.3688 -8.49254,-8.5421"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new">
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-0-2-8-3-0">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-9-1-3-8-7-78-5"
          width="4"
          height="12"
@@ -15823,13 +15823,13 @@ penetrability = 0.4;</desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-6-6-9-9-7-5-6"
          d="m 828.1387,919.77952 -8.54204,8.49255"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-9-2-8-1-7-86-2">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-9-6-3-7-1-6"
          width="4"
          height="12"
@@ -15846,13 +15846,13 @@ penetrability = 0.4;</desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-5-0-9-3-4-3"
          d="m 819.65512,928.26254 -8.54204,8.49254"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-0-2-8-3-2-9">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#4e7fd9;fill-opacity:1;stroke:none;display:inline;enable-background:new"
+         style="display:inline;fill:#4e7fd9;fill-opacity:1;stroke:none;enable-background:new"
          id="mesh14-07-8-2"
          width="11.923013"
          height="5.8959785"
@@ -15866,7 +15866,7 @@ penetrability = 0.4;</desc>
 </desc>
       </rect>
       <rect
-         style="fill:#4e7fd9;fill-opacity:1;stroke:none;display:inline;enable-background:new"
+         style="display:inline;fill:#4e7fd9;fill-opacity:1;stroke:none;enable-background:new"
          id="mesh14-07-8-1"
          width="11.923013"
          height="5.8959785"
@@ -15880,7 +15880,7 @@ penetrability = 0.4;</desc>
 </desc>
       </rect>
       <rect
-         style="fill:#008080;fill-opacity:1;stroke:#ffff00;display:inline;enable-background:new"
+         style="display:inline;fill:#008080;fill-opacity:1;stroke:#ffff00;enable-background:new"
          id="mesh3-9-9-5-4-6-2-55-94-1-0-4"
          width="12"
          height="12"
@@ -15897,7 +15897,7 @@ penetrability = 0.4;</desc>
       <rect
          ry="0.62114334"
          rx="0.62114334"
-         style="fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.31057158;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:#909090;fill-opacity:1;stroke:#000000;stroke-width:0.31057158;stroke-opacity:1;enable-background:new"
          id="mesh_template1-2-1"
          width="1.2422867"
          height="1.2422867"
@@ -15911,7 +15911,7 @@ collision_model_type = 1; collision_model_size = 0.3 10 .3;
 texture0 = alpha.png;  alpha_blend = 1; </desc>
       </rect>
       <rect
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new"
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new"
          id="mesh8-1-9-3-0"
          width="2.1352713"
          height="5.8737106"
@@ -15930,12 +15930,12 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          height="5.8737106"
          width="2.1352713"
          id="rect90831"
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new">
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new">
         <desc
            id="desc90833">template = concrete_barrier;</desc>
       </rect>
       <rect
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new"
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new"
          id="rect90835"
          width="2.1352713"
          height="5.8737106"
@@ -15947,7 +15947,7 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
            id="desc90837">template = concrete_barrier;</desc>
       </rect>
       <rect
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new"
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new"
          id="mesh8-1-9-3-0-6"
          width="2.1352713"
          height="5.8737106"
@@ -15966,12 +15966,12 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          height="5.8737106"
          width="2.1352713"
          id="rect90831-9"
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new">
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new">
         <desc
            id="desc90833-2">template = concrete_barrier;</desc>
       </rect>
       <rect
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new"
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new"
          id="rect90835-9"
          width="2.1352713"
          height="5.8737106"
@@ -15983,7 +15983,7 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
            id="desc90837-3">template = concrete_barrier;</desc>
       </rect>
       <rect
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new"
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new"
          id="mesh8-1-9-3-0-6-1"
          width="2.1352713"
          height="5.8737106"
@@ -15995,7 +15995,7 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
            id="desc8739-3-3-8-0-0-9-1-6-2-7-9-6-3-4-7">template = concrete_barrier;</desc>
       </rect>
       <rect
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new"
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new"
          id="mesh8-1-9-3-0-6-1-4"
          width="2.1352713"
          height="5.8737106"
@@ -16007,7 +16007,7 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
            id="desc8739-3-3-8-0-0-9-1-6-2-7-9-6-3-4-7-0">template = concrete_barrier;</desc>
       </rect>
       <rect
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new"
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new"
          id="mesh8-1-9-3-0-6-1-9"
          width="2.1352713"
          height="5.8737106"
@@ -16019,7 +16019,7 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
            id="desc8739-3-3-8-0-0-9-1-6-2-7-9-6-3-4-7-4">template = concrete_barrier;</desc>
       </rect>
       <rect
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new"
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new"
          id="mesh8-1-9-3-0-6-1-4-8"
          width="2.1352713"
          height="5.8737106"
@@ -16038,7 +16038,7 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          height="7.0582638"
          width="6.3482919"
          id="buildingrect6406-7-4-1-3-8-0-0-7-5-10-5-2-1-8-1-99-0-1"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1;display:inline;enable-background:new">
+         style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1;enable-background:new">
         <desc
            id="desc6462-7-9-9-15-3-2-33-7-8-4-24-6-5-7-5">height=2; material = BuildingWhite1;</desc>
       </rect>
@@ -16050,7 +16050,7 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          height="5.8737106"
          width="2.1352713"
          id="rect90831-9-4"
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new">
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new">
         <desc
            id="desc90833-2-5">template = concrete_barrier;</desc>
       </rect>
@@ -16062,12 +16062,12 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          height="5.8737106"
          width="2.1352713"
          id="rect90831-9-5"
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new">
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new">
         <desc
            id="desc90833-2-1">template = concrete_barrier;</desc>
       </rect>
       <rect
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new"
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new"
          id="mesh8-1-9-3-0-6-1-9-7"
          width="2.1352713"
          height="5.8737106"
@@ -16079,7 +16079,7 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
            id="desc8739-3-3-8-0-0-9-1-6-2-7-9-6-3-4-7-4-1">template = concrete_barrier;</desc>
       </rect>
       <rect
-         style="opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new"
+         style="display:inline;opacity:0.79775277;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:new"
          id="mesh8-1-9-3-0-6-1-9-7-1"
          width="2.1352713"
          height="5.8737106"
@@ -16091,7 +16091,7 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
            id="desc8739-3-3-8-0-0-9-1-6-2-7-9-6-3-4-7-4-1-5">template = concrete_barrier;</desc>
       </rect>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-9-2-8-4"
          width="4"
          height="12"
@@ -16108,13 +16108,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-6-2-0-7"
          d="m 948.02845,1109.9375 -12.04537,-0.035"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-9-21-2-6">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-6-4-3"
          width="4"
          height="12"
@@ -16131,13 +16131,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-57-6-1"
          d="m 936.03126,1109.9371 -12.04537,-0.035"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-6-5-5">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-5-1-0-4"
          width="4"
          height="12"
@@ -16154,13 +16154,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-2-9-0-0"
          d="m 923.96816,1109.9367 -12.04537,-0.035"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-5-2-0-9">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-4-7-6-7"
          width="4"
          height="12"
@@ -16177,13 +16177,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-1-5-3-7"
          d="m 911.97097,1109.9364 -12.04537,-0.035"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-6-4-8-2">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-2-3-1-1"
          width="4"
          height="12"
@@ -16200,13 +16200,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-3-7-4-0"
          d="m 875.89326,1109.9256 -12.04537,-0.035"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-6-4-9-0">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-1-2-6-1"
          width="4"
          height="12"
@@ -16223,13 +16223,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-6-7-7-6"
          d="m 863.89597,1109.9252 -12.04527,-0.035"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-2-9-8-0">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-9-1-3-8-7"
          width="4"
          height="12"
@@ -16246,13 +16246,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-6-6-9-9-7"
          d="m 851.87158,1109.9113 -12.04527,-0.035"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-9-2-8-1-7">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-9-6-3-7"
          width="4"
          height="12"
@@ -16269,35 +16269,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-5-0-9-3"
          d="m 839.87439,1109.9109 -12.04527,-0.035"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-0-2-8-3">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:label=""
-         inkscape:connector-curvature="0"
-         id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-1-5-3-7-7"
-         d="m 899.99144,1109.8925 -11.71392,0.076"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
-         transform="translate(0,-1024)">
-        <desc
-           id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-6-4-8-2-9">template = SecurityFence2; merge = 1; separator_at_end = 1; height = 6;</desc>
-      </path>
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:label=""
-         inkscape:connector-curvature="0"
-         id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-1-5-3-7-3"
-         d="m 875.88357,1109.9199 11.66972,0.035"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
-         transform="translate(0,-1024)">
-        <desc
-           id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-6-4-8-2-1">template = SecurityFence2; merge = 1; separator_at_end = 1; height = 6;</desc>
-      </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-6-4-1-4"
          width="4"
          height="12"
@@ -16314,13 +16292,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-57-6-2-42"
          d="m 1016.0833,1041.9287 -8.5423,8.4923"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-6-5-6-93">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-5-1-0-6-0"
          width="4"
          height="12"
@@ -16337,13 +16315,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-2-9-0-3-78"
          d="m 1007.5531,1050.4583 -8.54234,8.4923"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-5-2-0-8-7">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-6-4-1-9-1"
          width="4"
          height="12"
@@ -16360,13 +16338,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-57-6-2-6-3"
          d="m 1039.3928,1014.6769 -6.2836,10.2765"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-6-5-6-9-2">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-5-1-0-6-3-5"
          width="4"
          height="12"
@@ -16383,13 +16361,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-2-9-0-3-7-5"
          d="m 1033.1092,1024.9534 -8.5424,8.4922"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-5-2-0-8-6-1">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-4-7-6-0-6-2"
          width="4"
          height="12"
@@ -16406,13 +16384,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-1-5-3-2-8-2"
          d="m 1024.6257,1033.4363 -8.5424,8.4924"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-6-4-8-5-2-6">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-4-7-6-0-30"
          width="4"
          height="12"
@@ -16429,13 +16407,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-1-5-3-2-82"
          d="m 999.06962,1058.9413 -8.54241,8.4923"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-6-4-8-5-5">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-1-3-9-0-2"
          width="4"
          height="12"
@@ -16452,13 +16430,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-3-2-4-4-3"
          d="m 990.56502,1067.4318 -8.54248,8.4925"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-35-3-4-7-7">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-5-3-6-8-2"
          width="4"
          height="12"
@@ -16475,13 +16453,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-2-1-6-51-7"
          d="m 982.08125,1075.915 -8.54227,8.4922"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-8-1-6-2-5">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-2-3-1-0-3"
          width="4"
          height="12"
@@ -16498,13 +16476,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-3-7-4-6-3"
          d="m 973.55113,1084.4445 -8.54239,8.4923"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-6-4-9-4-2">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-9-1-3-8-7-78-2"
          width="4"
          height="12"
@@ -16521,12 +16499,12 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-6-6-9-9-7-5-61"
          d="m 965.00874,68.9368 -8.5421,8.4926"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new">
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-9-2-8-1-7-86-8">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-9-6-3-7-1-2"
          width="4"
          height="12"
@@ -16543,12 +16521,12 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-5-0-9-3-4-1"
          d="m 956.52514,77.4199 -8.5421,8.4925"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new">
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-0-2-8-3-2-97">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-6-4-8"
          width="4"
          height="12"
@@ -16565,13 +16543,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-57-6-7"
          d="m 1024.7087,996.2054 -8.4926,-8.5421"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-6-5-1">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-5-1-0-0"
          width="4"
          height="12"
@@ -16588,13 +16566,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-2-9-0-34"
          d="m 1016.1791,987.6752 -8.4926,-8.5421"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-5-2-0-96">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-4-7-6-5"
          width="4"
          height="12"
@@ -16611,13 +16589,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-1-5-3-9"
          d="m 1007.6961,979.1917 -8.4927,-8.5422"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-6-4-8-9">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-1-3-9-68"
          width="4"
          height="12"
@@ -16634,13 +16612,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-3-2-4-48"
          d="m 999.2055,970.6871 -8.4927,-8.5422"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-35-3-4-4">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-5-3-6-9"
          width="4"
          height="12"
@@ -16657,13 +16635,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-2-1-6-2"
          d="m 990.7224,962.2033 -8.4925,-8.54203"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-8-1-6-5">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-2-3-1-5"
          width="4"
          height="12"
@@ -16680,13 +16658,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-3-7-4-3"
          d="m 982.1929,953.67319 -8.4926,-8.54211"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-6-4-9-3">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-1-2-6-7"
          width="4"
          height="12"
@@ -16703,13 +16681,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-6-7-7-8"
          d="m 973.7097,945.18961 -8.4925,-8.54204"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-2-9-8-08">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-9-1-3-8-8"
          width="4"
          height="12"
@@ -16726,13 +16704,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-6-6-9-9-6"
          d="m 965.217,936.67726 -8.4925,-8.54205"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-9-2-8-1-8">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-9-6-3-1"
          width="4"
          height="12"
@@ -16749,13 +16727,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-5-0-9-8"
          d="m 956.7341,928.19361 -8.4926,-8.54204"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-0-2-8-9">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-5-1-0-6-6"
          width="4"
          height="12"
@@ -16772,13 +16750,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-2-9-0-3-6"
          d="m 1039.5208,1015.0022 -6.3197,-10.2544"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-5-2-0-8-3">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-4-7-6-0-3"
          width="4"
          height="12"
@@ -16795,13 +16773,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-1-5-3-2-3"
          d="m 1033.2011,1004.7478 -8.4927,-8.5421"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-6-4-8-5-28">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-9-2-8"
          width="4"
          height="12"
@@ -16818,13 +16796,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-6-2-0"
          d="m 948.2415,919.65157 -12.04537,-0.0354"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-9-21-2">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-6-4"
          width="4"
          height="12"
@@ -16841,13 +16819,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-57-6"
          d="m 936.24431,919.65121 -12.04537,-0.0354"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-6-5">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-5-1-0"
          width="4"
          height="12"
@@ -16864,13 +16842,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-2-9-0"
          d="m 924.18121,919.65079 -12.04537,-0.0354"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-5-2-0">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-4-7-6"
          width="4"
          height="12"
@@ -16887,13 +16865,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-1-5-3"
          d="m 912.18402,919.65043 -12.04537,-0.0354"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-6-4-8">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-1-3-9"
          width="4"
          height="12"
@@ -16910,13 +16888,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-3-2-4"
          d="m 900.16661,919.64051 -12.04537,-0.0354"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-35-3-4">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-5-3-6"
          width="4"
          height="12"
@@ -16933,13 +16911,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-2-1-6"
          d="m 888.16932,919.64005 -12.04527,-0.0354"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-8-1-6">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-2-3-1"
          width="4"
          height="12"
@@ -16956,13 +16934,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-3-7-4"
          d="m 876.10631,919.63963 -12.04537,-0.0354"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-6-4-9">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-1-2-6"
          width="4"
          height="12"
@@ -16979,13 +16957,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-6-7-7"
          d="m 864.10902,919.63928 -12.04527,-0.0354"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-2-9-8">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-9-1-3-8"
          width="4"
          height="12"
@@ -17002,13 +16980,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-6-6-9-9"
          d="m 852.08463,919.62541 -12.04527,-0.0354"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-9-2-8-1">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-9-6-3"
          width="4"
          height="12"
@@ -17025,13 +17003,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-5-0-9"
          d="m 840.08744,919.62495 -12.04527,-0.0354"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-0-2-8">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-9-2-8-5"
          width="4"
          height="12"
@@ -17048,13 +17026,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-6-2-0-9"
          d="m 811.01995,1093.0033 0.0354,-12.0453"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-9-21-2-8">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-6-4-1"
          width="4"
          height="12"
@@ -17071,13 +17049,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-57-6-2"
          d="m 811.09153,1044.8524 0.0354,-12.0453"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-6-5-6">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-5-1-0-6"
          width="4"
          height="12"
@@ -17094,13 +17072,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-2-9-0-3"
          d="m 811.09195,1032.7893 0.0354,-12.0453"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-5-2-0-8">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-4-7-6-0"
          width="4"
          height="12"
@@ -17117,13 +17095,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-1-5-3-2"
          d="m 811.09231,1020.7922 0.0354,-12.0454"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-6-4-8-5">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-1-3-9-0"
          width="4"
          height="12"
@@ -17140,13 +17118,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-3-2-4-4"
          d="m 811.10223,1008.7748 0.0354,-12.04542"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-35-3-4-7">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-5-3-6-8"
          width="4"
          height="12"
@@ -17163,13 +17141,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-2-1-6-51"
          d="m 811.10269,996.77746 0.0354,-12.04527"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-8-1-6-2">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-2-3-1-0"
          width="4"
          height="12"
@@ -17186,13 +17164,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-3-7-4-6"
          d="m 811.10311,984.71445 0.0354,-12.04537"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-6-4-9-4">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-1-2-6-0"
          width="4"
          height="12"
@@ -17209,13 +17187,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-6-7-7-1"
          d="m 811.10346,972.71716 0.0354,-12.04527"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-2-9-8-8">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-9-1-3-8-9"
          width="4"
          height="12"
@@ -17232,13 +17210,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-6-6-9-9-4"
          d="m 811.11733,960.69277 0.0354,-12.04527"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-9-2-8-1-1">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-9-6-3-4"
          width="4"
          height="12"
@@ -17255,13 +17233,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-5-0-9-9"
          d="m 811.11779,948.69558 0.0354,-12.04527"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-0-2-8-8">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-3-6-4-1-9"
          width="4"
          height="12"
@@ -17278,13 +17256,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-76-57-6-2-6"
          d="m 811.05535,1080.958 0.0354,-12.0453"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-6-6-5-6-9">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-8-8-5-1-0-6-3"
          width="4"
          height="12"
@@ -17301,13 +17279,13 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-5-9-2-9-0-3-7"
          d="m 811.05577,1068.8949 0.0354,-12.0453"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-5-3-5-2-0-8-6">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
       <rect
-         style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new"
+         style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
          id="rect31604-2-6-2-4-9-4-7-6-0-6"
          width="4"
          height="12"
@@ -17324,26 +17302,11 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          inkscape:connector-curvature="0"
          id="wall126-9-8-88-6-5-5-7-5-4-19-9-0-2-7-1-5-3-2-8"
          d="m 811.05613,1056.8978 0.0354,-12.0454"
-         style="fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         style="display:inline;fill:none;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
          transform="translate(0,-1024)">
         <desc
            id="desc11325-6-6-1-4-5-6-7-0-9-7-5-3-50-9-6-4-8-5-2">template = SecurityFence2; merge = 1; separator_at_end = 0;</desc>
       </path>
-      <rect
-         ry="0"
-         transform="matrix(-0.00390919,0.99999236,-0.99999236,-0.00390919,0,-1024)"
-         inkscape:label="#mesh"
-         y="-900.7475"
-         x="1112.8622"
-         height="9.5349865"
-         width="1.8432783"
-         id="rect16633-4-8-7-6-9"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline;enable-background:new">
-        <title
-           id="title12525-4">barrier</title>
-        <desc
-           id="desc16653-2-9-3-8">template = barrier;</desc>
-      </rect>
       <rect
          ry="0"
          transform="matrix(-0.00390919,0.99999236,-0.99999236,-0.00390919,0,-1024)"
@@ -17353,14 +17316,14 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          height="5.9932504"
          width="3.411628"
          id="rect16633-4-8-7-6-9-9-5-5"
-         style="fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;display:inline;enable-background:new">
+         style="display:inline;fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;stroke-opacity:1;enable-background:new">
         <title
            id="title12523-5">barbwire</title>
         <desc
            id="desc16653-2-9-3-3-2-2-1">template = barbwire;</desc>
       </rect>
       <rect
-         style="fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;display:inline;enable-background:new"
+         style="display:inline;fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
          id="rect90786"
          width="3.411628"
          height="5.9932504"
@@ -17383,7 +17346,7 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          height="5.9932504"
          width="3.411628"
          id="rect90792"
-         style="fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;display:inline;enable-background:new">
+         style="display:inline;fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;stroke-opacity:1;enable-background:new">
         <title
            id="title90794">barbwire</title>
         <desc
@@ -17398,14 +17361,14 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          height="5.9932504"
          width="3.411628"
          id="rect16633-4-8-7-6-9-9-5-5-4"
-         style="fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;display:inline;enable-background:new">
+         style="display:inline;fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;stroke-opacity:1;enable-background:new">
         <title
            id="title12523-5-4">barbwire</title>
         <desc
            id="desc16653-2-9-3-3-2-2-1-0">template = barbwire;</desc>
       </rect>
       <rect
-         style="fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;display:inline;enable-background:new"
+         style="display:inline;fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
          id="rect90786-5"
          width="3.411628"
          height="5.9932504"
@@ -17428,7 +17391,7 @@ texture0 = alpha.png;  alpha_blend = 1; </desc>
          height="5.9932504"
          width="3.411628"
          id="rect90792-3"
-         style="fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;display:inline;enable-background:new">
+         style="display:inline;fill:#6a6a6a;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00000119;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000127, 1.00000127;stroke-dashoffset:0;stroke-opacity:1;enable-background:new">
         <title
            id="title90794-4">barbwire</title>
         <desc
@@ -17815,6 +17778,19 @@ key = mobile_armory.vehicle;</desc>
          transform="matrix(0.99950612,0.03142489,-0.03142489,0.99950612,0,0)">
         <desc
            id="desc19397-9-7-3-5-8-7-7">type = stash;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12.00000089, 12.00000089;stroke-dashoffset:4.60000038;stroke-opacity:1;enable-background:new"
+         id="spawn1-1-4-2-1-1-0-6-2-4-2-0-1-0"
+         width="3.982286"
+         height="7.3961515"
+         x="-1041.4043"
+         y="878.77069"
+         inkscape:label=""
+         transform="matrix(0.00393194,-0.99999227,0.99999227,0.00393194,0,0)">
+        <desc
+           id="desc7082-7-0-45-7-9-2-8-8-1-5-5-8-1">type = vehicle; 
+key = armored_truck.vehicle;</desc>
       </rect>
     </g>
     <g
