@@ -159,8 +159,8 @@ class StageConfiguratorInvasion : StageConfigurator {
 		array<ScoredResource@> resources = {
 			// for testing: 0 score no spawn -> 100% chance for icecream
 			//ScoredResource("", "", 0.0f),          
-			ScoredResource("", "", 10.0f),
-			ScoredResource("icecream.vehicle", "vehicle", 10.0f)
+			ScoredResource("", "", 50.0f),
+			ScoredResource("icecream.vehicle", "vehicle", 50.0f)
 		};
 		stage.addTracker(SpawnAtNode(m_metagame, resources, "icecream", 0, 1));
 	}
@@ -181,6 +181,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 	// ------------------------------------------------------------------------------------------------
 	protected void setupNormalStages() {
+		addStage(setupFOB()); 
 		// addStage(setupFortBelgradeSuburb());     
 		// addStage(setupViper());    
 		// addStage(setupStage18());         // map13_2
@@ -188,28 +189,28 @@ class StageConfiguratorInvasion : StageConfigurator {
 		
 		 
 		    
-		addStage(setupStage7());          // map6
-		addStage(setupStage1());          // map2
-	    addStage(setupStage9());          // map9
-	    addStage(setupStage4());          // map7
-		addStage(setupStage15());         // map1_2
-	    addStage(setupStage12());         // map14
-	    addStage(setupStage10());         // map10
-	    addStage(setupStage17());         // map17    
-	    addStage(setupStage3());          // map3
-	    addStage(setupSevanBeach()); 
-	    addStage(setupStage13());         // map16    
-		addStage(setupFinalStage1());     // map11
-	    addStage(setupStage8());          // map8
-	 	addStage(setupStage14());         // map6_2
-	    addStage(setupStage2());          // map4
-	    addStage(setupIslandLaboratory());    
-	    addStage(setupStage5());          // map1
-	    addStage(setupStage6());          // map5
-		addStage(setupRoberto());          
-		addStage(setupClairemont());   
-		addStage(setupStage19());
-	    addStage(setupStage11());         // map13
+		// addStage(setupStage7());          // map6
+		// addStage(setupStage1());          // map2
+	    // addStage(setupStage9());          // map9
+	    // addStage(setupStage4());          // map7
+		// addStage(setupStage15());         // map1_2
+	    // addStage(setupStage12());         // map14
+	    // addStage(setupStage10());         // map10
+	    // addStage(setupStage17());         // map17    
+	    // addStage(setupStage3());          // map3
+	    // addStage(setupSevanBeach()); 
+	    // addStage(setupStage13());         // map16    
+		// addStage(setupFinalStage1());     // map11
+	    // addStage(setupStage8());          // map8
+	 	// addStage(setupStage14());         // map6_2
+	    // addStage(setupStage2());          // map4
+	    // addStage(setupIslandLaboratory());    
+	    // addStage(setupStage5());          // map1
+	    // addStage(setupStage6());          // map5
+		// addStage(setupRoberto());          
+		// addStage(setupClairemont());   
+		// addStage(setupStage19());
+	    // addStage(setupStage11());         // map13
 	}
 
 	// --------------------------------------------
@@ -309,6 +310,49 @@ class StageConfiguratorInvasion : StageConfigurator {
 				stage.m_factions.insertLast(f);
 			}
 		}
+
+		// metadata
+		stage.m_primaryObjective = "capture";
+
+		setDefaultAttackBreakTimes(stage);
+		return stage;
+	} 
+
+
+	// ------------------------------------------------------------------------------------------------
+	protected Stage@ setupFOB() {
+		Stage@ stage = createStage();
+		stage.m_mapInfo.m_name = "FOB";
+		stage.m_mapInfo.m_path = "media/packages/GFLNP_INF/maps/fob";
+		stage.m_mapInfo.m_id = "fob";
+
+		stage.m_maxSoldiers = 0;
+		stage.m_playerAiCompensation = 0;                                       // was 5 (test4)
+    	stage.m_playerAiReduction = 2.5;                                        // was 2 (test3)
+
+		stage.addTracker(PeacefulLastBase(m_metagame, 0));
+		stage.addTracker(CommsCapacityHandler(m_metagame));
+
+    	stage.m_minRandomCrates = 0; 
+    	stage.m_maxRandomCrates = 0;
+
+		{
+			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0));
+			f.m_overCapacity = 0;                                                  // was 20 in 1.65
+			f.m_bases = 1;
+			// seems to be quite hard at times, try to favor greens a bit
+			f.m_capacityMultiplier = 0;                                          // was 1.1 in 1.65
+      		f.m_capacityOffset = 0;                                                // was 0 in 1.65
+			stage.m_factions.insertLast(f);
+		}
+		// for (uint rfi = 1; rfi < getFactionConfigs().size() - 1; ++rfi){
+		// 	{
+		// 		Faction f(getFactionConfigs()[rfi], createCommanderAiCommand(rfi));
+		// 		f.m_overCapacity = 0;                                              // was 0 (test2)            
+		// 		f.m_capacityOffset = 0;                                             // was 0 in 1.65
+		// 		stage.m_factions.insertLast(f);
+		// 	}
+		// }
 
 		// metadata
 		stage.m_primaryObjective = "capture";
