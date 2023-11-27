@@ -18,10 +18,10 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	0 <turret offset="0 0 0.0" 				weapon_key="tank_cannon.weapon" 							weapon_offset="0.0 2.2 3.8" 		weapon_recoil="0.2" 						max_rotation_step=" 0.00008" />
+	0 <turret offset="0 0 0.0" 				weapon_key="tank_cannon.weapon" 							weapon_offset="0.0 2.2 3.8" 		weapon_recoil="0.0" 						max_rotation_step=" 0.00008" />
 	1 <turret offset="0 0 0"	 			weapon_key="none.weapon" 		parent_turret_index="0" />
 	2 <turret offset="-0.68 2.28 -0.27" 	weapon_key="vmg.50ap.weapon"  	parent_turret_index="0"		weapon_offset="0.0 0.8 1.5" 		weapon_recoil="0.0" physics_recoil="0.0" 	max_rotation_step=" 0.00008"/>
-	3 <turret offset="0 0 0" 				weapon_key="vmg.30.weapon" 		parent_turret_index="0"		weapon_offset="-0.4 1.82 1.4" 		weapon_recoil="0.2" max_rotation_step="0.0" />
+	3 <turret offset="0 0 0" 				weapon_key="vmg.22.weapon" 		parent_turret_index="0"		weapon_offset="-0.4 1.82 1.4" 		weapon_recoil="0.0" max_rotation_step="0.0" />
 
 	<visual class="chassis" mesh_filename="ztz99a_chassis.mesh" 		texture_filename="ztz99a_chassis.png" offset="0 0 0" max_tilt="0.01" />
 	<visual class="turret" turret_index="0" mesh_filename="ztz99a_turret.mesh" texture_filename="ztz99a_turret.png" />

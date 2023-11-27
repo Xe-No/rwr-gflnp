@@ -74,7 +74,7 @@ loader
 		<turret index="2" />
 	</character_slot>
 commander
-	<character_slot type="gunner" attached_on_turret="3" enter_position="-1.5 0.5 -1" seat_position="0 -0.8 0" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still" marker_offset="0 1.0 0">
+	<character_slot type="gunner" position="-1.5 0.5 -1" rotation="0" exit_rotation="-1.57" hiding="1">
 		<turret index="3" />
 	</character_slot>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="T90m3 " key="t90m3.vehicle" respawn_time="180" map_view_atlas_index="5" minimum_fill_requirement="1.0" character_leave_request_mode="friendly" >
+<vehicle file="vehicle_base.vehicle" name="T90m3 " key="t90m3.vehicle" respawn_time="180" map_view_atlas_index="38" minimum_fill_requirement="1.0" character_leave_request_mode="friendly" >
 	<tag name="metal_heavy" />
 	<tag name="tank" />
 	<tag name="vehicle" />
@@ -16,7 +16,7 @@
 
 	0 <turret offset="0 0 0.0" weapon_key="t90m3_2a46_125mm.weapon" weapon_offset="0.0 2.4 1.3" weapon_recoil="0.15" physics_recoil="0.4" max_rotation_step="0.00005" />
 	1 <turret offset="-0.52 0 -1.1" weapon_key="nsvt_127.weapon" parent_turret_index="0" weapon_offset="0.2 +3.6 -0.57" rotation="0" rotation_range="1.8" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0001"/>
-	2 <turret offset="0 2.65 0.0" weapon_key="vmg.50.weapon" parent_turret_index="0" weapon_offset="-0.4 0.0 1.0" rotation="0" rotation_range="0.1" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00005"/>	
+	2 <turret offset="0 2.65 0.0" weapon_key="vmg.22.weapon" parent_turret_index="0" weapon_offset="-0.4 0.0 1.0" rotation="0" rotation_range="0.1" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00005"/>	
 	3 <turret offset="0 0 0" weapon_key="t90m3_shell_eject.weapon" weapon_offset="0.0 5 -2" weapon_recoil="0" physics_recoil="0" max_rotation_step="0.00005" />
 
 
@@ -46,12 +46,12 @@
 
 	<character_slot type="driver" position="1.5 0.0 2" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
 	<character_slot type="gunner" position="-1.5 0.0 2" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
-		<turret index="0" /><turret index="3" />
+		<turret index="0" /><turret index="2" /><turret index="3" />
 	</character_slot>
 	
-	<character_slot type="gunner" position="-1.5 0.0 -2" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+	<!--character_slot type="gunner" position="-1.5 0.0 -2" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 	<turret index="2" />
-	</character_slot>
+	</character_slot-->
 	
 	<character_slot type="gunner" attached_on_turret="1" enter_position="0 0.5 -5.0" seat_position="0 2.4 -0.5" rotation="0" exit_rotation="-1.57" hiding="1"  animation_key="crouching still, binoculars" marker_offset="0 0.1 0">
 		<turret index="1" />
