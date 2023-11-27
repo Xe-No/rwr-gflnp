@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.9999998"
-     inkscape:cx="881.16021"
-     inkscape:cy="997.86034"
+     inkscape:zoom="2.828427"
+     inkscape:cx="552.14245"
+     inkscape:cy="1140.0445"
      inkscape:document-units="px"
      inkscape:current-layer="layer16"
      showgrid="true"
@@ -6816,6 +6816,20 @@
        id="linearGradient82545"
        xlink:href="#linearGradient10435-4-3-2-6-8-4"
        inkscape:collect="always" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-87"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path8804-3-1" />
+    </marker>
   </defs>
   <metadata
      id="metadata7">
@@ -17791,6 +17805,114 @@ key = mobile_armory.vehicle;</desc>
         <desc
            id="desc7082-7-0-45-7-9-2-8-8-1-5-5-8-1">type = vehicle; 
 key = armored_truck.vehicle;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ffff00;fill-opacity:1;stroke:none;enable-background:new"
+         id="mesh3-9-9-5-4-6-2-55-1-4-5-93-8-2-2-1-0-3-94-3-5"
+         width="12.982038"
+         height="12.153398"
+         x="948.98083"
+         y="-481.03561"
+         inkscape:label="#mesh"
+         transform="matrix(-0.05111406,0.99869282,-0.99869282,-0.05111406,0,0)">
+        <title
+           id="title14238-8-76-4-2-3-0-7-3-3-8-2-3">weapon_rack</title>
+        <desc
+           id="desc6851-7-7-7-8-1-4-6-1-0-7-8-7-8-5-7">template = weapon_rack;</desc>
+      </rect>
+      <path
+         style="display:inline;fill:#008000;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+         d="m 420.00067,979.19424 0.2218,-5.8578 10.165,0.1483 -0.2146,6.0563"
+         id="wall37832-1-7-0-43-24-3-0"
+         inkscape:connector-curvature="0"
+         inkscape:label=""
+         sodipodi:nodetypes="cccc">
+        <desc
+           id="desc37834-46-7-1-8-5-5-7">template = InvisibleWall1;</desc>
+      </path>
+      <rect
+         inkscape:label=""
+         y="965.37262"
+         x="453.98981"
+         height="4"
+         width="4"
+         id="item_supply2-2-4-8-388-7-0-3-2-0-51-5-8"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         transform="matrix(0.99950612,0.03142489,-0.03142489,0.99950612,0,0)">
+        <desc
+           id="desc19397-9-7-3-5-8-7-7-1">type = stash;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ffff00;fill-opacity:1;stroke:none;enable-background:new"
+         id="mesh3-9-9-5-4-6-2-55-1-4-5-93-8-2-2-1-0-3-94-3-0"
+         width="12.982038"
+         height="12.153398"
+         x="944.28107"
+         y="-552.13086"
+         inkscape:label="#mesh"
+         transform="matrix(-0.05111406,0.99869282,-0.99869282,-0.05111406,0,0)">
+        <title
+           id="title14238-8-76-4-2-3-0-7-3-3-8-2-9">weapon_rack</title>
+        <desc
+           id="desc6851-7-7-7-8-1-4-6-1-0-7-8-7-8-5-0">template = weapon_rack;</desc>
+      </rect>
+      <path
+         style="display:inline;fill:#008000;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+         d="m 491.24318,978.13457 0.2218,-5.8578 10.165,0.1483 -0.2146,6.0563"
+         id="wall37832-1-7-0-43-24-3-1"
+         inkscape:connector-curvature="0"
+         inkscape:label=""
+         sodipodi:nodetypes="cccc">
+        <desc
+           id="desc37834-46-7-1-8-5-5-6">template = InvisibleWall1;</desc>
+      </path>
+      <rect
+         inkscape:label=""
+         y="962.07465"
+         x="525.16382"
+         height="4"
+         width="4"
+         id="item_supply2-2-4-8-388-7-0-3-2-0-51-5-9"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         transform="matrix(0.99950612,0.03142489,-0.03142489,0.99950612,0,0)">
+        <desc
+           id="desc19397-9-7-3-5-8-7-7-9">type = stash;</desc>
+      </rect>
+      <rect
+         style="display:inline;fill:#ffff00;fill-opacity:1;stroke:none;enable-background:new"
+         id="mesh3-9-9-5-4-6-2-55-1-4-5-93-8-2-2-1-0-3-94-3-9"
+         width="12.982038"
+         height="12.153398"
+         x="942.20563"
+         y="-620.34979"
+         inkscape:label="#mesh"
+         transform="matrix(-0.05111406,0.99869282,-0.99869282,-0.05111406,0,0)">
+        <title
+           id="title14238-8-76-4-2-3-0-7-3-3-8-2-8">weapon_rack</title>
+        <desc
+           id="desc6851-7-7-7-8-1-4-6-1-0-7-8-7-8-5-6">template = weapon_rack;</desc>
+      </rect>
+      <path
+         style="display:inline;fill:#008000;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+         d="m 559.47899,979.54878 0.2218,-5.8578 10.165,0.1483 -0.2146,6.0563"
+         id="wall37832-1-7-0-43-24-3-01"
+         inkscape:connector-curvature="0"
+         inkscape:label=""
+         sodipodi:nodetypes="cccc">
+        <desc
+           id="desc37834-46-7-1-8-5-5-3">template = InvisibleWall1;</desc>
+      </path>
+      <rect
+         inkscape:label=""
+         y="961.34387"
+         x="593.4104"
+         height="4"
+         width="4"
+         id="item_supply2-2-4-8-388-7-0-3-2-0-51-5-5"
+         style="display:inline;fill:#de8787;fill-opacity:1;enable-background:new"
+         transform="matrix(0.99950612,0.03142489,-0.03142489,0.99950612,0,0)">
+        <desc
+           id="desc19397-9-7-3-5-8-7-7-2">type = stash;</desc>
       </rect>
     </g>
     <g

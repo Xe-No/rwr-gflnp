@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle name="Ice cream van" key="icecream.vehicle" map_view_atlas_index="15" respawn_time="10000.0" allow_ai_to_use="0">
+<vehicle name="Ice cream van[FOB Enhanced]" key="icecream.vehicle" map_view_atlas_index="15" respawn_time="10.0" allow_ai_to_use="0">
 	<tag name="metal_light" />	
  	<tire_set offset="0.86 0.0 1.141" radius="0.7" />
 	<tire_set offset="0.86 0.0 -1.374" radius="0.7" />
