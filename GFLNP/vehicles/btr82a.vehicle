@@ -18,11 +18,11 @@
 
 	<!-- BTR 80A by Alexandr Zhilkin is licensed under Creative Commons Attribution -->
 	<visual class="chassis" mesh_filename="btr82a_body.mesh" texture_filename="btr82a.png" />
-	<visual class="chassis" key="broken" mesh_filename="btr82a_body_broken.mesh" texture_filename="btr82a_broken.png" />
+	<visual class="chassis" key="broken" mesh_filename="btr82a_body.mesh" texture_filename="btr82a_broken.png" />
 	<visual class="tire" mesh_filename="hmcv_wheel.mesh" texture_filename="btr82a_wheel.png" />
 	<visual class="tire" key="broken" mesh_filename="hmcv_wheel.mesh" texture_filename="btr82a_wheel_broken.png" />
 	<visual class="turret" mesh_filename="btr82a_turret.mesh" texture_filename="btr82a.png" />
-	<visual class="turret" key="broken" mesh_filename="btr82a_turret_broken.mesh" texture_filename="btr82a_broken.png" />
+	<visual class="turret" key="broken" mesh_filename="btr82a_turret.mesh" texture_filename="btr82a_broken.png" />
 
 	<character_slot type="driver" position="1.5 0.8 1.8" rotation="0" exit_rotation="1.57" hiding="1" />
 	<character_slot type="gunner" position="-1.5 0.3 1.8" rotation="0" exit_rotation="-1.57" hiding="1" >
