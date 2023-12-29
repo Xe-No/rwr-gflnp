@@ -16,7 +16,7 @@
 	<turret offset="-0.51 2.89 0.21" weapon_key="vmg.50ap.weapon" weapon_offset="-0.2 0.6 1.08" weapon_recoil="0" max_rotation_step="0.0001" />
 
 	<visual class="chassis" mesh_filename="m1126_body.mesh" texture_filename="m1126.png" />
-	<visual class="chassis" key="broken" mesh_filename="m1126_body_broken.mesh" texture_filename="m1126_broken.png" />
+	<visual class="chassis" key="broken" mesh_filename="m1126_body.mesh" texture_filename="m1126_broken.png" />
 	<visual class="tire" mesh_filename="hmcv_wheel.mesh" texture_filename="m1126_wheel.png" />
 	<visual class="tire" key="broken" mesh_filename="hmcv_wheel.mesh" texture_filename="m1126_wheel_broken.png" />
 	<visual class="turret" mesh_filename="m1126_turret.mesh" texture_filename="m1126_mg.png" />
