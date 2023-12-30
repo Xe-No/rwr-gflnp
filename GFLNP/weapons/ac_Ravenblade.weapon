@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <渡鸦AC黄昏 钢钉模式/> -->
+<weapon file="base_resupply.weapon" key="ac_Ravenblade.weapon">
+    <tag name="machine gun" />
+    <specification 
+  retrigger_time="0.46" 
+  accuracy_factor="1.1" 
+  sustained_fire_grow_step="0.5" 
+  sustained_fire_diminish_rate="0.45" 
+  sight_range_modifier="1.5"
+  magazine_size="-1" 
+  can_shoot_standing="1" 
+  can_shoot_crouching="1" 
+  can_shoot_prone="0"
+  suppressed="0" 
+  name="PB-033M ASHMEAD" 
+  carry_in_two_hands="0" 
+  class="0" 
+  barrel_offset_3d="0 0 1.5"
+  spread_range="0.001"
+  projectile_speed="180.0"
+  projectiles_per_shot="1"
+  slot="0"
+	stab_enabled="1" 
+	stab_range="8" 
+   />
+    <drop_on_death_result class="spawn" instance_class="projectile" instance_key="ugv_blast.projectile" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+    <next_in_chain key="ac_Ravenmg.weapon" share_ammo="0" />
+
+    <animation state_key="recoil"  animation_key="ac_mg_fire1" />
+    <animation state_key="recoil"  animation_key="ac_mg_fire2" />
+    <animation state_key="recoil" stance_key="over_wall" animation_key="ac_mg_fire1" />
+    <animation state_key="recoil" stance_key="over_wall" animation_key="ac_mg_fire2" />
+    <animation state_key="reload" animation_key="ac_reload" />
+    <animation state_key="hold" animation_key="ac_mg_hold" />
+    <animation state_key="hold_casual"  animation_key="ac_casual" />
+    <animation state_key="hold_on_wall" animation_key="ac_mg_hold" />
+    <animation state_key="still_against_wall" animation_key="ac_mg_hold" />
+    <animation state_key="crouching"  animation_key="ac_mg_fire1" />
+    <animation state_key="crouch_moving"  animation_key="ac_flying" />
+    <animation state_key="crouch_moving_backwards"  animation_key="ac_move_back" />
+    <animation state_key="running" animation_key="ac_flying" />
+    <animation state_key="walking"  animation_key="ac_flying" />
+    <animation state_key="walking_backwards" animation_key="ac_move_back" />
+    <animation state_key="changing_weapon_in"   animation_key="ac_mg_fire1" />
+    <animation state_key="prone_still" animation_key="ac_mg_fire1" />
+    <animation state_key="next_in_chain_out" animation_key="ac_mg_fire1" />
+	<animation state_key="stabbing" animation_key="ac_melee1" />
+    
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch0.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch1.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch2.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch3.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch4.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="fire" fileref="Viking_AssaultAttackLaunch5.wav" pitch_variety="0.00"  volume="0.3" />
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="" />
+
+
+    <hud_icon filename="PB-033M ASHMEAD.png" />
+
+    <inventory encumbrance="20.0"  price="5000.0"/>
+
+    <weak_hand_hold offset="0.4" />
+
+    <weak_hand_hold offset="0.1" />
+    <projectile file="ew_vikin(titan)_mg.projectile">
+    <result class="blast" radius="4.0" damage="2.4" decal="1" push="0.1" character_state="death" faction_compare="not_equal" damage_origin_vehicle="0"/>
+    </projectile>
+
+    <stance state_key="running" accuracy="0.9" />
+    <stance state_key="walking" accuracy="1.0" />
+    <stance state_key="crouch_moving" accuracy="1.0" />
+    <stance state_key="prone_moving" accuracy="1.0" />
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="prone" accuracy="1.0" />
+
+    <modifier class="speed" value="0" /> 
+
+    <modifier class="detectability" value="0" />
+    <modifier class="hit_success_probability" value="-0.1" />
+    <effect class="muzzle" ref="tt_muzzle_fire_vikin" /> 
+    <shield offset="-0.4 -0.35 0" extent="0.9 2.4 1.6" />
+</weapon>

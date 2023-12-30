@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <NO.9 光束枪模式/>-->
+<weapons>
+	<weapon file="base_resupply.weapon" key="ac_no9mg.weapon">
+		<tag name="machine gun"/>
+		<specification accuracy_factor="1.1" barrel_offset_3d="0 0 1.5" can_shoot_crouching="1" can_shoot_prone="0" can_shoot_standing="1" carry_in_two_hands="0" class="0" magazine_size="-1" name="VE66-LRA" projectile_speed="220.0" projectiles_per_shot="1" retrigger_time="0.06" sight_range_modifier="1.2" slot="0" spread_range="0.001" stab_enabled="1" stab_range="8" suppressed="0" sustained_fire_diminish_rate="0.45" sustained_fire_grow_step="0.5"/>
+		<drop_on_death_result class="spawn" direction_spread="0 0" instance_class="projectile" instance_key="ugv_blast.projectile" max_amount="1" min_amount="1" offset="0 0 0" position_spread="0 0"/>
+		<next_in_chain key="ac_401blade.weapon" share_ammo="0"/>
+		<animation animation_key="ac_mg_fire1" state_key="recoil"/>
+		<animation animation_key="ac_mg_fire2" state_key="recoil"/>
+		<animation animation_key="ac_mg_fire1" stance_key="over_wall" state_key="recoil"/>
+		<animation animation_key="ac_mg_fire2" stance_key="over_wall" state_key="recoil"/>
+		<animation animation_key="ac_reload" state_key="reload"/>
+		<animation animation_key="ac_mg_hold" state_key="hold"/>
+		<animation animation_key="ac_casual" state_key="hold_casual"/>
+		<animation animation_key="ac_mg_hold" state_key="hold_on_wall"/>
+		<animation animation_key="ac_mg_hold" state_key="still_against_wall"/>
+		<animation animation_key="ac_mg_fire1" state_key="crouching"/>
+		<animation animation_key="ac_move" state_key="crouch_moving"/>
+		<animation animation_key="ac_move_back" state_key="crouch_moving_backwards"/>
+		<animation animation_key="ac_move" state_key="running"/>
+		<animation animation_key="ac_move" state_key="walking"/>
+		<animation animation_key="ac_move_back" state_key="walking_backwards"/>
+		<animation animation_key="ac_mg_fire1" state_key="changing_weapon_in"/>
+		<animation animation_key="ac_mg_fire1" state_key="prone_still"/>
+		<animation animation_key="ac_mg_fire1" state_key="next_in_chain_out"/>
+		<animation animation_key="ac_melee1" state_key="stabbing"/>
+		<sound fileref="bolter.wav" key="fire" pitch_variety="0.05" volume="1"/>
+		<sound fileref="mg_clip_out.wav" key="magazine_out"/>
+		<sound fileref="mg_clip_in.wav" key="magazine_in"/>
+		<sound fileref="rifle_chamber.wav" key="cycle"/>
+		<sound class="impact" fileref="rifle_drop.wav"/>
+		<model filename=""/>
+		<hud_icon filename="VE66-LRA.png"/>
+		<inventory encumbrance="20.0" price="5000.0"/>
+		<weak_hand_hold offset="0.4"/>
+		<weak_hand_hold offset="0.1"/>
+		<projectile file="general_spawn.projectile">
+			<result class="spawn" direction_spread="0 0" instance_class="projectile" instance_key="ac_no9_mg_damage.projectile" max_amount="1" min_amount="1" offset="0 0 0" position_spread="0 0"/>
+			<effect class="result" key="terrain" lighting="0" ref="ac_result_cannon_blast_smoke"/>
+			<effect class="result" key="terrain" lighting="0" ref="ac_result_cannon_blast_AmbientLight"/>
+			<effect class="result" key="terrain" lighting="0" ref="ac_result_spark"/>
+			<effect class="result" copy="terrain" key="other"/>
+			<effect class="result" copy="terrain" key="static_object"/>
+			<effect class="result" copy="terrain" key="character"/>
+			<effect class="result" copy="terrain" key="shield"/>
+			<effect class="result" copy="terrain" key="vehicle"/>
+			<effect class="result" copy="terrain" key="vehicle" tag="sandbag" use_surface_color="0"/>
+			<effect class="result" copy="terrain" key="vehicle" tag="deco_car" use_surface_color="0"/>
+			<effect class="result" copy="terrain" key="vehicle" tag="metal_thin" use_surface_color="0"/>
+			<effect class="result" copy="terrain" key="vehicle" tag="metal_heavy" use_surface_color="0"/>
+			<effect class="result" copy="terrain" key="vehicle" tag="metal_dumpster" use_surface_color="0"/>
+			<trail key="ac_mg_trail" probability="1"/>
+		</projectile>
+		<stance accuracy="0.9" state_key="running"/>
+		<stance accuracy="1.0" state_key="walking"/>
+		<stance accuracy="1.0" state_key="crouch_moving"/>
+		<stance accuracy="1.0" state_key="prone_moving"/>
+		<stance accuracy="0.9" state_key="standing"/>
+		<stance accuracy="1.0" state_key="crouching"/>
+		<stance accuracy="1.0" state_key="prone"/>
+		<modifier class="speed" value="0"/>
+		<modifier class="detectability" value="+0.2"/>
+		<modifier class="hit_success_probability" value="-0.1"/>
+		<effect class="muzzle" ref="tt_muzzle_fire_vikin"/>
+		<shield extent="0.9 2.4 1.6" offset="-0.4 -0.35 0"/>
+	</weapon>
+	<weapon file="base_resupply.weapon" key="ac_401blade.weapon">
+		<specification accuracy_factor="1.0" barrel_offset_3d="0 0 0.5" burst_shots="1" can_shoot_crouching="1" can_shoot_prone="1" can_shoot_standing="0" carry_in_two_hands="0" class="3" last_burst_retrigger_time="1" magazine_size="-1" name="AC Knife" projectile_speed="300.0" projectiles_per_shot="1" retrigger_time="1" sight_range_modifier="1.5" slot="0" spread_range="0" stab_enabled="1" stab_range="4" stance_accuracy_rate="1.0" suppressed="0" sustained_fire_diminish_rate="1.3" sustained_fire_grow_step="0.6" use_basic_muzzle_smoke_effect="0"/>
+		<drop_on_death_result class="spawn" direction_spread="0 0" instance_class="projectile" instance_key="ugv_blast.projectile" max_amount="1" min_amount="1" offset="0 0 0" position_spread="0 0"/>
+		<!--class 0全自动 4半自动 2栓动 3特殊（可做一次性武器）5近程特殊（如部署沙包）-->
+		<next_in_chain key="ac_no9mg.weapon" share_ammo="0"/>
+		<!--武器模型和HUD-->
+		<weak_hand_hold offset="0.0"/>
+		<!--模型X轴偏移-->
+		<!-- <model filename="ref_weapon_model.xml" />-->
+		<model filename=""/>
+		<model mesh_filename="" texture_filename=""/>
+		<!--调用mesh模型-->
+		<hud_icon filename="IA-C01W7 REDSHIFT.png"/>
+		<!--武器为100x200像素，投掷物为110x110-->
+		<!--武器动作，必须指定recoil和reload动作，部分动作留空会默认调用常规双手武器动作或者无动作-->
+		<animation animation_key="ac_stab_recoil" key="recoil"/>
+		<!--后坐力动作，半身动作-->
+		<animation animation_key="cycle, bolt action" key="cycle"/>
+		<!--拉栓动作，武器固定脱手-->
+		<animation animation_key="ac_pushing" key="reload"/>
+		<!--换弹动作，半身动作-->
+		<animation animation_key="ac_pushing" state_key="hold"/>
+		<!--站姿静止动作，全身动作-->
+		<animation animation_key="" state_key="hold_on_wall"/>
+		<!--架枪动作，全身动作-->
+		<animation animation_key="" state_key="still_against_wall"/>
+		<!--靠墙动作，全身动作-->
+		<animation animation_key="" state_key="hold_casual"/>
+		<!--闲置动作，全身动作-->
+		<animation animation_key="ac_flying_no_fire" state_key="running"/>
+		<!--全身动作-->
+		<animation animation_key="ac_pushing" state_key="walking"/>
+		<!--按shift时候的静步前进动作，全身动作-->
+		<animation animation_key="ac_walkingback" state_key="walking_backwards"/>
+		<!--全身动作-->
+		<animation animation_key="ac_crounch" state_key="crouching"/>
+		<!--蹲姿静止动作，全身动作-->
+		<animation animation_key="ac_walking" state_key="crouch_moving"/>
+		<!--全身动作-->
+		<animation animation_key="ac_walkingback" state_key="crouch_moving_backwards"/>
+		<!--全身动作-->
+		<animation animation_key="" state_key="prone_still"/>
+		<!--全身动作-->
+		<animation animation_key="" state_key="prone_moving"/>
+		<!--全身动作-->
+		<animation animation_key="ac_stab" state_key="stabbing"/>
+		<!--半身动作，武器可设置脱手-->
+		<!--武器音频-->
+		<sound fileref="" key="effect" pitch_variety="0" volume="0.0"/>
+		<!--额外音频接口，在动作中调用，volume为音频大小倍率-->
+		<sound fileref="ac_knife_fire.wav" key="fire" pitch_variety="0.05" volume="1"/>
+		<!--pitch_variety为音调随机变化范围，自动武器常用-->
+		<sound fileref="grenade_throw1.wav" key="stab" pitch_variety="0.03" volume="1"/>
+		<!--stab_enabled为1时生效该三个接口-->
+		<sound fileref="impact_whip.wav" key="stab_hit" pitch_variety="0.05" volume="1"/>
+		<sound fileref="whip_hit.wav" key="stab_hit_any" pitch_variety="0.05" volume="1"/>
+		<sound fileref="rifle_chamber.wav" key="cycle"/>
+		<!--配合与cycle动作，固定播放-->
+		<sound fileref="sniper_cycle_out.wav" key="cycle_out"/>
+		<!--动作中out的value为0-->
+		<sound fileref="sniper_cycle_in.wav" key="cycle_in"/>
+		<!--动作中in的value为1-->
+		<sound class="impact" fileref="rifle_drop.wav"/>
+		<!--武器落地音效-->
+		<!--武器携带量，必须从value=0开始设置，value单位为万xp-->
+		<capacity source="rank" source_value="0.0" value="0"/>
+		<capacity source="rank" source_value="0.0" value="1"/>
+		<!--军械库相关-->
+		<commonness can_respawn_with="1" in_stock="1" value="1"/>
+		<inventory encumbrance="10.0" price="0.0"/>
+		<!--武器重量和价格，实际负重为两倍encumbrance值-->
+		<!--弹头相关，此处代码优先级高，会覆写file指定的文件-->
+		<projectile can_be_detected_by_driver="1" can_be_detected_by_footmen="1" can_be_disarmed="0" pulldown_in_air="2" slot="0" time_to_live="5">
+			<result class="notify_script" key="ac_ahead_knife"/>
+			<trigger class="time" time_to_live="0.0"/>
+			<!--class为time时，ttl生效；遥控为remote_detonate-->
+			<rotation class="motion"/>
+			<!--参数：motion、random-->
+			<!--copy组，需要命中不同对象产生不同音效或特效可修改这里-->
+			<sound class="result" copy="other" key="terrain"/>
+			<sound class="result" copy="other" key="static_object"/>
+			<sound class="result" copy="other" key="vehicle"/>
+			<sound class="result" copy="other" key="character"/>
+			<sound class="result" copy="other" key="shield"/>
+			<effect class="result" copy="terrain" key="other"/>
+			<effect class="result" copy="terrain" key="static_object"/>
+			<effect class="result" copy="terrain" key="character"/>
+			<effect class="result" copy="terrain" key="shield"/>
+			<effect class="result" copy="terrain" key="vehicle"/>
+			<effect class="result" copy="terrain" key="vehicle" tag="sandbag" use_surface_color="0"/>
+			<effect class="result" copy="terrain" key="vehicle" tag="deco_car" use_surface_color="0"/>
+			<effect class="result" copy="terrain" key="vehicle" tag="metal_thin" use_surface_color="0"/>
+			<effect class="result" copy="terrain" key="vehicle" tag="metal_heavy" use_surface_color="0"/>
+			<effect class="result" copy="terrain" key="vehicle" tag="metal_dumpster" use_surface_color="0"/>
+			<!--尾迹组-->
+			<trail key="" probability="1"/>
+		</projectile>
+		<effect class="muzzle" lighting="0" ref="ac_muzzle_knife_ahead"/>
+		<effect class="muzzle" lighting="0" ref="ac_muzzle_knife_ahead_2"/>
+		<effect class="muzzle" lighting="0" ref="ac_muzzle_activated_spark"/>
+		<stance accuracy="0.9" state_key="running"/>
+		<stance accuracy="1.0" state_key="walking"/>
+		<stance accuracy="1.0" state_key="crouch_moving"/>
+		<stance accuracy="1.0" state_key="prone_moving"/>
+		<stance accuracy="0.9" state_key="standing"/>
+		<stance accuracy="1.0" state_key="crouching"/>
+		<stance accuracy="1.0" state_key="prone"/>
+		<modifier class="speed" value="0"/>
+		<modifier class="detectability" value="+0.2"/>
+		<modifier class="hit_success_probability" value="-0.1"/>
+		<effect class="muzzle" ref="tt_muzzle_fire_vikin"/>
+		<shield extent="0.9 2.4 1.6" offset="-0.4 -0.35 0"/>
+	</weapon>
+</weapons>

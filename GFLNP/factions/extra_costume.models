@@ -168,4 +168,15 @@
 	<model filename="sinon_white.xml" score="5000"><requirement class="projectile" slot="0" key="token_sinon.projectile"/></model>
 	<model filename="kiriko.xml" score="5000"><requirement class="projectile" slot="0" key="token_kiriko.projectile"/></model>
 	<model filename="yuuki_ggo.xml" score="5000"><requirement class="projectile" slot="0" key="token_yuuki_ggo.projectile"/></model>
+<!-- 41 -->
+	<model filename="AC_NO.9.xml"><requirement class="weapon" slot="0" key="ac_401blade.weapon"/></model>
+	<model filename="AC_NO.9.xml"><requirement class="weapon" slot="0" key="ac_no9mg.weapon"/></model>
+	<model filename="Raven.xml"><requirement class="weapon" slot="0" key="ac_Ravenmg.weapon"/></model>
+	<model filename="Raven.xml"><requirement class="weapon" slot="0" key="ac_Ravenblade.weapon"/></model>
+	<model filename="MT_4lags.xml"><requirement class="weapon" slot="0" key="mt4_mg.weapon"/></model>
+	<model filename="MT_4lags.xml"><requirement class="weapon" slot="0" key="mt4_gl.weapon"/></model>
+	<model filename="LC.xml"><requirement class="weapon" slot="0" key="lc_mg.weapon"/></model>
+	<model filename="LC2.xml"><requirement class="weapon" slot="0" key="lc_mg_push.weapon"/></model>
+
+
 </models>

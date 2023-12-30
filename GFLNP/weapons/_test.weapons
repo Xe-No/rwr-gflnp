@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapons>
 	<weapon file="gw_m4a1_newbie.weapon" />
+
+	<weapon file="ac_no9mg.weapon" />
+	<weapon file="ac_Ravenmg.weapon" />
+	<weapon file="ac_Ravenblade.weapon" />
+	<weapon file="mt4_gl.weapon" />
+	<weapon file="mt4_mg.weapon" />
+	<weapon file="lc_mg.weapon" />
+	<weapon file="lc_mg_push.weapon" />	
+
 </weapons>

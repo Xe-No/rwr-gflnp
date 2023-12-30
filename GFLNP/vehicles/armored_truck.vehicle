@@ -12,7 +12,7 @@
 	<!-- <turret offset="-0.22 2.4 -0.50" weapon_key="gps_truck.weapon" weapon_offset="0 0.87 2.6" weapon_recoil="0.1" physics_recoil="0.0" max_rotation_step="0.00005" /> -->
 
 	<visual class="chassis" mesh_filename="hmcv_body.mesh" texture_filename="hmcv_body.png" />
-	<visual class="chassis" key="broken" mesh_filename="hmcv_body_broken.mesh" texture_filename="hmcv_body_broken.png" />
+	<visual class="chassis" key="broken" mesh_filename="hmcv_body.mesh" texture_filename="hmcv_body_broken.png" />
 	<visual class="tire" mesh_filename="hmcv_wheel.mesh" texture_filename="hmcv_wheel.png" />
 	<visual class="tire" key="broken" mesh_filename="hmcv_wheel.mesh" texture_filename="hmcv_wheel_broken.png" />
 
