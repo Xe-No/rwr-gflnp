@@ -10,7 +10,7 @@
 
     <round instances="1"
         instance_class="soldier"
-        instance_key="para"
+        instance_key="gs_jn"
         instance_spread="10 15 10" 
         common_spread="0 0 0" 
         launch_time="2.0"
@@ -22,7 +22,7 @@
 
     <round instances="1"
         instance_class="soldier"
-        instance_key="medic2"
+        instance_key="gs_jn"
         instance_spread="10 15 10" 
         common_spread="0 0 0" 
         launch_time="2.0"

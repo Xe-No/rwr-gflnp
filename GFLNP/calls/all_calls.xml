@@ -19,12 +19,15 @@
 	<call file="jugger_drop.call" />
 	<!-- <call file="ince_grenade.call" /> -->
 
-	<call file="squad_404.call" />
-	<call file="squad_AR.call" />
-	<call file="squad_defy.call" />
 	<call file="strike_2b14.call" />
 	<call file="strike_air.call" />
 	<call file="artillery_105.call" />
+
+              <!-- 0.41 -->
+                <call file="squad_US.call" />
+                <call file="ast_drop_pod.call" />
+                <call file="squad_404ARDefy.call" />
+                <call file="squad_404ARDefymod.call" />
 SF
 	<call file="tx_380.call" />
 	<call file="reconhub.call" />

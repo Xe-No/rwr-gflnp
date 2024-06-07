@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="squad_404ARDefymod.call"
+    name="Task Force 404ARDefymodmod"
+    notify_metagame="1"
+    initiation_comment1="Reinforcements"
+    initiation_comment2="Requesting Task Force 404-AR-Defy mod"
+    acknowledge_comment="Roger."
+    launch_comment="Task Force 404-AR-Defy mod Engaging">
+
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="gs_ump45mod"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="gs_ump9mod"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="gs_hk416mod"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+    
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="gs_g11mod"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="gs_m4a1mod"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="gs_ar15mod"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="gs_m4 sopmod iimod"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+    
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="gs_ro635mod"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="gs_w"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="gs_an94mod"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+
+    <round 
+        instances="1"
+        instance_class="soldier"
+        instance_key="gs_ak15mod"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+    </round>
+
+    <round instances="1"
+       instance_class="vehicle"
+       instance_key="404-AR-Defy_jammer.vehicle" 
+       instance_spread="0 0 0" 
+       common_spread="0 0 0" 
+       horizontal_offset_at_spawn="0"
+       vertical_offset_at_spawn="10" 
+       launch_time="2"
+       spawn_time="5">
+    </round>
+
+<!--     <round launch_time="8.0"
+       spawn_time="20.0">
+    </round> -->
+
+    <hud_icon filename="404-AR-Defy.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.2" />
+    <inventory encumbrance="0.0" price="800.0" />
+
+</call>
