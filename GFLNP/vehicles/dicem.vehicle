@@ -41,7 +41,7 @@
 	<sound key="destroy" filename="vehicle_explosion_1.wav" />   
 	<sound key="cleanup" filename="vehicle_explosion_1.wav" />   
 	
-  	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="hover" use_surface_color="0" />
+  	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="hover_x" use_surface_color="0" />
 
 	<event key="receive_damage_xp_reward">
 		<trigger class="receive_damage" />
